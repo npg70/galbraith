@@ -1,8 +1,10 @@
 :root {
   --bs-body-color: #000;
   --bs-body-bg: #fff;
-  --bs-link-color: #000;
-  --bs-link-hover-color: #000;
+/*
+ * --bs-link-color: #000;
+ *  --bs-link-hover-color: #000;
+ */
   --a-hover-background-color: #ddd;
 }
 
@@ -154,6 +156,7 @@ sup {font-size:xx-small; vertical-align:super;}
         --bs-body-color: #000;
         --bs-body-bg: #fff;
         --bs-link-color: #000;
+        --bs-link-hover-color: #000;
     }
     div.banner {
         display: none;
