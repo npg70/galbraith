@@ -155,7 +155,7 @@ func (d Date) DayMonthYear() string {
 
 	parts := []string{}
 	if d.about {
-		parts = append(parts, "Abt")
+		parts = append(parts, "abt")
 	}
 	if d.day != 0 {
 		parts = append(parts, fmt.Sprintf("%d", d.day))
