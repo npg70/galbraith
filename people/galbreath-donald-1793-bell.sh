@@ -50,15 +50,14 @@ partner {
 }
 
 body {
-    Parents were Daniel Galbreath and Mary McEnchie?  No marriage as Danield appeared to have
-    died while Mary was pregnant and Donald is listed as "Natural".
+His parents were Daniel Galbreath and Mary McEnchie[?]. They appear to have not married and Daniel died while Mary was pregnant. The son Donald is listed as "natural" (as opposed to "lawful").
 }
 
-body { There are no good canidates for the father Daniel in Killean Parish. In Campbeltown, there is a Daniel Galbreath, son of JOHN GALBREATH/MARGARET CLARK baptimzed 22 Aug 1772.$ref[maybe-father]
+body { There are no good record for the father Daniel in Killean Parish. In Campbeltown, there is a Daniel Galbreath, son of John Galbreath/Margaret Clark baptized 22 Aug 1772.$ref[maybe-father]
 }
 
 body {
-    As for this mother,  "Mary McEachine" was very common at the time. Looking at statutory records after 1855, nothing really matches, so she perhaps died before 1855.
+As for this mother, the name "Mary McEachine" was very common at the time. There are no matches for her death in the statutory records after 1855, so she perhaps died before 1855.
 }
 body {
     TODO: check 1841, 1851, 1861 census records
