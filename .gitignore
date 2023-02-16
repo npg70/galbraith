@@ -7,5 +7,6 @@
 
 # HUGO GENERATED STUFF
 
+hugo/.hugo_build.lock
 hugo/public
 hugo/content/people
