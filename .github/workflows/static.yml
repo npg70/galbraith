@@ -42,6 +42,7 @@ jobs:
           hugo-version: 'latest'
       - name: Hugo Build
         run: hugo --minify
+        working-directory: ./hugo
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
