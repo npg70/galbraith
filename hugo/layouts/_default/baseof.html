@@ -8,9 +8,9 @@
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
     <title>{{ .Title }}</title>
-    <link rel="stylesheet" type="text/css" href="/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/source-serif.css">
-    <link rel="stylesheet" type="text/css" href="/styles.css">
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/source-serif.css">
+    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/styles.css">
     </head>
     <body>
       {{ block "main" . }}{{ end }}

@@ -76,7 +76,7 @@ div.person {
      * https://fonts.google.com/specimen/Courier+Prime
      */
     font-family: courier-prime;
-    src: url("Courier Prime.ttf");
+    src: url("/gabraith/fonts/Courier Prime.ttf");
 }
 
 blockquote {
@@ -85,7 +85,7 @@ blockquote {
     /* if @font-face doesn't work, it will break and use Serif
      * so you can tell it's broken
      */
-    font-family: courier-prime, courier, serif;
+    font-family: courier-prime, serif;
 
     margin-top: 0.5em;
     margin-left: 2em;
@@ -102,15 +102,7 @@ div.person-secondary {
 
 li.ancestor {
     margin: 5px;
-    //display: block;
-    //float: left;
 }
-/*
-h1 {
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-*/
 
 div.banner {
     margin-top:1em;
