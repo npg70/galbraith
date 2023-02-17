@@ -25,6 +25,10 @@ partner {
         name Donald Galbreath
         baptism -date 8-Aug-1819 -location 'killean and kilchenzie' -ref donald-bapt
     }
+    child {
+        name Christina Galbreath
+        baptism -date 21-Jan-1822 -location 'killean and kilchenzie' -ref christina-bapt
+    }
     child galbreath-angus-1824-mcdonald
     child {
         name Alexander Galbreath
@@ -81,6 +85,9 @@ footnotes {
     peggy-bapt {
         $opr-baptism[61c327b6-bfbe-4af7-98c5-ab081adcba55]
     }
+    christina-bapt {
+        $opr-baptism[34c07b88-481e-4af0-8ec7-57d5f082406c]
+    }
     archibald-bapt {
         $opr-baptism[957d9534-c691-4972-aa34-c4a454ef4836]
     }
@@ -99,4 +106,7 @@ footnotes {
     eliza-bapt {
         $opr-baptism[9366f2b6-f53e-4896-8093-f1db68a43b5b]
     }
+    eliza-death {
+    1866 GALBRAITH, ELIZABETH (Statutory registers Deaths 644/1 1087), single, parents listed as Donald Galbraith (Carter) and Agnes McMillan (deceased).
+    }    
 }
