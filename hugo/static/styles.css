@@ -17,6 +17,11 @@ body {
     margin-left: 2em;
     margin-right: 2em;
 }
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 768px; /* bootstrap medium breakpoint */
+}
 
 span.primary-number {
     font-weight: bold;
@@ -67,7 +72,6 @@ td.footnote-body {
     page-break-inside: avoid;
 }
 div.person {
-    width:800px;
     margin-bottom: 40px;
     page-break-after: always;
 }
