@@ -277,10 +277,14 @@ func emitHTMLHugo(n *html.Node, oprdb OPRBaptismDB, singlePage bool) string {
 			s.WriteString(fmt.Sprintf(
 				"<div>Old Parish Records of %s, Scotland, Baptism of %s %s",
 				rec.ParishName, rec.Forename, rec.Surname))
+
 			if len(rec.Transcription) != 0 {
+				s.WriteString(fmt.Sprintf(". Transcription from <a href=%s>%s</a>:", rec.ReferenceLink(), rec.ReferenceImage()))
 				s.WriteString("<blockquote>")
 				s.WriteString(rec.Transcription)
 				s.WriteString("</blockquote>")
+			} else {
+				s.WriteString(fmt.Sprintf(", %s.", rec.ReferenceImage()))
 			}
 			s.WriteString("</div>")
 			return s.String()
