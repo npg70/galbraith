@@ -212,7 +212,7 @@ func emitHTMLHugo(n *html.Node, oprdb OPRBaptismDB, singlePage bool) string {
 			return "<div class='row'>\n" + body + "</div><!-- row -->\n"
 		},
 		"person-main":      makeDivClass("col-12 col-md-9 col-order-first"),
-		"person-secondary": makeDivClass("person-secondary col-3 col-md-3 order-last"),
+		"person-secondary": makeDivClass("person-secondary col-12 col-md-3 order-last"),
 		"banner": func(args []string, body string) string {
 			return "<div class='row'><div class='col-12 banner'>" + body + "</div></div>\n"
 		},
