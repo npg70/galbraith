@@ -141,8 +141,10 @@ sup {font-size:xx-small; vertical-align:super;}
     :root {
         --bs-body-color: #FFF;
         --bs-body-bg: #222;
+        /*
         --bs-link-color: #FFF;
         --bs-link-hover-color: #FFF;
+        */
         --a-hover-background-color: #444;
     }
 }
