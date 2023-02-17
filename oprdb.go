@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"os"
+	"strconv"
 	"strings"
 )
 
@@ -19,6 +20,41 @@ type OPRBaptism struct {
 	Father        string
 	Mother        string
 	Transcription string
+}
+
+func (db *OPRBaptism) ReferenceImage() string {
+
+	par := strings.Split(db.Parish, "/")
+	if len(par) == 1 {
+		par = append(par, "0")
+	}
+	ref := strings.Split(db.Ref, "/")
+
+	par1, _ := strconv.Atoi(strings.TrimSpace(par[0]))
+	par2, _ := strconv.Atoi(strings.TrimSpace(par[1]))
+	ref1, _ := strconv.Atoi(strings.TrimSpace(ref[0]))
+	ref2, _ := strconv.Atoi(strings.TrimSpace(ref[1]))
+	if par2 == 0 {
+		return fmt.Sprintf("Parish %d Volume %d Page %d", par1, ref1, ref2)
+	}
+	return fmt.Sprintf("Parish %d/%d Volume %d Page %d", par1, par2, ref1, ref2)
+}
+
+func (db *OPRBaptism) ReferenceLink() string {
+	par := strings.Split(db.Parish, "/")
+	if len(par) == 1 {
+		par = append(par, "0")
+	}
+	ref := strings.Split(db.Ref, "/")
+
+	par1, _ := strconv.Atoi(strings.TrimSpace(par[0]))
+	par2, _ := strconv.Atoi(strings.TrimSpace(par[1]))
+	ref1, _ := strconv.Atoi(strings.TrimSpace(ref[0]))
+	ref2, _ := strconv.Atoi(strings.TrimSpace(ref[1]))
+
+	name := fmt.Sprintf("opr%03d-%02d0-%04d-%04d.jpg", par1, par2, ref1, ref2)
+	base := "https://storage.googleapis.com/galbraith-research/scotlandspeople"
+	return base + "/" + name
 }
 
 type OPRBaptismDB map[string]OPRBaptism
