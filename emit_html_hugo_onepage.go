@@ -202,19 +202,19 @@ func emitHTMLHugo(n *html.Node, oprdb OPRBaptismDB, singlePage bool) string {
 		"person": func(args []string, body string) string {
 			pid := getKeyValue(args, "id")
 			s := strings.Builder{}
-			s.WriteString("<div class='container-lg person'>")
+			s.WriteString("<div class='container-fluid person'>")
 			s.WriteString(fmt.Sprintf("<a name=%q></a>\n", pid))
 			s.WriteString(body)
 			s.WriteString("</div><!-- person -->\n") // person
 			return s.String()
 		},
 		"person-body": func(args []string, body string) string {
-			return "<div class=row>\n" + body + "</div><!-- row -->\n"
+			return "<div class='row'>\n" + body + "</div><!-- row -->\n"
 		},
-		"person-main":      makeDivClass("col-9 order-first"),
-		"person-secondary": makeDivClass("person-secondary col-3 order-last"),
+		"person-main":      makeDivClass("col-12 col-md-9 col-order-first"),
+		"person-secondary": makeDivClass("person-secondary col-3 col-md-3 order-last"),
 		"banner": func(args []string, body string) string {
-			return "<div class=row><div class='col-lg-12  banner'>" + body + "</div></div>\n"
+			return "<div class='row'><div class='col-12 banner'>" + body + "</div></div>\n"
 		},
 		"person-bio": makeTagClass("div"),
 
@@ -247,7 +247,8 @@ func emitHTMLHugo(n *html.Node, oprdb OPRBaptismDB, singlePage bool) string {
 				return ""
 			}
 			s := strings.Builder{}
-			s.WriteString("<hr><div class=row><div class='col footnotes'><table>\n")
+			s.WriteString("<div class='row'><div class='col-12 footnotes'>\n")
+			s.WriteString("<hr>\n<table>\n")
 			s.WriteString(body)
 			s.WriteString("</table></div></div><!-- footnotes -->\n")
 			return s.String()
