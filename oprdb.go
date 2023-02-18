@@ -52,7 +52,7 @@ func (db *OPRBaptism) ReferenceLink() string {
 	ref1, _ := strconv.Atoi(strings.TrimSpace(ref[0]))
 	ref2, _ := strconv.Atoi(strings.TrimSpace(ref[1]))
 
-	name := fmt.Sprintf("opr%03d-%02d0-%04d-%04d.jpg", par1, par2, ref1, ref2)
+	name := fmt.Sprintf("opr-%03d-%02d0-%04d-%04d.png", par1, par2, ref1, ref2)
 	base := "https://storage.googleapis.com/galbraith-research/scotlandspeople"
 	return base + "/" + name
 }
