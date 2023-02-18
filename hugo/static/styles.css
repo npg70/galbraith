@@ -1,11 +1,8 @@
 :root {
   --bs-body-color: #000;
   --bs-body-bg: #fff;
-/*
- * --bs-link-color: #000;
- *  --bs-link-hover-color: #000;
- */
-  --a-hover-background-color: #ddd;
+  --bs-link-color: rgb(22,108,215);
+  --bs-link-hover-color: rgb(22,108,215);
 }
 
 body {
@@ -136,7 +133,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    background: var(--a-hover-background-color);
+    text-decoration: underline;
 }
 /*
 sup {font-size:xx-small; vertical-align:super;}
@@ -150,7 +147,6 @@ sup {font-size:xx-small; vertical-align:super;}
         --bs-body-bg: #121212;
         --bs-link-color: rgb(92,168,252);/*#BB86FC; */
         --bs-link-hover-color: rgb(92,168,252); /* #BB86FC; */
-        --a-hover-background-color: #2e2e2e;
     }
 }
 
