@@ -143,13 +143,14 @@ sup {font-size:xx-small; vertical-align:super;}
 */
 @media screen and (prefers-color-scheme: dark) {
     :root {
-        --bs-body-color: #FFF;
-        --bs-body-bg: #222;
-        /*
-        --bs-link-color: #FFF;
-        --bs-link-hover-color: #FFF;
-        */
-        --a-hover-background-color: #444;
+        /* #BB86FC material primary
+         * rgb(92,168,252) github dark
+         */
+        --bs-body-color: #e1e1e1;
+        --bs-body-bg: #121212;
+        --bs-link-color: rgb(92,168,252);/*#BB86FC; */
+        --bs-link-hover-color: rgb(92,168,252); /* #BB86FC; */
+        --a-hover-background-color: #2e2e2e;
     }
 }
 
