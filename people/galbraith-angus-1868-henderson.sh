@@ -10,6 +10,10 @@ partner {
     birth -date 24-apr-1856 -location kilmory,bute -ref annie-birth
     death -date 19-may-1934 -location kilmarnock,ayr -ref annie-death
     child galbraith-donald-henderson-1899-milligan
+    child {
+        name Alexander William Galbraith
+        birth -date 25-apr-1996 -location Kilnarnock,Ayr -ref -alex-birth
+    }
     body {
        guessing birth since marriage was at bute, and there is only one
        Ann Henderson born around this time in statutory records.  Also the death
@@ -37,6 +41,9 @@ footnotes {
     }
     annie-death {
         $sp-ref-link[d-1937-597-00-0086 "Annie Galbraith"] Also indexed as "597/258"
+    }
+    alex-birth {
+        $sp-ref-link[b-1896-597-00-335 "Alexander William Galbraith"]
     }
 }
 

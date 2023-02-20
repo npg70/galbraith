@@ -13,25 +13,16 @@ partner {
         name Hugh Galbraith
         birth -date 1-oct-1857 
     }
-    child {
-        name Ann Bell Galbreath
-        birth -date 26-mar-1859
-        death -date 3-jan-1937 -location 'Manitoba, Canada'
-        partner {
-            name Samuel Alexander
-            birth -date 5-jun-1863 -location 'stair,ayrshire'
-            death -date 15-feb-1953 -location 'Neepawa,Manitoba,Canada'
-        }
-    }
+    child galbreath-ann-bell-1859-alexander
     child {
         name Andrew McDonald Galbraith
-        birth -date 2-oct-1860
+        birth -date 2-oct-1860 -location Kilmaurs,Ayr -ref andrew-birth
         death -date 1861 -location Kilmaurs,Ayr
     }
     child {
         name Lewis Riddoch MacDonald Galbraith
-        birth -date 1-JUL-1862 -location 'Dundonald,Ayrshire' -ref lewis-birth
-        death -date 18-may-1900 -location 'Kilmarnock,Ayrshire' -ref lewis-death
+        birth -date 1-JUL-1862 -location 'Dundonald,Ayr' -ref lewis-birth
+        death -date 18-may-1900 -location 'Kilmarnock,Ayr' -ref lewis-death
         partner {
             name Catherine Thompson McNidder
             marriage -date 1888 -location Paisley
@@ -41,8 +32,12 @@ partner {
     }
     child galbraith-angus-1868-henderson
     child {
-        name Catherine McDonald Galbraith
-        birth -date 1870
+        name Catherine Galbreath
+        birth -date 19-dec-1870 -location 'Riccarton' -ref catherine-birth
+    }
+    child {
+        name Christine McDonald Galbraith
+        birth -date 19-dec-1870 -location 'Riccarton' -ref christine-birth
     }
 }
 partner {
@@ -54,9 +49,8 @@ partner {
         Ann was the daughter of Peter Walker (shephard) and Mary Hamiliton
     }
 }
-
 body {
-    He was a iron worker/ ship builder.
+    He was a iron worker and ship builder.
 }
 footnotes {
     birth {
@@ -98,6 +92,15 @@ KILCALMONELL AND KILBERRY
         $sp-ref-link[d-1900-597-00-0077 "Lewis Galbraith"]{
          "alex galbraith, half-brother present"  [who is this?]
      }. Indexed as 597/229
+    }
+    catherine-birth {
+        $sp-ref-link[b-1870-611-00-0242 "Catherine Galbraith"]
+    }
+    christine-birth {
+        $sp-ref-link[b-1870-611-00-0243 "Christine McDonald Galbraith"]
+    }
+    andrew-birth {
+        $sp-ref[b-1960-598-00-0113 "Andrew McDonald Galbraith"]
     }
 }
 
