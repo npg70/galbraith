@@ -293,8 +293,8 @@ func emitHTMLHugo(n *html.Node, oprdb OPRBaptismDB, singlePage bool) string {
 			}
 			s := strings.Builder{}
 			s.WriteString(fmt.Sprintf(
-				"<div>Old Parish Records of %s, Scotland, Baptism of %s %s",
-				rec.ParishName, rec.Forename, rec.Surname))
+				"<div>Baptism of %s %s, OPR %s",
+				rec.Forename, rec.Surname, rec.ParishName))
 
 			if len(rec.Transcription) != 0 {
 				s.WriteString(fmt.Sprintf(". Transcription from <a href=%s>%s</a>:", rec.ReferenceLink(), rec.ReferenceImage()))
