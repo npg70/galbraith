@@ -39,8 +39,7 @@ footnotes {
         $opr-baptism[f8f1f5d3-3ee9-44d9-80f2-4f2ab4f7a660]
     }
     duncan-death {
-        1859 GALBRAITH, DUNCAN (Statutory registers Deaths 573/2 109)
-        https://www.scotlandspeople.gov.uk/image-viewer/stat_deaths/stat_deaths-9712597_12363782?search_token=207851915863e5ccb880a38
+        $sp-ref-link[d-1859-573-02-0037 "Duncan Galbraith"]
     }
     marriage {
         1841 GALBREATH, DUNCAN (Old Parish Registers Marriages 507/ Campbeltown) Page 371 of 478
@@ -61,7 +60,7 @@ footnotes {
         $opr-baptism[d378f383-ad65-493c-a0fc-f270e49c82e1]
     }
     flora-death {
-        1910 GALBRAITH, FLORA (Statutory registers Deaths 575/1 128)
+        $sp-ref-link[d-1910-575-01-0043 "Flora Galbraith"]
     }
 }
 

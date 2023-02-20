@@ -71,7 +71,11 @@ footnotes {
         $opr-baptism[2b7991e8-05cc-4de7-8602-2b8151a8c83f]
     }
     death {
-        TBD: 1867 GALBRAITH, DONALD (Statutory registers Deaths 507/ 148), Donald Galbreath, Carter, widower of Agnes Bell, died 1867 December Ninth ...  son of Donald Galbraith, Country Workman (deceased) and Margt Galbraith M.S McKenchie.  John Fisher, Newphew, Present.
+        $sp-ref-link[d-1867-507-00-0050 "Donald Galbraith"]{
+        Donald Galbraith, Carter, widower of Agnes Bell, died 1867 December Ninth ...  son of Donald Galbraith, Country Workman (deceased) and Margt Galbraith M.S McKenchie.  John Fisher, Newphew, Present.
+         } 
+        Note: also indexed as "507/ 50."
+
     }
     marriage {
         TBD: 1812 GALBREATH, DONALD (Old Parish Registers Marriages 519/ Killean and Kilchenzie) Page 367 of 379
@@ -107,6 +111,6 @@ footnotes {
         $opr-baptism[9366f2b6-f53e-4896-8093-f1db68a43b5b]
     }
     eliza-death {
-    1866 GALBRAITH, ELIZABETH (Statutory registers Deaths 644/1 1087), single, parents listed as Donald Galbraith (Carter) and Agnes McMillan (deceased).
+        $sp-ref-link[d-1866-644-01-0363 "Elizabeth Galbraith"], Also indexed as "646/1 1087"
     }    
 }

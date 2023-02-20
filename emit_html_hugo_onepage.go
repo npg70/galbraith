@@ -220,6 +220,9 @@ func emitHTMLHugo(n *html.Node, oprdb OPRBaptismDB, singlePage bool) string {
 
 		"headline": makeTag("h1"),
 		"externals": func(args []string, body string) string {
+			if strings.TrimSpace(body) == "" {
+				return ""
+			}
 			return fmt.Sprintf("<div class=%s><h6>External</h6><ul>%s</ul></div><!-- %s -->\n", args[0], body, args[0])
 		},
 		"external": func(args []string, body string) string {
@@ -267,6 +270,20 @@ func emitHTMLHugo(n *html.Node, oprdb OPRBaptismDB, singlePage bool) string {
 		},
 		"ref": func(args []string, body string) string {
 			return "<sup class=footnote-ref>[" + args[1] + "]</sup>"
+		},
+		"sp-ref": func(args []string, body string) string {
+			person2 := ""
+			if len(args) == 4 {
+				person2 = args[3]
+			}
+			return SPText(args[1], args[2], person2, false)
+		},
+		"sp-ref-link": func(args []string, body string) string {
+			person2 := ""
+			if len(args) == 4 {
+				person2 = args[3]
+			}
+			return SPText(args[1], args[2], person2, true) + "<blockquote>" + body + "</blockquote>"
 		},
 		"opr-baptism": func(args []string, body string) string {
 			uuid := args[1]

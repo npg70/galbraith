@@ -63,17 +63,18 @@ footnotes {
         $opr-baptism[52d73a0c-cb70-4397-94b4-572642aa2c98]
     }
     marriage1 {
-        TBD: marriage 1
+        $sp-ref-link[m-1856-602-00-0009 "Angus Galbraith" "Ann McDonald"]
     }
     marriage2 {
-        TBD: 1873 GALBRAITH, ANGUS (Statutory registers Marriages 611/ 54)
+        $sp-ref-link[m-1873-611-00-0027 "Angus Galbraith" "Annie Walker"]
     }
-
     death {
-        tbd: 1902 GALBRAITH, ANGUS (Statutory registers Deaths 597/ 189)
+        $sp-ref-link[d-1902-597-00-0063 "Angus Galbraith"], also indexed as 597/189
     }
     ann-mcdonald-death {
-        tbd: 1871 GALBRAITH, ANN (Statutory registers Deaths 611/ 11), age 42, daughter of Andrew McDonald
+        $sp-ref-link[d-1871-611-00-0004 "Ann Galbraith"]{age 42, daughter of Andrew McDonald}.
+
+        Also indexed as 611/11
     }
     ann-walker-baptism {
         TBD: WALKER
@@ -86,13 +87,17 @@ F
 KILCALMONELL AND KILBERRY
 }
     ann-walker-death {
-        tbd: 1910 GALBRAITH, ANN (Statutory registers Deaths 597/ 475)
+        $sp-ref-link[d-1910-597-00-0159 "Ann Galbraith"]
+
+        Also indexed as 597/475
     }
     lewis-birth {
-        1862 GALBRAITH, LEWIS RIDDOCK M (Statutory registers Births 590/ 91)
+        $sp-ref-link[b-1862-590-00-0031 "Lewis Riddock M Galbraith"], also indexed as 590/91
     }
     lewis-death {
-        1900 GALBRAITH, LEWIS (Statutory registers Deaths 597/ 229), "alex galbraith, half-brother present"  who is this?
+        $sp-ref-link[d-1900-597-00-0077 "Lewis Galbraith"]{
+         "alex galbraith, half-brother present"  [who is this?]
+     }. Indexed as 597/229
     }
 }
 

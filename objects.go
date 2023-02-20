@@ -15,6 +15,17 @@ type Ref struct {
 	Body string
 }
 
+func importFootnoteID(p *Person, ref string) string {
+
+	if ref == "" {
+		return ""
+	}
+	if strings.HasPrefix(ref, "/") {
+		return ref
+	}
+	return "/" + p.ID + "/" + ref
+}
+
 func makeFootnoteID(p *Person, ref string) string {
 	if ref == "" {
 		return ""
@@ -353,10 +364,9 @@ func (r Root) Load(id string) (*Person, error) {
 		return nil, err
 	}
 
-	// any footnotes we have that are "local" are turned into absolute IDs
 	f2 := make(Footnotes)
 	for id, body := range newp.Footnotes {
-		f2[makeFootnoteID(newp, id)] = body
+		f2[id] = body
 	}
 	newp.Footnotes = f2
 
@@ -471,23 +481,34 @@ func WriteChildBioLinked(w io.StringWriter, parent *Person, child *Person, ignor
 	birth := child.Events["birth"]
 	bp := child.Events["baptism"]
 	if birth != nil && bp == nil {
+		oldRef := birth.Ref
+		birth.Ref = importFootnoteID(child, oldRef)
+
 		// here the footnote is actually in the child page
 		w.WriteString(", b.&nbsp;" + EventDatePlaceCompact(child, birth, ignorePlace))
 
-		// if we have reference copy it into the parent
-		childFootnoteID := makeFootnoteID(child, birth.Ref)
-		fn := child.Footnotes[childFootnoteID]
-		parent.Footnotes[childFootnoteID] = fn
+		if oldRef != "" {
+			// if we have reference copy it into the parent
+			parent.Footnotes[birth.Ref] = child.Footnotes[oldRef]
+			birth.Ref = oldRef
+		}
 	}
+
+	// if ONLY baptism
 	if birth == nil && bp != nil {
+		oldref := bp.Ref
 		// here the footnote is actually in the child page
 		w.WriteString(",&nbsp;bp. " + EventDatePlaceCompact(child, bp, ignorePlace))
 
 		// if we have reference copy it into the parent
-		childFootnoteID := makeFootnoteID(child, bp.Ref)
-		fn := child.Footnotes[childFootnoteID]
-		parent.Footnotes[childFootnoteID] = fn
+		if oldref != "" {
+			// if we have reference copy it into the parent
+			parent.Footnotes[bp.Ref] = child.Footnotes[oldref]
+			bp.Ref = oldref
+		}
 	}
+
+	// both birth and baptism
 	if birth != nil && bp != nil {
 		// both specified.. it gets complicated
 		// if both same location -- do something smart

@@ -21,20 +21,22 @@ body {
 }
 footnotes {
     birth {
-        TBD: Statutory records
+        $sp-ref-link[b-1868-646-01-0060 "Angus Galbraith"], also as "646/178"
     }
     marriage {
-        TBD: Statutory records
+        $sp-ref-link[m-1889-554-00-0004 "Angus Galbraith" "Annie Henderson"]
     }
     death {
-        1936 GALBRAITH, ANGUS (Statutory registers Deaths 597/ 1)
+        $sp-ref-link[d-1936-597-00-0001 "Angus Galbraith"]
     }
     annie-birth {
-        1859 HENDERSON, ANN (Statutory registers Births 554/ 16)
-        Illegitimate, mother was a housekeep.  Can't read father's name.
+        $sp-ref-link[b-1859-554-00-0006 "Ann Henderson"]{
+            Illegitimate, mother was a housekeeper.  Can't read father's name.
+        }
+        also 554/16
     }
     annie-death {
-        1937 GALBRAITH, ANNIE (Statutory registers Deaths 597/ 258)
+        $sp-ref-link[d-1937-597-00-0086 "Annie Galbraith"] Also indexed as "597/258"
     }
 }
 
