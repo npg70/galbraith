@@ -12,7 +12,7 @@ partner {
     child galbraith-donald-henderson-1899-milligan
     child {
         name Alexander William Galbraith
-        birth -date 25-apr-1996 -location Kilnarnock,Ayr -ref -alex-birth
+        birth -date 25-apr-1896 -location Kilnarnock,Ayr -ref alex-birth
     }
     body {
        guessing birth since marriage was at bute, and there is only one
@@ -25,25 +25,24 @@ body {
 }
 footnotes {
     birth {
-        $sp-ref-link[b-1868-646-01-0060 "Angus Galbraith"], also as "646/178"
+        $sp-ref-link[b-1868-646-01-0178 0060 "Angus Galbraith"]
     }
     marriage {
-        $sp-ref-link[m-1889-554-00-0004 "Angus Galbraith" "Annie Henderson"]
+        $sp-ref-link[m-1889-554-00-0008 0004 "Angus Galbraith" "Annie Henderson"]
     }
     death {
-        $sp-ref-link[d-1936-597-00-0001 "Angus Galbraith"]
+        $sp-ref-link[d-1936-597-00-0001 0001 "Angus Galbraith"]
     }
     annie-birth {
-        $sp-ref-link[b-1859-554-00-0006 "Ann Henderson"]{
+        $sp-ref-link[b-1859-554-00-0016 0006 "Ann Henderson"]{
             Illegitimate, mother was a housekeeper.  Can't read father's name.
         }
-        also 554/16
     }
     annie-death {
-        $sp-ref-link[d-1937-597-00-0086 "Annie Galbraith"] Also indexed as "597/258"
+        $sp-ref-link[d-1937-597-00-0258 0086 "Annie Galbraith"]
     }
     alex-birth {
-        $sp-ref-link[b-1896-597-00-335 "Alexander William Galbraith"]
+        $sp-ref-link[b-1896-597-00-0335 0112 "Alexander William Galbraith"]
     }
 }
 

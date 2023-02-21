@@ -38,16 +38,15 @@ Note: There is a "Annabella Galbraith" also born 1859, but in Barra and daughter
 
 footnotes {
     ab-birth {
-        $sp-ref-link[b-1859-598-00-0033 "Ann Bell Galbreath"] image 11
+        $sp-ref-link[b-1859-598-00-0033 0011 "Ann Bell Galbreath"] 
     }
     alex-birth {
-        $sp-ref-link[b-1880-597-00-350 "Alexander McDonald"]{
+        $sp-ref-link[b-1880-597-00-0350 0117 "Alexander McDonald"]{
             No 350. Alexander Galbraith (Illegitimate) 1880 April Ninetenth... Mother: Ann Bell Galbraith (Farm hand)  [father not listed] 
         }
-        image 117
     }
     alex-death {
-        $sp-ref-link[d-1962-424-00-0225 "Alexander Galbraith"]  image 75
+        $sp-ref-link[d-1962-424-00-0225 0075 "Alexander Galbraith"] 
     }
     marriage {
         $sp-ref[m-1884-597-00-0008 "Annbell Galbraith" "Samuel Alexander"]

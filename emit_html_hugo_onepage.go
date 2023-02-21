@@ -276,14 +276,17 @@ func emitHTMLHugo(n *html.Node, oprdb OPRBaptismDB, singlePage bool) string {
 			if len(args) == 4 {
 				person2 = args[3]
 			}
-			return SPText(args[1], args[2], person2, false)
+			return SPText(args[1], "", args[2], person2)
 		},
 		"sp-ref-link": func(args []string, body string) string {
-			person2 := ""
-			if len(args) == 4 {
-				person2 = args[3]
+			if len(args) < 4 {
+				log.Fatalf("Expected 4 or 5 args, got %v", args)
 			}
-			return SPText(args[1], args[2], person2, true) + "<blockquote>" + body + "</blockquote>"
+			person2 := ""
+			if len(args) == 5 {
+				person2 = args[4]
+			}
+			return SPText(args[1], args[2], args[3], person2) + "<blockquote>" + body + "</blockquote>"
 		},
 		"opr-baptism": func(args []string, body string) string {
 			uuid := args[1]

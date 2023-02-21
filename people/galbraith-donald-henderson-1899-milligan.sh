@@ -18,13 +18,13 @@ NOTE: There is a another "Janet McKean Milligan" in Ayrshire, born 1916, died 19
 
 footnotes {
     birth {
-        $sp-ref-link[b-1899-646-02-0285 "Donald Henderson Galbraith"]. Also indexed as 646/2 854. x
+        $sp-ref-link[b-1899-646-02-0854 0285 "Donald Henderson Galbraith"]
     }
     marriage {
-        $sp-ref-link[m-1921-611-01-0022 "Donald Hendeson Galbriath" "Janet McKean Milligan"]
+        $sp-ref-link[m-1921-611-01-0044 0022 "Donald Hendeson Galbriath" "Janet McKean Milligan"]
     }
     death {
-        $sp-ref-link[d-1938-564-02-0055 "Donald Henderson Galbraith"]{
+        $sp-ref-link[d-1938-564-02-0163 0055 "Donald Henderson Galbraith"]{
         Donald Henderson Galbraith, engineer (journeyman),
         married to Janet McKean Milligan, death on 1938,
         April Tenth... Royal Infirmary, Greenock.
@@ -34,20 +34,18 @@ footnotes {
         Angus Galbraith, brother, present.
         }
 
-    Also indexed as 564/2 163.
-
     1938 GALBRAITH, DONALD HENDERSO (Statutory registers Corrected Entries 564/ 02 022 56) (RCE)
 
     with correction: https://www.scotlandspeople.gov.uk/image-viewer/stat_rce/stat_rce-144594_1441635_D?search_token=49461013163e573c536c55 
     }
     janet-birth {
-        $sp-ref-link[b-1897-595-00-297 "Janet Lang McKean Milligan"]
+        $sp-ref-link[b-1897-595-00-0297 0099 "Janet Lang McKean Milligan"]
     }
     janet-death {
-        $sp-ref[d-1980-642-00-221 "Janet Lang McKean Galbraith"] record sealed until 2030.
+        $sp-ref[d-1980-642-00-0221 "Janet Lang McKean Galbraith"] record sealed until 2030.
     }
     other-janet {
-        A different Janet Milligan: $sp-ref-link[b-1916-595-00-0004 "Janet McKean Milligan"] and $sp-ref-link[d-1970-597-00-556 "Janet McKean Milligan"]
+        A different Janet Milligan: $sp-ref-link[b-1916-595-00-0011 0004 "Janet McKean Milligan"] and $sp-ref-link[d-1970-597-00-0556 0556 "Janet McKean Milligan"]
     }
 }
 

@@ -57,18 +57,16 @@ footnotes {
         $opr-baptism[52d73a0c-cb70-4397-94b4-572642aa2c98]
     }
     marriage1 {
-        $sp-ref-link[m-1856-602-00-0009 "Angus Galbraith" "Ann McDonald"]
+        $sp-ref-link[m-1856-602-00-0018 0009 "Angus Galbraith" "Ann McDonald"]
     }
     marriage2 {
-        $sp-ref-link[m-1873-611-00-0027 "Angus Galbraith" "Annie Walker"]
+        $sp-ref-link[m-1873-611-00-0054 0027 "Angus Galbraith" "Annie Walker"]
     }
     death {
-        $sp-ref-link[d-1902-597-00-0063 "Angus Galbraith"], also indexed as 597/189
+        $sp-ref-link[d-1902-597-00-0189 0063 "Angus Galbraith"]
     }
     ann-mcdonald-death {
-        $sp-ref-link[d-1871-611-00-0004 "Ann Galbraith"]{age 42, daughter of Andrew McDonald}.
-
-        Also indexed as 611/11
+        $sp-ref-link[d-1871-611-00-0011 0004 "Ann Galbraith"]{age 42, daughter of Andrew McDonald}
     }
     ann-walker-baptism {
         TBD: WALKER
@@ -81,23 +79,21 @@ F
 KILCALMONELL AND KILBERRY
 }
     ann-walker-death {
-        $sp-ref-link[d-1910-597-00-0159 "Ann Galbraith"]
-
-        Also indexed as 597/475
+        $sp-ref-link[d-1910-597-00-0475 0159 "Ann Galbraith"]
     }
     lewis-birth {
-        $sp-ref-link[b-1862-590-00-0031 "Lewis Riddock M Galbraith"], also indexed as 590/91
+        $sp-ref-link[b-1862-590-00-0091 0031 "Lewis Riddock M Galbraith"]
     }
     lewis-death {
-        $sp-ref-link[d-1900-597-00-0077 "Lewis Galbraith"]{
-         "alex galbraith, half-brother present"  [who is this?]
-     }. Indexed as 597/229
+        $sp-ref-link[d-1900-597-00-0229 0077 "Lewis Galbraith"]{
+         "alex galbraith, half-brother present" 
+     }
     }
     catherine-birth {
-        $sp-ref-link[b-1870-611-00-0242 "Catherine Galbraith"]
+        $sp-ref-link[b-1870-611-00-0242 0081 "Catherine Galbraith"]
     }
     christine-birth {
-        $sp-ref-link[b-1870-611-00-0243 "Christine McDonald Galbraith"]
+        $sp-ref-link[b-1870-611-00-0243 0081 "Christine McDonald Galbraith"]
     }
     andrew-birth {
         $sp-ref[b-1960-598-00-0113 "Andrew McDonald Galbraith"]

@@ -73,51 +73,60 @@ func ParishName(id1, id2 string) string {
 	return ref
 }
 
-func SPLink(pageid string) string {
+func SPLink(imageid string) string {
 	base := "https://storage.googleapis.com/galbraith-research/scotlandspeople"
-	return base + "/" + pageid + ".png"
+	return base + "/" + imageid + ".png"
 }
 
-func SPLinkHTML(ref string, pageid string) string {
-	return fmt.Sprintf("<a href='%s'>%s</a>", SPLink(pageid), ref)
+func makeImageID(refid string, imageNum string) string {
+	// CONFUSION ALERT
+	// so the image id is the redif with the last field swapped for the imageNum
+	// ie. refid =  d-1867-507-00-0148  imageNum = 50 -->
+	// imageId== d-1867-507-00-0050
+
+	if len(imageNum) == 0 || len(imageNum) > 4 {
+		log.Fatalf("got a refid of %s, and imagenum of %q", refid, imageNum)
+	}
+
+	// pade left with zeros
+	for len(imageNum) < 4 {
+		imageNum = "0" + imageNum
+	}
+
+	// we assume here the refid is 4 chars so we can just cut off the old and add the new
+	return refid[:len(refid)-4] + imageNum
 }
 
-func SPText(pageid, name, name2 string, link bool) string {
-	parts := strings.Split(pageid, "-")
+func SPLinkHTML(refText string, refid string, imageNum string) string {
+	target := SPLink(makeImageID(refid, imageNum))
+	return fmt.Sprintf("<a href='%s'>%s</a>", target, refText)
+}
+
+func SPText(refid, imageNum, name, name2 string) string {
+	parts := strings.Split(refid, "-")
+	if len(parts) != 5 {
+		log.Fatalf("SPText: expected 5 parts got %s", refid)
+	}
+	refText := fmt.Sprintf("%s %s %s", parts[1], ParishRef(parts[2], parts[3]),
+		strings.TrimLeft(parts[4], "0"))
+	if imageNum != "" {
+		refText = SPLinkHTML(refText, refid, imageNum)
+	}
 	switch parts[0] {
 	case "d":
-		if len(parts) != 5 {
-			log.Fatalf("Expected 5 parts, got %q", pageid)
-		}
-		// D-4YEAR-3PARISH-2SUBPARISH-3PAGE
-		ref := fmt.Sprintf("%s %s %s", parts[1], ParishRef(parts[2], parts[3]),
-			strings.TrimLeft(parts[4], "0"))
-		if link {
-			ref = SPLinkHTML(ref, pageid)
-		}
+		// d-4YEAR-3PARISH-2SUBPARISH-4RECORD
 		return fmt.Sprintf("Death of %s, %s Statutory Records of %s, Scotlands People, Reference %s",
-			name, parts[1], ParishName(parts[2], parts[3]), ref)
+			name, parts[1], ParishName(parts[2], parts[3]), refText)
 	case "b":
-		// D-4YEAR-3PARISH-2SUBPARISH-3PAGE
-
-		ref := fmt.Sprintf("%s %s %s", parts[1], ParishRef(parts[2], parts[3]),
-			strings.TrimLeft(parts[4], "0"))
-		if link {
-			ref = SPLinkHTML(ref, pageid)
-		}
+		// b-4YEAR-3PARISH-2SUBPARISH-3PAGE
 		return fmt.Sprintf("Birth of %s, %s Statutory Records of %s, Scotlands People, Reference %s",
-			name, parts[1], ParishName(parts[2], parts[3]), ref)
+			name, parts[1], ParishName(parts[2], parts[3]), refText)
 	case "m":
 		// M-4YEAR-3PARISH-2SUBPARISH-3PAGE
-		ref := fmt.Sprintf("%s %s %s", parts[1], ParishRef(parts[2], parts[3]),
-			strings.TrimLeft(parts[4], "0"))
-		if link {
-			ref = SPLinkHTML(ref, pageid)
-		}
 		return fmt.Sprintf("Marriage of %s and %s, %s Statutory Records of %s, Scotlands People, Reference %s",
-			name, name2, parts[1], ParishName(parts[2], parts[3]), ref)
+			name, name2, parts[1], ParishName(parts[2], parts[3]), refText)
 	default:
-		log.Fatalf("Unknown SP record type: %s", pageid)
+		log.Fatalf("Unknown SP record type: %s", refid)
 	}
 	return ""
 }
