@@ -57,14 +57,42 @@ body {
 His parents were Daniel Galbreath and Mary McEnchie[?]. They appear to have not married and Daniel died while Mary was pregnant. The son Donald is listed as "natural" (as opposed to "lawful").
 }
 
-body { There are no good record for the father Daniel in Killean Parish. In Campbeltown, there is a Daniel Galbreath, son of John Galbreath/Margaret Clark baptized 22 Aug 1772.$ref[maybe-father]
+body {In the Killean Parish, there are not any matching records for the father Daniel. However in Campbeltown, there is a Daniel Galbreath, son of John Galbreath/Margaret Clark baptized 22 Aug 1772.$ref[maybe-father]  As for his mother, the name "Mary McEachine" was very common at the time. There are no matches for her death in the statutory records after 1855, so she perhaps died before 1855.
 }
 
 body {
-As for this mother, the name "Mary McEachine" was very common at the time. There are no matches for her death in the statutory records after 1855, so she perhaps died before 1855.
+1841 Census, Campbeltown$ref[census-1841]
+$csvtable{
+Name,Age,Year,Occupation
+Donald Galbraith,48,1793,Laborer
+Ann Galbraith,48,1793,-
+Ann Galbraith,10,1831,-
+Margaret Galbraith,1833,-
+Elizabeth Galbraith,1835,-
 }
-body {
-    TODO: check 1841, 1851, 1861 census records
+
+
+1851 Census, Campbeltown$ref[census-1851]
+
+$csvtable{
+Name,Role,Status,Age,Year,Birth,Occupation
+Donald Galbraith,Head,Married,59,1792,Killean,Carter
+Agnes Galbraith,Wife,Married,57,1794,Killean,-
+Christina Galbraith,Daught,Married,26,1825,Killean,-
+Alexander Galbraith,Son,Unmarried,22,1829,Killean, Sailor
+Eliza Galbraith,Daught,Unmarried,14,1837,Killean,-
+Christina Galbraith,Niece,Unmarried,7,1844,Campbeltown
+}
+
+
+1861 Census, Campbeltown$ref[census-1861]
+
+$csvtable{
+Name,Role,Status,Age,Year,Birth,Occupation
+Donald Galbraith, Head, Widower, 70, 1791, Argyllshire, former hemp rackler
+Mary Galbraith, Daugt, Unmarried, 26, 1835, Campbeltown, dressmaker
+}
+
 }
 footnotes {
     baptism {
@@ -110,5 +138,14 @@ footnotes {
     }
     eliza-death {
         $sp-ref-link[d-1866-644-01-1087 0363 "Elizabeth Galbraith"]
+    }
+    census-1841 {
+
+    }
+    census-1851 {
+        https://www.findmypast.com/transcript?id=GBC/1851/0019255382&expand=true
+    }
+    census-1861 {
+        TBD: https://www.findmypast.com/transcript?id=GBC/1861/0022162200
     }    
 }
