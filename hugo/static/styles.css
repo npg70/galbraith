@@ -38,6 +38,16 @@ span.child-name, span.child-partner-name {
      font-feature-settings: "smcp" 1;
      white-space: nowrap;
 }
+table.xtable {
+    width:95%;
+    margin-left: auto;
+}
+table.xtable td,th {
+    padding: 3px;
+    font-family: courier-prime;
+    font-size: smaller;
+    vertical-align: top;
+}
 
 table.child-list {
     margin-bottom: 2em;

@@ -27,6 +27,26 @@ func makeDivClass(cnames string) TagFunc {
 	}
 }
 
+func IsHTMLTag(tag string) bool {
+	// todo make map
+	switch tag {
+	case "p", "b", "i", "em", "br", "hr":
+		return true
+	case "table", "tbody", "th", "tr", "td", "tfoot":
+		return true
+	}
+	return false
+}
+func HTMLTag(n *html.Node, body string) string {
+	// hack for now
+	out := "<" + n.Data
+	for _, a := range n.Attr {
+		out += " " + a.Key + "=" + fmt.Sprintf("%q", a.Val)
+	}
+	out += fmt.Sprintf(">%s</%s>", body, n.Data)
+	return out
+}
+
 func Render(n *html.Node, fmap map[string]TagFunc) string {
 	switch n.Type {
 	case html.TextNode:
@@ -39,6 +59,9 @@ func Render(n *html.Node, fmap map[string]TagFunc) string {
 		if fn, ok := fmap[n.Data]; ok {
 			out := fn(toArgv(n), body)
 			return out
+		}
+		if IsHTMLTag(n.Data) {
+			return HTMLTag(n, body)
 		}
 		// unknown tag ... pass through
 		out := "$" + n.Data
