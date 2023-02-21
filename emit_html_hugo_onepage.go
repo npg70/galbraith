@@ -137,6 +137,7 @@ func emitHTMLHugo(n *html.Node, oprdb OPRBaptismDB, singlePage bool) string {
 	}
 
 	fmap := map[string]TagFunc{
+		"csvtable": CsvTableHTML,
 		"root": func(args []string, body string) string {
 			return body
 		},
