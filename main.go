@@ -78,7 +78,7 @@ func main() {
 		kidsq = append(kidsq, nextg...)
 
 		//		fmt.Println(doc)
-
+		log.Printf("Processing %s", uid)
 		p := Tokenizer{}
 		root := p.Parse(strings.NewReader(doc))
 		if err := footnoter(root); err != nil {
@@ -92,7 +92,6 @@ func main() {
 		}
 
 		fullpath := filepath.Join(outdir, uid+suffix)
-		log.Printf("Writing %q", fullpath)
 		if err := os.WriteFile(fullpath, []byte(out), 0666); err != nil {
 			log.Fatalf("couldn't write %q: %s", fullpath, err)
 		}
