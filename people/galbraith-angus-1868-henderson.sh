@@ -9,11 +9,25 @@ partner {
     marriage -date 26-dec-1889 -location arran/kilmory/bute -note 'Maybe Free Church of Scotland' -ref marriage
     birth -date 24-apr-1856 -location kilmory,bute -ref annie-birth
     death -date 19-may-1934 -location kilmarnock,ayr -ref annie-death
-    child galbraith-donald-henderson-1899-milligan
+    child {
+        name Angus Galbraith
+        birth -date 26-oct-1893 -location Riccarton,Ayr -ref angus-birth
+        death -date 5-aug-1956 -location Kilmarnock,Ayr -ref angus-death
+        partner {
+            name Margaret Cuthbertson Johnstone?
+        }
+    }
     child {
         name Alexander William Galbraith
-        birth -date 25-apr-1896 -location Kilnarnock,Ayr -ref alex-birth
+        birth -date 25-apr-1896 -location Kilmarnock,Ayr -ref alex-birth
+        death -date 2-jun-1952 -location Kilmarnock,Ayr  -ref alex-death
+        partner {
+            name Margaret Campbell Millar
+            marriage -date 1940 -location Kilmarnock,Ayr -ref marriage-millar
+        }
     }
+    child galbraith-donald-henderson-1899-milligan
+
     body {
        guessing birth since marriage was at bute, and there is only one
        Ann Henderson born around this time in statutory records.  Also the death
@@ -21,7 +35,7 @@ partner {
     }
 }
 body {
-    Angus was a engineer or some type of fitter (unreadable)
+    Angus was a engineer or an engine fitter.
 }
 footnotes {
     birth {
@@ -44,6 +58,17 @@ footnotes {
     alex-birth {
         $sp-ref-link[b-1896-597-00-0335 0112 "Alexander William Galbraith"]
     }
+    alex-death {
+        $sp-ref-link[d-1952-597-00-0273 0091 "Alexander William Galbraith"]
+    }
+    angus-birth {
+        $sp-ref-link[b-1893-611-01-0090 0030 "Angus Galbraith"]
+    }
+    angus-death {
+        $sp-ref-link[d-1956-597-00-0396 0132 "Angus Galbraith"]
+    }
+    marriage-millar {
+        $sp-ref[m-1940-597-00-0044 "Alexander William Galbraith" "Margaret Campbell Millar"]
+    }
 }
-
 
