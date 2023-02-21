@@ -56,21 +56,23 @@ body {
     He was a iron worker and ship builder.
 
 The 1891 Census:
-$table[class=xtable]{
-$tr{ $th{First} $th{Last} $th{Role} $th{Age} $th{Year} $th{Occupation} $th{Birth}}
-$tr{ $td{Angus} $td{Galbraith} $td{Head} $td{68} $td{1823} $td{Laborer} $td{Argyllshire} }
-$tr{ $td{Ann}   $td{Galbraith} $td{Wife} $td{49} $td{1842} $td{-} $td{Argyllshire} }
-$tr{ $td{Alexander} $td{Galbraith} $td{Son} $td{10} $td{1871} $td{Scholar} $td{Kilmarnock} }
+
+$csvtable{
+Name,Role,Age,Year,Birth,Occupation
+Angus Galbraith, Head, 68, 1823, Argyllshire, Laborer
+Ann Galbraith,Wife,49,1842,Argyllshire, -
+Alexander Galbraith,Son $i{actually grandson},10,1881, Kilmarnock, Scholar
 }
 
 The 1901 Census:
-$table[class=xtable]{
-$tr{ $th{First} $th{Last} $th{Role} $th{Age} $th{Year} $th{Occupation} $th{Birth}}
-$tr{ $td{Angus} $td{Galbraith} $td{Head} $td{76} $td{1825} $td{Gardener} $td{Campbeltown}}
-$tr{ $td{Ann}   $td{Galbraith} $td{Wife} $td{64} $td{1837} $td{-}        $td{Campbeltown}}
-$tr{ $td{Alexander} $td{Galbraith} $td{Son} $td{20} $td{1881} $td{Grocer} $td{Kilmarnock}}
-$tr{ $td{Angus}     $td{Galbraith} $td{Son, Married} $td{32} $td{1869} $td{Engineer (Fitter)} $td{Govan}}
-$tr{ $td{Angus}     $td{Galbraith} $td{Grandson} $td{7} $td{1894} $td{Scholar} $td{Kimarnock}}
+
+$csvtable{
+Name,Role,Age,Year,Birth,Occupation
+Angus Galbraith,Head,76,1825,Campbeltown,Gardener
+Ann Galbraith,Wife,64,1837,Campbeltown,-
+Alexander Galbraith,Son $i{actually grandson},20,1881,Kilmarnock,Grocer
+Angus Galbraith,Son Married,32,1869,Govan,Engineer (fitter)
+Angus Galbraith,Grandson,7,1894,Kilmarnock,Scholar
 }
 
 }
