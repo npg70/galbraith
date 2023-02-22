@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 
 	"golang.org/x/net/html"
 )
@@ -67,16 +68,28 @@ func Render(n *html.Node, fmap map[string]TagFunc) string {
 		out := "$" + n.Data
 		if len(n.Attr) > 0 {
 			out += "["
+			htmlargs := []string{}
 			for _, arg := range n.Attr {
-				out += arg.Key
-				if len(arg.Val) > 0 {
-					out += "="
-					out += arg.Val
-					out += " "
+				if len(arg.Val) == 0 {
+					// TODO: better quoting
+					if strings.Contains(arg.Key, " ") {
+						htmlargs = append(htmlargs, fmt.Sprintf("%q", arg.Key))
+						continue
+					}
+					htmlargs = append(htmlargs, arg.Key)
+					continue
 				}
+				// TODO: better quoting
+				if strings.Contains(arg.Val, " ") {
+					htmlargs = append(htmlargs, fmt.Sprintf("%s=%q", arg.Key, arg.Val))
+					continue
+				}
+				htmlargs = append(htmlargs, arg.Key+"="+arg.Val)
 			}
+			out += strings.Join(htmlargs, " ")
 			out += "]"
 		}
+		body = strings.TrimSpace(body)
 		if len(body) > 0 {
 			out += "{" + body + "}"
 		}
