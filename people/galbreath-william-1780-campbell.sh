@@ -26,4 +26,3 @@ footnotes {
         $opr-baptism[4116e36b-c7e0-437c-8d1d-79404993ed6b]
     }
 }
-
