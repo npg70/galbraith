@@ -1,14 +1,40 @@
 name Margaret Galbreath
 baptism -date 13-Sep-1813 -location 'killean and kilchenzie' -ref peggy-bapt
 death -date 10-Jan-1888 -location campbeltown -ref peggy-death
+external {
+    familysearch KC3B-41M
+}
 partner {
     name Donald Fisher
     marriage -date 28-nov-1842 -location 'ardrossan,ayr' -ref marriage
     child {
         name John Fisher
-        baptism -date 22-dec-1844 -location campbeltown,argyll -ref john-fisher-birth
+        baptism -date 22-dec-1844 -location campbeltown -ref john-fisher-birth
         death -date 16-mar-1911 -location cathcart,renfrew -ref john-fisher-death
     }
+    child {
+        name Donald Fisher
+        baptism -date 4-sep-1846 -location campbeltown
+    }
+    child {
+        name May Fisher
+        baptism -date 15-oct-1848 -location campbeltown
+    }
+    child {
+        name Agnes Fisher
+        baptism -date 22-sep-1850 -location campbeltown
+    }
+    child {
+        name Margaret Fisher
+        baptism -date 19-dec-1852 -location campbeltown
+    }
+    child {
+        name Catherine Fisher
+        baptism -date 29-oct-1854 -location campbeltown
+    }
+}
+note {
+    There may be additional children born after 1854.
 }
 
 footnotes {
