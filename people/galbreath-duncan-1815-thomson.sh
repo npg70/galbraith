@@ -33,31 +33,46 @@ partner {
 }
 body {
     He was a maltman.
+
+    Census 1851 (507/2/12):
+    $csvtable{
+Name,Relation,Age,Occupation,Birthplace
+Mary Galbraith [Thomson],Head,35,-,Killean
+Betsy Galbraith,Dau,4,-,Campbeltown
+Daniel Galbraith,Son,2,-,Campbeltown
+Betsy McCallum,Aunt,56,Formally Farm Servant,Saddell
+}
 }
 footnotes {
     duncan-bapt {
-        $opr-baptism[f8f1f5d3-3ee9-44d9-80f2-4f2ab4f7a660]
+        $opr-ref-link[b-1815-519-000-0010-0279 "Duncan Galbreath"]{
+            June 20 | Duncan, lawful son to Don Galbreath and _____ Bell Kilberduo[?]
+        }
     }
     duncan-death {
         $sp-ref-link[d-1859-573-02-0109 0037 "Duncan Galbraith"]
     }
     marriage {
-        1841 GALBREATH, DUNCAN (Old Parish Registers Marriages 507/ Campbeltown) Page 371 of 478
+        $opr-ref-link[m-1841-507-000-0060-0371 "Duncan Galbreath" "Mary Thomson"]{
+            Duncan Galbreath, Laborer Callburn[?], and
+            Mary Thomson daughter of Malcolm Thomson, Bea...[?] were married
+            Second March 1841.
+        } 
     }
     john-bapt {
-        $opr-baptism[254330ab-bbb9-4897-9700-931a4811ed6a]
+        $opr-ref[b-1841-507-000-0070-0209 "John Galbreath"]
     }
     donald-bapt {
-        $opr-baptism[101eeb92-28c8-418b-b65f-cf07217d44cb]
+        $opr-ref[b-1844-507-000-0070-0261 "Donald Galbreath"]
     }
     eliza-bapt {
-        $opr-baptism[29be0a13-772e-4f8d-8780-acf642590b1c]
+        $opr-ref[b-1846-507-000-0070-0306 "Elizabeth Galbreath"]
     }
     daniel-bapt {
-        $opr-baptism[99208f09-ba3c-4054-9369-7e6f09559b37]
+        $opr-ref[b-1848-507-000-0070-0344 "Daniel Galbraith"]
     }   
     flora-bapt {
-        $opr-baptism[d378f383-ad65-493c-a0fc-f270e49c82e1]
+        $opr-ref[b-1851-507-000-0070-0388 "Flora Galbraith"]
     }
     flora-death {
         $sp-ref-link[d-1910-575-01-0128 0043 "Flora Galbraith"]

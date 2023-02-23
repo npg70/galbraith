@@ -79,7 +79,9 @@ Angus Galbraith,Grandson,7,1894,Kilmarnock,Scholar
 
 footnotes {
     birth {
-        $opr-baptism[52d73a0c-cb70-4397-94b4-572642aa2c98]
+        $opr-ref-link[b-1824-519-000-0020-0042 "Angus Galbreath"]{
+            Nov | 7 | Angus lawful son to Donald Galbreath and ____ Bell Beallochandui[?]
+        }
     }
     marriage1 {
         $sp-ref-link[m-1856-602-00-0018 0009 "Angus Galbraith" "Ann McDonald"]
@@ -94,15 +96,8 @@ footnotes {
         $sp-ref-link[d-1871-611-00-0011 0004 "Ann Galbraith"]{age 42, daughter of Andrew McDonald}
     }
     ann-walker-baptism {
-        TBD: WALKER
-ANN
-PETER WALKER/MARY HAMILTON FR511 (FR511)
-F
-22/11/1834
-516
-20 / 103
-KILCALMONELL AND KILBERRY
-}
+        $opr-ref[b-1834-516-000-0020-0103 "Ann Walker"]
+    }
     ann-walker-death {
         $sp-ref-link[d-1910-597-00-0475 0159 "Ann Galbraith"]
     }

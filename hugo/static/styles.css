@@ -82,6 +82,18 @@ div.person {
     margin-bottom: 40px;
     page-break-after: always;
 }
+
+ul.notes {
+    list-style-type: "\2799";
+    list-style-position: outside;
+    margin-left: 0;
+    padding-left: 1em;
+}
+ul.notes li {
+    margin-left: 0;
+    padding-left: 2em;
+}
+
 @font-face {
     /*
      * https://github.com/quoteunquoteapps/CourierPrime

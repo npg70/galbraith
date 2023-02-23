@@ -11,13 +11,15 @@ import (
 )
 
 func ParishRef(id1, id2 string) string {
-	if id2 == "" || id2 == "00" || id2 == "000" {
+	id2 = strings.TrimLeft(id2, "0")
+	if id2 == "" {
 		return id1
 	}
-	return id1 + "/" + strings.TrimLeft(id2, "0")
+	return id1 + "/" + id2
 }
 
 func ParishName(id1, id2 string) string {
+
 	parishmap := map[string]string{
 		"108":   "Barra",
 		"280":   "Elgin",
@@ -27,24 +29,28 @@ func ParishName(id1, id2 string) string {
 		"479":   "Falkirk",
 		"487":   "Polmont",
 		"488":   "St Ninians",
-		"497":   "KILMARONOCK",
-		"500":   "NEW OR EAST KILPATRICK",
+		"497":   "Kilmaronock",
+		"500":   "New or East Kilpatrick",
 		"507":   "Campbeltown, Argyll",
-		"512":   "INVERARAY AND GLENARAY",
-		"516":   "KILCALMONELL AND KILBERRY",
-		"516/2": "Kilberry",
+		"510":   "Dunoon, Argyll",
+		"512":   "Inveraray and Glenaray",
+		"516":   "Kilcalmonell and Kilberry, Argyll",
+		"516/2": "Kilberry, Argyll",
+		"519":   "Killean and Kilchenzie, Argyll",
 		"526":   "Lochgilphead, Argyll",
 		"537":   "Gigha and Cara, Argyll",
-		"539/2": "COLONSAY AND ORONSAY",
+		"539/2": "Colonsay and Oronsay",
 		"554":   "Kimory, Bute",
-		"560":   "CATHCART",
+		"560":   "Cathcart",
 		"564/1": "Greenock New or Middle",
 		"564/2": "Greenock West",
 		"564/3": "Greenock Old or West",
 		"573/1": "Paisley High Church",
 		"573/2": "Paisley Low Church",
 		"575":   "Renfrew",
+		"575/1": "Renfrew, Renfrew",
 		"574":   "Port Glasgow",
+		"576":   "Ardrossan, Ayr",
 		"590":   "Dundonald, Ayr",
 		"595":   "Irvine, Ayr",
 		"597":   "Kilmarnock, Ayr",
@@ -52,6 +58,7 @@ func ParishName(id1, id2 string) string {
 		"602":   "Largs, Ayr",
 		"611":   "Riccarton, Ayr",
 		"611/1": "Riccarton, Ayr",
+		"620":   "West Kilbride, Ayr",
 		"622":   "Barony",
 		"640":   "Inverclyde",
 		"644/1": "Glasgow",
@@ -64,13 +71,14 @@ func ParishName(id1, id2 string) string {
 		"664":   "Carriden",
 		"706":   "Dunbar",
 		"743":   "Greenlaw",
-		"788":   "INVERNESS",
+		"788":   "Inverness",
 	}
 
 	ref := ParishRef(id1, id2)
 	if name, ok := parishmap[ref]; ok {
 		return name
 	}
+	log.Printf("UNKNOWN PARISH %s / %s", id1, id2)
 	return ref
 }
 
@@ -103,6 +111,54 @@ func SPLinkHTML(refText string, refid string, imageNum string) string {
 	return fmt.Sprintf("<a href='%s'>%s</a>", target, refText)
 }
 
+func oprref(parts []string) string {
+	pnum := strings.TrimLeft(parts[2], "0")
+	pnum2 := strings.TrimLeft(parts[3], "0")
+	vol := strings.TrimLeft(parts[4], "0")
+	page := strings.TrimLeft(parts[5], "0")
+
+	return fmt.Sprintf("%s/%s %s %s", pnum, pnum2, vol, page)
+}
+
+func oprlink(parts []string) string {
+	base := "https://storage.googleapis.com/galbraith-research/scotlandspeople"
+	return base + "/opr-" + strings.Join(parts[2:], "-") + ".png"
+}
+func oprhtml(parts []string, link bool) string {
+	text := oprref(parts)
+	if link {
+		return fmt.Sprintf("<a href=%s>%s</a>", oprlink(parts), text)
+	}
+	return text
+}
+
+func OPRText(refid, name, name2 string, link bool) string {
+	parts := strings.Split(refid, "-")
+	// args[0] --> type
+	// args[1] --> year, 4 digits
+	// args[2] --> parish 3 digits
+	// args[3] --> subparish
+	// args[4] --> volume
+	// args[5] --> page, 4 digits
+	if len(parts) != 6 {
+		log.Fatalf("OPRText: expected 6 parts but got %s", refid)
+	}
+	base := fmt.Sprintf("%s. OPR of %s, %s",
+		parts[1],
+		ParishName(parts[2], parts[3]),
+		oprhtml(parts, link))
+	switch parts[0] {
+	case "b":
+		return fmt.Sprintf("Baptism of %s, %s", name, base)
+	case "m":
+		return fmt.Sprintf("Marriage of %s and %s, %s", name, name2, base)
+	case "d":
+		return fmt.Sprintf("Death of %s, %s", name, base)
+	}
+	log.Fatalf("Unknown OPR ref: %s", refid)
+	return ""
+}
+
 func SPText(refid, imageNum, name, name2 string) string {
 	parts := strings.Split(refid, "-")
 	if len(parts) != 5 {
@@ -116,15 +172,15 @@ func SPText(refid, imageNum, name, name2 string) string {
 	switch parts[0] {
 	case "d":
 		// d-4YEAR-3PARISH-2SUBPARISH-4RECORD
-		return fmt.Sprintf("Death of %s, %s Statutory Records of %s, Scotlands People, Reference %s",
+		return fmt.Sprintf("Death of %s, %s Statutory Records of %s, Reference %s",
 			name, parts[1], ParishName(parts[2], parts[3]), refText)
 	case "b":
 		// b-4YEAR-3PARISH-2SUBPARISH-3PAGE
-		return fmt.Sprintf("Birth of %s, %s Statutory Records of %s, Scotlands People, Reference %s",
+		return fmt.Sprintf("Birth of %s, %s Statutory Records of %s, Reference %s",
 			name, parts[1], ParishName(parts[2], parts[3]), refText)
 	case "m":
 		// M-4YEAR-3PARISH-2SUBPARISH-3PAGE
-		return fmt.Sprintf("Marriage of %s and %s, %s Statutory Records of %s, Scotlands People, Reference %s",
+		return fmt.Sprintf("Marriage of %s and %s, %s Statutory Records of %s, Reference %s",
 			name, name2, parts[1], ParishName(parts[2], parts[3]), refText)
 	default:
 		log.Fatalf("Unknown SP record type: %s", refid)

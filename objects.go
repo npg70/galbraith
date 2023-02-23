@@ -224,6 +224,7 @@ type Person struct {
 	Footnotes Footnotes
 	External  ExternalSource
 	Body      []string
+	Notes     []string
 }
 
 func (p *Person) getRef(s string) int {
@@ -327,6 +328,8 @@ func (p *Person) UnmarshalText(text []byte) error {
 			if body != "" {
 				p.Body = append(p.Body, body)
 			}
+		case "note":
+			p.Notes = append(p.Notes, body)
 		default:
 			return fmt.Errorf("Unknown command %q", args[0])
 		}
@@ -468,9 +471,12 @@ func WriteChildBioInline(w io.StringWriter, parent *Person, child *Person, ignor
 		}
 	}
 	w.WriteString(".")
-	body := strings.TrimSpace(strings.Join(child.Body, " "))
+	for i, b := range child.Body {
+		child.Body[i] = strings.TrimSpace(b)
+	}
+	body := strings.Join(child.Body, "\n\n")
 	if len(body) > 0 {
-		w.WriteString(" " + body)
+		w.WriteString("\n\n" + body)
 	}
 }
 
@@ -722,6 +728,14 @@ func (r Root) generateOne(primary string) (string, []string) {
 			out.WriteString(".")
 		}
 		out.WriteString("</p>\n")
+	}
+
+	if len(first.Notes) > 0 {
+		out.WriteString("$notes{\n")
+		for _, n := range first.Notes {
+			out.WriteString("$note{" + n + "}\n")
+		}
+		out.WriteString("}\n")
 	}
 
 	for _, p := range first.Body {

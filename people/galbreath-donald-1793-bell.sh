@@ -7,15 +7,7 @@ external {
 partner {
     name Ann Bell
     marriage -date 10-dec-1812 -location 'killean and kilchenzie' -ref marriage
-    child {
-        name Peggy Galbreath
-        baptism -date 13-Sep-1813 -location  'killean and kilchenzie' -ref peggy-bapt
-        death -date 12-mar-1896 -location 'Harrington,East Nissouri,Ontario,Canada'
-        partner {
-            name Hugh Angus McMillan
-            marriage -date 7-jul-1832 -location 'killean and kilchenzie'
-        }
-    }
+    child galbreath-margaret-1813-fisher
     child galbreath-duncan-1815-thomson
     child {
         name Archibald Galbreath
@@ -44,7 +36,7 @@ partner {
     marriage -date 'about 1830'  -location campbeltown -ref marriage2
     child {
         name Mary Galbreath
-        baptism -date 7-may-1832 -location campbeltown  -ref margt-bapt
+        baptism -date 7-may-1832 -location campbeltown  -ref mary-bapt
     }
     child {
         name Elizabeth Galbreath
@@ -57,7 +49,7 @@ body {
 His parents were Daniel Galbreath and Mary McEnchie[?]. They appear to have not married and Daniel died while Mary was pregnant. The son Donald is listed as "natural" (as opposed to "lawful").
 }
 
-body {In the Killean Parish, there are not any matching records for the father Daniel. However in Campbeltown, there is a Daniel Galbreath, son of John Galbreath/Margaret Clark baptized 22 Aug 1772.$ref[maybe-father]  As for his mother, the name "Mary McEachine" was very common at the time. There are no matches for her death in the statutory records after 1855, so she perhaps died before 1855.
+body {In the Killean Parish, there are no matching records for the father Daniel. However in Campbeltown, there is a Daniel Galbreath, son of John Galbreath/Margaret Clark baptized 22 Aug 1772.$ref[maybe-father]  As for his mother, the name "Mary McEachine" was very common at the time. There are no matches for her death in the statutory records after 1855, so she perhaps died before 1855.
 }
 
 body {
@@ -70,7 +62,6 @@ Ann Galbraith,10,1831,-
 Margaret Galbraith,1833,-
 Elizabeth Galbraith,1835,-
 }
-
 
 1851 Census, Campbeltown$ref[census-1851]
 
@@ -94,53 +85,74 @@ Mary Galbraith, Daugt, Unmarried, 26, 1835, Campbeltown, dressmaker
 }
 
 }
+
+note {
+The first daughter Peggy or Margaret is often confused with another Margaret Galbraith who married Hugh McMillan and immigrated to Canada.
+}
+
+note {
+The second wife is speculative.
+}
+
 footnotes {
     baptism {
-        $opr-baptism[2b7991e8-05cc-4de7-8602-2b8151a8c83f]
+        $opr-ref-link[b-1793-519-000-0010-0090 "Donald Galbreath"]{
+            Donald Natural Son to Daniel Galbreath late at [?] and Mary McEachren at Balloch Bapt 5 May
+        }
     }
     death {
-        $sp-ref-link[d-1867-507-00-0148 50 "Donald Galbraith"]{
+        $sp-ref-link[d-1867-507-0000-0148 50 "Donald Galbraith"]{
         Donald Galbraith, Carter, widower of Agnes Bell, died 1867 December Ninth ...  son of Donald Galbraith, Country Workman (deceased) and Margt Galbraith M.S McKenchie.  John Fisher, Newphew, Present.
          } 
+         The witness John Fisher is actually the granson. The word $i{newphew} here is the obsolete meaning any direct descendant, in particular grandson.
     }
     marriage {
-        TBD: 1812 GALBREATH, DONALD (Old Parish Registers Marriages 519/ Killean and Kilchenzie) Page 367 of 379
+        $opr-ref-link[m-1812-519-000-0010-0367 "Donald Galbreath" "Anne Bell"]{
+        | Dec | 10 | Donald Galbreath + Anne Bell Ackanaken?
+        }
     }
     marriage2 {
         Married appears to be unrecorded.
     }
     maybe-father {
-        $opr-baptism[2215d66c-91a9-449d-8134-c1d24a9d8b3f]
-    }
-    peggy-bapt {
-        $opr-baptism[61c327b6-bfbe-4af7-98c5-ab081adcba55]
+        $opr-ref-link[b-1772-507-000-0011-0384 "Daniel Galbreath"]{
+            Daniel | John Galbreath + Margt Clark had a son born 21st and  baptized 22nd August named Daniel
+        }
     }
     christina-bapt {
-        $opr-baptism[34c07b88-481e-4af0-8ec7-57d5f082406c]
+        $opr-ref[b-1822-519-000-0020-0020 "Christian Galbreath"]
     }
     archibald-bapt {
-        $opr-baptism[957d9534-c691-4972-aa34-c4a454ef4836]
+        $opr-ref[b-1817-519-000-0010-0294 "Archibald Galbreath"]
     }
     donald-bapt {
-        $opr-baptism[63f2cce5-3569-4e71-9bf6-c9242a3ea7f8]
+        $opr-ref[b-1819-519-000-0010-0305 "Donald Galbreath"]
     }
     alexander-bapt {
-        $opr-baptism[0f5ef02f-3228-40a4-a8f4-446f650e2a37]
+        $opr-ref-link[b-1827-519-000-0020-0051 "Alexander Galbreath"]{
+            May | 4 | Alexd lawful son to Donald Galbreath and _____ Bell Kilberaie[?]
+        }
     }
     anne-bapt {
-        $opr-baptism[ab8134e9-5408-41b0-ad5c-e660ec830fdd]
+        $opr-ref-link[b-1829-507-000-0060-0183 "Anne Galbreath"]{
+            Anne - Lawful daughter of Donald Galbreath Laborer and Anne Bell was born 27 May + bapt 2 June 1829 - Anne
+        }
     }
-    margt-bapt {
-        $opr-baptism[8fdb33aa-1f52-4087-8074-a175d707aefa]
+    mary-bapt {
+        $opr-ref-link[b-1832-507-000-0070-0012 "Mary Galbreath"]{
+            Mary -- lawful daughter of Donald Galbreath laborer & Ann McMillan was born 3rd + baptized 5th July 1832 & named Mary
+        }
     }
     eliza-bapt {
-        $opr-baptism[9366f2b6-f53e-4896-8093-f1db68a43b5b]
+        $opr-ref-link[b-1834-507-000-0070-0053 "Eliza Galbreath"]{
+            Lawful daughter of Donald Galbreath laborer & Ann McMillan was born 10th & bapt 13th
+        }
     }
     eliza-death {
         $sp-ref-link[d-1866-644-01-1087 0363 "Elizabeth Galbraith"]
     }
     census-1841 {
-
+        TBD
     }
     census-1851 {
         https://www.findmypast.com/transcript?id=GBC/1851/0019255382&expand=true
