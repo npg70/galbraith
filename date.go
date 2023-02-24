@@ -4,13 +4,22 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
+	"time"
 )
 
 type Date struct {
 	about bool
-	day   int
-	month int
-	year  int
+	day   int // 1-31
+	month int // 1-12
+	year  int // four digits
+}
+
+func ParseTime(t time.Time) Date {
+	return Date{
+		day:   t.Day(),
+		month: int(t.Month()),
+		year:  t.Year(),
+	}
 }
 
 func ParseDate(s string) (Date, error) {

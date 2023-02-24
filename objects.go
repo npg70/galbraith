@@ -8,6 +8,7 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+	"time"
 )
 
 type Ref struct {
@@ -213,6 +214,7 @@ type Person struct {
 	generation int      // generation number 1,2,3..
 	counter    int      // entry counter 1...
 	refs       []string // footnote coutner per person
+	lastUpdate time.Time
 
 	root Root // not clear why I need this
 
@@ -618,7 +620,6 @@ func (r Root) LoadAll(root string) {
 		for _, p := range first.Partners {
 			for _, c := range p.Children {
 				if c.ID != "" {
-					log.Printf("loading %s", c.ID)
 					kid, err := r.Load(c.ID)
 					if err != nil {
 						panic(err)
@@ -632,7 +633,6 @@ func (r Root) LoadAll(root string) {
 			}
 		}
 	}
-	log.Printf("DONE")
 }
 
 func FindMother(child *Person) *Person {
@@ -684,7 +684,13 @@ func (r Root) generateOne(primary string) (string, []string) {
 		out.WriteString(fmt.Sprintf("$ancestor[counter=%d generation=%d mother=%q]{%s}\n",
 			p.parent.counter, p.generation, mother.FullName(), WriteLineageNameLink(p.parent)))
 	}
-	out.WriteString("}\n")
+	out.WriteString("}\n") /* lineage */
+
+	out.WriteString("$pagemeta{")
+	out.WriteString(fmt.Sprintf("<a href=https://github.com/npg70/galbraith/blob/main/people/%s.sh>%s</a> updated on ", first.ID, "source"))
+	out.WriteString("$date{" + ParseTime(first.lastUpdate).String() + "}")
+	out.WriteString("}\n") /* page meta */
+
 	out.WriteString("}\n")
 
 	out.WriteString("$person-main{")

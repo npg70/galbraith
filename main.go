@@ -7,10 +7,16 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+
+	"github.com/bep/gitmap"
 )
 
-func computeRoots() []string {
-	db := make(Root)
+func computeRoots(db Root) []string {
+	repo, err := gitmap.Map(".", "")
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	pmap := make(map[string]bool)
 	files, err := filepath.Glob("./people/*.sh")
 	if err != nil {
@@ -19,6 +25,9 @@ func computeRoots() []string {
 	for _, f := range files {
 		uid := strings.TrimSuffix(filepath.Base(f), ".sh")
 		_, nextg := db.generateOne(uid)
+		if ginfo, ok := repo.Files[f]; ok {
+			db[uid].lastUpdate = ginfo.CommitDate
+		}
 		for _, child := range nextg {
 			pmap[child] = true
 		}
@@ -46,7 +55,7 @@ func main() {
 	flag.Parse()
 
 	db := make(Root)
-	roots := computeRoots()
+	roots := computeRoots(db)
 	if rootsOnly {
 		return
 	}

@@ -217,6 +217,10 @@ func emitHTMLHugo(n *html.Node, singlePage bool) string {
 		"banner": func(args []string, body string) string {
 			return "<div class='row'><div class='col-12 banner'>" + body + "</div></div>\n"
 		},
+		"pagemeta": func(args []string, body string) string {
+			return fmt.Sprintf("<div class=%s><h6>Meta</h6>%s</div><!-- %s -->\n",
+				args[0], body, args[0])
+		},
 		"person-bio": makeTagClass("div"),
 
 		"headline": makeTag("h1"),
