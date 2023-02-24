@@ -8,8 +8,10 @@
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
     <title>{{ .Title }}</title>
+    <link rel="preload" href="{{ .Site.BaseURL }}/fonts/SourceSerif4Variable-Roman.otf.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ .Site.BaseURL }}/fonts/SourceSerif4Variable-Italic.otf.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ .Site.BaseURL }}/fonts/Courier Prime.ttf.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/source-serif.css">
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/styles.css">
     </head>
     <body>

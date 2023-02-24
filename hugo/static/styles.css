@@ -4,6 +4,33 @@
   --bs-link-color: rgb(22,108,215);
   --bs-link-hover-color: rgb(22,108,215);
 }
+@font-face{
+    font-family: 'Source Serif VF';
+    font-weight: 200 900;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/galbraith/fonts/SourceSerif4Variable-Roman.otf.woff2') format('woff2')
+}
+
+@font-face{
+    font-family: 'Source Serif VF';
+    font-weight: 200 900;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/galbraith/fonts/SourceSerif4Variable-Italic.otf.woff2') format('woff2')
+}
+
+@font-face {
+    /*
+     * https://github.com/quoteunquoteapps/CourierPrime
+     * https://johnaugust.com/2013/introducing-courier-prime
+     * https://fonts.google.com/specimen/Courier+Prime
+     *
+     * and then converted from ttf to woff2 (109k to 29k)
+     */
+    font-family: courier-prime;
+    src: url("/galbraith/fonts/Courier Prime.ttf.woff2") format('woff2');
+}
 
 body {
     font-family: "Source Serif VF", "Source Serif", sans;
@@ -92,16 +119,6 @@ ul.notes {
 ul.notes li {
     margin-left: 0;
     padding-left: 2em;
-}
-
-@font-face {
-    /*
-     * https://github.com/quoteunquoteapps/CourierPrime
-     * https://johnaugust.com/2013/introducing-courier-prime
-     * https://fonts.google.com/specimen/Courier+Prime
-     */
-    font-family: courier-prime;
-    src: url("/galbraith/fonts/Courier Prime.ttf");
 }
 
 blockquote {
