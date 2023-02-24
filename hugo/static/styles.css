@@ -109,6 +109,14 @@ div.person {
     margin-bottom: 40px;
     page-break-after: always;
 }
+ol.lineage {
+    padding-left: 1em;
+}
+ul.externals {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
 
 ul.notes {
     list-style-type: "\2799";

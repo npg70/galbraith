@@ -228,7 +228,7 @@ func emitHTMLHugo(n *html.Node, singlePage bool) string {
 			if strings.TrimSpace(body) == "" {
 				return ""
 			}
-			return fmt.Sprintf("<div class=%s><h6>External</h6><ul>%s</ul></div><!-- %s -->\n", args[0], body, args[0])
+			return fmt.Sprintf("<div class=%s><h6>External</h6><ul class=externals>%s</ul></div><!-- %s -->\n", args[0], body, args[0])
 		},
 		"external": func(args []string, body string) string {
 			return fmt.Sprintf("<li><a href=%q>%s</a></li>\n", args[1], body)
