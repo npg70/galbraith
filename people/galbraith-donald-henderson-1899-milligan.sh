@@ -12,8 +12,8 @@ partner {
     child galbraith-donald-henderson-1929-campbell
 }
 
-body {
-NOTE: There is a another "Janet McKean Milligan" in Ayrshire, born 1916, died 1970.$ref[other-janet]
+note {
+There is a another "Janet McKean Milligan" in Ayrshire, born 1916, died 1970, married James Holden Hynd in 1980.$ref[other-janet]
 }
 
 footnotes {
@@ -45,7 +45,7 @@ footnotes {
         $sp-ref[d-1980-642-00-0221 "Janet Lang McKean Galbraith"] record sealed until 2030.
     }
     other-janet {
-        A different Janet Milligan: $sp-ref-link[b-1916-595-00-0011 0004 "Janet McKean Milligan"] and $sp-ref-link[d-1970-597-00-0556 0556 "Janet McKean Milligan"]
+        A different Janet Milligan: $sp-ref-link[b-1916-595-00-0011 0004 "Janet McKean Milligan"] and $sp-ref-link[d-1970-597-00-0556 0556 "Janet McKean Milligan"], $sp-ref[m-1940-644-08-0833 "Janet KcKean Milligan" "James Holden Hynd"]
     }
 }
 
