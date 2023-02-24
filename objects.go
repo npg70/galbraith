@@ -709,7 +709,10 @@ func (r Root) generateOne(primary string) (string, []string) {
 	for i, partner := range first.Partners {
 		marriage := partner.Events["marriage"]
 		if marriage != nil {
-			ordinal := Ordinal(i + 1)
+			ordinal := ""
+			if len(first.Partners) > 1 {
+				ordinal = Ordinal(i + 1)
+			}
 			out.WriteString("<p>")
 			out.WriteString("He married " + ordinal + " " + EventDatePlace(first, marriage) + " to $partner-name{" + partner.FullName() + "}")
 
