@@ -45,13 +45,6 @@ func main() {
 	flag.BoolVar(&rootsOnly, "root", false, "run and display roots")
 	flag.Parse()
 
-	// soon to be obsolete
-	log.Printf("Loading OPR Database")
-	oprdb, err := LoadOPRBaptisms()
-	if err != nil {
-		log.Fatalf("can't load opr baptism", err)
-	}
-
 	db := make(Root)
 	roots := computeRoots()
 	if rootsOnly {
@@ -85,7 +78,7 @@ func main() {
 				log.Fatalf("Footnoter failed: %s", err)
 			}
 
-			out := emitHTMLHugo(root, oprdb, singlePage)
+			out := emitHTMLHugo(root, singlePage)
 			if outdir != "" {
 				fullpath := filepath.Join(outdir, "test"+suffix)
 				log.Printf("Writing %q", fullpath)
@@ -112,7 +105,7 @@ func main() {
 				log.Fatalf("Footnoter failed: %s", err)
 			}
 
-			out := emitHTMLHugo(root, oprdb, singlePage)
+			out := emitHTMLHugo(root, singlePage)
 			if outdir == "" {
 				fmt.Println(out)
 				continue

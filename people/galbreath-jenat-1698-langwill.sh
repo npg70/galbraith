@@ -1,11 +1,11 @@
 name Janet Galbreath
-baptism -date 24-feb-1698 -location campbeltown -ref baptism
+baptism -date 24-feb-1698 -location campbeltown -ref janet1698-baptism
 external {
     familysearch LQRH-NLV
 }
 partner {
     name Peter Langwill
-    marriage -date 25-Apr-1717 -location campbeltown
+    marriage -date 25-Apr-1717 -location campbeltown -ref marriage
     child {
         name John Langwill
         baptism -date 6-apr-1718
@@ -55,6 +55,11 @@ partner {
     }
 }
 footnotes {
-    baptism { $opr-baptism[f0fd94f7-6f9a-4f07-a02e-d7469a47f34f] }
+    janet1698-baptism {
+        $opr-ref-link[b-1698-507-000-0011-0076 "Jenat Galbreath"]
+    }
+    marriage {
+        $opr-ref-link[m-1717-507-000-0011-0424 "Janet Galbreath" "Peter Langwill"]
+    }
 }
 

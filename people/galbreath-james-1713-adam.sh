@@ -1,5 +1,5 @@
 name James Galbreath
-baptism -date 20-aug-1713 -location campbeltown -ref baptism
+baptism -date 20-aug-1713 -location campbeltown -ref james1713-baptism
 external {
     familysearch G3PJ-D5Z
 }
@@ -11,20 +11,20 @@ partner {
         baptism -date 18-mar-1740 -location campbeltown -ref mary1-bapt
     } 
     child {
-            name Archibald Galbreath
-            baptism -date "dec 1743" -location campbeltown -ref arch-bapt
+        name Archibald Galbreath
+        baptism -date dec-1743 -location campbeltown -ref arch-bapt
     }
     child {
         name James Galbreath
-        baptism -date 15-jan-1746 -location campbeltown -ref james1-bapt
-}
+        baptism -date 15-jan-1746 -location campbeltown -ref james1746-bapt
+    }
     child {
         name _____ Galbreath
         baptism -date 13-jul-1748 -location campbeltown -ref unknown-bapt
 }
     child {
         name James Galbreath
-        baptism -date 3-june-1750 -location campbeltown -ref james2-bapt
+        baptism -date 3-june-1750 -location campbeltown -ref james1750-bapt
     }
     child {
          name Margaret Galbreath
@@ -57,39 +57,43 @@ partner {
 }
 footnotes {
     baptism {
-        $opr-baptism[59176e7a-b8e1-4af7-9ef8-3d3e6e07b6a9]
+        $opr-ref-link[b-1713-507-000-0011-0117 "James Galbreath"]
     }
     mary1-bapt {
-        $opr-baptism[853d6f13-1db8-4459-a9a9-c85478d3bd5d]
+        $opr-ref[b-1740-507-000-0011-0230 "Mary Galbreath"]
     }
     arch-bapt {
-        $opr-baptism[6c682f96-f847-4de9-93ad-72bda80716ac]
+        $opr-ref-link[b-1743-507-000-0011-0244 "Archibald Galbreath"]
     }
-    james1-bapt {
-        $opr-baptism[7d8e43a9-48b1-4257-9c67-a1f2ad9ff695]
+    james1746-bapt {
+        $opr-ref[b-1746-507-000-0011-0255 "James Galbreath"]
     }
     unknown-bapt {
-        $opr-baptism[a87ad226-bc8e-43b6-a945-0f988e616532]
+        $opr-ref[b-1748-507-000-0011-0396 "_____ Galbreath"]
     }
-    james2-bapt {
-        $opr-baptism[6bf1acfa-765f-4c58-8895-da696ec7b360] 
+    james1750-bapt {
+        $opr-ref[b-1750-507-000-0011-0272 "James Galbreath"]
     }
     marg1-bapt {
-        $opr-baptism[55a87e55-42c3-43d0-8ff3-299f0bdb52a0]
+        $opr-ref[b-1752-507-000-0011-0282 "Margaret Galbreath"]
     }
     david-bapt {
-        $opr-baptism[e6959d25-3e4b-4f4e-bdd3-0c1cd83f6563]
+        $opr-ref[b-1755-507-000-0011-0294 "David Galbreath"]
+        $opr-ref[b-1755-507-000-0010-0221 "David Galbraith"]
     }
     janet-bapt {
-        $opr-baptism[b9ad0726-3ba8-4751-ab74-661a1a52e030]
+        $opr-ref-link[b-1757-507-000-0011-0304 "Janet Galbreath"]
+        $opr-ref-link[b-1757-507-000-0010-0231 "Janet Galbraith"]
     }
     marg2-bapt {
-        $opr-baptism[76e115ed-df16-4cd3-a92d-cf69051dbef4]
+        $opr-ref[b-1761-507-000-0011-0325 "Margaret Galbreath"]
+        $opr-ref[b-1761-507-000-0010-0259 "Margaret Galbraith"]
     }
     marg3-bapt {
-        $opr-baptism[87520ced-2fba-4b81-b92c-1d48fff5d217]
+        $opr-ref[b-1762-507-000-0011-0332 "Margaret Galbreath"]
     }
     mary2-bapt {
-        $opr-baptism[e286b6cb-ffa9-49a4-8e50-885c47b1ffc0]
+        $opr-ref[b-1765-507-000-0011-0349 "Mary Galbreath"]
+        $opr-ref[b-1765-507-000-0010-0298 "Mary Galbraith"]
     }
 }

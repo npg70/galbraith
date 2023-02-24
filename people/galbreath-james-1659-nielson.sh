@@ -26,16 +26,25 @@ partner {
 }
 footnotes {
     birth {
-        $opr-baptism[d967e476-029f-4db2-a872-ca78d229a698]
+        $opr-ref-link[b-1659-507-000-0011-0015 "James Galbreath"]{
+            James | Lawful son to James Galbreath and Mary Neilsone his spouse in Ardnacross, Born Aug 22nd, baptised 25th
+        }
     }
     matthew1691 {
-        $opr-baptism[d3eedbc8-fb41-4dd3-860d-da8a5bdcfca5]
+        $opr-ref-link[b-1691-507-000-0011-0056 "Matthew Galbreath"]{
+            Matthew | Lawful son to James Galbreath and Mary Nielson
+            his lawful spouse, Born 15th March Matthew
+         }
     }
     patrick-baptism {
-        $opr-baptism[1d6c9175-25bd-4e0c-986d-f8020f92e373]
+        $opr-ref-link[b-1674-507-000-0011-0023 "Patrick Galbreath"]{
+            Patrick | Lawful son to James Galbreath and Mary Neilson his spouse in Kilkedan, Born Oct 28th
+        }
     }
     arch1-baptism {
-        $opr-baptism[215d21c1-ced2-4fce-9087-abeddf016d02]
+        $opr-ref-link[b-1678-507-000-0011-0031 "Archibald Galbreath"]{
+            Archd | Lawful son to James Galbreath and Mary Neilson his spouse in Killkeddan, baptised July 17th named Archibald
+        }
     }   
 }
 

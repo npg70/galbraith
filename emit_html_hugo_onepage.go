@@ -128,7 +128,7 @@ func footnoter_person(n *html.Node) error {
 	return nil
 }
 
-func emitHTMLHugo(n *html.Node, oprdb OPRBaptismDB, singlePage bool) string {
+func emitHTMLHugo(n *html.Node, singlePage bool) string {
 	front := ""
 	if singlePage {
 		front += "---\n"
@@ -312,28 +312,6 @@ func emitHTMLHugo(n *html.Node, oprdb OPRBaptismDB, singlePage bool) string {
 			}
 
 			return OPRText(args[1], args[2], person2, true) + "<blockquote>" + strings.TrimSpace(body) + "</blockquote>\n"
-		},
-		"opr-baptism": func(args []string, body string) string {
-			uuid := args[1]
-			rec, ok := oprdb[uuid]
-			if !ok {
-				log.Fatalf("got reference for %q but couldn't find", uuid)
-			}
-			s := strings.Builder{}
-			s.WriteString(fmt.Sprintf(
-				"<div>Baptism of %s %s, OPR %s",
-				rec.Forename, rec.Surname, rec.ParishName))
-
-			if len(rec.Transcription) != 0 {
-				s.WriteString(fmt.Sprintf(". Transcription from <a href=%s>%s</a>:", rec.ReferenceLink(), rec.ReferenceImage()))
-				s.WriteString("<blockquote>")
-				s.WriteString(rec.Transcription)
-				s.WriteString("</blockquote>")
-			} else {
-				s.WriteString(fmt.Sprintf(", %s.", rec.ReferenceImage()))
-			}
-			s.WriteString("</div>")
-			return s.String()
 		},
 	}
 

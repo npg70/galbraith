@@ -1,5 +1,5 @@
 name James Galbreath
-baptism -date 2-oct-1726 -location campbeltown -ref baptism
+baptism -date 2-oct-1726 -location campbeltown -ref james1726-baptism
 external {
     familysearch KCQW-GZT
 }
@@ -59,8 +59,7 @@ partner {
     }
 }
 footnotes {
-    baptism {
-        $opr-baptism[d5a9662a-6e81-481e-b07d-d131505fe412]
+    james1726-baptism {
+        $opr-ref-link[b-1726-507-000-0011-0168 "James Galbreath"]
     }
-
 }

@@ -30,15 +30,21 @@ partner () {
 }
 footnotes {
     baptism {
-        $opr-baptism[d967e476-029f-4db2-a872-ca78d229a698]
+        $opr-ref-link[b-1672-507-000-0011-0015 "James Galbreath"]
     }
     james1-bapt {
-        $opr-baptism[2b888c5a-9937-4af2-b9fc-5c27bd78ff6b]
+        $opr-ref-link[b-1706-507-000-0011-0099 "James Galbreath"]
     }
     marg-bapt {
-        $opr-baptism[67992274-7ed6-4b73-9801-81b5873b8658]
+        $opr-ref-link[b-1711-507-000-0011-0111 "Margaret Galbreath"]{ 
+            Margt | Lawful daughter to James Galbreath and Mary Fleeming his
+            lawful spouse, Born August 14th Named Margt.
+        }
     }
     arch-bapt {
-        $opr-baptism[e507350f-f9eb-45e1-9fbe-b14072cbe9c0]
+        $opr-ref-link[b-1715-507-000-0011-0123 "Archibald Galbreath"]{
+            Archd | James Galbreath and Mary Fleeming his lawfull spouse
+            has a son Born 9th September named Archibald
+        }
     }
 }

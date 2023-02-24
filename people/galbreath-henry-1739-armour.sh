@@ -1,5 +1,5 @@
 name Henry Galbreath
-baptism -date apr-1739 -location campbeltown -ref baptism
+baptism -date apr-1739 -location campbeltown -ref henry1739-baptism
 death -date 15-jul-1789 -location campbeltown
 burial -name "Kilchousland Graveyard"
 external {
@@ -7,7 +7,7 @@ external {
 }
 partner {
     name Agnes Armour
-    marriage -date 5-mar-1767 -location campbeltown
+    marriage -date 5-mar-1767 -location campbeltown -ref marriage
     baptism -date 5-jun-1752 -location campbeltown
     child galbreath-james-1768-harvey
     child {
@@ -42,26 +42,32 @@ partner {
     }
 }
 footnotes {
-    baptism {
-        $opr-baptism[7eb24d20-6e22-4e5a-8ec7-e311add0ef4c]
-        $opr-baptism[88aaa2d2-9181-4b83-90cc-ed57adf4fa16]
-        $opr-baptism[886134f3-173f-4650-901b-8a77116ef64c]
+    henry1739-baptism {
+        $opr-ref-link[b-1739-507-000-0011-0227 "Henry Galbreath"]
+        $opr-ref[b-1739-507-000-0010-0163 "Henry Galbreath"]
+        $opr-ref[b-1739-507-000-0010-0163 "Henry Calbraith"]
+    }
+    marriage {
+        $opr-ref-link[m-1768-507-000-0011-0469 "Hendry Galbraith" "Agnes Armour"]
+        $opr-ref-link[m-1768-507-000-0011-0471 "Hendry Galbraith" "Agnes Armour"]
     }
     marg-bapt {
-        $opr-baptism[464aa686-a341-45b7-bae8-ae2c8902a690]
-        $opr-baptism[5655a795-388b-4fb7-8cc6-9f44ed164b9c]
+        $opr-ref[b-1771-507-000-0030-0198 "Margaret Galbreath"]
+        $opr-ref[b-1771-507-000-0011-0380 "Margaret Galbreath"]
+        Father indexed as "Henery"
     }
     flo-bapt {
-        $opr-baptism[223130f2-ed89-4af9-98bc-325a85aea096]
+        $opr-ref[b-1777-507-000-0020-0035 "Florence Galbreath"]
     }
     mary-bapt {
-        $opr-baptism[e2c716fd-a387-4c7d-953d-4fc2644284f2]
+        $opr-ref[b-1782-507-000-0020-0062 "Mary Galbreath"]
     }
     john-bapt {
-        $opr-baptism[f56c08b1-c3a5-4b1e-835b-794e0fce2f77]
+        $opr-ref[b-1786-507-000-0020-0088 "John Galbraith"]
+        Father indexed as "Hendry"
     }
     alex-bapt {
-        $opr-baptism[e7c6b39a-4d2c-4ac7-87e6-6a01a9cd5c40]
+        $opr-ref[b-1788-507-000-0020-0108 "Alexander Galbreath"]
 
     }
 }
