@@ -22,14 +22,43 @@ partner {
     birth -date 5-jun-1863 -location 'stair,ayrshire'
     death -date 15-feb-1953 -location 'Neepawa,Manitoba,Canada'
     marriage -date 1885 -location kilmarnock,ayr -ref marriage
+
+    child {
+        name William Alexander
+        birth -date 1885
+    }
+    child {
+        name Annie Alexander
+        birth  -date 1887
+    }
+    child {
+        name Jessie Edna Alexander
+        birth -date 1890
+    }
+    child {
+        name Florence Mae Alexander
+        birth  -date 1892 -location manitoba,canada
+    }
+    child {
+        name Louise G Alexander
+        birth -date 1892 -location manitoba,canada
+    }   
+    child {
+        name John McKee Alexander
+        birth -date 1895 -location manitoba,canada
+    }
+    child {
+        name Agnes M Alexander
+        birth -date 1896 -location manitoba,canada
+    }
+    child {
+        name Maud O Alexander
+        birth -date 1899 -location manitoba,canada
+    }
 }
 
 body {
 Before her marriage to Samuel, Ann Bell had a son, Alexander, from an unknown father.  Her father and step-mother raised the boy, and listed him as a son in the 1881 census.
-}
-
-note {
-TBD: lots of children for Ann Bell and Samuel but didn't fill it out. See Family Search for details.
 }
 
 note {
