@@ -28,15 +28,18 @@ body {
 Before her marriage to Samuel, Ann Bell had a son, Alexander, from an unknown father.  Her father and step-mother raised the boy, and listed him as a son in the 1881 census.
 }
 
-body {
+note {
 TBD: lots of children for Ann Bell and Samuel but didn't fill it out. See Family Search for details.
 }
 
-body {
-Note: There is a "Annabella Galbraith" also born 1859, but in Barra and daughter of X and Y.
+note {
+There is a "Annabella Galbraith" also born 1859, but in Barra and daughter of John Galbraith and Isabella McKinnon.$ref[not-ann-birth]
 }
 
 footnotes {
+    not-ann-birth{
+        $sp-ref-link[b-1859-108-00-0051 0017 "Annabella Galbraith"]
+    }
     ab-birth {
         $sp-ref-link[b-1859-598-00-0033 0011 "Ann Bell Galbreath"] 
     }
