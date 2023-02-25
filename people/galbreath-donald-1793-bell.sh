@@ -13,10 +13,7 @@ partner {
         name Archibald Galbreath
         baptism -date 29-Jun-1817 -location 'killean and kilchenzie' -ref archibald-bapt
     }
-    child {
-        name Donald Galbreath
-        baptism -date 8-Aug-1819 -location 'killean and kilchenzie' -ref donald-bapt
-    }
+    child galbreath-donald-1819-mclean
     child {
         name Christina Galbreath
         baptism -date 21-Jan-1822 -location 'killean and kilchenzie' -ref christina-bapt

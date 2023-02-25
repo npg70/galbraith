@@ -37,7 +37,7 @@ partner {
     }
     child {
         name Florence Mae Alexander
-        birth  -date 1892 -location manitoba,canada
+        birth -date 1892 -location manitoba,canada
     }
     child {
         name Louise G Alexander
@@ -66,7 +66,7 @@ There is a "Annabella Galbraith" also born 1859, but in Barra and daughter of Jo
 }
 
 footnotes {
-    not-ann-birth{
+    not-ann-birth {
         $sp-ref-link[b-1859-108-00-0051 0017 "Annabella Galbraith"]
     }
     ab-birth {
