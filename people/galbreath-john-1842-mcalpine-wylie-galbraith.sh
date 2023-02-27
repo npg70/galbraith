@@ -1,5 +1,5 @@
 name John Galbreath
-baptism -date 1842
+baptism -date 25-jul-1842 -location campbeltown -ref john1842-baptism
 death -date 26-may-1922 -location campbeltown -ref john1842-death
 note { 
     Possible descendants uninvestigated.
@@ -30,6 +30,12 @@ partner {
     }
 }
 footnotes {
+    john1842-baptism {
+        $opr-ref-link[b-1842-507-000-0070-0223 "John Galbreath"]{
+            John -- Lawful son of David Galbreath, Sawyer, and Janet Mitchell,
+            was born second and baptized 25 July 1842.
+        }
+    }
     john1842-death {
         $sp-ref-link[d-1922-507-00-0070 0024 "John Galbraith"]{
             70. John Galbraith, Fisherman. Widow of (1) Agnes McAlpine (2) Charlotte Wylie (3) Isabella Galbraith;

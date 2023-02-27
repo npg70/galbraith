@@ -1,5 +1,6 @@
 name Archibald Galbreath
-baptism -date 10-jul-1825
+birth -date 7-jul-1825 
+baptism -date 10-jul-1825 -location campbeltown -ref archibald1825-baptism
 death -date 9-apr-1895 -location campbeltown -ref archibald1825-death
 external {
     familysearch LZVY-RCL
@@ -60,6 +61,12 @@ partner {
 }
 
 footnotes {
+    archibald1825-baptism {
+        $opr-ref-link[b-1825-507-000-0060-0108 "Archibald Galbreath"]{
+            Archibald Lawful son to David Galbreath Sawyer and 
+            Janet Mitchell was born 7th + Bapt 10 July-- Arch
+        }
+    }
     archibald1825-death {
         $sp-ref-link[d-1895-507-00-0092 0031 "Archibald Galbraith"]
     }

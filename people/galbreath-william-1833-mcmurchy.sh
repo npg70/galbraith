@@ -1,6 +1,6 @@
 name William Galbraith
 birth -date 29-sep-1833 
-baptism -date 2-oct-1833 -location campbeltown -ref william1833-baptism
+baptism -date 2-oct-1833 -location Campbeltown -ref william1833-baptism
 death -date 28-may-1894 -location campbeltown -ref william1833-death
 note {
     Larne, Ireland is almost exactly straight south from Campbeltown across the sea. (Google Maps: https://goo.gl/maps/7TCf3CzZ54MxdBq17)
@@ -47,7 +47,10 @@ partner {
 }
 footnotes {
     william1833-baptism {
-        TBD
+        $opr-ref-link[b-1833-507-000-0070-0032 "William Galbreath"]{
+            William -- Lawful son of David Galbreath Sawyer and 
+            Janet Mitchell, was born 29th Sept + Bapt 2 Oct 1833
+        }   
     }
     william1833-death {
         $sp-ref-link[d-1894-507-00-0094 0032 "William Galbraith"]

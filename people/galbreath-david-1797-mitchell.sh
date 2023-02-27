@@ -9,6 +9,7 @@ partner {
     name Janet Mitchell
     birth -date 'about 1801'
     death -date 4-oct-1874 -location campbeltown -ref mitchell-death
+    marriage -date 5-oct-1824 -location campbeltown -ref marriage
 
     child galbreath-archibald-1825-paterson-galbreath
     child galbreath-samuel-1827-beton
@@ -46,6 +47,12 @@ footnotes {
     }
     mitchell-death {
         $sp-ref-link[d-1874-507-00-0137 0046 "Janet Mitchell"]
+    }
+    marriage {
+        $opr-ref-link[m-1824-507-000-0060-263 "David Galbreath" "Janet Mitchell"]{
+            David Galbreath Laborer + Janet Mitchell both of this parish
+            were married 5th October 1824
+        }    
     }
     david1835-death {
         $sp-ref-link[d-1901-507-00-0021 0007 "David Galbraith"]

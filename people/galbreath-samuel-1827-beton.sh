@@ -1,5 +1,5 @@
 name Samuel Galbreath
-baptism -date 14-jan-1827 -location campbeltown
+baptism -date 14-jan-1827 -location campbeltown -ref samuel1827-baptism
 death -date 17-oct-1860 -location campbeltown -ref samuel1827-death
 external {
     familysearch K82L-QRQ
@@ -18,6 +18,12 @@ partner {
 }
 
 footnotes {
+    samuel1827-baptism {
+        $opr-ref-link[b-1827-507-000-0060-0137 "Samuel Galbreath"]{
+            Samuel -- Lawful son of David Galbreath, Sawyer + Janet Mitchell
+            was born ? and bapt 14 Jan 1827 -- Samuel
+        }
+    }
     samuel1827-death {
         $sp-ref-link[d-1860-507-00-0149 0050 "Samuel Galbraith"]{
             149. Samuel Galbraith;
