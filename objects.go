@@ -737,6 +737,13 @@ func (r Root) generateOne(primary string) (string, []string) {
 			if death != nil {
 				out.WriteString(", died " + EventDatePlace(partner, death))
 			}
+			burial := partner.Events["burial"]
+			if burial != nil && burial.Name != "" {
+				out.WriteString(", and buried at " + burial.Name)
+				if burial.Ref != "" {
+					out.WriteString("$ref[" + burial.Ref + "]")
+				}
+			}
 			out.WriteString(".")
 		}
 		out.WriteString("</p>\n")
