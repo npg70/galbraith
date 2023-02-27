@@ -1,8 +1,10 @@
 name Margaret Galbreath
 baptism -date 13-Sep-1813 -location 'killean and kilchenzie' -ref peggy-bapt
 death -date 10-Jan-1888 -location campbeltown -ref peggy-death
+burial -name 'Kilchenzie Cemetery' -ref peggy-burial
 external {
     familysearch KC3B-41M
+    findagrave 161584624
 }
 partner {
     name Donald Fisher
@@ -15,6 +17,7 @@ partner {
     child {
         name Donald Fisher
         baptism -date 4-sep-1846 -location campbeltown
+        death -date 2-apr-1859
     }
     child {
         name May Fisher
@@ -31,6 +34,7 @@ partner {
     child {
         name Catherine Fisher
         baptism -date 29-oct-1854 -location campbeltown
+        death -date 1929
     }
 }
 note {
@@ -52,6 +56,9 @@ footnotes {
             Margaret Fisher widow of Donald Fisher, Laborer. 1888 January Tenth.  Age 72 [1816]
             Father: Donald Galbraith, Carter (deceased) Mother: Agnes Galbreath M.S. Bell (deceased). John Fisher son present.
         }    
+    }
+    peggy-burial {
+        https://www.findagrave.com/memorial/161584624/margaret-fisher
     }
     marriage {
         $opr-ref-link[m-1842-576-000-0020-0246 "Margaret Galbreath" "Donald Fisher"]
