@@ -526,7 +526,18 @@ func WriteChildBioLinked(w io.StringWriter, parent *Person, child *Person, ignor
 		// if both have date -- do something smart
 
 		w.WriteString(", b.&nbsp;" + EventDatePlaceCompact(parent, birth, ignorePlace))
-		w.WriteString(", bp.&nbsp;" + EventDatePlaceCompact(parent, bp, ignorePlace))
+
+		// hack -- assume baptism has the reference
+		oldref := bp.Ref
+		// here the footnote is actually in the child page
+		w.WriteString(",&nbsp;bp. " + EventDatePlaceCompact(child, bp, ignorePlace))
+
+		// if we have reference copy it into the parent
+		if oldref != "" {
+			// if we have reference copy it into the parent
+			parent.Footnotes[bp.Ref] = child.Footnotes[oldref]
+			bp.Ref = oldref
+		}
 	}
 	if len(child.Partners) == 1 {
 		// ; m. name
