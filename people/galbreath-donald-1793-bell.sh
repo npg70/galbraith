@@ -45,7 +45,7 @@ body {
 His parents were Daniel Galbreath and Mary McEnchie[?]. They appear to have not married and Daniel died while Mary was pregnant. The son Donald is listed as "natural" (as opposed to "lawful").
 }
 
-body {In the Killean Parish, there are no matching records for the father Daniel. However in Campbeltown, there is a Daniel Galbreath, son of John Galbreath/Margaret Clark baptized 22 Aug 1772.$ref[maybe-father]  As for his mother, its hard to say anything definitive since the name "Mary McEachine" was very common at the time. There are no matches for her death in the statutory records after 1855, so she perhaps died before 1855.
+body {In the Killean Parish, there are no matching records for the father Daniel. However in Campbeltown, there is a Daniel Galbreath, son of John Galbreath/Margaret Clark baptized 22 Aug 1772.$ref[maybe-father]  As for his mother, its hard to say anything definitive since the name "Mary McEachine" was very common at the time. There are no matches for her death in the statutory records after 1855, so she perhaps died before then.
 }
 
 body {
@@ -87,7 +87,7 @@ The first daughter Peggy or Margaret is often confused with another $child-link[
 }
 
 note {
-The second wife is speculative. They may be the same person, although it's unexplained why the change in last name occured.  It's unlikely there are two Donalds -- children Ann Bell and Ann McMillan are present together in various census records, and Donald is listed as a carter consistently.  Or perhaps the children were adopted.
+The second wife is speculative. They may be the same person, although it's unexplained why the last name changed for the last two children. It's unlikely there are two Donalds -- children Ann Bell and Ann McMillan are present together in various census records, and Donald is listed as a carter consistently. Another possibility is that the children were adopted somehow.
 }
 
 footnotes {
