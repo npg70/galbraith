@@ -34,6 +34,10 @@ partner {
     }
 }
 note {
+    Often confused with $child-link[Margaret Galbreath]{galbraith-margaret-1806-mcmillan}, b. about 1906 m. High McMillan
+}
+
+note {
     There may be additional children born after 1854.
 }
 

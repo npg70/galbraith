@@ -264,6 +264,9 @@ func (p *Person) UnmarshalText(text []byte) error {
 		if err != nil {
 			return err
 		}
+		if len(args) == 0 {
+			log.Fatalf("Person function had 0 args: body = %q", string(text))
+		}
 		switch args[0] {
 		case "external":
 			e := make(ExternalSource)
