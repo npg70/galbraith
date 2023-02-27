@@ -34,7 +34,7 @@ partner {
     }
 }
 note {
-    Often confused with $child-link[Margaret Galbreath]{galbraith-margaret-1806-mcmillan}, b. about 1906 m. High McMillan
+    Often confused with $child-link[galbreath-margaret-1806-mcmillan]{Margaret McMillan}, b. about 1906 m. High McMillan
 }
 
 note {

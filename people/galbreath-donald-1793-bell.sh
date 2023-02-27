@@ -6,6 +6,8 @@ external {
 }
 partner {
     name Ann Bell
+    death -date 23-nov-1856 -location campbeltown -ref annbell-death
+    burial -name "Kilchenzie Churchyard" -ref annbell-burial
     marriage -date 10-dec-1812 -location 'killean and kilchenzie' -ref marriage
     child galbreath-margaret-1813-fisher
     child galbreath-duncan-1815-thomson
@@ -23,10 +25,7 @@ partner {
         name Alexander Galbreath
         baptism -date 4-May-1827 -location 'killean and kilchenzie' -ref alexander-bapt
     }
-    child {
-        name Anne Galbreath
-        baptism -date 2-jun-1829 -location campbeltown -ref anne-bapt
-    }
+    child galbreath-anne-1829-mckinven
 }
 partner {
     name Ann McMillan
@@ -46,7 +45,7 @@ body {
 His parents were Daniel Galbreath and Mary McEnchie[?]. They appear to have not married and Daniel died while Mary was pregnant. The son Donald is listed as "natural" (as opposed to "lawful").
 }
 
-body {In the Killean Parish, there are no matching records for the father Daniel. However in Campbeltown, there is a Daniel Galbreath, son of John Galbreath/Margaret Clark baptized 22 Aug 1772.$ref[maybe-father]  As for his mother, the name "Mary McEachine" was very common at the time. There are no matches for her death in the statutory records after 1855, so she perhaps died before 1855.
+body {In the Killean Parish, there are no matching records for the father Daniel. However in Campbeltown, there is a Daniel Galbreath, son of John Galbreath/Margaret Clark baptized 22 Aug 1772.$ref[maybe-father]  As for his mother, its hard to say anything definitive since the name "Mary McEachine" was very common at the time. There are no matches for her death in the statutory records after 1855, so she perhaps died before 1855.
 }
 
 body {
@@ -84,11 +83,11 @@ Mary Galbraith, Daugt, Unmarried, 26, 1835, Campbeltown, dressmaker
 }
 
 note {
-The first daughter Peggy or Margaret is often confused with another Margaret Galbraith who married Hugh McMillan and immigrated to Canada.
+The first daughter Peggy or Margaret is often confused with another $child-link[galbreath-margaret-1806-mcmillan]{Margaret Galbreath} who married Hugh McMillan and immigrated to Canada.
 }
 
 note {
-The second wife is speculative.
+The second wife is speculative. They may be the same person, although it's unexplained why the change in last name occured.  It's unlikely there are two Donalds -- children Ann Bell and Ann McMillan are present together in various census records, and Donald is listed as a carter consistently.  Or perhaps the children were adopted.
 }
 
 footnotes {
@@ -101,7 +100,7 @@ footnotes {
         $sp-ref-link[d-1867-507-0000-0148 50 "Donald Galbraith"]{
         Donald Galbraith, Carter, widower of Agnes Bell, died 1867 December Ninth ...  son of Donald Galbraith, Country Workman (deceased) and Margt Galbraith M.S McKenchie.  John Fisher, Newphew, Present.
          } 
-         The witness John Fisher is actually the granson. The word $i{newphew} here is the obsolete meaning any direct descendant, in particular grandson.
+         The witness John Fisher is actually the grandson. The word $i{newphew} here is the obsolete meaning any direct descendant, in particular grandson.
     }
     marriage {
         $opr-ref-link[m-1812-519-000-0010-0367 "Donald Galbreath" "Anne Bell"]{
@@ -116,23 +115,30 @@ footnotes {
             Daniel | John Galbreath + Margt Clark had a son born 21st and  baptized 22nd August named Daniel
         }
     }
+    annbell-death {
+        $sp-ref-link[d-1856-507-01-0102 0034 "Agnes Galbraith"]{
+            102. Galbraith, Maiden Name Bell, Agnes, Married;
+            Died 1856 November 23, age 64 $i{about 1792};
+            $i{parents not listed};
+            Burial Place: Kilchenzie Churchyard;
+            Present: Andrew McKinnon, son-in-law
+        }    
+        Andrew McKinnon is the husband to her daughter $child-link[galbreath-anne-1829-mckinven]{Anne Galbreath}.
+    }
+    annbell-burial {
+        From statutory records, burial was at Kilchenzire Churchyard. According to 
+        Ralson Genealogy there is a "Annie Galbraith" buried. Photos should be present on
+        Find-A-Grave but they are not.
+    }
     christina-bapt {
         $opr-ref[b-1822-519-000-0020-0020 "Christian Galbreath"]
     }
     archibald-bapt {
         $opr-ref[b-1817-519-000-0010-0294 "Archibald Galbreath"]
     }
-    donald-bapt {
-        $opr-ref[b-1819-519-000-0010-0305 "Donald Galbreath"]
-    }
     alexander-bapt {
         $opr-ref-link[b-1827-519-000-0020-0051 "Alexander Galbreath"]{
             May | 4 | Alexd lawful son to Donald Galbreath and _____ Bell Kilberaie[?]
-        }
-    }
-    anne-bapt {
-        $opr-ref-link[b-1829-507-000-0060-0183 "Anne Galbreath"]{
-            Anne - Lawful daughter of Donald Galbreath Laborer and Anne Bell was born 27 May + bapt 2 June 1829 - Anne
         }
     }
     mary-bapt {
@@ -146,7 +152,12 @@ footnotes {
         }
     }
     eliza-death {
-        $sp-ref-link[d-1866-644-01-1087 0363 "Elizabeth Galbraith"]
+        $sp-ref-link[d-1866-644-01-1087 0363 "Elizabeth Galbraith"]{
+            1087. Elisabeth Galbreath, pauper, washer. (single);
+            Died: 1866 June Twentyfourth, Age 30;
+            Father: Donald Galbraith, Carter;
+            Mother: Agnes Galbraith, MS McMillan (deceased)
+        }
     }
     census-1841 {
         TBD
