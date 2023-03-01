@@ -67,10 +67,10 @@ footnotes {
         $opr-ref[b-1809-519-000-0010-0229 "Flora Galbreath"]
     }
     mary1811-baptism {
-        $opr-ref[b-1811-509-000-0010-0248 "Mary Galbreath"]
+        $opr-ref[b-1811-519-000-0010-0248 "Mary Galbreath"]
     }
     betty1813-baptism {
-        $opr-ref[b-1813-509-000-0010-0264 "Betty Galbreath"]
+        $opr-ref[b-1813-519-000-0010-0264 "Betty Galbreath"]
     }
     dugald1817-baptism {
         $opr-ref-link[b-1817-519-000-0010-0294 "Dugald Galbreath"]{

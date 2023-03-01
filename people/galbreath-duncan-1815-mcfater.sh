@@ -68,7 +68,7 @@ footnotes {
         }
     }
     archibald1846-baptism {
-        $opr-ref-link[b-1846-519-000-0020-161 "Archibald Galbraith"]
+        $opr-ref-link[b-1846-519-000-0020-0161 "Archibald Galbraith"]
     }
     angus1848-baptism {
         $opr-ref[b-1848-507-000-0070-0333 "Angus Galbreath"]
