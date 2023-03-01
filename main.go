@@ -24,7 +24,7 @@ func computeRoots(db Root) []string {
 	}
 	for _, f := range files {
 		uid := strings.TrimSuffix(filepath.Base(f), ".sh")
-		_, nextg := db.generateOne(uid)
+		nextg := db.loadOne(uid)
 		if ginfo, ok := repo.Files[f]; ok {
 			db[uid].lastUpdate = ginfo.CommitDate
 		}
@@ -59,6 +59,15 @@ func main() {
 	if rootsOnly {
 		return
 	}
+
+	oprdata := oprindex(db)
+	fullpath := filepath.Join("hugo/content", "pages/opr-birth-index.html")
+	log.Printf("Writing %q", fullpath)
+	err := os.WriteFile(fullpath, []byte(oprdata), 0666)
+	if err != nil {
+		log.Fatalf("couldn't write %q: %s", fullpath, err)
+	}
+
 	for _, rootid := range roots {
 		log.Printf("ROOT---------> %s", rootid)
 		kidsq := []string{rootid}
