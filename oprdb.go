@@ -40,6 +40,7 @@ func ParishName(id1, id2 string) string {
 		"516/2": "Kilberry, Argyll",
 		"519":   "Killean and Kilchenzie, Argyll",
 		"526":   "Lochgilphead, Argyll",
+		"532":   "Southend, Argyll",
 		"536":   "Campbeltown, Argyll", // not clear what this is.. on in Statutory records
 		"537":   "Gigha and Cara, Argyll",
 		"539/2": "Colonsay and Oronsay",
@@ -118,6 +119,9 @@ func SPLinkHTML(refText string, refid string, imageNum string) string {
 	return fmt.Sprintf("<a href='%s'>%s</a>", target, refText)
 }
 
+// converts a full opr id into something that
+// is more human readable and may be similar to what
+// scotlands people uses
 func oprref(parts []string) string {
 	pnum := strings.TrimLeft(parts[2], "0")
 	pnum2 := strings.TrimLeft(parts[3], "0")
