@@ -1,5 +1,5 @@
 name Katharine Galbreath
-baptism -date 10-may-1741 -location campbeltown
+baptism -date 10-may-1741 -location campbeltown -ref katharine1741-baptism
 birth -date 3-may-1741
 external () {
     familysearch 9M9D-F9R
@@ -73,6 +73,11 @@ partner () {
         name Agnes Harvey
         birth -date 5-jun-1785
         baptism -date 5-jun-1785 -location campbeltown    
+    }
+}
+footnotes {
+    katharine1743-baptism {
+        $opr-ref-link[b-1743-507-000-0011-0236 "Katharine Galbreath"]
     }
 }
 
