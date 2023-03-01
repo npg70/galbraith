@@ -371,13 +371,13 @@ func (r Root) Load(id string) (*Person, error) {
 	if err = newp.UnmarshalText(bstring); err != nil {
 		return nil, err
 	}
-
-	f2 := make(Footnotes)
-	for id, body := range newp.Footnotes {
-		f2[id] = body
-	}
-	newp.Footnotes = f2
-
+	/*
+		f2 := make(Footnotes)
+		for id, body := range newp.Footnotes {
+			f2[id] = body
+		}
+		newp.Footnotes = f2
+	*/
 	r[id] = newp
 	return newp, nil
 }
@@ -661,6 +661,25 @@ func FindMother(child *Person) *Person {
 	}
 	return nil
 }
+
+func (r Root) loadOne(primary string) []string {
+	first, err := r.Load(primary)
+	if err != nil {
+		panic(err)
+	}
+
+	cid := []string{}
+	// generate next generation
+	for _, p := range first.Partners {
+		for _, c := range p.Children {
+			if c.ID != "" {
+				cid = append(cid, c.ID)
+			}
+		}
+	}
+	return cid
+}
+
 func (r Root) generateOne(primary string) (string, []string) {
 	first, err := r.Load(primary)
 	if err != nil {
