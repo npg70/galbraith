@@ -3,6 +3,7 @@ combined: build serve
 
 hugo/content/people:
 	mkdir -p ./hugo/content/people
+	mkdir -p ./hugo/content/pages
 
 build: hugo/content/people
 	go run . -out hugo/content/people galbreath-james-1659-nielson
