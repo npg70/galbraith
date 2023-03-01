@@ -21,6 +21,7 @@ func (z *Tokenizer) unreadByte() {
 }
 
 func (z *Tokenizer) Parse(r io.ByteScanner) *html.Node {
+	z.maybeText = nil
 	z.r = r
 	root := &html.Node{
 		Type: html.ElementNode,
