@@ -43,15 +43,15 @@ footnotes {
         $opr-ref[b-1743-507-000-0011-0240 "John Galbreath"]
     }
     james1745-baptism {
-        $opr-ref-link[b-1745-507-000-0011-252 "James Galbreath"]
+        $opr-ref-link[b-1745-507-000-0011-0252 "James Galbreath"]
     }
     william1747-baptism {
         $opr-ref[b-1747-507-000-0011-0259 "William Galbreath"]
     }
     mary1751-baptism {
-        $opr-ref[b-1751-507-000-0011-276 "Mary Galbreath"]
+        $opr-ref[b-1751-507-000-0011-0276 "Mary Galbreath"]
     }
     john1753-baptism {
-        $opr-ref-link[b-1753-507-000-0011-285 "John Galbreath"]
+        $opr-ref-link[b-1753-507-000-0011-0285 "John Galbreath"]
     }
 }

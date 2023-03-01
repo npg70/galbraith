@@ -26,8 +26,9 @@ partner {
 }
 footnotes {
     birth {
-        $opr-ref-link[b-1659-507-000-0011-0015 "James Galbreath"]{
-            James | Lawful son to James Galbreath and Mary Neilsone his spouse in Ardnacross, Born Aug 22nd, baptised 25th
+        $opr-ref-link[b-1659-507-000-0011-0006 "James Galbreath"]{
+            James | Lawful son to Archibald Galbreath, Taylor and Margaret Johnstone,
+            Born 3rd April in Trodigal 1659
         }
     }
     matthew1691 {

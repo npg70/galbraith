@@ -71,7 +71,7 @@ footnotes {
         }
     }
     john-fisher-birth {
-        $opr-ref-link[b-1844-507-000-070-0275 "John Fisher"]
+        $opr-ref-link[b-1844-507-000-0070-0275 "John Fisher"]
     }
     john-fisher-death {
         $sp-ref-link[d-1911-560-00-0186 0062 "John Fisher"]{
