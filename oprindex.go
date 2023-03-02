@@ -51,7 +51,7 @@ func oprindex(db Root) string {
 
 	for _, pnum := range plist {
 		out.WriteString(fmt.Sprintf("<h2>Parish %s &mdash; %s</h2>\n", pnum, ParishName(pnum, "")))
-		out.WriteString("<table class=table>\n")
+		out.WriteString("<table class=base>\n")
 
 		oprbirth := pmap[pnum]
 		sort.Slice(oprbirth, func(i, j int) bool {
