@@ -37,6 +37,8 @@ func IsHTMLTag(tag string) bool {
 		return true
 	case "blockquote", "pre":
 		return true
+	case "ul", "ol", "li":
+		return true
 	}
 	return false
 }
