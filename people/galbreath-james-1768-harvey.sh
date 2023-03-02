@@ -1,5 +1,5 @@
 name James Galbreath
-baptism -date 23-dec-1768 -location campbeltown -ref baptism
+baptism -date 23-dec-1768 -location campbeltown -ref james1768-baptism
 partner {
     name Jean Harvey
     marriage -date 1-jul-1794 -location campbeltown -ref marriage
@@ -49,8 +49,9 @@ note {
 }
 
 footnotes {
-    baptism {
+    james1768-baptism {
         $opr-ref[b-1768-507-000-0011-0368 "James Galbreath"]
+        $opr-ref[b-1768-507-000-0010-0330 "James Galbraith"]
     }
     marriage {
         $opr-ref-link[m-1794-507-000-0050-0036 "James Galbreath" "Mary Harvy"]{
