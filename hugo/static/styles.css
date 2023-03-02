@@ -65,6 +65,15 @@ span.child-name, span.child-partner-name {
      font-feature-settings: "smcp" 1;
      white-space: nowrap;
 }
+
+table.base {
+    width:100%
+}
+table.base td th {
+    padding: 3px;
+    vertical-align: top;
+}
+
 table.xtable {
     width:95%;
     margin-left: auto;
