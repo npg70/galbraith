@@ -68,6 +68,20 @@ func main() {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
 
+	oprdata = spindex(db, "b")
+	fullpath = filepath.Join("hugo/content", "pages/statutory-birth-index.html")
+	log.Printf("Writing %q", fullpath)
+	err = os.WriteFile(fullpath, []byte(oprdata), 0666)
+	if err != nil {
+		log.Fatalf("couldn't write %q: %s", fullpath, err)
+	}
+	oprdata = spindex(db, "d")
+	fullpath = filepath.Join("hugo/content", "pages/statutory-death-index.html")
+	log.Printf("Writing %q", fullpath)
+	err = os.WriteFile(fullpath, []byte(oprdata), 0666)
+	if err != nil {
+		log.Fatalf("couldn't write %q: %s", fullpath, err)
+	}
 	for _, rootid := range roots {
 		log.Printf("ROOT---------> %s", rootid)
 		kidsq := []string{rootid}
