@@ -26,3 +26,6 @@ partner {
         baptism -date 3-sep-1806 -location campbeltown
     }
 }
+footnotes {
+
+}

@@ -40,6 +40,7 @@ partner {
         baptism -date 4-feb-1797 -location campbeltown -ref agnes1797-baptism
         death -date 8-aug-1884 -location campbeltown -ref agnes1797-death
     }
+    child galbraith-andrew-1799-scott
     child {
         name William Galbreath
         baptism -date 8-feb-1801 -location campbeltown -ref william1801-baptism
@@ -52,7 +53,9 @@ partner {
         name Margaret Galbreath
         baptism -date 19-jan-1803 -location campbeltown -ref margaret1803-baptism
     }
+    child galbraith-jean-1805-coville
     child galbreath-archibald-1807
+    child galbraith-john-1809-mcewing
     child {
         name Rachel Galbreath
         baptism -date 25-aug-1811 -location campbeltown -ref rachel1811-baptism
