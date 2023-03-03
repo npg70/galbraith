@@ -45,6 +45,7 @@ func ParishName(id1, id2 string) string {
 		"537":   "Gigha and Cara, Argyll",
 		"539/2": "Colonsay and Oronsay",
 		"554":   "Kimory, Bute",
+		"559/3": "Johnstone and Elderslie, Renfrew",
 		"560":   "Cathcart",
 		"564":   "Greenock",
 		"564/1": "Greenock New or Middle",
@@ -129,6 +130,15 @@ func oprref(parts []string) string {
 	page := strings.TrimLeft(parts[5], "0")
 
 	return fmt.Sprintf("%s/%s %s %s", pnum, pnum2, vol, page)
+}
+
+func statref(parts []string) string {
+	year := parts[1]
+	pnum := strings.TrimLeft(parts[2], "0")
+	pnum2 := strings.TrimLeft(parts[3], "0")
+	entry := strings.TrimLeft(parts[4], "0")
+
+	return fmt.Sprintf("%s %s/%s %s", year, pnum, pnum2, entry)
 }
 
 func oprlink(parts []string) string {
