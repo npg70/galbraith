@@ -35,7 +35,7 @@ footnotes {
         $opr-ref[b-1819-519-000-0010-0305 "Donald Galbreath"]
     }
     death {
-        $sp-ref-link[d-1897-507-00-00150 0050 "Donald Galbraith"]{
+        $sp-ref-link[d-1897-507-00-0150 0050 "Donald Galbraith"]{
             150. Donald Galbraith, Cartwright (journeyman), widower of Isabella McLean;
             1897 November Twentieth, Age 66 [$i{abt 1831}]; 
             Father: Donald Galbraith, Customer Weaver[$i{illegible}] (deceased);
