@@ -4,6 +4,7 @@ baptism -date 9-dec-1762 -location campbeltown -ref margaret1762-baptism
 death -date 9-sep-1821
 burial -name 'Kilkerran Cemetery'
 partner {
+    name William Johnstone
     marriage -date 2-sep-1782 -location campbeltown -ref marriage
 }
 footnotes {
