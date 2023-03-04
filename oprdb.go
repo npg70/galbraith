@@ -70,7 +70,7 @@ func ParishName(id1, id2 string) string {
 		"642":   "Port Glasgow",
 		"644/1": "Glasgow",
 		"644/2": "Gorbals",
-		"644/3": "Calton, Glasgow",
+		"644/3": "Calton or Dennistoun, Glasgow",
 		"644/7": "Milton, Glasgow",
 		"644/8": "Blythswood",
 		"644/9": "Kelvin",
@@ -78,6 +78,7 @@ func ParishName(id1, id2 string) string {
 		"646/2": "Govan, Lanark",
 		"663":   "Bo'ness",
 		"664":   "Carriden",
+		"694":   "Mid Calder, Midlothian",
 		"706":   "Dunbar",
 		"743":   "Greenlaw",
 		"788":   "Inverness",
@@ -124,6 +125,9 @@ func SPLinkHTML(refText string, refid string, imageNum string) string {
 // is more human readable and may be similar to what
 // scotlands people uses
 func oprref(parts []string) string {
+	if len(parts) != 6 {
+		log.Fatalf("Invalid OPR ID: %s", strings.Join(parts, "-"))
+	}
 	pnum := strings.TrimLeft(parts[2], "0")
 	pnum2 := strings.TrimLeft(parts[3], "0")
 	vol := strings.TrimLeft(parts[4], "0")
