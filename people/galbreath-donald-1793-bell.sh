@@ -97,7 +97,7 @@ footnotes {
         }
     }
     death {
-        $sp-ref-link[d-1867-507-0000-0148 50 "Donald Galbraith"]{
+        $sp-ref-link[d-1867-507-00-0148 50 "Donald Galbraith"]{
         Donald Galbraith, Carter, widower of Agnes Bell, died 1867 December Ninth ...  son of Donald Galbraith, Country Workman (deceased) and Margt Galbraith M.S McKenchie.  John Fisher, Newphew, Present.
          } 
          The witness John Fisher is actually the grandson. The word $i{newphew} here is the obsolete meaning any direct descendant, in particular grandson.
