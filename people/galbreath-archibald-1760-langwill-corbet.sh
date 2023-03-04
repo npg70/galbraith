@@ -98,7 +98,7 @@ footnotes {
         $opr-ref[b-1803-507-000-0040-0243 "Margaret Galbreath"]
     }
     rachel1811-baptism {
-        $opr-ref-link[b-1811-507-000-0040-373 "Rachel Galbreath"]
+        $opr-ref-link[b-1811-507-000-0040-0373 "Rachel Galbreath"]
         Mother listed as "Corbert"
     }
     mary1814-baptism {
