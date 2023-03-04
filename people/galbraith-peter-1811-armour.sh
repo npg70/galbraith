@@ -47,7 +47,7 @@ footnotes {
         Daughter of Archd Armour and Margaret Turner.
     }
     sarah-armour-death {
-        $sp-ref[d-1899-507-000-0174 "Sarah Galbraith"]
+        $sp-ref[d-1899-507-00-0174 "Sarah Galbraith"]
     }
     archibald-birth {
         $opr-ref-link[b-1846-507-000-0070-0306 "Archibald Galbreath"]
