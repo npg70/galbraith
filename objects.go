@@ -665,7 +665,7 @@ func FindMother(child *Person) *Person {
 func (r Root) loadOne(primary string) []string {
 	first, err := r.Load(primary)
 	if err != nil {
-		panic(err)
+		log.Fatalf("Error loading %s: %s", primary, err)
 	}
 
 	cid := []string{}
