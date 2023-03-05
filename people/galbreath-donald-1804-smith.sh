@@ -67,7 +67,7 @@ partner {
 
 footnotes {
     donald1804-baptism {
-        $opr-ref[b-1804-537-000-010-0027 "Donald Galbreath"]
+        $opr-ref[b-1804-537-000-0010-0027 "Donald Galbreath"]
     }
     smith1832-marriage {
         $opr-ref-link[b-1832-537-000-0020-0026 "Donald Galbreath" "Flora Smith"] 
