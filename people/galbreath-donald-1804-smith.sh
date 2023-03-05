@@ -3,6 +3,9 @@ baptism -date 10-jul-1804 -location Gigha -ref donald1804-baptism
 external {
     familysearch KHMS-7WX
 }
+note {
+    Generally not investigated.  Maybe other children, etc.
+}
 body {
 $p{
 Donald moved to the Campbeltown area in 1835 or 1836, and is present in the 1841 Census2 and 1851 Census3 where he is listed as a fisherman. He died on Shore Street in Campbeltown, 29 Nov 1859.4
@@ -15,21 +18,6 @@ partner {
     name Flora Smith
     marriage -date 7-jun-1832 -location Gigha -ref smith1832-marriage
     child galbreath-john-1833-mccallum
-    child {
-        name John Galbreath
-        baptism -date 21-feb-1833 -location gigha -ref john1833-baptism
-        partner {
-            name Janet McCallum 
-            marriage -date 1855 -location campbeltown
-            child {  
-                name James McLachlan Galbraith
-                birth -date 1855 -location campbeltown
-                body {
-                    507/1 93
-                }
-            }
-        }
-    }
     child {
         name Neill Galbreath
         baptism -date 5-Mar-1835 -location Gigha -ref neil1835-baptism
@@ -78,7 +66,7 @@ footnotes {
     neil1835-baptism {
         $opr-ref[b-1835-537-000-0020-0030 "Neill Galbreath"]
     }
-    malcom1836-baptism {
+    malcolm1836-baptism {
         $opr-ref[b-1836-507-000-0070-0092 "Malcolm Galbreath"]
     }
     margaret1838-baptism {
