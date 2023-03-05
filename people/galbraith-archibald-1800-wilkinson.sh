@@ -74,7 +74,7 @@ KILLEAN AND KILCHENZIE
     }
 }
 footnotes {
-    archibald1800-birth {
+    archibald1800-baptism {
         $opr-ref-link[b-1800-519-000-0010-0148 "Archibald Galbreath"]
     }
     archibald1800-death {

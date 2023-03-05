@@ -1,5 +1,5 @@
 name Martha Galbreath
-baptism -date 26-feb-1800 -location campbeltown
+baptism -date 26-feb-1800 -location campbeltown -ref martha1800-baptism
 death -date 17-mar-1871 -location campbeltown -ref martha1800-death
 burial -name 'Kilkerran Cemetery'
 external {
@@ -14,6 +14,9 @@ partner {
     }
 }
 footnotes {
+    martha1800-baptism {
+        $opr-ref-link[b-1800-507-000-0040-0197 "Martha Galbreath"]
+    }
     martha1800-death {
         $sp-ref-link[d-1871-507-00-0035 0012 "Martha Galbraith"]
     }

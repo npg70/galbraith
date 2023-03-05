@@ -1,6 +1,6 @@
 name Mary Galbreath
 birth -date 18-may-1804
-baptism -date 22-may-1804 -location campbeltown
+baptism -date 22-may-1804 -location campbeltown -ref mary1804-baptism
 death -date 18-jan-1873 -location Aldborough,Elgin,Ontario,Canada 
 burial -name "McLean Cemetary"
 external {
@@ -34,5 +34,10 @@ partner {
         name Neil McGill
         birth -date 1832
         death -date 1885
+    }
+}
+footnotes {
+     mary1804-baptism {
+        $opr-ref-link[b-1804-507-000-0040-0262 "Mary Galbreath"]
     }
 }

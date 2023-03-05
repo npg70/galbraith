@@ -15,7 +15,7 @@ note {
     Descendants uninvestigated.
 }
 note {
-    There is another James Pateson Galbraith born about 1864, married Elizabeth McFarlane in Kelvin.$ref[not-james]
+    There is another James Paterson Galbraith born about 1864, married Elizabeth McFarlane in Kelvin.$ref[not-james]
 }
 
 partner {
