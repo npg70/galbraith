@@ -64,8 +64,8 @@ func oprindex(db Root) string {
 			plink := fmt.Sprintf("<a href=/galbraith/people/%s/>%s</a>", item.pid, person)
 			parts := strings.Split(item.oprid, "-")
 			out.WriteString("<tr>")
-			out.WriteString(fmt.Sprintf("<td>%d</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td>",
-				i+1, item.oprid, oprref(parts), item.sv, plink))
+			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s</td><td class=nowrap>%s</td><td>%s</td>",
+				i+1, oprref(parts), item.sv, plink))
 			out.WriteString("</tr>\n")
 		}
 		out.WriteString("</table>\n")
@@ -142,8 +142,8 @@ func spindex(db Root, rtype string) string {
 			plink := fmt.Sprintf("<a href=/galbraith/people/%s/>%s</a>", item.pid, person)
 			parts := strings.Split(item.oprid, "-")
 			out.WriteString("<tr>")
-			out.WriteString(fmt.Sprintf("<td>%d</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td>",
-				i+1, item.oprid, statref(parts), item.sv, plink))
+			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s</td class=nowrap><td>%s</td><td>%s</td>",
+				i+1, statref(parts), item.sv, plink))
 			out.WriteString("</tr>\n")
 		}
 		out.WriteString("</table>\n")
