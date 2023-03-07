@@ -7,43 +7,8 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-
-	"github.com/bep/gitmap"
 )
 
-func computeRoots(db Root) []string {
-	repo, err := gitmap.Map(".", "")
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	pmap := make(map[string]bool)
-	files, err := filepath.Glob("./people/*.sh")
-	if err != nil {
-		log.Fatal(err)
-	}
-	for _, f := range files {
-		uid := strings.TrimSuffix(filepath.Base(f), ".sh")
-		nextg := db.loadOne(uid)
-		if ginfo, ok := repo.Files[f]; ok {
-			db[uid].lastUpdate = ginfo.CommitDate
-		}
-		for _, child := range nextg {
-			pmap[child] = true
-		}
-		if _, ok := pmap[uid]; !ok {
-			pmap[uid] = false
-		}
-	}
-
-	out := []string{}
-	for k, v := range pmap {
-		if !v {
-			out = append(out, k)
-		}
-	}
-	return out
-}
 func init() {
 	// flag stuff
 }
@@ -60,28 +25,42 @@ func main() {
 		return
 	}
 
-	oprdata := oprindex(db)
+	//
+	// Write OPR Birth Index
+	//
+	page := oprindex(db)
 	fullpath := filepath.Join("hugo/content", "indexes/opr-birth-index.html")
 	log.Printf("Writing %q", fullpath)
-	err := os.WriteFile(fullpath, []byte(oprdata), 0666)
+	err := os.WriteFile(fullpath, []byte(page), 0666)
 	if err != nil {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
 
-	oprdata = spindex(db, "b")
+	// Write SP Birth Index
+	page = spindex(db, "b")
 	fullpath = filepath.Join("hugo/content", "indexes/statutory-birth-index.html")
 	log.Printf("Writing %q", fullpath)
-	err = os.WriteFile(fullpath, []byte(oprdata), 0666)
+	err = os.WriteFile(fullpath, []byte(page), 0666)
 	if err != nil {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
-	oprdata = spindex(db, "d")
+	// Write SP Death Index
+	page = spindex(db, "d")
 	fullpath = filepath.Join("hugo/content", "indexes/statutory-death-index.html")
 	log.Printf("Writing %q", fullpath)
-	err = os.WriteFile(fullpath, []byte(oprdata), 0666)
+	err = os.WriteFile(fullpath, []byte(page), 0666)
 	if err != nil {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
+
+	page = indexRoots(db, roots)
+	fullpath = filepath.Join("hugo/content", "indexes/roots-index.html")
+	log.Printf("Writing %q", fullpath)
+	err = os.WriteFile(fullpath, []byte(page), 0666)
+	if err != nil {
+		log.Fatalf("couldn't write %q: %s", fullpath, err)
+	}
+
 	for _, rootid := range roots {
 		log.Printf("ROOT---------> %s", rootid)
 		kidsq := []string{rootid}
