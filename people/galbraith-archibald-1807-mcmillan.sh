@@ -36,7 +36,7 @@ footnotes {
         $sp-ref-link[m-1862-519-00-0004 0002 "Archibald Galbraith "Elizabeth McMillan"]
     }
     edward1863-birth {
-        $sp-ref-link[b-1863-519-00-0029 0010 "Edwrd Galbreath"]
+        $sp-ref-link[b-1863-519-00-0029 0010 "Edward Galbreath"]
     }
     edward1863-death {
         $sp-ref-link[d-1921-519-00-0009 0003 "Edward Galbraith"]
