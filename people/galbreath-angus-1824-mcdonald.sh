@@ -116,7 +116,7 @@ footnotes {
         $sp-ref[d-1871-611-00-0056 "Catherine McDonald Galbraith"]
     }   
     christine-birth {
-        $sp-ref[b-1870-611-00-0243 0081 "Christine McDonald Galbraith"]
+        $sp-ref[b-1870-611-00-0243 "Christine McDonald Galbraith"]
     }
     christine-death {
         $sp-ref[d-1870-611-00-0057 "Christina McDonald Galbraith"]
