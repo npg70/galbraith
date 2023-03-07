@@ -2,7 +2,9 @@
   --bs-body-color: #000;
   --bs-body-bg: #fff;
   --bs-link-color: rgb(13,76,177);
+  --bs-link-color-rgb: 13,76,177;
   --bs-link-hover-color: rgb(13,76,177);
+  --bs-link-hover-color-rgb: 13,76,177;
 }
 @font-face{
     font-family: 'Source Serif VF';
