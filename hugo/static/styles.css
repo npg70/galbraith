@@ -74,23 +74,34 @@ span.child-name, span.child-partner-name {
 }
 table.base {
     width:100%;
-}
-table.base td,th {
     padding: 3px;
-    vertical-align: top;
+}
+table.base th {
+     font-size: larger;
+     padding-top: 1em;
+     padding-bottom: 1em;
+ }
+table.base td {
+     vertical-align: top;
 }
 
 table.xtable {
     width:95%;
     margin-left: auto;
 }
-table.xtable td,th {
+table.xtable td {
     padding: 3px;
     font-family: courier-prime;
     font-size: smaller;
     vertical-align: top;
 }
 
+table.xtable th {
+    padding: 3px;
+    font-family: courier-prime;
+    font-size: smaller;
+    vertical-align: top;
+}
 table.child-list {
     margin-bottom: 2em;
 }

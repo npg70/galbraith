@@ -50,9 +50,11 @@ func oprindex(db Root) string {
 	out.WriteString("title: OPR Baptism Index\n")
 	out.WriteString("---\n")
 
+	out.WriteString("<table class=base>\n")
 	for _, pnum := range plist {
-		out.WriteString(fmt.Sprintf("<h2>Parish %s &mdash; %s</h2>\n", pnum, ParishName(pnum, "")))
-		out.WriteString("<table class=base>\n")
+		out.WriteString("<tr><th colspan=4>")
+		out.WriteString(fmt.Sprintf("Parish %s &mdash; %s", pnum, ParishName(pnum, "")))
+		out.WriteString("</th></tr>\n")
 
 		oprbirth := pmap[pnum]
 		sort.Slice(oprbirth, func(i, j int) bool {
@@ -68,8 +70,8 @@ func oprindex(db Root) string {
 				i+1, oprref(parts), item.sv, plink))
 			out.WriteString("</tr>\n")
 		}
-		out.WriteString("</table>\n")
 	}
+	out.WriteString("</table>\n")
 	return out.String()
 }
 func spindex(db Root, rtype string) string {
@@ -128,9 +130,11 @@ func spindex(db Root, rtype string) string {
 	out.WriteString(fmt.Sprintf("title: Statutory %s Index\n", word))
 	out.WriteString("---\n")
 
+	out.WriteString("<table class=base>\n")
 	for _, pnum := range plist {
-		out.WriteString(fmt.Sprintf("<h2>Parish %s &mdash; %s</h2>\n", pnum, ParishName(pnum, "")))
-		out.WriteString("<table class=base>\n")
+		out.WriteString("<tr><th colspan=4>")
+		out.WriteString(fmt.Sprintf("Parish %s &mdash; %s\n", pnum, ParishName(pnum, "")))
+		out.WriteString("</th></tr>\n")
 
 		oprbirth := pmap[pnum]
 		sort.Slice(oprbirth, func(i, j int) bool {
@@ -146,7 +150,7 @@ func spindex(db Root, rtype string) string {
 				i+1, statref(parts), item.sv, plink))
 			out.WriteString("</tr>\n")
 		}
-		out.WriteString("</table>\n")
 	}
+	out.WriteString("</table>\n")
 	return out.String()
 }
