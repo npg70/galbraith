@@ -33,6 +33,10 @@ partner {
     child {
         name Margaret Galbreath
         baptism -date 28-Nov-1838 -location campbeltown -ref margaret1838-baptism
+        death -date 18-mar-1862 -location campbeltown -ref margaret1838-death
+        body {
+            unmarried
+        }
     }
     child {
         name Duncan Galbraith
@@ -71,6 +75,9 @@ footnotes {
     }
     margaret1838-baptism {
         $opr-ref[b-1838-507-000-0070-0135 "Margaret Galbreath"]
+    }
+    margaret1838-death {
+        $sp-ref-link[d-1862-507-00-0055 0019 "Margaret Galbraith"]
     }
     duncan1841-baptism {
         $opr-ref[b-1841-507-000-0070-0196 "Duncan Galbreath"]
