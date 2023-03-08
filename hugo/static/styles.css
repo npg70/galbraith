@@ -5,13 +5,14 @@
     /*
     --bs-body-color: #000000;
     --bs-body-color-rgb: 0,0,0;
-    */
+     */
 
     --bs-link-color: rgb(13,76,177);
     --bs-link-color-rgb: 13,76,177;
     --bs-link-hover-color: rgb(13,76,177);
     --bs-link-hover-color-rgb: 13,76,177;
 }
+
 @font-face{
     font-family: 'Source Serif VF';
     font-weight: 200 900;
@@ -59,13 +60,14 @@ body {
      * TODO: perhap change --bs-body-font-weight instead
      */
     font-weight: 450;
-    
 }
+
 nav {
     /* uses san-serif font for UI and restore normal weight */
     font-family: var(--bs-font-sans-serif);
     font-weight: 400;
 }
+
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
@@ -230,6 +232,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 @media screen and (prefers-color-scheme: dark) {
     :root {
         /* cut-n-paste from bootstrap.  This is their dark theme */
@@ -296,7 +299,7 @@ a:hover {
     /* in dark mode, bootstrap makes the headlines
      * in an "emphasis color" which is white (?why?).
      * Restore to normal text color.
-     * /
+     */
     h1,h2,h3,h4,h5 {
         color: var(--bs-body-color);
     }
@@ -320,12 +323,12 @@ a:hover {
         --bs-link-hover-color-rgb: 0,0,0;
     }
     div.person-secondary {
-        display: none !important;
+        display: none;
     }
     nav {
         display: none !important;
     }
     .print-hack {
-        width: 100% !important;
+        width: 100%;
     }
 }
