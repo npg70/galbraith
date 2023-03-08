@@ -1,10 +1,10 @@
 :root {
-  --bs-body-color: #000;
-  --bs-body-bg: #fff;
-  --bs-link-color: rgb(13,76,177);
-  --bs-link-color-rgb: 13,76,177;
-  --bs-link-hover-color: rgb(13,76,177);
-  --bs-link-hover-color-rgb: 13,76,177;
+    --bs-body-color: #000;
+    --bs-body-bg: #fff;
+    --bs-link-color: rgb(13,76,177);
+    --bs-link-color-rgb: 13,76,177;
+    --bs-link-hover-color: rgb(13,76,177);
+    --bs-link-hover-color-rgb: 13,76,177;
 }
 @font-face{
     font-family: 'Source Serif VF';
@@ -47,9 +47,9 @@ nav {
     font-family: var(--bs-font-sans-serif);
 }
 .container-fluid {
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 768px; /* bootstrap medium breakpoint */
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 768px; /* bootstrap medium breakpoint */
 }
 
 span.primary-number {
@@ -58,17 +58,17 @@ span.primary-number {
 }
 
 span.primary-name , span.partner-name {
-     font-feature-settings: "smcp" 1;
-     font-weight: bold;
-     white-space: nowrap;
+    font-feature-settings: "smcp" 1;
+    font-weight: bold;
+    white-space: nowrap;
 }
 span.date {
     white-space: nowrap;
 }
 
 span.child-name, span.child-partner-name {
-     font-feature-settings: "smcp" 1;
-     white-space: nowrap;
+    font-feature-settings: "smcp" 1;
+    white-space: nowrap;
 }
 
 .nowrap {
@@ -79,12 +79,12 @@ table.base {
     padding: 3px;
 }
 table.base th {
-     font-size: larger;
-     padding-top: 1em;
-     padding-bottom: 1em;
- }
+    font-size: larger;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 table.base td {
-     vertical-align: top;
+    vertical-align: top;
 }
 
 table.xtable {
@@ -189,18 +189,18 @@ div.banner {
 
 sub,
 sup {
-  position: relative;
-  font-size: 0.75em;
-  line-height: 0;
-  vertical-align: baseline;
+    position: relative;
+    font-size: 0.75em;
+    line-height: 0;
+    vertical-align: baseline;
 }
 
 sub {
-  bottom: -0.25em;
+    bottom: -0.25em;
 }
 
 sup {
-/*  top: -0.50em; */
+    /*  top: -0.50em; */
     top: -0.40em;
 }
 
@@ -212,71 +212,69 @@ a:hover {
 }
 /*
 sup {font-size:xx-small; vertical-align:super;}
-*/
-@media screen and (prefers-color-scheme: dark) {
-    :root {
-        /* #BB86FC material primary
-         * rgb(92,168,252) github dark
-         */
-        --bs-body-color: #e1e1e1;
-        --bs-body-bg: #121212;
-        --bs-link-color: rgb(92,168,252);/*#BB86FC; */
-        --bs-link-hover-color: rgb(92,168,252); /* #BB86FC; */
-        --bs-body-color: #adb5bd;
-
-        /* cut-n-paste from bootstrap.  This is their dark theme */
-  --bs-body-color-rgb: 173, 181, 189;
-  --bs-body-bg: #212529;
-  --bs-body-bg-rgb: 33, 37, 41;
-  --bs-emphasis-color: #f8f9fa;
-  --bs-emphasis-color-rgb: 248, 249, 250;
-  --bs-secondary-color: rgba(173, 181, 189, 0.75);
-  --bs-secondary-color-rgb: 173, 181, 189;
-  --bs-secondary-bg: #343a40;
-  --bs-secondary-bg-rgb: 52, 58, 64;
-  --bs-tertiary-color: rgba(173, 181, 189, 0.5);
-  --bs-tertiary-color-rgb: 173, 181, 189;
-  --bs-tertiary-bg: #2b3035;
-  --bs-tertiary-bg-rgb: 43, 48, 53;
-  --bs-emphasis-color: #fff;
-  --bs-primary-text: #6ea8fe;
-  --bs-secondary-text: #dee2e6;
-  --bs-success-text: #75b798;
-  --bs-info-text: #6edff6;
-  --bs-warning-text: #ffda6a;
-  --bs-danger-text: #ea868f;
-  --bs-light-text: #f8f9fa;
-  --bs-dark-text: #dee2e6;
-  --bs-primary-bg-subtle: #031633;
-  --bs-secondary-bg-subtle: #212529;
-  --bs-success-bg-subtle: #051b11;
-  --bs-info-bg-subtle: #032830;
-  --bs-warning-bg-subtle: #332701;
-  --bs-danger-bg-subtle: #2c0b0e;
-  --bs-light-bg-subtle: #343a40;
-  --bs-dark-bg-subtle: #1a1d20;
-  --bs-primary-border-subtle: #084298;
-  --bs-secondary-border-subtle: #495057;
-  --bs-success-border-subtle: #0f5132;
-  --bs-info-border-subtle: #055160;
-  --bs-warning-border-subtle: #664d03;
-  --bs-danger-border-subtle: #842029;
-  --bs-light-border-subtle: #495057;
-  --bs-dark-border-subtle: #343a40;
-  --bs-heading-color: #fff;
-  --bs-link-color: #6ea8fe;
-  --bs-link-hover-color: #9ec5fe;
-  --bs-link-color-rgb: 110, 168, 254;
-  --bs-link-hover-color-rgb: 158, 197, 254;
-  --bs-code-color: #e685b5;
-  --bs-border-color: #495057;
-  --bs-border-color-translucent: rgba(255, 255, 255, 0.15);  
-    }
-    .navbar  {
-  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ */
+    @media screen and (prefers-color-scheme: dark) {
+        :root {
+            /* cut-n-paste from bootstrap.  This is their dark theme */
+            --bs-body-color: #adb5bd;
+            --bs-body-color-rgb: 173, 181, 189;
+            --bs-body-bg: #212529;
+            --bs-body-bg-rgb: 33, 37, 41;
+            --bs-emphasis-color: #f8f9fa;
+            --bs-emphasis-color-rgb: 248, 249, 250;
+            --bs-secondary-color: rgba(173, 181, 189, 0.75);
+            --bs-secondary-color-rgb: 173, 181, 189;
+            --bs-secondary-bg: #343a40;
+            --bs-secondary-bg-rgb: 52, 58, 64;
+            --bs-tertiary-color: rgba(173, 181, 189, 0.5);
+            --bs-tertiary-color-rgb: 173, 181, 189;
+            --bs-tertiary-bg: #2b3035;
+            --bs-tertiary-bg-rgb: 43, 48, 53;
+            --bs-emphasis-color: #fff;
+            --bs-primary-text: #6ea8fe;
+            --bs-secondary-text: #dee2e6;
+            --bs-success-text: #75b798;
+            --bs-info-text: #6edff6;
+            --bs-warning-text: #ffda6a;
+            --bs-danger-text: #ea868f;
+            --bs-light-text: #f8f9fa;
+            --bs-dark-text: #dee2e6;
+            --bs-primary-bg-subtle: #031633;
+            --bs-secondary-bg-subtle: #212529;
+            --bs-success-bg-subtle: #051b11;
+            --bs-info-bg-subtle: #032830;
+            --bs-warning-bg-subtle: #332701;
+            --bs-danger-bg-subtle: #2c0b0e;
+            --bs-light-bg-subtle: #343a40;
+            --bs-dark-bg-subtle: #1a1d20;
+            --bs-primary-border-subtle: #084298;
+            --bs-secondary-border-subtle: #495057;
+            --bs-success-border-subtle: #0f5132;
+            --bs-info-border-subtle: #055160;
+            --bs-warning-border-subtle: #664d03;
+            --bs-danger-border-subtle: #842029;
+            --bs-light-border-subtle: #495057;
+            --bs-dark-border-subtle: #343a40;
+            --bs-heading-color: #fff;
+            --bs-link-color: #6ea8fe;
+            --bs-link-hover-color: #9ec5fe;
+            --bs-link-color-rgb: 110, 168, 254;
+            --bs-link-hover-color-rgb: 158, 197, 254;
+            --bs-code-color: #e685b5;
+            --bs-border-color: #495057;
+            --bs-border-color-translucent: rgba(255, 255, 255, 0.15);  
+        }
+        /* bootstrap 5.3a1 - navbar is a separate animal */
+        .navbar  {
+            --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+        /* darken the background */
+        :root {
+            --bs-body-bg: #121212;
+            --bs-body-bg-rgb: 18,18,18;
+        }
     }
 }
-
 
 @media print {
     @page {
