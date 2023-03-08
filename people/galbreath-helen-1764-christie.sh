@@ -18,7 +18,7 @@ note {
 partner {
     name John Christie
     birth -date 'about 1757'
-    marriage -date 'kilcalmonell and kilberry' -location -ref marriage
+    marriage -date 18-mar-1786 -location 'kilcalmonell and kilberry' -ref marriage
     death -date 8-Jan-1843 -location campbeltown
     body {
         Officier of Customs, Campbeltown.
@@ -27,11 +27,11 @@ partner {
 
 footnotes {
     death {
-        $sp-ref-link[d-1855-01-0012 0004 "Helen Galbraith"]
+        $sp-ref-link[d-1855-507-01-0012 0004 "Helen Galbraith"]
     }
     marriage {
-        $opr-ref-link[m-516-000-0010-0302 "Nelly Galbreath" "John Christy"]{
-            March XX | The which day were booked in order of marriage
+        $opr-ref-link[m-1786-516-000-0010-0302 "Nelly Galbreath" "John Christy"]{
+            March 18 | The which day were booked in order of marriage
             John Christy $i{illegible} and Nelly Galbreath in the 
             parish of Kilean[?]
         } 
