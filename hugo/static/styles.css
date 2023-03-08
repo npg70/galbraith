@@ -1,6 +1,12 @@
 :root {
-    --bs-body-color: #000;
-    --bs-body-bg: #fff;
+    /* make text black
+     * was #212529, rgb(33, 37, 41)
+     */
+    /*
+    --bs-body-color: #000000;
+    --bs-body-color-rgb: 0,0,0;
+    */
+
     --bs-link-color: rgb(13,76,177);
     --bs-link-color-rgb: 13,76,177;
     --bs-link-hover-color: rgb(13,76,177);
@@ -301,10 +307,17 @@ a:hover {
         margin: 1in;
     }
     :root {
-        --bs-body-color: #000;
-        --bs-body-bg: #fff;
-        --bs-link-color: #000;
-        --bs-link-hover-color: #000;
+        /* force black text and white background */
+        --bs-body-color: #000000;
+        --bs-body-color-rgb: 0,0,0;
+        --bs-body-bg: #ffffff;
+        --bs-body-bg-rgb: 255,255,255;
+
+        /* force links to be black text          */
+        --bs-link-color: #000000;
+        --bs-link-color-rgb: 0,0,0;
+        --bs-link-hover-color: #000000;
+        --bs-link-hover-color-rgb: 0,0,0;
     }
     div.person-secondary {
         display: none !important;
