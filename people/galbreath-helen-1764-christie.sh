@@ -6,10 +6,10 @@ external {
     familysearch KZVS-VZ8
 }
 body {
-    Parents listed as Malcom Galbreath and Margaret Stewart.
+Parents listed as Malcom Galbreath and Margaret Stewart.  In Gigha there is a record of a death of a Malcom in 1798, age 66 (birth about 1732)$ref[malcom1732-death]
 }
 note {
-    Gigha baptism records didn't start until 1790, so it's unlikely any documentation of her birth will be found.
+    Gigha baptism records didn't start until 1794, so it's unlikely any documentation of her birth will be found.
 }
 note {
     TODO: many children.
@@ -38,6 +38,11 @@ footnotes {
     }
     burial {
         TODO: link to Kilkerran Inscriptions docuement        
+    }
+    malcom-death {
+        $opr-ref-link[d-1798-537-000-0010-0014 "Malcom Galbreath"]{
+            Sep 18 | Malcom Galbreath (elder) Tenant Dremponbeg. Aged 66 years.
+       }
     }
 }
 
