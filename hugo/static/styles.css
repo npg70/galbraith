@@ -42,9 +42,23 @@ body {
     text-rendering: optimizeLegibility;
     margin-left: 2em;
     margin-right: 2em;
+    /* Using Source Serif @ 400 for body text at small sizes isi
+     * bit thin and anti-aliased to gray.  450 thickens it up a bit.
+     * This applies to everything so undo for nav-specific
+     * items which are using a sans-serif font. 
+     *
+     * Bootstrap uses 500 for h1-h6 items already, which seems fine.
+     * Bold and Bolder is 700
+     *
+     * TODO: perhap change --bs-body-font-weight instead
+     */
+    font-weight: 450;
+    
 }
 nav {
+    /* uses san-serif font for UI and restore normal weight */
     font-family: var(--bs-font-sans-serif);
+    font-weight: 400;
 }
 .container-fluid {
     margin-right: auto;
@@ -267,8 +281,18 @@ a:hover {
     }
     /* darken the background */
     :root {
+        --bs-body-color: #e1e1e1;
+        --bs-body-color-rgb: 226,226,226;
         --bs-body-bg: #121212;
         --bs-body-bg-rgb: 18,18,18;
+    }
+
+    /* in dark mode, bootstrap makes the headlines
+     * in an "emphasis color" which is white (?why?).
+     * Restore to normal text color.
+     * /
+    h1,h2,h3,h4,h5 {
+        color: var(--bs-body-color);
     }
 }
 
