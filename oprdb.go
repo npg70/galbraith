@@ -41,6 +41,8 @@ func ParishName(id1, id2 string) string {
 		"516/2": "Kilberry, Argyll",
 		"519":   "Killean and Kilchenzie, Argyll",
 		"526":   "Lochgilphead, Argyll",
+		"531":   "Saddell and Skipness, Argyll",
+		"531/1": "Saddell, Argyll",
 		"532":   "Southend, Argyll",
 		"536":   "Campbeltown, Argyll", // not clear what this is.. on in Statutory records
 		"537":   "Gigha and Cara, Argyll",
