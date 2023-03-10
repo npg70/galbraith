@@ -66,6 +66,7 @@ func ParishName(id1, id2 string) string {
 		"578":   "Ayr, Ayr",
 		"578/1": "Ayr, Ayr",
 		"590":   "Dundonald, Ayr",
+		"594":   "Girvan, Ayr",
 		"595":   "Irvine, Ayr",
 		"597":   "Kilmarnock, Ayr",
 		"598":   "Kilmaurs, Ayr",

@@ -14,6 +14,46 @@ partner {
     body {
         The daughter of John Cook and Mary Taylor both of St Quivox and Newton-on-Ayr, Ayrshire, Scotland
     }
+    child galbreath-neil-1841-stewart
+    child {
+        name Mary Galbreath
+        baptism -date 5-oct-1843 -location campbeltown -ref mary1843-baptism
+    }
+    child {
+        name Margaret Galbreath
+        baptism -date 29-jan-1845 -location campbeltown -ref margaret1845-baptism
+    }
+    child galbreath-john-1848-carnis
+    child {
+        name Agnes Galbreath
+        baptism -date 1-feb-1851 -location campbeltown -ref agnes1851-baptism
+    }
+    child galbraith-alexander-1854-campbell
+    child {
+        name Archibald Galbraith
+        birth -date 25-may-1856 -location campbeltown -ref archibald1856-birth
+     }
+     child {
+        name Mary Galbraith
+        birth -date 1-nov-1858 -location Saddell -ref mary1858-birth
+    }
+    child {
+        name Elizabeth Galbraith
+        birth -date 1-oct-1860 -location Saddell -ref elizabeth1860-birth
+        death -date 18-feb-1919 -location saddell -ref elizabeth1860-death
+        partner {
+            name John McIntosh
+            marriage -date 13-dec-1882 -location saddell
+        }
+    }
+    child {
+        name Jemina Galbraith
+        birth -date 13-dec-1862 -location campbeltown -ref jemina1862-birth
+        death -date 22-may-1888 -location saddell -ref jemina1862-death
+        partner {
+            name Duncan Gilchrist
+        }
+    }
 }
 
 footnotes {
@@ -29,5 +69,33 @@ footnotes {
     }
     cook-death {
         $sp-ref-link[d-1888-531-01-0014 0005 "Margaret Galbreath"]
+    }
+    mary1843-baptism {
+        $opr-ref[b-1843-507-000-0070-0248 "Mary Galbreath"]    
+    }
+    margaret1845-baptism {
+        $opr-ref[b-1845-507-000-0070-0286 "Margaret Galbreath"]
+    }
+    agnes1851-baptism {
+        $opr-ref[b-1851-507-000-0070-0389 "Agnes Galbreath"]
+    }
+    archibald1856-birth {
+        $sp-ref-link[b-1856-507-01-0112 0038 "Archibald Galbraith"]
+    }
+    mary1858-birth {
+        $sp-ref-link[b-1858-531-01-0020 0007 "Mary Galbreath"]
+        Mother indexed as "Coole"
+    }
+    elizabeth1860-birth {
+        $sp-ref-link[b-1860-531-01-0017 0006 "Elizabeth Galbreath"]
+    }
+    elizabeth1860-death {
+        $sp-ref-link[d-1919-531-01-0003 0001 "Elizabeth Galbraith"]
+    }
+    jemina1862-birth {
+        $sp-ref-link[b-1863-531-01-0002 0001 "Jemina Galbreath"]
+    }
+    jemina1862-death {
+        $sp-ref-link[d-1888-531-01-0010 0004 "Jemina Galbraith"]
     }
 }
