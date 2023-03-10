@@ -11,7 +11,7 @@ partner {
 
     child {
         name Isobell Galbreath
-        baptism -date 'may 1743' -location campbeltown -ref isobell-baptism
+        baptism -date 'may 1743' -location campbeltown -ref isobell1743-baptism
     }
     child {
         name Mary Galbreath
