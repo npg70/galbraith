@@ -2,6 +2,7 @@ package main
 
 import (
 	"io"
+	"log"
 
 	"golang.org/x/net/html"
 )
@@ -90,7 +91,7 @@ func (z *Tokenizer) stateAfterDollar() {
 		case '[':
 			// TBD
 		case '{':
-			// TBD
+			log.Fatalf("Got '${', expected a function name")
 		default:
 			if len(z.maybeText) > 0 {
 				text := &html.Node{
