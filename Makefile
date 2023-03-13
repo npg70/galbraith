@@ -9,6 +9,8 @@ hugo/content/people:
 build: hugo/content/people
 	go run . -out hugo/content/people
 
+test:
+	go test .
 serve:
 	(cd hugo && hugo server -D)
 clean:
