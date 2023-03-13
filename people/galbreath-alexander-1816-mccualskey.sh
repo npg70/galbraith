@@ -26,12 +26,19 @@ partner {
     }
     child {
         name Alexander Galbreath
-        baptism -date 14-nov-1850
+        baptism -date 14-nov-1850 -location 'near campbeltown'
         death -date 1-July-1925 -location "Parkersburg,Wood,West Virginia,USA"
+        partner {
+            name Pheobe Jane Burnfield
+        }
         body {
-            unconfirmed
+            birth date unconfirmed. Def about 1850-1851
         }
     }    
+    child {
+        name Helen Galbreath
+        birth -date 1852 -location 'near Campbeltown'
+    }
     child {
         name Margaret Elizabeth Galbreath
         birth -date 1858 -location veto,ohio,usa
