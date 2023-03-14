@@ -31,7 +31,7 @@ func makeDivClass(cnames string) TagFunc {
 func IsHTMLTag(tag string) bool {
 	// todo make map
 	switch tag {
-	case "p", "b", "i", "em", "br", "hr":
+	case "p", "b", "i", "em", "br", "hr", "s":
 		return true
 	case "table", "tbody", "th", "tr", "td", "tfoot":
 		return true
