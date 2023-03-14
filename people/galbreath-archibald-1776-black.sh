@@ -1,5 +1,7 @@
 name Archibald Galbreath
 
+birth -date 'about 1776'
+
 external {
     familysearch K8VW-HKP
 }
