@@ -209,6 +209,7 @@ div.banner {
     margin-bottom:2em;
 }
 
+/* this is a dup of bootstrap for reference */
 sub,
 sup {
     position: relative;
@@ -220,10 +221,17 @@ sup {
 sub {
     bottom: -0.25em;
 }
-
+/* my adjustment */
 sup {
     /*  top: -0.50em; */
     top: -0.40em;
+}
+
+/* undo all of it since our font supports this natively */
+sup {
+    font-variant-position: super;
+    top: 0;
+    font-size: 100%;
 }
 
 a {
