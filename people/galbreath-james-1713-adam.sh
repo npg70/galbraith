@@ -56,7 +56,7 @@ partner {
     }
 }
 footnotes {
-    baptism {
+    james1713-baptism {
         $opr-ref-link[b-1713-507-000-0011-0117 "James Galbreath"]
     }
     mary1-bapt {
