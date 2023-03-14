@@ -30,13 +30,7 @@ partner {
          name Margaret Galbreath
          baptism -date 15-apr-1752 -location campbeltown -ref marg1-bapt
      }
-     child {
-        name David Galbreath
-        baptism -date 12-feb-1755 -location campbeltown -ref david-bapt
-        partner {
-            name Mary Fleming
-        }
-    }
+    child galbreath-david-1755-fleeming
     child {
         name Janet Galbreath
         baptism -date 4-feb-1757 -location campbeltown -ref janet-bapt
@@ -76,10 +70,6 @@ footnotes {
     }
     marg1-bapt {
         $opr-ref[b-1752-507-000-0011-0282 "Margaret Galbreath"]
-    }
-    david-bapt {
-        $opr-ref[b-1755-507-000-0011-0294 "David Galbreath"]
-        $opr-ref[b-1755-507-000-0010-0221 "David Galbraith"]
     }
     janet-bapt {
         $opr-ref-link[b-1757-507-000-0011-0304 "Janet Galbreath"]
