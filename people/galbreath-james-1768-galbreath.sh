@@ -83,7 +83,7 @@ partner {
 
 footnotes {
   galbreath-marriage {
-   $opr-ref-link[ "James Galbreath" "Martha Galbreath"]{
+   $opr-ref-link[m-1800-507-000-0050-0051 "James Galbreath" "Martha Galbreath"]{
   		James Galbreath and Martha Galbreath both of this parish 26 [March 1800]
   	}
     Indexed as 20-mar-1800, but appears to be 26-mar-1800.
