@@ -9,11 +9,11 @@ partner {
   marriage -date 25-Aug-1839 -location southend -ref loynachan-marriage   
 }
 footnotes {
-  archibald1809-baptism {
+  archibald1803-baptism {
     $opr-ref-link[b-1803-507-000-0040-0252 "Archibald Galbreath"]
   }
-  marriage-mccallum {
-    $opr-ref-link[m-1835-516-000-0020-0248 "Archibald Galbraith" "Eugna McCallum"]
+  mccallum-marriage {
+    $opr-ref-link[m-1835-516-000-0020-0248 "Archibald Galbraith" "Eugina McCallum"]
     
     Cross-recorded at Campbeltown on 5 Mar 1835:
   
