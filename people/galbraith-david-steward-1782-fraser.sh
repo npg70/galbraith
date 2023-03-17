@@ -5,6 +5,14 @@ external {
   familysearch KZDT-66V
 }
 partner {
+  name Margaret McKeigh
+  child {
+    name John Sayers Galbreath
+    birth -date 4-may-1810
+    baptism -date 14-mar-1811 -location "Greenock" -ref john1811-baptism
+  }
+}
+partner {
   name Elizabeth Fraser
   marriage -date 9-june-1812 -location edinburgh -ref fraser-marriage
   
@@ -54,6 +62,16 @@ footnotes {
   }
   fraser-marriage {
     $opr-ref-link[m-1812-685-001-0540-0039 "David Stewart Galbreath" "Eliza Fraser"] 
+  }
+  john1811-baptism {
+    $opr-ref-link[b-1811-564-003-0030-0179 "John Sayers Galbreath"]{
+      John Sayers son to David Stewart
+      Galbreath Writer + Mary McKeigh --
+      Born 4 May 1810 Baptized 14 March 1811
+    }
+    Oddly seems to be written in a different ink between two other
+    entries. Also there maybe a an insert of a "N" after the "son"..
+    maybe indicating "natural" (unmarried) ?
   }
   james1813-baptism {
   	$opr-ref[b-1813-507-000-0040-0403 "James Fraser Galbreath"]
