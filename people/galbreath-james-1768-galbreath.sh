@@ -26,6 +26,7 @@ partner {
   	name Janet Galbreath
     baptism -date 31-sep-1801 -location campbeltown -ref janet1801-baptism
 	}
+  child galbreath-archibald-1803-mccallum-loynachan
   child {
   	name Orsella Galbreath
     baptism -date 24-nov-1805 -location campbeltown -ref orsella1805-baptism
