@@ -13,12 +13,24 @@ partner {
     baptism -date 31-aug-1813 -location campbeltown -ref james1813-baptism
   }
   child {
+    name Elizabeth Galbreath
+    baptism -date 30-jun-1818 -location campbeltown -ref elizabeth1818-baptism
+  }
+  child {
     name Alexander MacDonald Galbreath
     baptism -date 16-sep-1819 -location campbeltown -ref alexander1819-baptism
   }
   child {
   	name David Stewart Galbraith
     baptism -date 22-aug-1827 -location campbeltown -ref david1827-baptism
+  }
+  child {
+    name Octavia Galbreath
+    baptism -date 28-aug-1829 -location campbeltown -ref octavia1829-baptism
+  }
+  child {
+    name Alfred Galbreath
+    baptism -date 14-sep-1830 -location campbeltown -ref alfred1830-baptism
   }
   child {
     name Adelaide Galbreath
@@ -46,6 +58,9 @@ footnotes {
   james1813-baptism {
   	$opr-ref[b-1813-507-000-0040-0403 "James Fraser Galbreath"]
   }
+  elizabeth1818-baptism {
+    $opr-ref[b-1818-507-000-0040-0479 "Elizabath Galbreath"]
+  }
   alexander1819-baptism {
     $opr-ref[b-1819-507-000-0040-0498 "Alexander MacDonald Galbreath"]
   }
@@ -53,6 +68,12 @@ footnotes {
   	$opr-ref[b-1827-507-000-0060-0148 "David Stewart Galbreath"]
     $opr-ref[b-1827-507-000-0060-0188 "David Stewart Galbreath"]
     TBD: why two records
+  }
+  octavia1829-baptism {
+    $opr-ref[b-1829-507-000-0060-0188 "Octavia Galbreath"]
+  }
+  alfred1830-baptism {
+    $opr-ref[b-1830-507-000-0060-0210 "Alfred Galbreath"]
   }
   adelaide1831-baptism {
   	$opr-ref[b-1831-507-000-0060-0228 "Adelaide Galbreath"]
