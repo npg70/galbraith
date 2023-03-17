@@ -56,6 +56,7 @@ func ParishName(id1, id2 string) string {
 		"564/1": "Greenock New or Middle",
 		"564/2": "Greenock West",
 		"564/3": "Greenock Old or West",
+  "571":   "Mearns",
 		"573":   "Paisley",
 		"573/1": "Paisley High Church",
 		"573/2": "Paisley Low Church",
@@ -92,6 +93,7 @@ func ParishName(id1, id2 string) string {
 		"664":   "Carriden",
 		"694":   "Mid Calder, Midlothian",
 		"706":   "Dunbar",
+  "713":   "North Berwick",
 		"743":   "Greenlaw",
 		"788":   "Inverness",
 	}
