@@ -4,7 +4,7 @@ partner {
   name Eugenia McCallum
   marriage -date 28-Feb-1835 -location kilcalmonel -ref mccallum-marriage
   child {
-  	name Martha Galbreath
+		name Martha Galbreath
     baptism -date 30-Nov-1835 -location campbeltown -ref martha1835-baptism
     death -date 9-Jul-1922 -location campbeltown -ref martha1835-death -note umn
   }
@@ -25,7 +25,7 @@ footnotes {
     $opr-ref-link[m-1835-507-000-0060-0322 "Archibald Galbreath" "Eugina McCallum"]
   }
   martha1835-baptism {
-  
+  	$opr-ref-link[b-1835-507-000-0070-0072 "Martha Galbreath"]
   }
   martha1835-death {
   
