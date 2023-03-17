@@ -12,7 +12,9 @@ body {
 body {
     He was a shoemaker, according to various death records of his children.
 }
-
+note {
+	There is another Archibald Galbreath who married Jean Black, 1833 in North Berwick
+    }
 partner {
     name Jean Black
     marriage -date 23-Jul-1800 -location 'Killean and Kilchenzie' -ref marriage
