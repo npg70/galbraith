@@ -41,7 +41,7 @@ partner {
   }
   child {
   	name Catharine Galbreath
-    baptism -date 25-apr-1809 -location campbeltown -ref cathatine1809-baptism
+    baptism -date 25-apr-1809 -location campbeltown -ref catharine1809-baptism
     partner {
     	name Hugh Templeton
       body {
