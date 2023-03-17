@@ -21,7 +21,7 @@ He won a prize for turnip growning in 1804.
 
 partner {
   name Martha Galbreath
-  marriage -date 20-mar-1800 -location campbeltown -ref galbreath-marraige  
+  marriage -date 20-mar-1800 -location campbeltown -ref galbreath-marriage  
   child {
   	name Janet Galbreath
     baptism -date 31-sep-1801 -location campbeltown -ref janet1801-baptism
