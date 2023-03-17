@@ -8,6 +8,7 @@ partner {
     baptism -date 30-Nov-1835 -location campbeltown -ref martha1835-baptism
     death -date 9-Jul-1922 -location campbeltown -ref martha1835-death -note umn
   }
+  child galbraith-eugina-1838-wotherspoon
 }
 partner {
   name Margaret Loynachan
