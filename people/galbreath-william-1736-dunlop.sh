@@ -27,7 +27,7 @@ partner {
     }
     child {
         name James Galbreath
-        baptism 10-feb-1768 -location campbeltown -ref james1768-baptism
+        baptism -date 10-feb-1768 -location campbeltown -ref james1768-baptism
     }
     child {
         name Andrew Galbreath
@@ -81,4 +81,6 @@ footnotes {
             son born the 7st May named Andrew
         }
     }
+}
+    
 }
