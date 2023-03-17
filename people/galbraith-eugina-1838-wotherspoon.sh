@@ -12,7 +12,7 @@ partner {
 
 footnotes {
   eugina1838-baptism {
-    $opr-ref-link[]
+    $opr-ref-link[b-1838-507-000-0070-0118 "Ugenia Galbreath"]
   }
   eugina1838-death {
   
