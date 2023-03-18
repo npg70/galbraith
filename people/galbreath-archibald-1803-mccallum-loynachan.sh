@@ -58,7 +58,7 @@ partner {
   }
   child {
   	name Margaret Galbraith
-    birth -date 39-apr-1853
+    birth -date 30-apr-1853
     baptism -date 10-jul-1853 -location campbeltown -ref margaret1853-baptism
   }
   child {
