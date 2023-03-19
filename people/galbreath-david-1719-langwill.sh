@@ -32,8 +32,7 @@ partner {
 }
 footnotes {
     david1719-baptism {
-        $opr-ref-link[b-1719-507-000-0011-0138 "James Galbreath"]
-        $opr-ref[b-1719-507-000-0010-0088 "James Calbreth"]
+        $opr-ref-link[b-1719-507-000-0011-0137 "David Galbreath"]
     }
     marriage {
         $opr-ref[m-1741-507-000-0011-0447 "David Calbraith" "Jean Languill"]

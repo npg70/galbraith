@@ -76,8 +76,8 @@ partner () {
     }
 }
 footnotes {
-    katharine1743-baptism {
-        $opr-ref-link[b-1743-507-000-0011-0236 "Katharine Galbreath"]
+    katharine1741-baptism {
+        $opr-ref-link[b-1741-507-000-0011-0236 "Katharine Galbreath"]
     }
 }
 

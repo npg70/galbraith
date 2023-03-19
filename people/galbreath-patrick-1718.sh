@@ -4,6 +4,6 @@ body "unclear why i made this a separate entry"
 
 footnotes {
 patrick1718-baptism {   
-    $opr-ref-link[b-1719-507-000-0011-0134 "Patrick Galbreath"]
+    $opr-ref-link[b-1718-507-000-0011-0134 "Patrick Galbreath"]
 }
 }

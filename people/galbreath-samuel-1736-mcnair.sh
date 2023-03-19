@@ -50,7 +50,7 @@ partner {
 }
 footnotes {
     samuel1736-baptism {
-        $opr-ref-link[b-1738-507-000-0011-0212 "Samuel Galbreath"]
+        $opr-ref-link[b-1736-507-000-0011-0212 "Samuel Galbreath"]
     }
     archibald1777-baptism {
         $opr-ref-link[b-1777-507-000-0020-0035 "Archibald Galbreath"]

@@ -12,6 +12,6 @@ partner {
 footnotes {
     agnes1722-baptism {
         $opr-ref-link[b-1722-507-000-0010-0102 "Agnes Calbreath"]
-        $opr-ref-link[b-1722-507-000-0011-0147 "Agnas Galbreath"]
+        $opr-ref-link[b-1722-507-000-0011-0148 "Agnas Galbreath"]
     }
 }

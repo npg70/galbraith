@@ -67,7 +67,7 @@ footnotes {
     }
     ann1738-bapt {
         $opr-ref[b-1738-507-000-0011-0221 "Ann Galbreath"]
-        $opr-ref[b-1738-507-000-0010-0160 "Ann Galbraith"]
+        $opr-ref[b-1738-507-000-0010-0160 "Ann Calbraith"]
     }
 }
 

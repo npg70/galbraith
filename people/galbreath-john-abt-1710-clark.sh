@@ -92,8 +92,8 @@ footnotes {
         $opr-ref[b-1737-507-000-0011-0216 "Ann Galbreath"]
     }
     mary1738 {
-        $opr-ref-link[b-1738-507-0000-0010-0162 "Mary Calbraith"]
-        $opr-ref-link[b-1738-507-0000-0011-0224 "Mary Galbreath"]
+        $opr-ref-link[b-1738-507-000-0010-0162 "Mary Calbraith"]
+        $opr-ref-link[b-1738-507-000-0011-0224 "Mary Galbreath"]
     }
     jean1742 {
         $opr-ref[b-1742-507-000-0010-0167 "Jean Calbraith"]
