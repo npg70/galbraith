@@ -62,7 +62,7 @@ footnotes {
         Mother indexed as "MacMillan"
     }
     john1813-baptism {
-        $opr-ref[b-1813-507-000-0040-400 "John Galbreath"]
+        $opr-ref[b-1813-507-000-0040-0400 "John Galbreath"]
         Mother indexed as "MacMillan"
     }
     sarah1817-baptism {

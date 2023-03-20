@@ -34,7 +34,7 @@ partner {
     }
     child {
         name Florence Galbreath
-        baptism -date 6-mar-1806 -location campbeltown -ref florence1806-baptism
+        baptism -date 6-mar-1805 -location campbeltown -ref florence1805-baptism
         partner {
             name John McMurchy
             marriage -date 13-jun-1839
@@ -66,6 +66,7 @@ footnotes {
     }
     margaret1798-baptism {
         $opr-ref-link[b-1798-507-000-0040-0171 "Margaret Galbreath"]
+        $opr-ref-link[b-1798-507-000-0040-0171 "Maraan Galbreath"] 
         Scotlands People has a double entry. The other is indexed under "Maraann," but both
         lead to the same page with one entry.
     }
@@ -73,7 +74,7 @@ footnotes {
         $opr-ref-link[b-1800-507-000-0040-0206 "Jean Galbreath"]
     }
     henry1802-baptism {
-        $opr-ref-link[b-1802-507-000-0040-0223 "Henrey Galbreath"]
+        $opr-ref-link[b-1802-507-000-0040-0233 "Henrey Galbreath"]
     }
     florence1805-baptism {
         $opr-ref-link[b-1805-507-000-0040-0273 "Florence Galbreath"]

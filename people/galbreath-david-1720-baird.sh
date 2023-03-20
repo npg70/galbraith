@@ -4,12 +4,12 @@ external {
     familysearch KC4Z-X5T
 }
 note {
-    No addition infomation on anyone found.  Either moved out, or died out.
+    No additional information on anyone found.  Either moved out, or died out.
 }
 partner {
     name Martha Baird
     baptism -date 19-feb-1727 -location campbeltown
-    marriage -date 30-nov-1744 -location campbeltown
+    marriage -date 30-nov-1744 -location campbeltown -ref marriage
     body {
         The daughter of James Baird and Katharine Harvey
     }
@@ -39,7 +39,7 @@ footnotes {
         $opr-ref-link[m-1744-507-000-0011-0449 "David Calbraith" "Martha Baird"]
         $opr-ref[m-1745-507-000-0010-0179 "David Galbraith" "Martha Baird"]
     }
-    mary-1746-baptism {
+    mary1746-baptism {
         $opr-ref[b-1746-507-000-0010-0185 "Mary Calbraith"]
         $opr-ref[b-1746-507-000-0011-0258 "Mary Galbreath"]
     }
@@ -55,7 +55,7 @@ footnotes {
         $opr-ref[b-1755-507-000-0011-0295 "Agnes Galbreath"]
         $opr-ref[b-1755-507-000-0010-0222 "Agnes Galbraith"]
     }
-    lillias1757-baptism {
+    lillas1757-baptism {
         $opr-ref[b-1757-507-000-0011-0306 "Lillias Galbreath"]
         $opr-ref[b-1757-507-000-0010-0233 "Lillias Galbraith"]
     }    

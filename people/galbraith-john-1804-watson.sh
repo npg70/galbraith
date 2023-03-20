@@ -20,7 +20,11 @@ partner {
     }
     child {
         name Janet Galbreath
-        baptism -date 25-may-1845 -location campbeltown -ref janet-birth
+        baptism -date 25-may-1845 -location campbeltown -ref janet1845-baptism
+    }
+    child {
+        name Janet Galbreath
+        baptism -date 19-dec-1847 -location campbeltown -ref janet1847-baptism
     }
     child {
         name Isabella Galbraith
@@ -53,11 +57,14 @@ footnotes {
     john-birth {
         $opr-ref-link[b-1842-507-000-0070-0226 "John Galbreath"]
     }
-    janet-birth {
+    janet1845-baptism {
         $opr-ref-link[b-1845-507-000-0070-0284 "Janet Galbreath"]
+    }
+    janet1847-baptism {
+        $opr-ref-link[b-1847-507-000-0070-0329 "Janet Galbreath"]
     } 
     isabella-birth {
-        $opr-ref[b-1850-507-000-0070-0373 "Isabella Galbraith"]
+        $opr-ref[b-1850-507-000-0070-0374 "Isabella Galbraith"]
     }   
     william-birth {
         $opr-ref-link[b-1853-507-000-0070-0420 "William Galbraith"]

@@ -33,7 +33,7 @@ partner {
     }
     child {
         name William Galbreath
-        baptism -date 9-nov-1794 -location campbeltown -ref william1784-baptism
+        baptism -date 9-nov-1794 -location campbeltown -ref william1794-baptism
     }
     child {
         name Agnes Galbreath
@@ -81,6 +81,9 @@ footnotes {
     }
     martha1792-death {
         $sp-ref-link[d-1858-507-00-0073 0025 "Martha Galbraith"]
+    }
+    william1794-baptism {
+        $opr-ref[b-1794-507-000-0040-0120 "William Galbreath"]
     }
     agnes1797-baptism {
         $opr-ref[b-1797-507-000-0040-0147 "Agnes Galbreth"]

@@ -80,7 +80,7 @@ footnotes {
         $sp-ref-link[d-1862-507-00-0055 0019 "Margaret Galbraith"]
     }
     duncan1841-baptism {
-        $opr-ref[b-1841-507-000-0070-0196 "Duncan Galbreath"]
+        $opr-ref[b-1841-507-000-0070-0195 "Duncan Galbreath"]
     }
     donald1845-baptism {
         $opr-ref[b-1845-507-000-0070-0291 "Donald Galbreath"]

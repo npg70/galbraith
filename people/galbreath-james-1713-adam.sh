@@ -28,7 +28,7 @@ partner {
     }
     child {
          name Margaret Galbreath
-         baptism -date 15-apr-1752 -location campbeltown -ref marg1-bapt
+         baptism -date 15-apr-1752 -location campbeltown -ref margaret1752-bapt
      }
     child galbreath-david-1755-fleeming
     child {
@@ -68,8 +68,9 @@ footnotes {
     james1750-bapt {
         $opr-ref[b-1750-507-000-0011-0272 "James Galbreath"]
     }
-    marg1-bapt {
+    margaret1752-baptism {
         $opr-ref[b-1752-507-000-0011-0282 "Margaret Galbreath"]
+        $opr-ref[b-1752-507-000-0010-0271 "Margat  Galbreath"]
     }
     janet-bapt {
         $opr-ref-link[b-1757-507-000-0011-0304 "Janet Galbreath"]

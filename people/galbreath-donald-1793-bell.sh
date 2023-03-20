@@ -114,6 +114,7 @@ footnotes {
         $opr-ref-link[b-1772-507-000-0011-0384 "Daniel Galbreath"]{
             Daniel | John Galbreath + Margt Clark had a son born 21st and  baptized 22nd August named Daniel
         }
+        $opr-ref[b-1772-507-000-0020-0003 "Daniel Galbreath"]
     }
     annbell-death {
         $sp-ref-link[d-1856-507-01-0102 0034 "Agnes Galbraith"]{
