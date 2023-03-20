@@ -35,12 +35,16 @@ partner {
             marriage -date 16-jun-1761 -location campbeltown
             baptism -date 12-mar-1732 -location campbeltown
         }
-    }
+    }   
     child {
         name Ann Galbreath
         baptism -date 22-jan-1738 -location campbeltown -ref ann1738-bapt
     }
     child galbreath-henry-1739-armour
+    child {
+        name Margaret Galbreath
+        baptism -date 1-sep-1740 -location campbeltown -ref margaret1740-baptism
+    }
 }
 footnotes {
     william1701-baptism {
@@ -68,6 +72,9 @@ footnotes {
     ann1738-bapt {
         $opr-ref[b-1738-507-000-0011-0221 "Ann Galbreath"]
         $opr-ref[b-1738-507-000-0010-0160 "Ann Calbraith"]
+    }
+    margaret1740-baptism {
+        $opr-ref-link[b-1740-507-000-0011-0233 "Margaret Galbreath"]
     }
 }
 
