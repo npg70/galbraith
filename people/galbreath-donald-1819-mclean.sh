@@ -18,6 +18,7 @@ partner {
     child {
         name Margaret Galbraith
         baptism -date 29-aug-1853 -location campbeltown -ref margaret1853-baptism
+        death -date 31-mar-1857 -location campletown -ref margaret1853-death
     }
     child {
         name Donald Galbraith
@@ -42,7 +43,7 @@ footnotes {
             Mother: Annie Galbraith, M.S. Bell (deceased);
             Present: Donald Galbraith. son
         }
-        The age of 66 is incorrect.  THat would mean he got married at age 16.
+        The age of 66 is incorrect.  That would mean he got married at age 16.
     }
     marriage {
         $opr-ref[m-1847-507-000-0060-0423 "Donald Galbreath" "Isabella McLean"]{
@@ -59,6 +60,9 @@ footnotes {
     }
     margaret1853-baptism {
         $opr-ref[b-1853-507-000-0070-0419 "Margaret Galbraith"]
+    }
+    margaret1853-death {
+        $sp-ref-link[d-1857-507-00-0045 0015 "Margaret Galbraith"]
     }
     donald1856-birth {
         $sp-ref-link[b-1856-507-02-0002 0001 "Donald Galbreath"]        

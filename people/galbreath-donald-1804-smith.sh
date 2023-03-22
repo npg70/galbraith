@@ -1,5 +1,7 @@
 name Donald Galbreath
 baptism -date 10-jul-1804 -location Gigha -ref donald1804-baptism
+death -date 29-Nov-1859 -location campbeltown -ref donald1804-death
+
 external {
     familysearch KHMS-7WX
 }
@@ -8,7 +10,7 @@ note {
 }
 body {
 $p{
-Donald moved to the Campbeltown area in 1835 or 1836, and is present in the 1841 Census2 and 1851 Census3 where he is listed as a fisherman. He died on Shore Street in Campbeltown, 29 Nov 1859.4
+Donald moved to the Campbeltown area in 1835 or 1836, and is present in the 1841 Census2 and 1851 Census3 where he is listed as a fisherman.
 }
 $p{
 The 1861 Census5 for Shore Street, Campbeltown lists Flora ("formally a domestic servant"), along with children Duncan and Archibald, and grandchild Donald Ferguson.
@@ -60,6 +62,9 @@ partner {
 footnotes {
     donald1804-baptism {
         $opr-ref[b-1804-537-000-0010-0027 "Donald Galbreath"]
+    }
+    donald1804-death {
+        $sp-ref-link[d-1859-507-00-0123 0041 "Donald Galbraith"]
     }
     smith1832-marriage {
         $opr-ref-link[b-1832-537-000-0020-0026 "Donald Galbreath" "Flora Smith"] 
