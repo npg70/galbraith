@@ -25,6 +25,7 @@ partner {
 partner {
     name Jean Corbet
     marriage -date 'about 1791'
+    death -date 2-aug-1861 -location campbeltown -ref corbet-death
     child {
         name Martha Galbreath
         baptism -date 19-mar-1792 -location campbeltown -ref martha1792-baptism
@@ -72,6 +73,9 @@ footnotes {
     }
     langwill-marriage {
         $opr-ref-link[m-1787-507-000-0020-0170 "Archibald Galbreth" "Martha Langwill"] 
+    }
+    corbet-death {
+        $sp-ref-link[d-1861-507-00-0088 0030 "Jean Galbraith"]
     }
     william1789-baptism {
         $opr-ref-link[b-1789-507-000-0020-0110 "William Galbreath"]
