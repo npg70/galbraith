@@ -132,7 +132,7 @@ footnotes {
         $opr-ref-link[m-1811-507-000-0050-0097 "Jean Galbreath" "Anthony Campbell"]
     }
     jean1796-death {
-        $sp-ref-link[d-1867-507-00-0106 0036 "Jean Galbraith"]
+        $sp-ref-link[d-1867-594-00-0106 0036 "Jean Galbraith"]
     }
     agnes1798-baptism {
         $opr-ref-link[b-1798-507-000-0040-0166 "Agnes Galbreath"]
