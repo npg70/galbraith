@@ -26,6 +26,10 @@ partner {
     child {
         name Jean Galbreath
         baptism -date 13-Apr-1816 -location campbeltown -ref jean1816-baptism
+        death -date 24-feb-1872 -location campbeltown -ref jean1816-death
+        partner {
+            name John McCradie[?]
+        }
     }
     child {
         name Catherine Galbreath
@@ -57,6 +61,9 @@ footnotes {
     }
     jean1816-baptism {
         $opr-ref[b-1816-507-000-0040-0443 "Jean Galbreath"]
+    }
+    jean1816-death {
+        $sp-ref-link[d-1872-507-00-0027 0009 "Jane Galbraith"]
     }
     catherine1819-baptism {
         $opr-ref[b-1819-507-000-0040-0497 "Catharine Galbreath"]
