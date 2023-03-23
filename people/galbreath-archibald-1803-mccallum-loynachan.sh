@@ -19,7 +19,7 @@ partner {
   	name James Galbreath
     birth -date 23-sep-1841
     baptism -date 7-nov-1841 -location campbeltown -ref james1841-baptism
-    death -date 6-dec-1875 -note umn
+    death -date 6-dec-1875 -note umn -ref james1841-death
     body {
     	seaman
     }
@@ -105,6 +105,9 @@ footnotes {
   }
   james1841-baptism {
   	$opr-ref-link[b-1841-507-000-0070-0207 "James Galbreath"]
+  }
+  james1841-death {
+    $sp-ref-link[d-1875-507-00-0174 0058 "James Galbraith"]
   }
   archibald1843-baptism {
   	$opr-ref-link[b-1843-507-000-0070-0244 "Archibald Galbreath"]
