@@ -36,6 +36,7 @@ partner {
     child {
         name Maria Galbraith
         birth -date 11-apr-1874 -location campbeltown -ref maria1874-birth
+        death -date 1876 -location campbeltown -ref maria1874-death
     }
     child {
         name Janet McMurchy Galbraith
@@ -76,6 +77,9 @@ footnotes {
     }
     maria1874-birth {
         $sp-ref[b-1874-507-00-0097 "Maria Galbraith"]
+    }
+    maria1874-death {
+        $sp-ref[d-1876-507-00-0199 "Maria Galbraith"]
     }
     janet1879-birth {
         $sp-ref-link[b-1879-507-00-0302 0107 "Janet McMurchy Galbraith"]

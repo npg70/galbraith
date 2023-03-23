@@ -10,7 +10,22 @@ partner {
     birth -date "about 1841"
     marriage -date 13-oct-1865 -location campbeltown -ref mcalpine-marriage
     body {
-        maybe 5 daughters in campbeltown from 1865 to 1875
+        maybe 5 daughters in campbeltown from 1865 to 1875. With at least 3 dying in 1876! Epidemic?
+    }
+    child {
+        name Margaret Galbraith
+        birth -date 1868 -location campebeltown
+        death -date 1876 -location campebeltown -ref margaret1868-death
+    }
+    child {
+        name Mary Agnes Galbraith
+        birth -date 1871 -location campbeltown
+        death -date 1876 -location campbeltown -ref mary1876-death
+    }
+    child {
+        name Isabella Greenless Galbraith
+        birth -date 1873 -location campbeltown
+        death -date 1876 -location campbeltown -ref isabella1873-death
     }
 }
 partner {
@@ -56,4 +71,16 @@ footnotes {
     galbraith-marriage {
         $sp-ref-link[m-1885-507-00-0017 0009 "John Galbraith" "Isabella Galbraith"]
     }
+
+    margaret1868-death {
+        $sp-ref[d-1876-507-00-0041 "Margaret Galbraith"]
+    }
+    mary1871-death {
+        $sp-ref[d-1876-507-00-0023 "Mary Agnes Galbraith"]
+    }
+    isabella1873-death {
+        $sp-ref[d-1876-507-00-0042 "Isabella Greenlees Galbraith"]
+    }
+
+
  }
