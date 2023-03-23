@@ -21,6 +21,10 @@ partner {
     child {
         name Katherine Galbreath
         baptism -date 14-mar-1794 -location campbeltown -ref kate1794-baptism
+        death -date 14-may-1875 -location campbeltown -ref kate1875-death -note 'in poorhouse'
+        partner {
+            John Cook
+        }
     }
     child {
         name Hester Galbreath
@@ -42,6 +46,9 @@ footnotes {
     }
     kate1794-baptism {
         $opr-ref-link[b-1794-507-000-0040-0114 "Katherin Galbreath"]
+    }
+    kate1794-death {
+        $sp-ref-link[d-1874-507-00-0062 0021 "Catherine Galbraith"]
     }
     hester1796-baptism {
         $opr-ref[b-1796-507-000-0040-0141 "Hester Galbreath"]
