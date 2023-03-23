@@ -1,6 +1,6 @@
 name Jean Galbreath
 baptism -date 7-apr-1805 -location campbeltown -ref jean1805-baptism
-death -date 3-Jun-1864 
+death -date 3-Jun-1864 -location campbeltown -ref jean1805-death
 
 partner {
     name John Coville Jr
@@ -71,6 +71,9 @@ partner {
 footnotes {
     jean1805-baptism {
         $opr-ref-link[b-1805-507-000-0040-0275 "Jean Galbreath"]
+    }
+    jean1805-death {
+        $sp-ref-link[d-1864-507-00-0103 0035 "Jean Galbraith"]
     }
     marriage {
         $opr-ref-link[m-1824-507-000-0060-0261 "Jean Galbreath" "John Colvill/"]        
