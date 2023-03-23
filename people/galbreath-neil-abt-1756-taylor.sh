@@ -23,7 +23,7 @@ partner {
         baptism -date 14-mar-1794 -location campbeltown -ref kate1794-baptism
         death -date 14-may-1875 -location campbeltown -ref kate1794-death -note 'in poorhouse'
         partner {
-            John Cook
+            name John Cook
         }
     }
     child {
