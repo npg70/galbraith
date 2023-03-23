@@ -1,9 +1,15 @@
 name Archibald Galbreath
 baptism -date 5-feb-1800 -location campbeltown -ref archibald1800-baptism
 death -date 16-may-1869 -location campbeltown -ref archibald1800-death
+
+external {
+
+}
+
 partner {
     name Agnes Henderson
-    marriage -date 24-may-1831 -location campbeltown -ref marriage
+    marriage -date 24-may-1831 -location campbeltown -ref henderson-marriage
+    death -date 7-aug-1872 -location campbeltown -ref henderson-death
     body {
         from Southend Parish
     }
@@ -70,8 +76,16 @@ footnotes {
     archibald1800-death {
         $sp-ref-link[d-1869-507-00-0081 0027 "Archibald Galbreath"]
     }   
-    marriage {
+    henderson-marriage {
         $opr-ref-link[m-1831-507-000-0060-300 "Archibald Galbreath" "Ann Henderson"]
+    }
+    henderson-death {
+        $sp-ref-link[d-1872-507-00-0104 0035 "Ann Galbraith"]{
+        104. Ann Galbraith Widow of Archd Galbraith;
+        Death: 1872 August Seventh, age 60;
+        Father and Mother: blank;
+        Present: Alexander Galbraith, son
+      }
     }
     neil1833-baptism {
         $opr-ref[b-1833-507-000-0070-0036 "Neill Galbreath"]
