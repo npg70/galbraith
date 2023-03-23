@@ -22,6 +22,7 @@ func ParishName(id1, id2 string) string {
 
 	parishmap := map[string]string{
 		"108":    "Barra",
+		"228":    "Old Deer, Aberdeen",
 		"280":    "Elgin",
 		"301":    "Aberdeen",
 		"424":    "Dunfermline, Fife",
