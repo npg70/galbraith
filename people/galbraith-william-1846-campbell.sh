@@ -4,6 +4,7 @@ baptism {
   location campbeltown
   ref william1846-baptism
 }
+death -date 21-may-1926 -location campbeltown -ref william1846-death
 body {
 He was a mason, like his father.
 }
@@ -30,6 +31,9 @@ partner {
 footnotes {
     william1846-baptism {
         $opr-ref[b-1846-507-000-0070-0299 "William Galbreath"]
+    }
+    william1846-death {
+        $sp-ref-link[d-1926-507-00-0061 0021 "William Galbraith"]
     }
     campbell-marriage {
         $sp-ref-link[m-1869-532-00-0004 0002 "William Galbraith" "Helen Campbell"]

@@ -1,5 +1,6 @@
 name Archibald Galbreath
 baptism -date 11-sep-1803 -location campbeltown -ref archibald1803-baptism
+death -date 17-feb-1885 -location campbeltown -ref archibald1803-death
 partner {
   name Eugenia McCallum
   marriage -date 28-Feb-1835 -location kilcalmonel -ref mccallum-marriage
@@ -79,6 +80,9 @@ partner {
 footnotes {
   archibald1803-baptism {
     $opr-ref-link[b-1803-507-000-0040-0252 "Archibald Galbreath"]
+  }
+  archibald1803-death {
+    $sp-ref-link[d-1885-507-00-0043 0015 "Archibald Galbraith"]
   }
   mccallum-marriage {
     $opr-ref-link[m-1835-516-000-0020-0248 "Archibald Galbraith" "Eugenia Macallum"]

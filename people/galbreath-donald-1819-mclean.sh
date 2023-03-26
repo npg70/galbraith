@@ -14,6 +14,10 @@ partner {
     child {
         name Isabella Galbraith
         baptism -date 22-aug-1850 -location campbeltown -ref isabella1850-baptism
+        death -date 16-feb-1940 -location campbeltown -ref isabella1850-death
+        partner {
+            name Peter McGregor
+        }
     }
     child {
         name Margaret Galbraith
@@ -57,6 +61,9 @@ footnotes {
     }
     isabella1850-baptism {
         $opr-ref[b-1850-507-000-0070-0373 "Isabella Galbraith"]
+    }
+    isabella1850-death {
+        $sp-ref-link[d-1940-507-00-0022 0008 "Isabella Galbraith"]
     }
     margaret1853-baptism {
         $opr-ref[b-1853-507-000-0070-0419 "Margaret Galbraith"]
