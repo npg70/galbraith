@@ -57,7 +57,7 @@ body {
      * Bootstrap uses 500 for h1-h6 items already, which seems fine.
      * Bold and Bolder is 700
      *
-     * TODO: perhap change --bs-body-font-weight instead
+     * TODO: perhaps change --bs-body-font-weight instead
      */
     font-weight: 450;
 }
@@ -67,7 +67,6 @@ nav {
     font-family: var(--bs-font-sans-serif);
     font-weight: 400;
 }
-
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
@@ -209,7 +208,9 @@ div.banner {
     margin-bottom:2em;
 }
 
-/* this is a dup of bootstrap for reference */
+/*
+ this is a dup of bootstrap for reference 
+
 sub,
 sup {
     position: relative;
@@ -221,12 +222,10 @@ sup {
 sub {
     bottom: -0.25em;
 }
-/* my adjustment */
 sup {
-    /*  top: -0.50em; */
     top: -0.40em;
 }
-
+*/
 /* undo all of it since our font supports this natively */
 sup {
     font-variant-position: super;
