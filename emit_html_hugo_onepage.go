@@ -203,7 +203,7 @@ func emitHTMLHugo(n *html.Node, singlePage bool) string {
 		"person": func(args []string, body string) string {
 			pid := getKeyValue(args, "id")
 			s := strings.Builder{}
-			s.WriteString("<div class='container-fluid person'>")
+			s.WriteString("<div class='container-fluid person mx-auto'>")
 			s.WriteString(fmt.Sprintf("<a name=%q></a>\n", pid))
 			s.WriteString(body)
 			s.WriteString("</div><!-- person -->\n") // person

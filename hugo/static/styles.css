@@ -67,12 +67,6 @@ nav {
     font-family: var(--bs-font-sans-serif);
     font-weight: 400;
 }
-.container-fluid {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 768px; /* bootstrap medium breakpoint */
-}
-
 span.primary-number {
     font-weight: bold;
     margin-right: 1em;
