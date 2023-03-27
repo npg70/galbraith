@@ -60,6 +60,7 @@ func ParishName(id1, id2 string) string {
 		"564/1":  "Greenock New or Middle",
 		"564/2":  "Greenock West",
 		"564/3":  "Greenock Old or West",
+		"568":    "Kilbarchan, Renfrew",
 		"571":    "Mearns",
 		"573":    "Paisley",
 		"573/1":  "Paisley High Church",
