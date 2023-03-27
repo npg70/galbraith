@@ -775,6 +775,9 @@ func (r Root) generateOne(primary string) (string, []string) {
 				}
 			}
 			out.WriteString(".")
+			if len(partner.Body) > 0 {
+				out.WriteString(strings.Join(partner.Body, " "))
+			}
 		}
 		out.WriteString("</p>\n")
 	}
