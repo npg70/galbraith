@@ -1,6 +1,6 @@
 name Neil Galbreath
 baptism -date 10-oct-1801 -location gigha -ref neil1801-baptism
-death -date 27-oct-1890 -location campebtlwon -ref neil1801-baptism
+death -date 27-oct-1890 -location campbeltown -ref neil1801-death
 note {
     Children uninvestigated except for birth and death
 }
@@ -17,7 +17,7 @@ partner {
     }
     child {
         name Dugald Galbreath
-        baptism -date 31-Jul-1845 -location campbeltown -ref dugald1845-baptim
+        baptism -date 31-Jul-1845 -location campbeltown -ref dugald1845-baptism
         death -date 1908 -location campbeltown -ref dugald1845-death
     }
 }
