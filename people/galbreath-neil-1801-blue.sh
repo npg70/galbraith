@@ -13,7 +13,13 @@ partner {
     child {
         name Isabella Galbreath
         baptism -date 29-may-1843 -location campbeltown -ref isabella1843-baptism
-        death -date 1921 -location campbeltown -ref isabella1843-death
+        death -date 23-nov-1921 -location campbeltown -ref isabella1843-death
+        partner {
+            name John Galbraith
+        }
+        body {
+            No children(likely). See entry for $child-link[galbreath-john-1842-mcalpine-wylie-galbraith]{John Galbraith} for more details.
+        }
     }
     child {
         name Dugald Galbreath
@@ -35,7 +41,7 @@ footnotes {
         $opr-ref[b-1843-507-000-0070-0240 "Isabella Galbreath"]
     }
     isabella1843-death {
-        $sp-ref[d-1921-507-00-0100 "Isabella Galbraith"]
+        $sp-ref-link[d-1921-507-00-0100 0034 "Isabella Galbraith"]
     }
     dugald1845-baptism {
         $opr-ref[b-1845-507-000-0070-0288 "Dugald Galbreath"]

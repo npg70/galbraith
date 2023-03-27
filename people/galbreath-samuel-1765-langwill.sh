@@ -1,11 +1,14 @@
 name Samuel Galbreath
-birth -date 'about 1765'
+birth -date 'say 1765'
+external {
+    familysearch KZ3Z-DXW
+}
 body {
-Little is now about the origins of Samuel. Guessing his birth around 1765 would make first child born when he was 28 which seems reasonable. All children appear to have been born "in Town" and the marriage said the couple were "both of this parish".
+Little is know about the origins of Samuel. Guessing his birth to be around 1765 would make first child born when he was 28 which seems reasonable. All children appear to have been born "in Town" and the marriage said the couple were "both of this parish".
 }
 partner {
     name Janet Langwill
-    marriage -date 1792
+    marriage -date 23-apr-1790 -location campbeltown -ref langwill-marriage
     child {
         name Archibald Galbreath
         baptism -date 24-nov-1793 -location campbeltown -ref archibald1793-baptism
@@ -27,6 +30,12 @@ partner {
     }
 }
 footnotes {
+    langwill-marriage {
+        $opr-ref-link[m-1790-507-000-0020-0173 "Samuel Galbreath" "Jenat Langwill"]{
+            Samuel Galbreath + Jenat Langwill both of this Parish Contracted
+            23rd April + were married.
+        }
+    }
     archibald1793-baptism {
         $opr-ref-link[b-1793-507-000-0040-0111 "Archibald Galbreath"]
     }

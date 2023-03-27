@@ -2,8 +2,12 @@ name David Galbreath
 birth -date 16-sep-1797
 baptism -date 19-sep-1797 -location campbeltown -ref david1797-baptism
 death -date 12-aug-1884 -location campbeltown -ref david1797-death
+
+external {
+    familysearch LZVY-GWN
+}
 body {
-    He was a laborer3, a fisherman56, potato buyer7, and a sawyer89.
+He was a laborer, a fisherman, a potato buyer, and a sawyer (one who makes boards).
 }
 partner {
     name Janet Mitchell
