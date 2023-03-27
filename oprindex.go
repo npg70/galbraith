@@ -66,8 +66,8 @@ func oprindex(db Root) string {
 			plink := fmt.Sprintf("<a href=/galbraith/people/%s/>%s</a>", item.pid, person)
 			parts := strings.Split(item.oprid, "-")
 			out.WriteString("<tr>")
-			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s</td><td class=nowrap>%s</td><td>%s</td>",
-				i+1, oprref(parts), item.sv, plink))
+			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s %s</td><td class=nowrap>%s</td><td>%s</td>",
+				i+1, parts[1], oprref(parts), item.sv, plink))
 			out.WriteString("</tr>\n")
 		}
 	}
