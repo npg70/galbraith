@@ -102,6 +102,8 @@ func ParishName(id1, id2 string) string {
 		"685":    "Edinburgh",
 		"685/1":  "Edinburgh",
 		"685/2":  "St. Cuthberts",
+		"685/5":  "Newington",
+		"685/8":  "Leith",
 		"694":    "Mid Calder, Midlothian",
 		"706":    "Dunbar",
 		"713":    "North Berwick",
