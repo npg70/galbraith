@@ -592,7 +592,7 @@ func WriteTitle(p *Person) string {
 	}
 	if e != nil && e.Date.year != 0 {
 		about := ""
-		if e.Date.about {
+		if e.Date.qualifier != DATE_EXACT {
 			about = "~"
 		}
 		out += fmt.Sprintf(" b. %s%d", about, e.Date.year)

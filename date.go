@@ -7,18 +7,27 @@ import (
 	"time"
 )
 
+type DateQualifier int
+
+const (
+	DATE_EXACT DateQualifier = iota
+	DATE_ABOUT
+	DATE_SAY
+)
+
 type Date struct {
-	about bool
-	day   int // 1-31
-	month int // 1-12
-	year  int // four digits
+	qualifier DateQualifier
+	day       int // 1-31
+	month     int // 1-12
+	year      int // four digits
 }
 
 func ParseTime(t time.Time) Date {
 	return Date{
-		day:   t.Day(),
-		month: int(t.Month()),
-		year:  t.Year(),
+		qualifier: DATE_EXACT,
+		day:       t.Day(),
+		month:     int(t.Month()),
+		year:      t.Year(),
 	}
 }
 
@@ -46,9 +55,15 @@ func (d *Date) UnmarshalText(text []byte) error {
 	}
 
 	// Qualifier.. tbd
-	if parts[0] == "abt" || parts[0] == "about" {
-		d.about = true
+	switch parts[0] {
+	case "abt", "about":
+		d.qualifier = DATE_ABOUT
 		parts = parts[1:]
+	case "say":
+		d.qualifier = DATE_SAY
+		parts = parts[1:]
+	default:
+		d.qualifier = DATE_EXACT
 	}
 
 	if len(parts) == 0 {
@@ -134,7 +149,7 @@ func (d Date) Unknown() bool {
 	return d.year == 0
 }
 
-// "About" ignored
+// qualifier ignored
 func (d Date) ISO() string {
 	if d.Unknown() {
 		// unknown if right idea or not
@@ -145,7 +160,7 @@ func (d Date) ISO() string {
 }
 
 // ISO 8601, with dash  2022-01-16
-// About ignored
+// Qualifier ignored
 func (d Date) ISODash() string {
 	if d.Unknown() {
 		// unknown if right idea or not
@@ -163,8 +178,15 @@ func (d Date) DayMonthYear() string {
 	}
 
 	parts := []string{}
-	if d.about {
+	switch d.qualifier {
+	case DATE_EXACT:
+		// NOP
+	case DATE_ABOUT:
 		parts = append(parts, "abt")
+	case DATE_SAY:
+		parts = append(parts, "say")
+	default:
+		panic("oops forgot to add qualifier")
 	}
 	if d.day != 0 {
 		parts = append(parts, fmt.Sprintf("%d", d.day))
@@ -179,8 +201,15 @@ func (d Date) DayMonthYear() string {
 // 1-2 Digit Day, 3 letter Month, Full Year
 func (d Date) DayMonYear() string {
 	parts := []string{}
-	if d.about {
-		parts = append(parts, "about")
+	switch d.qualifier {
+	case DATE_EXACT:
+		// NOP
+	case DATE_ABOUT:
+		parts = append(parts, "abt")
+	case DATE_SAY:
+		parts = append(parts, "say")
+	default:
+		panic("oops forgot to add qualifier")
 	}
 	if d.day != 0 {
 		parts = append(parts, fmt.Sprintf("%d", d.day))
