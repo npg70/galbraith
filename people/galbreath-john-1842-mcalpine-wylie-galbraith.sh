@@ -1,8 +1,10 @@
 name John Galbreath
 baptism -date 25-jul-1842 -location campbeltown -ref john1842-baptism
 death -date 26-may-1922 -location campbeltown -ref john1842-death
-note { 
-    Possible descendants uninvestigated.
+
+external {
+
+
 }
 
 partner {
@@ -10,22 +12,32 @@ partner {
     birth -date "about 1841"
     marriage -date 13-oct-1865 -location campbeltown -ref mcalpine-marriage
     body {
-        maybe 5 daughters in campbeltown from 1865 to 1875. With at least 3 dying in 1876! Epidemic?
+    Five daughters, all unmarried. Three died in the same year (1876). Epidemic?
     }
     child {
-        name Margaret Galbraith
-        birth -date 1868 -location campbeltown
-        death -date 1876 -location campebeltown -ref margaret1868-death
+        name Jessie Galbraith
+        birth -date 1865 -location campbeltown -ref jessie1865-birth
+        death -date 1952 -location govan,glasgow -ref jessie1865-death
+    }
+    child {
+        name Margaret McAlpine Galbraith
+        birth -date 23-may-1868 -location campbeltown -ref margaret1868-birth
+        death -date 1876 -location campbeltown -ref margaret1868-death
     }
     child {
         name Mary Agnes Galbraith
-        birth -date 1871 -location campbeltown
+        birth -date 17-feb-1871 -location campbeltown -ref mary1871-birth
         death -date 1876 -location campbeltown -ref mary1871-death
     }
     child {
         name Isabella Greenless Galbraith
-        birth -date 1873 -location campbeltown
+        birth -date 1873 -location campbeltown -ref isabella1873-birth
         death -date 1876 -location campbeltown -ref isabella1873-death
+    }
+    child {
+        name Christina Kennedy Galbraith
+        birth -date 19-july-1875 -location campbeltown -ref christina1875-birth
+        death -date 23-may-1965 -location campbeltown -ref christina1875-death -note umn
     }
 }
 partner {
@@ -35,7 +47,7 @@ partner {
     death -date 1885 -location campbeltown -ref wylie-death
     marriage -date 26-mar-1877 -location campbeltown -ref wylie-marriage
     body {
-        Previously married to Dugald Paterson, who died in 1875. Four children, 3 boys, 1 girl.
+        Previously married to Dugald Paterson, who died in 1875. 
     }
     child {
         name Thomas Wylie Galbraith
@@ -102,14 +114,36 @@ footnotes {
     galbraith-marriage {
         $sp-ref-link[m-1885-507-00-0017 0009 "John Galbraith" "Isabella Galbraith"]
     }
+    jessie1865-birth {
+        $sp-ref[b-1865-507-00-0250 "Jessie Galbraith"]
+    }
+    jessie1865-death {
+        $sp-ref-link[d-1952-644-17-0427 0143 "Jessie Galbraith"]
+         Day and month of death are illegible. 
+     }
+    margaret1868-birth {
+        $sp-ref-link[b-1868-507-00-0126 0042 "Margaret McAlpine Galbraith"]
+    }
     margaret1868-death {
         $sp-ref[d-1876-507-00-0041 "Margaret Galbraith"]
+    }
+    mary1871-birth {
+        $sp-ref-link[b-1876-507-00-0044 0015 "Mary Agnes Galbraith"]
     }
     mary1871-death {
         $sp-ref[d-1876-507-00-0023 "Mary Agnes Galbraith"]
     }
+    isabella1873-birth {
+        $sp-ref[b-1873-507-00-0144 "Isabella Greenless Galbraith"]    
+    }
     isabella1873-death {
         $sp-ref[d-1876-507-00-0042 "Isabella Greenlees Galbraith"]
+    }
+    christina1875-birth {
+        $sp-ref-link[b-1875-507-00-0168 0056 "Christina Kennedy Galbraith"]
+    }
+    christina1875-death {
+        $sp-ref-link[d-1965-507-00-0053 0018 "Christina Kennedy Galbraith"]
     }
     thomas1878-birth {
         $sp-ref-link[b-1878-507-00-0053 0018 "Thomas Wylie Galbraith"]
