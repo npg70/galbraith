@@ -49,16 +49,7 @@ partner {
     body {
         Previously married to Dugald Paterson, who died in 1875. 
     }
-    child galbraith-thomas-wylie-1878-mckiven
-        name Thomas Wylie Galbraith
-        birth -date 3-feb-1878 -location campbeltown -ref thomas1878-birth
-        death -date 13-july-1950 -location Edinburgh
-        partner {
-            name Flora McKiven
-        }
-        body {
-            Six children born after 1900.
-        }
+    child galbraith-thomas-wylie-1878-mckinven
     child {
         name David Galbraith
         birth -date 28-sep-1879 -location campbeltown -ref david1879-birth
