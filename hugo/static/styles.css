@@ -47,8 +47,6 @@ body {
     font-feature-settings: "kern" 1, "liga" 1;
     font-optical-sizing: auto;
     text-rendering: optimizeLegibility;
-    margin-left: 2em;
-    margin-right: 2em;
     /* Using Source Serif @ 400 for body text at small sizes isi
      * bit thin and anti-aliased to gray.  450 thickens it up a bit.
      * This applies to everything so undo for nav-specific

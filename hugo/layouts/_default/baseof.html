@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}/styles.css">
     </head>
 <body>
-<nav class="navbar navbar-expand-md bg-body-tertiary"> <div class="container-fluid">
+<nav class="navbar navbar-expand-md bg-body-tertiary"> <div class="container-fluid ms-1">
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
   </button>
@@ -28,7 +28,9 @@
     </div>
   </div>
   </div></nav>
+<div class="mx-1">
 {{ block "main" . }}{{ end }}
+</div>
 {{ block "footer" . }}{{ end }}
 <script src="{{ .Site.BaseURL }}/bootstrap.min.js"></script>
 </body>
