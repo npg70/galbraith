@@ -49,7 +49,7 @@ partner {
     body {
         Previously married to Dugald Paterson, who died in 1875. 
     }
-    child {
+    child galbraith-thomas-wylie-1878-mckiven
         name Thomas Wylie Galbraith
         birth -date 3-feb-1878 -location campbeltown -ref thomas1878-birth
         death -date 13-july-1950 -location Edinburgh
@@ -59,7 +59,6 @@ partner {
         body {
             Six children born after 1900.
         }
-    }
     child {
         name David Galbraith
         birth -date 28-sep-1879 -location campbeltown -ref david1879-birth
@@ -144,9 +143,6 @@ footnotes {
     }
     christina1875-death {
         $sp-ref-link[d-1965-507-00-0053 0018 "Christina Kennedy Galbraith"]
-    }
-    thomas1878-birth {
-        $sp-ref-link[b-1878-507-00-0053 0018 "Thomas Wylie Galbraith"]
     }
     david1879-birth {
         $sp-ref-link[b-1879-507-00-0274 0009 "Charles Galbraith"]
