@@ -18,7 +18,9 @@ The 1861 Census5 for Shore Street, Campbeltown lists Flora ("formally a domestic
 }
 partner {
     name Flora Smith
-    marriage -date 7-jun-1832 -location Gigha -ref smith1832-marriage
+    birth -date 'about 1806'
+    marriage -date 7-jun-1832 -location Gigha -ref smith1806-marriage
+    death -date 29-apr-1885 -location campbeltown -ref smith1806-death
     child galbreath-john-1833-mccallum
     child {
         name Neill Galbreath
@@ -27,7 +29,7 @@ partner {
     child {
         name Malcolm Galbreath
         baptism -date 27-Dec-1836 -location Campbeltown -ref malcolm1836-baptism
-        death -date 6-Feb-1901 -location Perth
+        death -date 6-Feb-1901 -location Perth -ref malcolm1836-death
         partner {
             name Christina Garrie
         }
@@ -61,13 +63,16 @@ partner {
 
 footnotes {
     donald1804-baptism {
-        $opr-ref[b-1804-537-000-0010-0027 "Donald Galbreath"]
+        $opr-ref-link[b-1804-537-000-0010-0027 "Donald Galbreath"]
     }
     donald1804-death {
         $sp-ref-link[d-1859-507-00-0123 0041 "Donald Galbraith"]
     }
-    smith1832-marriage {
+    smith1806-marriage {
         $opr-ref-link[b-1832-537-000-0020-0026 "Donald Galbreath" "Flora Smith"] 
+    }
+    smith1806-death {
+        $sp-ref-link[d-1885-507-00-0084 0028 "Flora Galbraith"]
     }
     john1833-baptism {
         $opr-ref[b-1833-537-000-0020-0027 "John Galbreath"]
@@ -77,6 +82,9 @@ footnotes {
     }
     malcolm1836-baptism {
         $opr-ref[b-1836-507-000-0070-0092 "Malcolm Galbreath"]
+    }
+    malcolm1836-death {
+        $sp-ref-link[d-1901-387-00-0073 0026 "Malcom Galbraith"]
     }
     margaret1838-baptism {
         $opr-ref[b-1838-507-000-0070-0135 "Margaret Galbreath"]
