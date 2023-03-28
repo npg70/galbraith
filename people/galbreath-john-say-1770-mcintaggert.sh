@@ -13,7 +13,8 @@ note {
 }
 
 partner {
-    name Cathartine McTaggert
+    name Catharine McTaggert
+    marriage -date 'about 1793'
 
     child {
         name Duncan Galbreath
