@@ -27,6 +27,7 @@ func ParishName(id1, id2 string) string {
 		"301":    "Aberdeen",
 		"387":    "Perth",
 		"424":    "Dunfermline, Fife",
+		"466":    "Clackmannan",
 		"472":    "Balfron, Stirling",
 		"475":    "Campsie, Stirling",
 		"479":    "Falkirk",
@@ -111,6 +112,7 @@ func ParishName(id1, id2 string) string {
 		"713":    "North Berwick",
 		"743":    "Greenlaw",
 		"788":    "Inverness",
+		"790":    "Hobkirk, Roxburgh",
 	}
 
 	ref := ParishRef(id1, id2)

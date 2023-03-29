@@ -19,7 +19,7 @@ partner {
     }
     child {
         name John Galbreath
-        baptism -date 12-apr-1793 -location campbeltown -ref john1793
+        baptism -date 12-apr-1793 -location campbeltown -ref john1793-baptism
     }
     child {
         name Ann Galbreath
@@ -42,8 +42,11 @@ footnotes {
     margaret1791 {
         $opr-ref-link[b-1791-507-000-0020-0131 "Margaret Galbreath"]
     }
-    john1793 {
-        $opr-ref-link[b-1793-507-000-0040-0106 "John Galbreath"]
+    john1793-baptism {
+        $opr-ref-link[b-1793-507-000-0040-0106 "John Galbreath"]{
+            $i{April 1793} John Lawful son to John Galbreath + Marion McLean in
+            Tolechash[?] born [??] 12
+        }
     }
     ann1794 {
         $opr-ref-link[b-1794-507-000-0040-0114 "Ann Galbreath"]
