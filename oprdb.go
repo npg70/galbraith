@@ -44,6 +44,7 @@ func ParishName(id1, id2 string) string {
 		"512":    "Inveraray and Glenaray",
 		"516":    "Kilcalmonell and Kilberry, Argyll",
 		"516/2":  "Kilberry, Argyll",
+		"518":    "Kilfinan, Argyll",
 		"519":    "Killean and Kilchenzie, Argyll",
 		"526":    "Lochgilphead, Argyll",
 		"531":    "Saddell and Skipness, Argyll",
