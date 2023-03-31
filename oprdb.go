@@ -21,7 +21,10 @@ func ParishRef(id1, id2 string) string {
 func ParishName(id1, id2 string) string {
 
 	parishmap := map[string]string{
+		"074":    "Lochalsh, Ross and Cromarty",
 		"108":    "Barra",
+		"114":    "Raasay, Inverness",
+		"152":    "Enzie,Banff",
 		"228":    "Old Deer, Aberdeen",
 		"280":    "Elgin",
 		"301":    "Aberdeen",
@@ -112,6 +115,7 @@ func ParishName(id1, id2 string) string {
 		"706":    "Dunbar",
 		"713":    "North Berwick",
 		"743":    "Greenlaw",
+		"775":    "Galashiels, Selkirk",
 		"788":    "Inverness",
 		"790":    "Hobkirk, Roxburgh",
 	}

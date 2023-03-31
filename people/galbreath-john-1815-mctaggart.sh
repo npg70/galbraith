@@ -16,10 +16,7 @@ partner {
         name Archibald Galbreath
         baptism -date 25-sep-1842 -location campbeltown -ref archibald1842-baptism
     }
-    child {
-        name Alexander Galbreath
-        baptism -date 4-aug-1844 -location campbeltown -ref alexander1844-baptism
-    }
+    child galbreath-alexander-1844-campbell-matheson 
     child {
         name John Galbreath
         baptism -date 8-dec-1845 -location campbeltown -ref john1845-baptism
@@ -50,9 +47,6 @@ footnotes {
     }
     archibald1842-baptism {
         $opr-ref-link[b-1842-507-000-0070-0226 "Archibald Galbreath"]
-    }
-    alexander1844-baptism {
-        $opr-ref-link[b-1844-507-000-0070-0267 "Alexander Galbreath"]
     }
     john1845-baptism {
         $opr-ref[b-1847-507-000-0070-0328 "John Galbreath"]
