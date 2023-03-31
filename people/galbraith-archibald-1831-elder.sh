@@ -29,7 +29,7 @@ partner {
     death -date 22-April-1924
     marriage -date 23-jan-1865 -location "Enzie,Bannf" -ref elder-marriage
 
-    children {
+    child {
         name Angus Galbraith
         birth -date 23-sep-1876 -location 'whitehouse,kilcalmonell' -ref angus1876-birth
     }
