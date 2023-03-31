@@ -1,6 +1,6 @@
 name Archibald Galbraith
 baptism -date 29-jun-1817 -location Killean -ref archibald1817-baptism
-death -date 9-oct-1892 -location 'kinning park, glasgow' -ref archibald1820-death
+death -date 9-oct-1892 -location 'kinning park, glasgow' -ref archibald1817-death
 external {
     familysearch 9KMJ-5ZH
 }
@@ -75,10 +75,13 @@ partner {
 }
 
 footnotes {
-    archibald1820-death {
+    archibald1817-baptism {
+        $opr-ref-link[b-1817-519-000-0010-0294 "Archibald Galbreath"]
+    }
+    archibald1817-death {
         $sp-ref-link[d-1892-644-14-0428 0143 "Archibald Galbraith"]
         Unfortunately, the entry for mother and father appear to be
-        the name of the deceased and his wife.   Age listed as 72.
+        the name of the deceased and his wife. Age listed as 72.
     }
     mcfarlane-marriage {
         $opr-ref-link[m-1842-555-000-0020-0092 "Archibald Galbraith" "Agnes Mc Farlane"]

@@ -11,7 +11,17 @@ note {
 
 body {
 
-1851 Scotland, Argyll, Moneroy Village, Southend:$ref[census1851] 
+1841 Scotland, Argyll, Southend, Kildanie:$ref[census1841]
+
+$csvtable{
+First,Last,Age,Birth,Place
+Donald,Galbreath,35,1806,Argyllshire
+Janet,Galbreath,25,1816,Argyllshire
+Archibald,Galbreath,3,1838,Argyllshire
+James,Galbreath,1,1840,Argyllshire
+}
+
+1851 Scotland, Argyll, Southend, Moneroy Village:$ref[census1851] 
 $csvtable{
 First,Last,Role,Married,Age,Year,Birth,Occupation
 Janet,Galbraith,Head,Married,37,1814,Campbeltown,Agr lab wife
@@ -77,6 +87,9 @@ footnotes {
     }
     donald1849-baptism {
         $opr-ref[b-1849-532-000-0020-0123 "Donald Galbraith"]
+    }
+    census1841 {
+        https://www.findmypast.com/transcript?id=GBC/1841/0016657570
     }
     census1851 {
         https://www.findmypast.com/transcript?id=GBC/1851/0019303086&expand=true

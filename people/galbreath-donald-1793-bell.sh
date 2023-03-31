@@ -11,10 +11,7 @@ partner {
     marriage -date 10-dec-1812 -location 'killean and kilchenzie' -ref marriage
     child galbreath-margaret-1813-fisher
     child galbreath-duncan-1815-thomson
-    child {
-        name Archibald Galbreath
-        baptism -date 29-Jun-1817 -location 'killean and kilchenzie' -ref archibald-bapt
-    }
+    child galbraith-archibald-1817-mcfarlane
     child galbreath-donald-1819-mclean
     child {
         name Christina Galbreath
@@ -133,9 +130,6 @@ footnotes {
     }
     christina-bapt {
         $opr-ref[b-1822-519-000-0020-0020 "Christian Galbreath"]
-    }
-    archibald-bapt {
-        $opr-ref[b-1817-519-000-0010-0294 "Archibald Galbreath"]
     }
     alexander-bapt {
         $opr-ref-link[b-1827-519-000-0020-0051 "Alexander Galbreath"]{
