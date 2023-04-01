@@ -51,6 +51,7 @@ func ParishName(id1, id2 string) string {
 		"516/2":  "Kilberry, Argyll",
 		"518":    "Kilfinan, Argyll",
 		"519":    "Killean and Kilchenzie, Argyll",
+		"523":    "Kilmore and Kilbride, Argyll",
 		"526":    "Lochgilphead, Argyll",
 		"531":    "Saddell and Skipness, Argyll",
 		"531/1":  "Saddell, Argyll",
@@ -101,6 +102,7 @@ func ParishName(id1, id2 string) string {
 		"644/7":  "Milton, Glasgow",
 		"644/8":  "Blythswood",
 		"644/9":  "Kelvin",
+		"644/13": "Hillhead, Glasgow",
 		"644/14": "Kinning Park, Lanark",
 		"644/17": "Govan, Glasgow",
 		"646":    "Govan, Lanark",
@@ -176,6 +178,9 @@ func oprref(parts []string) string {
 }
 
 func statref(parts []string) string {
+	if len(parts) < 5 {
+		log.Fatalf("bad ref: %s", strings.Join(parts, "-"))
+	}
 	year := parts[1]
 	pnum := strings.TrimLeft(parts[2], "0")
 	pnum2 := strings.TrimLeft(parts[3], "0")

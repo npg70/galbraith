@@ -17,10 +17,7 @@ partner {
         name John Galbreath
         baptism -date 27-jul-1813 -location campbeltown -ref john1813-baptism
     }
-    child {
-        name Sarah Galbreath
-        baptism -date 8-apr-1817 -location campbeltown -ref sarah1817-baptism
-    }
+    child galbraith-sarah-1817-mccallum
     child {
         name Neill Galbreath
         baptism -date 22-dec-1819 -location campbeltown -ref neill1819-baptism
@@ -29,10 +26,7 @@ partner {
         name Mary Galbreath
         baptism -date 19-apr-1821 -location campbeltown -ref mary1821-baptism
     }
-    child {
-        name Hugh Galbreath
-        baptism -date 13-may-1823 -location campbeltown -ref hugh1823-baptism
-    }
+    child galbreath-hugh-1823-mcnair
     child {
         name Janet Galbreath
         baptism -date 22-dec-1825 -location campbeltown -ref janet1825-baptism
@@ -65,17 +59,11 @@ footnotes {
         $opr-ref[b-1813-507-000-0040-0400 "John Galbreath"]
         Mother indexed as "MacMillan"
     }
-    sarah1817-baptism {
-        $opr-ref[b-1817-507-000-0040-0459 "Sarah Galbreath"]
-    }
     neill1819-baptism {
         $opr-ref[b-1819-507-000-0040-0502 "Neill Galbreath"]
     }
     mary1821-baptism {
         $opr-ref[b-1821-507-000-0060-0033 "Mary Galbreath"]
-    }
-    hugh1823-baptism {
-        $opr-ref[b-1823-507-000-0060-0070 "Hugh Galbreath"]
     }
     janet1825-baptism {
         $opr-ref[b-1825-507-000-0060-0116 "Janet Galbrath"]
