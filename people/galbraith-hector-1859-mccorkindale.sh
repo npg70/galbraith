@@ -9,6 +9,8 @@ partner {
     name Mary McCorkindale
     marriage -date 27-nov-1885 -location campbeltown -ref mary-marriage
 
+    child galbraith-john-mccorkindale-1886-young
+
     child {
         name Catherine McNair Galbraith
         birth -date 1889 -location campbeltown -ref catherine1889-birth
