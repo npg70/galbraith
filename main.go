@@ -115,6 +115,10 @@ func main() {
 				log.Fatalf("Footnoter failed: %s", err)
 			}
 
+			if err := paragrapher(root); err != nil {
+				log.Fatalf("Paragrapher failed: %s", err)
+			}
+
 			out := emitHTMLHugo(root, singlePage)
 			if outdir != "" {
 				fullpath := filepath.Join(outdir, "test"+suffix)
@@ -142,6 +146,9 @@ func main() {
 				log.Fatalf("Footnoter failed: %s", err)
 			}
 
+			if err := paragrapher(root); err != nil {
+				log.Fatalf("Paragrapher failed: %s", err)
+			}
 			out := emitHTMLHugo(root, singlePage)
 			if outdir == "" {
 				fmt.Println(out)
