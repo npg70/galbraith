@@ -9,11 +9,19 @@ partner {
     child {
         name Margaret Galbraith
         birth -date 'about 1853'
+        death -date 21-mar-1919 -location campbeltown -ref margaret1853-death
+        partner {
+            name Donald McKinlay
+        }
     }
     child galbraith-neil-1855-mccallum
     child {
         name Mary Galbraith
         birth -date 22-may-1857 -location campbeltown -ref mary1857-birth
+        death -date 14-aug-1942 -location campbeltown -ref mary1857-death
+        partner {
+            name Duglad Marten
+        }
     }
     child galbraith-hector-1859-mccorkindale
 }
@@ -25,9 +33,15 @@ footnotes {
         $sp-ref-link[d-1901-507-00-0121 0041 "Hugh Galbraith"]
     }
     mcnair-marriage {
-
+        $opr-ref[m-1849-507-000-0060-0433 "Hugh Galbraith" "Catharine McNair"]
+    }
+    margaret1853-death {
+        $sp-ref-link[d-1919-507-00-0037 0013 "Margaret Galbraith"]
     }
     mary1857-birth {
         $sp-ref[b-1857-507-00-0110 "Mary Galbraith"]
+    }
+    mary1857-death {
+        $sp-ref-link[d-1942-507-00-0076 0026 "Mary Galbraith"]
     }
 }

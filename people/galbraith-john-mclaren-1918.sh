@@ -1,6 +1,6 @@
 name John McLaren Galbraith
 birth -date 21-Apr-1918 -location southend -ref john1918-birth
-death -date 14-may-1961
+death -date 14-may-1961 -location dumfries -ref john1918-death
 external {
     familysearch GZXY-NM9
     findagrave 121012934
@@ -68,6 +68,9 @@ The graveside services were conducted by the Rev James Marks and the Rev Angus M
 footnotes {
     john1918-birth {
         $sp-ref[b-1918-532-00-0008 "John McLaren Galbraith"]
+    }
+    john1918-death {
+        $sp-ref[d-1961-821-00-0281 "John McLaren Galbraith"]
     }
 }
 
