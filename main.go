@@ -28,7 +28,7 @@ func main() {
 	//
 	// Write OPR Birth Index
 	//
-	page := oprindex(db)
+	page := oprindex(db, "b")
 	fullpath := filepath.Join("hugo/content", "indexes/opr-birth-index.html")
 	log.Printf("Writing %q", fullpath)
 	err := os.WriteFile(fullpath, []byte(page), 0666)
@@ -36,6 +36,24 @@ func main() {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
 
+	// Write OPR Death Index
+	//
+	page = oprindex(db, "d")
+	fullpath = filepath.Join("hugo/content", "indexes/opr-death-index.html")
+	log.Printf("Writing %q", fullpath)
+	err = os.WriteFile(fullpath, []byte(page), 0666)
+	if err != nil {
+		log.Fatalf("couldn't write %q: %s", fullpath, err)
+	}
+	// Write OPR Marriage Index
+	//
+	page = oprindex(db, "m")
+	fullpath = filepath.Join("hugo/content", "indexes/opr-marriage-index.html")
+	log.Printf("Writing %q", fullpath)
+	err = os.WriteFile(fullpath, []byte(page), 0666)
+	if err != nil {
+		log.Fatalf("couldn't write %q: %s", fullpath, err)
+	}
 	// Write SP Birth Index
 	page = spindex(db, "b")
 	fullpath = filepath.Join("hugo/content", "indexes/statutory-birth-index.html")
@@ -53,6 +71,14 @@ func main() {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
 
+	// Write SP Marriage Index
+	page = spindex(db, "m")
+	fullpath = filepath.Join("hugo/content", "indexes/statutory-marriage-index.html")
+	log.Printf("Writing %q", fullpath)
+	err = os.WriteFile(fullpath, []byte(page), 0666)
+	if err != nil {
+		log.Fatalf("couldn't write %q: %s", fullpath, err)
+	}
 	page = indexRoots(db, roots)
 	fullpath = filepath.Join("hugo/content", "indexes/roots-index.html")
 	log.Printf("Writing %q", fullpath)

@@ -9,11 +9,23 @@ import (
 	"golang.org/x/net/html"
 )
 
-func oprindex(db Root) string {
+func oprindex(db Root, rtype string) string {
+	word := ""
+	switch rtype {
+	case "b":
+		word = "Baptism"
+	case "d":
+		word = "Death"
+	case "m":
+		word = "Marriage"
+	default:
+		log.Fatalf("unknown type %q", rtype)
+	}
 	type pair struct {
-		oprid string // b-1807-607-000-1234-1245
-		pid   string // galbreath-foo-year-spouse
-		sv    string // name of person on record
+		oprid  string // b-1807-607-000-1234-1245
+		pid    string // galbreath-foo-year-spouse
+		sv     string // name of person on record
+		spouse string // name of spouse, for marriage records
 	}
 	pmap := map[string][]pair{}
 
@@ -29,11 +41,15 @@ func oprindex(db Root) string {
 				args := toArgv(fnote)
 				// recall: args[0] is name of function
 				parts := strings.Split(args[1], "-")
-				if parts[0] != "b" {
+				if parts[0] != rtype {
 					continue
 				}
 				oprbirth := pmap[parts[2]]
-				pmap[parts[2]] = append(oprbirth, pair{args[1], id, args[2]})
+				spouse := ""
+				if rtype == "m" {
+					spouse = args[len(args)-1]
+				}
+				pmap[parts[2]] = append(oprbirth, pair{args[1], id, args[2], spouse})
 			}
 		}
 	}
@@ -47,7 +63,7 @@ func oprindex(db Root) string {
 
 	out := strings.Builder{}
 	out.WriteString("---\n")
-	out.WriteString("title: OPR Baptism Index\n")
+	out.WriteString("title: OPR " + word + " Index\n")
 	out.WriteString("---\n")
 
 	out.WriteString("<table class=base>\n")
@@ -65,9 +81,14 @@ func oprindex(db Root) string {
 
 			plink := fmt.Sprintf("<a href=/galbraith/people/%s/>%s</a>", item.pid, person)
 			parts := strings.Split(item.oprid, "-")
+
+			name := item.sv
+			if rtype == "m" {
+				name += "/" + item.spouse
+			}
 			out.WriteString("<tr>")
 			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s %s</td><td class=nowrap>%s</td><td>%s</td>",
-				i+1, parts[1], oprref(parts), item.sv, plink))
+				i+1, parts[1], oprref(parts), name, plink))
 			out.WriteString("</tr>\n")
 		}
 	}
@@ -81,14 +102,17 @@ func spindex(db Root, rtype string) string {
 		word = "Birth"
 	case "d":
 		word = "Death"
+	case "m":
+		word = "Marriage"
 	default:
 		log.Fatalf("unknown type %q", rtype)
 	}
 
 	type pair struct {
-		oprid string // b-1807-507-00-1234
-		pid   string // galbreath-foo-year-spouse
-		sv    string // name of person on record
+		oprid  string // b-1807-507-00-1234
+		pid    string // galbreath-foo-year-spouse
+		sv     string // name of person on record
+		spouse string
 	}
 	pmap := map[string][]pair{}
 
@@ -113,7 +137,12 @@ func spindex(db Root, rtype string) string {
 				if fnote.Data == "sp-ref-link" {
 					sv = args[3]
 				}
-				pmap[parts[2]] = append(oprbirth, pair{args[1], id, sv})
+				spouse := ""
+				if parts[0] == "m" {
+					// last arg
+					spouse = args[len(args)-1]
+				}
+				pmap[parts[2]] = append(oprbirth, pair{args[1], id, sv, spouse})
 			}
 		}
 	}
@@ -143,11 +172,15 @@ func spindex(db Root, rtype string) string {
 		for i, item := range oprbirth {
 			person := WriteTitle(db[item.pid])
 
+			name := item.sv
+			if rtype == "m" {
+				name += "/" + item.spouse
+			}
 			plink := fmt.Sprintf("<a href=/galbraith/people/%s/>%s</a>", item.pid, person)
 			parts := strings.Split(item.oprid, "-")
 			out.WriteString("<tr>")
 			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s</td class=nowrap><td>%s</td><td>%s</td>",
-				i+1, statref(parts), item.sv, plink))
+				i+1, statref(parts), name, plink))
 			out.WriteString("</tr>\n")
 		}
 	}
