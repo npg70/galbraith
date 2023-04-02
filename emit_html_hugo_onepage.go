@@ -18,7 +18,6 @@ func paragrapher(n *html.Node) error {
 	blocks := Selector(n, func(n *html.Node) bool {
 		return n.Type == html.ElementNode && n.Data == "blockquote"
 	})
-	log.Printf("Got %d blockquotes", len(blocks))
 	for _, block := range blocks {
 		p := &html.Node{
 			Type:     html.ElementNode,
