@@ -82,12 +82,12 @@ func oprindex(db Root, rtype string) string {
 			plink := fmt.Sprintf("<a href=/galbraith/people/%s/>%s</a>", item.pid, person)
 			parts := strings.Split(item.oprid, "-")
 
-			name := item.sv
+			name := "<span class=nowrap>" + item.sv + "</span>"
 			if rtype == "m" {
-				name += "/" + item.spouse
+				name += " / " + "<span class=nowrap>" + item.spouse + "</span>"
 			}
 			out.WriteString("<tr>")
-			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s %s</td><td class=nowrap>%s</td><td>%s</td>",
+			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s %s</td><td>%s</td><td>%s</td>",
 				i+1, parts[1], oprref(parts), name, plink))
 			out.WriteString("</tr>\n")
 		}
@@ -172,14 +172,14 @@ func spindex(db Root, rtype string) string {
 		for i, item := range oprbirth {
 			person := WriteTitle(db[item.pid])
 
-			name := item.sv
+			name := "<span class=nowrap>" + item.sv + "</span>"
 			if rtype == "m" {
-				name += "/" + item.spouse
+				name += " / " + "<span class=nowrap>" + item.spouse + "</span>"
 			}
 			plink := fmt.Sprintf("<a href=/galbraith/people/%s/>%s</a>", item.pid, person)
 			parts := strings.Split(item.oprid, "-")
 			out.WriteString("<tr>")
-			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s</td class=nowrap><td>%s</td><td>%s</td>",
+			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s</td><td>%s</td><td>%s</td>",
 				i+1, statref(parts), name, plink))
 			out.WriteString("</tr>\n")
 		}
