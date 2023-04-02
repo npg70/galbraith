@@ -9,7 +9,18 @@ external {
 }
 partner {
     name Agnes Jane Barbour
+    birth -date 'about 1889'
     marriage -date 1920 -location southend -ref barbour-marriage
+    death -date 21-nov-1965 -location southend -ref barbour-death
+
+    child {
+        name Neil Galbraith
+    }
+    child {
+        name Hugh Galbraith
+        birth -date 1925
+        death -date 29-jul-1987
+    }
 }
 
 note {
@@ -25,5 +36,8 @@ footnotes {
     }
     barbour-marriage {
         $sp-ref[m-1920-532-00-0002 "Hugh Galbraith" "Agnes Jane Barbour"]
+    }
+    barbour-death {
+        $sp-ref-link[d-1965-532-00-0007 0003 "Agnes Jane Galbraith"]
     }
 }      
