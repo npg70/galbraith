@@ -79,6 +79,14 @@ partner {
             marriage -date 26-feb-1931 -location campbeltown -ref hector1899-marriage
         }
     }
+    child {
+        name Donald Galbraith
+        birth -date 18-mar-1902 -location southend -ref donald1902-birth
+        death -date 18-dec-1953 -location southend -ref donald1902-death
+        partner {
+            name Isabella MacCallum
+        }
+    }
 }
 
 footnotes {
@@ -150,6 +158,12 @@ footnotes {
     }
     hector1899-marriage {
         $sp-ref-link[m-1931-507-00-0005 0003  "Hector Galbraith" "Margaret McLatchie"]
+    }
+    donald1902-birth {
+        $sp-ref-link[b-1902-532-00-0003 0001 "Donald Galbraith"]
+    }
+    donald1902-death {
+        $sp-ref-link[d-1953-532-00-0005 0002 "Donald Galbraith"] 
     }
 }
 

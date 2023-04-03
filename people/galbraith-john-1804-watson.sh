@@ -15,10 +15,7 @@ partner {
         name Jane Galbraith
         baptism -date 22-dec-1839 -location campbeltown -ref jane-birth
     }
-    child {
-        name John Galbreath
-        baptism -date 26-sep-1842 -location campbeltown -ref john-birth
-    }
+    child galbreath-john-1842-henderson
     child {
         name Janet Galbreath
         baptism -date 25-may-1845 -location campbeltown -ref janet1845-baptism
@@ -57,9 +54,6 @@ footnotes {
     }
     jane-birth {
         $opr-ref-link[b-1839-507-000-0070-0163 "Jane Galbreath"]
-    }
-    john-birth {
-        $opr-ref-link[b-1842-507-000-0070-0226 "John Galbreath"]
     }
     janet1845-baptism {
         $opr-ref-link[b-1845-507-000-0070-0284 "Janet Galbreath"]

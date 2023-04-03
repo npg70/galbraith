@@ -1,5 +1,5 @@
 name William Galbraith
-baptism -date 9-dec-1791 -location Dalrymple,Ayr -ref william-1791-baptism
+baptism -date 9-dec-1791 -location Dalrymple,Ayr -ref william1791-baptism -note 'the son of Peter Galbraith and Jean Logan'
 
 external {
     findagrave 114206412
@@ -18,7 +18,7 @@ $li{Not listed in 1881.}
 }
 partner {
     name Mary Grieve
-    marriage -date 25-aug-1818 -location Dalrymple
+    marriage -date 25-aug-1818 -location Dalrymple,Ayr -ref  william1791-marriage
 
     child {
         name Adam Galbraith
@@ -28,6 +28,7 @@ partner {
         name Peter Galbraith
         baptism -date 10-feb-1822
     }
+    child galbraith-john-1824-paterson
     child {
         name Peter Galbraith
         baptism -date 9-apr-1826
@@ -71,10 +72,7 @@ partner {
 }
 footnotes {
     william1791-baptism {
-
-    }
-    william1791-death {
-
+        $opr-ref[b-1791-588-000-0020-0015 "William Galbraith"]
     }
     william1791-burial {
         Find a Grave, database and images (https://www.findagrave.com/memorial/114206412/william-galbraith: accessed 02 April 2023), memorial page for William Galbraith (Dec 1791–1871), Find a Grave Memorial ID 114206412, citing Kilcolmkill Chapel Churchyard, Southend, Argyll and Bute, Scotland; Maintained by Joelle Colville-Hanson (contributor 48735492).     

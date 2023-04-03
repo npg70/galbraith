@@ -21,11 +21,7 @@ partner {
             No children(likely). See entry for $child-link[galbreath-john-1842-mcalpine-wylie-galbraith]{John Galbraith} for more details.
         }
     }
-    child {
-        name Dugald Galbreath
-        baptism -date 31-Jul-1845 -location campbeltown -ref dugald1845-baptism
-        death -date 1908 -location campbeltown -ref dugald1845-death
-    }
+    child galbreath-dugald-1845-ferguson
 }
 footnotes {
     neil1801-baptism {
@@ -42,12 +38,6 @@ footnotes {
     }
     isabella1843-death {
         $sp-ref-link[d-1921-507-00-0100 0034 "Isabella Galbraith"]
-    }
-    dugald1845-baptism {
-        $opr-ref[b-1845-507-000-0070-0288 "Dugald Galbreath"]
-    }
-    dugald1845-death {
-        $sp-ref[d-1908-507-00-0040 "Dugald Galbraith"]
     }
 }
 

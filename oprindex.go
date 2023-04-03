@@ -135,6 +135,9 @@ func spindex(db Root, rtype string) string {
 
 				sv := args[2]
 				if fnote.Data == "sp-ref-link" {
+					if len(args) < 4 {
+						log.Fatalf("OOPS: %v", args)
+					}
 					sv = args[3]
 				}
 				spouse := ""

@@ -2,13 +2,14 @@ name John McCorkindale Galbraith
 birth -date 18-aug-1886 -location campbeltown -ref john1886-birth
 death -date 19-jun-1974 -location campbeltown -ref john1886-death
 external {
-    familysearch GZXY-NM9
+    familysearch G4LK-W7K
     findagrave 121012462
 }
 
 partner {
     name Margaret Hardie Young
-    death -date 1964
+    birth -date 'about 1888'
+    death -date 12-dec-1964 -location southend -ref young-death
 
     child galbraith-john-mclaren-1918
 
@@ -39,6 +40,9 @@ footnotes {
     }
     john1886-death {
         $sp-ref[d-1974-536-00-0061 "John McCorkindale Galbraith"]
+    }
+    young-death {
+        $sp-ref-link[d-1964-532-00-0002 0001 "Margaret Hardie Galbraith"]
     }
     margaret1921-birth {
         $sp-ref[b-1921-532-00-0005 "Margaret McCorkindale Galbraith"]
