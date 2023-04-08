@@ -62,7 +62,7 @@ partner {
     child {
         name Isabella Galbraith
         birth -date 'about 1819'
-        death -date 13-sep-1879 -location 'Saddell' -ref isabella1819-death
+        death -date 13-sep-1878 -location 'Saddell' -ref isabella1819-death
         partner {
             name John McKenzie
             body {
@@ -96,6 +96,6 @@ footnotes {
         $opr-ref-link[b-1818-533-000-0010-0124 "Mary Galbreath"]
     }
     isabella1819-death {
-        $sp-ref-link[d-1919-531-01-0007 0003 "Isabella Galbraith"]
+        $sp-ref-link[d-1878-531-01-0007 0003 "Isabella Galbraith"]
     }
 }

@@ -4,6 +4,9 @@ death -date 27-oct-1890 -location campbeltown -ref neil1801-death
 note {
     Children uninvestigated except for birth and death
 }
+external {
+    familysearch KH1S-2L3
+}
 partner {
     name Elizabeth Blue
     marriage -date 29-aug-1842 -location campbeltown -ref blue-marriage

@@ -2,8 +2,9 @@ name Duncan Galbreath
 birth -date "about 1770"
 partner {
     name Mary Kelly
-    marriage -date 26-mar-1794 -location 'killean and kilchenzie' -ref marriage
-
+    birth -date 'about 1769'
+    marriage -date 26-mar-1794 -location 'killean and kilchenzie' -ref kelly-marriage
+    death -date 25-nov-1866 -location 'killean and kilchenzie' -ref kelly-death
     child {
         name Margaret Galbreath
         baptism -date 15-dec-1795 -location 'killean and kilchenzie' -ref margaret1795-baptism
@@ -43,8 +44,11 @@ partner {
     }
 }
 footnotes {
-    marriage {
+    kelly-marriage {
         $opr-ref-link[m-1794-519-000-0010-0331 "Duncan Galbreath" "Mary Kelly"]
+    }
+    kelly-death {
+        $sp-ref-link[d-1866-519-00-0019 0007 "Mary Galbraith"]
     }
     margaret1795-baptism {
         $opr-ref[b-1795-519-000-0010-0111 "Margaret Galbreath"]

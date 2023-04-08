@@ -1,9 +1,17 @@
 name Donald Galbraith
 birth -date 'about 1823'
 death -date 4-mar-1876 -location 'killean and kilchenzie' -ref death
+body {
+    He was a lobster fisherman.
+}
 partner {
     name Margaret McNeil
     marriage -date 24-jan-1854 -location 'killean and kilchenzie' -ref marriage
+    child {
+        name Archibald Galbraith
+        birth -date 'about 1854'
+        death -date 1-jun-1855 -location 'killean and kilchenzie' -ref archibald1854-death
+    }
     child galbraith-archibald-1856-mccallum 
 }
 footnotes {
@@ -18,5 +26,8 @@ footnotes {
     }
     marriage {
         $opr-ref-link[m-1854-519-000-0020-0267 "Donald Galbraith" "Margaret McNeil"]
+    }
+    archibald1854-death {
+        $sp-ref-link[d-1855-519-00-0012 0004 "Archibald Galbraith"]
     }
 }

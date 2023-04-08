@@ -1,10 +1,15 @@
 name Dugald Galbreath
+birth -date 30-jul-1845
 baptism -date 31-Jul-1845 -location campbeltown -ref dugald1845-baptism
-death -date 1908 -location campbeltown -ref dugald1845-death
+death -date 2-may-1908 -location campbeltown -ref dugald1845-death
+external {
+    familysearch 9MMY-QN3
+}
 partner {
     name Janet Ferguson
+    birth -date 9-jul-1951 -location 'Kilwinning,Ayr'
     marriage -date 6-dec-1872 -location southend -ref ferguson-marriage
-
+    death -date 12-aug-1940 -location campbeltown -ref ferguson-death
     child {
         name David Galbraith
         birth -date 1873 -location southend -ref david1873-birth
@@ -12,7 +17,7 @@ partner {
     }
     child {
         name Margaret Galbraith
-        birth -date 1875 -location campbeltown -ref margaret1875-birth
+        birth -date 23-mar-1875 -location campbeltown -ref margaret1875-birth
     }
     child {
         name Neil Galbraith
@@ -22,14 +27,7 @@ partner {
         name Elizabeth Galbraith
         birth -date 1880 -location campbeltown -ref elizabeth1880-birth
     }
-    child {
-        name Robert Galbraith
-        birth -date "about 1882" -location campbeltown -ref robert1883-birth
-        partner {
-            name Kate Stewart
-            marriage -date 9-dec-1904 -location campbeltown -ref stewart-marriage
-        }
-    }
+    child galbraith-robert-1882-stewart
 }
 footnotes {
     dugald1845-baptism {
@@ -40,6 +38,9 @@ footnotes {
     }
     ferguson-marriage {
         $sp-ref-link[m-1872-532-00-0009 0005 "Donald Galbraith" "Janet Ferguson"]
+    }
+    ferguson-death {
+        $sp-ref[d-1940-507-00-0077 "Janet Galbraith"]        
     }
     david1873-birth {
         $sp-ref[b-1873-532-00-0035 "David Galbraith"]
@@ -55,12 +56,6 @@ footnotes {
     }
     elizabeth1880-birth {
         $sp-ref[b-1880-507-00-0044 "Elizabeth Galbraith"]
-    }
-    robert1883-birth {
-        Appears unrecorded.
-    }
-    stewart-marriage {
-        $sp-ref-link[m-1904-507-00-0061 0031 "Robert Galbraith" "Kate Stewart"]
     }
 }
 

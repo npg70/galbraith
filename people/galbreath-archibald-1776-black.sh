@@ -17,7 +17,12 @@ note {
     }
 partner {
     name Jean Black
-    marriage -date 23-Jul-1800 -location 'Killean and Kilchenzie' -ref marriage
+    birth -date 'about 1774'
+    marriage -date 23-Jul-1800 -location 'Killean and Kilchenzie' -ref black-marriage
+    death -date 17-feb-1862 -location 'Killean and Kilchenzie' -ref black-death
+    body {
+        She was the daughter of Dugald Black and Flora Galbraith.
+    }
     child {
         name Margaret Galbreath
         baptism -date 23-mar-1802 -location 'killean and kilchenzie' -ref margaret1802-baptism
@@ -55,8 +60,11 @@ partner {
 }
 
 footnotes {
-    marriage {
+    black-marriage {
         $opr-ref-link[m-1800-519-000-0010-0342 "Archibald Galbreath" "Jean Black"]
+    }
+    black-death {
+        $sp-ref-link[d-1862-519-00-0011 0004 "Jean Galbraith"]
     }
     margaret1802-baptism {
         $opr-ref[b-1802-519-000-0010-0162 "Margaret Galbreath"]

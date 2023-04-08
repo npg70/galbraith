@@ -36,7 +36,7 @@ partner {
 }
 footnotes {
     john1886-birth {
-        $sp-ref[b-1886-507-00-0240 0080 "John McCorkindale Galbraith"]
+        $sp-ref-link[b-1886-507-00-0240 0080 "John McCorkindale Galbraith"]
     }
     john1886-death {
         $sp-ref[d-1974-536-00-0061 "John McCorkindale Galbraith"]
