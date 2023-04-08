@@ -8,7 +8,7 @@ external {
 body {
 The census of 1851 in campbeltown has a household consisting of just a "Marion Galbraith", age 68 (~1783), widowed, listing a birthplace of Gigha.
 }
-
+tags Campbeltown
 partner {
     name Marion Brown
     birth -date 'about 1786'

@@ -4,6 +4,8 @@ external {
     familysearch GSS6-NPY
     wikitree Galbraith-1789
 }
+tags Campbeltown
+
 partner {
     name Mary Nielson
     marriage -date "About 1671"

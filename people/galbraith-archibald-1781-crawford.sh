@@ -3,6 +3,7 @@ birth -date 'about 1781'
 external {
     familysearch K45Y-S92
 }
+tags 'Kilcalmonell and Kilberry'
 
 body {
 Mary is listed in the 1851 Census living in the household of Isabella Crawford (widow) as a "relative."3

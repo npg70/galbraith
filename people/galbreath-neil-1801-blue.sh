@@ -1,6 +1,7 @@
 name Neil Galbreath
 baptism -date 10-oct-1801 -location gigha -ref neil1801-baptism
 death -date 27-oct-1890 -location campbeltown -ref neil1801-death
+tags Campbeltown Incomplete
 note {
     Children uninvestigated except for birth and death
 }

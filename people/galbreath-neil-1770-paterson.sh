@@ -4,7 +4,7 @@ birth -date 'about 1770'
 external {
     familysearch 9M9Z-V9G
 }
-
+tags Campbeltown Incomplete 
 note {
     last child Neil who perhaps married Mary Hamilton need investigating
 }

@@ -4,6 +4,7 @@ death -date 18-sep-1870 -location Skipness,Argyll -ref john1788-death
 external {
     familysearch 9M9X-D8G
 }
+tags 'Kilcalmonell and Kilberry'
 
 body {
 From death record, the parents where Archibald Galbreath and Mary (Marg?) McIntyre.

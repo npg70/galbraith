@@ -5,7 +5,7 @@ burial -name Largnahension Graveyard -location lochgilphead
 external {
     findagrave 160594309
 }
-
+tags 'Kilcalmonell and Kilberry'
 partner {
     name Mary McPhail
     birth -date 'about 1771'

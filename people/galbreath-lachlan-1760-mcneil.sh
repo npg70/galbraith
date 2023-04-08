@@ -2,7 +2,7 @@ name Lachlan Galbreath
 birth -date 'about 1760'
 death -date 1836 -location gigha
 burial -name 'Kilchattan Old Graveyard' -location 'gigha'
-
+tags Gigha Incomplete
 external {
     findagrave 115118948
 }

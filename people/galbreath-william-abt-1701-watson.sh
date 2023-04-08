@@ -3,6 +3,8 @@ birth -date 'about 1701'
 external {
     familysearch K8TT-KB2
 }
+tags Campbeltown "Dead End"
+
 note {
     No records beyond a marriage and baptism of six children.
 }

@@ -1,4 +1,4 @@
-name Margaret McMillan
+name Margaret Galbreath
 birth -date 'about 1806' -location Argyll,Scotland
 death -date 12-mar-1896 -location harrington,oxford,ontario,canada
 burial -name 'Knox Presbyterian Church Cemetery'
