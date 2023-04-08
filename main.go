@@ -79,6 +79,8 @@ func main() {
 	if err != nil {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
+
+	// index roots
 	page = indexRoots(db, roots)
 	fullpath = filepath.Join("hugo/content", "indexes/roots-index.html")
 	log.Printf("Writing %q", fullpath)

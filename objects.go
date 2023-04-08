@@ -227,6 +227,7 @@ type Person struct {
 	External  ExternalSource
 	Body      []string
 	Notes     []string
+	Tags      []string
 }
 
 func (p *Person) getRef(s string) int {
@@ -268,6 +269,8 @@ func (p *Person) UnmarshalText(text []byte) error {
 			log.Fatalf("Person function had 0 args: body = %q", string(text))
 		}
 		switch args[0] {
+		case "tags":
+			p.Tags = args[1:]
 		case "external":
 			e := make(ExternalSource)
 			if err := e.UnmarshalText([]byte(body)); err != nil {
@@ -606,9 +609,13 @@ func WriteTitle(p *Person) string {
 // writeTitleBlock emits a block in the form of
 // Full Name b. YEAR m. LastName
 func WriteTitleBlock(p *Person) string {
-	out := "$front{$title{"
+	out := "$front{"
+
+	out += "$title{"
 	out += WriteTitle(p)
-	out += "}}"
+	out += "}\n"
+
+	out += "}\n"
 	return out
 }
 
@@ -694,6 +701,13 @@ func (r Root) generateOne(primary string) (string, []string) {
 
 	out.WriteString("$banner{")
 	out.WriteString("$headline{" + WriteTitle(first) + "}\n")
+	if len(first.Tags) > 0 {
+		out.WriteString("$tags[")
+		for _, tag := range first.Tags {
+			out.WriteString(fmt.Sprintf("%q ", tag))
+		}
+		out.WriteString("]\n")
+	}
 	out.WriteString("}\n")
 
 	out.WriteString("$person-body{")

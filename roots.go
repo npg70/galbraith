@@ -59,8 +59,15 @@ func indexRoots(db Root, roots []string) string {
 
 	for _, r := range roots {
 		p := db[r]
-		out.WriteString(fmt.Sprintf("<h4><a href={{< relref %s >}}>%s</a></h4>\n",
+		out.WriteString(fmt.Sprintf("<h5><a href={{< relref %s >}}>%s</a></h5>\n",
 			r, WriteTitle(p)))
+		if len(p.Tags) > 0 {
+			out.WriteString("<div class='ms-3 mb-3'>\n")
+			for _, tag := range p.Tags {
+				out.WriteString("<span class='badge bg-secondary'>" + tag + "</span>\n")
+			}
+			out.WriteString("</div>\n")
+		}
 	}
 	return out.String()
 }

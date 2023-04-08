@@ -302,6 +302,17 @@ func emitHTMLHugo(n *html.Node, singlePage bool) string {
 		"external": func(args []string, body string) string {
 			return fmt.Sprintf("<li><a href=%q>%s</a></li>\n", args[1], body)
 		},
+		"tags": func(args []string, body string) string {
+			s := strings.Builder{}
+			s.WriteString("<div>")
+			for _, tag := range args[1:] {
+				s.WriteString("<span class='badge bg-secondary'>")
+				s.WriteString(tag)
+				s.WriteString("</span> ")
+			}
+			s.WriteString("</div>\n")
+			return s.String()
+		},
 		"child": func(args []string, body string) string {
 			s := strings.Builder{}
 			s.WriteString("<tr>")
