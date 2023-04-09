@@ -1,6 +1,6 @@
 name Archibald Galbreath
 birth -date 'about 1798'
-
+tags Campbeltown
 note {
     Parents are unknown, but that hasn't stopped The Internet from making lots of guesses, many being completely impossible.
 }

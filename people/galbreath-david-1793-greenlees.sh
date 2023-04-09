@@ -3,6 +3,8 @@ birth -date "about 1793"
 external {
     familysearch K83Z-PK8
 }
+tags Campbeltown Immigrant
+
 body {
     Some or all of the family moved to Canada.
 }

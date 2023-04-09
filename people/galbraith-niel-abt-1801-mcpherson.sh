@@ -1,6 +1,6 @@
 name Neil Galbraith
 birth -date 'about 1801'
-
+tags Southend 
 external {
     familysearch KZRK-M6C
 }

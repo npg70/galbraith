@@ -1,6 +1,7 @@
 name Eugina Galbraith
 baptism -date 25-jan-1838 -location campbeltown -ref eugina1838-baptism
 death -date 5-oct-1920 -location clachan -ref eugina1838-death
+tags 'Fix Me'
 external {
   familysearch KZLL-XNS
   findagrave 115118723

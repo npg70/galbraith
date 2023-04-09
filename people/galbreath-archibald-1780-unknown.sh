@@ -1,5 +1,6 @@
 name Archibald Galbreath
 birth -date 'about 1780'
+tags Southend
 external {
     familysearch MZKS-H6C
 }

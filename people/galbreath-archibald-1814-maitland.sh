@@ -3,6 +3,7 @@ birth -date 'about 1814' -location Gigha
 external {
     familysearch KH8D-G3C
 }
+tags Campbeltown 'Fix Me'
 body {
 
 1851 Census, 507-11-16

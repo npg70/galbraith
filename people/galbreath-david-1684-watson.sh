@@ -3,6 +3,7 @@ birth -date "about 1684"
 external {
     familysearch LLCM-DJB
 }
+tags Campbeltown
 partner {
     name Isabella Watson
     marriage -date 3-mar-1712 -location campbeltown -ref marriage

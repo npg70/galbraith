@@ -1,7 +1,7 @@
 name Alexander Galbreath
 baptism -date 20-apr-1816 -location southend -ref alexander1816-baptism
 death -date 1898 -location Washington,Ohio,USA
-
+tags Southend Immigrant
 external {
     familysearch 9NN7-9JW
 }
