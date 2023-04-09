@@ -81,7 +81,6 @@ func main() {
 	}
 
 	page = indexRoots(db, roots, "Roots")
-
 	tmap := tagmap(db)
 	for tag, uids := range tmap {
 		page := indexRoots(db, uids, tag)

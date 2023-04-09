@@ -29,6 +29,12 @@ func computeRoots(db Root) []string {
 		if ginfo, ok := repo.Files[f]; ok {
 			db[uid].lastUpdate = ginfo.CommitDate
 		}
+
+		// if no children this is a leaf node
+		if len(nextg) == 0 {
+			person, _ := db.Load(uid)
+			person.Tags = append([]string{"leaf"}, person.Tags...)
+		}
 		for _, child := range nextg {
 			pmap[child] = true
 		}
@@ -82,13 +88,17 @@ func indexRoots(db Root, roots []string, title string) string {
 func tagmap(db Root) map[string][]string {
 	idx := map[string][]string{}
 
+	// fake tag "all" that has everyone
+	all := []string{}
+
 	for uid, p := range db {
+		all = append(all, uid)
 		for _, tag := range p.Tags {
 			tag = strings.ToLower(tag)
 			idx[tag] = append(idx[tag], uid)
 		}
 	}
-
+	idx["all"] = all
 	for tag, uids := range idx {
 		sort.Strings(uids)
 		idx[tag] = uids

@@ -310,7 +310,7 @@ func emitHTMLHugo(n *html.Node, singlePage bool) string {
 			s.WriteString("<div class=''>\n")
 			for _, tag := range args[1:] {
 				taglink := "/galbraith/tags/" + strings.ReplaceAll(strings.ToLower(tag), " ", "-") + "/"
-				s.WriteString("<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleCompound(tag) + "</a> ")
+				s.WriteString("<a class='btn btn-sm btn-secondary text-decoration-none' href=" + taglink + ">" + TitleCompound(tag) + "</a> ")
 			}
 			s.WriteString("</div>\n")
 			return s.String()
