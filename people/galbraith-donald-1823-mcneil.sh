@@ -1,6 +1,7 @@
 name Donald Galbraith
 birth -date 'about 1823'
 death -date 4-mar-1876 -location 'killean and kilchenzie' -ref death
+tags 'Killean and Kilchenzie'
 body {
     He was a lobster fisherman.
 }

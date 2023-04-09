@@ -1,6 +1,7 @@
 name Donald Galbraith
 baptism -date 15-aug-1848 -location gigha -ref donald1848-baptism -note "the son of Neil Galbraith and Flora McDonald"
 
+tags Gigha
 death -date 22-jan-1904 -location saddell -ref donald1848-death
 
 external {
