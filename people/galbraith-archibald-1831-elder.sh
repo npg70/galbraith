@@ -3,6 +3,8 @@ birth -date 21-Apr-1831 -location 'Saddell and Skipness' -ref archibald1831-birt
 death -date 27-jul-1913 -location 'Dingwall, Ross and Cromarty' -ref archibald1831-death
 burial -name 'Fodderty Cemetery Strathpeffer' -location 'Fodderty, Highland, Scotland'
 
+tags Incomplete
+
 external {
     familysearch M15G-1SD
     findagrave 158333816

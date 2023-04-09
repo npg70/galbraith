@@ -2,6 +2,8 @@ name William Galbraith
 external {
     familysearch 9MFS-951
 }
+tags Campbeltown Incomplete
+
 note {
 familysearch (in 2023) has the wrong spouse 'janet mcgill'
 }
