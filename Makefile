@@ -2,6 +2,7 @@
 combined: build serve
 
 hugo/content/people:
+	mkdir -p ./hugo/content/tags
 	mkdir -p ./hugo/content/people
 	mkdir -p ./hugo/content/indexes
 	mkdir -p ./hugo/content/lineages
@@ -18,6 +19,7 @@ clean:
 	rm -rf hugo/content/people
 	rm -rf hugo/content/indexes
 	rm -rf hugo/content/lineages
+	rm -rf hugo/content/tags
 
 roots:
 	go run . -root

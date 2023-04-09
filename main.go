@@ -80,17 +80,25 @@ func main() {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
 
-	// index roots
-	page = indexRoots(db, roots)
-	fullpath = filepath.Join("hugo/content", "indexes/roots-index.html")
-	log.Printf("Writing %q", fullpath)
-	err = os.WriteFile(fullpath, []byte(page), 0666)
-	if err != nil {
-		log.Fatalf("couldn't write %q: %s", fullpath, err)
+	page = indexRoots(db, roots, "Roots")
+
+	tmap := tagmap(db)
+	for tag, uids := range tmap {
+		page := indexRoots(db, uids, tag)
+
+		tag = strings.ToLower(tag)
+		tag = strings.ReplaceAll(tag, " ", "-")
+
+		// index roots
+		fullpath = filepath.Join("hugo/content", "tags/"+tag+".html")
+		log.Printf("Writing %q", fullpath)
+		err = os.WriteFile(fullpath, []byte(page), 0666)
+		if err != nil {
+			log.Fatalf("couldn't write %q: %s", fullpath, err)
+		}
 	}
 
 	for _, rootid := range roots {
-		log.Printf("ROOT---------> %s", rootid)
 		kidsq := []string{rootid}
 		db.LoadAll(rootid)
 		suffix := ".html"

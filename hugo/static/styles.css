@@ -60,10 +60,13 @@ body {
     font-weight: 450;
 }
 
-nav, .badge {
+nav, .badge, .btn {
     /* uses san-serif font for UI and restore normal weight */
     font-family: var(--bs-font-sans-serif);
     font-weight: 400;
+    --bs-btn-font-size: 0.75rem;
+    --bs-btn-padding-x: 0.4rem;
+    --bs-btn-padding-y: 0.0rem;
 }
 
 

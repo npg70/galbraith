@@ -303,12 +303,14 @@ func emitHTMLHugo(n *html.Node, singlePage bool) string {
 			return fmt.Sprintf("<li><a href=%q>%s</a></li>\n", args[1], body)
 		},
 		"tags": func(args []string, body string) string {
+			if len(args) == 0 {
+				return ""
+			}
 			s := strings.Builder{}
-			s.WriteString("<div>")
+			s.WriteString("<div class=''>\n")
 			for _, tag := range args[1:] {
-				s.WriteString("<span class='badge bg-secondary'>")
-				s.WriteString(tag)
-				s.WriteString("</span> ")
+				taglink := "/galbraith/tags/" + strings.ReplaceAll(strings.ToLower(tag), " ", "-") + "/"
+				s.WriteString("<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleCompound(tag) + "</a> ")
 			}
 			s.WriteString("</div>\n")
 			return s.String()

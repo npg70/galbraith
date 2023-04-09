@@ -40,6 +40,8 @@ func computeRoots(db Root) []string {
 	out := []string{}
 	for k, v := range pmap {
 		if !v {
+			person, _ := db.Load(k)
+			person.Tags = append([]string{"root"}, person.Tags...)
 			out = append(out, k)
 		}
 	}
@@ -51,23 +53,45 @@ func computeRoots(db Root) []string {
 }
 
 // makes a page showing top level roots
-func indexRoots(db Root, roots []string) string {
+func indexRoots(db Root, roots []string, title string) string {
 	out := strings.Builder{}
 	out.WriteString("---\n")
-	out.WriteString("title: Galbraith Progenitors\n")
+	out.WriteString("title: Galbraith tag " + title + "\n")
 	out.WriteString("---\n")
 
 	for _, r := range roots {
 		p := db[r]
-		out.WriteString(fmt.Sprintf("<h5><a href={{< relref %s >}}>%s</a></h5>\n",
+		out.WriteString(fmt.Sprintf("<h5><a href=/galbraith/people/%s>%s</a></h5>\n",
 			r, WriteTitle(p)))
 		if len(p.Tags) > 0 {
 			out.WriteString("<div class='ms-3 mb-3'>\n")
 			for _, tag := range p.Tags {
-				out.WriteString("<span class='badge bg-secondary'>" + tag + "</span>\n")
+				taglink := "/galbraith/tags/" + strings.ReplaceAll(strings.ToLower(tag), " ", "-") + "/"
+				if true {
+					out.WriteString("<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleCompound(tag) + "</a> ")
+				} else {
+					out.WriteString("<a href=#><span class='badge bg-secondary'>" + tag + "</span></a> ")
+				}
 			}
 			out.WriteString("</div>\n")
 		}
 	}
 	return out.String()
+}
+
+func tagmap(db Root) map[string][]string {
+	idx := map[string][]string{}
+
+	for uid, p := range db {
+		for _, tag := range p.Tags {
+			tag = strings.ToLower(tag)
+			idx[tag] = append(idx[tag], uid)
+		}
+	}
+
+	for tag, uids := range idx {
+		sort.Strings(uids)
+		idx[tag] = uids
+	}
+	return idx
 }
