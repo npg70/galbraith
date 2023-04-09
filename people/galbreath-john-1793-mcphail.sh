@@ -1,5 +1,6 @@
 name John Galbreath
 birth -date 'say 1793'
+tags Campbeltown
 note {
     Some claim John is the son of $child-link[galbreath-john-1760-mclean]{John and Marion McLean} born 1793 in campbeltown.  Dates and names would make sense.
 }

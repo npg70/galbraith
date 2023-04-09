@@ -1,5 +1,6 @@
 name Duncan Galbreath
 birth -date "about 1770"
+tags "Killean and Kilchenzie"
 partner {
     name Mary Kelly
     birth -date 'about 1769'

@@ -2,6 +2,7 @@ name Angus Galbraith
 birth -date 'about 1794'
 death -date 14-jan-1836
 burial -name 'Kilkerran Cemetery' -ref burial1
+tags 'Kilcalmonell and Kilberry'
 
 external {
     familysearch KCFJ-HT2

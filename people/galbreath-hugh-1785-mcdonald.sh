@@ -1,10 +1,11 @@
 name Hugh Galbreath
 birth -date 'about 1785'
+tags Campbeltown "Daughtered Out"
 external {
     familysearch K8KC-YQG
 }
 note {
-    name Daughted-out in one generation.  Needs more investigation.
+    No living male descendants. Daughtered-out in one generation.  Needs more investigation.
 }
 partner {
     name Christina McDonald
