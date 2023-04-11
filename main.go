@@ -54,7 +54,7 @@ func main() {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
 	// Write SP Birth Index
-	page = spindex(db, "b")
+	page = Execute(spindex(db, "b"), renderFuncs())
 	fullpath = filepath.Join("hugo/content", "indexes/statutory-birth-index.html")
 	log.Printf("Writing %q", fullpath)
 	err = os.WriteFile(fullpath, []byte(page), 0666)
@@ -62,7 +62,7 @@ func main() {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
 	// Write SP Death Index
-	page = spindex(db, "d")
+	page = Execute(spindex(db, "d"), renderFuncs())
 	fullpath = filepath.Join("hugo/content", "indexes/statutory-death-index.html")
 	log.Printf("Writing %q", fullpath)
 	err = os.WriteFile(fullpath, []byte(page), 0666)
@@ -71,7 +71,7 @@ func main() {
 	}
 
 	// Write SP Marriage Index
-	page = spindex(db, "m")
+	page = Execute(spindex(db, "m"), renderFuncs())
 	fullpath = filepath.Join("hugo/content", "indexes/statutory-marriage-index.html")
 	log.Printf("Writing %q", fullpath)
 	err = os.WriteFile(fullpath, []byte(page), 0666)
@@ -173,7 +173,7 @@ func main() {
 			//-----------
 			fullpath := filepath.Join(outdir, uid)
 			if err := os.MkdirAll(fullpath, 0750); err != nil {
-				log.Fatalf("UMable to make directory %s", err)
+				log.Fatalf("Unable to make directory %s", err)
 			}
 			fullpath = filepath.Join(fullpath, "index.html")
 			if err := os.WriteFile(fullpath, []byte(tout), 0666); err != nil {

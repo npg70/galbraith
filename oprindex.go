@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 	"sort"
+	"strconv"
 	"strings"
 
 	"golang.org/x/net/html"
@@ -56,7 +57,7 @@ func oprindex(db Root, rtype string) string {
 
 	// sort parish numbers
 	plist := []string{}
-	for k, _ := range pmap {
+	for k := range pmap {
 		plist = append(plist, k)
 	}
 	sort.Strings(plist)
@@ -152,7 +153,7 @@ func spindex(db Root, rtype string) string {
 
 	// sort parish numbers
 	plist := []string{}
-	for k, _ := range pmap {
+	for k := range pmap {
 		plist = append(plist, k)
 	}
 	sort.Strings(plist)
@@ -162,11 +163,13 @@ func spindex(db Root, rtype string) string {
 	out.WriteString(fmt.Sprintf("title: Statutory %s Index\n", word))
 	out.WriteString("---\n")
 
-	out.WriteString("<table class=base>\n")
+	out.WriteString("$table[class=base]{\n")
 	for _, pnum := range plist {
-		out.WriteString("<tr><th colspan=4>")
-		out.WriteString(fmt.Sprintf("Parish %s &mdash; %s\n", pnum, ParishName(pnum, "")))
-		out.WriteString("</th></tr>\n")
+		out.WriteString("$tr{\n")
+		out.WriteString("  $th[colspan=4]{")
+		out.WriteString(fmt.Sprintf("Parish %s &mdash; %s", pnum, ParishName(pnum, "")))
+		out.WriteString("}\n")
+		out.WriteString("}\n")
 
 		oprbirth := pmap[pnum]
 		sort.Slice(oprbirth, func(i, j int) bool {
@@ -175,18 +178,19 @@ func spindex(db Root, rtype string) string {
 		for i, item := range oprbirth {
 			person := WriteTitle(db[item.pid])
 
-			name := "<span class=nowrap>" + item.sv + "</span>"
+			name := "$nowrap{" + item.sv + "}"
 			if rtype == "m" {
-				name += " / " + "<span class=nowrap>" + item.spouse + "</span>"
+				name += " / " + "$nowrap{" + item.spouse + "}"
 			}
-			plink := fmt.Sprintf("<a href=/galbraith/people/%s/>%s</a>", item.pid, person)
 			parts := strings.Split(item.oprid, "-")
-			out.WriteString("<tr>")
-			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s</td><td>%s</td><td>%s</td>",
-				i+1, statref(parts), name, plink))
-			out.WriteString("</tr>\n")
+			out.WriteString("$tr{\n")
+			out.WriteString("  $td{" + strconv.Itoa(i+1) + "}\n")
+			out.WriteString("  $td{$nowrap{" + statref(parts) + "}}\n")
+			out.WriteString("  $td{" + name + "}\n")
+			out.WriteString("  $td{$child-link[" + item.pid + "]{" + person + "}}\n")
+			out.WriteString("}\n")
 		}
 	}
-	out.WriteString("</table>\n")
+	out.WriteString("}\n") // table
 	return out.String()
 }

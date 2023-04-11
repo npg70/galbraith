@@ -199,6 +199,9 @@ func footnoter_person(n *html.Node) error {
 
 func renderFuncs() map[string]TagFunc {
 	return map[string]TagFunc{
+		"nowrap": func(args []string, body string) string {
+			return "<span class=text-nowrap>" + body + "</span>"
+		},
 		"csvtable": CsvTableHTML,
 		"root": func(args []string, body string) string {
 			return body
@@ -226,7 +229,7 @@ func renderFuncs() map[string]TagFunc {
 		"children-intro": makeTagClass("p"),
 		"child-link": func(args []string, body string) string {
 			href := args[1] //  getKeyValue(args, "href")
-			out := "<a class=child-link href=/galbreath/people/" + href
+			out := "<a class=child-link href=/galbraith/people/" + href
 			out += ">"
 			out += body
 			out += "</a>"
