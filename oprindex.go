@@ -67,11 +67,13 @@ func oprindex(db Root, rtype string) string {
 	out.WriteString("title: OPR " + word + " Index\n")
 	out.WriteString("---\n")
 
-	out.WriteString("<table class=base>\n")
+	out.WriteString("$table[class=base]{\n")
 	for _, pnum := range plist {
-		out.WriteString("<tr><th colspan=4>")
+		out.WriteString("$tr{\n")
+		out.WriteString("  $th[colspan=4]{")
 		out.WriteString(fmt.Sprintf("Parish %s &mdash; %s", pnum, ParishName(pnum, "")))
-		out.WriteString("</th></tr>\n")
+		out.WriteString("}\n")
+		out.WriteString("}\n")
 
 		oprbirth := pmap[pnum]
 		sort.Slice(oprbirth, func(i, j int) bool {
@@ -79,18 +81,17 @@ func oprindex(db Root, rtype string) string {
 		})
 		for i, item := range oprbirth {
 			person := WriteTitle(db[item.pid])
-
-			plink := fmt.Sprintf("<a href=/galbraith/people/%s/>%s</a>", item.pid, person)
 			parts := strings.Split(item.oprid, "-")
-
-			name := "<span class=nowrap>" + item.sv + "</span>"
+			name := "$nowrap{" + item.sv + "}"
 			if rtype == "m" {
-				name += " / " + "<span class=nowrap>" + item.spouse + "</span>"
+				name += " / " + "$nowrap{" + item.spouse + "}"
 			}
-			out.WriteString("<tr>")
-			out.WriteString(fmt.Sprintf("<td>%d</td><td class=nowrap>%s %s</td><td>%s</td><td>%s</td>",
-				i+1, parts[1], oprref(parts), name, plink))
-			out.WriteString("</tr>\n")
+			out.WriteString("$tr{\n")
+			out.WriteString("  $td{" + strconv.Itoa(i+1) + "}\n")
+			out.WriteString("  $td{$nowrap{" + parts[1] + " " + oprref(parts) + "}}\n")
+			out.WriteString("  $td{" + name + "}\n")
+			out.WriteString("  $td{$child-link[" + item.pid + "]{" + person + "}}\n")
+			out.WriteString("}\n")
 		}
 	}
 	out.WriteString("</table>\n")

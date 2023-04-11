@@ -27,7 +27,7 @@ func main() {
 	//
 	// Write OPR Birth Index
 	//
-	page := oprindex(db, "b")
+	page := Execute(oprindex(db, "b"), renderFuncs())
 	fullpath := filepath.Join("hugo/content", "indexes/opr-birth-index.html")
 	log.Printf("Writing %q", fullpath)
 	err := os.WriteFile(fullpath, []byte(page), 0666)
@@ -37,7 +37,7 @@ func main() {
 
 	// Write OPR Death Index
 	//
-	page = oprindex(db, "d")
+	page = Execute(oprindex(db, "d"), renderFuncs())
 	fullpath = filepath.Join("hugo/content", "indexes/opr-death-index.html")
 	log.Printf("Writing %q", fullpath)
 	err = os.WriteFile(fullpath, []byte(page), 0666)
@@ -46,7 +46,7 @@ func main() {
 	}
 	// Write OPR Marriage Index
 	//
-	page = oprindex(db, "m")
+	page = Execute(oprindex(db, "m"), renderFuncs())
 	fullpath = filepath.Join("hugo/content", "indexes/opr-marriage-index.html")
 	log.Printf("Writing %q", fullpath)
 	err = os.WriteFile(fullpath, []byte(page), 0666)
