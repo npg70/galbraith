@@ -52,6 +52,32 @@ func HTMLTag(n *html.Node, body string) string {
 	return out
 }
 
+func RenderFunc(fmap map[string]TagFunc) func(n *html.Node) string {
+	return func(n *html.Node) string {
+		return Render(n, fmap)
+	}
+}
+
+// "select title" --
+//
+//	  only returns text children
+//	Could be improved.
+func Select(n *html.Node, tag string) string {
+	blocks := Selector(n, func(n *html.Node) bool {
+		return n.Type == html.ElementNode && n.Data == tag
+	})
+	if len(blocks) == 0 {
+		return "nope"
+	}
+	body := ""
+	for c := blocks[0].FirstChild; c != nil; c = c.NextSibling {
+		if c.Type == html.TextNode {
+			body += c.Data
+		}
+	}
+	return body
+}
+
 func Render(n *html.Node, fmap map[string]TagFunc) string {
 	switch n.Type {
 	case html.TextNode:

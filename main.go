@@ -2,7 +2,6 @@ package main
 
 import (
 	"flag"
-	"fmt"
 	"log"
 	"os"
 	"path/filepath"
@@ -97,6 +96,15 @@ func main() {
 		}
 	}
 
+	baset, err := os.ReadFile("baseof.html")
+	if err != nil {
+		log.Fatalf("can't find template: %s", err)
+	}
+	base, err := CreatePageTemplate(string(baset), RenderFunc(renderFuncs()))
+	if err != nil {
+		log.Fatalf("Unable to create template: %s", err)
+	}
+
 	for _, rootid := range roots {
 		kidsq := []string{rootid}
 		db.LoadAll(rootid)
@@ -127,7 +135,6 @@ func main() {
 			if err := paragrapher(root); err != nil {
 				log.Fatalf("Paragrapher failed: %s", err)
 			}
-
 			out := emitHTMLHugo(root, singlePage)
 			if outdir != "" {
 				fullpath := filepath.Join(outdir, "test"+suffix)
@@ -158,16 +165,33 @@ func main() {
 			if err := paragrapher(root); err != nil {
 				log.Fatalf("Paragrapher failed: %s", err)
 			}
-			out := emitHTMLHugo(root, singlePage)
-			if outdir == "" {
-				fmt.Println(out)
-				continue
+			tout, err := RenderPage(base, root)
+			if err != nil {
+				log.Fatalf("Template failed: %s", err)
 			}
 
-			fullpath := filepath.Join(outdir, uid+suffix)
-			if err := os.WriteFile(fullpath, []byte(out), 0666); err != nil {
+			//-----------
+			fullpath := filepath.Join(outdir, uid)
+			if err := os.MkdirAll(fullpath, 0750); err != nil {
+				log.Fatalf("UMable to make directory %s", err)
+			}
+			fullpath = filepath.Join(fullpath, "index.html")
+			if err := os.WriteFile(fullpath, []byte(tout), 0666); err != nil {
 				log.Fatalf("couldn't write %q: %s", fullpath, err)
 			}
+			// -----------
+			/*
+				out := emitHTMLHugo(root, singlePage)
+				if outdir == "" {
+					fmt.Println(out)
+					continue
+				}
+
+				fullpath = filepath.Join(outdir, uid+suffix)
+				if err := os.WriteFile(fullpath, []byte(out), 0666); err != nil {
+					log.Fatalf("couldn't write %q: %s", fullpath, err)
+				}
+			*/
 		}
 	}
 }

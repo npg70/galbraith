@@ -197,27 +197,14 @@ func footnoter_person(n *html.Node) error {
 	return nil
 }
 
-func emitHTMLHugo(n *html.Node, singlePage bool) string {
-	front := ""
-	if singlePage {
-		front += "---\n"
-		front += "title: test\n"
-		front += "---\n"
-	}
-
-	fmap := map[string]TagFunc{
+func renderFuncs() map[string]TagFunc {
+	return map[string]TagFunc{
 		"csvtable": CsvTableHTML,
 		"root": func(args []string, body string) string {
 			return body
 		},
 		"front": func(args []string, body string) string {
-			out := ""
-			if !singlePage {
-				out += "---\n"
-				out += body
-				out += "---\n"
-			}
-			return out
+			return ""
 		},
 		"title": func(args []string, body string) string {
 			return "title: " + body + "\n"
@@ -239,15 +226,8 @@ func emitHTMLHugo(n *html.Node, singlePage bool) string {
 		"children-intro": makeTagClass("p"),
 		"child-link": func(args []string, body string) string {
 			href := args[1] //  getKeyValue(args, "href")
-			out := "<a class=child-link href='"
-			if singlePage {
-				// link within page
-				out += "#" + href
-			} else {
-				// link to new web page
-				out += "{{< relref " + href + ">}}"
-			}
-			out += "'>"
+			out := "<a class=child-link href=/galbreath/people/" + href
+			out += ">"
 			out += body
 			out += "</a>"
 			return out
@@ -400,7 +380,16 @@ func emitHTMLHugo(n *html.Node, singlePage bool) string {
 			return OPRText(args[1], args[2], person2, true) + "<blockquote>" + strings.TrimSpace(body) + "</blockquote>\n"
 		},
 	}
+}
 
-	out := Render(n, fmap)
+func emitHTMLHugo(n *html.Node, singlePage bool) string {
+	front := ""
+	if singlePage {
+		front += "---\n"
+		front += "title: test\n"
+		front += "---\n"
+	}
+
+	out := Render(n, renderFuncs())
 	return front + out
 }

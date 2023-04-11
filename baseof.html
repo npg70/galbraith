@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+    <title>{{ select . "title" }}</title>
+    <link rel="preload" href="/galbraith/fonts/SourceSerif4Variable-Roman.otf.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/galbraith/fonts/SourceSerif4Variable-Italic.otf.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/galbraith/fonts/Courier Prime.ttf.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" type="text/css" href="/galbraith/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/galbraith/styles.css">
+    </head>
+<body>
+<nav class="navbar navbar-expand-md bg-body-tertiary"> <div class="container-fluid ms-1">
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand mx-auto ml-md-0" href="/galbraith/">Galbraith Research</a>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+       <a class="nav-link" href="/galbraith/indexes/">Indexes</a>
+       <a class="nav-link" href="/galbraith/tags/">Tags</a>
+       <a class="nav-link disabled">Sources</a>
+    </div>
+  </div>
+  </div></nav>
+<div class="mx-1">
+  {{ render . }}
+</div>
+<script src="/galbraith/bootstrap.min.js"></script>
+</body>
+</html>
