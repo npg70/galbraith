@@ -1,18 +1,3 @@
-:root {
-    /* make text black
-     * was #212529, rgb(33, 37, 41)
-     */
-    /*
-    --bs-body-color: #000000;
-    --bs-body-color-rgb: 0,0,0;
-     */
-
-    --bs-link-color: rgb(13,76,177);
-    --bs-link-color-rgb: 13,76,177;
-    --bs-link-hover-color: rgb(13,76,177);
-    --bs-link-hover-color-rgb: 13,76,177;
-}
-
 @font-face{
     font-family: 'Source Serif VF';
     font-weight: 200 900;
@@ -41,12 +26,32 @@
     src: url("/galbraith/fonts/Courier Prime.ttf.woff2") format('woff2');
 }
 
+:root {
+    /* make text black
+     * was #212529, rgb(33, 37, 41)
+     */
+    /*
+    --bs-body-color: #000000;
+    --bs-body-color-rgb: 0,0,0;
+     */
+
+    --bs-link-color: rgb(13,76,177);
+    --bs-link-color-rgb: 13,76,177;
+    --bs-link-hover-color: rgb(13,76,177);
+    --bs-link-hover-color-rgb: 13,76,177;
+
+    /* our monospace is for trasnscription and quoting,  not code */
+    /* switch to courier prime */
+    --bs-font-monospace: courier-prime, "Courier New", monospace; 
+}
 body {
     font-family: "Source Serif VF", "Source Serif", sans;
-    overflow-x: hidden;
     font-feature-settings: "kern" 1, "liga" 1;
     font-optical-sizing: auto;
+
+    /* required for Safari */
     text-rendering: optimizeLegibility;
+
     /* Using Source Serif @ 400 for body text at small sizes isi
      * bit thin and anti-aliased to gray.  450 thickens it up a bit.
      * This applies to everything so undo for nav-specific
@@ -71,14 +76,19 @@ nav, .badge, .btn {
     /* uses san-serif font for UI and restore normal weight */
     font-family: var(--bs-font-sans-serif);
     font-weight: 400;
+
+    /* badge/button specific hacks */
     --bs-btn-font-size: 0.75rem;
     --bs-btn-padding-x: 0.4rem;
     --bs-btn-padding-y: 0.0rem;
 }
 
+/* should be font-smallcaps */
 .text-smallcaps {
     font-feature-settings: "smcp" 1;
 }
+
+/* print page break utilitites */
 .break-after-always {
     page-break-after: always;
 }
@@ -88,8 +98,16 @@ nav, .badge, .btn {
 .break-inside-avoid {
     page-break-inside: avoid;
 }
-th, td {
+
+/* th might be better valign bottom
+ * Should be bootstrap default 
+ */
+td, th {
     vertical-align: top;
+}
+
+small, .small {
+  font-size: 0.8125em;
 }
 
 blockquote {
@@ -103,7 +121,6 @@ blockquote {
     margin-top: 0.5rem;
     margin-left: 2rem;
 
-    /* not sure why this isn't 0 to begin with */
     margin-bottom: 0.2rem;
 
     page-break-inside: avoid;
@@ -133,32 +150,11 @@ sup {
     font-size: 100%;
 }
 
-table.base {
-    width:100%;
-    padding: 3px;
-}
-table.base th {
-    font-size: larger;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-table.xtable {
-    width:95%;
-    margin-left: auto;
-    font-family: courier-prime;
-    font-size: smaller;
-}
-table.xtable td, th {
-    padding: 3px;
-}
 td.child-counter {
     width: 1rem;
 }
 td.roman {
     width: 2rem;
-}
-div.footnotes {
-    font-size: smaller;
 }
 td.footnote-counter {
     width: 1.rem;

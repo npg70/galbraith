@@ -67,10 +67,10 @@ func oprindex(db Root, rtype string) string {
 	out.WriteString("title: OPR " + word + " Index\n")
 	out.WriteString("---\n")
 
-	out.WriteString("$table[class=base]{\n")
+	out.WriteString("$table{\n")
 	for _, pnum := range plist {
 		out.WriteString("$tr{\n")
-		out.WriteString("  $th[colspan=4]{")
+		out.WriteString("  $th[colspan=4 class='pt-3 pb-2 fs-5']{")
 		out.WriteString(fmt.Sprintf("Parish %s &mdash; %s", pnum, ParishName(pnum, "")))
 		out.WriteString("}\n")
 		out.WriteString("}\n")
@@ -164,10 +164,10 @@ func spindex(db Root, rtype string) string {
 	out.WriteString(fmt.Sprintf("title: Statutory %s Index\n", word))
 	out.WriteString("---\n")
 
-	out.WriteString("$table[class=base]{\n")
+	out.WriteString("$table{\n")
 	for _, pnum := range plist {
 		out.WriteString("$tr{\n")
-		out.WriteString("  $th[colspan=4]{")
+		out.WriteString("  $th[colspan=4 class='pt-3 pb-2 fs-5']{")
 		out.WriteString(fmt.Sprintf("Parish %s &mdash; %s", pnum, ParishName(pnum, "")))
 		out.WriteString("}\n")
 		out.WriteString("}\n")
