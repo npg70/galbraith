@@ -60,6 +60,13 @@ body {
     font-weight: 450;
 }
 
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 nav, .badge, .btn {
     /* uses san-serif font for UI and restore normal weight */
     font-family: var(--bs-font-sans-serif);
@@ -69,110 +76,20 @@ nav, .badge, .btn {
     --bs-btn-padding-y: 0.0rem;
 }
 
-
-span.primary-number {
-    font-weight: bold;
-    margin-right: 1em;
-}
-
-span.primary-name , span.partner-name {
+.text-smallcaps {
     font-feature-settings: "smcp" 1;
-    font-weight: bold;
-    white-space: nowrap;
 }
-span.date {
-    white-space: nowrap;
-}
-
-span.child-name, span.child-partner-name {
-    font-feature-settings: "smcp" 1;
-    white-space: nowrap;
-}
-
-.nowrap {
-    white-space: nowrap;
-}
-table.base {
-    width:100%;
-    padding: 3px;
-}
-table.base th {
-    font-size: larger;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-table.base td {
-    vertical-align: top;
-}
-
-table.xtable {
-    width:95%;
-    margin-left: auto;
-}
-table.xtable td {
-    padding: 3px;
-    font-family: courier-prime;
-    font-size: smaller;
-    vertical-align: top;
-}
-
-table.xtable th {
-    padding: 3px;
-    font-family: courier-prime;
-    font-size: smaller;
-    vertical-align: top;
-}
-table.child-list {
-    margin-bottom: 2em;
-}
-
-td.child-counter {
-    vertical-align: top;
-    width: 1rem;
-}
-td.roman {
-    vertical-align: top;
-    text-align: right;
-    width: 2rem;
-}
-td.child-entry {
-    vertical-align: top;
-    padding-left: 1rem;
-}
-
-div.footnotes {
-    font-size: smaller;
-}
-td.footnote-counter {
-    vertical-align: top;
-    width: 1.em;
-}
-td.footnote-body {
-    vertical-align: top;
-    page-break-inside: avoid;
-}
-div.person {
-    margin-bottom: 40px;
+.break-after-always {
     page-break-after: always;
 }
-ol.lineage {
-    padding-left: 1em;
+.break-after-avoid {
+    page-break-after: avoid;
 }
-ul.externals {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
+.break-inside-avoid {
+    page-break-inside: avoid;
 }
-
-ul.notes {
-    list-style-type: "\2799";
-    list-style-position: outside;
-    margin-left: 0;
-    padding-left: 1em;
-}
-ul.notes li {
-    margin-left: 0;
-    padding-left: 2em;
+th, td {
+    vertical-align: top;
 }
 
 blockquote {
@@ -183,28 +100,14 @@ blockquote {
      */
     font-family: courier-prime, serif;
 
-    margin-top: 0.5em;
-    margin-left: 2em;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
 
     /* not sure why this isn't 0 to begin with */
-    margin-bottom: 0.2em;
+    margin-bottom: 0.2rem;
 
     page-break-inside: avoid;
 }
-
-div.person-secondary {
-    font-size: smaller;
-}
-
-li.ancestor {
-    margin: 5px;
-}
-
-div.banner {
-    margin-top:1em;
-    margin-bottom:2em;
-}
-
 /*
  this is a dup of bootstrap for reference 
 
@@ -230,11 +133,45 @@ sup {
     font-size: 100%;
 }
 
-a {
-    text-decoration: none;
+table.base {
+    width:100%;
+    padding: 3px;
 }
-a:hover {
-    text-decoration: underline;
+table.base th {
+    font-size: larger;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+table.xtable {
+    width:95%;
+    margin-left: auto;
+    font-family: courier-prime;
+    font-size: smaller;
+}
+table.xtable td, th {
+    padding: 3px;
+}
+td.child-counter {
+    width: 1rem;
+}
+td.roman {
+    width: 2rem;
+}
+div.footnotes {
+    font-size: smaller;
+}
+td.footnote-counter {
+    width: 1.rem;
+}
+ul.notes {
+    list-style-type: "\2799";
+    list-style-position: outside;
+    margin-left: 0;
+    padding-left: 1rem;
+}
+ul.notes li {
+    margin-left: 0;
+    padding-left: 2rem;
 }
 
 @media screen and (prefers-color-scheme: dark) {

@@ -199,10 +199,6 @@ func footnoter_person(n *html.Node) error {
 
 func renderFuncs() map[string]TagFunc {
 	return map[string]TagFunc{
-		"nowrap": func(args []string, body string) string {
-			return "<span class=text-nowrap>" + body + "</span>"
-		},
-		"csvtable": CsvTableHTML,
 		"root": func(args []string, body string) string {
 			return body
 		},
@@ -212,34 +208,29 @@ func renderFuncs() map[string]TagFunc {
 		"title": func(args []string, body string) string {
 			return "title: " + body + "\n"
 		},
-		"date":       makeTagClass("span"),
-		"child-list": makeTagClass("table"),
-		"gen": func(args []string, body string) string {
-			return "<sup>" + body + "</sup>"
-		},
-		"children":           makeTagClass("div"),
-		"child-partner-name": makeTagClass("span"),
-		"partner-name":       makeTagClass("span"),
-		"child-name":         makeTagClass("span"),
+		"nowrap":             makeTagClass("span", "text-nowrap"),
+		"csvtable":           CsvTableHTML,
+		"date":               makeTagClass("span", "text-nowrap"),
+		"child-list":         makeTagClass("table", "mb-3"),
+		"gen":                makeTag("sup"),
+		"children":           makeTag("div"),
+		"child-partner-name": makeTagClass("span", "text-smallcaps text-nowrap"),
+		"child-name":         makeTagClass("span", "text-smallcaps text-nowrap"),
+		"primary-name":       makeTagClass("span", "fw-bold text-smallcaps text-nowrap"),
+		"partner-name":       makeTagClass("span", "fw-bold text-smallcaps text-nowrap"),
+		"lineage-name":       makeTag("span"),
+		"children-intro":     makeTag("p"),
 		"primary-number": func(args []string, body string) string {
-			return fmt.Sprintf("<span class=%s>%s. </span>", args[0], body)
+			return "<span class='fw-bold pe-3'>" + body + ". </span>"
 		},
-		"primary-name":   makeTagClass("span"),
-		"lineage-name":   makeTagClass("span"),
-		"children-intro": makeTagClass("p"),
 		"child-link": func(args []string, body string) string {
-			href := args[1] //  getKeyValue(args, "href")
-			out := "<a class=child-link href=/galbraith/people/" + href
-			out += ">"
-			out += body
-			out += "</a>"
-			return out
+			return "<a href=/galbraith/people/" + args[1] + ">" + body + "</a>"
 		},
 		"lineage": func(args []string, body string) string {
 			out := strings.Builder{}
-			out.WriteString("<div>")
+			out.WriteString("<div class='mb-3'>")
 			out.WriteString("<h6>Lineage</h6>")
-			out.WriteString("<ol class=lineage>")
+			out.WriteString("<ol class='m-0'>")
 			out.WriteString(body)
 			out.WriteString("</ol>")
 			out.WriteString("</div><!-- lineage -->\n")
@@ -249,38 +240,35 @@ func renderFuncs() map[string]TagFunc {
 			//genNumber := getKey(args, "generation")
 			counter := getKeyValue(args, "counter")
 			mother := getKeyValue(args, "mother")
-			return fmt.Sprintf("<li value=%s class=%s>%s<br>%s</li>\n",
-				counter, args[0], body, mother)
+			return fmt.Sprintf("<li value=%s>%s<br>%s</li>\n",
+				counter, body, mother)
 		},
 		"person": func(args []string, body string) string {
 			pid := getKeyValue(args, "id")
 			s := strings.Builder{}
-			s.WriteString("<div class='container-fluid person mx-auto'>")
+			s.WriteString("<div class='container-fluid mx-auto mb-5'>")
 			s.WriteString(fmt.Sprintf("<a name=%q></a>\n", pid))
 			s.WriteString(body)
 			s.WriteString("</div><!-- person -->\n") // person
 			return s.String()
 		},
-		"person-body": func(args []string, body string) string {
-			return "<div class='row'>\n" + body + "</div><!-- row -->\n"
-		},
-		"person-main":      makeDivClass("col-12 col-md-9 col-order-first print-hack"),
-		"person-secondary": makeDivClass("person-secondary col-12 col-md-3 order-last"),
+		"person-body":      makeTagClass("div", "row"),
+		"person-main":      makeTagClass("div", "col-12 col-md-9 col-order-first print-hack"),
+		"person-secondary": makeTagClass("div", "person-secondary col-12 col-md-3 order-last small"),
 		"banner": func(args []string, body string) string {
-			return "<div class='row'><div class='col-12 banner'>" + body + "</div></div>\n"
+			return "<div class='row'><div class='col-12 mb-4'>" + body + "</div></div>\n"
 		},
 		"pagemeta": func(args []string, body string) string {
 			return fmt.Sprintf("<div class=%s><h6>Meta</h6>%s</div><!-- %s -->\n",
 				args[0], body, args[0])
 		},
-		"person-bio": makeTagClass("div"),
-
-		"headline": makeTag("h1"),
+		"person-bio": makeTag("div"),
+		"headline":   makeTag("h1"),
 		"externals": func(args []string, body string) string {
 			if strings.TrimSpace(body) == "" {
 				return ""
 			}
-			return fmt.Sprintf("<div class=%s><h6>External</h6><ul class=externals>%s</ul></div><!-- %s -->\n", args[0], body, args[0])
+			return fmt.Sprintf("<div class=%s><h6>External</h6><ul class='list-unstyled'>%s</ul></div><!-- %s -->\n", args[0], body, args[0])
 		},
 		"external": func(args []string, body string) string {
 			return fmt.Sprintf("<li><a href=%q>%s</a></li>\n", args[1], body)
@@ -308,14 +296,12 @@ func renderFuncs() map[string]TagFunc {
 			}
 			s.WriteString("</td>")
 			r, _ := strconv.Atoi(getKeyValue(args, "birth-order"))
-			s.WriteString("<td class=roman>" + toRoman(r) + "." + "</td>")
-			s.WriteString("<td class=child-entry>")
-			s.WriteString(body)
-			s.WriteString("</td>")
+			s.WriteString("<td class='text-end roman'>" + toRoman(r) + "." + "</td>")
+			s.WriteString("<td class='ps-3'>" + body + "</td>")
 			s.WriteString("</tr>\n")
 			return s.String()
 		},
-		"notes": makeTagClass("ul"),
+		"notes": makeTagClass("ul", "notes"),
 		"note":  makeTag("li"),
 		"footnotes": func(args []string, body string) string {
 			if len(body) == 0 {
@@ -334,7 +320,7 @@ func renderFuncs() map[string]TagFunc {
 			s.WriteString("<td class=footnote-counter>")
 			s.WriteString("<span><sup>" + args[1] + "</sup>&nbsp;</span>")
 			s.WriteString("</td>")
-			s.WriteString("<td class=footnote-body>")
+			s.WriteString("<td class='break-inside-avoid '>")
 			s.WriteString(strings.TrimSpace(body))
 			s.WriteString("</td>")
 			s.WriteString("</tr>\n")

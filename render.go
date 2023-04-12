@@ -15,16 +15,9 @@ func makeTag(tag string) TagFunc {
 	}
 }
 
-func makeTagClass(tag string) TagFunc {
+func makeTagClass(tag string, cz string) TagFunc {
 	return func(args []string, body string) string {
-		return fmt.Sprintf("<%s class=%s>%s</%s>", tag, args[0], body, tag)
-	}
-}
-
-// pass through div
-func makeDivClass(cnames string) TagFunc {
-	return func(args []string, body string) string {
-		return fmt.Sprintf("<div class=%q>%s</div><!-- %s -->\n", cnames, body, args[0])
+		return fmt.Sprintf("<%s class=%q>%s</%s>", tag, cz, body, tag)
 	}
 }
 
