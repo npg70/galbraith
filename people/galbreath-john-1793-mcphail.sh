@@ -41,7 +41,7 @@ partner {
         name Donald Galbraith
         birth -date 14-feb-1833
         baptism -date 18-feb-1833 -location 'Kilcalmonell and Kilberry' -ref donald1833-baptism
-        death -date 1858 -ref donald1833-death 
+        death -date 10-feb-1858 -location Kilberry -ref donald1833-death  -note umn
         burial -location Lochgilphead -name 'Largnahension Graveyard' -ref donald1833-burial
     }
     child {
@@ -123,6 +123,9 @@ footnotes {
             Donald Lawful son of John Galbraith Tenant Feriligary[?]
             and Mary MacPhaile there Born 14th Feby Registered 18th 1833
         }
+    }
+    donald1833-death {
+        $sp-ref-link[d-1858-516-02-0002 0001 "Donald Galbreath"]
     }
     donald1833-burial {
         Find a Grave, database and images (https://www.findagrave.com/memorial/160593954/donald-galbraith: accessed 28 March 2023), memorial page for Donald Galbraith (1833–1858), Find a Grave Memorial ID 160593954, citing Largnahension Graveyard, Lochgilphead, Argyll and Bute, Scotland; Maintained by Pixturmn (contributor 47729036).
