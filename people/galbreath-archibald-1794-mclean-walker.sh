@@ -10,14 +10,7 @@ partner {
     name Mary McLean
     marriage -date 20-jan-1821 -location 'Kilcalmonell and Kilberry' -ref mclean-marriage
 
-    child {
-        name Niel Galbraith
-        birth -date 'about 1823'
-        death -date 1-may-1871 -location Glasgow -ref neil1823-death
-        partner {
-            name Janet McKinnon
-        }
-    }
+    child galbraith-neil-1823-mckinnon
     child {
         name Ann Galbreath
         baptism -date 25-apr-1826 -location 'Kilcalmonell and Kilberry' -ref ann1826-baptism
@@ -63,9 +56,6 @@ footnotes {
     }
     mclean-marriage {
         $opr-ref-link[m-1821-516-000-0020-0200 "Archibald Galbreath" "Mary McLean"]
-    }
-    neil1823-death {
-        $sp-ref-link[d-1871-644-08-0565 0188 "Neil Galbraith"]
     }
     ann1826-baptism {
         $opr-ref[b-1826-516-000-0020-0303 "Ann Galbraith"]
