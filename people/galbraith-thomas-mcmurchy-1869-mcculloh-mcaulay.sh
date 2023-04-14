@@ -1,4 +1,5 @@
 name Thomas McMurchy Galbraith
+tags Campbeltown
 birth -date 23-Apr-1869 -location campbeltown -ref thomas1869-birth
 death -date 1-jul-1940 -location campbeltown -ref thomas1869-death
 external {

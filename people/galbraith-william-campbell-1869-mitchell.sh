@@ -1,4 +1,5 @@
 name William Campbell Galbraith
+tags Southend
 birth -date 11-feb-1869 -location Southend -ref william1869-birth
 death -date 20-feb-1946 -location London,England
 burial -name "Kilkerran Graveyard"

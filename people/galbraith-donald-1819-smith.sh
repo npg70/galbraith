@@ -1,4 +1,5 @@
 name Donald Galbraith
+tags  'Kilcalmonell and Kilberry' 
 birth -date 16-aug-1819
 baptism -location 'Kilcalmonell and Kilberry' -ref donald1819-baptism
 death -date 4-jan-1897 -location Kilfinan,Argyll -ref donald1819-death

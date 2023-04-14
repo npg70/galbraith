@@ -1,4 +1,5 @@
 name Archibald Galbreath
+tags Campbeltown Immigrant
 birth -date 19-feb-1815 -location peninver
 baptism -date 22-feb-1815 -location campbeltown -ref archibald1815-baptism
 death -location 'Point Pleasant,Clermont,Ohio,USA'

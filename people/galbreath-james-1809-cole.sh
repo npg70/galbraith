@@ -1,5 +1,6 @@
 name James Galbreath
 baptism -date 27-dec-1809 -location campbeltown -ref james1809-baptism
+tags Campbeltown Immigrant
 partner {
     name Nancy Cole
     child {

@@ -1,4 +1,5 @@
 name Alexander Galbraith
+tags Campbeltown Incomplete
 baptism -date 25-may-1854 -location campbeltown -ref alexander1854-baptism
 external {
     familysearch LYTF-2FH

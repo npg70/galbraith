@@ -1,4 +1,5 @@
 name Archibald Galbraith
+tags 'Killean and Kilchenzie'
 birth -date 24-apr-1856 -location 'killean and kilchenzie' -ref archibald1856-birth
 death -date 18-apr-1936 -location 'killean and kilchenzie' -ref archibald1856-death 
 partner {

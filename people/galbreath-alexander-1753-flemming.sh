@@ -1,4 +1,5 @@
 name Alexander Galbreath
+tags Campbeltown Immigrant
 baptism -date 25-jun-1753 -location campbeltown -ref alex1753-baptism
 partner {
     name Agnes Flemming

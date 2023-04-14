@@ -1,4 +1,5 @@
 name John Galbreath
+tags Campbeltown 'Fix Me'
 birth -date apr-1848
 baptism -date 18-oct-1848 -location campbeltown -ref john1848-baptism 
 death -date 26-nov-1913 -location saddell

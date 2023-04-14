@@ -1,7 +1,7 @@
 name David Stewart Galbraith
 birth -date 9-oct-1782 -location 'killean and kilchenzie' -ref david1782-baptism
 death -date 27-dec-1863 -location Edinburgh -ref david1782-death
-tags Campbeltown
+tags Campbeltown Incomplete
 external {
   familysearch KZDT-66V
 }

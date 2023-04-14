@@ -1,4 +1,8 @@
 name James Galbreath
+tags Campbeltown
+external {
+    familysearch KCC8-XDD
+}
 baptism -date 23-dec-1768 -location campbeltown -ref james1768-baptism
 partner {
     name Jean Harvey

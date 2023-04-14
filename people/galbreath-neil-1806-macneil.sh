@@ -1,4 +1,5 @@
 name Neil Galbreath
+tags Gigha Campbeltown
 baptism -date 13-sep-1806 -location gigha -ref neil1806-baptism
 death -date 15-mar-1884 -location campbeltown -ref neil1806-death
 note {

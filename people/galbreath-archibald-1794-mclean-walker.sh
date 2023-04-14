@@ -40,14 +40,7 @@ partner {
         name Mary Galbreath
         baptism -date 10-feb-1836 -location 'Kilcalmonell and Kilberry' -ref mary1836-baptism
     }
-    child {
-        name Archibald Galbraith
-        baptism -date 14-nov-1838 -location 'Kilcalmonell and Kilberry' -ref archibald1838-baptism
-        death -date 25-nov-1897 -location 'Kilmore and Kilbride' -ref archibald1838-death
-        partner {
-            name Jessie Crawford
-        }       
-    }
+    child galbraith-archibald-1838-crawford
 }
 
 footnotes {
@@ -87,11 +80,5 @@ footnotes {
     }
     mary1836-baptism {
         $opr-ref[b-1836-516-000-0020-0342 "Mary Galbreath"]
-    }
-    archibald1838-baptism {
-        $opr-ref[b-1838-516-000-0020-0128 "Archibald Galbraith"]
-    }
-    archibald1838-death {
-        $sp-ref-link[d-1897-523-00-0076 0026 "Archibald Galbraith"]
     }
 }

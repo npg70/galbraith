@@ -1,11 +1,17 @@
 name David Galbreath
+tags Campbeltown "Dead End"
+external {
+    familysearch G3PJ-Q7V
+}
 baptism -date 28-apr-1719 -location campbeltown -ref david1719-baptism
 note {
     There are two people named David Galbreath, who both married a Langwill and both had their
     first child in 1743.  This David married $i{Jean} Langwill
     and the other David Galbreath married $i{Mary} Langwill.
 }
-
+note {
+    No information on children beyond baptism.
+}
 partner {
     name Jean Langwill
     marriage -date 20-mar-1742 -location campbeltown -ref marriage

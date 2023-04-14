@@ -1,4 +1,5 @@
 name Archibald Galbraith
+tags 'Killean and Kilchenzie' 'Campbeltown'
 birth -date 17-jan-1865 -location 'killean and kilchenzie'
 death -date 27-nov-1949 -location Campbeltown -ref archibald1865-death
 burial -name 'Kilkerran Cemetery'

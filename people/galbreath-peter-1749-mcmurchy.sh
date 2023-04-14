@@ -1,6 +1,6 @@
 name Peter Galbreath
 baptism -date 5-apr-1749 -location campbeltown -ref peter1749-baptism
-
+tags Campbeltown "Fix Me"
 external {
     familysearch KC9M-5ZQ
 }

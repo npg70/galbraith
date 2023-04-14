@@ -1,4 +1,5 @@
 name Angus Galbraith
+tags 'Kilcalmonell and Kilberry' 
 birth -date 20-oct-1825
 baptism -date 8-nov-1825 -location 'Kilcalmonell and Kilberry' -ref angus1825-baptism
 death -date 6-sep-1879 -location Newington,Edinburgh  -ref angus1825-death

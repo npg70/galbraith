@@ -1,4 +1,5 @@
 name Samuel Galbreath
+tags Campbeltown 'No Children'
 baptism -date 14-jan-1827 -location campbeltown -ref samuel1827-baptism
 death -date 17-oct-1860 -location campbeltown -ref samuel1827-death
 external {

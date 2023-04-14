@@ -1,4 +1,5 @@
 name Donald Galbraith
+tags 'Killean and Kilchenzie' Campbeltown
 baptism -date 8-Aug-1819 -location 'killean and kilchenzie' -ref donald1819-baptism
 death -date 20-nov-1897 -location campbeltown -ref death
 note {

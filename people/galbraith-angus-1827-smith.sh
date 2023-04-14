@@ -1,4 +1,5 @@
 name Angus Galbraith
+tags 'Kilcalmonell and Kilberry'
 baptism -date 18-feb-1827 -location 'kilcalmonell' -ref angus1827-baptism
 note {
     Incomplete

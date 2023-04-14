@@ -1,4 +1,5 @@
 name John Galbraith
+tags 'Kilcalmonell and Kilberry' Immigrant
 baptism -date 29-may-1809 -location 'kilcalmonell and kilberry' -ref john1809-baptism
 death -date 1892 -location canada
 partner {

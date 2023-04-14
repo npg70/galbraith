@@ -1,4 +1,5 @@
 name Archibald Galbreath
+tags Campbeltown Paisley
 baptism -date 19-jan-1819 -location campbeltown -ref archibald1819-baptism
 death -date 4-feb-1867 -location paisley -ref archibald1819-death
 
