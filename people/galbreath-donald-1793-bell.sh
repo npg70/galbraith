@@ -41,14 +41,14 @@ partner {
 }
 
 body {
-His parents were Daniel Galbreath and Mary McEnchie[?]. They appear to have not married and Daniel died while Mary was pregnant. The son Donald is listed as "natural" (as opposed to "lawful").
+His parents were Daniel Galbreath and Mary McEnchie[?]. They appear to have not married and Daniel died while Mary was pregnant. The son Donald is listed as "natural" (as opposed to "lawful"). This means there is no marriage records, nor any siblings.
 }
 
 body {In the Killean Parish, there are no matching records for the father Daniel. However in Campbeltown, there is a Daniel Galbreath, son of John Galbreath/Margaret Clark baptized 22 Aug 1772.$ref[maybe-father]  As for his mother, its hard to say anything definitive since the name "Mary McEachine" was very common at the time. There are no matches for her death in the statutory records after 1855, so she perhaps died before then.
 }
 
 body {
-1841 Census, Campbeltown$ref[census-1841]
+1841 Census, Campbeltown:$ref[census-1841]
 $csvtable{
 Name,Age,Year,Occupation
 Donald Galbraith,48,1793,Laborer
@@ -58,7 +58,7 @@ Margaret Galbraith,1833,-
 Elizabeth Galbraith,1835,-
 }
 
-1851 Census, Campbeltown$ref[census-1851]
+1851 Census, Campbeltown:$ref[census-1851]
 
 $csvtable{
 Name,Role,Status,Age,Year,Birth,Occupation
@@ -71,7 +71,7 @@ Christina Galbraith,Niece,Unmarried,7,1844,Campbeltown
 }
 
 
-1861 Census, Campbeltown$ref[census-1861]
+1861 Census, Campbeltown:$ref[census-1861]
 
 $csvtable{
 Name,Role,Status,Age,Year,Birth,Occupation
@@ -91,7 +91,7 @@ The second wife is speculative. They may be the same person, although it's unexp
 
 footnotes {
     baptism {
-        $opr-ref-link[b-1793-519-000-0010-0090 "Donald Galbreath"]{
+        $opr-ref-link[b-1793-519-000-0010-0089 "Donald Galbreath"]{
             Donald Natural Son to Daniel Galbreath late at [?] and Mary McEachren at Balloch Bapt 5 May
         }
     }
