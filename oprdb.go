@@ -21,6 +21,7 @@ func ParishRef(id1, id2 string) string {
 func ParishName(id1, id2 string) string {
 
 	parishmap := map[string]string{
+		"062":    "Dingwall, Ross and Cromarty",
 		"074":    "Lochalsh, Ross and Cromarty",
 		"108":    "Barra",
 		"114":    "Raasay, Inverness",
@@ -40,6 +41,7 @@ func ParishName(id1, id2 string) string {
 		"497":    "Kilmaronock",
 		"500":    "New or East Kilpatrick, Dunbarton",
 		"501":    "Old or West Kilpatrick, Dunbarton",
+		"502":    "Kilcreggan and Cove, Dunbarton",
 		"502/2":  "Kilcreggan and Cove, Dunbarton",
 		"507":    "Campbeltown, Argyll",
 		"507/1":  "Campbeltown (Burgh), Argyll",
@@ -57,6 +59,7 @@ func ParishName(id1, id2 string) string {
 		"531/1":  "Saddell, Argyll",
 		"531/2":  "Skipness, Argyll",
 		"532":    "Southend, Argyll",
+		"533":    "South Knapdale, Argyll",
 		"535":    "Tarbert, Argyll",
 		"536":    "Campbeltown, Argyll", // not clear what this is.. on in Statutory records
 		"537":    "Gigha and Cara, Argyll",
@@ -84,6 +87,7 @@ func ParishName(id1, id2 string) string {
 		"576":    "Ardrossan, Ayr",
 		"578":    "Ayr, Ayr",
 		"578/1":  "Ayr, Ayr",
+		"588":    "Dalrymple, Ayr",
 		"590":    "Dundonald, Ayr",
 		"594":    "Girvan, Ayr",
 		"595":    "Irvine, Ayr",
