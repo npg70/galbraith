@@ -4,7 +4,7 @@ death -date 28-jan-1880 -location Jura -ref lachlan1799-death
 external {
     familysearch KH84-96W
 }
-tags Jura 'Daughtered Out'
+tags Colonsay Jura 'Daughtered Out'
 partner {
     name Margaret Lindsay
     child {

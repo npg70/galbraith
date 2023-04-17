@@ -33,6 +33,7 @@ partner {
 partner {
     name Annie McLugash
     marriage -date 5-mar-1827 -location colonsay -ref mclugash-marriage
+    birth -date 12-apr-1801 -location colonsay -ref mclugash-baptism
     death -date 3-jan-1867 -location 'Bruce County, Ontario, Canada'
     child {
         name Angus Galbreath
@@ -51,7 +52,7 @@ partner {
     }
     child {
         name Mary Galbreath
-        baptism -date 20-jun-1836 -location colonsay -ref may1836-baptism
+        baptism -date 20-jun-1836 -location colonsay -ref mary1836-baptism
         death -date 1823 -location 'Saskatchewan, Canada'
     }
     child {
@@ -80,6 +81,9 @@ footnotes {
     }
     cathrine1821-baptism {
         $opr-ref[b-1821-539-020-0020-0005 "Cathrine Galbreath"]
+    }
+    mclugash-baptism {
+        $opr-ref[b-1801-539-020-0010-0005 "Annie McLugas"]
     }
     mclugash-marriage {
         $opr-ref-link[m-1827-539-020-0020-0027 "Donald Galbraith" "Annie McLugash"]{
