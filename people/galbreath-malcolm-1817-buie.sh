@@ -13,10 +13,18 @@ partner {
     child {
         name John Galbreath
         birth -date 'about 1843'
+        partner {
+            name Margarat Munn
+            marriage -date 7-jan-1892 -location colonsay -ref john1843-marriage
+        }
     }
     child {
         name Catherine Galbreath
         birth -date 'about 1845'
+        partner {
+            name Malcolm McNeill
+            marriage -date 15-may-1884 -location colonsay -ref catherine1845-marriage
+        }
     }
     child {
         name Donald Galbreath
@@ -41,6 +49,15 @@ footnotes {
     }
     buie-death {
         $sp-ref-link[d-1888-539-02-0005 0002 "Euphemia Galbraith"]
+    }
+    buie-marriage {
+        $opr-ref[m-1842-539-020-0020-0031 "Malcolm Galbreath" "Effie Bui"]
+    }
+    john1843-marriage {
+        $sp-ref-link[m-1892-539-02-0001 0001 "John Galbraith" "Margaret Munn"]
+    }
+    catherine1845-marriage {
+        $sp-ref-link[m-1884-539-02-0003 0002 "Catherine Galbraith" "Malcolm McNeill"]
     }
     donald1847-baptism {
         $opr-ref[b-1847-539-020-0020-0016 "Donald Galbreath"]

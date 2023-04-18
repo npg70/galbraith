@@ -57,12 +57,12 @@ partner {
         }
     }
     child {
-        name Haster/Ester Galbreath
-        baptism -date 3-jun-1821 -location colonsay -ref haster1821-baptism
+        name Hester Galbreath
+        baptism -date 3-jun-1821 -location colonsay -ref hester1821-baptism
         death -date 11-oct-1894 -location 'Paisley, Bruce, Ontario, Canada'
         partner {
             name John Archabald McPhee
-            marriage -date 6-jun-1845 -location colonsay
+            marriage -date 6-jun-1845 -location colonsay -ref hester1821-marriage
         }
     }
     child {
@@ -133,8 +133,11 @@ footnotes {
     margrat819-baptism {
         $opr-ref[b-1819-539-010-0010-0117 "Margrat Galbreath"]
     }
-    haster1821-baptism {
+    hester1821-baptism {
         $opr-ref[b-1821-539-020-0020-0004 "Haster Galbreath"]
+    }
+    hester1821-marriage {
+        $opr-ref[m-1845-539-020-0020-0031 "Hester Galbreath" "John McFee"]
     }
     donald1824-baptism {
         $opr-ref[b-1824-539-020-0020-0005 "Donald Galbreath"]

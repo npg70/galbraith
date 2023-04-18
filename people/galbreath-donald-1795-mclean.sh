@@ -35,16 +35,7 @@ partner {
     marriage -date 5-mar-1827 -location colonsay -ref mclugash-marriage
     birth -date 12-apr-1801 -location colonsay -ref mclugash-baptism
     death -date 3-jan-1867 -location 'Bruce County, Ontario, Canada'
-    child {
-        name Angus Galbreath
-        baptism -date 7-may-1828 -location colonsay -ref angus1828-baptism
-        death -date 1880 -location 'Elderslie, Bruce, Ontario, Canada'
-        partner {
-            name Julia Ann Darrach
-            marriage -date 16-jun-1856 -location colonsay
-        }
-        body { 6 children in colonsay to 1868 }
-    }
+    child galbreath-angus-1828-darrach
     child {
         name Lachlain Galbreath
         baptism -date 19-may-1833 -location colonsay -ref lachlain1833-baptism
@@ -54,6 +45,10 @@ partner {
         name Mary Galbreath
         baptism -date 20-jun-1836 -location colonsay -ref mary1836-baptism
         death -date 1823 -location 'Saskatchewan, Canada'
+        partner {
+            name Archibald McLugash
+            marriage -date 27-jun-1855 -location colonsay -ref mary1836-marriage
+        }
     }
     child {
         name Margaret Galbreath
@@ -67,6 +62,10 @@ partner {
     child {
         name Anne Galbreath
         baptism -date 5-may-1844 -location colonsay -ref anne1844-baptism
+        partner {
+            name Donald McLean
+            marriage -date 18-jun-1860 -location colonsay -ref anne1844-marriage
+        }
     }
 }
 footnotes {
@@ -90,9 +89,6 @@ footnotes {
             March 5 | Donald Galbraith + Annie McLugash
         }
     }
-    angus1828-baptism {
-        $opr-ref[b-1828-539-020-0020-0007 "Angus Galbreath"]
-    }
     lachlain1833-baptism {
         $opr-ref[b-1833-539-020-0020-0009 "Lachlain Galbreath"]
     }
@@ -101,7 +97,13 @@ footnotes {
             June 20 | Mary Daughter of Don'd and $i{blank}
         }
     }
+    mary1836-marriage {
+        $sp-ref-link[m-1855-539-02-0003 0002 "Mary Galbraith" "Archibald McLugash"]
+    }
     anne1844-baptism {
         $opr-ref[b-1844-539-020-0020-0014 "Annie Galbreath"]
+    }
+    anne1844-marriage {
+        $sp-ref-link[m-1860-539-02-0002 0001 "Ann Galbreath" "Donald McLean"]
     }
 }
