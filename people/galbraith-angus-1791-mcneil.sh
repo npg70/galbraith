@@ -32,11 +32,11 @@ partner {
     }
     child {
         name Mary Galbreath
-        baptism -date 1-feb-1814 -location colonsay -ref mary1814-bpatism
+        baptism -date 1-feb-1814 -location colonsay -ref mary1814-baptism
         death -date 24-sep-1881 -location 'ontario,canada'
         partner {
             name Malcolm McEachern
-            marriage -date 10-mar-1838 -location colonsay
+            marriage -date 10-mar-1838 -location colonsay -ref mary1814-marriage
         }
     }
     child {
@@ -44,7 +44,7 @@ partner {
         baptism -date 20-jul-1816 -location colonsay -ref cathrine1816-baptism
         partner {
             name James McNeil
-            marriage -date 1-jul-1837 -location colonsay
+            marriage -date 1-jul-1837 -location colonsay -ref cathrine1816-marriage
         }
     }
     child {
@@ -85,7 +85,7 @@ partner {
     }
     child {
         name Suesay Galbreath
-        baptism -date 26-jul-1830 -location colonsay -ref suesay-1830-baptism
+        baptism -date 26-jul-1830 -location colonsay -ref suesay1830-baptism
         death -date 9-apr-1876 -location 'Elderslie, Bruce, Ontario, Canada'
         partner {
             name Donald Brown
@@ -103,7 +103,7 @@ partner {
     }
     child {
         name  Malcolm Galbreath
-        baptism -date 27-Sep-1835 -location Colonsay -ref malcom1835-baptism
+        baptism -date 27-Sep-1835 -location Colonsay -ref malcolm1835-baptism
         death -date 1876 -location 'Greenwood, Kansas, USA'
         partner {
             name Jennet McNeil
@@ -119,7 +119,7 @@ partner {
 
 footnotes {
     mcneil-marriage {
-
+        $opr-ref[m-1811-539-020-0010-0017 "Angus Galbreath" "Cathrine McNeill"]
     }
     janet1812-baptism {
         $opr-ref[b-1812-539-020-0010-0009 "Jeny Galbreath"]
@@ -127,10 +127,16 @@ footnotes {
     mary1814-baptism {
         $opr-ref[b-1814-539-020-0010-0010 "Mary Galbreath"]
     }
+    mary1814-marriage {
+        $opr-ref[m-1838-539-020-0020-0039 "Mary Galbreath" "Malcolm McEachern"]
+    }
     cathrine1816-baptism {
         $opr-ref[b-1816-539-020-0010-0012 "Cathrine Galbreath"]
     }
-    margrat819-baptism {
+    cathrine1816-marriage {
+        $opr-ref[m-1837-539-02-0020-0029 "Cathrine Galbreath" "James McNeill"]
+    }
+    margrat1819-baptism {
         $opr-ref[b-1819-539-010-0010-0117 "Margrat Galbreath"]
     }
     hester1821-baptism {

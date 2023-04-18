@@ -10,7 +10,7 @@ partner {
     name Mary McNeil
     birth -date 'about 1786'
     death -date 1849
-
+    marriage -date 26-aug-1809 -location colonsay -ref mcneil-marriage
     child {
         name Flory Galbreath
         baptism -date 2-jul-1810 -location colonsay -ref flory1810-baptism
@@ -46,6 +46,9 @@ partner {
 }
 
 footnotes {
+    mcneil-marriage {
+        $opr-ref[m-1809-539-020-0010-0017 "John Galbreath"]
+    }
     flory1810-baptism {
         $opr-ref-link[b-1810-539-020-0010-0008 "Flory Galbreath"]
     }
