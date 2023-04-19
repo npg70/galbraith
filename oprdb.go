@@ -108,6 +108,7 @@ func ParishName(id1, id2 string) string {
 		"644/1":  "Glasgow",
 		"644/2":  "Gorbals",
 		"644/3":  "Calton or Dennistoun, Glasgow",
+		"644/6":  "Blythswood, Glasgow",
 		"644/7":  "Milton, Glasgow",
 		"644/8":  "Blythswood",
 		"644/9":  "Kelvin",

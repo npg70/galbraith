@@ -27,14 +27,8 @@ partner {
         baptism -date 9-may-1840 -location jura -ref janet1840-baptism
         death -date 1913 -location jura -ref janet1840-death
     }
-    child {
-        name Malcolm Galbraith
-        birth -date 'about 1842'
-        death -date 29-dec-1920 -location jura -ref malcolm1842-death
-        partner {
-            name Annie Russel
-        }
-    }
+    child galbraith-malcolm-1842-russell
+
     child {
         name Mary Galbraith
         baptism -date 6-jul-1844 -location jura -ref mary1844-baptism
@@ -85,16 +79,6 @@ footnotes {
     }
     janet1840-baptism {
         $sp-ref[d-1913-539-01-0002 "Janet Galbraith"]
-    }
-    malcolm1842-death {
-        $sp-ref-link[d-1920-539-01-0008 0003 "Malcolm Galbraith"]{
-            Name: Malcolm Galbraith, Seaman (retired), Widower of Annie Russell;
-            Date: 1920 December Twenty Nineth ...;
-            Age: 78  ($i{birth ~1842});
-            Father: Lachlan Galbraith, Crofter, (deceased);
-            Mother: Margaret Lindsay;
-            Present: $i{illegible name}, Nephew;
-        }
     }
     mary1844-baptism {
         $opr-ref[b-1844-539-010-0020-0078 "Mary Galbraith"]

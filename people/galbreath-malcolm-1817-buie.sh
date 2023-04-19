@@ -13,14 +13,21 @@ partner {
     child {
         name John Galbreath
         birth -date 'about 1843'
+        death -date 9-sep-1895 -location colonsay -ref john1843-death
         partner {
             name Margarat Munn
+            birth -date 'about 1856'
             marriage -date 7-jan-1892 -location colonsay -ref john1843-marriage
+            death -date 15-mar-1925 -location colonsay -ref munn-death
+            body {
+                The daughter of James Munn and Flora Blue
+            }
         }
     }
     child {
         name Catherine Galbreath
         birth -date 'about 1845'
+        death -date 1898 -location colonsay -ref catherine1845-death
         partner {
             name Malcolm McNeill
             marriage -date 15-may-1884 -location colonsay -ref catherine1845-marriage
@@ -35,10 +42,7 @@ partner {
         name Margaret Galbreath
         baptism -date 7-jun-1849 -location colonsay -ref margaret1849-baptism
     }
-    child {
-        name Donald Galbreath
-        baptism -date 5-may-1853 -location colonsay -ref donald1853-baptism
-    }
+    child galbreath-donald-1853-mcphee
 }
 footnotes {
     malcolm1817-baptism {
@@ -56,6 +60,15 @@ footnotes {
     john1843-marriage {
         $sp-ref-link[m-1892-539-02-0001 0001 "John Galbraith" "Margaret Munn"]
     }
+    john1843-death {
+        $sp-ref-link[d-1895-539-02-0003 0001 "John Galbraith"]
+    }
+    munn-death {
+        $sp-ref-link[d-1925-539-02-0002 0001 "Margaret Galbraith"]
+    }
+    catherine1845-death {
+        $sp-ref[d-1896-539-02-0005 "Catherine Galbraith"]
+    }
     catherine1845-marriage {
         $sp-ref-link[m-1884-539-02-0003 0002 "Catherine Galbraith" "Malcolm McNeill"]
     }
@@ -67,8 +80,5 @@ footnotes {
     }
     margaret1849-baptism {
         $opr-ref[b-1849-539-020-0020-0016 "Margaret Galbreath"]
-    }
-    donald1853-baptism {
-        $opr-ref[b-1853-539-020-0020-0019 "Donald Galbreath"]
     }
 }
