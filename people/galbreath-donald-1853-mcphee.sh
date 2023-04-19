@@ -1,12 +1,25 @@
 name Donald Galbreath
-tags Colonsay
+tags Colonsay "Fix Me"
 baptism -date 5-may-1853 -location colonsay -ref donald1853-baptism
 death -date 23-feb-1907 -location colonsay -ref donald1853-death
+note {
+    Add 1891 census info 
+    https://www.findmypast.com/transcript?id=GBC/1891/0035244081&expand=true
+}
+
 partner {
     name Christina McPhee
     birth -date 'about 1852'
     death -date 30-aug-1898 -location colonsay -ref mcphee-death
     marriage -date 30-may-1879 -location Greenock -ref donald1853-marriage
+    child {
+        name Malcolm Galbraith
+        birth -date 1880 -location greenock
+    }
+    child {
+        name Hugh Galbraith
+        birth -date 1883 -location greenock
+    }
     child {
         name John Galbraith
         birth -date 6-oct-1884 -location colonsay -ref john1884-birth
@@ -15,11 +28,9 @@ partner {
         name Euphemia Galbraith
         birth -date 1888 -location colonsay -ref euphemia1888-birth
     }
-    child {
-        name Hugh Galbraith
-    }
 }
-
+body {
+    
 footnotes {
 
     donald1853-baptism {
