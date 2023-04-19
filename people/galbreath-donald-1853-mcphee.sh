@@ -29,7 +29,6 @@ partner {
         birth -date 1888 -location colonsay -ref euphemia1888-birth
     }
 }
-body {
     
 footnotes {
 
