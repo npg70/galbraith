@@ -14,6 +14,8 @@ partner {
         name John Galbreath
         birth -date 'about 1843'
         death -date 9-sep-1895 -location colonsay -ref john1843-death
+        body { Children unlikely.  Married at age 48 and died 3 years later. No obvious children in statutory records.  No children listed in death records.
+    }
         partner {
             name Margarat Munn
             birth -date 'about 1856'
