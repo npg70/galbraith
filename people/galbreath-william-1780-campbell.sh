@@ -3,13 +3,14 @@ baptism -date 16-jan-1780 -location campbeltown -ref baptism
 external {
     familysearch KFJY-V29
 }
+tags Campbeltown
 partner {
     name Jean Campbell
     marriage -date 27-jun-1803 -location Campbeltown -ref marriage
     child galbraith-john-1804-watson
     child {
         name Isobell Galbraith
-        baptism -date 12-dec-1808 -location Campbeltown -ref isobell-birth
+        baptism -date 12-dec-1808 -location Campbeltown -ref isobell-baptism
         partner {
             name James Patterson
         }
@@ -31,7 +32,7 @@ footnotes {
             Contracted the 24th and were married 27th June 1803
         }
     }
-    isobell-bapt {
+    isobell-baptism {
         $opr-ref-link[b-1808-507-000-0040-0329 "Isobell Galbeath"]
     }
     robert-bapt {

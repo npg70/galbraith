@@ -1,6 +1,7 @@
 name John Galbraith
 baptism -date 2-feb-1821 -location campbeltown -ref john1821-baptism
 death -date 7-dec-1902 -location Carradale,Saddell -ref john1821-death
+tags campbeltown 'Saddell and Skipness'
 external {
     familysearch LZ62-KLL
     findagrave 172200102

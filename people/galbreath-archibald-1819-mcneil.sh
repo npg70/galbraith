@@ -3,9 +3,13 @@ tags Campbeltown Paisley
 baptism -date 19-jan-1819 -location campbeltown -ref archibald1819-baptism
 death -date 4-feb-1867 -location paisley -ref archibald1819-death
 
-note {
-    Needs Investigation
+todo {
+    Son Alexander needs to be split out
 }
+todo {
+    Census need transcribing
+}
+
 body {
 How does a son of a fisherman become a shoemaker? The 1841 UK Census of lists a "Archibald Gilbrieth" in the household of John McIssac who was a shoemaker.4 It would appear Archibald left home to Paisley to intern with another family.
 }

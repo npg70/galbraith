@@ -5,8 +5,8 @@ death -date 21-apr-1873 -location Saddell -ref neil1841-death -note "by drowning
 external {
     familysearch K466-KG9
 }
-note {
-    Stub
+todo {
+    Stub - missing references.
 }
 partner {
     name Martha Stewart

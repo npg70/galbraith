@@ -1,4 +1,5 @@
 name Samuel Galbreath
+tags Campbeltown
 birth -location Peninver
 baptism -date 4-feb-1736 -location campbeltown -ref samuel1736-baptism
 death -date 19-may-1847 -location neville,clermont,ohio,usa

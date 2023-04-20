@@ -1,4 +1,5 @@
 name Neill Galbreath
+tags Campbeltown
 baptism -date 18-dec-1788 -location campbeltown -ref neill1788-baptism
 death -date 9-jun-1863 -location campbeltown -ref neill1788-death
 external {
