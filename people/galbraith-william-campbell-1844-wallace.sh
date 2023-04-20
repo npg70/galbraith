@@ -1,5 +1,5 @@
 name William Campbell Galbraith
-tags Campbeltown 'Fix Me'
+tags Campbeltown 
 birth -date 27-jul-1844
 baptism -date 25-aug-1844 -location campbeltown -ref birth
 death -date 28-May-1926 -location Ayr,Ayr -ref death
@@ -7,6 +7,7 @@ external {
     familysearch KCH5-Y3X
     ancestry /tree/5901559/person/7032351092
 }
+todo {Missing birth references}
 note {
 The last two sons immigrated to California.
 }

@@ -1,12 +1,15 @@
 name Alexander Galbreath
-tags Campbeltown 'Fix Me'
+tags Campbeltown
 baptism -date 4-aug-1844 -location campbeltown -ref alexander1844-baptism
 death -date 25-dec-1883 -location campbeltown -ref alexander1844-death
 external {
     familysearch K8D5-31F
 }
-note {
+todo {
     Incomplete: see https://github.com/npg70/galbreath-old/blob/main/people/galbraith-alexander-1844.md
+}
+todo {
+    missing references in footnotes
 }
 
 partner {

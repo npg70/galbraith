@@ -1,8 +1,8 @@
 name Donald Galbreath
-tags Colonsay "Fix Me"
+tags Colonsay
 baptism -date 5-may-1853 -location colonsay -ref donald1853-baptism
 death -date 23-feb-1907 -location colonsay -ref donald1853-death
-note {
+todo {
     Add 1891 census info 
     https://www.findmypast.com/transcript?id=GBC/1891/0035244081&expand=true
 }

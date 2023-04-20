@@ -1,8 +1,11 @@
 name Peter Galbreath
 baptism -date 5-apr-1749 -location campbeltown -ref peter1749-baptism
-tags Campbeltown "Fix Me"
+tags Campbeltown
 external {
     familysearch KC9M-5ZQ
+}
+todo {
+    Missing references. Body copy references old footnotes.
 }
 body {
 Family is listed as living in Laggan in the Parish of Kilchousland according to the 1792 Census2

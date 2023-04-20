@@ -1,5 +1,5 @@
 name Archibald Galbreath
-tags "Fix Me" Campbeltown
+tags Campbeltown
 baptism -date 6-oct-1845 -location campbeltown -ref archibald1845-baptism
 death -date 1916 -location 'Newton Abbot, Devon, England'
 external {
@@ -10,8 +10,8 @@ partner {
     name Florence Eliza Carr
     marriage -date 1883 -location 'Chorlton, Lancashire, England'
 }
-note {
-    See orig https://github.com/npg70/galbreath-old/blob/main/people/galbreath-archibald-1845-carr.md
+todo {
+   Body needs rewrite.  See orig https://github.com/npg70/galbreath-old/blob/main/people/galbreath-archibald-1845-carr.md
 }
 
 body {

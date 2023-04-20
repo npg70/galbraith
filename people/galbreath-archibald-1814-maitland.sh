@@ -3,11 +3,13 @@ birth -date 'about 1814' -location Gigha
 external {
     familysearch KH8D-G3C
 }
-tags Campbeltown 'Fix Me'
+tags Campbeltown
+todo { 
+    Needs 1841 census.
+}
 body {
-
 1851 Census, 507-11-16
-$csvtable {
+$csvtable{
 Name,Relation,Age,Year,Birthplace,Occupation
 Archibald Galbreath,Head,38,1813,Gigha,Fisherman
 Elizabeth Galbreath,Wife,36,1815,Campbeltown,-
@@ -17,7 +19,7 @@ Flora Galbreath,Dau,7,1844,Campbeltown,Scholar
 }
 
 note {
-    present in 1814 census
+    present in 1841 census
 }
 note {
     No records found after 1851 census.

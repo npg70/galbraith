@@ -1,11 +1,11 @@
 name William Galbraith
 baptism -date 9-dec-1791 -location Dalrymple,Ayr -ref william1791-baptism -note 'the son of Peter Galbraith and Jean Logan'
-tags Southend Dalrymple 'Fix Me'
+tags Southend Dalrymple
 external {
     familysearch K6MR-GCC
     findagrave 114206412
 }
-note {
+todo {
     Fix me: add parents, add reference to children, fix census info
 }
 body {

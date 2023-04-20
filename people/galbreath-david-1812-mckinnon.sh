@@ -2,10 +2,14 @@ name David Galbreath
 birth -date 3-feb-1812 -location gigha -ref david1812-baptism
 death -date 19-Aug-1855
 burial -name 'Kilkerran Cemetery'
-tags Campbeltown 'fix me'
+tags Campbeltown
 external {
    familysearch KCRW-WZZ
 }
+todo {
+    body need rewrite, needs refernces, has raw URLs, etc.
+}
+
 note {
     Parents and baptism are speculative.
 }
