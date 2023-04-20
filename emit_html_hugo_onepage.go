@@ -302,6 +302,8 @@ func renderFuncs() map[string]TagFunc {
 			s.WriteString("</tr>\n")
 			return s.String()
 		},
+		"todos": makeTagClass("ul", "todos"),
+		"todo":  makeTag("li"),
 		"notes": makeTagClass("ul", "notes"),
 		"note":  makeTag("li"),
 		"footnotes": func(args []string, body string) string {

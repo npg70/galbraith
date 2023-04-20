@@ -234,6 +234,7 @@ type Person struct {
 	External  ExternalSource
 	Body      []string
 	Notes     []string
+	Todos     []string
 	Tags      []string
 }
 
@@ -345,6 +346,8 @@ func (p *Person) UnmarshalText(text []byte) error {
 			}
 		case "note":
 			p.Notes = append(p.Notes, body)
+		case "todo":
+			p.Todos = append(p.Todos, body)
 		default:
 			return fmt.Errorf("Unknown command %q", args[0])
 		}
@@ -801,6 +804,14 @@ func (r Root) generateOne(primary string) (string, []string) {
 			}
 		}
 		out.WriteString("</p>\n")
+	}
+
+	if len(first.Todos) > 0 {
+		out.WriteString("$todos{\n")
+		for _, n := range first.Todos {
+			out.WriteString("$todo{" + n + "}\n")
+		}
+		out.WriteString("}\n")
 	}
 
 	if len(first.Notes) > 0 {

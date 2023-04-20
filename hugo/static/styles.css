@@ -159,6 +159,17 @@ td.roman {
 td.footnote-counter {
     width: 1.rem;
 }
+ul.todos {
+    list-style-type: "\26A0";
+    list-style-position: outside;
+    margin-left: 0;
+    padding-left: 1rem;
+}
+ul.todos li {
+    margin-left: 0;
+    padding-left: 2rem;
+}
+
 ul.notes {
     list-style-type: "\2799";
     list-style-position: outside;

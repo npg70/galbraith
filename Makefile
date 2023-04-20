@@ -6,6 +6,8 @@ hugo/content/people:
 	mkdir -p ./hugo/content/people
 	mkdir -p ./hugo/content/indexes
 	mkdir -p ./hugo/content/lineages
+	mkdir -p ./hugo/layouts/tags
+
 
 build: hugo/content/people
 	go run . -out hugo/content/people

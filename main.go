@@ -24,13 +24,26 @@ func main() {
 		return
 	}
 
+	// add meta tag.. if todos exist, add todo tag
+	todotag(db)
+
+	/* set up base template */
+	baset, err := os.ReadFile("baseof.html")
+	if err != nil {
+		log.Fatalf("can't find template: %s", err)
+	}
+	base, err := CreatePageTemplate(string(baset), RenderFunc(renderFuncs()))
+	if err != nil {
+		log.Fatalf("Unable to create template: %s", err)
+	}
+
 	//
 	// Write OPR Birth Index
 	//
 	page := Execute(oprindex(db, "b"), renderFuncs())
 	fullpath := filepath.Join("hugo/content", "indexes/opr-birth-index.html")
 	log.Printf("Writing %q", fullpath)
-	err := os.WriteFile(fullpath, []byte(page), 0666)
+	err = os.WriteFile(fullpath, []byte(page), 0666)
 	if err != nil {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
@@ -81,6 +94,22 @@ func main() {
 
 	page = indexRoots(db, roots, "Roots")
 	tmap := tagmap(db)
+
+	// make tag index
+	p := Tokenizer{}
+	root := p.Parse(strings.NewReader(tagIndex(tmap)))
+	tout, err := RenderPage(base, root)
+	if err != nil {
+		log.Fatalf("Template failed: %s", err)
+	}
+	fullpath = "hugo/layouts/tags/list.html"
+	log.Printf("Writing %q", fullpath)
+	err = os.WriteFile(fullpath, []byte(tout), 0666)
+	if err != nil {
+		log.Fatalf("couldn't write %q: %s", fullpath, err)
+	}
+
+	// make a page per tag
 	for tag, uids := range tmap {
 		page := indexRoots(db, uids, tag)
 
@@ -94,15 +123,6 @@ func main() {
 		if err != nil {
 			log.Fatalf("couldn't write %q: %s", fullpath, err)
 		}
-	}
-
-	baset, err := os.ReadFile("baseof.html")
-	if err != nil {
-		log.Fatalf("can't find template: %s", err)
-	}
-	base, err := CreatePageTemplate(string(baset), RenderFunc(renderFuncs()))
-	if err != nil {
-		log.Fatalf("Unable to create template: %s", err)
 	}
 
 	for _, rootid := range roots {

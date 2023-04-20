@@ -57,8 +57,23 @@ func computeRoots(db Root) []string {
 
 	return out
 }
+func tagIndex(tmap map[string][]string) string {
+	out := strings.Builder{}
+	tags := []string{}
+	for tname, _ := range tmap {
+		tags = append(tags, tname)
+	}
+	sort.Strings(tags)
 
-// makes a page showing top level roots
+	for _, tag := range tags {
+		taglink := "/galbraith/tags/" + strings.ReplaceAll(strings.ToLower(tag), " ", "-") + "/"
+		out.WriteString("<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleCompound(tag) + "</a>\n")
+	}
+
+	return out.String()
+}
+
+// makes a page showing pages that have a tag
 func indexRoots(db Root, roots []string, title string) string {
 	out := strings.Builder{}
 	out.WriteString("---\n")
