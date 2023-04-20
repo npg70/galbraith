@@ -271,7 +271,8 @@ func renderFuncs() map[string]TagFunc {
 			return fmt.Sprintf("<div class=%s><h6>External</h6><ul class='list-unstyled'>%s</ul></div><!-- %s -->\n", args[0], body, args[0])
 		},
 		"external": func(args []string, body string) string {
-			return fmt.Sprintf("<li><a href=%q>%s</a></li>\n", args[1], body)
+			// open external links into new window
+			return fmt.Sprintf("<li><a rel='noreferrer' target='_blank' href=%q>%s</a></li>\n", args[1], body)
 		},
 		"tags": func(args []string, body string) string {
 			if len(args) == 0 {

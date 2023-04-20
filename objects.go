@@ -203,6 +203,13 @@ func (e ExternalSource) UnmarshalText(text []byte) error {
 				URL:      "https://www.geni.com/people/" + args[1],
 				Name:     "Geni",
 			}
+		case "ancestry":
+			e[id] = SourceLink{
+				order:    30,
+				RecordID: args[1],
+				URL:      "https://www.ancestry.com/family-tree/person/" + strings.Trim(args[1], "/") + "/",
+				Name:     "Ancestry",
+			}
 		default:
 			return fmt.Errorf("Unknown external source: %q", args[0])
 		}
