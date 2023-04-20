@@ -45,6 +45,10 @@ partner {
     child {
         name Euphemia Galbraith
         birth -date 1888 -location colonsay -ref euphemia1888-birth
+        death -date 21-dec-1939 -location glasgow -ref euphemia1888-death
+        partner {
+            name John Slevin
+        }
     }
 }
     
@@ -82,6 +86,9 @@ footnotes {
     }
     euphemia1888-birth {
         $sp-ref[b-1888-539-02-0001 "Euphemia Galbraith"]
+    }
+    euphemia1888-death {
+        $sp-ref-link[d-1939-644-17-1308 0436 "Euphemia Galbraith"]
     }
 }
 

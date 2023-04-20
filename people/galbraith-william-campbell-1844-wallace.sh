@@ -5,6 +5,7 @@ baptism -date 25-aug-1844 -location campbeltown -ref birth
 death -date 28-May-1926 -location Ayr,Ayr -ref death
 external {
     familysearch KCH5-Y3X
+    ancestry /tree/5901559/person/7032351092
 }
 note {
 The last two sons immigrated to California.
