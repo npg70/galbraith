@@ -3,9 +3,9 @@ birth -date 'about 1766'
 external {
     familysearch K8JY-7CT
 }
-tags Campbeltown "Dead End" Incomplete
+tags Campbeltown "Dead End"
 body {
-According to baptismal records of children he was a sailor in Campbeltown.
+According to baptismal records of children, he was a sailor in Campbeltown.
 }
 body {
 Sometimes claimed that both died a month apart in 1837 in Gigha - ScotlandsPeople, with Peter age 82 (abt 1755) and Martha at age 77 (abt 1760).

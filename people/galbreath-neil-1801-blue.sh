@@ -1,10 +1,7 @@
 name Neil Galbreath
 baptism -date 10-oct-1801 -location gigha -ref neil1801-baptism
 death -date 27-oct-1890 -location campbeltown -ref neil1801-death
-tags Campbeltown Incomplete
-note {
-    Children uninvestigated except for birth and death
-}
+tags Campbeltown
 external {
     familysearch KH1S-2L3
 }
@@ -12,7 +9,7 @@ partner {
     name Elizabeth Blue
     marriage -date 29-aug-1842 -location campbeltown -ref blue-marriage
     body {
-        daughter of Duncan Blue
+        She was the daughter of Duncan Blue.
     }
     child {
         name Isabella Galbreath
@@ -22,7 +19,7 @@ partner {
             name John Galbraith
         }
         body {
-            No children(likely). See entry for $child-link[galbreath-john-1842-mcalpine-wylie-galbraith]{John Galbraith} for more details.
+            Children are unlikely. See entry for $child-link[galbreath-john-1842-mcalpine-wylie-galbraith]{John Galbraith} for more details.
         }
     }
     child galbreath-dugald-1845-ferguson

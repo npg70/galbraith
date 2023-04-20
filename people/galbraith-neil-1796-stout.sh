@@ -4,8 +4,8 @@ death -date 11-aug-1879 -location Kilcalmonell -ref neil1794-death
 external {
     familysearch M1YK-YRN
 }
-tags 'Kilcalmonell and Kilberry' Incomplete
-note {
+tags 'Kilcalmonell and Kilberry'
+todo {
     Incomplete. Decendants of Duncan and John not investigated.  Daughters all got married.
 }
 body {

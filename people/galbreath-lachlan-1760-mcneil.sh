@@ -2,15 +2,17 @@ name Lachlan Galbreath
 birth -date 'about 1760'
 death -date 1836 -location gigha
 burial -name 'Kilchattan Old Graveyard' -location 'gigha'
-tags Gigha Incomplete
+tags Gigha
 external {
     findagrave 115118948
 }
-
-note {
-    Association of Lachland and Catharine is based on tombstone, birth order of children, and Neil's death record of 1858.
-
+todo {
+    Marriage, death and grandchildren not investigated.
 }
+note {
+    The association of Lachland and Catharine is circumstantial, but based on the tombstone inscription, the birth order of children, and Neil's death record of 1858.
+}
+
 partner {
     name Catharine McNeil
     child {

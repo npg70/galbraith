@@ -5,13 +5,13 @@ external {
     familysearch KZV1-MYS
     findagrave 219634762
 }
-tags Dalrymple Incomplete
+tags Dalrymple
 partner {
     name Margaret Kidston Nicol
     marriage -date 24-oct-1836 -location glasgow
 }
-note {
-    Incomplete. 10 children.
+todo {
+    Stub. 10 children.
 }
 
 footnotes {

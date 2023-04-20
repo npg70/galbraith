@@ -1,13 +1,13 @@
 name William Galbraith
-tags Dalrymple Incomplete
+tags Dalrymple
 baptism -date 4-apr-1813 -location Dalrymple -ref william1813-baptism
 death -date 19-dec-1881 
 external {
     familysearch 992T-TBV
     findagrave 116223633
 }
-note {
-    Incomplete: 8 children
+todo {
+    stub, 8 children
 }
 partner {
     name Janet Grierson

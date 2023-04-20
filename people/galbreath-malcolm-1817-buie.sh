@@ -1,7 +1,7 @@
 name Malcolm Galbreath
 baptism -date 12-sep-1817 -location colonsay -ref malcolm1817-baptism
 death -date 6-nov-1855 -location colonsay -ref malcolm1817-death
-tags Colonsay Incomplete
+tags Colonsay
 external {
     familysearch 9M9K-WSC
 }

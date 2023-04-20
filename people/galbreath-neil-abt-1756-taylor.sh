@@ -1,10 +1,12 @@
 name Neil Galbreath
 birth -date 'about 1756'
-tags Campbeltown Incomplete
+tags Campbeltown
 external {
     familysearch K821-T1P
 }
-
+todo {
+    Marriage,death,grandchildren is not complete.
+}
 partner {
     name Grizzle Taylor
     marriage -date 9-mar-1781 -location campbeltown -ref taylor-marriage

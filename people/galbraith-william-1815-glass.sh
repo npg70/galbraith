@@ -2,13 +2,10 @@ name William Galbraith
 external {
     familysearch 9MFS-951
 }
-tags Campbeltown Incomplete
+tags Campbeltown
 
 note {
 familysearch (in 2023) has the wrong spouse 'janet mcgill'
-}
-note {
-Likely other children in civil registers.
 }
 body {
 He was a mason (journeyman).
@@ -19,7 +16,8 @@ baptism -date 21-july-1815 -location campbeltown -ref birth
 death -date 11-feb-1888 -location campbeltown -ref death
 partner {
     name Grace Glass
-    marriage -date 14-Nov-1844 -location campbeltown -ref marriage
+    marriage -date 14-Nov-1844 -location campbeltown -ref glass-marriage
+    death -date 30-jun-1890 -location campbeltown -ref glass-death
     child galbraith-william-1846-campbell
     child {
         name Agnes Galbraith
@@ -47,8 +45,11 @@ footnotes {
     death {
         $sp-ref-link[d-1888-507-00-0027 0009 "William Galbraith"]
     }
-    marriage {
+    glass-marriage {
         $opr-ref-link[m-1844-507-000-0060-0400 "William Galbreath" "Grace Glass"]
+    }
+    glass-death {
+        $sp-ref-link[d-1890-507-00-0101 0034 "Grace Galbraith"]
     }
     agnes-birth {
         $opr-ref[b-1848-507-000-0070-0341 "Agnes Galbreath"]
