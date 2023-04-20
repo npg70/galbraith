@@ -10,6 +10,15 @@ import (
 	"golang.org/x/net/html"
 )
 
+// if person has any todos, make a tag
+func todotag(db Root) {
+	for _, p := range db {
+		if len(p.Todos) > 0 {
+			p.Tags = append(p.Tags, "TODO")
+		}
+	}
+}
+
 func oprindex(db Root, rtype string) string {
 	word := ""
 	switch rtype {
