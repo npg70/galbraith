@@ -319,11 +319,11 @@ func renderFuncs() map[string]TagFunc {
 		},
 		"footnote": func(args []string, body string) string {
 			s := strings.Builder{}
-			s.WriteString("<tr>")
+			s.WriteString("<tr class=break-inside-avoid>")
 			s.WriteString("<td class=footnote-counter>")
 			s.WriteString("<span><sup>" + args[1] + "</sup>&nbsp;</span>")
 			s.WriteString("</td>")
-			s.WriteString("<td class='break-inside-avoid '>")
+			s.WriteString("<td>")
 			s.WriteString(strings.TrimSpace(body))
 			s.WriteString("</td>")
 			s.WriteString("</tr>\n")
@@ -343,11 +343,15 @@ func renderFuncs() map[string]TagFunc {
 			if len(args) < 4 {
 				log.Fatalf("Expected 4 or 5 args, got %v", args)
 			}
+			body = strings.TrimSpace(body)
+			if len(body) > 0 {
+				body = "<blockquote>" + body + "</blockquote>"
+			}
 			person2 := ""
 			if len(args) == 5 {
 				person2 = args[4]
 			}
-			return SPText(args[1], args[2], args[3], person2) + "<blockquote>" + strings.TrimSpace(body) + "</blockquote>"
+			return SPText(args[1], args[2], args[3], person2) + body
 		},
 
 		"opr-ref": func(args []string, body string) string {
@@ -364,12 +368,16 @@ func renderFuncs() map[string]TagFunc {
 			if len(args) < 3 || len(args) > 4 {
 				log.Fatalf("%s: expected 3 or 4 args got %v", args[0], args[1:])
 			}
+			body = strings.TrimSpace(body)
+			if len(body) > 0 {
+				body = "<blockquote>" + body + "</blockquote>"
+			}
 			person2 := ""
 			if len(args) == 4 {
 				person2 = args[3]
 			}
 
-			return OPRText(args[1], args[2], person2, true) + "<blockquote>" + strings.TrimSpace(body) + "</blockquote>\n"
+			return OPRText(args[1], args[2], person2, true) + body
 		},
 	}
 }
