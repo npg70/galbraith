@@ -59,17 +59,71 @@ func computeRoots(db Root) []string {
 }
 func tagIndex(tmap map[string][]string) string {
 	out := strings.Builder{}
+	out.WriteString(`
+$table{
+	$tr{
+		$th[colspan=2]{Tree Position}
+	}
+	$tr{
+		$td{$tag-link{all}}
+		$td{All people with dediciated pages}
+	}
+	$tr{
+		$td{$tag-link{root}}
+		$td{Roots, or start of a line}
+	}
+	$tr{
+		$td{$tag-link{leaf}}
+		$td{Leaves, or most recent persons with any children followed.}
+	}
+	$tr{
+		$th[colspan=2]{Life Events}
+	}
+	$tr{
+		$td{$tag-link{immigrant}}
+		$td{People who left Scotland or UK}
+	}
+	$tr{
+		$td{$tag-link{veteran}}
+		$td{People who served in the military}
+	}
+	$tr{
+		$td{$tag-link{no children}}
+		$td{Person or couple has no children}
+	}
+	$tr{	
+		$th[colspan=2]{Research}
+	}
+	$tr{
+		$td{$tag-link{to do}}
+		$td{Page has research to do, or need typographical or copy edits.}
+	}
+	$tr{
+		$td{$tag-link{daughtered out}}
+		$td{No direct male decendants (open to better word or terminology here).}
+	}
+	$tr{
+		$td{$tag-link{dead end}}
+		$td{Families with no records after a time. Either immigranted or died-out without being recorded.}
+	}
+	$th[colspan=2]{Places}
+	`)
+
+	// now figure out plaace name tags
 	tags := []string{}
+	special := "|all|daughtered out|dead end|immigrant|leaf|no children|root|todo|veteran|"
 	for tname, _ := range tmap {
+		tname = strings.ToLower(tname)
+		if strings.Contains(special, tname) {
+			continue
+		}
 		tags = append(tags, tname)
 	}
 	sort.Strings(tags)
-
 	for _, tag := range tags {
-		taglink := "/galbraith/tags/" + strings.ReplaceAll(strings.ToLower(tag), " ", "-") + "/"
-		out.WriteString("<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleCompound(tag) + "</a>\n")
+		out.WriteString("$tr{$td{$tag-link{" + tag + "}}$td{}}\n")
 	}
-
+	out.WriteString("}\n") // table end
 	return out.String()
 }
 

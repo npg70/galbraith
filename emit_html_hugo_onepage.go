@@ -205,6 +205,11 @@ func renderFuncs() map[string]TagFunc {
 		"front": func(args []string, body string) string {
 			return ""
 		},
+		"tag-link": func(args []string, body string) string {
+			tag := strings.ToLower(body)
+			taglink := "/galbraith/tags/" + strings.ReplaceAll(tag, " ", "-") + "/"
+			return "<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleCompound(tag) + "</a>\n"
+		},
 		"title": func(args []string, body string) string {
 			return "title: " + body + "\n"
 		},
