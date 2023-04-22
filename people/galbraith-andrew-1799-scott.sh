@@ -5,10 +5,7 @@ death -date 29-Nov-1885 -location 'Johnstone and Elderslie, Renfrew' -ref andrew
 external {
     familysearch K8WN-49W
     findagrave 202954277
-}
-note {
-Ancestry.com tree:
-https://www.ancestry.com/family-tree/person/tree/3451498/person/6935000095/facts
+    ancestry tree/3451498/person/6935000095
 }
 
 body {
@@ -19,7 +16,6 @@ $li{Dead of Guilds, Glasgow 1848-1850}
 $li{Provost Glasgow 1857-1860}
 $li{Formed Johnson, Galbraith & Co... trade house with Havana and Hondouras., with Alexander Johnson}
 $li{Formed A&A Galbraith, power loom company with his brother Archibald}
-
 }
 }
 
@@ -75,7 +71,7 @@ footnotes {
         $sp-ref-link[d-1885-559-03-0211 0071 "Andrew Galbraith"]
     }
     marriage {
-        $opr-ref[m-1826-644-001-0400-0397 "Andrew Galbraith" "Margaret Bogle/Scott"]
+        $opr-ref[m-1826-644-001-0400-0397 "Andrew Galbraith" "Margaret Bogle/Scott"];
         $opr-ref[m-1826-622-000-0160-0155 "Andrew Galbreath" "Margaret Bogle/Scott"]
     }
     janet1827-baptism {
@@ -94,6 +90,3 @@ footnotes {
         $opr-ref[b-1838-622-000-0100-0404 "Williamina Galbraith"]
     }
 }
-
-
-

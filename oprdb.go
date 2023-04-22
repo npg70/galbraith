@@ -47,6 +47,7 @@ func ParishName(id1, id2 string) string {
 		"507/1":  "Campbeltown (Burgh), Argyll",
 		"507/2":  "Campbeltown (Landward), Argyll",
 		"510":    "Dunoon, Argyll",
+		"511":    "Glassary, Argyll",
 		"512":    "Inveraray and Glenaray",
 		"516":    "Kilcalmonell and Kilberry, Argyll",
 		"516/1":  "Kilcalmonell, Argyll",

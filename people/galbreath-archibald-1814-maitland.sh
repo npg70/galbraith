@@ -3,7 +3,7 @@ birth -date 'about 1814' -location Gigha
 external {
     familysearch KH8D-G3C
 }
-tags Campbeltown
+tags Campbeltown 'Dead End'
 todo { 
     Needs 1841 census.
 }
@@ -18,9 +18,6 @@ Flora Galbreath,Dau,7,1844,Campbeltown,Scholar
 }
 }
 
-note {
-    present in 1841 census
-}
 note {
     No records found after 1851 census.
 }

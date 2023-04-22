@@ -95,7 +95,7 @@ $table{
 		$th[colspan=2]{Research}
 	}
 	$tr{
-		$td{$tag-link{to do}}
+		$td{$tag-link{todo}}
 		$td{Page has research to do, or need typographical or copy edits.}
 	}
 	$tr{
