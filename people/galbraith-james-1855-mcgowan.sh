@@ -47,7 +47,7 @@ footnotes {
         $sp-ref-link[d-1930-644-06-0554 0185 "Mary Galbraith"]
     }
     flora1879-birth {
-        $sp-ref[b-507-644-11-1907 "Flora McGowan Galbraith"]
+        $sp-ref[b-1879-644-11-1907 "Flora McGowan Galbraith"]
     }
     rosina1883-birth {
         $sp-ref[b-1883-644-11-1760 "Rosina Galbraith"]
