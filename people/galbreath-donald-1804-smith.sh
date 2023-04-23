@@ -1,12 +1,12 @@
 name Donald Galbreath
 baptism -date 10-jul-1804 -location Gigha -ref donald1804-baptism
 death -date 29-Nov-1859 -location campbeltown -ref donald1804-death
-
+tags Gigha Campbeltown Todo
 external {
     familysearch KHMS-7WX
 }
-note {
-    Generally not investigated.  Maybe other children, etc.
+todo {
+    Census needs transcribing. Generally not investigated.  Maybe other children, etc.
 }
 body {
 $p{

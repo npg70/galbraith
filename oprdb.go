@@ -115,7 +115,7 @@ func ParishName(id1, id2 string) string {
 		"644/9":  "Kelvin",
 		"644/11": "Pollok, Glasgow",
 		"644/13": "Hillhead, Glasgow",
-		"644/14": "Kinning Park, Lanark",
+		"644/14": "Kinning Park, Glasgow",
 		"644/17": "Govan, Glasgow",
 		"646":    "Govan, Lanark",
 		"646/1":  "Govan, Lanark",
