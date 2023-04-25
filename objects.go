@@ -232,6 +232,7 @@ type Person struct {
 	Children  []*Person
 	Footnotes Footnotes
 	External  ExternalSource
+	Intro     string
 	Body      []string
 	Notes     []string
 	Todos     []string
@@ -339,6 +340,8 @@ func (p *Person) UnmarshalText(text []byte) error {
 				}
 			}
 			p.Events[args[0]] = e
+		case "intro":
+			p.Intro = strings.TrimSpace(body)
 		case "body":
 			p.Body = append(p.Body, strings.Join(args[1:], " "))
 			if body != "" {
@@ -711,13 +714,6 @@ func (r Root) generateOne(primary string) (string, []string) {
 
 	out.WriteString("$banner{")
 	out.WriteString("$headline{" + WriteTitle(first) + "}\n")
-	if len(first.Tags) > 0 {
-		out.WriteString("$tags[")
-		for _, tag := range first.Tags {
-			out.WriteString(fmt.Sprintf("%q ", tag))
-		}
-		out.WriteString("]\n")
-	}
 	out.WriteString("}\n")
 
 	out.WriteString("$person-body{")
@@ -751,6 +747,21 @@ func (r Root) generateOne(primary string) (string, []string) {
 	out.WriteString("}\n")
 
 	out.WriteString("$person-main{")
+
+	out.WriteString("<div class='ms-5 me-5 mb-3'>")
+	if len(first.Intro) > 0 {
+		out.WriteString("$intro{" + first.Intro + "}\n")
+
+	}
+	if len(first.Tags) > 0 {
+		out.WriteString("$tags[")
+		for _, tag := range first.Tags {
+			out.WriteString(fmt.Sprintf("%q ", tag))
+		}
+		out.WriteString("]\n")
+	}
+	out.WriteString("</div>\n")
+
 	out.WriteString("$person-bio{<p>")
 	out.WriteString(fmt.Sprintf("$primary-number{%d}", first.counter))
 	out.WriteString(WritePrimaryName(first))

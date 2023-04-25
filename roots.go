@@ -130,10 +130,6 @@ $table{
 // makes a page showing pages that have a tag
 func indexRoots(db Root, roots []string, title string) string {
 	out := strings.Builder{}
-	out.WriteString("---\n")
-	out.WriteString("title: Galbraith tag " + title + "\n")
-	out.WriteString("---\n")
-
 	for _, r := range roots {
 		p := db[r]
 		out.WriteString(fmt.Sprintf("<h5><a href=/galbraith/people/%s>%s</a></h5>\n",
@@ -142,13 +138,12 @@ func indexRoots(db Root, roots []string, title string) string {
 			out.WriteString("<div class='ms-3 mb-3'>\n")
 			for _, tag := range p.Tags {
 				taglink := "/galbraith/tags/" + strings.ReplaceAll(strings.ToLower(tag), " ", "-") + "/"
-				if true {
-					out.WriteString("<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleCompound(tag) + "</a> ")
-				} else {
-					out.WriteString("<a href=#><span class='badge bg-secondary'>" + tag + "</span></a> ")
-				}
+				out.WriteString("<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleCompound(tag) + "</a> ")
 			}
 			out.WriteString("</div>\n")
+		}
+		if len(p.Intro) > 0 {
+			out.WriteString("$intro{" + p.Intro + "}\n")
 		}
 	}
 	return out.String()

@@ -111,15 +111,23 @@ func main() {
 
 	// make a page per tag
 	for tag, uids := range tmap {
-		page := indexRoots(db, uids, tag)
-
-		tag = strings.ToLower(tag)
-		tag = strings.ReplaceAll(tag, " ", "-")
-
+		page := p.Parse(strings.NewReader(indexRoots(db, uids, tag)))
+		tout, err := RenderPage(base, page)
+		if err != nil {
+			log.Fatalf("Template failed: %s", err)
+		}
+		tag = strings.ReplaceAll(strings.ToLower(tag), " ", "-")
+		fullpath = filepath.Join("hugo/content", "tags", tag)
+		if err := os.MkdirAll(fullpath, 0750); err != nil {
+			log.Fatalf("Unable to make directory %s", err)
+		}
+		fullpath = filepath.Join(fullpath, "index.html")
+		if err := os.WriteFile(fullpath, []byte(tout), 0666); err != nil {
+			log.Fatalf("couldn't write %q: %s", fullpath, err)
+		}
 		// index roots
-		fullpath = filepath.Join("hugo/content", "tags/"+tag+".html")
 		log.Printf("Writing %q", fullpath)
-		err = os.WriteFile(fullpath, []byte(page), 0666)
+		err = os.WriteFile(fullpath, []byte(tout), 0666)
 		if err != nil {
 			log.Fatalf("couldn't write %q: %s", fullpath, err)
 		}

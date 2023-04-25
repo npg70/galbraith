@@ -213,6 +213,7 @@ func renderFuncs() map[string]TagFunc {
 		"title": func(args []string, body string) string {
 			return "title: " + body + "\n"
 		},
+		"intro":              makeTagClass("p", ""),
 		"nowrap":             makeTagClass("span", "text-nowrap"),
 		"csvtable":           CsvTableHTML,
 		"date":               makeTagClass("span", "text-nowrap"),
