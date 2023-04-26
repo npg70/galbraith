@@ -23,10 +23,7 @@ partner {
         name Lauchlan Galbreath
         baptism -date 2-jul-1814 -location colonsay -ref lauchlan1814-baptism
     }
-    child {
-        name Archibald Galbreath
-        baptism -date 22-jan-1817 -location colonsay -ref archibald1817-baptism
-    }
+    child galbreath-archibald-1817-graham-mcneil
     child {
         name Jeny Galbreath
         baptism -date 17-may-1818 -location colonsay -ref jeny1818-baptism
@@ -57,9 +54,6 @@ footnotes {
     }
     lauchlan1814-baptism {
         $opr-ref-link[b-1814-539-020-0010-0010 "Lauchlan Galbreath"]
-    }
-    archibald1817-baptism {
-        $opr-ref-link[b-1817-539-020-0010-0012 "Archibald Galbreath"]
     }
     jeny1818-baptism {
         $opr-ref-link[b-1818-539-020-0010-0013 "Jeny Galbreath"]

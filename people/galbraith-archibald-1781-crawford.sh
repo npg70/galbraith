@@ -4,7 +4,9 @@ external {
     familysearch K45Y-S92
 }
 tags 'Kilcalmonell and Kilberry'
-
+todo {
+    redo census, references, raw urls
+}
 body {
 Mary is listed in the 1851 Census living in the household of Isabella Crawford (widow) as a "relative."3
 

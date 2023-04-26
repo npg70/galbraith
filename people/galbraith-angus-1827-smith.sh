@@ -1,13 +1,21 @@
 name Angus Galbraith
 tags 'Kilcalmonell and Kilberry'
 baptism -date 18-feb-1827 -location 'kilcalmonell' -ref angus1827-baptism
-note {
-    Incomplete
+intro {
+    Angus was born in Kilcalmonell, became a minister, moved near Edinborugh in the 1850s and started a family.
+}
+todo {
+    birth of children need references
+}
+todo {
+    death of Angus not documented
 }
 external {
     familysearch M1YG-C13
 }
-
+body {
+    Angus was a minister.
+}
 partner {
     name Agnes Mackie Smith
     baptism -date 1826

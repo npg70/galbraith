@@ -3,7 +3,9 @@ birth -date 'about 1794'
 death -date 14-jan-1836
 burial -name 'Kilkerran Cemetery' -ref burial1
 tags 'Kilcalmonell and Kilberry'
-
+intro {
+    Angus was schoolteacher in Kilcalmonel / Clachan. At some point after 1836 he moved to Campbeltown.  His son $child-link[galbraith-william-1833-umn]{William}, a watch maker, was attacked and nearly killed.
+}
 external {
     familysearch KCFJ-HT2
     findagrave 179310014

@@ -5,7 +5,10 @@ death -date nov-1851 -location 'ontario,canada'
 external {
     familysearch LDMP-K33
 }
-note {
+intro {
+    From Colonsay, the entire family moved to Ontario, Canada around 1851.
+}
+todo {
     TODO: Add Jura Census 1841
     https://www.findmypast.com/transcript?id=GBC/1841/0016655781&expand=true
     and also free on FamilySearch

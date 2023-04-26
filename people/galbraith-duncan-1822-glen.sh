@@ -9,8 +9,8 @@ partner {
         name Archibald Galbraith
     }
 }
-note {
-    Incomplete
+todo {
+    Stub, Incomplete
 }
 
 footnotes {
