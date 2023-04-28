@@ -11,12 +11,13 @@ external {
     familysearch M15G-1SD
     findagrave 158333816
 }
+note {
+    Unable to find 1911 Census information which should exist.
+}
 
 body {
     $ul{
-        $li{1861 Census @ Kilberry: https://www.findmypast.com/transcript?id=GBC/1861/0022460171&expand=true}
         $li{Angus - 1901 Census @ Ardelve, Lochalsh, Ross and Cromarty, Scotland; FindMyPast}
-        $li{1911 Census -- need to find.}
     }
 
 Census 1871, Tarbert, Argyllshire, Scotland:$ref[census1871]
@@ -74,32 +75,29 @@ partner {
     death -date 22-April-1924
     marriage -date 23-jan-1865 -location "Enzie,Bannf" -ref elder-marriage
 
-    child {
-        name Archibald Galbraith
-        birth -date 14-mar-1865 -location 'Enzie,Banff' -ref archibald1865-birth
-        death -date 11-jul-1930 -location Dingwall -ref archibald1865-death
-        partner {
-            name Margaret MacDonald
-            body {
-                at least one son william
-            }
-        }
-    }
+    child galbraith-archibald-1865-mcdonald
+
     child {
         name Janet Galbraith
         birth -date 7-dec-1866 -location 'Tarbert,Argyll' -ref janet1866-birth
     }
     child {
         name Betsy Galbreath
-        birth -date 28-dec-1868 -location Tarbert,Argyll -ref betsy1868-birth
+        birth -date 28-dec-1868 -location Tarbert -ref betsy1868-birth
+        death -date 15-dec-1932 -location 'North Uist, Inverness' -ref betsy1868-death
+        partner {
+            name  William MacInes
+        }
     }
     child {
         name John Galbraith
-        birth -date 20-may-1871 -location Tarbert,Argyll -ref john1871-birth
+        birth -date 20-may-1871 -location Tarbert -ref john1871-birth
+        death -date 14-mar-1936 -location Glasgow -ref john1871-death -note 'Seaman, umd'
     }
     child {
         name Jessie Galbraith
-        birth -date 15-jun-1873 -location Tarbert,Argyll -ref jessie1873-birth
+        birth -date 15-jun-1873 -location Tarbert -ref jessie1873-birth
+        death -date 1873 -location Tarbert -ref jessie1873-death
     }
     child {
         name William Glabraith
@@ -119,15 +117,17 @@ partner {
     child {
         name Annie Galbraith
         birth -date 7-jan-1879 -location Kilcalmonell,Argyll -ref annie1879-birth
+        death -date 28-may-1904 -location 'Lochash,Ross and Cromarty' -ref annie1879-death -note umd
     }
-    child {
-        name James Galbraith
-        birth -date 2-mar-1881 -location Kilcalmonell,Argyll -ref james1881-birth
+    child galbraith-james-1881-young
 
-    }
     child {
         name Jessie Galbraith
-        birth -date 29-apr-1883 -location Kilcalmonell,Argyll -ref jessie1883-birth
+        birth -date 29-apr-1883 -location Kilcalmonell -ref jessie1883-birth
+        death -date 1953 -location dingwall -ref jessie1883-death
+        partner {
+            name William Spence
+        }
     }
     child {
         name Elsie Galbraith
@@ -140,9 +140,11 @@ partner {
             death -date 2-sep-1941 -location Patrick,Lanarkshire
         }
     }
+    child galbraith-malcolm-1890-newell-urqhart
     child {
-        name Malcolm Galbriath
-        birth -date 1890 -location 'Shieldaig,Ross and Cromarty' -ref malcolm1890-birth
+        name Neil Galbraith
+        birth -date 1892 -location Shieldaig -ref neil1892-birth
+        death -date 23-dec-1962 -location dingwall -ref neil1892-death -note umd
     }
 }
 
@@ -151,7 +153,7 @@ footnotes {
         https://www.findmypast.com/transcript?id=GBC/1871/0023495048&expand=true
     }
     census1881 {
-    https://www.findmypast.com/transcript?id=GBC/1881/0029366053&expand=true
+        https://www.findmypast.com/transcript?id=GBC/1881/0029366053&expand=true
     }
     census1891 {
         https://www.findmypast.com/transcript?id=GBC/1891/0031922858&expand=true
@@ -168,23 +170,26 @@ footnotes {
     elder-marriage {
         $sp-ref-link[m-1865-152-00-0001 0001 "Archibald Galbraith" "Elizabeth Elder"]  
     }
-    archibald1865-birth {
-        $sp-ref[b-1865-152-00-0010 "Archibald Galbraith"]
-    }
-    archibald1865-death {
-        $sp-ref-link[d-1930-062-00-0029 0010 "Archibald Galbraith"]
-    }
     janet1866-birth {
         $sp-ref[b-1866-535-00-0061 "Janet Galbraith"]
     }
     betsy1868-birth {
         $sp-ref[b-1869-535-00-0003 "Betsy Galbreath"] Note: Galbreath, and birth occured in 1868 but registered in 1869.
     }
+    betsy1868-death {
+        $sp-ref-link[d-1932-113-00-0039 0013 "Betsy Galbraith"]
+    }
     john1871-birth {
         $sp-ref[b-1871-535-00-0030 "John Galbraith"]
     }
+    john1871-death {
+        $sp-ref[d-1936-644-10-0219 0073 "John Galbraith"]
+    }
     jessie1873-birth {
         $sp-ref[b-1873-535-00-0032 "Jessie Galbraith"]
+    }
+    jessie1873-death {
+        $sp-ref[d-1873-535-00-0036 "Jessie Galbraith"]
     }
     william1874-birth {
         $sp-ref[b-1874-535-00-0039 "William Galbraith"]
@@ -198,11 +203,15 @@ footnotes {
     annie1879-birth {
         $sp-ref[b-1879-516-01-0001 "Annie Galbraith"]
     }
-    james1881-birth {
-        $sp-ref[b-1881-516-01-0006 "James Galbraith"]
+    annie1879-death {
+        $sp-ref-link[d-1904-074-00-0019 0007 "Annie Galbraith"]
     }
     jessie1883-birth {
         $sp-ref[b-1883-516-01-0009 "Jessie Galbraith"]
+    }
+    jessie1883-death {
+        $sp-ref[d-1953-062-00-0038 "Jessie Spence"]
+        Not indexed under Galbraith
     }
     elsie1886-birth {
         $sp-ref[b-1886-516-01-0008 "Elsie Galbraith"]
@@ -210,8 +219,18 @@ footnotes {
     elsie1886-death {
         $sp-ref[d-1928-644-12-0567 "Elsie Galbraith"]
     }
-    malcolm1890-birth {
-        $sp-ref[b-1890-058-02-0006 "Malcolm Galbraith"]
+    neil1892-birth {
+        $sp-ref[b-1892-058-02-0018 "Neil Galbraith"]
     }
+    neil1892-death {
+        $sp-ref-link[d-1962-062-00-0046 0016 "Neil Galbraith"]{
+        Name: Neil Galbraith, Postman (retired) (single);
+        Date: 1962, December Twenty Third 7h 30m A.M. Clachan, Mill Street, Dingwall;
+        Age: 70 $i{birth 1892};
+        Father: Archibald Galbraith, Schoolmaster (deceased);
+        Mother: Bety Galbraith, M.S. Elder (deceased);
+        Present: Neil Spence, Nephew;
+     }
+ }
 }
 

@@ -2,13 +2,14 @@ name Malcolm Galbraith
 birth -date 29-apr-1828
 baptism -date 9-may-1828 -location 'Kilcalmonell and Kilberry' -ref malcolm1828-baptism
 death -date 8-mar-1908 -location dumbarton -ref malcolm1828-death
+tags 'Kilcalmonell and Kilberry' Dunbarton
 
 external {
     familysearch 273X-NLG
 }
 
-body {
-1861 Census: https://www.findmypast.com/transcript?id=GBC/1861/0022460171&expand=true
+todo {
+transcribe 1861 Census: https://www.findmypast.com/transcript?id=GBC/1861/0022460171&expand=true
 }
 
 partner {
@@ -19,6 +20,7 @@ partner {
     child {
         name Neil Galbraith
         birth -date 21-nov-1860 -location Kilberry -ref neil1860-birth
+        death -date 22-jan-1936 -location 'Rosneath,Dunbarton' -ref neil1860-death -note 'Cemetery Keeper, umd.'
     }
     child {
         name Mary Galbraith
