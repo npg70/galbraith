@@ -2,9 +2,9 @@ name Archibald Galbraith
 birth -date 21-Apr-1831 -location 'Saddell and Skipness' -ref archibald1831-birth
 death -date 27-jul-1913 -location 'Dingwall, Ross and Cromarty' -ref archibald1831-death
 burial -name 'Fodderty Cemetery Strathpeffer' -location 'Fodderty, Highland, Scotland'
-
+tags 'Saddell and Skipness'
 todo {
-    Incomplete, census needs transcribing. Children missing...see FamilySearch
+    Incomplete, census needs transcribing. Children need references
 }
 
 external {
@@ -15,27 +15,150 @@ external {
 body {
     $ul{
         $li{1861 Census @ Kilberry: https://www.findmypast.com/transcript?id=GBC/1861/0022460171&expand=true}
-        $li{1871 Census -- TBD}
-        $li{1881 Census @ Whitehouse, Kilcalmonell, Argyllshire, Scotland; FindMyPast. Angus lised at age 4, born 1877.}
-        $li{1891 Census @ Debaig Sch, Applecross, Shieldaig, Ross and Cromarty, Scotland; FindMyPast. Angus listed at age 14, born 1877.}
-        $li{Archibald - 1901 Census @ Anchtertyne, Lochalsh, Ross and Cromarty, Scotland; FindMyPast}
         $li{Angus - 1901 Census @ Ardelve, Lochalsh, Ross and Cromarty, Scotland; FindMyPast}
         $li{1911 Census -- need to find.}
     }
+
+Census 1871, Tarbert, Argyllshire, Scotland:$ref[census1871]
+$csvtable{
+First,Last,Age,Year,Place,Occupation
+Archibald,Galbraith,37,1834,Saddell,Teacher
+Betsy,Galbraith,25,1846,Lenzie Banffshire,
+Archibald,Galbraith,6,1865,Banffshire,
+Jessie,Galbraith,4,1867,Tarbert,
+Betsy,Galbraith,2,1869,Tarbert,
 }
 
+Census 1881, Whitehouse, Kilcalmonell, Argyllshire, Scotland:$ref[census1881]
+
+$csvtable{
+First,Last,Age,Year,Place,Occupation
+Archibald,Galbraith,49,1832,Saddell,Teacher
+Betsy,Galbraith,35,1846,Lenzie Banffshire,
+Archibald,Galbraith,16,1865,Lenzie Banffshire,
+Betsy,Galbraith,12,1869,Tarbert,
+John,Galbraith,10,1871,Tarbert,
+Angus,Galbraith,4,1877,Kilcalmonell,
+Ann,Galbraith,2,1879,Kilcalmonell,
+James,Galbraith,0,1881,Kilcalmonell,
+Neil,Galbraith,84,1797,Kilcalmonell,
+}
+
+Census 1891, Debaig Sch, Applecross, Shieldaig, Ross and Cromarty, Scotland:$ref[census1891]
+$csvtable{
+First,Last,Age,Year,Place,Occupation
+Archibald,Galbraith,59,1832,Saddell,Teacher
+Betsy,Galbraith,44,1847,Banffshire,
+Angus,Galbraith,14,1877,Kilcalmonell,
+Annie,Galbraith,12,1879,Argyllshire,
+James,Galbraith,10,1881,Argyllshire,
+Jessie,Galbraith,7,1884,Argyllshire,
+Elsie,Galbraith,4,1887,Argyllshire,
+Malcolm,Galbraith,1,1890,Applecross Ross/Cromarty,
+}
+
+Census 1901, Anchtertyne, Lochalsh, Ross and Cromarty, Scotland:$ref[census1901]
+
+$csvtable{
+First,Last,Age,Year,Place
+Archibald,Galbraith,69,1832,Saddell
+Betsy,Galbraith,54,1847,Banffshire
+Jessie,Galbraith,17,1884,Whitehouse
+Elsie,Galbraith,14,1887,Whitehouse
+Malcolm,Galbraith,11,1890,Ross/Cromarty
+Neil,Galbraith,8,1893,Ross/Cromarty
+}
+}
 partner {
     name Betsy Elder
     death -date 22-April-1924
     marriage -date 23-jan-1865 -location "Enzie,Bannf" -ref elder-marriage
 
     child {
+        name Archibald Galbraith
+        birth -date 14-mar-1865 -location 'Enzie,Banff' -ref archibald1865-birth
+        death -date 11-jul-1930 -location Dingwall -ref archibald1865-death
+        partner {
+            name Margaret MacDonald
+            body {
+                at least one son william
+            }
+        }
+    }
+    child {
+        name Janet Galbraith
+        birth -date 7-dec-1866 -location 'Tarbert,Argyll' -ref janet1866-birth
+    }
+    child {
+        name Betsy Galbreath
+        birth -date 28-dec-1868 -location Tarbert,Argyll -ref betsy1868-birth
+    }
+    child {
+        name John Galbraith
+        birth -date 20-may-1871 -location Tarbert,Argyll -ref john1871-birth
+    }
+    child {
+        name Jessie Galbraith
+        birth -date 15-jun-1873 -location Tarbert,Argyll -ref jessie1873-birth
+    }
+    child {
+        name William Glabraith
+        birth -date 4-jul-1874 -location Tarbert,Argyll -ref william1874-birth
+        death -date 1875 -location Tarbert -ref william1875-death
+    }
+    child {
         name Angus Galbraith
+        tags Immigrant
         birth -date 23-sep-1876 -location 'whitehouse,kilcalmonell' -ref angus1876-birth
+        partner {
+            name Isabelle Ritchie Mathian Leishman
+            marriage -date 31-Aug-1914 -location  Algomam,Ontario,Canada
+            birth -date 1881 -location Glasgow
+        }
+    }
+    child {
+        name Annie Galbraith
+        birth -date 7-jan-1879 -location Kilcalmonell,Argyll -ref annie1879-birth
+    }
+    child {
+        name James Galbraith
+        birth -date 2-mar-1881 -location Kilcalmonell,Argyll -ref james1881-birth
+
+    }
+    child {
+        name Jessie Galbraith
+        birth -date 29-apr-1883 -location Kilcalmonell,Argyll -ref jessie1883-birth
+    }
+    child {
+        name Elsie Galbraith
+        birth -date 1886 -location Kilcalmonell,Argyll -ref elsie1886-birth
+        death -date 21-may-1928 -location Hillhead,Lanarkshire -ref elsie1886-death
+        partner {
+            name Finlay McKeachan
+            marriage -date 25-jul-1917 -location Glasgow
+            birth -date 3-jan-1887 -location Killarrow,Argyll
+            death -date 2-sep-1941 -location Patrick,Lanarkshire
+        }
+    }
+    child {
+        name Malcolm Galbriath
+        birth -date 1890 -location 'Shieldaig,Ross and Cromarty' -ref malcolm1890-birth
     }
 }
 
 footnotes {
+    census1871 {
+        https://www.findmypast.com/transcript?id=GBC/1871/0023495048&expand=true
+    }
+    census1881 {
+    https://www.findmypast.com/transcript?id=GBC/1881/0029366053&expand=true
+    }
+    census1891 {
+        https://www.findmypast.com/transcript?id=GBC/1891/0031922858&expand=true
+    }
+    census1901 {
+        https://www.findmypast.com/transcript?id=GBC/1901/0034285059&expand=true
+    }
     archibald1831-birth {
         $opr-ref-link[b-1831-531-000-0020-0016 "Archibald Galbraith"]
     }
@@ -45,8 +168,50 @@ footnotes {
     elder-marriage {
         $sp-ref-link[m-1865-152-00-0001 0001 "Archibald Galbraith" "Elizabeth Elder"]  
     }
+    archibald1865-birth {
+        $sp-ref[b-1865-152-00-0010 "Archibald Galbraith"]
+    }
+    archibald1865-death {
+        $sp-ref-link[d-1930-062-00-0029 0010 "Archibald Galbraith"]
+    }
+    janet1866-birth {
+        $sp-ref[b-1866-535-00-0061 "Janet Galbraith"]
+    }
+    betsy1868-birth {
+        $sp-ref[b-1869-535-00-0003 "Betsy Galbreath"] Note: Galbreath, and birth occured in 1868 but registered in 1869.
+    }
+    john1871-birth {
+        $sp-ref[b-1871-535-00-0030 "John Galbraith"]
+    }
+    jessie1873-birth {
+        $sp-ref[b-1873-535-00-0032 "Jessie Galbraith"]
+    }
+    william1874-birth {
+        $sp-ref[b-1874-535-00-0039 "William Galbraith"]
+    }
+    william1875-death {
+        $sp-ref[d-1875-535-00-0034 "William Galbraith"]
+    }
     angus1876-birth {
         $sp-ref-link[b-1876-516-01-0007 0003 "Angus Galbraith"]
+    }
+    annie1879-birth {
+        $sp-ref[b-1879-516-01-0001 "Annie Galbraith"]
+    }
+    james1881-birth {
+        $sp-ref[b-1881-516-01-0006 "James Galbraith"]
+    }
+    jessie1883-birth {
+        $sp-ref[b-1883-516-01-0009 "Jessie Galbraith"]
+    }
+    elsie1886-birth {
+        $sp-ref[b-1886-516-01-0008 "Elsie Galbraith"]
+    }
+    elsie1886-death {
+        $sp-ref[d-1928-644-12-0567 "Elsie Galbraith"]
+    }
+    malcolm1890-birth {
+        $sp-ref[b-1890-058-02-0006 "Malcolm Galbraith"]
     }
 }
 

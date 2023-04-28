@@ -11,6 +11,22 @@ note {
     evidence that the Donald who married Rose McLean is the same one who married
     Annie McLugash.
 }
+
+body {
+1841 Census, Argyllshire, Jura, Auchadaruch:$ref[census1841]
+$csvtable{
+First,Last,Age,Year
+Donald,Galbreath,50,1791
+Ann,Galbreath,40,1801
+Angus,Galbreath,13,1828
+Lauchlan,Galbreath,8,1833
+Mary,Galbreath,5,1836
+Sally,Galbreath,2,1839
+Katrine,McLucas,47,1794
+}
+
+}
+
 partner {
     name Rose McLean
     marriage -date 10-feb-1815 -location colonsay -ref mclean-marriage
@@ -105,5 +121,9 @@ footnotes {
     }
     anne1844-marriage {
         $sp-ref-link[m-1860-539-02-0002 0001 "Ann Galbreath" "Donald McLean"]
+    }
+
+    census1841 {
+        https://www.findmypast.com/transcript?id=GBC/1841/0016662488&expand=true
     }
 }

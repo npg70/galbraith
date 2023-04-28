@@ -8,17 +8,25 @@ external {
 intro {
     From Colonsay, the entire family moved to Ontario, Canada around 1851.
 }
-todo {
-    TODO: Add Jura Census 1841
-    https://www.findmypast.com/transcript?id=GBC/1841/0016655781&expand=true
-    and also free on FamilySearch
-}
 note {
     FamilySearch for Catherine has details of Canada Census 1861 and 1871
     https://www.familysearch.org/tree/person/details/LD98-D4R
 }
 body {
     Looks like the entire family moved to Ontario before 1851
+
+1841 Census, Scotland, Argyllshire, Jura, Killoran:$ref[census1841]
+$csvtable{
+First,Last,Age,Year
+Angus,Galbreath,50,1791
+Catherine,Galbreath,45,1796
+Hester,Galbreath,20,1821
+Donald,Galbreath,15,1826
+Lucy,Galbreath,10,1831
+Archibald,Galbreath,8,1833
+Malcolm,Galbreath,5,1836
+Nk,Galbreath,0,1841
+}
 }
 partner {
     name Catherine McNeil
@@ -162,6 +170,10 @@ footnotes {
     }
     alexander1841-baptism {
         $opr-ref[b-1841-539-020-0020-0013 "Alexander Galbreath"]
+    }
+
+    census1841 {
+        https://www.findmypast.com/transcript?id=GBC/1841/0016655781&expand=true
     }
 }
     
