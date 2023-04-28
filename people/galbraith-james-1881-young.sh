@@ -10,7 +10,7 @@ partner {
     }
     child {
         name Annie Galbraith
-        birth -date 18-may-1918 -location dingwall -ref annie1915-birth
+        birth -date 18-may-1918 -location dingwall -ref annie1918-birth
     }
 }
 footnotes {
@@ -21,7 +21,7 @@ footnotes {
     james1881-death {
         $sp-ref[d-1881-062-00-0041 0014 "James Galbraith"]
     }
-    young-marraige {
+    young-marriage {
         $sp-ref-link[m-1918-064-00-0004 0002 "James Galbraith" "Annie Young"]
     }
     annie1918-birth {
