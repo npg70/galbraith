@@ -3,9 +3,6 @@ birth -date 21-Apr-1831 -location 'Saddell and Skipness' -ref archibald1831-birt
 death -date 27-jul-1913 -location 'Dingwall, Ross and Cromarty' -ref archibald1831-death
 burial -name 'Fodderty Cemetery Strathpeffer' -location 'Fodderty, Highland, Scotland'
 tags 'Saddell and Skipness'
-todo {
-    Incomplete, census needs transcribing. Children need references
-}
 
 external {
     familysearch M15G-1SD
@@ -16,9 +13,6 @@ note {
 }
 
 body {
-    $ul{
-        $li{Angus - 1901 Census @ Ardelve, Lochalsh, Ross and Cromarty, Scotland; FindMyPast}
-    }
 
 Census 1871, Tarbert, Argyllshire, Scotland:$ref[census1871]
 $csvtable{
@@ -104,16 +98,8 @@ partner {
         birth -date 4-jul-1874 -location Tarbert,Argyll -ref william1874-birth
         death -date 1875 -location Tarbert -ref william1875-death
     }
-    child {
-        name Angus Galbraith
-        tags Immigrant
-        birth -date 23-sep-1876 -location 'whitehouse,kilcalmonell' -ref angus1876-birth
-        partner {
-            name Isabelle Ritchie Mathian Leishman
-            marriage -date 31-Aug-1914 -location  Algomam,Ontario,Canada
-            birth -date 1881 -location Glasgow
-        }
-    }
+    child galbraith-angus-1876-leishman
+
     child {
         name Annie Galbraith
         birth -date 7-jan-1879 -location Kilcalmonell,Argyll -ref annie1879-birth
@@ -196,9 +182,6 @@ footnotes {
     }
     william1875-death {
         $sp-ref[d-1875-535-00-0034 "William Galbraith"]
-    }
-    angus1876-birth {
-        $sp-ref-link[b-1876-516-01-0007 0003 "Angus Galbraith"]
     }
     annie1879-birth {
         $sp-ref[b-1879-516-01-0001 "Annie Galbraith"]
