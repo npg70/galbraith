@@ -17,6 +17,7 @@ test:
 serve:
 	(cd hugo && hugo server -D)
 clean:
+	rm -f .git/index.lock
 	rm -rf hugo/public/*
 	rm -rf hugo/content/people
 	rm -rf hugo/content/indexes
