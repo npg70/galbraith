@@ -66,7 +66,8 @@ Neil,Galbraith,8,1893,Ross/Cromarty
 }
 partner {
     name Betsy Elder
-    death -date 22-April-1924
+    birth -date 'about 1846'
+    death -date 22-April-1924 -location dingwall -ref elder-death
     marriage -date 23-jan-1865 -location "Enzie,Bannf" -ref elder-marriage
 
     child galbraith-archibald-1865-mcdonald
@@ -151,10 +152,13 @@ footnotes {
         $opr-ref-link[b-1831-531-000-0020-0016 "Archibald Galbraith"]
     }
     archibald1831-death {
-        $sp-ref-link[d-1913-063-00-0031 0011 "Archibald Galbraith"]
+        $sp-ref-link[d-1913-062-00-0031 0011 "Archibald Galbraith"]
     }
     elder-marriage {
         $sp-ref-link[m-1865-152-00-0001 0001 "Archibald Galbraith" "Elizabeth Elder"]  
+    }
+    elder-death {
+        $sp-ref-link[d-1924-062-00-0008 0003 "Elizabeth Galbraith"]
     }
     janet1866-birth {
         $sp-ref[b-1866-535-00-0061 "Janet Galbraith"]
