@@ -1,12 +1,17 @@
 name John Galbreath
 birth -date 'say 1793'
+burial -name 'Largnahension Graveyard' -ref burial
 tags Campbeltown
 note {
-    Some claim John is the son of $child-link[galbreath-john-1760-mclean]{John and Marion McLean} born 1793 in campbeltown.  Dates and names would make sense.
+    2023: Find-A-Grave has Mary McPhail mixed up, listing her as the spouse of 
+    $child-link[galbreath-lachlan-1778-mcphail/]{Lachlan Galbreath}.
 }
-
+note {
+Some claim John is the son of $child-link[galbreath-john-1760-mclean]{John and Marion McLean} born 1793 in campbeltown.  Dates and names would make sense.
+}
 external {
     familysearch L8MT-MCN
+    findagrave 92284396
 }
 partner {
     name Mary McPhail
@@ -152,5 +157,24 @@ footnotes {
     }
     duncan1845-burial {
         Find a Grave, database and images (https://www.findagrave.com/memorial/160594083/duncan-galbraith: accessed 28 March 2023), memorial page for Duncan Galbraith (1848–1866), Find a Grave Memorial ID 160594083, citing Largnahension Graveyard, Lochgilphead, Argyll and Bute, Scotland; Maintained by Pixturmn (contributor 47729036).
+    }
+
+    burial {
+$blockquote{$pre{
+To The Memory Of
+John Galbraith ??? Tenant
+at ??? Who Died 
+?? Nov 18?? Aged ?? Also Donald
+His Son who Died ??????? 1858
+Aged 25
+?
+?
+?
+His Son Duncan Died 17 ??? 1866 ??? Years
+?? His Son Neil Farmer ???
+Died 22 Nov 1888 Aged 60? Years
+Also His Wife Mary McPhail Died 26? Oct 18??
+Aged 63 Years
+}}
     }
 }

@@ -205,6 +205,9 @@ func renderFuncs() map[string]TagFunc {
 		"front": func(args []string, body string) string {
 			return ""
 		},
+		"elink": func(args []string, body string) string {
+			return fmt.Sprintf("<a rel='noreferrer' target='_blank' href=%q>%s</a>", args[1], body)
+		},
 		"tag-link": func(args []string, body string) string {
 			tag := strings.ToLower(body)
 			taglink := "/galbraith/tags/" + strings.ReplaceAll(tag, " ", "-") + "/"

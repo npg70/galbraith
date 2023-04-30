@@ -5,7 +5,7 @@ external {
 
 }
 todo {
-    Census 1881, 1891, 1901
+    Census 1901
 }
 note {
 Low presence in Ancestry.com and FamilySearch.  Mostly listed as "William Scott Galbraith," and often listed with mother of Catherine Galbreath, or Catherine Brown (not Scott).  At least here parents are clearly indicated as Donald Galbraith and Catherine Scott.  There is no other William born 1875 in Kilcalmonell.
@@ -26,7 +26,7 @@ partner {
 }
 
 footnotes {
-    william1876-birth {
+    william1875-birth {
         $sp-ref-link[b-1875-516-01-0007 0003 "William Galbraith"]
     }
 }

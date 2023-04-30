@@ -25,7 +25,7 @@ William,Galbraith,Son,6,1875,Kilcalmonell
 John,Galbraith,Son,3,1878,Kilcalmonell
 }
 
-Listed as a Widower and "Wright & Miller" in Census 1891, Barneigh Cottage White House, Kilcalmonell, Argyllshire, Scotland:$ref[cenus1891]
+Listed as a Widower and "Wright & Miller" in Census 1891, Barneigh Cottage White House, Kilcalmonell, Argyllshire, Scotland:$ref[census1891]
 
 $csvtable{
 First,Last,Role,Age,Year,Place
@@ -36,7 +36,7 @@ William,Galbraith,Son,16,1875,Kilcalmonell
 John,Galbraith,Son,13,1878,Kilcalmonell
 }
 
-Listed as a Widower and a Wright in Census 1901, (Whitehouse), Public Road, Kilcalmonell, Argyllshire, Scotland
+Listed as a Widower and a Wright in Census 1901, (Whitehouse), Public Road, Kilcalmonell, Argyllshire, Scotland:$ref[census1901]
 $csvtable{
 First,Last,Role,Age,Year,Place
 Duncan,Galbraith,Head,61,1840,South Knapdale

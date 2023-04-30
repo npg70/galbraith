@@ -1,16 +1,36 @@
 name Lachlan Galbreath
 birth -date 'about 1778'
-death -date 8-sep-1850
-burial -name Largnahension Graveyard -location lochgilphead
+death -date sep-1850
+burial -name Largnahension Graveyard -location lochgilphead -ref burial
 external {
     findagrave 160594309
 }
+note {
+    There is another Mary McPhail, born around the same time, who married
+    $child-link[galbreath-john-1793-mcphail]{John Galbraith}. Find-a-Grave (in 2023) has them mixed up.
+}
+
 tags 'Kilcalmonell and Kilberry'
+body {
+
+1841 Census, Baluar, Kilcalmonell, Argyllshire, Scotland:$ref[census1841]:
+$csvtable{
+First,Last,Age,Year
+Lachlan,Galbreith,60,1781
+Mary,Galbreith,60,1781
+John,Galbreith,30,1811
+Margaret,Galbreith,30,1811
+Mary,Galbreith,20,1821
+Christy,Galbreith,10,1831
+Duncan,Galbreith,5,1836
+}
+
+}
 partner {
     name Mary McPhail
     birth -date 'about 1771'
     death -date 1863
-
+    marriage -date 3-feb-1799 -location 'South Knapdale' -ref mcphail-marriage
     child {
         name Donald Galbraith
         baptism -date 1800 -location 'kilcalmonell and kilberry' -ref donald1800-baptism
@@ -49,7 +69,7 @@ partner {
     child {
         name Duncan Galbreath
         baptism -date 11-july-1811 -location 'kilcalmonell and kilberry' -ref duncan1811-baptism
-        death -date 1839 -location glasgow
+        death -date 1839 -location glasgow -ref burial
     }
     child {
         name Mary Galbreath
@@ -97,5 +117,29 @@ footnotes {
     }
     isabella1819-death {
         $sp-ref-link[d-1878-531-01-0007 0003 "Isabella Galbraith"]
+    }
+    mcphail-marriage {
+        $opr-ref-link[m-1799-533-000-0010-0159 "Lachline Galbreath" "Mary McPhail"]{
+        3 Feb Registration for Marriage Lachline Galbreath and Mary Mc Phail
+        both in this parish
+        }
+    }
+    census1841 {
+        https://www.findmypast.com/transcript?id=GBC/1841/0016609067&expand=true
+    }
+    burial {
+    Original transcription of the tombstone for Lachlan Galbraith, as shown on $elink[https://www.findagrave.com/memorial/160594309/lachlan-galbraith]{Find-A-Grave}:
+        $blockquote{$pre{
+Erected
+by
+Mary McPheil
+In Memory of her Husband
+Lachlan Galbreath
+Tenant Balure Who Died
+? Sept 1850 Aged 72
+Also
+Their Son Duncan who died
+? Dec 1836 Age 27}}
+
     }
 }
