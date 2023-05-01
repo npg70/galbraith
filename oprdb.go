@@ -142,6 +142,7 @@ func ParishName(id1, id2 string) string {
 		"775":    "Galashiels, Selkirk",
 		"788":    "Inverness",
 		"790":    "Hobkirk, Roxburgh",
+		"895":    "Penningham, Wigtown",
 	}
 
 	ref := ParishRef(id1, id2)
