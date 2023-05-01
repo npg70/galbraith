@@ -46,14 +46,7 @@ partner {
     marriage -date 24-dec-1825 -location 'Kilcalmonell and Kilberry' -ref brodie-marriage
     death -date 20-jan-1885 -location Tarbert -ref brodie-death
 
-    child {
-        name Lachlan Galbreath
-        baptism -date 3-jan-1827 -location 'South Knapdale' -ref lachlan1827-baptism
-        death -date 22-nov-1888 -location greenock -ref lachlan1827-death
-        partner {
-            name Jane Templeton
-        }
-    }
+    child galbraith-lachlan-1827-templeton
     child {
         name Mary Galbreath
         baptism -date 15-jan-1829 -location 'South Knapdale' -ref mary1829-baptism
@@ -72,15 +65,8 @@ partner {
     }
     child galbraith-duncan-1836-scott
 
-    child {
-        name Donald Galbraith
-        birth -date 'about 1839'
-        death -date 8-mar-1912 -location tarbert -ref donald1839-death
-        partner {
-            name Grace Stalker
-            marriage -date 29-jan-1874 -location skipness -ref donald1839-marriage
-        }
-    }
+    child galbraith-donald-1839-stalker
+
 }
 
 footnotes { 
@@ -117,12 +103,6 @@ footnotes {
             Present: Donald Galbraith, Son
         }
     }
-    lachlan1827-baptism {
-        $opr-ref[b-1827-533-000-0020-0038 "Lachline Galbreath"]. Mother listed as "Mary Brodie."
-    }
-    lachlan1827-death {
-        $sp-ref-link[d-1888-564-03-0616 0206 "Lachlan Galbreath"]. Mother listed as "McBride."
-    }
     mary1829-baptism {
         $opr-ref[b-1829-533-000-0020-0051 "Mary Galbreath"]. Mother listed as "Mary Brody."
     }
@@ -142,10 +122,4 @@ His death does not appear to be recorded, however from $elink[https://archive.or
  Donald, born in 1800, married in Scotland, made several voyages to Canada, and died in 1839. 
 }
 }
-    donald1839-death {
-        $sp-ref-link[d-1912-535-00-0006 0002 "Donald Galbraith"].  Married but spouse not listed.
-    }
-    donald1839-marriage {
-        $sp-ref-link[m-1874-531-02-0001 0001 "Donald Galbraith" "Grace Stalker"]. Mother listed as "McBride"
-    }
 }
