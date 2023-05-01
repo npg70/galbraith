@@ -31,14 +31,9 @@ partner {
     birth -date 'about 1771'
     death -date 1863
     marriage -date 3-feb-1799 -location 'South Knapdale' -ref mcphail-marriage
-    child {
-        name Donald Galbraith
-        baptism -date 1800 -location 'kilcalmonell and kilberry' -ref donald1800-baptism
-        death -date 1839
-        body {
-            married in scotland, spouse tbd. Location of death unknown.
-        }
-    }
+    
+    child galbraith-donald-1800-brodie
+
 
     child galbraith-lachlan-1804-glen
 
@@ -93,10 +88,6 @@ partner {
 }
 
 footnotes {
-    donald1800-baptism {
-        $opr-ref-link[b-1800-516-000-0010-0121 "Donald Galbreath"]
-        Only marked as the year 1800.  Scotlands People for some reason lists the unknown date to be "31 Dec 1799"
-    }
     christine1804-baptism {
         $opr-ref-link[b-1804-516-000-0010-0152 "Christine Galbreath"]
     }

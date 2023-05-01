@@ -1,13 +1,14 @@
 name Duncan Galbraith
-birth -date 'about 1840' 
+birth -date 'about 1837' 
 death -date 9-jan-1910 -location Kilcalmonell -ref duncan1836-death
 note {
-    Birth appears to be unrecorded or lost.
+    Birth appears to be unrecorded or lost. Census records consistently put his birth as 1840 or 1841, while his death record
+    indicates 1837. Given that his father died in 1839, a birth in 1840 isn't impossible.
 }
 tags 'Kilcalmonell and Kilberry' 
 
 body {
-Listed as  joiner in 
+Listed as a joiner in 
 1871 Census, 9, East Blackhall Street, Greenock, East Greenock, Renfrewshire, Scotland:$ref[census1871]
 $csvtable{
 First,Last,Role,Age,Year,Place
