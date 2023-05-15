@@ -54,7 +54,7 @@ body {
     He was a baker.
 }
 note {
-    Andrew McIssac married two of the daughters, one after the other died.
+    Possible the McIssacs who married two of the daughters are brothers.
 }
 
 footnotes {
@@ -92,6 +92,9 @@ footnotes {
     }
     jean1800-baptism {
         $opr-ref-link[b-1800-507-000-0040-0206 "Jean Galbreath"]
+    }
+    jean1800-marriage {
+        $opr-ref-link[b-1820-507-000-0060-0242 "Jean Galbreath" "John McIsaac"]
     }
     henry1802-baptism {
         $opr-ref-link[b-1802-507-000-0040-0233 "Henrey Galbreath"]
