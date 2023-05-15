@@ -57,7 +57,7 @@ footnotes {
         Father indexed as "Henery"
     }
     flo-bapt {
-        $opr-ref[b-1777-507-000-0020-0035 "Florence Galbreath"]
+        $opr-ref-link[b-1777-507-000-0020-0035 "Florence Galbreath"]
     }
     mary-bapt {
         $opr-ref[b-1782-507-000-0020-0062 "Mary Galbreath"]

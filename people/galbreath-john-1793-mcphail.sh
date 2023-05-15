@@ -1,7 +1,7 @@
 name John Galbreath
 birth -date 'say 1793'
 burial -name 'Largnahension Graveyard' -ref burial
-tags Campbeltown
+tags 'Kilcalmonell and Kilberry'
 note {
     2023: Find-A-Grave has Mary McPhail mixed up, listing her as the spouse of 
     $child-link[galbreath-lachlan-1778-mcphail/]{Lachlan Galbreath}.
