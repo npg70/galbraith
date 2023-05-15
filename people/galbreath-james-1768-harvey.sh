@@ -4,6 +4,8 @@ external {
     familysearch KCC8-XDD
 }
 baptism -date 23-dec-1768 -location campbeltown -ref james1768-baptism
+death -date 'before 1815' -ref blackney-marriage
+
 partner {
     name Jean Harvey
     marriage -date 1-jul-1794 -location campbeltown -ref marriage
@@ -11,7 +13,8 @@ partner {
         name Agnes Galbreath
         baptism -date 31-mar-1795 -location campbeltown -ref agnes1795-baptism
         partner {
-            name William Black
+            name William Blackney
+            marriage -date 4-apr-1815 -location campbeltown -ref blackney-marriage
         }
     }
     child {
@@ -23,6 +26,7 @@ partner {
         baptism -date 12-sep-1798 -location campbeltown -ref margaret1798-baptism
         partner {
             name Archibald McIsaac
+            marriage -date 13-nov-1820 -location campbeltown -ref margaret-marriage
         }
     }
     child {
@@ -66,6 +70,14 @@ footnotes {
     agnes1795-baptism {
         $opr-ref-link[b-1795-507-000-0040-0125 "Agnes Galbreath"]
     }
+    blackney-marriage {
+        $opr-ref-link[m-1815-507-000-0050-0111 "Agnes Galbreath" "William Blackney"]{
+        William Blackney Sailor Campbeltown and Agnes Galbreath
+        daughter of the Deceased James Galbreath late Baker Campbeltown
+        both of this Parish were married the 4th day of April 1815.
+    }
+    }
+
     andrew1796-baptism {
         $opr-ref-link[b-1796-507-000-0040-0143 "Andrew Galbreath"]
     }
@@ -74,6 +86,9 @@ footnotes {
         $opr-ref-link[b-1798-507-000-0040-0171 "Maraan Galbreath"] 
         Scotlands People has a double entry. The other is indexed under "Maraann," but both
         lead to the same page with one entry.
+    }
+    margaret1798-marriage {
+        $opr-ref-link[m-1820-507-000-0060-0242 "Margaret Galbreath" "Archibald McIsaac"]
     }
     jean1800-baptism {
         $opr-ref-link[b-1800-507-000-0040-0206 "Jean Galbreath"]

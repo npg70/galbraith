@@ -13,6 +13,8 @@ const (
 	DATE_EXACT DateQualifier = iota
 	DATE_ABOUT
 	DATE_SAY
+	DATE_BEFORE
+	DATE_AFTER
 )
 
 type Date struct {
@@ -61,6 +63,12 @@ func (d *Date) UnmarshalText(text []byte) error {
 		parts = parts[1:]
 	case "say":
 		d.qualifier = DATE_SAY
+		parts = parts[1:]
+	case "before":
+		d.qualifier = DATE_BEFORE
+		parts = parts[1:]
+	case "after":
+		d.qualifier = DATE_AFTER
 		parts = parts[1:]
 	default:
 		d.qualifier = DATE_EXACT
@@ -182,9 +190,13 @@ func (d Date) DayMonthYear() string {
 	case DATE_EXACT:
 		// NOP
 	case DATE_ABOUT:
-		parts = append(parts, "abt")
+		parts = append(parts, "about")
 	case DATE_SAY:
 		parts = append(parts, "say")
+	case DATE_BEFORE:
+		parts = append(parts, "before")
+	case DATE_AFTER:
+		parts = append(parts, "after")
 	default:
 		panic("oops forgot to add qualifier")
 	}
@@ -205,9 +217,13 @@ func (d Date) DayMonYear() string {
 	case DATE_EXACT:
 		// NOP
 	case DATE_ABOUT:
-		parts = append(parts, "abt")
+		parts = append(parts, "about")
 	case DATE_SAY:
 		parts = append(parts, "say")
+	case DATE_BEFORE:
+		parts = append(parts, "before")
+	case DATE_AFTER:
+		parts = append(parts, "after")
 	default:
 		panic("oops forgot to add qualifier")
 	}

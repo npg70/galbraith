@@ -1,11 +1,14 @@
 name Florence Galbreath
 tags Campbeltown Immigrant
-baptism -date 14-nov-1777 -location campbeltown -ref flo-bapt
+birth -date 11-sep-1777
+baptism -date 14-sep-1777 -location campbeltown -ref flo-bapt
 death -date 1866 -location 'Darlington, Durham, Ontario, Canada'
 note {
-    This Florence died in Canada. Her brother $child-link[galbreath-james-1768-harvey]{James Galbreath} also had a daughter named Florence, who is mentioend on a $elink[https://www.findagrave.com/memorial/167549474/florance-galbreath]{FindAGrave memorial} in Kilkerren Cemetery near Campbeltown.
+This Florence died in Canada. Her brother $child-link[galbreath-james-1768-harvey]{James Galbreath} also had a daughter named Florence, who is mentioned in a $elink[https://www.findagrave.com/memorial/167549474/florance-galbreath]{FindAGrave memorial} in Kilkerren Cemetery near Campbeltown.
 }
-
+external {
+    familysearch KFJB-HND
+}
 partner {
     name John Maitland
     birth -date 1785 -location campbeltown
