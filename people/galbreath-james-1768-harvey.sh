@@ -24,6 +24,7 @@ partner {
     child {
         name Margaret Galbreath
         baptism -date 12-sep-1798 -location campbeltown -ref margaret1798-baptism
+        death -date 16-may-1877 -location campbeltown -ref margaret1798-death
         partner {
             name Archibald McIsaac
             marriage -date 13-nov-1820 -location campbeltown -ref margaret-marriage
@@ -32,8 +33,10 @@ partner {
     child {
         name Jean Galbreath
         baptism -date 5-oct-1800 -location campbeltown -ref jean1800-baptism
+        death -date 14-feb-1881 -location campbeltown -ref jean1800-death
         partner {
-            name Archibald McIsaac
+            name John McIsaac
+            marriage -date 30-nov-1820 -location campbeltown -ref jean1800-marriage
         }
     }
     child {
@@ -90,11 +93,17 @@ footnotes {
     margaret1798-marriage {
         $opr-ref-link[m-1820-507-000-0060-0242 "Margaret Galbreath" "Archibald McIsaac"]
     }
+    margaret1798-death {
+        $sp-ref-link[d-1877-507-00-0099 0033 "Margaret Galbraith"]
+    }
     jean1800-baptism {
         $opr-ref-link[b-1800-507-000-0040-0206 "Jean Galbreath"]
     }
     jean1800-marriage {
-        $opr-ref-link[b-1820-507-000-0060-0242 "Jean Galbreath" "John McIsaac"]
+        $opr-ref-link[m-1820-507-000-0060-0242 "Jean Galbreath" "John McIsaac"]
+    }
+    jean1800-death {
+        $sp-ref-link[d-1881-507-00-0026 0009 "Jean Galbraith"]
     }
     henry1802-baptism {
         $opr-ref-link[b-1802-507-000-0040-0233 "Henrey Galbreath"]
