@@ -19,14 +19,7 @@ partner {
             marriage -date 26-apr-1803 -location campbeltown
         }
     }
-    child {
-        name Florance Galbreath
-        baptism -date 14-nov-1777 -location campbeltown -ref flo-bapt
-        partner {
-            name John Maitland
-            marriage -date 17-apr-1804
-        }
-    }
+    child galbreath-florence-1777-maitland
     child galbreath-william-1780-campbell
     child {
         name Mary Galbreath
@@ -55,9 +48,6 @@ footnotes {
         $opr-ref[b-1771-507-000-0030-0198 "Margaret Galbreath"]
         $opr-ref[b-1771-507-000-0011-0380 "Margaret Galbreath"]
         Father indexed as "Henery"
-    }
-    flo-bapt {
-        $opr-ref-link[b-1777-507-000-0020-0035 "Florence Galbreath"]
     }
     mary-bapt {
         $opr-ref[b-1782-507-000-0020-0062 "Mary Galbreath"]

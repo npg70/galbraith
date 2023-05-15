@@ -39,9 +39,10 @@ partner {
     child {
         name Florence Galbreath
         baptism -date 6-mar-1805 -location campbeltown -ref florence1805-baptism
+        death -date 21-apr-1886 -location campbeltown -ref florence1805-death
         partner {
             name John McMurchy
-            marriage -date 13-jun-1839
+            marriage -date 13-jun-1839 -location campbeltown -ref mcmurchy-marriage
         }
     }
 }
@@ -82,5 +83,16 @@ footnotes {
     }
     florence1805-baptism {
         $opr-ref-link[b-1805-507-000-0040-0273 "Florence Galbreath"]
+    }
+    florence1805-death {
+        $sp-ref-link[d-1887-507-00-0068 0023 "Flora Galbraith"]
+    }
+    mcmurchy-marriage {
+        $opr-ref-link[m-1839-507-000-0060-0353 "Flora Galbreath" "John McMurchy"]{
+        John McMurchy Labourer and Flora Galbreath
+        Daughter of the late James Galbreath
+        Baker both of this Parish were
+        Married thirteenth June 1839
+        }
     }
 }
