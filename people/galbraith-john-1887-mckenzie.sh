@@ -2,6 +2,8 @@ name John Galbraith
 external {
     familysearch LZTX-QCW
 }
+tags "daughtered out"
+
 birth -date 13-jan-1887 -location jura -ref john1887-birth
 death -date 13-sep-1965 -location tobermory,argyll -ref john1887-death
 body {

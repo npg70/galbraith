@@ -1,4 +1,7 @@
 name Duncan Galbraith
+external {
+    familysearch K4XW-TFP
+}
 birth -date 'about 1793'
 death -date 20-apr-1885 -location Lochgilphead -ref duncan1793-death
 tags Lochgilphead
