@@ -1,4 +1,7 @@
 name Donald Galbraith
+external {
+    familysearch M1RM-HQT
+}
 tags Colonsay
 baptism -date 4-oct-1852 -location Glassay,Argyll -ref donald1852-baptism -note "the son of John Galbraith and Catherine MacAlpine"
 body {
@@ -6,7 +9,8 @@ body {
 }
 partner {
     name Catherine Cameron
-    birth -date 'about 1855'
+    birth -date 1851 -location 'Morvern, Argyll'
+    death -date 4-jan-1934 -location 'Kelty, Fife, Scotland'
     marriage -date 17-nov-1882 -location Edinburgh -ref cameron-marriage
 
     child {
@@ -14,10 +18,7 @@ partner {
         birth -date 1885 -location jura -ref mary1885-birth
         death -date 4-sep-1889 -location jura -ref mary1885-death
     }
-    child {
-        name John Galbraith
-        birth -date 1887 -location jura -ref john1887-birth
-    }
+    child galbraith-john-1887-mckenzie
     child {
         name Allan Cameron Galbraith
         birth -date 1888 -location jura -ref allan1888-birth
@@ -44,9 +45,6 @@ footnotes {
     }
     mary1885-death {
         $sp-ref-link[d-1889-539-01-0013 0005 "Mary Ann Cameron Galbraith"]
-    }
-    john1887-birth {
-        $sp-ref[b-1887-539-01-0002 "John Galbraith"]
     }
     allan1888-birth {
         $sp-ref[b-1888-539-01-0004 "Allan Cameron Galbraith"]
