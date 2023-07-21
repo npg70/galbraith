@@ -6,10 +6,10 @@ tags Greenock
 birth -date 27-sep-1868 -location greenock -ref neil1868-birth
 death -date 22-aug-1931 -location greenock -ref neil1868-death
 todo {
-    Found in SP lighthouse keeper records.
+    Possible no children.
 }
 body {
-    Lighthouse keeper.  Parents where Duncan and Mary Rankin
+Lighthouse keeper (see scotlands people for more details).
 }
 partner {
     name Euphemia McLean
@@ -19,10 +19,10 @@ partner {
 }
 footnotes {
     neil1868-birth {
-        $sp-ref-link[b-1868-564-03-0946 0316 "Neil Galbraith"
+        $sp-ref-link[b-1868-564-03-0946 0316 "Neil Galbraith"]
     }
     neil1868-death {
-        $sp-ref-link[d-1931-564-02-0370 0124 "Neil Galbraith"
+        $sp-ref-link[d-1931-564-02-0370 0124 "Neil Galbraith"]
     }
     mclean-marriage {
         $sp-ref[m-1900-564-02-0318 "Neil Galbraith" "Euphemia McLean"]

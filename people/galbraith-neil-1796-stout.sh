@@ -6,7 +6,7 @@ external {
 }
 tags 'Kilcalmonell and Kilberry'
 todo {
-    Incomplete. Decendants of Duncan and John not investigated.  Daughters all got married.
+    Incomplete. Decendants not investigated.  Daughters all got married.
 }
 body {
 He was a mason.
@@ -17,15 +17,8 @@ partner {
     death -date 13-may-1894 -location renfrew,renfrewshire
     marriage -date 28-nov-1840 -location 'Kilcalmonell and Kilberry' -ref stout-marriage
 
-    child {
-        name Duncan Galbraith
-        birth -date 26-jun-1841 
-        baptism -date 14-sep-1846 -location 'Kilcalmonell and Kilberry' -ref duncan1841-baptism
-        death -date 10-jul-1885 -location Greenock -ref duncan1841-death
-        partner {
-            name Mary ???
-        }
-    }
+    child galbraith-duncan-1841-rankin
+
     child {
         name Betty Galbraith
         birth -date 3-sep-1845
@@ -108,17 +101,6 @@ footnotes {
     }   
     stout-marriage {
         $opr-ref-link[m-1840-516-000-0020-0394 "Niel Galbraith" "Elisabeth Stout"]
-    }
-    duncan1841-baptism {
-        $opr-ref-link[b-1841-516-000-0020-0360 "Duncan Galbraith"]{
-            Duncan Antenupital Son to Neil Galbraith Maison in South
-            Cuilgailtro and Elisabeth Stout their born
-            26th June 1841 Registered 14th September 1846
-        }
-    }
-    duncan1841-death {
-        $sp-ref-link[d-1885-564-03-0396 0132 "Duncan Galbraith"]
-        Has a correction.
     }
     betty1845-baptism {
         $opr-ref-link[b-1845-516-000-0020-0360 "Betty Galbraith"]{
