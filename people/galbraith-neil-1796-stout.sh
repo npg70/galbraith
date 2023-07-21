@@ -107,7 +107,7 @@ footnotes {
         https://www.findmypast.com/transcript?id=GBC/1871/0023464833
     }   
     stout-marriage {
-        $opr-ref[m-1840-516-000-0020-0394 "Niel Galbraith" "Elisabeth Stout"]
+        $opr-ref-link[m-1840-516-000-0020-0394 "Niel Galbraith" "Elisabeth Stout"]
     }
     duncan1841-baptism {
         $opr-ref-link[b-1841-516-000-0020-0360 "Duncan Galbraith"]{
