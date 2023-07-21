@@ -33,7 +33,7 @@ footnotes {
         }
     }
     russell-marriage {
-        $sp-ref[m-1872-644-06-0253 "Malcolm Galbraith" "Annie Russell"]
+        $sp-ref-link[m-1872-644-06-0253 0127 "Malcolm Galbraith" "Annie Russell"]
     }
     agnes1877-birth {
         $sp-ref-link[b-1877-539-01-0010 0004 "Agnes Forsyth Galbraith"]
