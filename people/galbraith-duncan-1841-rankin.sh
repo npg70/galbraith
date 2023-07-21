@@ -13,6 +13,7 @@ body {
 
 body {
 1871 Census of Scotland, Renfrewshire, Greenock,East Shaw Street, 32:$ref[census1871]
+
 $csvtable{
 First,Last,Role,Age,Year,Birth
 Duncan, Galbreath,Head,28,1843,Kilbery
@@ -24,6 +25,7 @@ Marion, Galbreath, Dau,0,1871,Greenock
 
 body {
 1881 Census of Scotland, Renfrewshire, Middle, East, Regent Street, 19:$ref[census1881]
+
 $csvtable{
 First,Last,Role,Age,Year,Birth
 Duncan,Galbraith,Head,36,1845,Kintyre
@@ -66,7 +68,7 @@ partner {
     child {
         name John Rankin Galbraith
         birth -date 16-jan-1877 -location greenock -ref john1877-birth
-        death -date 1881 -location greenock, -ref john1877-death
+        death -date 1881 -location greenock -ref john1877-death
     }
 }
 
@@ -94,6 +96,7 @@ footnotes {
 
     marion1871-death {
         $sp-ref-link[d-1950-564-00-1017 0339 "Marion Shaw Galrbaith"]
+    }
     john1877-birth {
         $sp-ref-link[b-1877-564-02-0065 0022 "John Rankin Galbraith"]
     }
