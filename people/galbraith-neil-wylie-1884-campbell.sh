@@ -13,6 +13,15 @@ partner {
     death -date 11-nov-1950 -location campbeltown
     burial -name 'Kilkerran Cemetery'
     marriage -date 22-mar-1917 -location gigha -ref campbell-marriage
+
+    child {
+        name Charlotte Wyllie Galbraith
+        birth -date 1-july-1917 -location 'killean and kilchenzie' -ref charlotte1917-birth
+    }
+    child {
+        name James Campbell Galbraith
+        birth -date 21-aug-1918 -location 'killean and kilchenzie' -ref james1918-birth
+    }
 }
 
 footnotes {
@@ -26,7 +35,10 @@ footnotes {
     campbell-marriage {
         $sp-ref-link[m-1917-537-00-0001 0001 "Neil Galbraith" "Helen Campbell"]
     }
+    charlotte1917-birth {
+        $sp-ref-link[b-1917-519-00-0006 0002 "Charlotte Wyllie Galbraith"]
+    }
+    james1918-birth {
+        $sp-ref-link[b-1918-519-00-0015 0005 "James Campbell Galbraith"]
+    }
 }
-
-
-
