@@ -17,7 +17,7 @@ partner {
     }
     child {
         name Lachlan Galbraith
-        birth -date 1856 -location 'South Knapdale' -ref lachlan1856-birth
+        birth -date 8-nov-1856 -location 'South Knapdale' -ref lachlan1856-birth
     }
     child {
         name Neil Galbraith
@@ -43,10 +43,10 @@ footnotes {
         $sp-ref-link[m-1856-533-00-0001 0001 "John Galbraith" "Isabella McMillan"]
    }
    sarah1856-birth {
-        $sp-ref[b-1856-533-00-00021 "Sarah Galbraith"]
+        $sp-ref[b-1856-533-00-0022 "Sarah Galbraith"]
    }
    lachlan1856-birth {
-        $sp-ref[b-1856-533-00-00021 "Lachlan Galbraith"]
+        $sp-ref-link[b-1856-533-00-0021 0007 "Lachlan Galbraith"]
    }
    neil1862-birth {
         $sp-ref-link[b-1862-516-01-0011 0004 "Neil Galbraith"]

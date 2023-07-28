@@ -110,6 +110,7 @@ func ParishName(id1, id2 string) string {
 		"611/1":  "Riccarton, Ayr",
 		"620":    "West Kilbride, Ayr",
 		"622":    "Barony",
+		"623":    "Biggar, Lanark",
 		"628":    "Cambusnethan, Lanark",
 		"638/2":  "Dalserf, Lanark",
 		"640":    "Inverclyde",
