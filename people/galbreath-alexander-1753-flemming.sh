@@ -1,6 +1,12 @@
 name Alexander Galbreath
 tags Campbeltown Immigrant
+external {
+    familysearch MYW9-L2B
+    findagrave 52621095
+}
 baptism -date 25-jun-1753 -location campbeltown -ref alex1753-baptism
+death -date 1819 -location 'Delta, York, Pennsylvania, USA' -name 'Slate Ridge Cemetery' -ref alex1753-burial
+
 partner {
     name Agnes Flemming
     marriage -date dec-1779 -location campbeltown
@@ -49,6 +55,9 @@ footnotes {
     alex1753-baptism {
         $opr-ref-link[b-1753-507-000-0011-0286 "Alexander Galbreath"]
         $opr-ref-link[b-1753-507-000-0010-0213 "Alexander Galbraith"]
+    }
+    alex1753-burial {
+        https://www.findagrave.com/memorial/52621095/alexander-galbreath
     }
     john1781-baptism  {
         $opr-ref-link[b-1781-507-000-0020-0051 "John Galbreath"]
