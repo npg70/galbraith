@@ -91,6 +91,10 @@ $table{
 		$td{$tag-link{no children}}
 		$td{Person or couple has no children}
 	}
+	$tr{
+	    $td{$tag-link{illegitimate}}
+		$td{Typically a NPE with unknown or non-Galbraith father}
+	}
 	$tr{	
 		$th[colspan=2]{Research}
 	}
@@ -111,7 +115,7 @@ $table{
 
 	// now figure out plaace name tags
 	tags := []string{}
-	special := "|all|daughtered out|dead end|immigrant|leaf|no children|root|todo|veteran|"
+	special := "|all|daughtered out|dead end|illegitimate|immigrant|leaf|no children|root|todo|veteran|"
 	for tname, _ := range tmap {
 		tname = strings.ToLower(tname)
 		if strings.Contains(special, tname) {
