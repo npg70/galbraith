@@ -33,6 +33,7 @@ partner {
     child {
         name David Galbraith
         birth -date 18-aug-1871 -location campbeltown -ref david1871-birth
+        death -date 14-mar-1936 -location cathcart -ref david1871-death -note umd
     }
     child {
         name Maria Galbraith
@@ -75,6 +76,9 @@ footnotes {
     }
     david1871-birth {
         $sp-ref-link[b-1871-507-00-0199 0067 "David Galbraith"]
+    }
+    david1871-death {
+        $sp-ref-link[d-1936-644-19-351 0117 "David Galbraith"]
     }
     maria1874-birth {
         $sp-ref[b-1874-507-00-0097 "Maria Galbraith"]
