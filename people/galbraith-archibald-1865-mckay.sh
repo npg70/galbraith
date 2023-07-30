@@ -9,10 +9,9 @@ death -date 25-mar-1928 -location campbeltown
 
 partner {
     name Isabella McKay 
-    birth -date 1864
-    death -date 1937
-    
-
+    birth -date 21-nov-1864 -location 'Saddell and Skipness'
+    death -date 7-jul-1937 -location campbeltown -ref mckay-death
+    marriage -date 16-apr-1888 -location campbeltown -ref mckay-marriage 
 }
 footnotes {
     archibald1865-birth {

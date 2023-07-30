@@ -10,7 +10,7 @@ partner {
 
     child {
         name Mary Galbraith
-        birth -date 1860 -location campbeltown -ref mary1860-birth
+        birth -date 16-feb-1860 -location campbeltown -ref mary1860-birth
     }
 
     child {
@@ -18,30 +18,34 @@ partner {
     }
     child {
         name Marion Galbraith
-        birth -date 1863
+        birth -date 28-sep-1863
     }
+
     child galbraith-archibald-1865-mckay
 
     child {
         name Peter McDemaid Galbraith
-        birth -date 7-Jun-1867 -location campbeltown -ref peter1867-birth
-        death -date 1935
-        body {
-            birth day may be wrong.
-        }
+        birth -date 4-Jun-1867 -location campbeltown -ref peter1867-birth
+        death -date 15-jun1935 -location govan -ref peter1867-death
     }
     child {
         name Agnes Galbraith
-        birth -date 1869 -location campbeltown -ref agnes1869-birth
+        birth -date 8-apr-1869 -location campbeltown -ref agnes1869-birth
     }
     child {
         name Christina Galbraith
-        birth -date 1871 -location campbeltown -ref christina1871-birth
-        death -date 1928
+        birth -date 3-mar-1871 -location campbeltown -ref christina1871-birth
+        death -date 10-aug-1928 -location 'East Rochester, Monroe, New York, USA'
+        partner {
+            name Michael Gilchrist
+            marriage -date 12-jul-1898 -location campbeltown
+            birth -date 1877
+            death -date 1951
+        }
     }
     child {
         name Donald Galbraith
-        birth -date 1873 -location campbeltown -ref donald1873-birth
+        birth -date 22-feb-1873 -location campbeltown -ref donald1873-birth
     }
 }
 
