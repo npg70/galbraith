@@ -13,17 +13,8 @@ partner {
     death -date 8-jul-1937 -location campbeltown -ref mckay-death
     marriage -date 16-apr-1888 -location campbeltown -ref mckay-marriage 
 
-    child {
-        name Daniel Galbraith
-        birth -date 29-oct-1888 -location campbeltown -ref daniel1888-birth
-        death -date 17-dec-1942 -location campbeltown -ref daniel1888-death
-        partner {
-            name Maggie Sinclair McMichael
-            marriage -date 1923 -location campebeltown -ref mcmichael-marriage
-            birth -date 1898
-            death -date 1968
-        }
-    }
+    child galbraith-daniel-1888-mcmichael
+
     child {
         name Mary McMillan Galbraith
         birth -date 15-mar-1890 -location campbeltown -ref mary1890-birth
@@ -54,14 +45,8 @@ partner {
         birth -date 8-may-1899 -location campbeltown -ref allan1899-birth
     }
 
-    child {
-        name Neil Galbraith
-        birth -date 14-jul-1900 -location campbeltown -ref neil1900-birth
-        death -date 24-jul-1974 -location campbeltown -ref neil1900-death
-        partner {
-            name Elizabeth McMillan
-        }
-    }
+    child galbraith-neil-1900-mcmillan
+
 }
 footnotes {
     archibald1865-birth {
@@ -75,15 +60,6 @@ footnotes {
     }
     mckay-death {
         $sp-ref-link[d-1937-507-00-0073 0025 "Isabella Galbraith"]
-    }
-    daniel1888-birth {
-        $sp-ref-link[b-1888-507-00-0327 0109 "Daniel Galbraith"]
-    }
-    daniel1888-death {
-        $sp-ref-link[d-1942-507-00-0117 0039 "Daniel Galbraith"]
-    }
-    mcmichael-marriage {
-        $sp-ref[m-1923-507-00-0022 "Daniel Galbraith" "Margaret Sinclair McMichael"]
     }
     mary1890-birth {
         $sp-ref-link[b-1890-507-00-0063 0021 "Mary McMillan Galbraith"]
@@ -102,12 +78,6 @@ footnotes {
     }
     allan1899-birth {
         $sp-ref[b-1899-507-00-0147 "Allan Galbraith"]
-    }
-    neil1900-birth {
-        $sp-ref-link[b-1900-507-00-0156 0052 "Neil Galbraith"]
-    }
-    neil1900-death {
-        $sp-ref[d-1974-536-00-0072 "Neil Galbraith"]
     }
 }
 
