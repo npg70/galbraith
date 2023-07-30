@@ -4,7 +4,7 @@ external {
     wikitree Galbraith-2459
     findagrave 179352175
 }
-birth -date 1-jul-1865 -location campbeltown
+birth -date 1-jul-1865 -location campbeltown -ref archibald1865-birth
 death -date 25-mar-1928 -location campbeltown
 
 partner {
@@ -15,5 +15,8 @@ partner {
 
 }
 footnotes {
+    archibald1865-birth {
+        $sp-ref-link[b-1865-507-00-0143 0048 "Archibald Galbraith"]
+    }
 }
 
