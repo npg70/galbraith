@@ -8,6 +8,6 @@ tags campbeltown veteran 'no children'
 
 footnotes {
     james1897-birth {
-        $sp-ref[b-1897-507-00-0058 0020 "James Duncan Galbraith"]
+        $sp-ref-link[b-1897-507-00-0058 0020 "James Duncan Galbraith"]
     }
 }
