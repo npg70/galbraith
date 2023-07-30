@@ -26,7 +26,7 @@ partner {
     child {
         name Peter McDemaid Galbraith
         birth -date 4-Jun-1867 -location campbeltown -ref peter1867-birth
-        death -date 15-jun1935 -location govan -ref peter1867-death
+        death -date 15-jun-1935 -location govan -ref peter1867-death
     }
     child {
         name Agnes Galbraith
