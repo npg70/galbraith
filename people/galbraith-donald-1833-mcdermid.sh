@@ -1,6 +1,6 @@
 name Donald Galbraith
 birth -date nov-1831
-baptism -date 14-mar-1832 -location 'kilcalmonell and kilberry' -ref donald1831-birth
+baptism -date 14-mar-1832 -location 'kilcalmonell and kilberry' -ref donald1831-baptism
 death -date 19-aug-1901 -location campbeltown -ref donald1831-death
 
 tags 'kilcalmonell and kilberry' campbeltown
@@ -66,7 +66,8 @@ footnotes {
             Donald lawful son to Archibald Galbraith and
             Mary MacLean in Crothshegan born in Nov 1831
             Registered the 14th March 1832.
-        }, nonstandard indexing in Scotlands People. Normally it's based on baptism date, but here it is indexed by birth date under 31-Oct-1831.
+        }
+        Nonstandard indexing in Scotlands People. Normally it's based on baptism date, but here it is indexed by birth date under 31-Oct-1831.
     }
     donald1831-death {
         $sp-ref-link[d-1901-507-00-0098 0033 "Daniel Galbraith"]{
