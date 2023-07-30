@@ -21,6 +21,8 @@ partner {
 
     child {
         name Jane Galbraith
+        birth -date 19-dec-1861 -location campbeltown -ref jan1861-birth
+        body {m. $child-link[galbraith-donald-1863-galbraith]{Donald Galbraith} }
     }
     child {
         name Marion Galbraith
@@ -88,7 +90,9 @@ footnotes {
     mary1860-birth {
         $sp-ref[b-1860-507-00-0038 "Mary Galbraith"]
     }
-
+    jane1861-birth {
+        $sp-ref-link[b-1861-507-00-0238 0080 "Jane Galbraith"]
+    }
     peter1867-birth {
         $sp-ref-link[b-1867-507-00-0109 0037 "Peter McDermid Galbraith"]
     }
