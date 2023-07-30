@@ -82,7 +82,7 @@ footnotes {
         $sp-ref[b-1860-519-00-0033 "Mary Galbraith"]   
     }
     mary1860-death {
-        TBD
+        $sp-ref-link[d-1935-507-00-0007 0003 "Mary Galbraith"]
     }
     mizie1862-birth {
         $sp-ref[b-1862-519-00-0027 "Mizie Galbraith"]
