@@ -24,7 +24,7 @@ partner {
         name Margaret Galbreath
         baptism -date 29-jan-1845 -location campbeltown -ref margaret1845-baptism
     }
-    child galbreath-john-1848-carnis
+    child galbreath-john-1848-cairns
     child {
         name Agnes Galbreath
         baptism -date 1-feb-1851 -location campbeltown -ref agnes1851-baptism

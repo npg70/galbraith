@@ -57,11 +57,9 @@ footnotes {
     neil1841-death {
         $sp-ref-link[d-1873-531-01-0006 0002 "Neil Galbraith"]
     }
-
     stewart-marriage {
-        $sp-rf-link[m-1861-644-01-0517 0259 "Neill Galbraith" "Marta Stewart"]
+        $sp-ref-link[m-1861-644-01-0517 0259 "Neill Galbraith" "Marta Stewart"]
     }
-
     agnes1863-birth {
         $sp-ref[b-1863-531-01-0005 "Agnes Galbreath"]
     }
