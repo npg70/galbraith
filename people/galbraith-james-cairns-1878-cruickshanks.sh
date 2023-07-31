@@ -10,7 +10,7 @@ partner {
     marriage -date 21-jun-1905 -location 'port glasgow, renfrew' -ref marriage
     child {
         name James Cairns Galbraith
-        birth -date 24-nov-1905
+        birth -date 24-nov-1905 -location 'port glasgow, renfrew' -ref james1905-birth
         death -date 28-aug-1955 -location 'Bella Bella, Central Coast, British Columbia, Canada'
         partner {
             name Kathleen Lamont Somerville
@@ -19,7 +19,7 @@ partner {
     }
     child {
         name Alexander Cruikshanks Galbraith
-        birth -date 1907
+        birth -date 7-jan-1907 -location 'new deer, aberdeen' -ref alex1907-birth
         death -date 27-apr-1977 -location 'Vancouver, British Columbia, Canada'
         partner {
             name Dora Williams
@@ -44,5 +44,10 @@ footnotes {
     marriage {
         $sp-ref-link[m-1905-574-00-0061 0031 "James Galbraith" "Jane Cruickshanks"]
     }
-
+    james1905-birth {
+        $sp-ref[b-1905-574-00-0584 "James Cairns Galbraith"]
+    }
+    alex1907-birth {
+        $sp-ref-link[b-1907-225-00-0004 0002 "Alexander Galbraith"]
+    }
 }   
