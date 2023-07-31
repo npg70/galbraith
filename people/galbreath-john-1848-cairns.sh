@@ -8,7 +8,39 @@ partner {
     name Helen A Cairns
     marriage -date 24-sep-1872 -location Leith,Edinburghshire,Scotland -ref cairns-marriage
 
+    child {
+        name Jane Allen Galbraith Cairns
+        birth -date 17-feb-1872 -location Leith -ref jane1872-birth
+    }
+    child {
+        name John Galbraith
+        birth -date 24-oct-1873 -location saddell -ref john1873-birth
+        death -date 1892 -location campbeltown -ref john1873-death
+    }
+    child {
+        name Georgina Cook Galbraith
+        birth -date 15-sep-1875 -location saddell -ref georgina1875-birth
+    }
+
     child galbraith-james-cairns-1878-cruickshanks 
+
+    child {
+        name Alexander Cook Galbraith
+        birth -date 11-apr-1879 -location saddell -ref alex1879-birth
+        death -date 21-dec-1952 -location carradale -ref alex1879-death
+        partner {
+            name Flora Mitchell
+            marriage -date 25-apr-1934 -location saddell
+        }
+        body {
+            children unlikely.
+        }
+    }
+    child {
+        name Helen Mary Galbraith
+        birth -date 27-may-1881 -location saddell -ref helen1881-birth
+        death -date jul-1962 -location 'Verdun, Montreal, Quebec, Canada'
+    }
 }
 todo {
     Stub
