@@ -11,7 +11,7 @@ partner {
 external {
     familysearch GD38-2VC
 }
-tags campbeltown
+tags campbeltown 'saddell and skipness'
 todo { children unknown, uninvestigated }
 
 footnotes {
