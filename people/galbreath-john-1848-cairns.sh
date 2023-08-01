@@ -22,6 +22,10 @@ partner {
     child {
         name Georgina Cook Galbraith
         birth -date 15-sep-1875 -location saddell -ref georgina1875-birth
+        death -date 12-jul-1958 -location dunoon -ref georgina1875-death
+        partner {
+            name William Small
+        }
     }
 
     child galbraith-james-cairns-1878-cruickshanks 
@@ -53,11 +57,16 @@ partner {
     child {
         name Janet Cook Cairns Galbraith
         birth -date 1888 -location saddell -ref janet1888-birth
+        death -date 28-feb-1953 -location bute -ref janet1888-death -note umd
     }
 
     child {
         name Margaret Cook Galbraith
         birth -date 1890 -location saddell -ref margaret1890-birth
+        death -date 16-sep-1954 -location saddell -ref margaret1890-death
+        partner {
+            name John Ritchie
+        }
     }
     child {
         name Alice Cairns Galbraith
@@ -83,6 +92,9 @@ footnotes {
     georgina1875-birth {
         $sp-ref[b-1875-531-01-0015 "Georgina Cook Galbraith"]
     }
+    georgina1875-death {
+        $sp-ref[d-1958-510-01-0094 0032 "Georgina Cook Galbraith"]
+    }
     alex1879-birth {
         $sp-ref[b-1879-531-01-0007 "Alexander Cook Galbraith"]
     }
@@ -95,8 +107,14 @@ footnotes {
     janet1888-birth {
         $sp-ref[b-1888-531-01-0017 "Janet Cook Cairns Galbraith"]
     }
+    janet1888-death {
+        $sp-ref[d-1888-558-00-0020 0007 "Janet Cook Cairns Galbraith"]
+    }
     margaret1890-birth {
         $sp-ref[b-1890-531-01-0013 "Margaret Cook Galbraith"]
+    }
+    margaret1890-death {
+        $sp-ref-link[d-1954-531-01-0003 0001 "Margaret Cook Galbraith"]
     }
     alice1892-birth {
         $sp-ref[b-1892-531-01-0010 "Alice Cairns Galbraith"]
