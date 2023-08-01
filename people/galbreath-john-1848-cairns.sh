@@ -72,9 +72,8 @@ partner {
         name Alice Cairns Galbraith
         birth -date 1892 -location saddell -ref alice1892-birth
     }
-}
-todo {
-    Stub
+
+    child galbraith-john-1894-gardner
 }
 footnotes {
     john1848-baptism {
