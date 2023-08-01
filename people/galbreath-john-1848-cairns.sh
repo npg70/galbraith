@@ -1,9 +1,11 @@
 name John Galbreath
-tags Campbeltown
+tags Campbeltown 'Saddell and Skipness'
 birth -date apr-1848
 baptism -date 18-oct-1848 -location campbeltown -ref john1848-baptism 
 death -date 26-nov-1913 -location saddell -ref john1848-death
-
+external {
+    familysearch LZ62-KK8
+}
 partner {
     name Helen A Cairns
     marriage -date 24-sep-1872 -location Leith,Edinburghshire,Scotland -ref cairns-marriage
@@ -41,6 +43,26 @@ partner {
         birth -date 27-may-1881 -location saddell -ref helen1881-birth
         death -date jul-1962 -location 'Verdun, Montreal, Quebec, Canada'
     }
+
+    child {
+        name Archibald Cairns Galbraith
+        birth -date 1883 -location saddell -ref archibald1883-birth
+    }
+    child galbraith-neil-1886
+
+    child {
+        name Janet Cook Cairns Galbraith
+        birth -date 1888 -location saddell -ref janet1888-birth
+    }
+
+    child {
+        name Margaret Cook Galbraith
+        birth -date 1890 -location saddell -ref margaret1890-birth
+    }
+    child {
+        name Alice Cairns Galbraith
+        birth -date 1892 -location saddell -ref alice1892-birth
+    }
 }
 todo {
     Stub
@@ -54,5 +76,29 @@ footnotes {
     }
     cairns-marriage {
         $sp-ref[m-1872-692-02-0199 "John Galbraith" "Helen A Cairns"]
+    }
+    john1873-birth {
+        $sp-ref-link[b-1873-531-01-0020 0007 "John Galbraith"]
+    }
+    georgina1875-birth {
+        $sp-ref[b-1875-531-01-0015 "Georgina Cook Galbraith"]
+    }
+    alex1879-birth {
+        $sp-ref[b-1879-531-01-0007 "Alexander Cook Galbraith"]
+    }
+    helen1881-birth {
+        $sp-ref[b-1881-531-01-0012 "Helen Mary Galbraith"]
+    }   
+    archibald1883-birth {
+        $sp-ref[b-1883-531-01-0021 "Archibald Cairns Galbraith"]
+    }
+    janet1888-birth {
+        $sp-ref[b-1888-531-01-0017 "Janet Cook Cairns Galbraith"]
+    }
+    margaret1890-birth {
+        $sp-ref[b-1890-531-01-0013 "Margaret Cook Galbraith"]
+    }
+    alice1892-birth {
+        $sp-ref[b-1892-531-01-0010 "Alice Cairns Galbraith"]
     }
 }

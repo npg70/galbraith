@@ -8,7 +8,7 @@ death -date 5-feb-1950 -location 'Los Angeles, California, USA'
 note {
     Commonly listed as "Archibald Campbell Galbraith," although I've seen no evidence of the use of the middle name.
 }
-todo {
+note {
     Unknown if any grandchildren
 }
 
