@@ -24,7 +24,7 @@ partner {
 
     child {
         name Neil Galbraith
-        birth -date 'about 1817'
+        birth -date 'about 1817' -ref neil1817-birth
         death -date 23-mar-1874 -location Saddell -ref neil1817-death
         partner {
             name Isabella McMillan
