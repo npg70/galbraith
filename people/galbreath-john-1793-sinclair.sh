@@ -22,14 +22,8 @@ partner {
     name Mary Sinclair
     marriage -date 28-apr-1816 -location 'Kilcalmonell and Kilberry' -ref sinclair-marriage
 
-    child {
-        name Neil Galbraith
-        birth -date 'about 1817' -ref neil1817-birth
-        death -date 23-mar-1874 -location Saddell -ref neil1817-death
-        partner {
-            name Isabella McMillan
-        }
-    }
+    child galbraith-neil-1817-mcmillan
+
     child galbraith-donald-1819-smith
     child {
         name Peggy Galbreath
@@ -68,13 +62,6 @@ footnotes {
            marriage John Galbreath + Mary Sinclair both in this parish
            of Kilberry + $i{illegible}
         }
-    }
-    neil1817-birth {
-        Birth appears to be unrecorded, however confirmed in Census of 1851, and
-        death record, below.
-    }
-    neil1817-death {
-        $sp-ref-link[d-1874-531-01-0001 0001 "Neil Galbraith"]
     }
     peggy1821-baptism {
         $opr-ref[b-1821-516-000-0020-0021 "Peggy Galbreath"]
