@@ -26,7 +26,11 @@ partner {
     }
     child {
         name Robert Galbraith
-        birth -date 1881 -location Saddell -ref robert1881-birth
+        birth -date 17-sep-1881 -location Saddell -ref robert1881-birth
+        death -date 12-oct-1935 -location Carradale -ref robert1881-death
+        partner {
+            name Annie McIntosh
+        }
     }
     child {
         name Mary Galbraith
@@ -35,22 +39,37 @@ partner {
     child {
         name John Alexander Galbraith
         birth -date 1885 -location Saddell -ref john1885-birth
+        death -date 29-oct-1961 -location glasgow -ref john1885-death
+        partner {
+            name Elizabeth McDougall
+        }
     }
     child {
         name Alexander Galbraith
-        birth -date 1887 -location Saddell -ref alexander1887-birth
+        birth -date 19-mar-1887 -location Saddell -ref alexander1887-birth
+        partner {
+            name Eliza Tina Campbell
+        }
     }
     child {
-        name William Cook  Galbraith
+        name William Cook Galbraith2
         birth -date 1888 -location Saddell -ref william1888-birth
+        death -date 1969
     }
     child {
         name Annie Campbell Galbraith
         birth -date 1890 -location Saddell -ref annie1890-birth
+        death -date 1969 -location Saddell -ref annie1969-death
+        partner {
+            name Herbert Laing
+        }
     }
     child {
         name Jemima Galbraith
         birth -date 1892 -location Saddell -ref jemima1892-birth
+        partner {
+            name Robert Paterson
+        }
     }
     child {
         name Catherine Campbell Galbraith
@@ -60,14 +79,14 @@ partner {
         }
     }
     child {
-        name Ellen Elizabath Galbraith
-        birth -date 1897 -location Saddell -ref elizabeth1897-birth
+        name Ellen Elizabeth Galbraith
+        birth -date 1897 -location Saddell -ref ellen1897-birth
     }
     child {
         name Elizabeth Jessie Galbraith
         birth -date 1899 -location Saddell -ref elizabeth1899-birth
         partner {
-            name Duncn McIntosh
+            name Duncan McIntosh
         }
     }
     child {
