@@ -23,7 +23,7 @@ partner {
 partner {
     name Mary Steward McMillan
     birth -date 'about 1872'
-    marriage -date 5-oct-1906 -location campbeltown -ref mcmillian-marriage
+    marriage -date 5-oct-1906 -location campbeltown -ref mcmillan-marriage
 }
 
 footnotes {
