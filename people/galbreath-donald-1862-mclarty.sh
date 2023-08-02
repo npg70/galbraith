@@ -11,14 +11,6 @@ partner {
     death -date 9-july-1943 -location 'Saint Catharines, St. Catharines, Niagara, Ontario, Canada'
     marriage -date 11-jun-1886 -location campbeltown -ref mclarty-marriage
     child {
-        name Archibald Galbreath
-        birth -date 1885 -location saddell 
-        death -date 17-jan-1908 -location ontario,canada
-        body {
-            unconfirmed. Can find no records.
-        }
-    }
-    child {
         name Neil Galbreath
         birth -date 26-nov-1886 -location campbeltown -ref neil1886-birth
     }
