@@ -21,14 +21,7 @@ partner {
             name Donald Bowie
         }
     }
-    child {
-        name William Galbraith
-        birth -date 20-aug-1866 -location campbeltown -ref william1866-birth
-        death -date 3-sep-1944 -location campbeltown -ref william1866-death
-        partner {
-            name Mary Steward McMillan
-        }
-    }
+    child galbraith-william-1866-mclarty-mcmillan
     child galbraith-thomas-mcmurchy-1869-mcculloh-mcaulay
     child {
         name David Galbraith
@@ -67,12 +60,6 @@ footnotes {
     }
     helen1864-birth {
         $sp-ref[b-1864-507-00-0093 "Helen Wallace Galbraith"]
-    }
-    william1866-birth {
-        $sp-ref-link[b-1866-507-00-0166 0056 "William Galbraith"]
-    }
-    william1866-death {
-        $sp-ref-link[d-1944-507-00-0078 0026 "William Galbraith"]
     }
     david1871-birth {
         $sp-ref-link[b-1871-507-00-0199 0067 "David Galbraith"]
