@@ -52,7 +52,7 @@ partner {
         }
     }
     child {
-        name William Cook Galbraith2
+        name William Cook Galbraith
         birth -date 1888 -location Saddell -ref william1888-birth
         death -date 1969
     }
