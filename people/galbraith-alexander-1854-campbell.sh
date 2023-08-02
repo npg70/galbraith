@@ -44,6 +44,8 @@ partner {
             name Elizabeth McDougall
         }
     }
+    child galbraith-alexander-1887-campbell.sh
+
     child {
         name Alexander Galbraith
         birth -date 19-mar-1887 -location Saddell -ref alexander1887-birth
