@@ -7,7 +7,7 @@ partner {
 
     child {
         name Isabella Galbreath
-        birth -date 1858 -location saddell -ref isabella1858-birth
+        birth -date 14-jan-1858 -location saddell -ref isabella1858-birth
         death -date 1858 -location saddell -ref isabella1858-death
     }
     child {
@@ -16,27 +16,40 @@ partner {
     }
     child {
         name _____ Galbreath
+        birth -date 17-may-1861 -location saddell -ref unnamed1861-birth
         death -date 1861 -location saddell -ref unnamed1861-death
     }
     child {
         name Donald Galbreath
-        birth  -date 1862 -location saddell -ref donald1862-birth
+        birth  -date 28-may-1862 -location saddell -ref donald1862-birth
     }
     child {
-        name Mary Galbreath
-        birth -date 1864 -location saddell -ref mary1864-birth
+        name Mary Sinclair Galbreath
+        birth -date 13-apr-1864 -location saddell -ref mary1864-birth
+        death -date 24-apr-1946 -location 'killean and kilchenzie'  -ref mary1864-death
+        partner {
+            name Alexander Keith?
+        }
     }
     child {
         name Isabella Galbreath
-        birth -date 1866 -location saddell -ref isabella1866-birth
+        birth -date 19-may-1866 -location saddell -ref isabella1866-birth
+        death -date 22-apr-1938 -location campbeltown 
+        partner {
+            name Walter Dickson Campbell
+        }
     }
     child {
         name John Galbreath
-        birth -date 1868 -location saddell -ref john1868-birth
+        birth -date 23-aug-1868 -location saddell -ref john1868-birth
     }
     child {
         name Flora Galbreath
-        birth -date 1870 -location saddell -ref flora1870-birth
+        birth -date 1-dec-1870 -location saddell -ref flora1870-birth
+        death -date 21-jul-1942 -location Kilberry -ref flora1870-death
+        partner {
+            name John Reid
+        }
     }
 }
 footnotes {
@@ -71,6 +84,9 @@ footnotes {
     mary1864-birth {
         $sp-ref[b-1864-531-01-0010 "Mary Galbreath"]
     }
+    mary1864-death {
+        $sp-ref-link[d-1946-519-00-0004 0002 "Mary Sinclair Galbraith"]
+    }
     isabella1866-birth {
         $sp-ref[b-1866-531-01-0011 "Isabella Galbreath"]
     }
@@ -79,5 +95,8 @@ footnotes {
     }
     flora1870-birth {
         $sp-ref[b-1870-531-01-0012 "Flora Galbreath"]
+    }
+    flora1870-death {
+        $sp-ref-link[d-1941-533-02-0001 0001 "Flora Galbraith"]
     }
 }
