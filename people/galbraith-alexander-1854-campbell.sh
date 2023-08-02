@@ -46,7 +46,7 @@ partner {
     }
     child {
         name Jemima Galbraith
-        birth -date 1892 -location Saddell -ref jemimam1892-birth
+        birth -date 1892 -location Saddell -ref jemima1892-birth
     }
 }
 
