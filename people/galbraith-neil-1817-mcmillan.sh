@@ -1,4 +1,8 @@
 name Neil Galbraith
+tags 'saddell and skipness' 
+external {
+    familysearch KC75-NQR
+}
 birth -date 'about 1817' -ref neil1817-birth
 death -date 23-mar-1874 -location Saddell -ref neil1817-death
 partner {
