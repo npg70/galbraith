@@ -12,12 +12,15 @@ partner {
     marriage -date 11-jun-1886 -location campbeltown -ref mclarty-marriage
     child {
         name Archibald Galbreath
-        birth -date 1885 -location saddell -ref archibald1885-birth
+        birth -date 1885 -location saddell 
         death -date 17-jan-1908 -location ontario,canada
+        body {
+            unconfirmed. Can find no records.
+        }
     }
     child {
         name Neil Galbreath
-        birth -date 1887
+        birth -date 26-nov-1886 -location campbeltown -ref neil1886-birth
     }
     child galbraith-james-1894-barnie 
 
@@ -30,11 +33,8 @@ footnotes {
     mclarty-marriage {
         $sp-ref-link[m-1886-507-00-0022 0011 "Donald Galbraith" "Catherine McLarty"]
     }
-    archibald1885-birth {
-
-    }
-    neil1887-birth {
-
+    neil1886-birth {
+        $sp-ref-link[b-1886-507-00-0340 0114 "Neil Galbraith"]
     }
     mary1897-birth {
         $sp-ref-link[b-1897-507-00-0060 0020 "Mary Galbraith"] 
