@@ -8,10 +8,12 @@ partner {
     name Mary Richmond
     marriage -date 13-feb-1856 -location campbeltown -ref thomas1828-marriage
 
+    child galbraith-william-1856-colvill
+
     child {
         name Hannah Orr Galbraith
-        birth 8-jan-1858 -location campbeltown -ref hannah1858-birth
-        death 9-dec-1863 -location campbeltown
+        birth -date 8-jan-1858 -location campbeltown -ref hannah1858-birth
+        death -date 9-dec-1863 -location campbeltown
     }
 }
 
