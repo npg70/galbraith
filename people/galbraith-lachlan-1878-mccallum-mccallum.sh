@@ -14,8 +14,20 @@ partner {
     marriage -date 9-jun-1903 -location Killean
 
     child {
+        name Isabella Galbraith
+        birth -date 19-jan-1904 -location Saddell -ref isabella1904-birth
+    }
+    child {
         name Janet Galbraith
-        birth -date 2-feb-1905 -location Saddell
+        birth -date 2-feb-1905 -location Saddell -ref janet1905-birth
+    }
+    child {
+        name Annie Galbraith
+        birth -date 1906 -location saddell -ref annie1906-birth
+    }
+    child {
+        name Mary Jane Galbraith
+        birth -date 1908 -location saddell -ref mary1908-birth
     }
 }
 partner {
@@ -26,5 +38,17 @@ partner {
 footnotes {
     lachlan1878-birth {
         $sp-ref-link[b-1878-531-01-0017 0006 "Lachlan Galbraith"]
+    }
+    isabella1904-birth {
+        $sp-ref-link[b-1904-531-01-0002 0001 "Isabella Galbraith"]
+    }
+    janet1905-birth {
+        $sp-ref[b-1905-531-01-0004 "Janet Galbraith"]
+    }
+    annie1906-birth {
+        $sp-ref[b-1906-531-01-0006 "Annie Galbraith"]
+    }
+    mary1908-birth {
+        $sp-ref[b-1908-531-01-0005 "Mary Jane Galbraith"]
     }
 }
