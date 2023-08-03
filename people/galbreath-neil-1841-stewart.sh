@@ -5,9 +5,6 @@ death -date 21-apr-1873 -location Saddell -ref neil1841-death -note "by drowning
 external {
     familysearch K466-KG9
 }
-todo {
-    Children need splitting out
-}
 partner {
     name Martha Stewart
     birth -date 'about 1841'
@@ -22,15 +19,8 @@ partner {
             name Malcolm McNeilage
         }
     }
-    child {
-        name John Galbraith
-        birth -date 19-nov-1864 -location Saddell -ref john1864-birth
-        death -date 10-may-1932 -location 'at sea' -ref john1864-death
-        partner {
-            name Isabella McTaggart
-            marriage -date 22-jul-1887 -location campbeltown
-        }
-    }
+    child galbraith-john-1864-mctaggart
+
     child {
         name Martha Galbraith
         birth -date 25-mar-1867 -location Saddell -ref martha1867-birth
@@ -65,12 +55,6 @@ footnotes {
     }
     agnes1863-death {
         $sp-ref-link[d-1886-507-00-0138 0046 "Agnes Galbraith"]
-    }
-    john1864-birth {
-        $sp-ref-link[b-1864-531-01-0026 0009 "John Galbreath"]
-    }
-    john1864-death {
-        marine return: "1932 GALBRAITH, JOHN (Statutory registers Deaths 030/MR 260)"
     }
     martha1867-birth {
         $sp-ref-link[b-1867-531-01-0005 0002 "Martha Galbraith"]
