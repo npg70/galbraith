@@ -76,10 +76,7 @@ partner {
         name Jessie Galbraith
         baptism -date 11-nov-1839 -location dalrymple -ref jessie1839-baptism
     }
-    child {
-        name Robert Galbraith
-        baptism -date 27-nov-1840 -location dalrymple -ref robert1840-baptism
-    }
+    child galbraith-robert-1840-flora
 }
 footnotes {
     william1791-baptism {
@@ -116,8 +113,5 @@ footnotes {
     }
     jessie1839-baptism {
         $opr-ref[b-1839-588-000-0030-0087 "Jessie Galbraith"]
-    }
-    robert1840-baptism {
-        $opr-ref[b-1840-588-000-0030-0092 "Robert Galbraith"]
     }
 }
