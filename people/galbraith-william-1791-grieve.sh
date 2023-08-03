@@ -89,12 +89,6 @@ footnotes {
         Find a Grave, database and images (https://www.findagrave.com/memorial/114206412/william-galbraith: accessed 02 April 2023), memorial page for William Galbraith (Dec 1791–1871), Find a Grave Memorial ID 114206412, citing Kilcolmkill Chapel Churchyard, Southend, Argyll and Bute, Scotland; Maintained by Joelle Colville-Hanson (contributor 48735492).     
     }
 
-    thomas1828-death {
-        $sp-ref-link[d-1859-507-00-0011 0004 "Thomas Galbraith"]
-    }
-    thomas1828-marriage {
-        $sp-ref-link[m-1856-507-02-0002 0001 "Thomas Galbraith" "Mary Richmond"]
-    }
     isabella1833-death {
         $sp-ref-link[d-1855-532-00-0012 0004 "Isabella Galbraith"]
         Of note lists "2 months in Southend," and a husband James Auld, an Innkeeper in Glasgow
