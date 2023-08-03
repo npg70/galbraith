@@ -42,29 +42,13 @@ partner {
 
     child galbraith-john-1824-paterson
 
-    child {
-        name Peter Galbraith
-        baptism -date 9-apr-1826 -location dalrymple -ref peter1826-baptism
-        death -date 6-apr-1868 -location Wigtown -ref peter1826-death
-        partner {
-            name Jessie Hannah
-        }
-    }
-    child {
-        name Thomas Galbraith
-        baptism -date 24-jul-1828 -location dalrymple -ref thomas1828-baptism
-        death -date 21-jan-1859 -location campbeltown -ref thomas1828-death
-        partner {
-            name Mary Richmond
-            marriage -date 13-feb-1856 -location campbeltown -ref thomas1828-marriage
-        }
-    }
+    child galbraith-peter-1826-wright
+
     child {
         name Janet Galbraith
         birth -date 17-feb-1831
         baptism -date 23-feb-1831 -location dalrymple -ref janet1831-baptism
         death -date 31-mar-1834 -location dalrymple
-
     }
     child {
         name Isabella Galbraith
@@ -121,15 +105,6 @@ footnotes {
     }
     peter1822-baptism {
         $opr-ref[b-1822-588-000-0030-0013 "Peter Galbraith"]
-    }
-    peter1826-baptism {
-        $opr-ref[b-1826-588-000-0030-0027 "Peter Galbraith"]
-    }
-    peter1826-death {
-        $sp-ref-link[d-1868-895-00-0019 0007 "Peter Galbraith"]
-    }
-    thomas1828-baptism {
-        $opr-ref[b-1828-588-000-0030-0036 "Thomas Galbraith"]
     }
     janet1831-baptism {
         $opr-ref[b-1831-588-000-0030-0045 "Janet Galbraith"]
