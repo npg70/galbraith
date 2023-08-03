@@ -21,14 +21,8 @@ partner {
             name John Paterson
         }
     }
-    child {
-        name Robert Galbraith
-        birth -date 17-sep-1881 -location Saddell -ref robert1881-birth
-        death -date 12-oct-1935 -location Carradale -ref robert1881-death
-        partner {
-            name Annie McIntosh
-        }
-    }
+    child galbraith-robert-1881-mcintosh
+
     child {
         name Mary Galbraith
         birth -date 1883 -location Saddell -ref mary1883-birth
