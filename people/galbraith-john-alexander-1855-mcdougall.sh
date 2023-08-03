@@ -33,7 +33,7 @@ footnotes {
         $sp-ref[d-1961-644-03-1374 "John Alexander Galbraith"]
     }
     mcdougall-marriage {
-        $sp-ref[b-531-01-0002 "John Alexander Galbraith" "Elizabeth McDougall"]
+        $sp-ref[b-1908-531-01-0002 "John Alexander Galbraith" "Elizabeth McDougall"]
     }   
     mcdougall-death {
         $sp-ref[d-1958-531-01-0002 "Elizabeth Galbraith"]
