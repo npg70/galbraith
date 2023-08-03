@@ -44,6 +44,8 @@ partner {
 
     child galbraith-peter-1826-wright
 
+    child galbraith-thomas-1828-richmond
+
     child {
         name Janet Galbraith
         birth -date 17-feb-1831
