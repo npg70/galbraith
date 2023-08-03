@@ -10,6 +10,21 @@ partner {
     marriage -date 1913 -location Saddell -ref mcintosh-marriage
     death -date 19-jan-1961 -location carradale
 
+    child {
+        name Margaret Livingstone Galbraith
+        birth -date 5-jan-1914 -location carradale -ref margaret1914-birth
+    }
+
+    child {
+        name Mary Campbell Galbraith
+        birth -date 22-feb-1917 -location carradale -ref mary1917-birth
+    }
+
+    child {
+        name Ann McIntosh Galbraith
+        birth -date 21-apr-1920 -location carradale -ref ann1920-birth
+    }
+
     child galbraith-alexander-walter-1924-duncan
 }
 
@@ -26,4 +41,11 @@ footnotes {
     mcintosh-death {
        todo 
     }
+    margaret1914-birth {
+        $sp-ref-link[b-1914-531-01-0001 0001 "Margaret Livingstone Galbraith"]
+    }
+    ann1920-birth  {
+        $sp-ref-link[b-1920-531-01-0007 0003 "Ann McIntosh Galbraith"]
+    }
+        
 }
