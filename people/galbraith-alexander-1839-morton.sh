@@ -45,6 +45,6 @@ footnotes {
         $sp-ref[b-1865-573-01-0445 "Alexander Galbraith"]
     }
     alexander1865-death {
-        $sp-ref[d-1884-496-00-0148 0050 "Alexander Galbraith"]
+        $sp-ref-link[d-1884-496-00-0148 0050 "Alexander Galbraith"]
     }
 }
