@@ -31,4 +31,7 @@ partner {
 
 footnotes {
 
+    alexander1887-birth {
+        $sp-ref[b-1887-531-01-0003 "Alexander Galbraith"]
+    }
 }
