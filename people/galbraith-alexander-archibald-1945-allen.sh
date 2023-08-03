@@ -16,7 +16,7 @@ Perhaps the same Archibald involved in the rescue of 10 people from the motor ya
 
 footnotes {
     aa-birth {
-
+        $sp-ref[b-1945-531-01-0005 "Alexander Archibald Galbraith"]
     }
     aa-death {
 
@@ -27,7 +27,7 @@ footnotes {
         $blockquote{Annoucements Feburary 4 2022
 
 GALBRAITH – Peacefully at home, Dunolly, Carradale, on January 25, 2022, Alexander Galbraith (Sandy) in his 77th year, a very beloved husband of Doreen, much loved dad of Lesley, Linda and Alex, loving papa of Lara, Carly, Alex, Cameron, Connor, Emma and James.
-}
+    }
 }
 
     allen-marriage {
