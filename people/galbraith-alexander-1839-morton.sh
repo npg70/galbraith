@@ -1,7 +1,7 @@
 name Alexander Galbraith
 tags paisley 'daughtered out'
 birth -date "about 1839"
-death -date 12-aug-1865 -location paisley -ref alexander-death -note "Died of typhus fever."
+death -date 12-aug-1865 -location paisley -ref alexander1839-death -note "Died of typhus fever."
 partner {
     name Barbara Morton
     birth -date 'about 1839'
@@ -32,7 +32,7 @@ footnotes {
     morton-death {
         $sp-ref-link[d-1871-573-02-0394 0132 "Barbara Galbraith"]
     }
-    alexander-death {
+    alexander1839-death {
         $sp-ref-link[d-1865-573-02-0184 0062 "Alexander Galbraith"]
     }
     barbara1863-birth {
