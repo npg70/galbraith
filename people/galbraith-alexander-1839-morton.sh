@@ -17,7 +17,7 @@ partner {
     }
     child {
         name Alexander Galbraith
-        birth -date 1865 -location Paisley -ref alexnader1865-birth
+        birth -date 1865 -location Paisley -ref alexander1865-birth
         death -date 3-jun-1884 -location Dumbarton -ref alexander1865-death -note "tuberculois, unmarried."
     }
 }
