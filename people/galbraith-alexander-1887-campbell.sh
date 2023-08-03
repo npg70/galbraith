@@ -24,8 +24,9 @@ partner {
         birth -date 11-aug-1921 -location carradale -ref colin1921-birth
     }
     child {
-        name Archibald Galbraith
-        birth -date 'about 1927'
+        name Archibald Cook Galbraith
+        birth -date 'about 1926'
+        death -date 24-apr-1945 -location glasgow -ref archibald1927-death -note umd
     }
 }
 
@@ -42,5 +43,8 @@ footnotes {
     }
     colin1921-birth {
         $sp-ref-link[b-1921-531-01-0004 0002 "Colin Campbell Galbraith"]
+    }
+    archibald1927-death {
+        $sp-ref-link[d-1945-644-13-0459 0153 "Archibald Cook Galbraith"]
     }
 }
