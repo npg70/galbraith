@@ -1,11 +1,12 @@
 name Peter Galbraith
+todo { stub }
 external {
     familysearch K4XV-8MX
 }
 tags dalrymple campbeltown
-
+birth -date 1-apr-1826
 baptism -date 9-apr-1826 -location dalrymple -ref peter1826-baptism
-death -date 6-apr-1868 -location Wigtown -ref peter1826-death
+death -date 10-dec-1902 -location 'Shropshire, England'
 partner {
     name Lilias Wright
     marriage -date 16-may-1853 -location dalrymple
@@ -16,8 +17,4 @@ footnotes {
     peter1826-baptism {
         $opr-ref[b-1826-588-000-0030-0027 "Peter Galbraith"]
     }
-    peter1826-death {
-        $sp-ref-link[d-1868-895-00-0019 0007 "Peter Galbraith"]
-    }
-
 }
