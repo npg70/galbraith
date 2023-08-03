@@ -2,6 +2,7 @@ name John McClannahan Galbraith
 baptism -date 28-mar-1824 -location dalrymple,ayr -ref john1824-baptism
 death -date 25-sep-1904 -location Ayr,Ayr -ref john1824-death
 external {
+    familysearch KCH4-WGS
 }
 partner {
     name Catharine Paterson
