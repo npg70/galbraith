@@ -18,7 +18,7 @@ partner {
 
 footnotes {
     alexander1914-birth {
-        $sp-ref[b-1914-531-01-0008 "Alexandaer Galbraith"]
+        $sp-ref[b-1914-531-01-0008 "Alexander Galbraith"]
     }
     alexnader1914-death {
 
