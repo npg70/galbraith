@@ -7,7 +7,7 @@ external {
 birth -date dec-1888 -location Saddell -ref william1888-birth
 death -date 7-dec-1969 -location lochgilphead -ref william1888-death
 partner {
-    partner Christina Sarah Moss
+    name Christina Sarah Moss
     birth -date 'about 1901'
     marriage -date 3-dec-1924 -location Inverness -ref moss-marriage
 }
