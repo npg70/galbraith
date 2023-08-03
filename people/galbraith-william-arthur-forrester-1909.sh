@@ -1,4 +1,4 @@
-name Willaim Arthur Forresster Galbraith
+name William Arthur Forresster Galbraith
 birth -date 25-jun-1909 -location saddell -ref william1909-birth
 tags "Illegitimate" "Saddell and Skipness"
 body {
