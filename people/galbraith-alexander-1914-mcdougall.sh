@@ -12,7 +12,7 @@ note { Children are incomplete }
 
 partner {
     name  Marion Torrance Semple MacDougall
-
+    marriage -date 1940 -location carradale -ref macdougal-marriage
     child galbraith-alexander-archibald-1945-allen
 }
 
@@ -24,6 +24,6 @@ footnotes {
 
     }
     macdougall-marriage {
-
+        $sp-ref[m-1940-531-01-0004 "Alexander Galbraith" "Marion Torance McDougall"]
     }
 }

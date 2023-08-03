@@ -12,21 +12,15 @@ partner {
     marriage -date 22-jun-1910 -location saddell -ref campbell-marriage
     birth -date 21-feb-1886
     death -date 23-nov-1912 -location campbeltown -ref campbell-death 
-    child {
-        name John Colin Campbell Galbraith
-        birth -date 23-aug-1910 -location carradale -ref john1910-birth
-        death -date 13-feb-1988 -location carradale -ref john1910-death
-        partner {
-            name Mamie M MacDougall
-            birth -date 'about 1916'
-            death -date 3-oct-2003
-        }
-    }
+
+
+    child galbraith-john-colin-campbell-1910-macdougall
+
     child galbraith-alexander-1914-mcdougall
 
     child {
         name Richard Harris Galbraith
-        birth -date 1918 -location carradale -ref richard918-birth
+        birth -date 1918 -location carradale -ref richard1918-birth
         death -date 1995 -location campbeltown -ref richard1918-death
     }
     child {
@@ -49,13 +43,6 @@ footnotes {
     }
     campbell-death {
         $sp-ref-link[d-1972-536-00-0116 0116 "Eliza Tiny Galbraith"]
-    }
-    john1910-birth {
-        $sp-ref-link[b-1910-531-01-0015  0005 "John Colin Campbell Galbraith"]  However the record
-        is for a "John Campbell" with father "Colin Campbell," so there is an error somewhere.
-    }
-    john1910-death {
-        $sp-ref[d-1988-536-00-0016 "John Colin Campbell Galbraith"]
     }
     richard1918-birth {
         $sp-ref[b-1918-531-01-0002 "Richard Harris Galbraith"]
