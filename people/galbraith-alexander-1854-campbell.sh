@@ -46,11 +46,8 @@ partner {
     }
     child galbraith-alexander-1887-campbell
 
-    child {
-        name William Cook Galbraith
-        birth -date 1888 -location Saddell -ref william1888-birth
-        death -date 1969
-    }
+    child galbraith-william-cook-1888-moss
+
     child {
         name Annie Campbell Galbraith
         birth -date 1890 -location Saddell -ref annie1890-birth
@@ -115,9 +112,6 @@ footnotes {
     }
     john1885-birth {
         $sp-ref[b-1885-531-01-0009 "John Alexander"]
-    }
-    william1888-birth {
-        $sp-ref[b-1888-531-01-0026 "William Cook Galbraith"]
     }
     annie1890-birth {
         $sp-ref[b-1890-531-01-0012 "Annie Campbell Galbraith"]
