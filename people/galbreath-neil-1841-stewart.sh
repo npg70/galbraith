@@ -21,15 +21,8 @@ partner {
     }
     child galbraith-john-1864-mctaggart
 
-    child {
-        name Martha Galbraith
-        birth -date 25-mar-1867 -location Saddell -ref martha1867-birth
-        death -date 31-jul-1939 -location Campbeltown -ref martha1867-death
-        partner {
-            name Robert McBain
-            marriage -date 31-dec-1884 -location campbeltown -ref mcbain-marriage
-        }
-    }
+    child galbraith-martha-1867-mcbain
+
     child {
         name Neil Galbraith
         birth -date 23-may-1869 -location campbeltown -ref neil1869-birth
@@ -55,12 +48,6 @@ footnotes {
     }
     agnes1863-death {
         $sp-ref-link[d-1886-507-00-0138 0046 "Agnes Galbraith"]
-    }
-    martha1867-birth {
-        $sp-ref-link[b-1867-531-01-0005 0002 "Martha Galbraith"]
-    }
-    martha1867-death {
-        $sp-ref[d-1939-507-00-0060 "Martha Galbraith"]
     }
     neil1869-birth {
         $sp-ref[b-1869-507-00-0095 "Neil Galbraith"]
