@@ -5,9 +5,6 @@ external {
     familysearch LYTF-2FH
     findagrave 172200082
 }
-todo {
-    Stub
-}
 partner {
     name Mary Campbell
     marriage -date 18-oct-1877 -location saddell
@@ -36,14 +33,8 @@ partner {
         name Mary Galbraith
         birth -date 1883 -location Saddell -ref mary1883-birth
     }
-    child {
-        name John Alexander Galbraith
-        birth -date 1885 -location Saddell -ref john1885-birth
-        death -date 29-oct-1961 -location glasgow -ref john1885-death
-        partner {
-            name Elizabeth McDougall
-        }
-    }
+    child galbraith-john-alexander-1855-mcdougall
+
     child galbraith-alexander-1887-campbell
 
     child galbraith-william-cook-1888-moss
@@ -109,9 +100,6 @@ footnotes {
     }
     mary1883-birth {
         $sp-ref[b-1883-531-01-0020 "Mary Galbraith"]
-    }
-    john1885-birth {
-        $sp-ref[b-1885-531-01-0009 "John Alexander"]
     }
     annie1890-birth {
         $sp-ref[b-1890-531-01-0012 "Annie Campbell Galbraith"]
