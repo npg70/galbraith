@@ -33,15 +33,7 @@ partner {
         birth -date 21-dec-1876 -location saddell -ref isabella1876-birth
     }
 
-    child {
-        name Lachlan Galbraith
-        birth -date 20-nov-1878 -location saddell -ref lachlan1878-birth
-        death -date 8-nov-1961 -location saddell -ref lachlan1878-death
-        partner {
-            name Annie McCallum
-            marriage -date 9-jun-1903 -location Killean
-        }
-    }
+    child galbraith-lachlan-1878-mccallum-mccallum
 
 }
 
