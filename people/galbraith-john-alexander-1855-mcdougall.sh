@@ -27,6 +27,10 @@ partner {
         birth -date 5-sep-1916 -location carradale -ref isobell1916-birth
     }
     child {
+        name Annie Galbraith
+        birth -date 6-jan-1919 -location carradale -ref annie1919-birth
+    }
+    child {
         name Charlotte Catherine Galbraith
         birth -date 14-nov-1920 -location carradale -ref charlotte1920-birth
     }
@@ -55,6 +59,9 @@ footnotes {
     }
     isobell1916-birth {
         $sp-ref-link[b-1916-531-01-0010 0004 "Isobell McDougall Galbraith"]
+    }
+    annie1919-birth {
+        $sp-ref-link[b-1919-531-01-0001 0001 "Annie Galbraith"]
     }
     charlotte1920-birth {
         $sp-ref-link[b-1920-531-01-0017 0006 "Charlotte Catherine Galbraith"]
