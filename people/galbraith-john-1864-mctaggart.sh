@@ -7,7 +7,7 @@ birth -date 19-nov-1864 -location Saddell -ref john1864-birth
 death -date 10-may-1932 -location 'sea' -ref john1864-death
 partner {
     name Isabella McTaggart
-    marriage -date 22-jul-1887 -location campbeltown
+    marriage -date 22-jul-1887 -location campbeltown -ref mctaggart-marriage
 }
 footnotes {
     john1864-birth {
