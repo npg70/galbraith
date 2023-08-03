@@ -3,13 +3,6 @@ tags Campbeltown Paisley
 baptism -date 19-jan-1819 -location campbeltown -ref archibald1819-baptism
 death -date 4-feb-1867 -location paisley -ref archibald1819-death
 
-todo {
-    Son Alexander needs to be split out
-}
-todo {
-    Census need transcribing
-}
-
 body {
 How does a son of a fisherman become a shoemaker? The 1841 UK Census of lists a "Archibald Gilbrieth" in the household of John McIssac who was a shoemaker.4 It would appear Archibald left home to Paisley to intern with another family.
 }
@@ -18,16 +11,8 @@ partner {
     name Sarah McNeil
     marriage -date 30-oct-1841 -location paisley -ref marriage
 
-    child {
-        name Alexander Galbraith
-        birth -date "about 1839"
-        death -date 12-aug-1865 -location paisley -ref alexander-death -note "Died of typhus fever."
-        partner {
-            name Barbara Morton
-            marriage -date 1863 -location paisley -ref alexander-marriage
-        }
-        body { Two child barbara b. 1863  and alexander b. 1865}
-    }
+    child galbraith-alexander-1839-morton
+
     child {
         name Donald Galbraith
         birth -date "about 1844"
@@ -62,12 +47,6 @@ footnotes {
     }
     archibald1819-death {
         $sp-ref-link[d-1869-573-02-0044 0015 "Archibald Galbraith"]
-    }
-    alexander-marriage {
-        $sp-ref-link[m-1863-573-01-0003 0002 "Alexander Galbraith" "Barbara Morton"]
-    }
-    alexander-death {
-        $sp-ref-link[d-1865-573-02-0184 0062 "Alexander Galbraith"]
     }
     sarah1849-death {
         $sp-ref[d-1865-573-02-0166 "Sarah Galbraith"]
