@@ -35,6 +35,24 @@ partner {
 
     child galbraith-lachlan-1878-mccallum-mccallum
 
+    child {
+        name Janet Galbraith
+        birth -date 7-apr-1881 -location saddell -ref janet1881-birth
+    }
+
+    child {
+        name Catherine Galbraith
+        birth -date 1883 -location saddell -ref catherine1883-birth
+        death -date 1927 -location 'Weymouth, Dorset, England, United Kingdom'
+        partner {
+            name John MacKenzie
+            marriage -date 1905 -location glasgow
+        }
+    }
+    child {
+        name Mary Galbraith
+        birth -date 1888 -location saddell -ref mary1888-birth
+    }
 }
 
 footnotes {
@@ -65,5 +83,13 @@ footnotes {
     lachlan1878-birth {
         $sp-ref-link[b-1878-531-01-0017 0006 "Lachlan Galbraith"]
     }
-
+    janet1881-birth {
+        $sp-ref-link[b-1881-531-01-0007 0003 "Janet Galbraith"]
+    }
+    catherine-1883-birth {
+        $sp-ref[b-1883-531-01-0017 "Catherine Galbraith"]
+    }
+    mary1888-birth {
+        $sp-ref[b-1888-531-01-0009 "Mary Galbraith"]
+    }
 }
