@@ -2,6 +2,7 @@ name Donald Galbraith
 tags campbeltown
 external {
     familysearch M1TN-RQF
+    findagrave 149818386
 }
 
 birth -date 15-may-1820 -location islay -note "not registered"
@@ -18,7 +19,7 @@ body {
 }
 
 partner {
-    name Margaret MacMillan Galbraith
+    name Margaret McKillop Galbraith
     birth -date 2-oct-1821 -location renfrewshire
     death -date 25-jan-1903 -location glasgow
     marriage -date 7-jun-1855 -location glasgow -ref galbraith1855-marriage
@@ -34,6 +35,7 @@ partner {
     child {
         name Charles Donald Galbraith
         birth -date 6-feb-1862 -location campbeltown -ref charles1862-birth
+        death -date 8-jun-1888 -note "suicide"
     }
 }
 footnotes {
