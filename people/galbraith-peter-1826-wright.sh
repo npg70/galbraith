@@ -12,6 +12,9 @@ partner {
     marriage -date 16-may-1853 -location dalrymple
     birth -date 2-may-1832 -location 'St Quivox, Ayrshire, Scotland, United Kingdom'
     death -date 3-dec-1903 -location 'Shropshire, England, United Kingdom'
+
+    child {
+        name William 
 }
 footnotes {
     peter1826-baptism {

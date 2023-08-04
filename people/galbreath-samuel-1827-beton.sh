@@ -16,6 +16,10 @@ partner {
     body {
         daughter of John Beaton, sea man, and Janet Langwill
     }
+    child {
+        name Samuel Galbraith
+        birth -date 2-dec-1860 -location campbeltown -ref samuel1860-birth
+    }
 }
 
 footnotes {
@@ -34,5 +38,8 @@ footnotes {
     }
     beton-marriage {
         $sp-ref-link[m-1860-507-00-0007 0002 "Samuel Galbraith" "Margaret Beaton"]
+    }
+    samuel1860-birth {
+        $sp-ref-link[b-1860-507-00-0230 0077 "Samuel Galbraith"]
     }
 }
