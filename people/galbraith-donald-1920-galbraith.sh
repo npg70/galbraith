@@ -1,5 +1,12 @@
 name Donald Galbraith
+tags campbeltown
+external {
+    familysearch M1TN-RQF
+}
+
 birth -date 15-may-1820 -location islay -note "not registered"
+death -date 22-mar-1863 -location clachan
+
 body {
     Donald's parents were Lachlan Galbraith and Mary McArthur.
 }
@@ -12,7 +19,8 @@ body {
 
 partner {
     name Margaret MacMillan Galbraith
-    birth -date 2-oct-1821
+    birth -date 2-oct-1821 -location renfrewshire
+    death -date 25-jan-1903 -location glasgow
     marriage -date 7-jun-1855 -location glasgow -ref galbraith1855-marriage
 
     child {
