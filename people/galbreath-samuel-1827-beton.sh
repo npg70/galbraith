@@ -6,7 +6,7 @@ external {
     familysearch K82L-QRQ
 }
 body {
-    Samuel drowned six months after being married. No known children.
+    Samuel drowned six months after being married, while his was pregnant.
 }
 
 partner {
@@ -19,6 +19,7 @@ partner {
     child {
         name Samuel Galbraith
         birth -date 2-dec-1860 -location campbeltown -ref samuel1860-birth
+        death -date 3-oct-1861 -location cannongate,edinburgh -ref samuel1860-death
     }
 }
 
@@ -41,5 +42,8 @@ footnotes {
     }
     samuel1860-birth {
         $sp-ref-link[b-1860-507-00-0230 0077 "Samuel Galbraith"]
+    }
+    samuel1860-death {
+        $sp-ref-link[d-1861-685-03-0854 0285 "Samuel Galbraith"]
     }
 }
