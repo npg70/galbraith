@@ -15,6 +15,7 @@ partner {
 
     child {
         name William 
+    }
 }
 footnotes {
     peter1826-baptism {

@@ -24,6 +24,10 @@ partner {
     marriage -date 7-jun-1855 -location glasgow -ref galbraith1855-marriage
 
     child {
+        name John Alexander Galbraith
+        birth -date 26-mar-1858 -location campbeltown -ref john1858
+    }
+    child {
         name James Lachlan Galbraith
         birth -date 25-mar-1860 -location campbeltown -ref james1860
     }
@@ -35,6 +39,9 @@ partner {
 footnotes {
     galbraith1855-marriage {
         $sp-ref-link[m-1855-644-06-0178 0089 "Donald Galbraith" "Margaret M Galbraith"]
+    }
+    john1858-birth {
+        $sp-ref-link[b-1858-507-00-0050 0017 "John Alexander Galbraith"]
     }
     james1860-birth {
         $sp-ref-link[b-1860-507-00-0085 0029 "James Lachlan Galbraith"]
