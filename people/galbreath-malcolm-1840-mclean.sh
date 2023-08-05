@@ -9,6 +9,10 @@ partner {
     name Catherine McLean
     marriage -date 16-jun-1863 -location campbeltown -ref mclean-marriage
     child {
+        name Catherine Galbraith
+        birth -date 22-may-1865 -location campbeltown -ref catherine1865-birth
+    }
+    child {
         name Flora McNeill Galbraith
         birth -date 27-jan-1867 -location campbeltown -ref flora1867-birth
     }
@@ -28,6 +32,9 @@ footnotes {
     }
     mcneil-marriage {
         $sp-ref-link[m-1863-507-00-0024 0012 "Malcolm Galbraith" "Catherine McNeil"]
+    }
+    catherine1865-birth {
+        $sp-ref-link[b-1865-507-00-0098 0033 "Catherine Galbraith"]
     }
     flora1867-birth {
         $sp-ref-link[b-1867-507-00-0024 0009 "Flora McNeill Galbraith"]
