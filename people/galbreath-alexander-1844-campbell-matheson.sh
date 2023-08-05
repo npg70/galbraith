@@ -79,31 +79,31 @@ footnotes {
         $sp-ref-link[d-1883-507-00-0212 0071 "Alexander Galbraith"]
     }
     campbell-marriage {
-
+        $sp-ref-link[m-1864-507-00-0031 0016 "Alexander Galbraith" "FLora Campbell"]
     }
     campbell-death {
         $sp-ref-link[d-1875-507-00-0098 0033 "Flora Galbraith"]
     }
     james1870-birth {
-
+        $sp-ref-link[b-1870-644-01-2129 0710 "James Galbraith"]
     }
     james1870-death {
         $sp-ref-link[d-1871-644-07-0665 0222 "James Galbraith"]
     }
     archibald1872-birth {
-       
+        $sp-ref[b-1872-644-07-1146 "Archibald Galbraith"]       
     }
     archibald1872-death {
         $sp-ref-link[d-1943-644-17-0576 0192 "Archibald Galbraith"]
     }
     agnes1874-birth {
-
+        $sp-ref[b-1874-644-07-1631 "Agnes McMillan Galbraith"]
     }
     agnes1874-death {
         $sp-ref[d-1874-644-07-1357 "Agnes McMillan Galbraith"]
     }
     matheson-marriage {
-
+        $sp-ref[m-1876-507-00-0049 "Alexander Galbraith" "Agnes Matheson"]
     }
     matheson-death {
         $sp-ref[d-1924-507-00-0104 "Agnes Galbraith"]
