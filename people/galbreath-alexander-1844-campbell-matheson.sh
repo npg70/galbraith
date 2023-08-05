@@ -24,20 +24,27 @@ partner {
     child {
         name James Galbraith
         birth -date 26-sep-1870 -location glasgow -ref james1870-birth
+        death -date 6-jul-1871 -location glasgow -ref james1870-death
     }
     child {
         name Archibald Galbraith
         birth -date 11-jun-1872 -location glasgow -ref archibald1872-birth
+        death -date 7-jun-1943 -location govan,glasgow -ref archibald1872-death
+        partner {
+            name Mary McArthur
+        }
     }
     child {
         name Agnes McMillan Galbraith
-        birth -date 11-jun-1872 -location glasgow -ref agnes1872-birth
+        birth -date 26-aug-1874 -location glasgow -ref agnes1874-birth
+        death -date 1874 -location glasgow -ref agnes1874-death
     }
 }
 partner {
     name Agnes Matheson
     marriage -date 3-oct-1876 -location campbeltown -ref matheson-marriage
-
+    birth -date 26-jan-1841 -location campbeltown
+    death -date 11-oct-1924 -location campbeltown -ref matheson-death
     child {
         name Angus Galbraith
         birth -date 4-mar-1877 -location campbeltown -ref angus1877-birth
@@ -77,8 +84,29 @@ footnotes {
     campbell-death {
         $sp-ref-link[d-1875-507-00-0098 0033 "Flora Galbraith"]
     }
+    james1870-birth {
+
+    }
+    james1870-death {
+        $sp-ref-link[d-1871-644-07-0665 0222 "James Galbraith"]
+    }
+    archibald1872-birth {
+       
+    }
+    archibald1872-death {
+        $sp-ref-link[d-1943-644-17-0576 0192 "Archibald Galbraith"]
+    }
+    agnes1874-birth {
+
+    }
+    agnes1874-death {
+        $sp-ref[d-1874-644-07-1357 "Agnes McMillan Galbraith"]
+    }
     matheson-marriage {
 
+    }
+    matheson-death {
+        $sp-ref[d-1924-507-00-0104 "Agnes Galbraith"]
     }
     angus1877-birth {
        $sp-ref-link[b-1877-507-00-0083 0028 "Angus Galbraith"] 
