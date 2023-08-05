@@ -17,10 +17,10 @@ partner {
 }
 
 footnotes {
-    alexander1854-birth {
+    alexander1864-birth {
         $sp-ref-link[b-1865-507-00-0004 0002 "Alexander Galbraith"]. Born in 1864 but recorded in 1865.
     }
-    alexander1854-death {
+    alexander1864-death {
         $sp-ref-link[d-1930-507-00-0094 0032 "Alexander Galbraith"]
     }
     mcintyre-marriage {
