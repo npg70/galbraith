@@ -8,14 +8,34 @@ external {
 todo {
     Incomplete: see https://github.com/npg70/galbreath-old/blob/main/people/galbraith-alexander-1844.md
 }
-todo {
-    missing references in footnotes
+body {
+    He was a distillery workman or maltster.
 }
-
 partner {
     name Flora Campbell
+    birth -date 2-nov-1845 -location southend
     marriage -date 6-oct-1864 -location campbeltown -ref campbell-marriage
     death -date 15-aug-1875 -location campbeltown -ref campbell-death
+
+    child galbraith-alexander-1864-mcintyre
+
+    child {
+        name John Galbraith
+        birth -date 19-jul-1867 -location glasgow -ref john1867-birth
+        death -date 12-feb-1880 -location campbeltown -ref john1867-death -note umd
+    }
+    child {
+        name James Galbraith
+        birth -date 26-sep-1870 -location glasgow -ref james1870-birth
+    }
+    child {
+        name Archibald Galbraith
+        birth -date 11-jun-1872 -location glasgow -ref archibald1872-birth
+    }
+    child {
+        name Agnes McMillan Galbraith
+        birth -date 11-jun-1872 -location glasgow -ref agnes1872-birth
+    }
 }
 partner {
     name Agnes Matheson
