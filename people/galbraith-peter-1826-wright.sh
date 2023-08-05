@@ -14,6 +14,14 @@ partner {
     death -date 3-dec-1903 -location 'Shropshire, England, United Kingdom'
 
     child {
+        name Peter Galbraith
+        birth -date 18-jan-1868 -location campbeltown -ref peter1868-birth
+    }
+    child {
+        name Peter Galbraith
+        birth -date 22-jan-1871 -location campbeltown -ref peter1871-birth
+    }
+    child {
         name William 
     }
 }
@@ -21,4 +29,11 @@ footnotes {
     peter1826-baptism {
         $opr-ref[b-1826-588-000-0030-0027 "Peter Galbraith"]
     }
+    peter1868-birth {
+        $sp-ref-link[b-1868-507-00-0025 0009 "Peter Galbraith"]
+    }
+    peter1871-birth  {
+        $sp-ref-link[b-1871-507-00-0024 0008 "Peter Galbraith"]
+    }
+        
 }
