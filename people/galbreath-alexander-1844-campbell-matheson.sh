@@ -5,9 +5,6 @@ death -date 25-dec-1883 -location campbeltown -ref alexander1844-death
 external {
     familysearch K8D5-31F
 }
-todo {
-    Incomplete: see https://github.com/npg70/galbreath-old/blob/main/people/galbraith-alexander-1844.md
-}
 body {
     He was a distillery workman or maltster.
 }
