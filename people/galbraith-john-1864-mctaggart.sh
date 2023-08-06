@@ -17,6 +17,6 @@ footnotes {
         marine return: "1932 GALBRAITH, JOHN (Statutory registers Deaths 030/MR 260)"
     }
     mctaggart-marriage {
-        $sp-ref-link[b-1887-507-00-0028 0014 "John Galbraith" "Isabella McTaggart"]
+        $sp-ref-link[m-1887-507-00-0028 0014 "John Galbraith" "Isabella McTaggart"]
     }
 }
