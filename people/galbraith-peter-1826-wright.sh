@@ -14,6 +14,10 @@ partner {
     death -date 3-dec-1903 -location 'Shropshire, England, United Kingdom'
 
     child {
+        name William Galbraith
+        birth -date 10-jun-1858 -location campbeltown -ref william1858-birth
+    }
+    child {
         name David Wright Galbraith
         birth -date 18-mar-1860 -location campbeltown -ref david1860-birth
     }
@@ -50,6 +54,9 @@ partner {
 footnotes {
     peter1826-baptism {
         $opr-ref[b-1826-588-000-0030-0027 "Peter Galbraith"]
+    }
+    william1858-birth {
+        $sp-ref-link[b-1858-507-00-0101 0034 "William Galbraith"]
     }
     lilias1862-birth {
         $sp-ref[b-1862-507-00-0034 "Lilias Wright Galbraith"]
