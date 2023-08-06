@@ -58,6 +58,9 @@ footnotes {
     william1858-birth {
         $sp-ref-link[b-1858-507-00-0101 0034 "William Galbraith"]
     }
+    david1860-birth {
+        $sp-ref[b-1860-507-00-0073 "David Wright Galbraith"]
+    }
     lilias1862-birth {
         $sp-ref[b-1862-507-00-0034 "Lilias Wright Galbraith"]
     }
