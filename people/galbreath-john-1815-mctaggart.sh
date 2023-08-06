@@ -12,20 +12,17 @@ partner {
         name Annabella Galbreath
         baptism -date 29-nov-1840 -location campbeltown -ref annabella1840-baptism
     }
-    child {
-        name Archibald Galbreath
-        baptism -date 25-sep-1842 -location campbeltown -ref archibald1842-baptism
-    }
+    child galbreath-archibald-1842-omay
     child galbreath-alexander-1844-campbell-matheson 
     child {
         name John Galbreath
         baptism -date 8-dec-1845 -location campbeltown -ref john1845-baptism
-        death -date 5-jun-1916 -location greenock -ref john1845-death
+        death -date 5-jun-1916 -location greenock -ref john1845-death -note umd
     }
     child {
         name Duncan Galbraith
         baptism -date 12-feb-1851 -location campbeltown -ref duncan1851-baptism
-        death -date 10-mar-1885 -location southend -ref duncan1851-death -note umn
+        death -date 10-mar-1885 -location southend -ref duncan1851-death -note umd
     }
 }
 
@@ -44,9 +41,6 @@ footnotes {
     }
     annabella1840-baptism {
         $opr-ref[b-1840-507-000-0070-0184 "Annabella Galbreath"]
-    }
-    archibald1842-baptism {
-        $opr-ref-link[b-1842-507-000-0070-0226 "Archibald Galbreath"]
     }
     john1845-baptism {
         $opr-ref[b-1847-507-000-0070-0328 "John Galbreath"]
