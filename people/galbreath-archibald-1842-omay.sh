@@ -17,6 +17,8 @@ partner {
 
     child galbraith-william-1870-mcmillan
 
+    child galbraith-john-china-1871
+
     child {
         name Mary Galbraith
         birth -date 16-jan-1874 -location campbeltown -ref mary1874-birth
