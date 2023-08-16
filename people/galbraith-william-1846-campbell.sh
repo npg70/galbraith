@@ -1,10 +1,9 @@
 name William Galbraith
 tags Southend Campbeltown
-baptism {
-  date 2-mar-1846 
-  location campbeltown
-  ref william1846-baptism
+external {
+    findagrave 178695335
 }
+baptism -date 2-mar-1846 -location campbeltown -ref william1846-baptism
 death -date 21-may-1926 -location campbeltown -ref william1846-death
 body {
 He was a mason, like his father.
@@ -28,14 +27,11 @@ partner {
     child {
         name Alexander Galbraith
         birth -date 1-may-1872 -location campbeltown -ref alexander1872-birth
+        death -date 1873 -location campbeltown -ref alexander1872-death
     }
     child {
         name Charles Campbell Galbraith
-        birth {
-           date 26-aug-1888 
-           location campbeltown
-           ref charles1888-birth
-       }
+        birth -date 26-aug-1888 -location campbeltown -ref charles1888-birth
     }
 }
 footnotes {
@@ -53,6 +49,9 @@ footnotes {
     }
     alexander1872-birth {
         $sp-ref-link[b-1872-507-00-0100 0034 "Alexander Galbraith"]
+    }
+    alexander1872-death {
+        $sp-ref[d-1873-507-00-0104 "Alexander Galbraith"]
     }
     charles1888-birth {
         $sp-ref-link[b-1888-507-00-0263 0088 "Charles Campbell Galbraith"]
