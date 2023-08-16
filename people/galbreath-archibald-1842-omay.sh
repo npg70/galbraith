@@ -31,6 +31,12 @@ partner {
     }
 }
 footnotes {
+    archibald1842-baptism {
+        $opr-ref-link[b-1842-507-000-0070-0226 "Archibald Galbreth"]
+    }
+    archibald1842-death {
+        $sp-ref-link[d-1896-507-00-0109 0037 "Archibald Galbraith"]`
+    }
     omay-marriage {
         $sp-ref-link[m-1869-507-00-0041 0021 "Archibald Galbraith" "Agnes O'May"]
     }
