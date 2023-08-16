@@ -13,11 +13,8 @@ body {
 }
 partner {
     name Helen Campbell
-    marriage {
-      date 22-jun-1869 
-      location Southend
-      ref campbell-marriage
-    }
+    marriage -date 22-jun-1869 -location Southend -ref campbell-marriage
+
     child galbraith-william-campbell-1869-mitchell
 
     child {
@@ -44,7 +41,7 @@ footnotes {
     campbell-marriage {
         $sp-ref-link[m-1869-532-00-0004 0002 "William Galbraith" "Helen Campbell"]
     }
-    neil1871-birth {
+    neil1870-birth {
         $sp-ref-link[b-1870-532-00-0025 0009 "Neil Galbreath"] Note registration as "Galbreath."
     }
     alexander1872-birth {
