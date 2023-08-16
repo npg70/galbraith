@@ -15,6 +15,8 @@ partner {
 
     marriage -date 8-dec-1869 -location campbeltown -ref omay-marriage
 
+    child galbraith-william-1870-mcmillan
+
     child {
         name Mary Galbraith
         birth -date 16-jan-1874 -location campbeltown -ref mary1874-birth
@@ -29,6 +31,16 @@ partner {
     }
 }
 footnotes {
-
-
+    omay-marriage {
+        $sp-ref-link[m-1869-507-00-0041 0021 "Archibald Galbraith" "Agnes O'May"]
+    }
+    mary1874-birth {
+        $sp-ref[b-1874-507-00-0023 "Mary Galbraith"]
+    }
+    archibald1881-birth {
+        $sp-ref-link[b-1881-507-00-0092 0031 "Archibald Galbraith"]
+    }
+    agnes1881-birth {
+        $sp-ref-link[b-1883-507-00-0023 0008 "Agnes Leoran Galbraith"]
+    }
 }
