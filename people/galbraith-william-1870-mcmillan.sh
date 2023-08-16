@@ -4,7 +4,7 @@ external {
     familysearch M1YM-JW4
 }
 intro {
-    Brutally murdered his wife, and after prision supposedly moved to Canada to be with his children.
+    Brutally murdered his wife, and after prison supposedly moved to Canada to be with his children.
 }
 birth -date 5-apr-1870 -location campbeltown -ref william1870-birth
 
@@ -51,6 +51,6 @@ footnotes {
         $sp-ref-link[b-1895-507-00-0166 0056 "Archibald Galbraith"]
     }
     malcolm1897-birth {
-        $sp-ref-link[b-1897-507-00-0033 0011 'Malcolm McMillan Galbraith"]
+        $sp-ref-link[b-1897-507-00-0033 0011 "Malcolm McMillan Galbraith"]
     }
 }
