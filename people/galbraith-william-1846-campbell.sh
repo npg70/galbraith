@@ -1,4 +1,5 @@
 name William Galbraith
+tags Southend Campbeltown
 baptism {
   date 2-mar-1846 
   location campbeltown
@@ -19,6 +20,15 @@ partner {
       ref campbell-marriage
     }
     child galbraith-william-campbell-1869-mitchell
+
+    child {
+        name Neil Galbreath
+        birth -date 1-jul-1870 -location southend -ref neil1870-birth
+    }
+    child {
+        name Alexander Galbraith
+        birth -date 1-may-1872 -location campbeltown -ref alexander1872-birth
+    }
     child {
         name Charles Campbell Galbraith
         birth {
@@ -37,6 +47,12 @@ footnotes {
     }
     campbell-marriage {
         $sp-ref-link[m-1869-532-00-0004 0002 "William Galbraith" "Helen Campbell"]
+    }
+    neil1871-birth {
+        $sp-ref-link[b-1870-532-00-0025 0009 "Neil Galbreath"] Note registration as "Galbreath."
+    }
+    alexander1872-birth {
+        $sp-ref-link[b-1872-507-00-0100 0034 "Alexander Galbraith"]
     }
     charles1888-birth {
         $sp-ref-link[b-1888-507-00-0263 0088 "Charles Campbell Galbraith"]

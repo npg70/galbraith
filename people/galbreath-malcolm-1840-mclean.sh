@@ -20,6 +20,10 @@ partner {
         name Margaret Galbraith
         birth -date 2-aug-1868 -location campbeltown -ref margaret1868-birth
     }
+    child {
+        name Donald Galbraith
+        birth -date 24-jun-1871 -location campbeltown -ref donald1871-birth
+    }
 }
 
 body {
@@ -41,5 +45,8 @@ footnotes {
     }
     margaret1868-birth {
         $sp-ref-link[b-1868-507-00-0174 0058 "Margaret Galbraith"]
+    }
+    donald1871-birth {
+        $sp-ref-link[b-1871-507-00-0157 0053 "Donald Galbraith"]
     }
 }
