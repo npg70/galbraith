@@ -21,6 +21,10 @@ partner {
         birth -date 2-aug-1868 -location campbeltown -ref margaret1868-birth
     }
     child {
+        name Mary Galbraith
+        birth -date feb-1870 -location campbeltown -ref mary1870-birth
+    }
+    child {
         name Donald Galbraith
         birth -date 24-jun-1871 -location campbeltown -ref donald1871-birth
     }
@@ -61,6 +65,9 @@ footnotes {
     }
     margaret1868-birth {
         $sp-ref-link[b-1868-507-00-0174 0058 "Margaret Galbraith"]
+    }
+    mary1870-birth {
+        $sp-ref-link[b-1870-507-00-0049 0017 "Mary Galbraith"]. Record is very difficult to read.
     }
     donald1871-birth {
         $sp-ref-link[b-1871-507-00-0157 0053 "Donald Galbraith"]
