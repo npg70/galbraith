@@ -24,6 +24,22 @@ partner {
         name Donald Galbraith
         birth -date 24-jun-1871 -location campbeltown -ref donald1871-birth
     }
+    child {
+        name Duncan Galbraith
+        birth -date 15-feb-1878 -location campbeltown -ref duncan1878-birth
+    }
+    child {
+        name Malcolm Galbraith
+        birth -date 26-jul-1879 -location campbeltown -ref malcolm1879-birth
+    }
+    child {
+        name Jessie Galbraith
+        birth -date 12-jul-1880 -location campbeltown -ref jessie1880-birth
+    }
+    child {
+        name Lizzy Ann Galbraith
+        birth -date 5-jun-1882 -location campbeltown -ref lizzy1882-birth
+    }
 }
 
 body {
@@ -48,5 +64,17 @@ footnotes {
     }
     donald1871-birth {
         $sp-ref-link[b-1871-507-00-0157 0053 "Donald Galbraith"]
+    }
+    duncan1878-birth {
+        $sp-ref-link[b-1878-507-00-0065 0022 "Duncan McLean Galbraith"]
+    }
+    malcolm1879-birth {
+        $sp-ref-link[b-1879-507-00-0196 0066 "Malcolm Galbraith"]
+    }
+    jessie1880-birth {
+        $sp-ref-link[b-1880-507-00-0213 0071 "Jessie Galbraith"]
+    }
+    lizzy1882-birth {
+        $sp-ref-link[b-1882-507-00-0152 0051 "Lizzy Ann Galbraith"]
     }
 }
