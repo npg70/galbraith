@@ -21,7 +21,9 @@ partner {
     birth -date 'about 1806'
     marriage -date 7-jun-1832 -location Gigha -ref smith1806-marriage
     death -date 29-apr-1885 -location campbeltown -ref smith1806-death
+
     child galbreath-john-1833-mccallum
+
     child {
         name Neill Galbreath
         baptism -date 5-Mar-1835 -location Gigha -ref neil1835-baptism
@@ -42,15 +44,9 @@ partner {
             unmarried
         }
     }
-    child {
-        name Duncan Galbraith
-        baptism -date 27-apr-1841 -location campbeltown -ref duncan1841-baptism
-        death -date 14-feb-1890 -location campbeltown -ref duncan1841-death
-        partner {
-            name Jessie Mitchell
-            marriage -date 24-jan-1878 -location campbeltown
-        }
-    }
+
+    child galbraith-duncan-1841-mitchell
+
     child {
         name Donald Galbreath
         baptism -date 30-Sep-1845 -location Campbeltown -ref donald1845-baptism
@@ -91,12 +87,6 @@ footnotes {
     }
     margaret1838-death {
         $sp-ref-link[d-1862-507-00-0055 0019 "Margaret Galbraith"]
-    }
-    duncan1841-baptism {
-        $opr-ref[b-1841-507-000-0070-0195 "Duncan Galbreath"]
-    }
-    duncan1841-death {
-        $sp-ref-link[d-1890-507-00-0026 0009 "Duncan Galbraith"]
     }
     donald1845-baptism {
         $opr-ref[b-1845-507-000-0070-0291 "Donald Galbreath"]

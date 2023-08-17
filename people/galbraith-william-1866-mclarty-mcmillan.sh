@@ -7,6 +7,12 @@ partner {
     birth -date 'about 1869'
     death -date 24-dec-1901 -location campebeltown -ref mclarty-death
     marriage -date 18-dec-1893 -location campbeltown -ref mclarty-marriage
+
+    child {
+        name John McLarty Galbraith
+        birth -date 13-nov-1893 -location campbeltown -ref john1893-birth -note "illegitimate as born before marriage."
+
+    }
     child {
         name James McLarty Galbraith
         birth -date 25-mar-1897 -location campbeltown -ref james1897-birth
@@ -35,6 +41,9 @@ footnotes {
     }
     mclarty-marriage {
         $sp-ref-link[m-1893-507-00-0039 0020 "William Galbraith" "Jessie McLarty"]
+    }
+    john1893-birth {
+        $sp-ref-link[b-1893-507-00-0343 0115 "John McLarty Galbraith"]
     }
     james1897-birth {
         $sp-ref-link[b-1897-507-00-0080 0027 "James McLarty Galbraith"]

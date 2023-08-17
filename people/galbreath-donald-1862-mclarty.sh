@@ -14,6 +14,15 @@ partner {
         name Neil Galbreath
         birth -date 26-nov-1886 -location campbeltown -ref neil1886-birth
     }
+    child {
+        name Catherine McCallum Galbraith
+        birth -date 20-dec-1888 -location campbeltown -ref catherine1888-birth
+    }
+    child {
+        name Isabella Galbraith
+        birth -date 10-nov-1890 -location campbeltown -ref isabella1890-birth
+        death -date 11-nov-1890 -location campbeltown -ref isabella1890-death
+    }
     child galbraith-james-1894-barnie 
 
     child {
@@ -27,6 +36,12 @@ footnotes {
     }
     neil1886-birth {
         $sp-ref-link[b-1886-507-00-0340 0114 "Neil Galbraith"]
+    }
+    catherine1888-birth {
+        $sp-ref-link[b-1889-507-00-0006 0002 "Caatherine McCallum Galbraith"]
+    }
+    isabella1890-birth {
+        $sp-ref-link[b-1890-507-00-0302 0101 "Isabella Galbraith"]
     }
     mary1897-birth {
         $sp-ref-link[b-1897-507-00-0060 0020 "Mary Galbraith"] 
