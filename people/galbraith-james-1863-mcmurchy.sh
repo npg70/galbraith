@@ -27,6 +27,7 @@ partner {
     child {
         name Lilly Galbraith
         birth -date 6-sep-1888 -location campbeltown -ref lilly1888-birth
+        death -date 23-jun-1963 -location lochgilphead -ref lilly1888-death -note umd
     }
     child {
         name Maggie McKinlay Galbraith
@@ -51,7 +52,7 @@ footnotes {
         $sp-ref-link[b-1863-531-01-0011 0004 "James MacLean"].  Birth occurred before marriage, and is recorded without father.  Normally there is a RCE that corrects this but that appears absent.
     }
     james1863-death {
-        TBD
+        $sp-ref-link[d-1898-507-00-0054 0018 "James Galbraith"]
     }
     mcmurchy-marriage {
         $sp-ref-link[m-1886-507-00-0021 0011 "James Galbraith" "Mary McMurchy"]
@@ -65,11 +66,14 @@ footnotes {
     lilly1888-birth {
         $sp-ref-link[b-1888-507-00-0271 0091 "Lilly Galbraith"]
     }
+    lilly1888-death {
+        $sp-ref-link[d-1963-526-00-0045 0015 "Lilly Galbraith"]
+    }
     maggie1890-birth {
         $sp-ref[b-1890-507-00-0274 "Maggie McKinlay Galbraith"]
     }
     maggie1890-death {
-        TBD
+        $sp-ref[d-1890-507-00-0067 "Margaret Galbraith"]
     }
     flora1892-birth {
         $sp-ref[b-1892-507-00-0301 "Flora Galbraith"]

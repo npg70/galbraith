@@ -65,11 +65,11 @@ partner {
     child {
         name Malcolm Galbraith
         birth -date 26-jul-1879 -location campbeltown -ref malcolm1879-birth
+        death -date 1879 -location campbeltown -ref malcolm1879-death
     }
     child {
         name Jessie Galbraith
         birth -date 12-jul-1880 -location campbeltown -ref jessie1880-birth
-        death -date 6-aug-1908
     }
     child {
         name Lizzy Ann Galbraith
@@ -118,6 +118,9 @@ footnotes {
     }
     malcolm1879-birth {
         $sp-ref-link[b-1879-507-00-0196 0066 "Malcolm Galbraith"]
+    }
+    malcolm1879-death {
+        $sp-ref[d-1879-507-00-0120 "Malcolm Galbraith"]
     }
     jessie1880-birth {
         $sp-ref-link[b-1880-507-00-0213 0071 "Jessie Galbraith"]
