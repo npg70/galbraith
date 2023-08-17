@@ -29,6 +29,18 @@ partner {
         birth -date 24-jun-1871 -location campbeltown -ref donald1871-birth
     }
     child {
+        name Lilly Galbraith
+        birth -date 2-apr-1873 -location campbeltown -ref lilly1873-birth
+    }
+    child {
+        name Isabella Galbratih
+        birth -date 10-feb-1875 -location campbeltown -ref isabella1875-birth
+    }
+    child {
+        name Neil Galbraith
+        birth -date 20-jun-1876 -location campbeltown -ref neil1876-birth
+    }
+    child {
         name Duncan Galbraith
         birth -date 15-feb-1878 -location campbeltown -ref duncan1878-birth
     }
@@ -71,6 +83,15 @@ footnotes {
     }
     donald1871-birth {
         $sp-ref-link[b-1871-507-00-0157 0053 "Donald Galbraith"]
+    }
+    lilly1873-birth {
+        $sp-ref-link[b-1873-507-00-0099 0033 "Lilly Galbraith"]
+    }
+    isabella1875-birth {
+        $sp-ref-link[b-1875-507-00-0050 0017 "Isabella Galbraith"]
+    }
+    neil1876-birth {
+        $sp-ref-link[b-1876-507-00-0157 0053 "Neil Galbraith"]
     }
     duncan1878-birth {
         $sp-ref-link[b-1878-507-00-0065 0022 "Duncan McLean Galbraith"]

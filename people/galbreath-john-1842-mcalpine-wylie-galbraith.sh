@@ -31,7 +31,7 @@ partner {
         death -date 1876 -location campbeltown -ref mary1871-death
     }
     child {
-        name Isabella Greenless Galbraith
+        name Isabella Greenlees Galbraith
         birth -date 1873 -location campbeltown -ref isabella1873-birth
         death -date 1876 -location campbeltown -ref isabella1873-death
     }
@@ -125,7 +125,7 @@ footnotes {
         $sp-ref[d-1876-507-00-0023 "Mary Agnes Galbraith"]
     }
     isabella1873-birth {
-        $sp-ref[b-1873-507-00-0144 "Isabella Greenless Galbraith"]    
+        $sp-ref[b-1873-507-00-0144 "Isabella Greenlees Galbraith"]    
     }
     isabella1873-death {
         $sp-ref[d-1876-507-00-0042 "Isabella Greenlees Galbraith"]
