@@ -1,13 +1,17 @@
 name Malcolm Galbreath
-tags 'Gigha'
+tags 'Gigha' campbeltown
 external {
-
+    familysearch L43J-F7N
 }
 
 birth -date 21-may-1840 -location gigha -ref malcolm1840-birth
 partner {
     name Catherine McLean
+    birth -date 25-apr-1842
     marriage -date 16-jun-1863 -location campbeltown -ref mclean-marriage
+
+    child galbraith-james-1863-mcmurchy
+
     child {
         name Catherine Galbraith
         birth -date 22-may-1865 -location campbeltown -ref catherine1865-birth
@@ -15,10 +19,19 @@ partner {
     child {
         name Flora McNeill Galbraith
         birth -date 27-jan-1867 -location campbeltown -ref flora1867-birth
+        death -date 5-dec-1933 -location 'Sydney,NSW,Australia'
+        partner {
+            name Norman McKinnon
+        }
     }
     child {
         name Margaret Galbraith
         birth -date 2-aug-1868 -location campbeltown -ref margaret1868-birth
+        death -date 10-mar-1960 -location 'Killarney, Manitoba, Canada'
+        partner {
+            name John Milloy
+            marriage -date 29-nov-1892 -location campbeltown
+        }
     }
     child {
         name Mary Galbraith
@@ -43,6 +56,11 @@ partner {
     child {
         name Duncan Galbraith
         birth -date 15-feb-1878 -location campbeltown -ref duncan1878-birth
+        death -date 25-jan-1962 -location 'Stockton,, Manitoba, Canada'
+        partner {
+            name Elizabeth Bessie Sinclair
+            marriage -date 18-apr-1905 -location campbeltown
+        }
     }
     child {
         name Malcolm Galbraith
@@ -51,10 +69,12 @@ partner {
     child {
         name Jessie Galbraith
         birth -date 12-jul-1880 -location campbeltown -ref jessie1880-birth
+        death -date 6-aug-1908
     }
     child {
         name Lizzy Ann Galbraith
         birth -date 5-jun-1882 -location campbeltown -ref lizzy1882-birth
+        death -date 26-feb-1928 -location 'Radville, Saskatchewan, Canada'
     }
 }
 
