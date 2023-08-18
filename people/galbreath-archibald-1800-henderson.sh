@@ -3,7 +3,7 @@ baptism -date 5-feb-1800 -location campbeltown -ref archibald1800-baptism
 death -date 16-may-1869 -location campbeltown -ref archibald1800-death
 tags Campbeltown
 external {
-
+    familysearch LZVY-YNQ
 }
 
 partner {
@@ -47,14 +47,8 @@ partner {
         name Archibald Galbraith
         baptism -date 1846 -location campbeltown
     }
-    child {
-        name Alexander Galbraith
-        baptism -date 1848 -location campbeltown
-        death -date 13-Dec-1890 -location campbeltown -ref alexander1848-death
-        partner {
-            name Catherine Shaw
-        }
-    }
+
+    child galbraith-alexander-1848-shaw
 }
 body {
     $p{
@@ -63,9 +57,6 @@ body {
 
     $p{
     He was a mason.
-    }
-    $p{
-    There are other children according 1851 and 1861 census.
     }
 }
 
@@ -101,8 +92,5 @@ footnotes {
     }
     catherine1844-death {
         $sp-ref-link[d-1879-507-00-0174 0058 "Catherine Galbraith"]
-    }
-    alexander1848-death {
-        $sp-ref-link[d-1890-507-00-0170 0057 "Alexander Galbraith"]
     }
 }

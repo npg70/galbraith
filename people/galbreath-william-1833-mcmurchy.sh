@@ -76,12 +76,6 @@ footnotes {
     maria1874-death {
         $sp-ref[d-1876-507-00-0199 "Maria Galbraith"]
     }
-    john1876-birth {
-        $sp-ref-link[b-1876-507-00-0101 0034 "John Galbraith"]
-    }
-    john1876-death {
-        $sp-ref-link[d-1953-507-00-0012 0004 "John Galbraith"]
-    }
     janet1879-birth {
         $sp-ref-link[b-1879-507-00-0302 0107 "Janet McMurchy Galbraith"]
     }

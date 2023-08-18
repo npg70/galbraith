@@ -4,7 +4,7 @@ tags campbeltown illegitimate
 birth -date 22-dec-1855 -location campbeltown -ref alexander1855-birth
 
 body {
-    Father unknown, mother was "Christian Galbraith" maybe age 24, and her second child.
+    Father unknown, mother was "Christian Galbraith" age 24, and this was maybe her second child.
 }
 
 footnotes {
