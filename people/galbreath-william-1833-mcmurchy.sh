@@ -33,6 +33,9 @@ partner {
         birth -date 11-apr-1874 -location campbeltown -ref maria1874-birth
         death -date 1876 -location campbeltown -ref maria1874-death
     }
+
+    child galbraith-john-1876-brown-mitchell
+
     child {
         name Janet McMurchy Galbraith
         birth -date 21-nov-1879 -location campbeltown -ref janet1879-birth
@@ -72,6 +75,12 @@ footnotes {
     }
     maria1874-death {
         $sp-ref[d-1876-507-00-0199 "Maria Galbraith"]
+    }
+    john1876-birth {
+        $sp-ref-link[b-1876-507-00-0101 0034 "John Galbraith"]
+    }
+    john1876-death {
+        $sp-ref-link[d-1953-507-00-0012 0004 "John Galbraith"]
     }
     janet1879-birth {
         $sp-ref-link[b-1879-507-00-0302 0107 "Janet McMurchy Galbraith"]
