@@ -12,6 +12,7 @@ partner {
     child {
         name Jane Galbraith
         birth -date 1888  -location 'killean and kilchenzie' -ref jane1888-birth
+        death -date 14-jun-1963 -location campbeltown -ref jane1888-death -note umd
     }
     child {
         name Neil Galbraith
@@ -31,6 +32,9 @@ footnotes {
     }
     jane1888-birth {
         $sp-ref[b-1888-519-00-0005 "Jane Galbraith"]
+    }
+    jane1888-death {
+        $sp-ref-link[d-1963-507-00-0055 0019 "Jane Galbraith"]
     }
     neil1894-birth {
         $sp-ref-link[b-1894-519-00-0002 0001 "Neil Galbraith"]

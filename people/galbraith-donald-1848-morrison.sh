@@ -7,10 +7,16 @@ death -date 22-jan-1904 -location saddell -ref donald1848-death
 external {
     familysearch 9M93-9S4
 }
+
+body {
+    He was a ferryman.
+}
+
 partner {
     name Janet Morrison
     marriage -date 7-feb-1871 -location saddell -ref morrison-marriage
-
+    birth -date 'about 1842'
+    death -date 6-jun-1928 -location saddell -ref morrison-death
     child {
         name John Galbraith
         birth -date 23-jun-1871 -location Saddell -ref john1871-birth
@@ -64,6 +70,9 @@ footnotes {
     }
     morrison-marriage {
         $sp-ref-link[m-1871-531-01-0001 0001 "Donald Galbreath"]
+    }
+    morrison-death {
+        $sp-ref-link[d-1928-531-01-0003 0001 "Janet Galbraith"]
     }
     john1871-birth {
         $sp-ref-link[b-1871-531-01-0011 0004 "John Galbraith"]
