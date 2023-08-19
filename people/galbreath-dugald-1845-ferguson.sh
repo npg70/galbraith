@@ -5,6 +5,9 @@ death -date 2-may-1908 -location campbeltown -ref dugald1845-death
 external {
     familysearch 9MMY-QN3
 }
+todo {
+    werid double registration for child david
+}
 partner {
     name Janet Ferguson
     birth -date 9-jul-1951 -location 'Kilwinning,Ayr'
@@ -12,7 +15,7 @@ partner {
     death -date 12-aug-1940 -location campbeltown -ref ferguson-death
     child {
         name David Galbraith
-        birth -date 1873 -location southend -ref david1873-birth
+        birth -date 1873 -location southend -ref david1873-birth,david1873-birth2
         death -date 1873 -location southend -ref david1873-death
     }
     child {
@@ -44,6 +47,9 @@ footnotes {
     }
     david1873-birth {
         $sp-ref[b-1873-532-00-0035 "David Galbraith"]
+    }
+    david1873-birth2 {
+        $sp-ref-link[b-1873-507-00-0252 0084 "David Galbraith"]
     }
     david1873-death {
         $sp-ref[d-1873-532-00-0017 "David Galbraith"]

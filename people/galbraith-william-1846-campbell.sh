@@ -29,6 +29,14 @@ partner {
         death -date 1873 -location campbeltown -ref alexander1872-death
     }
     child {
+        name Mary Jane Galbraith
+        birth -date 27-jun-1874 -location campbeltown -ref mary1874-birth
+    }
+    child {
+        name James Galbreath
+        birth -date 6-may-1877 -location campbeltown -ref james1877
+    }
+    child {
         name Charles Campbell Galbraith
         birth -date 26-aug-1888 -location campbeltown -ref charles1888-birth
     }
@@ -54,6 +62,12 @@ footnotes {
     }
     alexander1872-death {
         $sp-ref[d-1873-507-00-0104 "Alexander Galbraith"]
+    }
+    mary1874-birth {
+        $sp-ref-link[b-1874-507-00-0178 0060 "Mary Jane Galbraith"]
+    }
+    james1877-birth {
+        $sp-ref-link[b-1877-507-00-0138 0046 "James Galbreath"] Of note is the "ai" in Galbraith is crossed out and replaced with "ea" (i.e. Galbreath).
     }
     charles1888-birth {
         $sp-ref-link[b-1888-507-00-0263 0088 "Charles Campbell Galbraith"]
