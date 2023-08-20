@@ -21,10 +21,8 @@ partner {
             name Peter Blackstock
         }
     }
-    child {
-        name Archibald Galbraith
-        birth -date 1839
-    }
+    child galbraith-archibald-1839-mcdonald
+
     child {
         name Catherine Galbraith
         birth -date 1840

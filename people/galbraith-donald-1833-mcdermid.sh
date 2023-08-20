@@ -26,7 +26,7 @@ partner {
     }
     child {
         name Marion Galbraith
-        birth -date 28-sep-1863
+        birth -date 28-sep-1863 -location campbeltown -ref marion1863-birth
     }
 
     child galbraith-archibald-1865-mckay
@@ -92,6 +92,9 @@ footnotes {
     }
     jane1861-birth {
         $sp-ref-link[b-1861-507-00-0238 0080 "Jane Galbraith"]
+    }
+    marion1863-birth {
+        $sp-ref-link[b-1863-507-00-0188 0063 "Marion Galbraith"].  in 2023, SP indexed mother as McDonald.
     }
     peter1867-birth {
         $sp-ref-link[b-1867-507-00-0109 0037 "Peter McDermid Galbraith"]

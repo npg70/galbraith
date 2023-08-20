@@ -1,6 +1,7 @@
 name Duncan Galbreath
 baptism -date 7-oct-1815 -location 'killean and kilchenzie' -ref duncan1815-baptism
 death -date 17-mar-1880 -location 'campbeltown' -ref duncan1815-death
+tags 'killean and kilchenzie' campbeltown
 
 external {
     familysearch M1TZ-CG7
@@ -11,10 +12,9 @@ partner {
     marriage -date 12-dec-1844 -location 'killean and kilchenzie'
     baptism -date 30-nov-1818 -location 'killean and kilchenzie'
     death -date 6-april-1888 -location campbeltown -ref mcfater-death
-    child {
-        name Archibald Galbraith
-        baptism -date 4-May-1846 -location 'Killean and Kilchenzie' -ref archibald1846-baptism
-    }
+
+    child galbraith-archibald-1846-mcdonald 
+
     child {
         name Angus Galbreath
         baptism -date '19 Mar 1848' -location Campbeltown -ref angus1848-baptism
@@ -66,9 +66,6 @@ footnotes {
             Mother: _____ McPhater, M.S. McBride;
             Present: John Galbraith, son
         }
-    }
-    archibald1846-baptism {
-        $opr-ref-link[b-1846-519-000-0020-0161 "Archibald Galbraith"]
     }
     angus1848-baptism {
         $opr-ref[b-1848-507-000-0070-0333 "Angus Galbreath"]

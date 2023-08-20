@@ -2,6 +2,8 @@ name Malcolm Galbraith
 birth -date 14-jun-1889 -location campbeltown -ref malcolm1889-birth
 death -date 7-oct-1954 -location london
 tags campbeltown
+todo {I stopped halfway here}
+
 external {
    familysearch LTJ5-K76
    findagrave 172093478
