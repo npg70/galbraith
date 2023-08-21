@@ -25,11 +25,8 @@ partner {
         baptism -date 29-aug-1853 -location campbeltown -ref margaret1853-baptism
         death -date 31-mar-1857 -location campletown -ref margaret1853-death
     }
-    child {
-        name Donald Galbraith
-        birth -date 11-jan-1856 -location campbeltown -ref donald1856-birth
-        death -date 1907 -location campbeltown -ref donald1856-death
-    }
+    child galbraith-donald-1856-mcpherson
+
     child {
         name Alexander Galbreath
         birth -date 13-may-1859 -location campbeltown -ref alexander1859-birth
@@ -71,12 +68,6 @@ footnotes {
     }
     margaret1853-death {
         $sp-ref-link[d-1857-507-00-0045 0015 "Margaret Galbraith"]
-    }
-    donald1856-birth {
-        $sp-ref-link[b-1856-507-02-0002 0001 "Donald Galbreath"]        
-    }
-    donald1856-death {
-        $sp-ref[d-1907-507-00-0075 "Donald Galbreath"]
     }
     alexander1859-birth {
         $sp-ref-link[b-1859-507-00-0082 0028 "Alexander Galbreath"]

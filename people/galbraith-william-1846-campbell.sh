@@ -37,6 +37,11 @@ partner {
         birth -date 6-may-1877 -location campbeltown -ref james1877
     }
     child {
+        name _____ Galbraith
+        birth -date 10-jul-1879 -location campbeltown -ref unnamed1879-birth
+        death -date 16-jul-1879 -location campbeltown -ref unnamed1879-death
+    }
+    child {
         name Charles Campbell Galbraith
         birth -date 26-aug-1888 -location campbeltown -ref charles1888-birth
     }
@@ -68,6 +73,12 @@ footnotes {
     }
     james1877-birth {
         $sp-ref-link[b-1877-507-00-0138 0046 "James Galbreath"] Of note is the "ai" in Galbraith is crossed out and replaced with "ea" (i.e. Galbreath).
+    }
+    unnamed1879-birth {
+        $sp-ref[b-1879-507-00-0172 "_____ Galbraith"]
+    }
+    unnamed1879-death {
+        $sp-ref-link[d-1879-507-00-0106 0036 "_____ Galbraith"]
     }
     charles1888-birth {
         $sp-ref-link[b-1888-507-00-0263 0088 "Charles Campbell Galbraith"]
