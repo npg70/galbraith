@@ -30,7 +30,7 @@ partner {
     child {
         name Angus McDonald Galbraith
         birth -date 1-aug-1892 -location campbeltown -ref angus1892-birth
-        death -date 13-may-1950 -location edinburgh -ref angus1829-death
+        death -date 13-may-1950 -location edinburgh -ref angus1892-death
         partner {
             name Jean Sinclair
         }

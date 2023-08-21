@@ -1,6 +1,9 @@
 name Archibald Galbraith
 birth -date 'about 1839'
 tags campbeltown
+external {
+    familysearch M1BQ-K7W
+}
 partner {
     name Catherine McDonald
     birth -date 'about 1841'

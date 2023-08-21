@@ -17,7 +17,7 @@ partner {
 
     child {
         name Angus Galbreath
-        baptism -date '19 Mar 1848' -location Campbeltown -ref angus1848-baptism
+        baptism -date 19-mar-1848 -location Campbeltown -ref angus1848-baptism
         death -date 14-aug-1914 -location Campbeltown -ref angus1848-death
         body {
             unmarried
