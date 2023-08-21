@@ -28,10 +28,8 @@ partner {
         name Isabella Galbraith
         baptism -date 8-sep-1850 -location campbeltown -ref isabella-birth
     }
-    child {
-        name William Galbraith
-        baptism -date 7-nov-1853 -location campbeltown -ref william-birth
-    }
+    child galbraith-william-1853-mcarthur
+
 }
 
 footnotes {
@@ -64,9 +62,4 @@ footnotes {
     isabella-birth {
         $opr-ref[b-1850-507-000-0070-0374 "Isabella Galbraith"]
     }   
-    william-birth {
-        $opr-ref-link[b-1853-507-000-0070-0420 "William Galbraith"]
-
-        Note: mother is indexed as Janet Wilson.
-    }
 }

@@ -13,6 +13,10 @@ partner {
         name Mary McFayden Galbraith
         birth -date 9-mar-1890 -location campbeltown -ref mary1890-birth
     }
+    child {
+        name Flora Galbraith
+        birth -date 12-feb-1892 -location campbeltown -ref flora1892-birth
+    }
 }
 footnotes {
     archibald1872-birth {
@@ -26,5 +30,8 @@ footnotes {
     }
     mary1890-birth {
         $sp-ref-link[b-1890-507-00-0055 0019 "Mary McFadyen Galbraith"]
+    }
+    flora1892-birth {
+        $sp-ref-link[b-1892-507-00-0036 0012 "Flora Galbraith"]
     }
 }
