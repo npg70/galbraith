@@ -1,6 +1,6 @@
 name William John Galbraith
 tags campbeltown 
-birth -date 3-may-1892 -location campbeltown -ref wiiam1892-birth
+birth -date 3-may-1892 -location campbeltown -ref william1892-birth
 death -date 1984 -location campbeltown -ref william1892-death
 external {
     familysearch GF5Z-6SP
