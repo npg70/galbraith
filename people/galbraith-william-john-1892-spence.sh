@@ -14,9 +14,33 @@ partner {
     child galbraith-william-john-1915
 
 }
-todo {
-    second wife?
+partner {
+    name Margaret McDougall Martin
+    birth -date 27-dec-1897 -location campbeltown
+    marriage -date 3-mar-1924 -location campbeltown -ref martin-marriage
+
+    body {
+        divorce 17-may-1930
+    }
 }
+partner {
+    name Mary Ann Huie
+    marriage -date 31-dec-1930 -location campbeltown -ref huie-marriage
+    birth -date 15-jun-1905
+    death -date 15-dec-1972 -location campbeltown -ref huie-death 
+    body {
+        Daughter of James Huie and Anne Setter[?].  Children are speculative since records are sealed until 2034.
+    }
+    child {
+        name Mary Huie Galbraith
+        birth -date 1933 -location campbeltown
+    }
+    child {
+        name Elizabeth Sillars Galbraith
+        birth -date 1934 -location campbeltown
+    }
+}
+
 footnotes {
     william1892-birth {
         $sp-ref-link[b-1892-507-00-0134 0045 "William John Galbraith"]
@@ -29,6 +53,15 @@ footnotes {
     }
     spence-death {
         $sp-ref-link[d-1922-507-00-0029 0010 "Jane Galbraith"]
+    }
+    martin-marriage {
+        $sp-ref-link[m-1924-507-00-0008  0004 "William John Galbraith" "Margaret McDougal Martin"]
+    }
+    huie-marriage {
+        $sp-ref-link[m-1931-507-00-0001 0001 "William John Galbraith" "Mary Ann Huie"]
+    }
+    huie-death {
+        $sp-ref-link[d-1972-536-00-0124 0124 "Mary Ann Galbraith"]
     }
 }
 
