@@ -84,7 +84,7 @@ footnotes {
         $sp-ref[b-1875-533-00-0003 "Isabella Galbraith"]
     }
     mary1877-birth {
-        $sp-ref[b-1898-533-00-0004 "Mary Galbraith"]
+        $sp-ref[b-1877-533-00-0004 "Mary Galbraith"]
     }
     archibald1879-birth {
         $sp-ref-link[b-1879-533-00-0005 0002 "Archibald Galbraith"]

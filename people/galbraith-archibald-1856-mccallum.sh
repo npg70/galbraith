@@ -9,14 +9,26 @@ partner {
     name Margaret McCallum
     marriage -date 13-jan-1885 -location 'killean and kilchenzie' -ref marriage
 
+    child galbraith-donald-1886
+
     child {
         name Jane Galbraith
-        birth -date 1888  -location 'killean and kilchenzie' -ref jane1888-birth
+        birth -date 1888  -location killean -ref jane1888-birth
         death -date 14-jun-1963 -location campbeltown -ref jane1888-death -note umd
     }
+
+    child galbraith-archibald-1890
+
     child {
         name Neil Galbraith
-        birth -date 13-feb-1894  -location 'killean and kilchenzie' -ref neil1894-birth
+        birth -date 13-feb-1894  -location 'killean' -ref neil1894-birth
+        death -date 29-mar-1974 -location 'killean' -ref neil1894-death
+        partner {
+            name Catherine McSporran
+            birth -date 1901 -location killean
+            death -date 3-feb-1991 -location campbeltown
+            marriage -date 12-may-1923 -location campbeltown
+        }
     }
 }
 footnotes {

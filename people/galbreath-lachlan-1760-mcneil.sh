@@ -4,6 +4,7 @@ death -date 1836 -location gigha
 burial -name 'Kilchattan Old Graveyard' -location 'gigha'
 tags Gigha
 external {
+    familysearch M1YK-YN4
     findagrave 115118948
 }
 todo {

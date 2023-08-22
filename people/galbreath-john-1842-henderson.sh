@@ -21,6 +21,10 @@ partner {
         birth -date 1876 -location southend -ref john1876-birth
         death -date 18-feb-1935 -location southend -ref john1876-death
     }
+    child {
+        name Margaret McGreachie Galbraith
+        birth -date 28-sep-1878 -location southend -ref margaret1878-birth
+    }
 }
 footnotes {
     john1842-birth {
@@ -44,6 +48,9 @@ footnotes {
     }
     john1876-death {
         $sp-ref-link[d-1935-532-00-0001 0001 "John Galbraith"]
+    }
+    margaret1878-birth {
+        $sp-ref-link[b-1878-532-00-0021 0007 "Margaret McGreachy Galbraith"]
     }
 }
 

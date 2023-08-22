@@ -5,6 +5,10 @@ external {
     familysearch M1TB-T43
     findagrave 171954722
 }
+tags campbeltown southend
+note {
+    Last child was born when mother was 47.  I've double checked everything and it is correct.
+}
 
 partner {
     name Mary McCallum
@@ -87,6 +91,13 @@ partner {
             name Isabella MacCallum
         }
     }
+    child {
+        name Mary McCallum Galbraith
+        birth -date 3-apr-1909 -location southend -ref mary1909
+        body {
+            yes born at age 47
+        }
+    }
 }
 
 footnotes {
@@ -164,6 +175,9 @@ footnotes {
     }
     donald1902-death {
         $sp-ref-link[d-1953-532-00-0005 0002 "Donald Galbraith"] 
+    }
+    mary1909-birth {
+        $sp-ref-link[b-1909-532-00-0006 0002 "Mary McCallum Galbraith"]
     }
 }
 

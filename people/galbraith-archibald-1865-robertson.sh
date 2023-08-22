@@ -1,6 +1,6 @@
 name Archibald Galbraith
 tags 'Killean and Kilchenzie' 'Campbeltown'
-birth -date 17-jan-1865 -location 'killean and kilchenzie'
+birth -date 17-jan-1865 -location 'killean and kilchenzie' -ref archibald1865-birth
 death -date 27-nov-1949 -location Campbeltown -ref archibald1865-death
 burial -name 'Kilkerran Cemetery'
 external {
@@ -43,6 +43,9 @@ partner {
 }
 
 footnotes {
+    archibald1865-birth {
+        $sp-ref-link[b-1865-519-00-0008 0003 "Archibald Galbraith"]
+    }
     archibald1865-death {
         $sp-ref-link[d-1949-507-00-0101 0034 "Archibald Galbraith"]
     }
