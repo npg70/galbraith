@@ -2,10 +2,18 @@ name Donald Galbraith
 tags campbeltown
 birth -date 11-jan-1856 -location campbeltown -ref donald1856-birth
 death -date 1907 -location campbeltown -ref donald1856-death
+note {
+    First child was born before marriage.
+}
 partner {
-     name Mary McPherson
-     marriage -date 22-jul-1881 -location campbeltown -ref mcpherson-marriage
-     child {
+    name Mary McPherson
+    marriage -date 22-jul-1881 -location campbeltown -ref mcpherson-marriage
+    child {
+        name Mary Galbraith
+        birth -date 1882 -location campbeltown -ref mary1881-birth
+        death -date 1-sep-1882 -location campbeltown -ref mary1881-death
+    }
+    child {
          name Mary Galbraith
          birth -date 24-feb-1883 -location campbeltown -ref mary1883-birth
     }
@@ -31,6 +39,12 @@ footnotes {
     }
     mcpherson-marriage {
         $sp-ref-link[m-1881-507-00-0042 0021 "Donald Galbraith" "Mary McPherson"]
+    }
+    mary1881-birth {
+        $sp-ref-link[b-1881-507-00-0130 0044 "Mary Galbraith"]
+    }
+    mary1881-death {
+        $sp-ref-link[d-1882-507-00-0120 0040 "Mary Galbraith"]
     }
     mary1883-birth {
         $sp-ref-link[b-1883-507-00-0081 0027 "Mary Galbraith"]

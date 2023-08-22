@@ -14,6 +14,12 @@ partner {
 
     }
     child {
+        name William Galbraith
+        birth -date 12-jan-1895 -location campbeltown -ref william1895-birth
+        death -date 1895 -location campbeltown -ref william1895-death
+    }
+
+    child {
         name James McLarty Galbraith
         birth -date 25-mar-1897 -location campbeltown -ref james1897-birth
     }
@@ -44,6 +50,12 @@ footnotes {
     }
     john1893-birth {
         $sp-ref-link[b-1893-507-00-0343 0115 "John McLarty Galbraith"]
+    }
+    william1895-birth {
+        $sp-ref-link[b-1895-507-00-0016 0006 "William Galbraith"]
+    }
+    william1895-death {
+        $sp-ref[d-1895-507-00-0062 "William Galbraith"]
     }
     james1897-birth {
         $sp-ref-link[b-1897-507-00-0080 0027 "James McLarty Galbraith"]

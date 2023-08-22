@@ -31,8 +31,8 @@ partner {
     }
     child {
         name Maggie McKinlay Galbraith
-        birth -date 25-sep-1890 -location campbeltown -ref maggie1899-birth
-        death -date 14-jun-1926 -location campbeltown -ref maggie1899-death
+        birth -date 25-sep-1890 -location campbeltown -ref maggie1890-birth
+        death -date 14-jun-1926 -location campbeltown -ref maggie1890-death
         partner {
             name Neil Thomson
             marriage -date 11-jul-1913 -location campbeltown
@@ -70,7 +70,7 @@ footnotes {
         $sp-ref-link[d-1963-526-00-0045 0015 "Lilly Galbraith"]
     }
     maggie1890-birth {
-        $sp-ref[b-1890-507-00-0274 "Maggie McKinlay Galbraith"]
+        $sp-ref-link[b-1890-507-00-0274 0092 "Maggie McKinlay Galbraith"]
     }
     maggie1890-death {
         $sp-ref[d-1890-507-00-0067 "Margaret Galbraith"]
