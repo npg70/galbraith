@@ -31,6 +31,11 @@ partner {
         birth -date 1880 -location campbeltown -ref elizabeth1880-birth
     }
     child galbraith-robert-1882-stewart
+
+    child {
+        name David Ferguson Galbraith
+        birth -date 26-feb-1886 -location campbeltown -ref david1886-birth
+    }
 }
 footnotes {
     dugald1845-baptism {
@@ -62,6 +67,9 @@ footnotes {
     }
     elizabeth1880-birth {
         $sp-ref[b-1880-507-00-0044 "Elizabeth Galbraith"]
+    }
+    david1886-birth {
+        $sp-ref-link[b-1886-507-00-0124 0042 "David Ferguson Galbraith"]
     }
 }
 
