@@ -26,10 +26,8 @@ partner {
         name Catherine Sillars Galbraith
         birth -date 1889 -location campbeltown -ref catherine1889-birth
     }
-    child {
-        name William John Galbraith
-        birth -date 3-may-1892 -location campbeltown -ref william1892-birth
-    }
+    child galbraith-william-john-1892-spence
+
     child {
         name Agnes Sillars McArthur Galbraith
         birth -date 17-jan-1899 -location campbeltown -ref agnes1899-birth
@@ -56,9 +54,6 @@ footnotes {
     }
     catherine1889-birth {
         $sp-ref[b-1889-507-00-0195 "Catherine Sillars Galbraith"]
-    }
-    william1892-birth {
-        $sp-ref-link[b-1892-507-00-0134 0045 "William John Galbraith"]
     }
     agnes1899-birth {
         $sp-ref-link[b-1899-507-00-0037 0013 "Agnes Sillars McArthur Galbraith"]
