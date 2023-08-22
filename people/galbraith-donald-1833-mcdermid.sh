@@ -55,14 +55,7 @@ partner {
         name Donald Galbraith
         birth -date 22-feb-1873 -location campbeltown -ref donald1873-birth
     }
-    child {
-        name Allan Galbraith
-        birth -date 20-jul-1877 -location campbeltown -ref allan1877-birth
-        death -date 1-sep-1936 -location glasgow -ref allen1877-death
-        partner {
-            name Catherine McNab
-        }
-    }
+    child galbraith-allan-1877-mcnab
     child {
         name Isabella Galbraith
         birth -date 1880 -location campbeltown -ref isabella1880-birth

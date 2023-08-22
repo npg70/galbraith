@@ -8,7 +8,7 @@ todo {
 }
 
 birth -date 20-jul-1877 -location campbeltown -ref allan1877-birth
-death -date 1-sep-1936 -location glasgow -ref allen1877-death
+death -date 1-sep-1936 -location glasgow -ref allan1877-death
 partner {
     name Catherine McNab
 }
