@@ -7,7 +7,15 @@ external {
 }
 partner {
     name Jane Spence
+    birth -date 'about 1894'
+    death -date 21-feb-1922 -location campbeltown -ref spence-death
     marriage -date 20-nov-1914 -location campbeltown -ref spence-marriage
+
+    child galbraith-william-john-1915
+
+}
+todo {
+    second wife?
 }
 footnotes {
     william1892-birth {
@@ -18,6 +26,9 @@ footnotes {
     }
     spence-marriage {
         $sp-ref-link[m-1914-507-00-0054 0027 "William John Galbraith" "Jane Spence"]
+    }
+    spence-death {
+        $sp-ref-link[d-1922-507-00-0029 0010 "Jane Galbraith"]
     }
 }
 
