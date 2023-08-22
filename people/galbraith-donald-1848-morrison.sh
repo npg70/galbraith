@@ -44,6 +44,10 @@ partner {
     child {
         name Janet Galbraith
         birth -date 7-apr-1881 -location saddell -ref janet1881-birth
+        death -date 4-apr-1972 -location 'helensburgh,argyll' -ref janet1881-death
+        partner {
+            name John Gillon
+        }
     }
 
     child {
@@ -94,6 +98,9 @@ footnotes {
     }
     janet1881-birth {
         $sp-ref-link[b-1881-531-01-0007 0003 "Janet Galbraith"]
+    }
+    janet1881-death {
+        $sp-ref-link[d-1972-501-00-0082 0082 "Janet Galbraith"]
     }
     catherine-1883-birth {
         $sp-ref[b-1883-531-01-0017 "Catherine Galbraith"]
