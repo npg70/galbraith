@@ -21,7 +21,7 @@ partner {
 
     child {
         name Jane Galbraith
-        birth -date 19-dec-1861 -location campbeltown -ref jan1861-birth
+        birth -date 19-dec-1861 -location campbeltown -ref jane1861-birth
         body {m. $child-link[galbraith-donald-1863-galbraith]{Donald Galbraith} }
     }
     child {
@@ -55,7 +55,11 @@ partner {
         name Donald Galbraith
         birth -date 22-feb-1873 -location campbeltown -ref donald1873-birth
     }
+
+    child galbraith-james-duncan-1875-stewart
+
     child galbraith-allan-1877-mcnab
+
     child {
         name Isabella Galbraith
         birth -date 1880 -location campbeltown -ref isabella1880-birth
