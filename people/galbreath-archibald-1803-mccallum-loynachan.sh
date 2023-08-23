@@ -1,50 +1,46 @@
 name Archibald Galbreath
 baptism -date 11-sep-1803 -location campbeltown -ref archibald1803-baptism
 death -date 17-feb-1885 -location campbeltown -ref archibald1803-death
-partner {
-  name Eugenia McCallum
-  marriage -date 28-Feb-1835 -location kilcalmonel -ref mccallum-marriage
-  child {
-		name Martha Galbreath
-    baptism -date 30-Nov-1835 -location campbeltown -ref martha1835-baptism
-    death -date 9-Jul-1922 -location campbeltown -ref martha1835-death -note umn
-  }
-  child galbraith-eugina-1838-wotherspoon
+tags campbeltown
+external {
+    familysearch KC9G-P5D
 }
 partner {
-  name Margaret Loynachan
-  marriage -date 25-Aug-1839 -location southend -ref loynachan-marriage   
-  death -date 14-nov-1886 -location dumbarton -ref loynachan-death
+    name Eugenia McCallum
+    marriage -date 28-Feb-1835 -location kilcalmonel -ref mccallum-marriage
+    child {
+		name Martha Galbreath
+        baptism -date 30-Nov-1835 -location campbeltown -ref martha1835-baptism
+        death -date 9-Jul-1922 -location campbeltown -ref martha1835-death -note umn
+    }
+    child galbraith-eugina-1838-wotherspoon
+}
+partner {
+    name Margaret Loynachan
+    marriage -date 25-Aug-1839 -location southend -ref loynachan-marriage   
+    death -date 14-nov-1886 -location dumbarton -ref loynachan-death
   
-  child {
-  	name James Galbreath
-    birth -date 23-sep-1841
-    baptism -date 7-nov-1841 -location campbeltown -ref james1841-baptism
-    death -date 6-dec-1875 -note umn -ref james1841-death
-    body {
-    	seaman
-    }
+    child {
+  	    name James Galbreath
+        birth -date 23-sep-1841
+        baptism -date 7-nov-1841 -location campbeltown -ref james1841-baptism
+        death -date 6-dec-1875 -note umn -ref james1841-death
+        body {
+    	    seaman
+        }
   }
   child {
-  	name Archibald Galbraith
-    birth -date 17-jul-1843
-    baptism -date 13-aug-1843 -location campbeltown -ref archibald1843-baptism
-    partner {
-    	name Mary Paterson
-    }
+  	    name Archibald Galbraith
+        birth -date 17-jul-1843
+        baptism -date 13-aug-1843 -location campbeltown -ref archibald1843-baptism
+        partner {
+    	    name Mary Paterson
+            marriage -date 10-jun-1870 -location glasgow -ref paterson-marriage
+        }
   }
-  child {
-  	name Neill Galbraith
-    birth -date 20-may-1845
-    baptism -date 15-jun-1845 -location campbeltown -ref neil1845-baptism
-    death -date 3-dec-1909 -location dumbarton -ref neil1845-death
-    partner {
-    	name Margaret Blue
-    }
-    partner {
-    	name Margaret McCall/Watt
-    }
-  }
+
+  child galbraith-neil-1845-blue-mccall
+
   child {
   	name Agnes Galbreath
     baptism -date 1-nov-1847 -location campbeltown -ref agnes1847-baptism
@@ -115,12 +111,6 @@ footnotes {
   }
   archibald1843-baptism {
   	$opr-ref-link[b-1843-507-000-0070-0244 "Archibald Galbreath"]
-  }
-  neil1845-baptism {
-  	$opr-ref-link[b-1845-507-000-0070-0285 "Neill Galbreath"]
-  }
-	neil1845-death {
-  	$sp-ref-link[d-1909-496-00-0308 0103 "Neil Galbraith"]
   }
   agnes1847-baptism {
   	$opr-ref-link[b-1847-507-000-0070-0327 "Agnes Galbreath"]
