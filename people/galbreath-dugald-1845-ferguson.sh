@@ -42,7 +42,7 @@ footnotes {
         $opr-ref[b-1845-507-000-0070-0288 "Dugald Galbreath"]
     }
     dugald1845-death {
-        $sp-ref[d-1908-507-00-0040 "Dugald Galbraith"]
+        $sp-ref-link[d-1908-507-00-0040 0014 "Dugald Galbraith"]
     }
     ferguson-marriage {
         $sp-ref-link[m-1872-532-00-0009 0005 "Donald Galbraith" "Janet Ferguson"]
