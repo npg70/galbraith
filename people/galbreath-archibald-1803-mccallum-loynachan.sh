@@ -29,15 +29,8 @@ partner {
     	    seaman
         }
   }
-  child {
-  	    name Archibald Galbraith
-        birth -date 17-jul-1843
-        baptism -date 13-aug-1843 -location campbeltown -ref archibald1843-baptism
-        partner {
-    	    name Mary Paterson
-            marriage -date 10-jun-1870 -location glasgow -ref paterson-marriage
-        }
-  }
+
+  child galbraith-archibald-1843-paterson
 
   child galbraith-neil-1845-blue-mccall
 
@@ -45,14 +38,9 @@ partner {
   	name Agnes Galbreath
     baptism -date 1-nov-1847 -location campbeltown -ref agnes1847-baptism
   }
-  child {
-  	name Samuel Galbraith
-    birth -date 17-nov-1850
-    baptism -location campbeltown
-    partner {
-    	name Mary Ellen Reynolds
-    }
-  }
+
+  child galbraith-samuel-1850-reynolds
+
   child {
   	name Margaret Galbraith
     birth -date 30-apr-1853
@@ -71,6 +59,15 @@ partner {
     birth -date 17-oct-1857 -location campbeltown -ref john1857-birth
     death -date 7-mar-1864 -location campbeltown -ref john1857-death
   } 
+}
+body {
+
+An unsourced letter from FamilySearch, by "morgancharlesgalbraith1" in 2016:
+$blockquote{
+Antigua Plantation
+
+Archibald Galbraith The Galbraith's were prosperous sugar plantation owners in Antigua. There had to be when my great-grandmother was young, four adults each of Mother and Father and two Maiden Aunts. Your father always said that the Faith's and the North's were shipped wrecked on the way to England, which is quite possible. That left her two children and Anna Maria and Mary Ellen your great grandmother in the care of the two Maiden Aunts. They also had to run the plantation. They also own a store in St. John's. I don't know when Samuel came to the scene but I have an idea he probably worked in the store. Eventually the plantation was left to Mary Ellen and Samuel after the sisters died. Hannah Maria got nothing, why I don't know except she was noted for having a very nasty disposition. Samuel lost the plantation through carelessness, he let the insurance lapse, and the plantation was burned to the ground. Somebody hated him. Such a large family they eventually moved to Winnipeg around 1908. Some of the Sons had already come north. One daughter Louise married Thomas Jackson at age eighteen. He was an Englishman and stayed in the West Indies until about 1935, when they all went to England. Aunt Louie as we called her never saw her Mother and Father again. Margaret married John tough, we spent one year in Dublin and four years in Winnipeg during World War One, going back to Antigua in 1919, and then to St. Vincent. We came to Canada for good in 1923 Anna Maria married M. Bladen and lived in Antigua until she died about 1937. Signed Auntie Sis. He was born on 9 November 1803 in Sherbolin, Campbeltown, Scotland. He married Eugina McCallum on 5 March 1835. Archibald Galbraith was 31. Archibald Galbraith married Margaret Loyachan on 25 August 1849. Archibald Galbraith was 45 Margaret Loyachan was 28.
+}
 }
 
 footnotes {
@@ -108,9 +105,6 @@ footnotes {
   }
   james1841-death {
     $sp-ref-link[d-1875-507-00-0174 0058 "James Galbraith"]
-  }
-  archibald1843-baptism {
-  	$opr-ref-link[b-1843-507-000-0070-0244 "Archibald Galbreath"]
   }
   agnes1847-baptism {
   	$opr-ref-link[b-1847-507-000-0070-0327 "Agnes Galbreath"]

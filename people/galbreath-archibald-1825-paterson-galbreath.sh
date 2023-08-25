@@ -22,7 +22,7 @@ note {
 partner {
     name Mary Paterson
     baptism -date 4-nov-1840 -location campbeltown
-    death -date 6-jun-1881 -location campbeltown
+    death -date 6-jun-1881 -location campbeltown -ref paterson-death
     marriage -date 6-apr-1865 -location campbeltown -ref paterson-marriage
     child {
         name Archibald Galbreath
@@ -73,6 +73,9 @@ footnotes {
     }
     paterson-marriage {
         $sp-ref-link[m-1865-507-00-0011 0006 "Archibald Galbraith" "Mary Paterson"]
+    }
+    paterson-death {
+        $sp-ref-link[d-1881-507-00-0091 0031 "Mary Galbraith"]
     }
     galbraith-marriage {
         $sp-ref-link[m-1881-507-00-0071 0036 "Archibald Galbraith" "Margaret Galbraith"]
