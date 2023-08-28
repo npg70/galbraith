@@ -1,6 +1,9 @@
 name Duncan Galbreath
 birth -date "about 1770"
 tags "Killean and Kilchenzie"
+external {
+    familysearch 9M9N-15J
+}
 partner {
     name Mary Kelly
     birth -date 'about 1769'
@@ -29,12 +32,10 @@ partner {
     }
     child {
         name Kate Galbreath
-        baptism -date 27-may-1807 -location 'killean and kilchenzie' -ref kay1807-baptism
+        baptism -date 27-may-1807 -location 'killean and kilchenzie' -ref kate1807-baptism
     }
-    child {
-        name Susanna Galbreath
-        baptism -date 10-aug-1809 -location 'killean and kilchenzie' -ref susanna1809-baptism
-    }
+    child galbreath-susanna-1809-blue
+
     child {
         name Flora Galbreath
         baptism -date 1-oct-1811 -location 'killean and kilchenzie' -ref flora1811-baptism
@@ -68,9 +69,6 @@ footnotes {
     }
     kate1807-baptism {
         $opr-ref[b-1807-519-000-0010-0209 "Kate Galbreath"]
-    }
-    susanna1809-baptism {
-        $opr-ref-link[b-1809-519-000-0010-0229 "Susanna Galbreath"]
     }
     flora1811-baptism {
         $opr-ref[b-1811-519-000-0010-0248 "Flora Galbreath"]
