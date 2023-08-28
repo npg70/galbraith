@@ -51,10 +51,8 @@ partner {
         name Donald Galbreath
         baptism -date 30-Sep-1845 -location Campbeltown -ref donald1845-baptism
     }
-    child {
-        name Archibald Galbreath
-        baptism -date 20-dec-1847 -location campbeltown -ref archibald1847-baptism
-    }
+
+    child galbraith-archibald-1847-brown
 }
 
 footnotes {
@@ -90,8 +88,5 @@ footnotes {
     }
     donald1845-baptism {
         $opr-ref[b-1845-507-000-0070-0291 "Donald Galbreath"]
-    }
-    archibald1847-baptism {
-        $opr-ref-link[b-1847-507-000-0070-0329 "Archibald Galbreath"]
     }
 }
