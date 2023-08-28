@@ -37,6 +37,26 @@ func main() {
 		log.Fatalf("Unable to create template: %s", err)
 	}
 
+	// for each file in sources
+	// read it in,
+	suffix := ".sh"
+	sources, err := filepath.Glob("sources/*" + suffix)
+	if err != nil {
+		log.Fatalf("Glob failed")
+	}
+	for _, s := range sources {
+		outfile := strings.TrimSuffix(filepath.Base(s), suffix) + ".html"
+		outpath := filepath.Join("hugo", "content", "sources", outfile)
+
+		raw, err := os.ReadFile(s)
+		page := Execute(string(raw), renderFuncs())
+		log.Printf("Writing %q", outpath)
+		err = os.WriteFile(outpath, []byte(page), 0666)
+		if err != nil {
+			log.Fatalf("couldn't write %q: %s", outpath, err)
+		}
+	}
+
 	//
 	// Write OPR Birth Index
 	//

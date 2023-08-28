@@ -6,6 +6,7 @@ hugo/content/people:
 	mkdir -p ./hugo/content/people
 	mkdir -p ./hugo/content/indexes
 	mkdir -p ./hugo/content/lineages
+	mkdir -p ./hugo/content/sources
 	mkdir -p ./hugo/layouts/tags
 
 
@@ -23,6 +24,7 @@ clean:
 	rm -rf hugo/content/indexes
 	rm -rf hugo/content/lineages
 	rm -rf hugo/content/tags
+	rm -rf hugo/content/sources
 
 roots:
 	go run . -root
