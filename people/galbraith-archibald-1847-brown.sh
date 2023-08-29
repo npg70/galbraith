@@ -12,7 +12,7 @@ partner {
     death -date 19-dec-1904 -location campbeltown -ref brown-death
     marriage -date 5-nov-1886 -location campbeltown -ref brown-marriage
     body {
-        Daughter of Duncan Brown and Mary Galbraith??
+        Daughter of Duncan Brown and $child-link[galbraith-mary-1827-brown]{Mary Galbraith}
     }
     child {
         name Flora Galbraith

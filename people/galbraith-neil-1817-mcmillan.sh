@@ -98,7 +98,7 @@ footnotes {
         $sp-ref[b-1868-531-01-0016 "John Galbreath"]
     }
     flora1870-birth {
-        $sp-ref[b-1870-531-01-0012 "Flora Galbreath"]
+        $sp-ref-link[b-1870-531-01-0012 0004 "Flora Galbreath"]
     }
     flora1870-death {
         $sp-ref-link[d-1941-533-02-0001 0001 "Flora Galbraith"]

@@ -3,6 +3,9 @@ tags campbeltown
 external {
     familysearch M1R6-HX2
 }
+note {
+    familysearch is missing all children.
+}
 
 birth -date 19-nov-1864 -location Saddell -ref john1864-birth
 death -date 10-may-1932 -location 'sea' -ref john1864-death
@@ -25,6 +28,10 @@ partner {
     child {
         name Janet McTaggart Galbraith
         birth -date 8-mar-1892 -location campbeltown -ref janet1892-birth
+    }
+    child {
+        name Neil Galbraith
+        birth -date 17-feb-1894 -location campbeltown -ref neil1894-birth
     }
     child {
         name Isabella McTaggart Galbraith
@@ -69,6 +76,9 @@ footnotes {
     }
     janet1892-birth {
         $sp-ref-link[b-1892-507-00-0074 0025 "Janet McTaggart Galbraith"]
+    }
+    neil1894-birth {
+        $sp-ref-link[b-1894-507-00-0055 0019 "Neil Galbraith"]
     }
     isabella1896-birth {
         $sp-ref-link[b-1896-507-00-0143 0048 "Isabella McTaggart Galbraith"]

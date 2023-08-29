@@ -1,15 +1,16 @@
 name Donald Galbraith
-baptism -date 15-aug-1848 -location gigha -ref donald1848-baptism -note "the son of Neil Galbraith and Flora McDonald"
-
 tags Gigha
-death -date 22-jan-1904 -location saddell -ref donald1848-death
-
 external {
     familysearch 9M93-9S4
 }
-
+baptism -date 15-aug-1848 -location gigha -ref donald1848-baptism -note "the son of Neil Galbraith and Flora McDonald"
+death -date 22-jan-1904 -location saddell -ref donald1848-death
 body {
     He was a ferryman.
+}
+
+note {
+    First child $child-link[galbraith-flora-1869-murray]{Flora} is likely adopted.
 }
 
 partner {
@@ -17,6 +18,9 @@ partner {
     marriage -date 7-feb-1871 -location saddell -ref morrison-marriage
     birth -date 'about 1842'
     death -date 6-jun-1928 -location saddell -ref morrison-death
+
+    child galbraith-flora-1869-murray
+
     child {
         name John Galbraith
         birth -date 23-jun-1871 -location Saddell -ref john1871-birth
