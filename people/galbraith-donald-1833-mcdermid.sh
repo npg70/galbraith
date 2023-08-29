@@ -31,11 +31,8 @@ partner {
 
     child galbraith-archibald-1865-mckay
 
-    child {
-        name Peter McDemaid Galbraith
-        birth -date 4-Jun-1867 -location campbeltown -ref peter1867-birth
-        death -date 15-jun-1935 -location govan -ref peter1867-death
-    }
+    child galbraith-peter-mcdermid-1867-mckeral
+
     child {
         name Agnes Galbraith
         birth -date 8-apr-1869 -location campbeltown -ref agnes1869-birth
@@ -51,10 +48,8 @@ partner {
             death -date 1951
         }
     }
-    child {
-        name Donald Galbraith
-        birth -date 22-feb-1873 -location campbeltown -ref donald1873-birth
-    }
+
+    child galbraith-daniel-1873-conner
 
     child galbraith-james-duncan-1875-stewart
 
@@ -101,17 +96,11 @@ footnotes {
     marion1863-birth {
         $sp-ref-link[b-1863-507-00-0188 0063 "Marion Galbraith"].  in 2023, SP indexed mother as McDonald.
     }
-    peter1867-birth {
-        $sp-ref-link[b-1867-507-00-0109 0037 "Peter McDermid Galbraith"]
-    }
     agnes1869-birth {
         $sp-ref-link[b-1869-507-00-0062 0021 "Agnes Galbraith"]
     }
     christina1871-birth {
         $sp-ref[b-1871-507-00-0064 "Christina McDermind"]
-    }
-    donald1873-birth {
-        $sp-ref[b-1873-507-00-0064 "Donald Galbraith"]
     }
     isabella1880-birth {
         $sp-ref[b-1880-507-00-0164 "Isabella Galbraith"]

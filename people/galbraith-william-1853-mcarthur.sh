@@ -45,6 +45,11 @@ partner {
             name Robert ? Findley
         }
     }
+
+    child {
+        name Margaret Muir McArthur Galbraith
+        birth -date 20-nov-1994 -location campbeltown -ref margaret1994-birth
+    }
 }
 
 footnotes {
@@ -82,5 +87,8 @@ footnotes {
     }
     agnes1899-death {   
         $sp-ref-link[d-1954-518-00-0016 0006 "Agnes Sillar McArthur Galbraith"]
+    }
+    margaret1894-birth {
+        $sp-ref-link[b-1894-507-00-0273 0091 "Margaret Muir McArthur Galbraith"]
     }
 }
