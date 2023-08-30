@@ -43,6 +43,10 @@ partner {
         birth -date 13-nov-1872 -location campbeltown -ref william1872-birth
     }
     child {
+        name Mary Galbraith
+        birth -date 16-sep-1875 -location campbeltown -ref mary1875-birth
+    }
+    child {
         name Archibald Galbraith
         birth -date 30-nov-1877 -location campbeltown -ref archibald1877-birth
         death -date 14-sep-1955 -location campbeltown -ref archibald1877-death
@@ -100,6 +104,9 @@ footnotes {
         $sp-ref-link[b-1872-507-00-0247 0083 "William McKinnon Galbraith"]
         Note: the original birth listed "Edward Gordon" but there is an attached correctio
         changing the name to "William McKinnon".  FamilySearch has this indexed as Edward Gordon in https://www.familysearch.org/ark:/61903/1:1:XYY2-QQ7
+    }
+    mary1875-birth {
+        $sp-ref-link[b-1875-507-00-0207 0069 "Mary Galbraith"] Note: index as "Galbreaith"
     }
     archibald1877-birth {
         $sp-ref-link[b-1877-507-00-0327 0109 "Archibald Galbreaith"]

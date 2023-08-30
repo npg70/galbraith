@@ -9,11 +9,17 @@ death -date 14-apr-1914 -location campbeltown -ref donald1873-death
 body {
     He was a coal miner.
 }
+note {
+    First child, Annie, was born before marriage.
+}
 
 partner {
     name Helen Conner
     marriage -date 27-aug-1897 -location campbeltown -ref conner-marriage
-
+    child {
+        name Annie Boyd Galbraith
+        birth -date 10-feb-1897 -location campbeltown -ref annie1897-birth
+    }
     child {
         name Thomas Conner Galbraith
         birth -date 13-oct-1898 -location campbeltown -ref thomas1898-birth
@@ -33,6 +39,9 @@ footnotes {
     }
     conner-marriage {
         $sp-ref-link[m-1897-507-00-0037 0019 "Daniel Galbraith" "Helen Conner"]
+    }
+    annie1897-birth {
+        $sp-ref-link[b-1897-507-00-0047 0016 "Annie Boyd Galbraith"]
     }
     thomas1898-birth {
         $sp-ref-link[b-1898-507-00-0231 0077 "Thomas Conner Galbraith"]

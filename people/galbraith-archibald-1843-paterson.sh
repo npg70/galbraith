@@ -14,6 +14,10 @@ partner {
     body {
         The daughter of Charles Paterson and Margaret McCallum.
     }
+    child {
+        name Mary Galbraith
+        birth -date 16-sep-1875 -location campbeltown -ref mary1875-birth
+    }
 }
 
 body {
