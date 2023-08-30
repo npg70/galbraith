@@ -8,6 +8,11 @@ death -date 7-feb-1943 -location campbeltown -ref james1875-death
 partner {
     name Margaret Stewart
     marriage -date 17-jun-1898 -location campbeltown -ref stewart-marriage
+
+    child {
+        name Annie Stewart Galbraith
+        birth -date 12-jun-1900 -location campbeltown -ref annie1900-birth
+    }
 }
 footnotes {
     james1875-birth {
@@ -18,6 +23,9 @@ footnotes {
     }
     stewart-marriage {
         $sp-ref-link[m-1898-507-00-0017 0009 "James Galbreath" "Margaret Stewart"]
+    }
+    annie1900-birth {
+        $sp-ref-link[b-1900-507-00-0124 0043 "Annie Stewart Galbraith"]
     }
 }
 

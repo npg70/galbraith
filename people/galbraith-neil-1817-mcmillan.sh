@@ -43,10 +43,8 @@ partner {
             name Walter Dickson Campbell
         }
     }
-    child {
-        name John Galbreath
-        birth -date 23-aug-1868 -location saddell -ref john1868-birth
-    }
+    child galbraith-john-1868-mcphail
+
     child {
         name Flora Galbreath
         birth -date 1-dec-1870 -location saddell -ref flora1870-birth
@@ -93,9 +91,6 @@ footnotes {
     }
     isabella1866-birth {
         $sp-ref[b-1866-531-01-0011 "Isabella Galbreath"]
-    }
-    john1868-birth {
-        $sp-ref[b-1868-531-01-0016 "John Galbreath"]
     }
     flora1870-birth {
         $sp-ref-link[b-1870-531-01-0012 0004 "Flora Galbreath"]

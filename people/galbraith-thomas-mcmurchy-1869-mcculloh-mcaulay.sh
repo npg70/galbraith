@@ -14,6 +14,10 @@ partner {
         birth -date 23-apr-1891 -location campbeltown -ref duncan1891-birth
     }
     child {
+        name Thomas McCulloch Galbraith
+        birth -date 17-aug-1897 -location campbeltown -ref thomas1897-birth
+    }
+    child {
         name William Galbraith
         birth -date 6-oct-1898 -location campbeltown -ref william1898-birth
         death -date 1978 -location campbeltown -ref william1898-death
@@ -64,6 +68,9 @@ footnotes {
     }
     duncan1891-birth {
         $sp-ref-link[b-1891-507-00-0177 0076 "Duncan Galbraith"]
+    }
+    thomas1897-birth {
+        $sp-ref-link[b-1897-507-00-0211 0071 "Thomas McCulloch Galbraith"]
     }
     william1898-birth {
         $sp-ref-link[b-1898-507-00-0226 0076 "William Galbraith"]

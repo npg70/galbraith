@@ -15,7 +15,7 @@ partner {
         birth -date 31-dec-1894 -location campbeltown -ref mary1894-birth
     }
     child {
-        name Daniel McKeral
+        name Daniel Galbraith
         birth -date 1896 -location campbeltown -ref daniel1896-birth
     }
     child {
@@ -40,6 +40,12 @@ footnotes {
     }
     mary1894-birth {
         $sp-ref-link[b-1895-507-00-0021 0007 "Mary Curdy Galbraith"] Born in 1894 but registered in 1895.
+    }
+    daniel1896-birth {
+        $sp-ref[b-1896-507-00-0206 "Daniel Galbraith"]
+    }
+    charles1899-birth {
+        $sp-ref[b-1899-507-00-0242 "Charles McKeral Galbraith"]
     }
 }
 

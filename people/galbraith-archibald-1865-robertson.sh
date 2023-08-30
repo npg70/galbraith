@@ -31,6 +31,10 @@ partner {
         death -date 17-jul-1979
     }
     child {
+        name Margaret Morrison Galbraith
+        birth -date 6-mar-1899 -location campbeltown -ref margaret1899-birth
+    }
+    child {
         name Jessie Campbell Galbraith
         birth -date 1901 -location campbeltown -ref jessie1901-birth
         death -date 30-mar-1993
@@ -60,6 +64,9 @@ footnotes {
     }
     archibald1897-birth {
         $sp-ref[b-1897-519-00-0004 "Archibald Galbraith"]
+    }
+    margaret1899-birth {
+        $sp-ref-link[b-1899-507-00-0072 0024 "Margaret Morrison Galbraith"]
     }
     jessie1901-birth {
         $sp-ref[b-1901-507-00-0079 "Jessie Campbell Galbraith"]

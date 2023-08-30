@@ -23,10 +23,8 @@ partner {
 
     child galbraith-martha-1867-mcbain
 
-    child {
-        name Neil Galbraith
-        birth -date 23-may-1869 -location campbeltown -ref neil1869-birth
-    }
+    child galbraith-neil-1869-hattan
+    
     child {
         name Margaret Galbraith
         birth -date 28-oct-1871 -location campbeltown -ref margaret1871-birth
@@ -48,9 +46,6 @@ footnotes {
     }
     agnes1863-death {
         $sp-ref-link[d-1886-507-00-0138 0046 "Agnes Galbraith"]
-    }
-    neil1869-birth {
-        $sp-ref[b-1869-507-00-0095 "Neil Galbraith"]
     }
     margaret1871-birth {
         $sp-ref[b-1871-507-00-0246 "Margaret Galbraith"]
