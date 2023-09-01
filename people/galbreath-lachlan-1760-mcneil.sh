@@ -17,8 +17,20 @@ note {
 partner {
     name Catharine McNeil
     child {
+        name John Galbraith
+        birth -date 31-jan-1847 -location gigha -ref john1847-baptism
+        death -date 24-feb-1930 -location lochgilphead -ref john1847-death
+    }
+    child {
+        name Lachlan Galbraith
+        birth -date 10-jan-1849 -location gigha -ref lachlan1849-baptism
+        death -date 24-jan-1902 -location 'Eilean Righ, Kilmartin, Argyll, Scotland' -ref lachlan1849-death
+    }
+    child {
         name Donald Galbreath
         baptism -date 4-jan-1798 -location gigha -ref donald1798-baptism
+        death -date 28-aug-1860 -location gigha -ref donald1798-death
+
     }
     child {
         name Neil Galbreath
@@ -29,21 +41,33 @@ partner {
         }
     }
     child {
+        name Catharine Galbreath 
+        baptism -date 4-aug-1803 -location gigha -ref catharine1801-baptism
+        death -date 14-dec-1846 -location cara 
+        partner {
+            name Dougal MacArthur
+        }
+    }
+    child {
         name Flora Galbreath
         baptism -date 27-jul-1803 -location gigha -ref flora1803-baptism
     }
     child {
         name John Galbreath
         baptism -date 20-sep-1805 -location gigha -ref john1805-baptism
+        death -date 1805 -location gigha 
     }
     child {
         name Margarate Galbreath
         baptism -date 27-nov-1806 -location gigha -ref margarate1806-baptism 
+        death -date 13-may-1877 -location campbeltown -ref margaret1806-death
+        partner {
+            name Archibald Henderson
+            marriage -date 4-aug-1831 -location gigha
+        }
     }
-    child {
-        name Malcolm Galbreath
-        baptism -date 4-mar-1809 -location gigha -ref malcolm1809-baptism
-    }
+    child galbraith-malcolm-1809-wotherspoon
+
     child {
         name Lachlan Galbreath
         baptism -date 27-aug-1811 -location gigha -ref lachlan1811-baptism
@@ -68,9 +92,6 @@ footnotes {
     }
     margarate1806-baptism {
         $opr-ref[b-1806-537-000-0010-0032 "Margarate Galbreath"]
-    }
-    malcolm1809-baptism {
-        $opr-ref[b-1809-537-000-0010-0040 "Malcom Galbreath"]
     }
     lachlan1811-baptism {
         $opr-ref[b-1811-537-000-0010-0046 "Lachlan Galbreath"]
