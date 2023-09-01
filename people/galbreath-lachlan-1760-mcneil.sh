@@ -17,16 +17,6 @@ note {
 partner {
     name Catharine McNeil
     child {
-        name John Galbraith
-        birth -date 31-jan-1847 -location gigha -ref john1847-baptism
-        death -date 24-feb-1930 -location lochgilphead -ref john1847-death
-    }
-    child {
-        name Lachlan Galbraith
-        birth -date 10-jan-1849 -location gigha -ref lachlan1849-baptism
-        death -date 24-jan-1902 -location 'Eilean Righ, Kilmartin, Argyll, Scotland' -ref lachlan1849-death
-    }
-    child {
         name Donald Galbreath
         baptism -date 4-jan-1798 -location gigha -ref donald1798-baptism
         death -date 28-aug-1860 -location gigha -ref donald1798-death
