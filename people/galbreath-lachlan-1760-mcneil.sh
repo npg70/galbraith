@@ -16,12 +16,9 @@ note {
 
 partner {
     name Catharine McNeil
-    child {
-        name Donald Galbreath
-        baptism -date 4-jan-1798 -location gigha -ref donald1798-baptism
-        death -date 28-aug-1860 -location gigha -ref donald1798-death
 
-    }
+    child galbreath-donald-1798-galbreath
+
     child {
         name Neil Galbreath
         baptism -date 25-sep-1799 -location gigha -ref neil1799-baptism
@@ -65,9 +62,6 @@ partner {
 }
 
 footnotes {
-    donald1798-baptism {
-        $opr-ref[b-1798-537-000-0010-0013 "Donald Galbreath"]
-    }
     neil1799-baptism {
         $opr-ref[b-1799-537-000-0010-0017 "Neil Galbreath"]
     }

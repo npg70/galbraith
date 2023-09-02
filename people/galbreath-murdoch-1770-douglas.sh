@@ -13,6 +13,9 @@ partner {
         name Catharine Galbreath
         baptism -date feb-1799 -location 'kilcalmonell and kilberry' -ref catharine1799-baptism
         death -date 23-nov-1878 -location tarbert,argyll -ref catharine1799-death
+        body {
+            m $child-link[galbreath-donald-1798-galbreath]{Donald Galbreath}
+        }
     }
     child {
         name Mary Galbreath
