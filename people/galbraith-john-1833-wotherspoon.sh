@@ -16,7 +16,7 @@ partner {
     }
     child {
         name Catherine Galbraith
-        birth -date 10-aug-1866 -location 'kilcalmonell and kilberry' -ref catherine1866-birth
+        birth -date 10-aug-1866 -location kilberry -ref catherine1866-birth
     }
     child {
         name James Galbraith
@@ -24,7 +24,7 @@ partner {
     }
     child {
         name Donald Galbraith
-        birth -date 5-apr-1870 -location 'kilcalmonell and kilberry' -ref donald1870-birth
+        birth -date 5-apr-1870 -location kilberry -ref donald1870-birth
         death -date 6-aug-1935 -location inverchaolain,argyll -ref donald1870-death
         partner {
             name Mary Law
@@ -32,7 +32,7 @@ partner {
     }
     child {
         name Mary Elizabeth Galbraith
-        birth -date 13-jan-1872 -location 'kilcalmonell and kilberry' -ref mary1872-birth
+        birth -date 13-jan-1872 -location kilberry -ref mary1872-birth
     }
 }
 
@@ -49,8 +49,19 @@ footnotes {
     wotherspoon-death {
         $sp-ref[d-1911-535-00-0012 "Mary Galbraith"]
     }
-
+    catherine1866-birth {
+        $sp-ref[b-1866-516-02-0007 "Catherine Galbraith"]
+    }
+    james1868-birth {   
+        $sp-ref-link[b-1868-516-02-0012 0004 "James Galbraith"]
+    }
+    donald1870-birth {
+        $sp-ref[b-1870-516-02-0005 "Donald Galbraith"]
+    }
     donald1870-death {
         $sp-ref-link[d-1935-514-01-0001 0001 "Donald Galbraith"]
+    }
+    mary1872-birth {
+        $sp-ref[b-1872-516-02-0002 "Mary Elizabeth Galbraith"]
     }
 }

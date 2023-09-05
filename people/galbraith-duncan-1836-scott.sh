@@ -65,7 +65,7 @@ partner {
     child galbraith-william-1875-thomson
     child {
         name John Galbraith
-        birth -date 'about 1878' -location kilcalmonell
+       birth -date 24-apr-1877 -location kilcalmonell -ref john1877-birth
     }
 }
 footnotes {
@@ -101,5 +101,9 @@ footnotes {
     donald1872-birth {
         $sp-ref[b-1872-564-02-0509 "Donald Galbraith"]
     }
+    john1877-birth {
+        $sp-ref-link[b-1877-516-01-0006 0002 "John Galbraith"]
+    }
+        
 }
 

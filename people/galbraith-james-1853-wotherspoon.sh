@@ -18,12 +18,12 @@ partner {
     }
     child {
         name Eugenia Wotherspoon Galbraith
-        birth -date 27-jun-1892 -location 'kilcalmonell and kilberry' -ref eugenia1892-birth
+        birth -date 27-jun-1892 -location kilberry -ref eugenia1892-birth
         death -date 6-dec-1961 -location campbeltown -ref eugenia1892-death -note "umd"
     }
     child {
         name Mary Helen Galbraith
-        birth -date 8-may-1894 -location 'kilcalmonell and kilberry' -ref mary1894-birth
+        birth -date 8-may-1894 -location kilberry -ref mary1894-birth
         death -date 13-nov-1954 -location 'Comrie,Perth,Scotland' -ref mary1894-death
         partner {
             name Robert Renton

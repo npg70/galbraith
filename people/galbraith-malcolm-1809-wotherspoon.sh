@@ -17,18 +17,8 @@ partner {
         birth -date 31-jan-1847 -location gigha -ref john1847-baptism
         death -date 24-feb-1930 -location lochgilphead -ref john1847-death -note umd
     }
-    child {
-        name Lachlan Galbraith
-        birth -date 10-jan-1849 -location gigha -ref lachlan1849-baptism
-        death -date 24-jan-1902 -location 'Eilean Righ, Kilmartin, Argyll, Scotland' -ref lachlan1849-death
-        partner {
-            name Isabella Wotherspoon
-            birth -date 16-feb-1876 -location gigha
-            death -date 27-jul-1965 -location tarbert
-            marriage -date 19-jan-1893 -location greenock 
-        }
-        body { Note the mother of Isabella was Isabella Galbraith }
-    }
+
+    child galbraith-lachlan-1849-wotherspoon
 
     child {
         name Mary Galbraith
@@ -70,14 +60,8 @@ partner {
             Unmarried. Game keeper.
         }
     }
-    child {
-        name Archibald Galbraith
-        birth -date 27-may-1861 -location kilberry -ref archibald1861-birth
-        death -date 29-jan-1940 -location kilberry -ref archibald1861-death
-        partner {
-            name Helen Wotherspoon
-        }
-    }
+    child galbraith-archibald-1861-wotherspoon
+
     child {
         name Janet Galbraith
         birth -date 15-apr-1865 -location kilberry -ref janet1865-birth
@@ -118,12 +102,6 @@ footnotes {
     john1847-death {
         $sp-ref-link[d-1930-526-00-0013 0005 "John Galbraith"]
     }
-    lachlan1849-baptism {
-        $opr-ref[b-1849-537-000-0020-0069 "Lauchlan Galbraith"]
-    }
-    lachlan1849-death {
-        $sp-ref-link[d-1902-521-00-0002 0001 "Lachlan Galbraith"]
-    }
     mary1851-baptism {
         $opr-ref[b-1851-516-000-0020-0366 "Mary Galbraith"]
     }
@@ -137,7 +115,7 @@ footnotes {
         $sp-ref-link[d-1936-510-01-0086 0029 "Katherine Galbraith"]
     }
     christina1857-birth {
-        $sp-ref[b-1867-516-02-0001 "Christian Galbreath"]
+        $sp-ref-link[b-1857-516-02-0001 0001 "Christian Galbreath"]
     }
     christina1857-death {
         $sp-ref[d-1933-503-00-0042 "Christina Galbraith"]
@@ -147,12 +125,6 @@ footnotes {
     }
     malcolm1859-death {
         $sp-ref-link[d-1943-644-04-0376 0126 "Malcum Galbraith"]
-    }
-    archibald1861-birth {
-        $sp-ref[b-1861-516-02-0004 "Archibald Galbreath"]
-    }
-    archibald1861-death {
-        $sp-ref-link[d-1940-533-02-0002 0001 "Archibald Galbraith"]
     }
     janet1865-birth {
         $sp-ref[b-1865-516-02-0007 "Janet Galbreath"]

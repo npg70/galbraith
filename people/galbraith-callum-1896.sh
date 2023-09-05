@@ -8,10 +8,15 @@ external {
     findagrave 115118805
     findagrave 99513883
 }
-birth -date 17-aug-1896 -location 'kilcalmonell and kilbery' -ref malcolm1896-birth
+birth -date 17-aug-1896 -location kilbery -ref malcolm1896-birth
 death -date 24-oct-1916 -location 'Cork Military Hositpial,Dublin,Ireland'
 burial -location 'dublin,ireland'
    
 todo {
     has two legit findagrave markers
+}
+footnotes {
+    malcolm1896-birth {
+        $sp-ref-link[b-1896-533-02-0004 0002  "Malcolm Galbraith"] 
+    }   
 }

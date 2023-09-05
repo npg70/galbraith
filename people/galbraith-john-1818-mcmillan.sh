@@ -6,7 +6,9 @@ external {
 
 birth -date 18-oct-1818 -location kilcalmonell -ref john-birth
 death -date 31-oct-1872 -location kilcalmonell -ref john-death
-
+todo {
+    familysearch missing spouse and children
+}
 partner {
     name Isabella McMillan
     birth -date 'about 1824'
@@ -18,6 +20,10 @@ partner {
     child {
         name Lachlan Galbraith
         birth -date 8-nov-1856 -location 'South Knapdale' -ref lachlan1856-birth
+    }
+    child {
+        name Archibald Galbraith
+        birth -date 9-nov-1859 -location kilberry -ref archibald1859-birth
     }
     child {
         name Neil Galbraith
@@ -47,6 +53,9 @@ footnotes {
    }
    lachlan1856-birth {
         $sp-ref-link[b-1856-533-00-0021 0007 "Lachlan Galbraith"]
+   }
+   archibald1859-birth {
+        $sp-ref-link[b-1859-516-02-0010 0004 "Archibald Galbraith"]
    }
    neil1862-birth {
         $sp-ref-link[b-1862-516-01-0011 0004 "Neil Galbraith"]
