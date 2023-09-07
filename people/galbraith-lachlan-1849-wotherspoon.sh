@@ -4,9 +4,6 @@ external {
     familysearch M1BH-CJX
     findagrave 115118797
 }
-todo {
-    deaths
-}
 birth -date 10-jan-1849 -location gigha -ref lachlan1849-baptism
 death -date 24-jan-1902 -location 'Eilean Righ, Kilmartin, Argyll, Scotland' -ref lachlan1849-death
 partner {
@@ -18,7 +15,7 @@ partner {
     child {
         name Isabella Galbraith
         birth -date 17-may-1893 -location kilmartin -ref isabella1893-birth
-        death -date 21-feb-1976 -location tarbert 
+        death -date 21-feb-1976 -location tarbert  -ref isabella1893-death
     }
     child {
         name Christina Galbraith
@@ -60,16 +57,28 @@ footnotes {
     isabella1893-birth {
         $sp-ref[b-1893-521-00-0005 "Isabella Galbraith"]
     }
+    isabella1893-death {
+        $sp-ref[d-1976-340-00-0011 "Isabella Galbraith"], sealed until 2026
+    }
     christina1895-birth {
         $sp-ref[b-1895-521-00-0009 "Christina Galbraith"]
     }
     mary1897-birth {
         $sp-ref[b-1897-521-00-0005 "Mary Galbraith"]
     }
+    mary1897-death {
+        $sp-ref[d-1919-426-00-0094 "Mary Galbraith"]
+    }
     lachlan1899-birth {
         $sp-ref[b-1899-521-00-0010 "Lachlan Galbraith"]
     }
+    lachlan1899-death {
+        $sp-ref[d-1900-521-00-0003 "Lachlan Galbraith"]
+    }
     catherine1901-birth {
         $sp-ref[b-1901-521-00-0001 "Catherine Galbraith"]
+    }
+    catherine1901-death {
+        $sp-ref[d-1950-644-13-1120 "Catherine Galbraith"]
     }
 }
