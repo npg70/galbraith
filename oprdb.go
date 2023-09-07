@@ -134,6 +134,7 @@ func ParishName(id1, id2 string) string {
 		"646/2":  "Govan, Lanark",
 		"663":    "Bo'ness",
 		"664":    "Carriden",
+		"683":    "Maybole",
 		"684":    "Duddingston, Midlothian",
 		"685":    "Edinburgh",
 		"685/1":  "Haymarket or St. George, Edinburgh",
