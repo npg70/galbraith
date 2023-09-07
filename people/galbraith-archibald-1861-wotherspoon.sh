@@ -82,10 +82,10 @@ footnotes {
         $sp-ref-link[d-1940-533-02-0002 0001 "Archibald Galbraith"]
     }
     wotherspoon-marriage {
-
+        $sp-ref[m-1897-533-02-0005 "Archibald Galbraith" "Helen Wotherspoon"]
     }
     wotherspoon-death {
-
+        $sp-ref[d-1951-533-02-0003 "Helen Galbraith"]
     }
     james1895-birth {
         $sp-ref[b-1895-533-02-0005 "James Galbraith"]
