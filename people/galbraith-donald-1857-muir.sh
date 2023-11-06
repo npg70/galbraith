@@ -3,7 +3,7 @@ tags gigha campbeltown
 external {
     familysearch GZ57-LSM
 }
-todo { link in parents }
+tags gigha campbeltown
 
 birth -date 23-sep-1857 -location gigha -ref donald1857-birth
 death -date 12-aug-1937 -location campbeltown -ref donald1857-death
@@ -67,10 +67,12 @@ partner {
     }
 }
 footnotes {
+    donald1857-birth {
+        $sp-ref-link[b-1857-537-00-0004 0002 "Donald Galbraith"]
+    }
     donald1857-death {
         $sp-ref-link[d-1937-507-00-0089 0030 "Donald Galbraith"]
     }
-
     john1882-birth {
         $sp-ref-link[b-1882-507-00-0105 0035 "John Galbraith"]
     }

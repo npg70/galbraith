@@ -8,6 +8,8 @@ death -date 23-mar-1874 -location Saddell -ref neil1817-death
 partner {
     name Isabella McMillan
     marriage -date 5-feb-1856  -location saddell -ref mcmillan-marriage
+    birth -date 'about 1833'
+    death -date 27-jan-1920 -location campbeltown -ref mcmillan-death
 
     child {
         name Isabella Galbreath
@@ -64,6 +66,9 @@ footnotes {
     }
     mcmillan-marriage {
         $sp-ref-link[m-1856-531-00-0001 0001 "Niel Galbraith" "Isabella McMillan"]
+    }
+    mcmillan-death {
+        $sp-ref-link[d-1920-507-00-0021 0007 "Isabella Galbraith"]
     }
     isabella1858-birth {
         $sp-ref[b-1858-531-01-0003 "Isabella Galbreath"]

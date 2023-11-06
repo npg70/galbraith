@@ -5,8 +5,8 @@ external {
 tags 'South Knapdale' 'Tarbert'
 
 birth -date 15-feb-1840
-baptism -date 18-feb-1840 -location 'south knapdale'                                                                         
-death -date 11-jul-1928 -location tarbert -ref john1840-death                                                         
+baptism -date 18-feb-1840 -location 'south knapdale' -ref john1840-baptism                                                                       
+death -date 11-jul-1928 -location tarbert -ref john1840-death                                         
 partner { 
     name Margaret Wilson
     marriage -date 5-jun-1873
@@ -21,14 +21,14 @@ partner {
     child {
         name Neil Galbraith
         birth -date 24-jan-1879 -location 'south knapdale' -ref neil1879-birth
-        death -date 25-sep-1852 -location 'dunoon' -ref neil1879-death
+        death -date 25-sep-1952 -location 'dunoon' -ref neil1879-death
         partner {
-            name Jean sunark?
+            name Jean Sunark?
         }
     }
     child {
         name John Galbraith
-        birth -date 1882 -location 'tarbert' -ref john1882-birth
+        birth -date 1882 -location tarbert -ref john1882-birth
         death -date 1883 -location tarbert -ref john1882-death
     }
     child {
@@ -38,6 +38,9 @@ partner {
 }
 
 footnotes {
+    john1840-baptism {
+        $opr-ref[b-1840-533-000-0020-0115 "John Galbreath"]
+    }
     john1840-death {
         $sp-ref-link[d-1928-535-00-0020 0007 "John Galbraith"]
     }

@@ -1,6 +1,8 @@
 name Alexander Galbraith
 tags Campbeltown 
 baptism -date 25-may-1854 -location campbeltown -ref alexander1854-baptism
+death -date 12-nov-1966 -location Saddell -ref alexander1854-death
+
 external {
     familysearch LYTF-2FH
     findagrave 172200082
@@ -79,6 +81,9 @@ partner {
 footnotes {
     alexander1854-baptism {
         $opr-ref-link[b-1854-507-000-0070-0437 "Alexander Galbraith"]
+    }
+    alexander1854-death {
+        $sp-ref-link[d-1966-531-01-0006 0006 "Alexander Galbraith"]
     }
     campbell-death {
         $sp-ref-link[d-1950-531-01-0007 0003 "Mary Galbraith"]

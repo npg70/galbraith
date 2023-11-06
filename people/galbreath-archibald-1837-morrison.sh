@@ -58,7 +58,9 @@ partner {
 }
 
 footnotes {
-
+    archibald1837-baptism {
+        $opr-ref[b-1837-533-000-0020-0102 "Archibald Galbreath"]
+    }
     archibald1837-death {
         $sp-ref-link[d-1936-533-01-0001 0001 "Archibald Galbraith"]
     }

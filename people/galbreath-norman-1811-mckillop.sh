@@ -30,7 +30,7 @@ partner {
     child {
         name Margaret Galbraith
         birth -date 'abt 1837'
-        death -date 17-Mar-1882 note  Unmarried
+        death -date 17-Mar-1882 -location campbeltown -ref margaret1837-death -note  Unmarried
     }
     child {
         name Mary Galbraith
@@ -69,5 +69,8 @@ footnotes {
     }
     mckillop-death {
         $sp-ref-link[d-1876-507-00-0065 0022 "Euphemia Galbraith"]
+    }
+    margaret1837-death {
+        $sp-ref-link[d-1882-507-00-0039 0013 "Margaret Galbraith"]
     }
 }

@@ -93,11 +93,20 @@ footnotes {
     malcolm1897-birth {
         $sp-ref-link[b-1898-533-02-0001 0001 "Malcolm Galbraith"] Note born in 1897 but registered in 1898.
     }
+    malcolm1897-death {
+        $sp-ref[d-1968-549-01-0001 "Malcolm Galbraith"]
+    }
     christina1899-birth {
         $sp-ref[b-1899-533-02-0006 "Christina Galbraith"]
     }
+    christina1899-death {
+        $sp-ref[d-1984-683-00-0047 "Christina Galbraith"]
+    }
     lachlan1902-birth {
         $sp-ref-link[b-1902-533-02-0002 0001 "Lachlan Galbraith"]
+    }
+    lachlan1902-birth {
+        $sp-ref[b-1949-530-00-0007 "Lachlan Galbraith"]
     }
     eugina1904-birth {
         $sp-ref[b-1904-533-02-0006 "Eugina Galbraith"]
