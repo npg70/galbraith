@@ -1,4 +1,5 @@
 name John "China" Galbraith
+tags campbeltown 'no children'
 birth -date 4-dec-1871 -location campbeltown -ref john1871-birth
 death -date 5-mar-1956 -location campbeltown -ref john1871-death -note umd
 external {

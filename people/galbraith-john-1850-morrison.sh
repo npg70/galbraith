@@ -1,4 +1,5 @@
 name John Galbraith
+tags campbeltown
 birth -date 21-april-1850
 baptism -date 5-may-1850 -location 'killean and kilchenzie' -ref john1850-baptism
 death -date 20-feb-1898 -location campbeltown -ref john1850-death
@@ -18,7 +19,7 @@ partner {
     }
     child {
         name John Galbraith
-        birth -date 23-Feb-1887 -location campebeltown -ref john1887-birth
+        birth -date 23-Feb-1887 -location campbeltown -ref john1887-birth
         death -date 26-Dec-1962
     }
     child {

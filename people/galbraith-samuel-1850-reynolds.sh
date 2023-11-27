@@ -1,5 +1,5 @@
 name Samuel Galbraith
-tags campebeltown immigrant
+tags campbeltown immigrant
 external {
     findagrave 122690973
 }

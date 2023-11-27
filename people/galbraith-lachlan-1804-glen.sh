@@ -1,4 +1,5 @@
 name Lachlan Galbraith
+tags immigrant 'Kilcalmonell and Kilberry' 
 birth -date 22-jan-1804
 baptism -date 30-jan-1804 -location 'Kilcalmonell and Kilberry' -ref lachlan1804-baptism
 death -date 8-feb-1879 -location harwich,kent,ontario,canada
@@ -6,7 +7,7 @@ external {
     familysearch MDCL-FPH
     findagrave 110893267
 }
-note {
+todo {
     There are other children, but still sorting it out.   
 }
 body {

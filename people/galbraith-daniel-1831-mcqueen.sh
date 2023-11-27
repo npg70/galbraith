@@ -1,6 +1,7 @@
 name Daniel Galbraith
 baptism -date 8-jul-1831 -location Kilcalmonell -ref daniel1831-baptism
 death -date 20-apr-1896 -location Campbeltown -ref daniel1831-death
+tags campbeltown 'daughtered out'
 
 external {
     familysearch M1YG-MJH

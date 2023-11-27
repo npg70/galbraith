@@ -1,5 +1,5 @@
 name Neill Galbraith
-tags campebeltown
+tags campbeltown
 external {
     familysearch LZK5-23F
 }
