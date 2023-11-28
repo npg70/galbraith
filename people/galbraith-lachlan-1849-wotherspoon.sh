@@ -52,7 +52,7 @@ footnotes {
         $sp-ref[m-1893-564-02-0014 "Lachlan Galbraith" "Isabella Wotherspoon"]
     }
     wotherspoon-death {
-        $sp-ref[b-1965-535-00-0005 "Isabella Galbraith"]
+        $sp-ref[d-1965-535-00-0005 "Isabella Galbraith"]
     }
     isabella1893-birth {
         $sp-ref[b-1893-521-00-0005 "Isabella Galbraith"]

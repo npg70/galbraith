@@ -22,14 +22,9 @@ partner {
         name James Galbraith
         birth -date 9-oct-1868 -location 'kilcalmonell and kilberry' -ref james1868-birth
     }
-    child {
-        name Donald Galbraith
-        birth -date 5-apr-1870 -location kilberry -ref donald1870-birth
-        death -date 6-aug-1935 -location inverchaolain,argyll -ref donald1870-death
-        partner {
-            name Mary Law
-        }
-    }
+
+    child galbraith-donald-1870-law
+
     child {
         name Mary Elizabeth Galbraith
         birth -date 13-jan-1872 -location kilberry -ref mary1872-birth
@@ -54,12 +49,6 @@ footnotes {
     }
     james1868-birth {   
         $sp-ref-link[b-1868-516-02-0012 0004 "James Galbraith"]
-    }
-    donald1870-birth {
-        $sp-ref[b-1870-516-02-0005 "Donald Galbraith"]
-    }
-    donald1870-death {
-        $sp-ref-link[d-1935-514-01-0001 0001 "Donald Galbraith"]
     }
     mary1872-birth {
         $sp-ref[b-1872-516-02-0002 "Mary Elizabeth Galbraith"]

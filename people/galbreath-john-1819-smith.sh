@@ -11,6 +11,8 @@ partner {
     name Barbara Smith
     marriage -date 1-jun-1849 -location 'kilcalmonell and kilberry' -ref smith-marriage
 
+    child galbraith-alexander-1851-murray-mcfarlane
+
     child {
         name Mary Galbraith
         birth -date 'about 1853'
@@ -28,38 +30,15 @@ partner {
         }
         body { children unknown }
     }
-    child {
-        name Duncan Galbraith
-        birth -date 1-jun-1858 -location tarbert -ref duncan1858-birth
-        death -date 30-may-1900 -location tarbert -ref duncan1858-death
-        partner {
-            name Flora Barker
-        }
-    }
+    child galbraith-duncan-1858-barker
+
     child {
         name John Galbraith
         birth -date 9-dec-1860 -location tarbert -ref john1860-birth
         death -date 14-dec-1869 -location tarbert -ref john1860-death
     }
-    child {
-        name Neil Galbreath
-        birth -date 1-jul-1863 -location tarbert -ref neil1863-birth
-        death -date 20-nov-1933 -location tarbert -ref neil1863-death
-        body {
-            married but TBD
-        }
-    }
-    child {
-        name Archibald Galbraith
-        birth -date 3-jan-1867 -location tarbert -ref archibald1867-birth
-        death -date 28-jan-1928 -location tarbert -ref archibald1867-death
-        partner {
-            name Mary Ann Smith
-        }
-        body {
-            has children TBD
-        }
-    }
+    child galbraith-neil-1863-connell
+    child galbraith-archibald-1867-smith
 }
 
 footnotes {
@@ -81,28 +60,10 @@ footnotes {
     mary-death {
         $sp-ref-link[d-1891-535-00-0014 0005 "Mary Galbraith"]
     }
-    duncan1858-birth {
-        $sp-ref-link[b-1858-535-00-0019 0007 "Duncan Galbreath"]
-    }
-    duncan1858-death {
-        $sp-ref-link[d-1900-535-00-0015 0005 "Duncan Galbraith"]
-    }
     john1860-birth {
        $sp-ref-link[b-1860-535-00-0066 0022 "John Galbreath"] 
     }
     john1860-death {
         $sp-ref-link[d-1869-535-00-0035 0012 "John Galbraith"]
-    }
-    neil1863-birth {
-        $sp-ref[b-1863-535-00-0039 "Neil Galbreath"]
-    }
-    neil1863-death {
-        $sp-ref-link[d-1933-535-00-0024 0008 "Neil Galbreath"]
-    }
-    archibald1867-birth {
-        $sp-ref-link[b-1867-535-00-0006 0002 "Archibald Galbraith"]
-    }
-    archibald1867-death {
-        $sp-ref-link[d-1928-535-00-0001 0001 "Archibald Galbraith"]
     }
 }
