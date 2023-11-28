@@ -29,10 +29,7 @@ partner {
         name Mary Galbreath
         baptism -date 16-mar-1852 -location gigha -ref mary1852-baptism
     }
-    child {
-        name Malcom Galbreath
-        birth -date 10-sep-1856 -location gigha -ref malcolm1857-birth
-    }
+    child galbraith-malcolm-1856-mcarthur
 }
 
 footnotes {
@@ -60,10 +57,6 @@ footnotes {
     mary1852-baptism {
         $opr-ref[b-1852-537-000-0020-0075 "Mary Galbraith"]
     }
-    malcolm1857-birth {
-        $sp-ref-link[b-1856-537-00-0011 0004 "Malcom Galbreath"]
-    }
-
 
     census1861 {
         https://www.findmypast.com/transcript?id=GBC/1861/0022538967&expand=true
