@@ -11,14 +11,8 @@ partner {
     name Catherine Smith
     marriage -date 23-may-1846 -location 'Kilcalmonell and Kilberry' -ref smith-marriage
 
-    child {
-        name Peter Galbraith
-        baptism -date 16-aug-1847 -location 'Kilcalmonell and Kilberry' -ref peter1847-baptism
-        death -date 5-mar-1911 -location Kilfinan,Argyll -ref peter1847-death
-        partner {
-            name Janet Muir
-        }
-    }
+    child galbraith-peter-1847-muir
+
     child {
         name Catherine Galbraith
         baptism -date 1-aug-1849 -location 'Kilcalmonell and Kilberry' -ref catherine1849-baptism
@@ -37,12 +31,6 @@ footnotes {
     }
     smith-marriage {
         $opr-ref[m-1846-516-000-0020-0399 "Donald Galbraith" "Cathrine Smith"]
-    }
-    peter1847-baptism {
-        $opr-ref[b-1847-516-000-0020-0363 "Peter Galbraith"]
-    }
-    peter1847-death  {
-        $sp-ref-link[d-1911-518-00-0004 0002 "Peter Galbraith"]
     }
     catherine1849-baptism {
         $opr-ref[b-1849-516-000-0020-0367 "Catherine Galbraith"]
