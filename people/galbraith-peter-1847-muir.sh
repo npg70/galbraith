@@ -42,10 +42,7 @@ partner {
         name John Galbraith
         birth -date 1886 -location kilfinan -ref john1886-birth
     }
-    child {
-        name Archibald Duncan Galbraith
-        birth -date 26-jul-1890 -location kilfinan -ref archibald1890-birth
-    }
+    child galbraith-archibald-duncan-1890-whyte
 }
 footnotes {
     peter1847-baptism {
@@ -80,8 +77,5 @@ footnotes {
     }
     john1886-birth {
         $sp-ref[b-1886-518-00-0057 "John Galbraith"]
-    }
-    archibald1890-birth {
-        $sp-ref-link[b-1890-518-00-0033 0011 "Archibald Duncan Galbraith"]
     }
 }
