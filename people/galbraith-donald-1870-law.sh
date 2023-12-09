@@ -1,5 +1,5 @@
 name Donald Galbraith
-tags tarbert
+tags tarbert kilmodan
 
 birth -date 5-apr-1870 -location kilberry -ref donald1870-birth
 death -date 6-aug-1935 -location inverchaolain,argyll -ref donald1870-death
@@ -29,6 +29,14 @@ partner {
         name James Galbraith
         birth -date 1910 -location tarbert -ref james1910-birth
     }
+    child {
+        name Donald Galbraith
+        birth -date 24-may-1920 -location Kilmodan -ref donald1920-birth
+    }
+    child {
+        name Archibald Galbraith
+        birth -date 14-jul-1922 -location kilmodan -ref archibald1922-birth
+    }
 }
 
 footnotes {
@@ -56,6 +64,12 @@ footnotes {
     }
     james1910-birth {
         $sp-ref[b-1910-535-00-0024 "James Galbraith"]
+    }
+    donald1920-birth {
+        $sp-ref-link[b-1920-522-00-0004 0002 "Donald Galbraith"]
+    }
+    archibald1922-birth {
+        $sp-ref-link[b-1922-522-00-0002 0001 "Archibald Galbraith"]
     }
 }
 

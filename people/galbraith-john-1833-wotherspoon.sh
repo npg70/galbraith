@@ -29,6 +29,10 @@ partner {
         name Mary Elizabeth Galbraith
         birth -date 13-jan-1872 -location kilberry -ref mary1872-birth
     }
+    child {
+        name Archibald Galbraith
+        birth -date 6-nov-1875 -location Kilberry -ref archibald1875-birth
+    }
 }
 
 footnotes {
@@ -52,5 +56,8 @@ footnotes {
     }
     mary1872-birth {
         $sp-ref[b-1872-516-02-0002 "Mary Elizabeth Galbraith"]
+    }
+    archibald1875-birth {
+        $sp-ref-link[b-1875-516-02-0009 0003 "Archibald Galbraith"]
     }
 }

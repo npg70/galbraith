@@ -55,7 +55,7 @@ footnotes {
         $sp-ref-link[d-1961-507-00-0094 0032 "Eugenia Galbraith"]
     }
     mary1894-birth {
-        $sp-ref[b-1894-533-02-0003 "Mary Helen Galbraith"]
+        $sp-ref-link[b-1894-533-02-0003 0001 "Mary Helen Galbraith"]
     }
     mary1894-death {
         $sp-ref-link[d-1954-341-A0-0026 0009 "Mary Helen Galbraith"]

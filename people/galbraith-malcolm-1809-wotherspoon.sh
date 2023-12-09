@@ -70,18 +70,7 @@ partner {
             name John Campbell
         }
     }
-    child {
-        name Donald Galbraith
-        birth -date 24-mar-1868 -location kilberry -ref donald1868-birth
-        death -date 30-may-1944 -location Stewarton,Ayr -ref donald1868-death
-        partner {
-            name Mary Campbell Wotherspoon
-            birth -date 25-may-1875 -location gigha
-            body {
-                younger sister of Isabella. her mother was isabella galbraith
-            }
-        }
-    }
+    child galbraith-donald-1868-wotherspoon
 }
 footnotes {
     malcolm1809-baptism {
@@ -132,11 +121,4 @@ footnotes {
     janet1865-death {
         $sp-ref[d-1928-535-00-0003 "Jessie Galbraith"]
     }
-    donald1868-birth {
-        $sp-ref-link[b-1868-516-02-0004 0002 "Donald Galbreath"]
-    }
-    donald1868-death {
-        $sp-ref-link[d-1944-616-00-0023 0008 "Donald Galbraith"]
-    }
-    
 }
