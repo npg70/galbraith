@@ -8,9 +8,11 @@ external {
 partner {
     name Flora McKinven
     marriage -date 1901 -location Campbeltown -ref mckinven-marriage
-}
-body {
-    Six children born after 1900.
+
+    child {
+        name Thomas Wylie Galbraith
+        birth -date 31-may-1901 -location campbeltown -ref thomas1901-birth
+    }
 }
 
 footnotes {
@@ -21,7 +23,10 @@ footnotes {
         $sp-ref[d-1950-685-06-0449 "Thomas Wylie Galbraith"]
     }
     mckinven-marriage {
-        $sp-ref[m-1901-507-00-0005 "Thmas Galbraith" "Flora McKinven"]
+        $sp-ref-link[m-1901-507-00-0005 0003 "Thomas Galbraith" "Flora McKinven"]
+    }
+    thomas1901-birth {
+        $sp-ref-link[b-1901-507-00-0116 0039 "Thomas Wylie Galbraith"]
     }
 }
 

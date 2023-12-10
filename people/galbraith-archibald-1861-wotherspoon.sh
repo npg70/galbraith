@@ -105,7 +105,7 @@ footnotes {
     lachlan1902-birth {
         $sp-ref-link[b-1902-533-02-0002 0001 "Lachlan Galbraith"]
     }
-    lachlan1902-birth {
+    lachlan1902-death {
         $sp-ref[b-1949-530-00-0007 "Lachlan Galbraith"]
     }
     eugina1904-birth {

@@ -14,6 +14,19 @@ partner {
     birth -date 'about 1881'
     death -date 20-oct-1918 -location campbeltown -ref brown-death
     marriage -date 10-aug-1900 -location campbeltown -ref brown-marriage
+
+    child {
+        name William Galbraith
+        birth -date 12-dec-1901 -location campbeltown -ref william1901-birth
+    }
+    child {
+        name Jeanie Whiteford Galbraith
+        birth -date 03-feb-1903 -location campbeltown -ref jeanie1903-birth
+    }
+    child {
+        name Samuel Brown Galbraith
+        birth -date 11-oct-1904 -location campbeltown -ref samuel1904-birth
+    }
 }
 partner {
     name Jessie Mitchell
@@ -40,6 +53,15 @@ footnotes {
     }
     brown-death  {
         $sp-ref-link[d-1918-507-00-0095 0032 "Elizabeth Galbraith"]
+    }
+    william1901-birth {
+        $sp-ref-link[b-1901-507-00-0260 0087 "William Galbraith"]
+    }
+    jeanie1903-birth {
+        $sp-ref-link[b-1903-507-00-0031 0011 "Jeanie Whiteford Galbraith"]
+    }
+    samuel1904-birth {
+        $sp-ref-link[b-1904-507-00-0206 0069 "Samuel Brown Galbraith"]
     }
     mitchell-marriage {
         $sp-ref-link[m-1925-507-00-0034 0017 "John Galbraith" "Jessie Mitchell"].  Jessie is listed as "Jessie Mitchel or McAllister"

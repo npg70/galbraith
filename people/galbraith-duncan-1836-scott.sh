@@ -58,14 +58,12 @@ partner {
         birth -date 1869 -location greenock -ref isabella1869-birth
         death -date 1873 -location greenock -ref isabella1869-death
     }
-    child {
-        name Donald Galbraith
-        birth -date 1872 -location greenock -ref donald1872-birth
-    }
+    child galbraith-donald-1872-mcallister
+
     child galbraith-william-1875-thomson
     child {
         name John Galbraith
-       birth -date 24-apr-1877 -location kilcalmonell -ref john1877-birth
+        birth -date 24-apr-1877 -location kilcalmonell -ref john1877-birth
     }
 }
 footnotes {
@@ -97,9 +95,6 @@ footnotes {
     }
     isabella1869-death {
         $sp-ref[b-1873-564-02-0104 "Isabella McInty... Galbraith"]
-    }
-    donald1872-birth {
-        $sp-ref[b-1872-564-02-0509 "Donald Galbraith"]
     }
     john1877-birth {
         $sp-ref-link[b-1877-516-01-0006 0002 "John Galbraith"]

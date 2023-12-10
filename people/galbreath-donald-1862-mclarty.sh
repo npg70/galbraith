@@ -29,6 +29,10 @@ partner {
         name Mary Galbraith
         birth -date 22-feb-1897 -location campbeltown -ref mary1897-birth
     }
+    child {
+        name Janet Galbraith
+        birth -date 30-jul-1901 -location campbeltown -ref janet1901-birth
+    }
 }
 footnotes {
     mclarty-marriage {
@@ -45,6 +49,9 @@ footnotes {
     }
     mary1897-birth {
         $sp-ref-link[b-1897-507-00-0060 0020 "Mary Galbraith"] 
+    }
+    janet1901-birth {
+        $sp-ref-link[b-1901-507-00-0168 0056 "Janet Galbraith"]
     }
 }
 

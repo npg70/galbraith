@@ -23,6 +23,10 @@ partner {
         death -date 1978 -location campbeltown -ref william1898-death
     }
     child {
+        name Walter McCulloch Galbraith
+        birth -date 03-sep-1901 -location campbeltown -ref walter1901-birth
+    }
+    child {
         name David Galbraith
         birth -date 21-mar-1904 -location campbeltown -ref david1904-birth
         death -date 1-may-1987 -location campbeltown -ref david1904-death
@@ -77,6 +81,9 @@ footnotes {
     }
     william1898-death {
         $sp-ref[d-1978-536-00-0060 "William Galbraith"]
+    }
+    walter1901-birth {
+        $sp-ref-link[b-1901-507-00-0196 0066 "Walter McCulloch Galbraith"]
     }
     maria1911-birth {
         $sp-ref[b-1911-507-00-158 "Maria McMurchy Galbraith"]

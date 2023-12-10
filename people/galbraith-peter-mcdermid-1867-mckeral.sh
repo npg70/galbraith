@@ -23,6 +23,10 @@ partner {
         birth -date 1899 -location campbeltown -ref charles1899-birth
     }
     child {
+        name Peter McKerral Galbraith
+        birth -date 18-oct-1901 -location campbeltown -ref peter1901-birth
+    }
+    child {
         name Alice Hume Galbraith
         birth -date 18-feb-1911 -location campbeltown
     }
@@ -46,6 +50,9 @@ footnotes {
     }
     charles1899-birth {
         $sp-ref[b-1899-507-00-0242 "Charles McKeral Galbraith"]
+    }
+    peter1901-birth {
+        $sp-ref-link[b-1901-507-00-0223 0075 "Peter McKerral Galbraith"]
     }
 }
 
