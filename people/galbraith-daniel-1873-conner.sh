@@ -10,7 +10,7 @@ body {
     He was a coal miner.
 }
 note {
-    First child, Annie, was born before marriage.
+    The first child, Annie, was born before marriage.
 }
 
 partner {
@@ -28,6 +28,14 @@ partner {
         name Isabella McDermid Galbraith
         birth -date 1901 -location campbeltown -ref isabella1901-birth
     }
+    child {
+        name Charles Conner Galbraith
+        birth -date 4-sep-1903 -location campbeltown -ref charles1903-birth
+    }
+    child {
+        name Donald Galbraith
+        birth -date 23-dec-1905 -location campbeltown -ref donald1905-birth
+    }
 }
 
 footnotes {
@@ -35,7 +43,7 @@ footnotes {
         $sp-ref[b-1873-507-00-0064 "Donald Galbraith"]
     }
     donald1873-death {
-        $sp-ref[d-1873-507-00-0041 0014 "Daniel Galbraith"]
+        $sp-ref-link[d-1873-507-00-0041 0014 "Daniel Galbraith"]
     }
     conner-marriage {
         $sp-ref-link[m-1897-507-00-0037 0019 "Daniel Galbraith" "Helen Conner"]
@@ -48,5 +56,11 @@ footnotes {
     }
     isabella1901-birth {
         $sp-ref[b-1901-507-00-0214 "Isabella McDermid Galbraith"]
+    }
+    charles1903-birth {
+        $sp-ref-link[b-1903-507-00-0185 0062 "Charles Conner Galbraith"]
+    }
+    donald1905-birth {
+        $sp-ref-link[b-1905-507-00-0016 0006 "Donald Galbraith"]
     }
 }

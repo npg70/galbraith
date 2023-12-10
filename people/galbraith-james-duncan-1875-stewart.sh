@@ -1,12 +1,14 @@
 name James Duncan Galbraith
-tags campbeltown
-todo {
-    Stub. children exist, missing familysearch entry
+external {
+    familysearch GGJF-Q14
 }
+tags campbeltown
 birth -date may-1875 -location campbeltown -ref james1875-birth
 death -date 7-feb-1943 -location campbeltown -ref james1875-death
 partner {
     name Margaret Stewart
+    birth -date 'about 1870' -note 'daughter of George Stewart and Ann Cook'
+    death -date 24-jul-1932 -location campbeltown -ref stewart-death
     marriage -date 17-jun-1898 -location campbeltown -ref stewart-marriage
 
     child {
@@ -23,6 +25,9 @@ footnotes {
     }
     stewart-marriage {
         $sp-ref-link[m-1898-507-00-0017 0009 "James Galbreath" "Margaret Stewart"]
+    }
+    stewart-death {
+        $sp-ref-link[d-1932-507-00-0085 0029 "Margaret Galbraith"]
     }
     annie1900-birth {
         $sp-ref-link[b-1900-507-00-0124 0043 "Annie Stewart Galbraith"]

@@ -14,11 +14,12 @@ partner {
 
     child {
         name Mary Hart Galbraith
-        birth -date 17-mar-1905 -location campbeltown
+        birth -date 17-mar-1905 -location campbeltown -ref mary1905-birth
     }
     child {
         name Robert Galbraith
-        birth -date 2-dec-1906 -location campbeltown
+        birth -date 2-dec-1906 -location campbeltown -ref robert1906-birth
+        death -date 1985 -location oban -ref robert1906-death
     }
     child {
         name Janet Galbraith
@@ -40,7 +41,16 @@ footnotes {
         $sp-ref-link[m-1904-507-00-0061 0031 "Robert Galbraith" "Kate Stewart"]
     }
     stewart-death {
-        $sp-ref-link[d-1960-507-00-0063 0021 "Catherine Hyndm Galbraith"]
+        $sp-ref-link[d-1960-507-00-0063 0021 "Catherine Hynd Galbraith"]
+    }
+    mary1905-birth {
+        $sp-ref-link[b-1905-507-00-0067 0023 "Mary Hart Galbraith"]
+    }
+    robert1906-birth {
+        $sp-ref[b-1906-507-00-0258 "Robert Galbraith"]
+    }
+    robert1906-death {
+        $sp-ref[d-1985-526-00-0159 "Robert Galbraith"]
     }
     janet1909-birth {
         $sp-ref[b-1909-507-00-0079 "Janet Galbraith"]
