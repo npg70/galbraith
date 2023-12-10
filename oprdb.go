@@ -86,6 +86,7 @@ func ParishName(id1, id2 string) string {
 		"539/2":  "Colonsay and Oronsay",
 		"541":    "Kildalton and Oa, Argyll",
 		"549":    "Tobermory, Argyll",
+		"551":    "Tyree, Argyll",
 		"551/1":    "Tyree, Argyll",
 		"554":    "Kimory, Bute",
 		"555":    "Kingarth, Bute",
