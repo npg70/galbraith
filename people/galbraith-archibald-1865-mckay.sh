@@ -47,6 +47,11 @@ partner {
 
     child galbraith-neil-1900-mcmillan
 
+    child {
+        name Peter McDermid Galbraith
+        birth -date 15-oct-1903 -location campbeltown -ref peter1903-birth
+    }
+
 }
 footnotes {
     archibald1865-birth {
@@ -78,6 +83,9 @@ footnotes {
     }
     allan1899-birth {
         $sp-ref[b-1899-507-00-0147 "Allan Galbraith"]
+    }
+    peter1903-birth {
+        $sp-ref-link[b-1903-507-00-0217 0073 "Peter McDermid Galbraith"]
     }
 }
 

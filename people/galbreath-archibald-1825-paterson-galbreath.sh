@@ -46,14 +46,7 @@ partner {
         name Mary Galbraith
         birth -date 16-sep-1875 -location campbeltown -ref mary1875-birth
     }
-    child {
-        name Archibald Galbraith
-        birth -date 30-nov-1877 -location campbeltown -ref archibald1877-birth
-        death -date 14-sep-1955 -location campbeltown -ref archibald1877-death
-        partner {
-            name Mary Gilchrist
-        }
-    }
+    child galbraith-archibald-1877-gilchrist
 }
 
 partner {
@@ -107,13 +100,6 @@ footnotes {
     }
     mary1875-birth {
         $sp-ref-link[b-1875-507-00-0207 0069 "Mary Galbraith"] Note: index as "Galbreaith"
-    }
-    archibald1877-birth {
-        $sp-ref-link[b-1877-507-00-0327 0109 "Archibald Galbreaith"]
-        Note misspelling in name.
-    }
-    archibald1877-death {
-        $sp-ref-link[d-1955-507-00-0060 0020 "Archibald Galbraith"]
     }
     not-james {
         $sp-ref-link[m-1894-644-09-0567 0284 "James Paterson Galbraith" "Elizabeth McFarlane"]

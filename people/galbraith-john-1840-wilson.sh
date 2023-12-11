@@ -18,14 +18,7 @@ partner {
         name Jane Galbraith
         birth -date 1876 -location 'south knapdale' -ref jane1876-birth
     }
-    child {
-        name Neil Galbraith
-        birth -date 24-jan-1879 -location 'south knapdale' -ref neil1879-birth
-        death -date 25-sep-1952 -location 'dunoon' -ref neil1879-death
-        partner {
-            name Jean Sunark?
-        }
-    }
+    child galbraith-neil-1879-smart
     child {
         name John Galbraith
         birth -date 1882 -location tarbert -ref john1882-birth
@@ -49,12 +42,6 @@ footnotes {
     }
     jane1876-birth {
         $sp-ref[b-1876-533-00-0010 "Jane Galbraith"]
-    }
-    neil1879-birth {
-        $sp-ref-link[b-1879-533-00-0002 0001 "Neil Galbraith"]
-    }
-    neil1879-death {
-        $sp-ref-link[d-1952-510-01-0148 0050 "Neil Galbraith"]
     }
     john1882-birth {
         $sp-ref[b-1882-535-00-0010 "John Galbraith"]

@@ -61,6 +61,6 @@ footnotes {
         $sp-ref-link[b-1903-507-00-0185 0062 "Charles Conner Galbraith"]
     }
     donald1905-birth {
-        $sp-ref-link[b-1905-507-00-0016 0006 "Donald Galbraith"]
+        $sp-ref-link[b-1906-507-00-0016 0006 "Donald Galbraith"], born in 1905, recorded in 1906
     }
 }

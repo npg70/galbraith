@@ -158,11 +158,13 @@ func ParishName(id1, id2 string) string {
 		"694":    "Mid Calder, Midlothian",
 		"706":    "Dunbar",
 		"713":    "North Berwick",
+		"742":    "Canongate and Portobello",
 		"743":    "Greenlaw",
 		"744":    "Morningside",
 		"775":    "Galashiels, Selkirk",
 		"788":    "Inverness",
 		"790":    "Hobkirk, Roxburgh",
+		"811":    "Selkirk",
 		"895":    "Penningham, Wigtown",
 	}
 

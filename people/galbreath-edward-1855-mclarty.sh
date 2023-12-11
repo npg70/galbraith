@@ -5,7 +5,7 @@ external {
     findagrave 241931140
 }
 birth -date 11-jun-1855 -location gigha -ref edward1855-birth
-
+death -date 10-mar-1933 -location campbeltown
 body {
     He was a carter, a store-keeper, and an insurance agent.
 }
@@ -56,7 +56,11 @@ partner {
 
 partner {
     name Elizabeth Betsy McKinven
-    marriage -date 4-jun-1901 -location campbeltown
+    marriage -date 4-jun-1901 -location campbeltown -ref mckinven-marriage
+    child {
+        name Charles McKinven Galbraith
+        birth -date 11-aug-1903 -location campbeltown -ref charles1903-birth
+    }
 }
 
 footnotes {
@@ -86,5 +90,12 @@ footnotes {
     }
     edward1895-birth {
         $sp-ref-link[b-1895-507-00-0316 0106 "Edward Galbraith"]
+    }
+
+    mckinven-marriage {
+        $sp-ref-link[m-1901-507-00-0013 0007 "Edward Galbraith" "Betsy McKinven"]
+    }
+    charles1903-birth {
+        $sp-ref-link[b-1903-507-00-0164 0055 "Chalres McKinven Galbraith"]
     }
 }
