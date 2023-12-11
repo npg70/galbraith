@@ -12,7 +12,7 @@ partner {
     baptism -date 24-jul-1820 -location Killean 
     death -date 28-jul-1904 -location campbeltown -ref mcgreachy-death
 
-    child  galbreath-edward-1855-mclarty
+    child  galbreath-edward-1855-mclarty-mckinven
 
     child  galbraith-donald-1857-muir
 

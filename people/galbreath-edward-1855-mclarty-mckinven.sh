@@ -61,6 +61,10 @@ partner {
         name Charles McKinven Galbraith
         birth -date 11-aug-1903 -location campbeltown -ref charles1903-birth
     }
+    child {
+        name Stewart Galbraith
+        birth -date 01-dec-1906 -location campbeltown -ref stewart1906-birth
+    }
 }
 
 footnotes {
@@ -97,5 +101,8 @@ footnotes {
     }
     charles1903-birth {
         $sp-ref-link[b-1903-507-00-0164 0055 "Chalres McKinven Galbraith"]
+    }
+    stewart1906-birth {
+        $sp-ref-link[b-1906-507-00-0252 0084 "Stewart Galbraith"]
     }
 }
