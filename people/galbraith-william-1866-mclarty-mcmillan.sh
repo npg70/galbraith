@@ -36,6 +36,11 @@ partner {
     name Mary Steward McMillan
     birth -date 'about 1872'
     marriage -date 5-oct-1906 -location campbeltown -ref mcmillan-marriage
+
+    child {
+        name Archibald Galbraith
+        birth -date 21-oct-1907 -location campbeltown -ref archibald1907-birth
+    }
 }
 
 footnotes {
@@ -71,5 +76,8 @@ footnotes {
     }
     mcmillan-marriage {
         $sp-ref-link[m-1906-507-00-0032 0016 "William Galbraith" "Mary McMillan"]
+    }
+    archibald1907-birth {
+        $sp-ref-link[b-1907-507-00-0208 0070 "Archibald Galbraith"]
     }
 }

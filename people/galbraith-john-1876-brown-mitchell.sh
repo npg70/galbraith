@@ -27,6 +27,10 @@ partner {
         name Samuel Brown Galbraith
         birth -date 11-oct-1904 -location campbeltown -ref samuel1904-birth
     }
+    child {
+        name John Galbraith
+        birth -date 14-jul-1906 -location campbeltown -ref john1906-birth
+    }
 }
 partner {
     name Jessie Mitchell
@@ -63,6 +67,10 @@ footnotes {
     samuel1904-birth {
         $sp-ref-link[b-1904-507-00-0206 0069 "Samuel Brown Galbraith"]
     }
+    john1906-birth {
+        $sp-ref-link[b-1906-507-00-0136 0046 "John Galbraith"]
+    }
+
     mitchell-marriage {
         $sp-ref-link[m-1925-507-00-0034 0017 "John Galbraith" "Jessie Mitchell"].  Jessie is listed as "Jessie Mitchel or McAllister"
     }

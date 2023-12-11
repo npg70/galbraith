@@ -21,6 +21,10 @@ partner {
         name Alexander Galbraith
         birth -date 21-feb-1903 -location campbeltown -ref alexander1903-birth
     }
+    child {
+        name Margaret Galbraith
+        birth -date 10-feb-1907 -location campbeltown -ref margaret1907-birth
+    }
 }
 footnotes {
     archibald1872-birth {
@@ -40,5 +44,8 @@ footnotes {
     }
     alexander1903-birth {
         $sp-ref-link[b-1903-507-00-0048 0016 "Archibald Galbraith"]
+    }
+    margaret1907-birth {
+        $sp-ref-link[b-1907-507-00-0034 0012 "Margaret Galbraith"]
     }
 }

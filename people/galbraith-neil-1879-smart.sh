@@ -10,6 +10,10 @@ partner {
         name Catherine Alexander Smart Galbraith
         birth -date 28-jan-1903 -location campbeltown -ref catherine1903-birth
     }
+    child {
+        name Margaret Wilson Galbraith
+        birth -date 1906 -location campbeltown -ref margaret1906-birth
+    }
 }
 footnotes {
     neil1879-birth {
@@ -23,5 +27,8 @@ footnotes {
     }
     catherine1903-birth {
         $sp-ref-link[b-1903-507-00-0038 0013 "Catherine Alexander Smart Galbraith"]
+    }
+    margaret1906-birth {
+        $sp-ref[b-1906-507-00-0091 "Margaret Wilson Galbraith"]
     }
 }
