@@ -11,10 +11,9 @@ note {
 partner {
    name Mary Gilchrist
    marriage -date 25-nov-1903 -location campbeltown -ref gilchrist-marriage
-   child {
-        name Mary Paterson Galbraith
-        birth -date 02-jul-1903 -location campbeltown -ref mary1903-birth
-   }
+
+   child galbraith-mary-paterson-1903-sym
+
    child {
         name Catherine Muir Galbraith
         birth -date 03-aug-1905 -location campbeltown -ref catherine1905-birth
@@ -49,9 +48,6 @@ footnotes {
     gilchrist-marriage {
         $sp-ref-link[m-1903-507-00-0046 0023 "Archie Galbriath" "Mary Gilchrist"]
    }
-    mary1903-birth {
-        $sp-ref-link[b-1903-507-00-0141 0047 "Mary Paterson Galbraith"]
-    }
     catherine1905-birth {
         $sp-ref-link[b-1905-507-00-0167 0056 "Catherine Muir Galbraith"]
     }

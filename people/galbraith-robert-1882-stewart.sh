@@ -36,6 +36,10 @@ partner {
         name Elizabeth Hart Galbraith
         birth -date 1912 -location campbeltown -ref elizabeth1912-birth
     }
+    child {
+        name Agnes Stewart Galbraith
+        birth -date 1914 -location campbeltown -ref agnes1914-birth
+    }
 }
 footnotes {
     robert1883-birth {
@@ -64,5 +68,8 @@ footnotes {
     }
     elizabeth1912-birth {
         $sp-ref[b-1912-507-00-0029 "Elizabeth Hart Galbraith"]
+    }
+    agnes1914-birth {
+        $sp-ref[b-1914-507-00-0133 "Agnes Stewart Galbraith"]
     }
 }

@@ -22,6 +22,14 @@ partner {
         name James Campbell Galbraith
         birth -date 21-aug-1918 -location 'killean and kilchenzie' -ref james1918-birth
     }
+    child {
+        name Isabella Jane Galbraith
+        birth -date 05-oct-1921 -location campbeltown -ref isabella1921-birth
+    }
+    child {
+        name Christina Galbraith
+        birth -date 29-oct-1922 -location campbeltown -ref christina1922-birth
+    }
 }
 
 footnotes {
@@ -40,5 +48,11 @@ footnotes {
     }
     james1918-birth {
         $sp-ref-link[b-1918-519-00-0015 0005 "James Campbell Galbraith"]
+    }
+    isabella1921-birth {
+        $sp-ref-link[b-1921-507-00-0195 0065 "Isabella Jane Galbraith"]
+    }
+    christina1922-birth {
+        $sp-ref-link[b-1922-507-00-0196 0066 "Christina Galbraith"]
     }
 }

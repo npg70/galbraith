@@ -35,6 +35,10 @@ partner {
         birth -date 7-apr-1907 -location campbeltown -ref catherine1907-birth
     }
     child {
+        name John Galbraith
+        birth -date 22-may-1914 -location campbeltown -ref john1914-birth
+    }
+    child {
         name Florence McKinven Galbraith
         birth -date 12-aug-1919 -location Edinburgh -ref florence1919-birth
     }
@@ -65,6 +69,9 @@ footnotes {
     }
     catherine1907-birth {
         $sp-ref[b-1907-507-00-0067 "Catherine Colquhoun Galbraith"]
+    }
+    john1914-birth {
+        $sp-ref-link[b-1914-507-00-0089 0030 "John Galbraith"]
     }
     florence1919-birth {
         $sp-ref[b-1919-685-05-0372 0125 "Florence McKinven Galbraith"]

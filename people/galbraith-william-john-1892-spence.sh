@@ -13,6 +13,10 @@ partner {
 
     child galbraith-william-john-1915
 
+    child  {
+        name James Galbraith
+        birth -date 27-sep-1921 -location campbeltown -ref james1921-birth
+    }
 }
 partner {
     name Margaret McDougall Martin
@@ -50,6 +54,9 @@ footnotes {
     }
     spence-marriage {
         $sp-ref-link[m-1914-507-00-0054 0027 "William John Galbraith" "Jane Spence"]
+    }
+    james1921-birth {
+        $sp-ref-link[b-1921-507-00-0184 0062 "James Galbraith"]
     }
     spence-death {
         $sp-ref-link[d-1922-507-00-0029 0010 "Jane Galbraith"]
