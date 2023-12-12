@@ -31,6 +31,10 @@ partner {
         birth -date 21-mar-1904 -location campbeltown -ref david1904-birth
         death -date 1-may-1987 -location campbeltown -ref david1904-death
     }
+    child {
+        name Jane Maltman Galbraith
+        birth -date 29-may-1909 -location campbeltown -ref jane1909-birth
+    }
 }
 partner {
     name Isabella McAulay
@@ -99,6 +103,9 @@ footnotes {
     }
     david1904-death {
         $sp-ref[d-1987-536-00-0036 "David Galbraith"]
+    }
+    jane1909-birth {
+        $sp-ref-link[b-1909-507-00-0117 0039 "Jane Maltman Galbraith"]
     }
 }
 

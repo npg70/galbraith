@@ -34,10 +34,9 @@ partner {
         birth -date 3-mar-1873 -location saddell -ref janet1873-birth
         death -date 22-jan-1876 -location saddell -ref janet1873-death
     }
-    child {
-        name Neil Galbraith
-        birth -date 7-jan-1875 -location saddell -ref neil1875-birth
-    }
+
+    child galbraith-neil-1875-mccallum
+
     child {
         name Isabella Galbraith
         birth -date 21-dec-1876 -location saddell -ref isabella1876-birth
@@ -90,9 +89,6 @@ footnotes {
     }
     janet1873-death {
         $sp-ref-link[d-1876-531-01-0005 0002 "Janet Galbraith"]
-    }
-    neil1875-birth {
-        $sp-ref-link[b-1875-531-01-0001 0001 "Neil Galbraith"]
     }
     isabella1876-birth {
         $sp-ref[b-1876-531-01-0016 "Isabella Galbraith"]

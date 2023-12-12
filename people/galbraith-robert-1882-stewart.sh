@@ -32,6 +32,10 @@ partner {
             name James Beattie
         }
     }
+    child {
+        name Elizabeth Hart Galbraith
+        birth -date 1912 -location campbeltown -ref elizabeth1912-birth
+    }
 }
 footnotes {
     robert1883-birth {
@@ -57,5 +61,8 @@ footnotes {
     }
     janet1909-death {
         $sp-ref-link[d-1965-532-00-0004 0002 "Janet Galbraith"]
+    }
+    elizabeth1912-birth {
+        $sp-ref[b-1912-507-00-0029 "Elizabeth Hart Galbraith"]
     }
 }

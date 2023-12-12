@@ -1,29 +1,32 @@
 name Donald Galbraith
 tags campbeltown
+external {
+    familysearch M1TT-QSL
+}
 birth -date 11-jan-1856 -location campbeltown -ref donald1856-birth
-death -date 1907 -location campbeltown -ref donald1856-death
+death -date 10-jun-1907 -location campbeltown -ref donald1856-death
 note {
     First child was born before marriage.
 }
 partner {
     name Mary McPherson
+    birth -date 13-nov-1859 -location campbeltown
+    death -date 21-feb-1892 -location campbeltown
     marriage -date 22-jul-1881 -location campbeltown -ref mcpherson-marriage
     child {
         name Mary Galbraith
-        birth -date 1882 -location campbeltown -ref mary1881-birth
+        birth -date 24-apr-1881 -location campbeltown -ref mary1881-birth
         death -date 1-sep-1882 -location campbeltown -ref mary1881-death
     }
     child {
          name Mary Galbraith
          birth -date 24-feb-1883 -location campbeltown -ref mary1883-birth
     }
-    child {
-        name Donald Galbraith
-        birth -date 1885 -location campbeltown -ref donald1885-birth
-    }
+    child galbraith-donald-1885-macalister-wilson
     child {
         name Alexander Galbraith
         birth -date 25-dec-1887 -location campbeltown -ref alexander1888-birth
+        death -date 17-may-1903 -location campbeltown
     }
     child {
         name Duncan Galbraith
@@ -48,9 +51,6 @@ footnotes {
     }
     mary1883-birth {
         $sp-ref-link[b-1883-507-00-0081 0027 "Mary Galbraith"]
-    }
-    donald1885-birth {
-        $sp-ref[b-1885-507-00-0270 "Donald Galbraith"]    
     }
     alexander1888-birth {
         $sp-ref-link[b-1888-507-00-0018 0006 "Alexander Galbraith"]. Born in 1887, registered in 1888.

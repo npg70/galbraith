@@ -1,5 +1,9 @@
 name Donald Galbraith
 tags 'Killean and Kilchenzie' Campbeltown
+external {
+    familysearch LZ68-L2C
+}
+
 baptism -date 8-Aug-1819 -location 'killean and kilchenzie' -ref donald1819-baptism
 death -date 20-nov-1897 -location campbeltown -ref death
 note {
@@ -7,7 +11,9 @@ note {
 }
 partner {
     name Isabella McLean
-    marriage -date 13-dec-1847 -location campbeltown -ref marriage
+    birth -date 10-mar-1816 -location campbeltown  -note 'daughter of Donald McLean and Agnes Stewart'
+    marriage -date 13-dec-1847 -location campbeltown -ref mclean-marriage
+    death -date 30-dec-1887 -location campbeltown -ref mclean-death
     child {
         name Agnes Galbreath
         baptism -date 25-jan-1848 -location campbeltown -ref agnes1848-baptism
@@ -47,12 +53,15 @@ footnotes {
         }
         The age of 66 is incorrect.  That would mean he got married at age 16.
     }
-    marriage {
+    mclean-marriage {
         $opr-ref[m-1847-507-000-0060-0423 "Donald Galbreath" "Isabella McLean"]{
             Donald Galbreath Wright[?] Dalintober and Isabella McLean
             Daughter of the late Donald McLean Farmer Ballywilone[?]
             both of this Parish were married thirteenth December 1847.
         }
+    }
+    mclean-death {
+        $sp-ref-link[d-1887-507-00-0177 0059 "Isabella Galbraith"]
     }
     agnes1848-baptism {
         $opr-ref[b-1848-507-000-0070-0330 "Agnes Galbreath"]

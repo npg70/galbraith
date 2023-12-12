@@ -31,6 +31,18 @@ partner {
         name John Galbraith
         birth -date 14-jul-1906 -location campbeltown -ref john1906-birth
     }
+    child {
+        name Daniel McKinven Galbraith
+        birth -date 21-may-1908 -location campbeltown -ref daniel1908-birth
+    }
+    child {
+        name Maria McMurtry Galbraith
+        birth -date 20-may-1910 -location campbeltown -ref maria1910-birth
+    }
+    child {
+        name Duncan Campbell Galbraith
+        birth -date 20-may-1910 -location campbeltown -ref duncan1910-birth
+    }
 }
 partner {
     name Jessie Mitchell
@@ -70,7 +82,15 @@ footnotes {
     john1906-birth {
         $sp-ref-link[b-1906-507-00-0136 0046 "John Galbraith"]
     }
-
+    daniel1908-birth {
+        $sp-ref-link[b-1908-507-00-0122 0041 "Daniel McKinven Galbraith"]
+    }
+    maria1910-birth {
+        $sp-ref-link[b-1910-507-00-0099 0033 "Maria Mcmurtry Galbraith"]
+    }
+    duncan1910-birth {
+        $sp-ref-link[b-1910-507-00-0100 0034 "Duncan Campbell Galbraith"]
+    }
     mitchell-marriage {
         $sp-ref-link[m-1925-507-00-0034 0017 "John Galbraith" "Jessie Mitchell"].  Jessie is listed as "Jessie Mitchel or McAllister"
     }

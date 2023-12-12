@@ -14,6 +14,18 @@ partner {
         name Margaret Wilson Galbraith
         birth -date 1906 -location campbeltown -ref margaret1906-birth
     }
+    child {
+        name John Galbraith
+        birth -date 1908 -location campbeltown -ref john1908-birth
+    }
+    child {
+        name Elizabeth Helen Galbraith
+        birth -date 1910 -location campbeltown -ref elizabeth1910-birth
+    }
+    child {
+        name Donald Kennedy Galbraith
+        birth -date 1912 -location campbeltown -ref donald1912-birth
+    }
 }
 footnotes {
     neil1879-birth {
@@ -30,5 +42,14 @@ footnotes {
     }
     margaret1906-birth {
         $sp-ref[b-1906-507-00-0091 "Margaret Wilson Galbraith"]
+    }
+    john1908-birth {
+        $sp-ref[b-1908-507-00-0036 "John Galbraith"]
+    }
+    elizabeth1910-birth {
+        $sp-ref[b-1910-507-00-0013 "Elizabeth Helen Galbraith"]
+    }   
+    donald1912-birth {
+        $sp-ref[b-1912-507-00-0036 "Donald Kennedy Galbraith"]
     }
 }

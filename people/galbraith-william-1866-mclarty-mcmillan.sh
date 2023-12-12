@@ -41,6 +41,10 @@ partner {
         name Archibald Galbraith
         birth -date 21-oct-1907 -location campbeltown -ref archibald1907-birth
     }
+    child {
+        name Maria McMurchy Galbraith
+        birth -date 18-apr-1911 -location campbeltown -ref maria1911-birth
+    }
 }
 
 footnotes {
@@ -79,5 +83,8 @@ footnotes {
     }
     archibald1907-birth {
         $sp-ref-link[b-1907-507-00-0208 0070 "Archibald Galbraith"]
+    }
+    maria1911-birth {
+        $sp-ref-link[b-1911-507-00-0075 0025 "Maria McMurchy Galbraith"]
     }
 }

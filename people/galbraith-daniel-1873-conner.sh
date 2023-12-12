@@ -36,6 +36,18 @@ partner {
         name Donald Galbraith
         birth -date 23-dec-1905 -location campbeltown -ref donald1905-birth
     }
+    child {
+        name Duncan Conner Galbraith
+        birth -date 1908 -location campbeltown -ref duncan1908-birth
+    }
+    child {
+        name Christina Galbraith
+        birth -date 1911 -location campbeltown -ref christina1911-birth
+    }
+    child {
+        name Neil Conner Galbraith
+        birth -date 1913 -location campbeltown -ref neil1913-birth
+    }
 }
 
 footnotes {
@@ -62,5 +74,14 @@ footnotes {
     }
     donald1905-birth {
         $sp-ref-link[b-1906-507-00-0016 0006 "Donald Galbraith"], born in 1905, recorded in 1906
+    }
+    duncan1908-birth {
+        $sp-ref[b-1908-507-00-0078 "Duncan Connor Galbraith"], note middle name is mispelled
+    }
+    christina1911-birth {
+        $sp-ref[b-1911-507-00-0015 "Christina Galbraith"]
+    }
+    neil1913-birth {
+        $sp-ref[b-1913-507-00-0121 "Neil Conner Galbraith"]
     }
 }
