@@ -40,6 +40,10 @@ partner {
         name Agnes Stewart Galbraith
         birth -date 1914 -location campbeltown -ref agnes1914-birth
     }
+    child {
+        name Flora Stewart Galbraith
+        birth -date 08-sep-1919 -location campbeltown -ref flora1919-birth
+    }
 }
 footnotes {
     robert1883-birth {
@@ -71,5 +75,9 @@ footnotes {
     }
     agnes1914-birth {
         $sp-ref[b-1914-507-00-0133 "Agnes Stewart Galbraith"]
+    }
+
+    flora1919-birth {
+        $sp-ref-link[b-1919-507-00-0108 0036 "Flora Stewart Galbraith"]
     }
 }

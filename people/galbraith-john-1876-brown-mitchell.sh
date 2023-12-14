@@ -43,6 +43,10 @@ partner {
         name Duncan Campbell Galbraith
         birth -date 20-may-1910 -location campbeltown -ref duncan1910-birth
     }
+    child {
+        name Martha Whiteford Brown
+        birth -date 08-jan-1914 -location campbeltown -ref martha1914-birth
+    }
 }
 partner {
     name Jessie Mitchell
@@ -90,6 +94,9 @@ footnotes {
     }
     duncan1910-birth {
         $sp-ref-link[b-1910-507-00-0100 0034 "Duncan Campbell Galbraith"]
+    }
+    martha1914-birth {
+        $sp-ref-link[b-1914-507-00-0007 0003 "Martha Whiteford Galbraith"]
     }
     mitchell-marriage {
         $sp-ref-link[m-1925-507-00-0034 0017 "John Galbraith" "Jessie Mitchell"].  Jessie is listed as "Jessie Mitchel or McAllister"

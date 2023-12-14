@@ -6,6 +6,11 @@ partner {
     name Alice "O'Connor"
     birth -date 'about 1890' -note "the daughter of Joseph O'Connor and Jane O'Hara"
     marriage -date 20-feb-1920 -location campbeltown -ref alice-marriage
+
+    child {
+        name Mary McCulloch Galbraith
+        birth -date 26-aug-1920 -location campbeltown -ref mary1920-birth
+    }
     child {
         name Thomas Galbraith
         birth -date 9-oct-1922 -location campbeltown -ref thomas1922-birth
@@ -25,6 +30,9 @@ footnotes {
     Doublely indexed:
         $sp-ref-link[m-1920-507-00-0011 0006 "William Galbraith" "Alice McMillian"],
         $sp-ref-link[m-1920-507-00-0011 0006 "William Galbraith" "Alice O'Connor"]
+    }
+    mary1920-birth {
+        $sp-ref-link[b-1920-507-00-0190 0064 "Mary McCulloch Galbraith"]
     }
     thomas1922-birth {
         $sp-ref-link[b-1922-507-00-0178 0060 "Thomas Galbraith"]

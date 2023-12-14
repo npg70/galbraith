@@ -49,6 +49,18 @@ partner {
         birth -date 17-Dec-1913 -location campbeltown -ref daniel1913-birth
         death -date 1975 -location campbeltown -ref daniel1913-death
     }
+    child {
+        name Barbara Stewart Galbraith
+        birth -date 15-dec-1915 -location campbeltown -ref barbara1915-birth
+    }
+    child {
+        name John Galbraith
+        birth -date 07-nov-1917 -location campbeltown -ref john1917-birth
+    }
+    child {
+        name Isabella McAulay Galbraith 
+        birth -date 11-apr-1920 -location campbeltown -ref isabella1920-birth
+    }
 }
 
 footnotes {
@@ -97,6 +109,15 @@ footnotes {
     }
     jane1909-birth {
         $sp-ref-link[b-1909-507-00-0117 0039 "Jane Maltman Galbraith"]
+    }
+    barbara1915-birth {
+        $sp-ref-link[b-1916-507-00-0002 0001 "Barbara Stewart Galbraith"]
+    }
+    john1917-birth {
+        $sp-ref-link[b-1917-507-00-0136 0046 "John Galbraith"]
+    }
+    isabella1920-birth {
+        $sp-ref-link[b-1920-507-00-0095 0032 "Isabella McAulay Galbraith"]
     }
 }
 

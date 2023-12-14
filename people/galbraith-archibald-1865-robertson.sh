@@ -21,10 +21,9 @@ partner {
         birth -date 21-aug-1893  -location 'killean and kilchenzie' -ref flora1893-birth
         death -date 7-mar-1993
     }
-    child {
-        name Elizabeth McMillan Galbraith
-        birth -date 17-apr-1895 -location 'killean and kilchenzie' -ref elizabeth1895-birth
-    }
+
+    child galbraith-elizabeth-mcmillan-1895-mccormack
+
     child {
         name Archibald Galbraith
         birth -date 1897 -location 'killean and kilchenzie' -ref archibald1897-birth
@@ -58,9 +57,6 @@ footnotes {
     }
     flora1893-birth {
         $sp-ref-link[b-1893-519-00-0021 0007 "Flora Galbraith"] "Flora Robertson" in the record since the birth occured before the marriage.
-    }
-    elizabeth1895-birth {
-        $sp-ref-link[b-1895-519-00-0010 0004 "Elizabeth McMillan Galbraith"]
     }
     archibald1897-birth {
         $sp-ref[b-1897-519-00-0004 "Archibald Galbraith"]

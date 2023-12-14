@@ -49,17 +49,9 @@ partner {
         death -location canada
         body { Immigrated in 1911 }
     }
-    child {
-        name Alexander Galbraith
-        birth -date 16-feb-1891 -location campbeltown -ref alexander1891-birth
-        death -date 24-jun-1964 -location 'Rutherglen, Lanarkshire, Scotland, United Kingdom' -ref alexander1891-death
-        partner {
-            name Isabella Smith Colville
-            birth -date 1892 -location campbeltown
-            death -date 1-feb-1955 -location glasgow
-            marriage -date 30-mar-1914 -location glasgow
-        }
-    }
+
+    child galbraith-alexander-1891-colville
+
     child {
         name Jane Galbraith
         birth -date 17-aug-1890 -location glasgow
@@ -84,8 +76,5 @@ footnotes {
     }
     donald1888-birth {
         $sp-ref-link[b-1888-507-00-0115 0039 "Donald Galbraith"]
-    }
-    alexander1891-birth {
-        $sp-ref[b-1891-507-00-0065 "Alexander Galbraith"]
     }
 }

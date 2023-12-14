@@ -23,6 +23,10 @@ partner {
         birth -date 21-aug-1918 -location 'killean and kilchenzie' -ref james1918-birth
     }
     child {
+        name John David Galbraith
+        birth -date 01-jan-1920 -location campbeltown -ref john1920-birth
+    }
+    child {
         name Isabella Jane Galbraith
         birth -date 05-oct-1921 -location campbeltown -ref isabella1921-birth
     }
@@ -48,6 +52,9 @@ footnotes {
     }
     james1918-birth {
         $sp-ref-link[b-1918-519-00-0015 0005 "James Campbell Galbraith"]
+    }
+    john1920-birth {
+        $sp-ref-link[b-1920-507-00-0003 0001 "John David Galbraith"]
     }
     isabella1921-birth {
         $sp-ref-link[b-1921-507-00-0195 0065 "Isabella Jane Galbraith"]
