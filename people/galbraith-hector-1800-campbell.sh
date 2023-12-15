@@ -51,20 +51,19 @@ partner {
     }
     child {
         name Hecter Galbraith
-        baptism -date 5-apr-1835 -location  'Kilcalmonell and Kilberry' -ref hector1835-birth
+        baptism -date 5-apr-1835 -location  'Kilcalmonell and Kilberry' -ref hector1835-baptism
+    }
+    child {
+        name Jean Galbraith
+        baptism -date 08-nov-1837 -location 'Kilcalmonell and Kilberry' -ref jean1837-baptism
     }
     child {
         name Archibald Galbraith
         baptism -date 18-may-1840 -location 'Kilcalmonell and Kilberry' -ref archibald1840-baptism
     }
-    child {
-        name Archibald Galbraith
-        baptism -date 5-nov-1842 -location 'Kilcalmonell and Kilberry' -ref archibald1842-baptism
-        death -date 31-mar-1889 -location glasgow -ref archibald
-        partner {
-            name Mary McTaggart
-        }
-    }
+
+    child galbraith-archibald-1842-mctaggart
+
 }
 
 footnotes {
@@ -108,11 +107,5 @@ footnotes {
     }
     archibald1840-baptism {
         $opr-ref[b-1840-516-000-020-350 "Archibald Galbraith"]
-    }
-    archibald1842-baptism {
-        $opr-ref[b-1842-516-000-020-0353 "Archibald Galbraith"]
-    }
-    archibald1842-death {
-        $sp-ref-link[d-1889-644-09-0355 0119 "Archibald Galbraith"]
     }
 }
