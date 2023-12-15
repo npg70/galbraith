@@ -10,7 +10,12 @@ partner {
    child {
     name Janet Muir Galbraith
     birth -date 29-oct-1914 -location campbeltown -ref janet1914-birth
+    death -date 1976 -location glasgow -ref janet1914-death
    }
+   child {
+    name Mary Pursell Galbraith
+    birth -date 23-may-1917 -location campbeltown -ref mary1917-birth
+    }
 }
 footnotes {
    alexander1891-birth {
@@ -21,5 +26,11 @@ footnotes {
    }
    janet1914-birth {
         $sp-ref-link[b-1914-507-00-0204 0058 "Janet Muir Galbraith"]
+    }
+    janet1914-death {
+        $sp-ref[d-1976-607-00-0604 "Janet Muir Galbraith"]
+    }
+    mary1917-birth {
+        $sp-ref-link[b-1917-507-00-0079 0027 "Mary Pursell Galbraith"]
     }
 }

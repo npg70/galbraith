@@ -45,6 +45,10 @@ partner {
         name Maria McMurchy Galbraith
         birth -date 18-apr-1911 -location campbeltown -ref maria1911-birth
     }
+    child {
+        name Janet Galbraith
+        birth -date 27-jul-1917 -location campbeltown -ref janet1917-birth
+    }
 }
 
 footnotes {
@@ -86,5 +90,8 @@ footnotes {
     }
     maria1911-birth {
         $sp-ref-link[b-1911-507-00-0075 0025 "Maria McMurchy Galbraith"]
+    }
+    janet1917-birth {
+        $sp-ref-link[b-1917-507-00-0094 0032 "Janet Galbraith"]
     }
 }

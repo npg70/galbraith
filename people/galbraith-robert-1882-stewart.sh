@@ -41,6 +41,10 @@ partner {
         birth -date 1914 -location campbeltown -ref agnes1914-birth
     }
     child {
+        name Margaret Connor Galbraith
+        birth -date 31-dec-1916 -location campbeltown -ref margaret1916-birth
+    }
+    child {
         name Flora Stewart Galbraith
         birth -date 08-sep-1919 -location campbeltown -ref flora1919-birth
     }
@@ -76,7 +80,9 @@ footnotes {
     agnes1914-birth {
         $sp-ref[b-1914-507-00-0133 "Agnes Stewart Galbraith"]
     }
-
+    margaret1916-birth {
+        $sp-ref-link[b-1917-507-00-0009 0003 "Margaret Connor Galbraith"], born in 1916, recored in 1917.
+    }
     flora1919-birth {
         $sp-ref-link[b-1919-507-00-0108 0036 "Flora Stewart Galbraith"]
     }

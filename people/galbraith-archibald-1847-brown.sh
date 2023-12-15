@@ -18,10 +18,9 @@ partner {
         name Flora Galbraith
         birth -date 14-oct-1887 -location campbeltown -ref flora1887-birth
     }
-    child {
-        name Mary Galbraith
-        birth -date 1-aug-1890 -location campbeltown -ref mary1890-birth
-    }
+
+    child galbraith-mary-1890-gillies.sh
+
     child {
         name Duncan Galbraith
         birth -date 5-feb-1897 -location campbeltown -ref duncan1897-birth
@@ -51,9 +50,6 @@ footnotes {
     }
     flora1887-birth {
         $sp-ref-link[b-1887-507-00-0323 0108 "Flora Galbraith"]
-    }
-    mary1890-birth {
-        $sp-ref-link[b-1890-507-00-0198 0066 "Mary Galbraith"]
     }
     duncan1897-birth {
         $sp-ref-link[b-1897-507-00-0025 0009 "Duncan Galbraith"]

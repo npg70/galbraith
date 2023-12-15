@@ -15,11 +15,9 @@ partner {
         name Catherine McNair Galbraith
         birth -date 1889 -location campbeltown -ref catherine1889-birth
     }
-    child {
-        name Charles McCorkindale Galbraith
-        birth -date 1891 -location campbeltown -ref charles1891-birth
-        death -date 24-dec-1926 -location 'Kilmore and Kilbride,Argyll' -ref charles1891-death
-    }
+
+    child galbraith-charles-mccorkindale-1891-martin
+
     child {
         name Margaret Smith Galbraith
         birth -date 1893 -location campbeltown -ref margaret1893-birth
@@ -40,12 +38,6 @@ footnotes {
     }
     catherine1889-birth {
         $sp-ref[b-1889-507-00-0147 "Catherine McNair Galbraith"]
-    }
-    charles1891-birth {
-        $sp-ref[b-1891-507-00-0017 "Charles McCorkindale Galbraith"]
-    }
-    charles1891-death {
-        $sp-ref[d-1921-523-00-0110 "Charles Galbraith"]
     }
     margaret1893-birth {
         $sp-ref[b-1893-507-00-0104 "Margaret Smith Galbraith"]
