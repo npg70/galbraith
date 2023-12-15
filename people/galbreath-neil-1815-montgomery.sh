@@ -16,7 +16,7 @@ partner {
     child {
         name Margaret Galbraith
         birth -date 1833
-        death -date 24-may-1915 -location 'campbeltown' -ref marg1833-birth
+        death -date 24-may-1915 -location 'campbeltown' -ref marg1833-death
         partner {
             name Peter Blackstock
         }
@@ -71,7 +71,7 @@ footnotes {
     donald1841-death {
         $sp-ref-link[d-1861-537-00-0007 0003 "Donald Galbraith"]
     }
-    mary1852-birth {
+    mary1852-death {
         $sp-ref-link[d-1900-644-09-0071 0024 "Mary Galbraith"]
     }
     jannet1854-birth {
