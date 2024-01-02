@@ -74,7 +74,7 @@ footnotes {
         $sp-ref-link[d-1883-507-00-0212 0071 "Alexander Galbraith"]
     }
     campbell-marriage {
-        $sp-ref-link[m-1864-507-00-0031 0016 "Alexander Galbraith" "FLora Campbell"]
+        $sp-ref-link[m-1864-507-00-0031 0016 "Alexander Galbraith" "Flora Campbell"]
     }
     campbell-death {
         $sp-ref-link[d-1875-507-00-0098 0033 "Flora Galbraith"]
