@@ -127,6 +127,7 @@ func ParishName(id1, id2 string) string {
 		"623":    "Biggar, Lanark",
 		"628":    "Cambusnethan, Lanark",
 		"638":    "Dalserf, Lanark",
+		"638/1":  "Larkhall, Lanark",
 		"638/2":  "Dalserf, Lanark",
 		"640":    "Inverclyde",
 		"642":    "Port Glasgow",
