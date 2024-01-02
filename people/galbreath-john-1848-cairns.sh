@@ -92,7 +92,7 @@ footnotes {
         $sp-ref[b-1875-531-01-0015 "Georgina Cook Galbraith"]
     }
     georgina1875-death {
-        $sp-ref[d-1958-510-01-0094 0032 "Georgina Cook Galbraith"]
+        $sp-ref-link[d-1958-510-01-0094 0032 "Georgina Cook Galbraith"]
     }
     alex1879-birth {
         $sp-ref[b-1879-531-01-0007 "Alexander Cook Galbraith"]
@@ -107,7 +107,7 @@ footnotes {
         $sp-ref[b-1888-531-01-0017 "Janet Cook Cairns Galbraith"]
     }
     janet1888-death {
-        $sp-ref[d-1888-558-00-0020 0007 "Janet Cook Cairns Galbraith"]
+        $sp-ref-link[d-1888-558-00-0020 0007 "Janet Cook Cairns Galbraith"]
     }
     margaret1890-birth {
         $sp-ref[b-1890-531-01-0013 "Margaret Cook Galbraith"]

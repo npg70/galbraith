@@ -56,7 +56,7 @@ footnotes {
         $sp-ref[b-1914-578-01-0393 "Robert Ramsay Galbraith"]
     }
     robert1914-death {
-        $sp-ref[d-1969-578-00-0177 0177 "Robert Ramsay Galbraith"]
+        $sp-ref-link[d-1969-578-00-0177 0177 "Robert Ramsay Galbraith"]
     }
     robert1914-marriage {
         $sp-ref[m-1939-578-01-0247 "Robert Ramsay Galbraith" "Margaret Barr L... Leggatt"]

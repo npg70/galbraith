@@ -173,7 +173,7 @@ footnotes {
         $sp-ref[b-1871-535-00-0030 "John Galbraith"]
     }
     john1871-death {
-        $sp-ref[d-1936-644-10-0219 0073 "John Galbraith"]
+        $sp-ref-link[d-1936-644-10-0219 0073 "John Galbraith"]
     }
     jessie1873-birth {
         $sp-ref[b-1873-535-00-0032 "Jessie Galbraith"]

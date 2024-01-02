@@ -74,7 +74,7 @@ footnotes {
         $sp-ref-link[b-1914-507-00-0089 0030 "John Galbraith"]
     }
     florence1919-birth {
-        $sp-ref[b-1919-685-05-0372 0125 "Florence McKinven Galbraith"]
+        $sp-ref-link[b-1919-685-05-0372 0125 "Florence McKinven Galbraith"]
     }
 }
 
