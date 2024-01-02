@@ -26,7 +26,7 @@ partner {
         death -date 20-feb-1911 -location kilberry -ref mary1851-death
         partner {
             name Donald Leitch
-            marriage -date 7-mar-1876 -location kilberry
+            marriage -date 7-mar-1876 -location kilberry -ref mary1851-marriage1
         }
         partner {
             name Duncan Currie
@@ -93,6 +93,9 @@ footnotes {
     }
     mary1851-baptism {
         $opr-ref[b-1851-516-000-0020-0366 "Mary Galbraith"]
+    }
+    mary1851-marraige1 {
+        $sp-ref-link[m-1876-516-02-0001 0001 "Mary Galbraith" "Donald Leitch"]
     }
     mary1851-death {
         $sp-ref[d-1911-533-02-0002 "Mary Galbraith"]

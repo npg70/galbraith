@@ -14,6 +14,7 @@ partner {
     body {
         The daughter of Alexander Blue and Isabella Hall.
     }
+    child galbraith-alexander-1876-collins    
 }
 partner {
     name Margaret McCall

@@ -31,6 +31,10 @@ partner {
     child {
         name Mary Jane Galbraith
         birth -date 27-jun-1874 -location campbeltown -ref mary1874-birth
+        partner {
+            name Donald McKinnon
+            marriage -date 28-jun-1900 -location campbeltown -ref mary1874-marriage
+        }
     }
     child {
         name James Galbreath
@@ -70,6 +74,9 @@ footnotes {
     }
     mary1874-birth {
         $sp-ref-link[b-1874-507-00-0178 0060 "Mary Jane Galbraith"]
+    }
+    mary1874-marriage {
+        $sp-ref-link[m-1900-507-00-0023 0012 "Mary Jane Galbraith" "Donald McKinnon"]
     }
     james1877-birth {
         $sp-ref-link[b-1877-507-00-0138 0046 "James Galbreath"] Of note is the "ai" in Galbraith is crossed out and replaced with "ea" (i.e. Galbreath).

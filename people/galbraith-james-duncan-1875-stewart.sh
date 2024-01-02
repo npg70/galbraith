@@ -15,6 +15,10 @@ partner {
         name Annie Stewart Galbraith
         birth -date 12-jun-1900 -location campbeltown -ref annie1900-birth
     }
+    child {
+        name Archibald Stewart Galbraith
+        birth -date 30-sep-1902 -location larkhall,lanark -ref archibald1902-birth
+    }
 }
 footnotes {
     james1875-birth {
@@ -31,6 +35,9 @@ footnotes {
     }
     annie1900-birth {
         $sp-ref-link[b-1900-507-00-0124 0043 "Annie Stewart Galbraith"]
+    }
+    archibald1902-birth {
+        $sp-ref-link[b-1902-638-01-0382 0128 "Archibald Stewart Galbraith"]
     }
 }
 

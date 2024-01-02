@@ -21,10 +21,21 @@ partner {
     child {
         name James Campbell Galbraith
         birth -date 21-aug-1918 -location 'killean and kilchenzie' -ref james1918-birth
+        death -date 2004 -location campbeltown -ref james1918-death
+        partner {
+            name Margaret McMillan
+            marriage -date 1950 -location 'Provan' -ref james1918-marriage
+        }
     }
     child {
         name John David Galbraith
         birth -date 01-jan-1920 -location campbeltown -ref john1920-birth
+        death -date 1993 -location campbeltown -ref john1920-death
+        partner {
+            name Mary S McMurchy
+            marriage -date 1950 -location campbeltown -ref john1920-marriage
+        }
+        body { marriage is speculative }
     }
     child {
         name Isabella Jane Galbraith
@@ -53,8 +64,20 @@ footnotes {
     james1918-birth {
         $sp-ref-link[b-1918-519-00-0015 0005 "James Campbell Galbraith"]
     }
+    james1918-death {
+        $sp-ref[d-2004-536-00-0090 "James Campbell Galbraith"]
+    }
+    james1918-marriage {
+        $sp-ref[m-1950-644-04-0396 "James Campbell Galbraith" "Margaret McMillan"]
+    }
     john1920-birth {
         $sp-ref-link[b-1920-507-00-0003 0001 "John David Galbraith"]
+    }
+    john1920-death {
+        $sp-ref[d-1993-536-00-0014 "John David Galbraith"]
+    }
+    john1920-marriage { 
+        $sp-ref[m-1950-507-00-0043 "John David Galbraith" "Mary S McMurchy"]
     }
     isabella1921-birth {
         $sp-ref-link[b-1921-507-00-0195 0065 "Isabella Jane Galbraith"]

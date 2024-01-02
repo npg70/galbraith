@@ -5,6 +5,10 @@ tags campbeltown
 external {
     familysearch KC9G-P5D
 }
+note {
+    Margaret Loynachan has been spelled "O Lynachan", "Olynchan", "Oloynachan", "Olinachan", "Lunachan", "Lynachan"
+}
+
 partner {
     name Eugenia McCallum
     marriage -date 28-Feb-1835 -location kilcalmonel -ref mccallum-marriage
@@ -17,6 +21,8 @@ partner {
 }
 partner {
     name Margaret Loynachan
+    birth -date 20-apr-1818
+    baptism -date 22-apr-1818 -location southend -ref loynachan-baptism -note "daughter of Niel O'Loynachan and Agness Brolachan"
     marriage -date 25-Aug-1839 -location southend -ref loynachan-marriage   
     death -date 14-nov-1886 -location dumbarton -ref loynachan-death
   
@@ -66,8 +72,24 @@ An unsourced letter from FamilySearch, by "morgancharlesgalbraith1" in 2016:
 $blockquote{
 Antigua Plantation
 
-Archibald Galbraith The Galbraith's were prosperous sugar plantation owners in Antigua. There had to be when my great-grandmother was young, four adults each of Mother and Father and two Maiden Aunts. Your father always said that the Faith's and the North's were shipped wrecked on the way to England, which is quite possible. That left her two children and Anna Maria and Mary Ellen your great grandmother in the care of the two Maiden Aunts. They also had to run the plantation. They also own a store in St. John's. I don't know when Samuel came to the scene but I have an idea he probably worked in the store. Eventually the plantation was left to Mary Ellen and Samuel after the sisters died. Hannah Maria got nothing, why I don't know except she was noted for having a very nasty disposition. Samuel lost the plantation through carelessness, he let the insurance lapse, and the plantation was burned to the ground. Somebody hated him. Such a large family they eventually moved to Winnipeg around 1908. Some of the Sons had already come north. One daughter Louise married Thomas Jackson at age eighteen. He was an Englishman and stayed in the West Indies until about 1935, when they all went to England. Aunt Louie as we called her never saw her Mother and Father again. Margaret married John tough, we spent one year in Dublin and four years in Winnipeg during World War One, going back to Antigua in 1919, and then to St. Vincent. We came to Canada for good in 1923 Anna Maria married M. Bladen and lived in Antigua until she died about 1937. Signed Auntie Sis. He was born on 9 November 1803 in Sherbolin, Campbeltown, Scotland. He married Eugina McCallum on 5 March 1835. Archibald Galbraith was 31. Archibald Galbraith married Margaret Loyachan on 25 August 1849. Archibald Galbraith was 45 Margaret Loyachan was 28.
+Archibald Galbraith The Galbraith's were prosperous sugar plantation owners in Antigua.
+
+There had to be when my great-grandmother was young, four adults each of Mother and Father and two Maiden Aunts. Your father always said that the Faith's and the North's were shipped wrecked on the way to England, which is quite possible. That left her two children and Anna Maria and Mary Ellen your great grandmother in the care of the two Maiden Aunts. They also had to run the plantation. They also own a store in St. John's. I don't know when Samuel came to the scene but I have an idea he probably worked in the store. Eventually the plantation was left to Mary Ellen and Samuel after the sisters died. Hannah Maria got nothing, why I don't know except she was noted for having a very nasty disposition. Samuel lost the plantation through carelessness, he let the insurance lapse, and the plantation was burned to the ground. Somebody hated him. Such a large family they eventually moved to Winnipeg around 1908. Some of the Sons had already come north. One daughter Louise married Thomas Jackson at age eighteen. He was an Englishman and stayed in the West Indies until about 1935, when they all went to England. Aunt Louie as we called her never saw her Mother and Father again. 
+
+Margaret married John Tough, we spent one year in Dublin and four years in Winnipeg during World War One, going back to Antigua in 1919, and then to St. Vincent. We came to Canada for good in 1923.
+
+Anna Maria married M. Bladen and lived in Antigua until she died about 1937.
+
+Signed Auntie Sis.
+
+He was born on 9 November 1803 in Sherbolin, Campbeltown, Scotland. He married Eugina McCallum on 5 March 1835. Archibald Galbraith was 31. Archibald Galbraith married Margaret Loyachan on 25 August 1849. Archibald Galbraith was 45 Margaret Loyachan was 28.
 }
+
+It's a little hard to follow, however, it seems that John Reynolds and his wife Margaret somehow got stuck on BWI (perhaps by shipwreck) with "two maiden aunts" (unknown).  They had two children, Anna Marie and Mary Ellen.  It would appear they were the owners of the Antigue plantaion.
+
+The planation passed from John and Margaret Reynolds to the "maiden aunts" and then to Mary Ellen, and thus to Samuel Galbraith by marriage.
+
+The author "Auntie Sis," is perhaps the daughter of Margaret V Galbraith and John Tough.
 }
 
 footnotes {
@@ -90,15 +112,33 @@ footnotes {
   martha1835-death {
   	$sp-ref-link[d-1922-507-00-0092 0031 "Martha Galbraith"]
   }
+  loynachan-baptism {
+    $opr-ref-link[b-1818-532-000-0010-0107 "Margaret Oloynachan"]{
+        April 25 | Margaret Lawf Daught to Niel Oloynachan, Edam[placename?] + Agness Bro-lachan [???], born the 20th, and baptised the 22nd [???]
+    }
+  }
   loynachan-marriage {
     $opr-ref-link[m-1839-532-000-0020-0164 "Archibald Galbraith" "Margaret Lynachan"]
     
-    Cross-recorded at Campbeltown on 25 Aug 1940:
+    Cross-recorded at Campbeltown on 25 Aug 1860:
     
-    $opr-ref-link[m-1840-507-000-0060-0367 "Archibald Galbreath" "Margaret Loynachan"]
+    $opr-ref-link[m-1840-507-000-0060-0367 "Archibald Galbreath" "Margaret Loynachan"]{
+        Archibald Galbreath Farmer Ugadale of this Parish
+        and Margaret Loynachan daughter of the
+        late Neil Loynachan Farmer Edam Southend
+        Parish were married twentyfifth August 1860.
+    }
   }
   loynachan-death {
-  	$sp-ref-link[d-1886-496-00-0309 0103 "Margaret Galbraith"]
+  	$sp-ref-link[d-1886-496-00-0309 0103 "Margaret Galbraith"]{
+        Who: Margaret Galbraith, Widow of Archibald Galbraith, Flesher (Journeyman);
+        When: 1886 nov 14 [time] 19 Clyde Street, Dumbarton;
+        Age: 69 years [birth ~1817];
+        Father: Neil Loynachan, Farmer (Deceased);
+        Mother: Margaret Brodie (Deceased)
+        Present: Neil Galbraith, Son.
+
+    }
   }
   james1841-baptism {
   	$opr-ref-link[b-1841-507-000-0070-0207 "James Galbreath"]
