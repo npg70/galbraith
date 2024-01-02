@@ -38,17 +38,17 @@ partner {
     child galbraith-william-john-1892-spence
 
     child {
+        name Margaret Muir McArthur Galbraith
+        birth -date 20-nov-1894 -location campbeltown -ref margaret1894-birth
+    }
+
+    child {
         name Agnes Sillars McArthur Galbraith
         birth -date 17-jan-1899 -location campbeltown -ref agnes1899-birth
         death -date 22-sep-1954 -location Kilfinan -ref agnes1899-death
         partner {
             name Robert ? Findley
         }
-    }
-
-    child {
-        name Margaret Muir McArthur Galbraith
-        birth -date 20-nov-1994 -location campbeltown -ref margaret1994-birth
     }
 }
 
@@ -59,7 +59,7 @@ footnotes {
         Note: mother is indexed as Janet Wilson.
     }
     william-death {
-        $sp-ref[d-1920-507-00-0033 0011 "William Galbraith"]        
+        $sp-ref-link[d-1920-507-00-0033 0011 "William Galbraith"]        
     }
     mcarthur-marriage {
         $sp-ref-link[m-1879-507-00-0055 XXX "William Galbraith" "Elizabeth McArthur"]  Image doesnt save correctly on SP.
