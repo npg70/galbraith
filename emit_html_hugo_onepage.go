@@ -342,6 +342,14 @@ func renderFuncs() map[string]TagFunc {
 			return "<sup class=footnote-ref>[" + args[1] + "]</sup>"
 		},
 		"sp-ref": func(args []string, body string) string {
+			if len(args) < 3 {
+				log.Fatalf("%s: expected at least 3 args, got %v", args[0], args[1:])
+			}
+			if strings.HasPrefix(args[1], "b") || strings.HasPrefix(args[1], "d") {
+					if len(args) != 3 {
+						log.Fatalf("%s: Got Birth or Death record, but not 3 args, %v", args[0],args[1:])
+					}
+			}
 			person2 := ""
 			if len(args) == 4 {
 				person2 = args[3]
@@ -364,6 +372,14 @@ func renderFuncs() map[string]TagFunc {
 		},
 
 		"opr-ref": func(args []string, body string) string {
+			if len(args) < 3 {
+				log.Fatalf("%s: expected at least 3 args, got %v", args[0], args[1:])
+			}
+			if strings.HasPrefix(args[1], "b") || strings.HasPrefix(args[1], "d") {
+					if len(args) != 3 {
+						log.Fatalf("%s: Got Birth or Death record, but not 3 args, %v", args[0],args[1:])
+					}
+			}
 			if len(args) < 3 || len(args) > 4 {
 				log.Fatalf("%s: expected 3 or 4 args got %v", args[0], args[1:])
 			}
