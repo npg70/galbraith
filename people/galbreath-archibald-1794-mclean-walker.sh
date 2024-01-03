@@ -76,7 +76,7 @@ footnotes {
         $opr-ref[b-1834-516-000-0020-0338 "Duncan Galbreath"]
     }
     duncan1834-death {
-        $sp-ref-link[d-1875-563-03-0707 0236 "Duncan Galbraith"]
+        $sp-ref-link[d-1875-564-03-0707 0236 "Duncan Galbraith"]
     }
     mary1836-baptism {
         $opr-ref[b-1836-516-000-0020-0342 "Mary Galbreath"]

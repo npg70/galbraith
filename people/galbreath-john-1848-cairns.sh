@@ -7,7 +7,9 @@ external {
     familysearch LZ62-KK8
 }
 partner {
-    name Helen A Cairns
+    name Helen Allison Cairns
+    birth -date 'about 1850' -note 'daughter of James Cairns and Jane Allson'
+    death -date 1935 -location saddell -ref cairns-death
     marriage -date 24-sep-1872 -location Leith,Edinburghshire,Scotland -ref cairns-marriage
 
     child {
@@ -83,7 +85,10 @@ footnotes {
         $sp-ref-link[d-1913-531-01-0010 0004 "John Galbraith"]
     }
     cairns-marriage {
-        $sp-ref[m-1872-692-02-0199 "John Galbraith" "Helen A Cairns"]
+        $sp-ref-link[m-1872-692-02-0199 0100 "John Galbraith" "Helen A Cairns"]
+    }
+    cairns-death {
+        $sp-ref[d-1935-531-01-0006 "Helen Allison Galbraith"]
     }
     john1873-birth {
         $sp-ref-link[b-1873-531-01-0020 0007 "John Galbraith"]

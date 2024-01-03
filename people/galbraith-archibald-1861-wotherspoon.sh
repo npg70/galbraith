@@ -94,7 +94,7 @@ footnotes {
         $sp-ref-link[b-1898-533-02-0001 0001 "Malcolm Galbraith"] Note born in 1897 but registered in 1898.
     }
     malcolm1897-death {
-        $sp-ref[d-1968-549-01-0001 "Malcolm Galbraith"]
+        $sp-ref[d-1968-549-00-0001 "Malcolm Galbraith"]
     }
     christina1899-birth {
         $sp-ref[b-1899-533-02-0006 "Christina Galbraith"]

@@ -62,7 +62,7 @@ footnotes {
      TBD: unclear where this date or place came from.
   }
   david1782-death {
-    $sp-ref-link[d-1864-684-02-0096 0032 "David Stewart Galbraith"]
+    $sp-ref-link[d-1864-685-02-0096 0032 "David Stewart Galbraith"]
   }
   fraser-marriage {
     $opr-ref-link[m-1812-685-001-0540-0039 "David Stewart Galbreath" "Eliza Fraser"] 

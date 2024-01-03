@@ -39,7 +39,7 @@ footnotes {
         $sp-ref[b-1863-573-01-0495 "Barbara Galbraith"]
     }
     barbara1863-death {
-        $sp-ref[d-587-587-00-0049 "Barbara Stuart Galbraith"]
+        $sp-ref[d-1871-573-02-0394 "Barbara Stewart Galbraith"]  This may be incorrect.
     }
     alexander1865-birth {
         $sp-ref[b-1865-573-01-0445 "Alexander Galbraith"]

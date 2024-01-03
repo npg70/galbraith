@@ -72,7 +72,7 @@ footnotes  {
         $sp-ref-link[d-1908-541-00-0038 0013 "Duncan Galbraith"]
     }
     brown-marriage {
-        $sp-ref-link[m-1873-563-03-0246 0123 "Duncan Galbraith" "Catherine Brown"]
+        $sp-ref-link[m-1873-564-03-0246 0123 "Duncan Galbraith" "Catherine Brown"]
     }
     margaret1874-birth {
         $sp-ref[b-1874-541-00-0036 "Margaret Galbraith"]
