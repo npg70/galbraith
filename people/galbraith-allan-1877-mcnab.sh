@@ -4,7 +4,7 @@ external {
     familysearch L1VB-L7S
 }
 todo {
-    at least 2 children
+    likely other children between 1899-1910
 }
 
 birth -date 20-jul-1877 -location campbeltown -ref allan1877-birth
@@ -16,6 +16,10 @@ partner {
         name Peter McNab Galbraith
         birth -date 13-mar-1898 -location kilcalmonell -ref peter1898-birth
     }
+    child {
+        name Mary McNab Galbraith
+        birth -date 9-jan-1911 -location patick,lanark -ref mary1911-birth
+    }
 }
 footnotes {
     allan1877-birth {
@@ -26,5 +30,8 @@ footnotes {
     }
     peter1898-birth {
         $sp-ref-link[b-1898-516-00-0002 0001 "Peter McNab Galbraith"]
+    }
+    mary1911-birth {
+        $sp-ref-link[b-1911-646-03-0124 0042 "Mary McNab Galbraith"]
     }
 }
