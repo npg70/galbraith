@@ -19,7 +19,7 @@ partner {
     child {
         name Malcolm Galbraith
         birth -date 23-dec-1897 -location kilberry -ref malcolm1897-birth
-        death -date 12-jan-1968 -location mull,argyll -ref malcolm1897-death
+        death -date 12-jan-1968 -location tobermory,argyll -ref malcolm1897-death -note ummarried
     }
     child {
         name Christina Galbraith
@@ -39,7 +39,12 @@ partner {
     child {
         name Archibald Wotherspoon Galbraith
         birth -date 25-mar-1907 -location kilberry -ref archibald1907-birth
-        death -date 18-dec-1970 -location 'Torinturk, Argyll, Scotland' -ref archibald1907-death
+        death -date 18-dec-1970 -location tarbert -ref archibald1907-death
+        partner {
+            name Molly Mooring
+            birth -date 'about 1917'
+            marriage -date 02-sep-1948 -location kilberry -ref mooring-marriage
+        }
     }
     child {
         name Helen Galbraith
@@ -94,7 +99,7 @@ footnotes {
         $sp-ref-link[b-1898-533-02-0001 0001 "Malcolm Galbraith"] Note born in 1897 but registered in 1898.
     }
     malcolm1897-death {
-        $sp-ref[d-1968-549-00-0001 "Malcolm Galbraith"]
+        $sp-ref-link[d-1968-549-00-0001 0001 "Malcolm Galbraith"]
     }
     christina1899-birth {
         $sp-ref[b-1899-533-02-0006 "Christina Galbraith"]
@@ -113,6 +118,12 @@ footnotes {
     }
     archibald1907-birth {
         $sp-ref[b-1907-533-02-0003 "Archibald Wotherspoon Galbraith"]
+    }
+    archibald1907-death {
+        $sp-ref-link[d-1970-535-00-0029 0029 "Archibald Wotherspoon Galbraith"]
+    }
+    mooring-marriage {
+        $sp-ref-link[m-1948-533-02-0001 0001 "Archibald Wotherspoon Galbraith" "Molly Mooring"]
     }
     helen1909-birth {
         $sp-ref[b-1909-533-02-0009 "Helen Galbraith"]

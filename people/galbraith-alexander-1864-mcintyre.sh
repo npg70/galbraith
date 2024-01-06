@@ -1,5 +1,6 @@
 name Alexander Galbraith
-tags campbeltown
+tags campbeltown 'daughtered out'
+
 external {
     familysearch M1YN-PGV
     findagrave 179352552
@@ -8,6 +9,9 @@ birth -date 20-dec-1864 -location campbeltown -ref alexander1864-birth
 death -date 29-sep-1930 -location campbeltown -ref alexander1864-death
 body {
 Listed as Fisherman in the marriage record, and as a lifeboat mechanic in the death record.
+}
+note {
+    No evidence of any children.
 }
 partner {
     name Maggie Graham McIntyre
@@ -27,6 +31,6 @@ footnotes {
         $sp-ref[m-1887-507-00-0030 "Alexander Galbraith" "Maggie McIntyre"]
     }
     mcintyre-death {
-        $sp-ref[d-1954-507-00-0039 "Margaret Graham Galbraith"]
+        $sp-ref-link[d-1954-507-00-0039 0013 "Margaret Graham Galbraith"]
     }
 }

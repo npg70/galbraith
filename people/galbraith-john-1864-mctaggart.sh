@@ -44,14 +44,22 @@ partner {
     child {
         name John Galbraith
         birth -date 1900 -location campbeltown -ref john1900-birth
+        death -date 15-apr-1964 -location lochgilphead -ref john1900-death
+        partner {
+            name Barbara Ferguson McKenzie
+            birth -date 'about 1909'
+            marriage -date 27-oct-1939 -location blythswood,glasgow -ref mckenzie-marriage
+        }
     }
     child {
         name Archibald Galbraith
         birth -date 17-apr-1902 -location campbeltown -ref archibald1902-birth
+        death -date 22-oct-1970 -location lochgilphead -ref archibald1902-death -note unmarried
     }
     child {
         name Alexander Galbraith
         birth -date 1905 -location campbeltown -ref alexander1905-birth
+        death -date 24-july-1924 -location campbeltown -ref alexander1905-death -note unmarried
     }
 
 }
@@ -89,10 +97,22 @@ footnotes {
     john1900-birth {
         $sp-ref[b-1900-507-00-0093 "John Galbraith"]
     }
+    john1900-death {
+        $sp-ref-link[d-1964-526-00-0024 0008 "John Galbraith"]
+    }
+    mckenzie-marriage {
+        $sp-ref-link[m-1939-644-08-3777 1889 "John Galbraith" "Barbara Fergurson McKenzie"]
+    }
     archibald1902-birth {
         $sp-ref-link[b-1902-507-00-0104 0035 "Archibald Galbraith"]
     }
+    archibald1902-death {
+        $sp-ref-link[d-1970-526-00-0087 0087 "Archibald Galbraith"]
+    }
     alexander1905-birth {
         $sp-ref[b-1905-507-00-0168 "Alexander Galbraith"]
+    }
+    alexander1905-death {
+        $sp-ref-link[d-1924-507-00-0080 0027 "Alexander Galbraith"]
     }
 }

@@ -10,6 +10,7 @@ partner {
     name Margaret Hardie Young
     birth -date 'about 1888'
     death -date 12-dec-1964 -location southend -ref young-death
+    marriage -date 1917 -location southend -ref young-marriage
 
     child galbraith-john-mclaren-1918
 
@@ -40,6 +41,9 @@ footnotes {
     }
     john1886-death {
         $sp-ref[d-1974-536-00-0061 "John McCorkindale Galbraith"]
+    }
+    young-marriage {
+        $sp-ref[m-1917-532-00-0003 "John Galbraith" "Margaret Hardie Young"]
     }
     young-death {
         $sp-ref-link[d-1964-532-00-0002 0001 "Margaret Hardie Galbraith"]

@@ -16,7 +16,7 @@ partner {
         name Sarah Galbraith
         birth -date 22-jun-1901 -location kilfinan -ref sarah1901-birth
     }
-
+    child galbraith-archibald-1905-clark
 } 
 
 footnotes {
