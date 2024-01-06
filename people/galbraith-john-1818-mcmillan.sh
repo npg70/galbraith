@@ -19,10 +19,8 @@ partner {
         name Archibald Galbraith
         birth -date 9-nov-1859 -location kilberry -ref archibald1859-birth
     }
-    child {
-        name Neil Galbraith
-        birth -date 17-aug-1862 -location kilcalmonnell -ref neil1862-birth
-    }
+    child galbraith-neil-1862-scott-menzies
+
 }
 
 footnotes {
@@ -47,8 +45,5 @@ footnotes {
    }
    archibald1859-birth {
         $sp-ref-link[b-1859-516-02-0010 0004 "Archibald Galbraith"]
-   }
-   neil1862-birth {
-        $sp-ref-link[b-1862-516-01-0011 0004 "Neil Galbraith"]
    }
 }
