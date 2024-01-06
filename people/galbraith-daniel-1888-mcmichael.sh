@@ -23,7 +23,7 @@ footnotes {
         $sp-ref-link[d-1942-507-00-0117 0039 "Daniel Galbraith"]
     }
     mcmichael-marriage {
-        $sp-ref[m-1923-507-00-0022 "Daniel Galbraith" "Margaret Sinclair McMichael"]
+        $sp-ref-link[m-1923-507-00-0022 0011 "Daniel Galbraith" "Margaret Sinclair McMichael"]
     }
 }
 

@@ -1,14 +1,11 @@
 name Lachlan Galbreath
 birth -date 'about 1760'
-death -date 1836 -location gigha
-burial -name 'Kilchattan Old Graveyard' -location 'gigha'
+death -date 15-jul-1836 -location gigha -ref lachlan1760-death
+burial -name 'Kilchattan Old Graveyard' -location gigha
 tags Gigha
 external {
     familysearch M1YK-YN4
     findagrave 115118948
-}
-todo {
-    Marriage, death and grandchildren not investigated.
 }
 note {
     The association of Lachland and Catharine is circumstantial, but based on the tombstone inscription, the birth order of children, and Neil's death record of 1858.
@@ -16,6 +13,7 @@ note {
 
 partner {
     name Catharine McNeil
+    marriage -date 19-sep-1796 -location gigha -ref mcneil-marriage
 
     child galbreath-donald-1798-galbreath
 
@@ -62,6 +60,12 @@ partner {
 }
 
 footnotes {
+    lachlan1760-death {
+        $opr-ref-link[d-1836-537-000-0020-0034 "Lachlan Galbreath"]
+    }
+    mcneil-marriage {
+        $opr-ref[m-1796-537-000-0010-0009 "Lachlan Galbreath" "Catharine McNeill"]
+    }
     neil1799-baptism {
         $opr-ref[b-1799-537-000-0010-0017 "Neil Galbreath"]
     }
