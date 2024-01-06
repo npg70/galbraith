@@ -1,9 +1,9 @@
 name Lachlan Galbraith
-birth -date 'about 1860'
-todo {  
-    need to find birth, etc
+birth -date 8-nov-1856 -location 'South Knapdale' -ref lachlan1856-birth
+death -date 28-nov-1922 -location 'Barrhead and Levern, Renfrew' -ref lachlan1856-death
+external {
+    familysearch M1RR-7Y5
 }
-
 partner {
     name Mary Kay
     marriage -date 22-nov-1895 -location kilmodan -ref kay-marriage
@@ -20,6 +20,12 @@ partner {
 } 
 
 footnotes {
+   lachlan1856-birth {
+        $sp-ref-link[b-1856-533-00-0021 0007 "Lachlan Galbraith"]
+   }
+   lachlan1856-death {
+        $sp-ref-link[d-1922-572-02-0222 0074 "Lachlan Galbraith"]
+    }
     kay-marriage {
         $sp-ref-link[m-1895-522-00-0001 0001 "Lachlan Galbraith" "Mary Kay"]
     }

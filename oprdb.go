@@ -112,6 +112,8 @@ func ParishName(id1, id2 string) string {
 		"567/2":  "Gourock, Renfrew",
 		"568":    "Kilbarchan, Renfrew",
 		"571":    "Mearns",
+		"572":    "Barrhead and Levern, Renfrew",
+		"572/2":  "Barrhead and Levern, Renfrew",
 		"573":    "Paisley",
 		"573/1":  "Paisley High Church",
 		"573/2":  "Paisley Low Church",
