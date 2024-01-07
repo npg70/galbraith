@@ -13,10 +13,8 @@ partner {
         name Mary Galbreath
         baptism -date 3-apr-1824 -location 'north knapdale' -ref mary1824-baptism
     }
-    child {
-        name John Galbreath
-        baptism -date 25-feb-1826 -location 'north knapdale' -ref john1826-baptism
-    }
+    child galbreath-john-1826-campbell-mcneil
+
     child {
         name Archibald Galbreath
         baptism -date 7-jun-1828 -location 'north knapdale' -ref archibald1828-baptism
@@ -25,14 +23,8 @@ partner {
         name Alexander Galbreath
         baptism -date 6-jun-1830 -location 'north knapdale' -ref alexander1830-baptism
     }
-    child {
-        name Duncan Galbreath
-        baptism -date 7-sep-1832 -location 'north knapdale' -ref duncan1832-baptism
-    }
-    child {
-        name Niel Galbreath
-        baptism -date 17-jul-1834 -location 'north knapdale' -ref niel1834-baptism
-    }
+    child galbraith-duncan-1832-walker
+    child galbreath-neil-1834-cameron
     child {
         name Nancy Galbreath
         baptism -date 12-jan-1837 -location 'north knapdale' -ref nancy1837-baptism
@@ -56,20 +48,11 @@ footnotes {
     mary1824-baptism {
         $opr-ref[b-1824-530-000-0020-0022 "Mary Galbreath"]
     }
-    john1826-baptism {
-        $opr-ref[b-1826-530-000-0020-0031 "John Galbreath"]
-    }
     archibald1828-baptism {
         $opr-ref[b-1828-530-000-0020-0041 "Archibald Galbreath"]
     }
     alexander1830-baptism {
         $opr-ref[b-1830-530-000-0020-0050 "Alexander Galbreath"]
-    }
-    duncan1832-baptism {
-        $opr-ref[b-1832-530-000-0020-0062 "Duncan Galbreath"]
-    }
-    niel1834-baptism {
-        $opr-ref[b-1834-530-000-0020-0072 "Niel Galbreath"]
     }
     nancy1837-baptism {
         $opr-ref[b-1837-530-000-0020-0087 "Nancy Galbreath"]
