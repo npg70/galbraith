@@ -21,6 +21,8 @@ footnotes {
         $sp-ref-link[m-1903-526-00-0001 0001 "Malcolm Galbraith" "Ann McArthur"]
     }
     daniel1905-birth {
-        $sp-ref-link[b-1905-537-00-0003 0001 "Daniel Neil Galbraith"]
+        Recorded twice, 
+        $sp-ref-link[b-1905-537-00-0003 0001 "Daniel Neil Galbraith"]; and
+        $sp-ref-link[b-1905-526-00-0006 0002 "Daniel Neil Galbraith"]
     }
 }

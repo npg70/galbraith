@@ -18,10 +18,8 @@ partner {
         name Duncan Galbraith
         birth -date 1871 -location lochgilphead -ref duncan1871-birth
     }
-    child {
-        name Allan Galbraith
-        birth -date 1872 -location lochgilphead -ref allan1872-birth
-    }
+    child galbraith-allan-1872-mclellan
+
     child {
         name Mary Galbraith
         birth -date 1875 -location lochgilphead -ref mary1875-birth
@@ -55,9 +53,6 @@ footnotes {
     }
     duncan1871-birth {
         $sp-ref[b-1871-526-00-0027 "Duncan Galbraith"]
-    }
-    allan1872-birth {
-        $sp-ref[b-1872-526-00-0097 "Allan Galbraith"]
     }
     mary1875-birth {
         $sp-ref[b-1875-526-00-0003 "Mary Galbraith"]
