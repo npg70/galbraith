@@ -9,11 +9,6 @@ death -date 20-dec-1908 -location kildalton -ref donald1841-death
 note {
     Baptized and married as "Donald," but all other records use "Duncan."
 }
-
-note {
-    Parents were Malcolm Galbraith and Rachel McLellan.
-    https://www.familysearch.org/tree/person/details/MG8J-JDV
-}
 body {
     He was a distillery worker / maltman.
 }
