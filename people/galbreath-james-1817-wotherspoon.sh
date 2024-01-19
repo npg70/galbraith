@@ -4,7 +4,7 @@ external {
     familysearch GHZZ-2N3
 }
 
-baptism -date 22-oct-1817 -location gigha -ref james1817-baptism -note "some of James Galbreath and Meran Galbreath"
+baptism -date 22-oct-1817 -location gigha -ref james1817-baptism
 death -date 14-jan-1903 -location 'Tyree and Coll,Argyll' -ref james1817-death
 body {
     He was a schoolmaster.

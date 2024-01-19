@@ -15,6 +15,10 @@ burial -location 'dublin,ireland'
 todo {
     has two legit findagrave markers
 }
+body {
+    https://www.cwgc.org/find-records/find-war-dead/casualty-details/900085/malcolm-galbraith/
+}
+
 footnotes {
     malcolm1896-birth {
         $sp-ref-link[b-1896-533-02-0004 0002  "Malcolm Galbraith"] 

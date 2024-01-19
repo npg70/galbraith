@@ -1,14 +1,26 @@
 name John Galbreath
 tags Gigha
 birth -date 'say 1770'
+external {
+    familysearch M1B4-HNT
+}
+note {
+    Spouse appears to have sometimes used the name Sarah, while baptism and death 
+    records use Marion/Merran.
+}
 
 partner {
-    name Marion Galbreath
+    name Marion Sarah Galbreath
     marriage -date 17-jun-1795 -location gigha -ref marion-marriage
 
     child {
         name Archibald Galbreath
         baptism -date 19-jul-1796 -location gigha -ref archibald1796-baptism
+        death -date 01-apr-1881 -location dunoon -ref archibald1796-death
+        partner {
+            name Janet Morrison
+            marriage -date 16-may-1826 -location greenock -ref morrison-marriage
+        }
     }
 
     child {
@@ -39,15 +51,9 @@ partner {
         name Merran Galbreath
         baptism -date 24-may-1812 -location gigha -ref merran1812-baptism
     }
-    child {
-        name Malcolm Galbreath
-        baptism -date 25-mar-1815 -location gigha -ref malcolm1815-baptism
-    }
-    child {
-        name James Galbreath
-        baptism -date 22-oct-1817 -location gigha -ref james1817-baptism
-    }   
+    child galbreath-malcolm-1815-galbreath
 
+    child galbreath-james-1817-wotherspoon
 }
 footnotes {
     marion-marriage {
@@ -55,6 +61,12 @@ footnotes {
     }
     archibald1796-baptism {
         $opr-ref[b-1796-537-000-0010-0010 "Archibald Galbreath"]
+    }
+    archibald1796-death {
+        $sp-ref-link[d-1881-510-00-0039 0013 "Archibald Galbraith"]
+    }
+    morrison-marriage {
+        $opr-ref-link[m-1826-564-003-0080-0114 "Archibald Galbraith" "Janet Morison"]
     }
     donald1798-baptism {
         $opr-ref[b-1798-537-000-0010-0013 "Donald Galbreath"]
@@ -75,12 +87,6 @@ footnotes {
     }
     merran1812-baptism {
         $opr-ref-link[b-1812-537-000-0010-0048 "Marran Galbreath"]
-    }
-    malcolm1815-baptism {
-        $opr-ref[b-1815-537-000-0010-0053 "Malcom Galbreath"]
-    }
-    james1817-baptism {
-        $opr-ref[b-1817-537-000-0010-0057 "James Galbreath"]
     }
 }
 

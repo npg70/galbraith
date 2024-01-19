@@ -3,7 +3,7 @@ tags Gigha
 birth -date 29-may-1854 -location gigha -ref archibald1854-birth -note 'son of John Galbreath and Effy McQuilkan'
 
 note {
-    Wilkison is the anglecized version of McQuilkan.
+    Wilkinson is the anglecized version of McQuilkan.
 }
 
 partner {
@@ -24,7 +24,7 @@ partner {
         birth -date 1891 -location gigha -ref effie1891-birth
     }
     child {
-        name Malcolm Wilkison Galbraith
+        name Malcolm Wilkinson Galbraith
         birth -date 2-may-1893 -location gigha -ref malcolm1893-birth
     }
 }

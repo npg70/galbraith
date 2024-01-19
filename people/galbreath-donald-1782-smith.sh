@@ -73,6 +73,9 @@ partner {
     child {
         name Mary Galbreath
         baptism -date 22-jul-1824 -location gigha -ref mary1824-baptism
+        body {
+            Married $child-link[galbreath-malcolm-1815-galbreath]{Malcolm Galbreath}
+        }
     }
     child {
         name Ann Galbreath
