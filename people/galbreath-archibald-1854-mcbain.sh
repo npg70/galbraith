@@ -31,7 +31,7 @@ partner {
 
 footnotes {
     archibald1854-birth {
-        $opr-ref[b-1854-537-000-0020-0078 "Archibald Galbraith"]
+        $opr-ref[b-1854-537-000-0020-0078 "Archibald Galbreath"]
     }
     mcbain-marriage {
         $sp-ref-link[m-1881-644-07-0234 0117 "Archibald Galbreath" "Mary Ann McBain"]
