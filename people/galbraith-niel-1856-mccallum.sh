@@ -13,6 +13,7 @@ partner {
     child {
         name Donald Galbraith
         birth -date 2-sep-1881 -location kilfinan -ref donald1881-birth
+        death -date 1883 -location kilfinan -ref donald1881-death
     }
     child {
         name Dugald Galbraith
@@ -49,6 +50,13 @@ partner {
     child {
         name Archibald Galbraith
         birth -date 27-apr-1899 -location kilfinan -ref archibald1899-birth
+        death -date 08-dec-1968 -location kilfinan -ref archibald1899-death
+        partner {
+            name Flora Elizabeth TBD
+        }
+        body {
+            He was a gardener.
+        }
     }
 }
 footnotes {
@@ -67,6 +75,9 @@ footnotes {
     }
     donald1881-birth {
         $sp-ref-link[b-1881-518-00-0046 0016 "Donald Galbraith"]
+    }
+    donald1881-death {
+        $sp-ref[d-1883-518-00-0027 "Donald Galbraith"]
     }
     dugald1883-birth {
         $sp-ref[b-1883-518-00-0002 "Dugald Galbraith"]
@@ -94,5 +105,8 @@ footnotes {
     }
     archibald1899-birth {
         $sp-ref-link[b-1899-518-00-0016 0006 "Archibald Galbraith"]
+    }
+    archibald1899-death {
+        $sp-ref-link[d-1968-518-00-0015 0015 "Archibald Galbraith"]
     }
 }

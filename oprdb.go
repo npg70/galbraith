@@ -114,6 +114,7 @@ func ParishName(id1, id2 string) string {
 		"567":    "Gourock, Renfrew",
 		"567/2":  "Gourock, Renfrew",
 		"568":    "Kilbarchan, Renfrew",
+		"569":    "Kilmacolm, Renfrew",
 		"571":    "Mearns",
 		"572":    "Barrhead and Levern, Renfrew",
 		"572/2":  "Barrhead and Levern, Renfrew",
@@ -150,6 +151,7 @@ func ParishName(id1, id2 string) string {
 		"638/1":  "Larkhall, Lanark",
 		"638/2":  "Dalserf, Lanark",
 		"640":    "Inverclyde",
+		"641":    "Douglas, Lanark",
 		"642":    "Port Glasgow",
 		"644":    "Glasgow",
 		"644/1":  "Glasgow",
@@ -205,6 +207,7 @@ func ParishName(id1, id2 string) string {
 		"790":    "Hobkirk, Roxburgh",
 		"811":    "Selkirk",
 		"821":    "Dumfries", 
+		"832":    "Johnstone, Dumfries",
 		"895":    "Penningham, Wigtown",
 	}
 

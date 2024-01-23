@@ -24,19 +24,8 @@ partner {
             name Ann Jane Johnston
             marriage -date 10-feb-1865 -location greenock
         }
-    }   
-    child {
-        name Neil Galbreath
-        baptism -date 23-jul-1838 -location 'south knapdale' -ref neil1838-baptism
-        death -date 29-oct-1910 -location 'kilmacolm,renfrew' -ref neil1838-death
-        partner {
-            name Catherine Gillies
-            marriage -date 18-feb-1870 -location 'south knapdale'
-            birth -date 30-mar-1844
-            baptism -date 15-apr-1844 -location 'south knapdale'
-            death -date 20-dec-1918 -location kilmalcolm
-        }
     }
+    child galbraith-neil-1838-gillies   
     child {
         name Archibald Galbraith
         birth -date 1840 -location 'south knapdale'
@@ -78,9 +67,6 @@ footnotes {
     }
     donald1836-baptism {    
         $opr-ref[b-1836-533-000-0020-0094 "Donald Galbreath"]
-    }
-    neil1838-baptism {
-        $opr-ref[b-1838-533-000-0020-0104 "Neill Galbreath"]
     }
     ann1842-baptism {
         $opr-ref[b-1842-533-000-0020-0131 "Ann Galbraith"]

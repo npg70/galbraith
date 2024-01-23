@@ -1,4 +1,7 @@
 name Neil Galbraith
+external {
+    familysearch G8X9-J95
+}
 birth -date 24-jan-1879 -location 'south knapdale' -ref neil1879-birth
 death -date 25-sep-1952 -location 'dunoon' -ref neil1879-death
 partner {
@@ -26,6 +29,22 @@ partner {
         name Donald Kennedy Galbraith
         birth -date 1912 -location campbeltown -ref donald1912-birth
     }
+    child {
+        name Isabella Jane Galbraith
+        birth -date 1914 -location dunoon -ref isabella1914-birth
+    }
+    child {
+        name Peteria Wilson Galbraith
+        birth -date 1916 -location dunoon -ref peterina1916-birth
+    }
+    child {
+        name Charlesina Galbraith
+        birth -date 1918 -location dunoon -ref charlesina1918-birth
+    }
+    child {
+        name Neil Galbraith
+        birth -date 23-oct-1919 -location dunoon -ref neil1919-birth
+    }
 }
 footnotes {
     neil1879-birth {
@@ -51,5 +70,19 @@ footnotes {
     }   
     donald1912-birth {
         $sp-ref[b-1912-507-00-0036 "Donald Kennedy Galbraith"]
+    }
+
+    isabella1914-birth {
+        $sp-ref[b-1914-510-01-0106 "Isabella Jane Galbraith"]
+    }
+    peterina1916-birth {
+        $sp-ref[b-1916-510-01-0092 "Peterina Wilson Galbraith"]
+    }
+    charlesina1918-birth {  
+        $sp-ref[b-1918-510-01-0033 "Charlesina Galbraith"]
+    }
+        
+    neil1919-birth {
+        $sp-ref-link[b-1919-510-01-0103 0035 "Neil Galbraith"]
     }
 }

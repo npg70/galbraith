@@ -1,10 +1,8 @@
 name Donald Galbreath
 baptism -date 1-feb-1782 -location campbeltown -ref donald1782-baptism -note "Son of Patrick Galbreath and Ann McLellan"
 death -date 10-dec-1856 -location gigha -ref donald1782-death
-tags gigha
-todo {
-    Missing 1861 and 1871 Census
-}
+tags gigha 'daughtered out'
+
 body {
 
 1851 Census, Scotland, Argyllshire, Kintyre, Gigha, Tarbert:$ref[census1851]
