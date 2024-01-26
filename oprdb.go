@@ -208,6 +208,7 @@ func ParishName(id1, id2 string) string {
 		"811":    "Selkirk",
 		"821":    "Dumfries", 
 		"832":    "Johnstone, Dumfries",
+		"836":    "Kirkmichael, Dumfries",
 		"895":    "Penningham, Wigtown",
 	}
 
