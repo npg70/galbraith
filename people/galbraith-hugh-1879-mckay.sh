@@ -1,12 +1,11 @@
 name Hugh Galbraith
-tags kildalton
+tags islay kildalton
 birth -date 1879 -location kildaton -ref hugh1879-birth
 death -date 14-may-1940 -location kildalton -ref hugh1879-death
 external {
     findagrave 132241709
-        familysearch GPSL-RZR
+    familysearch GPSL-RZR
 }
-
 partner {
     name Margaret McKay
     birth -date 'about 1873'
