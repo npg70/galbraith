@@ -3,7 +3,9 @@ external {
     familysearch M1TN-RQQ
 }
 tags 'daughtered out' glasgow
-todo 'glasgow: 4 daughters, 1 son killed in WWI'
+todo  {
+    WIP
+}
 birth -date 26-mar-1858 -location campbeltown -ref john1858-birth
 death -date 25-nov-1933 -location edinburgh -ref john1858-death
 partner {
