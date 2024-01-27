@@ -1,8 +1,8 @@
 name John Galbraith
 birth -date 24-apr-1877 -location kilcalmonell -ref john1877-birth
-
+tags islay kilchoman bute kilcalmonell
 body {
-    He was a police constable.
+    He was a police constable, perhaps having him travel across Kintyre, Bute, and Islay.
 }
 
 partner {
@@ -12,15 +12,15 @@ partner {
 
     child {
         name Duncan Galbraith
-        birth -date 08-nov-1900 -location Kilchoman,Argyll -ref duncan1900-birth
+        birth -date 08-nov-1900 -location Kilchoman,islay -ref duncan1900-birth
     }
     child {
         name Margaret Lyon Galbraith
-        birth -date 1902 -location kilchoman,argyll -ref margaret1902-birth
+        birth -date 1902 -location kilchoman,islay -ref margaret1902-birth
     }
     child {
         name Catherine Scott Galbraith
-        birth -date 1906 -location kilchoman,argyll -ref catherine1906-birth
+        birth -date 1906 -location kilchoman,islay -ref catherine1906-birth
     }
     child {
         name Beatrice Haig Galbraith

@@ -1,11 +1,11 @@
 name Donald-Duncan Galbraith
-tags kildalton
+tags islay kildalton kilchoman
 external {
     familysearch M9L5-2W3
     findagrave 132241708
 }
-baptism -date 19-sep-1841 -location kildalton -ref donald1841-baptism
-death -date 20-dec-1908 -location kildalton -ref donald1841-death
+baptism -date 19-sep-1841 -location kildalton,islay -ref donald1841-baptism
+death -date 20-dec-1908 -location kildalton,islay -ref donald1841-death
 note {
     Baptized and married as "Donald," but all other records use "Duncan."
 }
@@ -14,14 +14,14 @@ body {
 }
 partner {
     name Catherine Brown
-    birth -date 6-jul-1839 -location kilchoman
-    death -date 13-jan-1902 -location kildalton -ref brown-death
+    birth -date 6-jul-1839 -location kilchoman,islay
+    death -date 13-jan-1902 -location kildalton,islay -ref brown-death
     marriage -date 31-jul-1873 -location greenock -ref brown-marriage
 
     child {
         name Margaret Galbraith
-        birth -date 28-jul-1874 -location kildaton -ref margaret1874-birth
-        death -date 27-mar-1895 -location kildaton -ref margaret1874-death
+        birth -date 28-jul-1874 -location kildaton,islay -ref margaret1874-birth
+        death -date 27-mar-1895 -location kildaton,islay -ref margaret1874-death
         body {
             Unmarried.
         }
