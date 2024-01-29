@@ -61,7 +61,16 @@ partner {
     }
     child {
         name Alexander Galbraith
-        baptism -date 16-may-1826 -location lanarkshire
+        birth -date 16-may-1826
+        baptism -date 16-jun-1826 -location barony,lanark
+        death -date 02-mar-1883 -location Rhu,Dumbarton -ref alexander1826-death -note 'unmarried'
     }
 }
+footnotes {
+
+    alexander1826-death {
+        $sp-ref-link[d-1826-503-00-0028 0010 "Alexander Galbraith"]
+    }
+}
+
 
