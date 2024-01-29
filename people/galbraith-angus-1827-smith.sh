@@ -10,6 +10,11 @@ todo {
 todo {
     death of Angus not documented
 }
+todo {
+    Census 1861 https://www.findmypast.com/transcript?id=GBC/1861/0022346868&expand=true
+    where $child-link[galbraith-donald-1820-mcintyre-galbraith]{Donald Galbraith}, another minister, is visiting.
+}
+
 external {
     familysearch M1YG-C13
 }
