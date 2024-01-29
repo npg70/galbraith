@@ -3,18 +3,20 @@ external {
     familysearch 93BC-89N
     findagrave 249312056
 }
-birth -date 18-mar-1862 -location Glasgow
+birth -date 18-mar-1862 -location Glasgow -ref charles1862-birth
 death -date 13-dec-1936 -location Kirkmichael,Dumfries -ref charles1862-death
 partner {
    name Katherine Robina Wilson
-   marriage -date 19-nov-1885
+   marriage -date 19-nov-1885 -location drymen,stirling -ref wilson-marriage
 
    child {
     name James Edward Evans Galbraith
     birth -date 1888 -location 'Lincolnshire, England'
     death -date 10-apr-1954 -location dumfries -ref james1888-death
     partner {
-        name ____ Murray
+       name Margaret Elizabeth Murray
+       birth -date 'about 1893' -note 'daughter of William Murray and Evelyn Bruce'
+       marriage -date 21-oct-1920 -location dalton,dumfries -ref murray-marriage
     }
    }
    child {
@@ -40,6 +42,9 @@ partner {
    }
 }
 footnotes {
+    charles1862-birth {
+        $sp-ref-link[b-1863-644-08-0494 0165 "Charles Edward Galbraith"]
+    }
     charles1862-death {
         $sp-ref-link[d-1936-836-00-0006 0002 "Charles Edward Galbraith"]
     }
@@ -57,5 +62,11 @@ footnotes {
     }
     charles1896-death {
         $sp-ref-link[d-1939-768-00-0003 0001 "Charles Arthur Temple Galbraith"]
+    }
+    wilson-marriage {
+        $sp-ref-link[m-1885-477-000-0003 0002 "Charles E Galbraith" "Catherine R Wilson"]
+    }
+    murray-marriage {
+        $sp-ref-link[m-1920-818-000-0003 0001 "James E E Galbraith" "Margaret Elizabeth Murray"]
     }
 }

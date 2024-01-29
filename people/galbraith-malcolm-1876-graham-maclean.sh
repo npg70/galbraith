@@ -1,5 +1,6 @@
 name Malcolm Galbraith
-birth -date 16-may-1876 -location kildaton -ref malcolm1876-birth
+tags islay kildalton paisley
+birth -date 16-may-1876 -location kildalton -ref malcolm1876-birth
 death -date 2-oct-1952 -location paisley,renfrew -ref malcolm1876-death
 partner {
    name Ann Graham
