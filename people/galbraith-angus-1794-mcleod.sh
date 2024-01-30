@@ -21,9 +21,10 @@ partner {
     }
     child galbraith-angus-1827-smith
     child {
-        name Jean/Jane Galbraith
+        name Jane Galbraith
         birth -date 8-jun-1829
         baptism -date 8-jul-1829 -location kilcalmonell -ref jane1829-baptism
+        death -date 12-mar-1891 -location campbeltown -ref jane1829-death -note unmarried
     }
     child galbraith-daniel-1831-mcqueen
     child galbraith-william-1833-umn
@@ -49,6 +50,9 @@ footnotes {
             Jean lawful daught to Angus Galbraith Parochial Schoolmaster in Clachan
             + Mary McLeod born 8 June 1829 registered 8 July
         }
+    }
+    jane1829-death {
+        $sp-ref-link[d-1891-507-00-0047 0016 "Jane Galbraith"]
     } 
     john1836-baptism {
         $opr-ref-link[b-1836-516-000-0020-0113 "John Galbraith"]{
