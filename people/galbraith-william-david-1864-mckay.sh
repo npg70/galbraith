@@ -1,5 +1,5 @@
 name William David Galbraith
-
+tags ireland
 external {
     ancestry 110751024/person/120079754286/facts
 }
