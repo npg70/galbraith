@@ -13,17 +13,7 @@ partner {
     marriage -date 12-feb-1879 -location 'kinning park,lanark' -ref cleaver-marriage
     death -date 19-jan-1881 -location govan -ref cleaver-death
 
-    child {
-        name Sarah Galbraith
-        birth -date 20-nov-1877 -location glassary -ref sarah1877-birth
-        death -date 13-nov-1953 -location kelty,fife,scotland -ref sarah1877-death
-        partner {
-            name John Mann? Galbraith
-        }
-        body {
-            Birth before marriage
-        }
-    }
+    child galbraith-sarah-1877-galbraith
 }
 partner {
     name Catherine Cameron
@@ -61,12 +51,6 @@ footnotes {
     cleaver-death {
         $sp-ref-link[d-1881-646-01-0094 0032 "Margaret Galbraith"]
     }
-    sarah1877-birth {
-        $sp-ref-link[b-1878-511-00-0002 0001 "Sarah Galbraith"]. Born in 1877 but registered in 1879.
-    }
-    sarah1877-death {
-        $sp-ref-link[d-1953-410-02-0040 0014 "Sarah Galbraith"]
-    }
     cameron-marriage {
         $sp-ref-link[m-1882-685-02-0336 0168 "Donald Galbraith" "Catherine Cameron"]
     }
@@ -84,5 +68,8 @@ footnotes {
     }
     dugald1893-birth {
         $sp-ref[b-1893-539-01-0005 "Dugald Brown Galbraith"]
+    }
+    mann-marriage {
+        $sp-ref-link[m-1901-652-02-0217 0109 "John Galbraith" "Sarah Galbraith"], "John Galbraith (formally Mann)", but only "Isabella Mann" is listed as the mother.
     }
 }

@@ -40,6 +40,7 @@ partner {
     child {
         name Catherine Brown Galbraith
         birth -date 1908 -location kildalton -ref catherine1908-birth
+        death -date 22-jun-1965 -location bowmore,islay -ref catherine1908-death -note unmarried
     }
     child {
         name James Galbraith
@@ -80,6 +81,9 @@ footnotes {
     }
     catherine1908-birth {
         $sp-ref[b-1908-541-00-0003 "Catherine Brown Galbraith"]
+    }
+    catherine1908-death {
+        $sp-ref-link[d-1965-536-00-0012 0004 "Catherine Brown Galbraith"]
     }
     james1909-birth {
         $sp-ref[b-1909-541-00-0013 "James Galbraith"]

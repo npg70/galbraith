@@ -41,6 +41,7 @@ partner {
     child {
         name Christian Galbraith
         baptism -date 28-mar-1847 -location jura -ref christian1847-baptism
+        death -date 27-mar-1922 -location jura -ref christian1847-death -note unmarried
     }
 }
 footnotes {
@@ -91,5 +92,8 @@ footnotes {
     }
     christian1847-baptism {
         $opr-ref[b-1847-539-010-0020-0083 "Christian Galbraith"]
+    }
+    christian1847-death {
+        $sp-ref-link[d-1922-539-01-0001 0002 "Christina Galbraith"]
     }
 }

@@ -15,6 +15,10 @@ partner {
     child {
         name Sarah Galbraith
         birth -date 11-may-1871 -location Newington,Edinburgh -ref sarah1871-birth
+        death -date 07-oct-1936 -location bowmore,islay -ref sarah1871-death
+        partner {
+            name Archibald McMillan
+        }
     }
     child {
         name Donald Galbraith
@@ -51,6 +55,9 @@ footnotes {
     }
     sarah1871-birth {
         $sp-ref-link[b-1871-685-05-0605 0202 "Sarah Galbraith"]
+    }
+    sarah1871-death {
+        $sp-ref-link[d-1936-536-00-0021 0007 "Sarah Galbraith"]
     }
     donald1873-birth {
         $sp-ref-link[b-1873-536-00-0016 0006 "Donald Galbraith"]

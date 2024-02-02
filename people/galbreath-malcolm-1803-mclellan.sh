@@ -21,6 +21,14 @@ partner {
         baptism -date 3-nov-1833 -location kildalton -ref isabella1833-baptism
     }
     child {
+        name Archibald Galbraith
+        baptism -date 'about 1835' -location kildalton -note 'not recorded'
+        death -date 05-mar-1872 -location kildalton -ref archibald1835-death
+        partner {
+            name Mary Dixon
+        }
+    }
+    child {
         name Margaret Galbraith
         baptism -date 19-apr-1836 -location kildalton -ref margaret1836-baptism
     }
@@ -62,6 +70,9 @@ footnotes {
     }
     isabella1833-baptism {
         $opr-ref[b-1833-541-000-0020-0038 "Isabella Galbraith"]
+    }
+    archibald1835-death {
+        $sp-ref-link[d-1872-541-00-0011 0004 "Archibald Galbraith"]
     }
     margaret1836-baptism {
         indexed twice, 
