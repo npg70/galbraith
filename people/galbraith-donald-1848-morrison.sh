@@ -9,6 +9,10 @@ body {
     He was a ferryman.
 }
 
+todo {
+    Add parents
+}
+
 note {
     First child $child-link[galbraith-flora-1869-murray]{Flora} is likely adopted.
 }
@@ -99,7 +103,7 @@ footnotes {
     janet1881-death {
         $sp-ref-link[d-1972-501-00-0082 0082 "Janet Galbraith"]
     }
-    catherine-1883-birth {
+    catherine1883-birth {
         $sp-ref[b-1883-531-01-0017 "Catherine Galbraith"]
     }
     mary1888-birth {

@@ -53,10 +53,8 @@ partner {
     }
     child galbraith-malcolm-1809-wotherspoon
 
-    child {
-        name Lachlan Galbreath
-        baptism -date 27-aug-1811 -location gigha -ref lachlan1811-baptism
-    }
+    child galbraith-lachlan-1811-mcneil
+
 }
 
 footnotes {
@@ -80,9 +78,6 @@ footnotes {
     }
     margarate1806-baptism {
         $opr-ref[b-1806-537-000-0010-0032 "Margarate Galbreath"]
-    }
-    lachlan1811-baptism {
-        $opr-ref[b-1811-537-000-0010-0046 "Lachlan Galbreath"]
     }
 }
 
