@@ -45,6 +45,11 @@ partner {
     child {
         name Anne Galbraith
         baptism -date 25-dec-1845 -location kildalton -ref anne1845-baptism
+        partner {
+            name William Smith
+            birth -date 'about 1841' -note 'son of Neil Smith and Peggy McTaggart'
+            marriage -date 09-mar-1876 -location kildalton -ref smith-marriage
+        }
     }
     child {
         name Malcolm Galbraith
@@ -94,5 +99,8 @@ footnotes {
     }
     malcolm1850-baptism {
         $opr-ref[b-1850-541-000-0020-0114 "Malcolm Galbraith"]
+    }
+    smith-marriage {
+        $sp-ref-link[m-1876-541-00-0004 0002 "Anne Galbraith" "William Smith"]
     }
 }

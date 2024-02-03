@@ -1,4 +1,5 @@
 name John Galbraith
+tags islay kildalton
 external {
     familysearch G9YV-Y28
 }

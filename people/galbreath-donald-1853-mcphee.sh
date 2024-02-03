@@ -12,17 +12,7 @@ partner {
     birth -date 'about 1852'
     death -date 30-aug-1898 -location colonsay -ref mcphee-death
     marriage -date 30-may-1879 -location Greenock -ref donald1853-marriage
-    child {
-        name Malcolm Galbraith
-        birth -date 25-sep-1879 -location greenock -ref malcolm1879-birth
-        death -date 21-feb-1965 -location glasgow -ref malcolm1879-death
-        partner {
-            name Hannah McDonald
-        }
-        body {
-            Son John present in death record
-        }
-    }
+    child galbraith-malcolm-1879-mcdonald
     child {
         name Hugh Galbraith
         birth -date 26-apr-1882 -location greenock -ref hugh1882-birth
@@ -65,12 +55,6 @@ footnotes {
     }
     mcphee-death {
         $sp-ref-link[d-1898-539-02-0005 0002 "Christina Galbraith"]
-    }
-    malcolm1879-birth {
-        $sp-ref-link[b-1879-564-01-0634 0212 "Malcolm Galbraith"]
-    }
-    malcolm1879-death {
-        $sp-ref-link[d-1965-644-09-0202 0068 "Malcolm Galbraith"]
     }
     hugh1882-birth {
         $sp-ref-link[b-1882-564-01-0295 0099 "Hugh Galbraith"]

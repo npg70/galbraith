@@ -22,7 +22,7 @@ partner {
     child {
         name Lillah Catherine Cameron Galbraith
         birth -date 1917
-        death -date 1928
+        death -date 26-jun-1928 -location jura -ref lillah-death
     }
 }
 footnotes {
@@ -31,5 +31,8 @@ footnotes {
     }
     john1887-death {
         $sp-ref-link[d-1965-549-00-0006 0002 "John Galbraith"]
+    }
+    lillah-death {
+        $sp-ref-link[d-1928-539-01-0004 0002 "Lillah Catherine Cameron Galbraith"]
     }
 }

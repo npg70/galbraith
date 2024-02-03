@@ -18,6 +18,7 @@ partner {
         death -date 07-oct-1936 -location bowmore,islay -ref sarah1871-death
         partner {
             name Archibald McMillan
+            marriage -date 1891 -location bowmore -ref mcmillian-marriage
         }
     }
     child {
@@ -52,6 +53,9 @@ partner {
 footnotes {
     james1843-death {
         $sp-ref-link[d-1884-536-00-0036 0012 "James Galbraith"]
+    }
+    mcliver-marriage {
+        $sp-ref-link[m-1870-536-00-0005 0003 "James Galbraith" "Betsy McLiver"]
     }
     sarah1871-birth {
         $sp-ref-link[b-1871-685-05-0605 0202 "Sarah Galbraith"]
@@ -88,5 +92,8 @@ footnotes {
     }
     james1883-death {
         $sp-ref[d-1885-536-00-0014 "James Galbraith"]
+    }
+    mcmillan-marriage {
+        $sp-ref[m-1891-536-00-0001 "Sarah Galbraith" "Archibald McMillan"]
     }
 }
