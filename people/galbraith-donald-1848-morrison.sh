@@ -3,14 +3,10 @@ tags Gigha
 external {
     familysearch 9M93-9S4
 }
-baptism -date 15-aug-1848 -location gigha -ref donald1848-baptism -note "the son of Neil Galbraith and Flora McDonald"
+baptism -date 15-aug-1848 -location gigha -ref donald1848-baptism
 death -date 22-jan-1904 -location saddell -ref donald1848-death
 body {
     He was a ferryman.
-}
-
-todo {
-    Add parents
 }
 
 note {

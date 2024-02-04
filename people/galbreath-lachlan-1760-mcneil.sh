@@ -17,14 +17,8 @@ partner {
 
     child galbreath-donald-1798-galbreath
 
-    child {
-        name Neil Galbreath
-        baptism -date 25-sep-1799 -location gigha -ref neil1799-baptism
-        death -date 24-jun-1858 -location gigha -ref neil1799-death
-        body {
-            married but spouse TBD
-        }
-    }
+    child galbreath-neil-1799-mcdonald
+
     child {
         name Catharine Galbreath 
         baptism -date 4-aug-1803 -location gigha -ref catharine1801-baptism
@@ -63,12 +57,6 @@ footnotes {
     }
     mcneil-marriage {
         $opr-ref[m-1796-537-000-0010-0009 "Lachlan Galbreath" "Catharine McNeill"]
-    }
-    neil1799-baptism {
-        $opr-ref[b-1799-537-000-0010-0017 "Neil Galbreath"]
-    }
-    neil1799-death {
-        $sp-ref-link[d-1858-537-00-0003 0001 "Neil Galbraith"]
     }
     flora1803-baptism {
         $opr-ref[b-1803-537-000-0010-0026 "Flora Galbreath"]

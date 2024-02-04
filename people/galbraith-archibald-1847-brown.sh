@@ -37,7 +37,7 @@ He was a fisherman.
 footnotes {
 
     archibald1847-baptism {
-        $opr-ref-link[b-1847-507-000-000-0070 0329 "Archibald Galbreath"]
+        $opr-ref-link[b-1847-507-000-0070-0329 "Archibald Galbreath"]
     }
     archibald1847-death {
         $sp-ref-link[d-1914-507-00-0082 0028 "Archbiald Galbreath"]  Note typo in first name.
