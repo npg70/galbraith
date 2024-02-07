@@ -18,7 +18,7 @@ George Age 20
 Donald Age 10
 Mary Age 15
 Archibald Age 5
-Note: Duncan and Jean not listed. in 1851, four fo the children turn up in Greenock https://www.findmypast.com/transcript?id=GBC/1851/0019098585
+    Note: Duncan and Jean not listed. in 1851, four of the children turn up in Greenock https://www.findmypast.com/transcript?id=GBC/1851/0019098585
 
 Duncan
 Jean

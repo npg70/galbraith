@@ -3,6 +3,7 @@ tags Campbeltown Immigrant
 external {
     familysearch MYW9-L2B
     findagrave 52621095
+    ancestry tree/165037717/person/272146062803
 }
 baptism -date 25-jun-1753 -location campbeltown -ref alex1753-baptism
 death -date 1819 -location 'Delta, York, Pennsylvania, USA' -name 'Slate Ridge Cemetery' -ref alex1753-burial
