@@ -3,6 +3,7 @@ birth -date 'about 1778'
 death -date sep-1850
 burial -name Largnahension Graveyard -location lochgilphead -ref burial
 external {
+    familysearch M1RG-M1J
     findagrave 160594309
 }
 note {

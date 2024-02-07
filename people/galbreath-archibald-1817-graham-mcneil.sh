@@ -1,9 +1,10 @@
 name Archibald Galbreath
 baptism -date 22-jan-1817 -location colonsay -ref archibald1817-baptism
-death -date 11-aug-1908 -location 'Saugeen,Bruce,Ontario,Canada'
+death -date 25-jan-1898  -location 'Saugeen,Bruce,Ontario,Canada'
 tags Colonsay Immigrant
 external {
     familysearch LZDD-6V9
+    findagrave 170426248
 }
 body {
 
@@ -41,8 +42,9 @@ partner {
     }
 }
 partner {
-    name Maraget Peggy McNeill
+    name Margaret Peggy McNeill
     marriage -date 1856 -location 'Bruce,Ontario,Canada'
+    death -date 10-aug-1909 -location Bruce,Ontario,Canada
     body {
         10 children in Canada.
     }
@@ -57,7 +59,7 @@ footnotes {
         $opr-ref[m-1840-539-020-0020-0030 "Archibald Galbreath" "Ann Grahame"]
     }
     john1840-baptism {
-
+        appears missing or not recorded
     }
     duncan1844-baptism {
         $opr-ref[b-1844-539-020-0020-0014 "Duncan Galbreath"]

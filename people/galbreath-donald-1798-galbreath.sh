@@ -1,5 +1,5 @@
 name Donald Galbreath
-tags gigha 'daughtered out'
+tags gigha
 
 external {
     familysearch M1B4-5WZ

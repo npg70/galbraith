@@ -2,6 +2,9 @@ name Donald Galbraith
 baptism -date 1800 -location 'kilcalmonell and kilberry' -ref donald1800-baptism
 death -date 1839 -ref donald1800-death
 tags 'Kilcalmonell and Kilberry'
+external {
+    familysearch GJR2-DMJ
+}
 body {
 
 Mary in 1841 Census Teritigan, Kilcalmonell, Argyllshire, Scotland:$ref[census1841]
