@@ -32,7 +32,7 @@ partner {
     child {
         name Peter Galbreath
         baptism -date 27-mar-1811 -location gigha -ref peter1811-baptism
-        death -date 1877 -location gigha -ref peter1811-death -note umn
+        death -date 28-mar-1877 -location gigha -ref peter1811-death -note umn
     }
     child {
         name Flora Galbreath
@@ -109,7 +109,7 @@ footnotes {
         $opr-ref[b-1811-537-000-0010-0046 "Peter Galbreath"]
     }
     peter1811-death {
-        $sp-ref[d-1877-537-00-0006 "Peter Galbraith"]
+        $sp-ref-link[d-1877-537-00-0006 "Peter Galbraith"]
     }
     flora1812-baptism {
         $opr-ref[b-1812-537-000-0010-0049 "Flora Galbreath"]
