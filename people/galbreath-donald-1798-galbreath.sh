@@ -6,6 +6,18 @@ external {
 }
 baptism -date 4-jan-1798 -location gigha -ref donald1798-baptism
 death -date 28-aug-1860 -location gigha -ref donald1798-death
+
+body {
+
+From the 1827 Census of Gigha, in Achard:$ref[gigha1827]
+$csvtable{
+First,Last,Age,Birth
+Donald, Galbraith, 29, 1798
+Catherine, Galbraith, 27, 1800
+}
+
+}
+
 partner {
     name Catherine Galbreath
     baptism -date feb-1799 -location 'kilcalmonell and kilberry' 
@@ -59,5 +71,9 @@ footnotes {
     }
     catharine1799-death {
         $sp-ref-link[d-1878-535-00-0027 0009 "Catherine Galbraith"]
+    }
+    gigha1827 {
+        From the 1827 Census of Gigha,
+        https://www.gigha.org.uk/viewItem.php?id=8932
     }
 }

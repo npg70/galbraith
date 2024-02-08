@@ -7,10 +7,19 @@ external {
     familysearch M1YK-YN4
     findagrave 115118948
 }
-note {
-    The association of Lachland and Catharine is circumstantial, but based on the tombstone inscription, the birth order of children, and Neil's death record of 1858.
+body {
+1827 Census of Gigha, in Achamhinish (birth is calculated):$ref[gigha1827]
+$csvtable{
+First,Last,Age,Birth
+Lachlan, Galbraith, 62, 1765
+Catherine, Macneill, 56, 1771
+Neil, Galbraith, 28, 1799
+Flora, Galbraith, 24, 1803
+Malcolm, Galbraith, 16, 1811
+Lachlan, Galbraith, 14, 1813
+Peggy, Galbraith, -,-
 }
-
+}
 partner {
     name Catharine McNeil
     marriage -date 19-sep-1796 -location gigha -ref mcneil-marriage
@@ -66,6 +75,11 @@ footnotes {
     }
     margarate1806-baptism {
         $opr-ref[b-1806-537-000-0010-0032 "Margarate Galbreath"]
+    }
+
+    gigha1827 {
+        From the 1827 Census of Gigha,
+        https://www.gigha.org.uk/viewItem.php?id=8932
     }
 }
 
