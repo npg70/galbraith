@@ -16,11 +16,14 @@ partner {
     child {
         name John Galbreath
         baptism -date 25-may-1781 -location campbeltown -ref john1781-baptism
+        body {
+            Died in infancy.
+        }
     }
     child {
         name James Galbreath
         baptism -date 19-may-1782 -location campbeltown -ref james1782-baptism
-        death -date 23-jan-1811
+        death -date 23-jan-1811 -location usa -note unmarried
     }
     child {
         name John Galbreath
@@ -28,6 +31,16 @@ partner {
         death -date 25-may-1844
         partner {
             name Hannah Morrison
+            marriage -date 25-apr-1809
+            birth -date 28-feb-1790
+            death -date 17-oct-1881
+        }
+    }
+    child {
+        name Janette Galbreath
+        birth -date 04-sep-1786
+        partner {
+            name William Edgar
         }
     }
     child {
@@ -36,25 +49,46 @@ partner {
         death -date 9-mar-1839 
         partner {
             name Samuel P Morrison
+            marriage -date 1810
         }
-    }   
+    }
+    child {
+        name Mary Galbreath
+        birth -date 30-jan-1792
+        death -date 17-jan-1839
+        partner {
+            name Benjamin Payne
+            marriage -date 1825
+            birth -date 1781
+            death -date 1870
+        }
+    }
     child {
         name Alexander Galbreath
         birth -date 2-apr-1794 -location USA
-        death -date 26-jun-1859
+        death -date 26-jul-1859
         partner {
-            name Eliza B Hammond
+            name Eliza Barclay Hammond
+            marriage -date 28-apr-1825
+            birth -date 01-feb-1806
+            death -date 15-aug-1892
         }
     }
     child {
         name Matthew Clark Galbreath
-        birth -date 1798 -location USA
-        death -date 12-aug-1821 -location USA
+        birth -date 20-aug-1797 -location USA
+        death -date 12-aug-1821 -location USA -note unmarried
     }
     child {
         name Isabella Galbreath
         birth -date 19-jan-1801 -location Pa,USA
         death -date 21-jan-1853 -location Belmont,Ohio,USA
+        partner {
+            name George M Theaker
+            marriage -date 06-jul-1820
+            birth -date 19-mar-1796
+            death -date 29-sep-1880
+        }
     }
 }
 footnotes {
