@@ -39,7 +39,24 @@ partner {
 
     child galbraith-donald-1848-morrison
 }
+body {
 
+Given that both died before 1861, it seems that Lachlan and Isabella were taken in by $child-link[galbreath-peter-1798-galbreath]{Peter Galbreath} and Merran Galbreath. It's possible that John was renamed Neil, as there was already a John.
+
+
+1851 Census of South Ardelay, Gigha, Kintyre, Argyllshire, Scotland:$ref[census1851]
+$csvtable{
+First,Last,Role,Marital,Age,Year
+Neil,Galbraith,Head,Widower,52,1799
+Bella,Galbraith,Dau,Unmarried,10,1841
+Catherine,Galbraith,Dau,Unmarried,8,1843
+Lauchlan,Galbraith,Son,-,6,1845
+John,Galbraith,Son,-,4,1847
+Donald,Galbraith,Son,2,1849
+}
+
+
+}
 footnotes {
 
     neil1799-baptism {
@@ -72,5 +89,9 @@ footnotes {
     }
     john1846-death {
         $sp-ref-link[d-1925-644-17-0226 0079 "John Galbraith"]
+    }
+
+    census1851 {
+        https://www.findmypast.com/transcript?id=GBC/1851/0019321884&expand=true
     }
 }
