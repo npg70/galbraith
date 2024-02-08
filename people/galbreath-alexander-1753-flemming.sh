@@ -51,6 +51,11 @@ partner {
         birth -date 1798 -location USA
         death -date 12-aug-1821 -location USA
     }
+    child {
+        name Isabella Galbreath
+        birth -date 19-jan-1801 -location Pa,USA
+        death -date 21-jan-1853 -location Belmont,Ohio,USA
+    }
 }
 footnotes {
     alex1753-baptism {
