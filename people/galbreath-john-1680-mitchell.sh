@@ -3,6 +3,7 @@ birth -date "29 May 1680" -location "Kilkeddan"
 baptism  -date "30 May 1680" -location "Campbeltown" -ref john1680-baptism
 external {
     familysearch L2PT-L1B
+    wikitree Galbraith-1787
 }
 partner {
 	name Mary Mitchell
