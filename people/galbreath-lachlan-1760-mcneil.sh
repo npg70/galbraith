@@ -30,7 +30,7 @@ partner {
 
     child {
         name Catharine Galbreath 
-        baptism -date 4-aug-1803 -location gigha -ref catharine1801-baptism
+        baptism -date 4-aug-1801 -location gigha -ref catharine1801-baptism
         death -date 14-dec-1846 -location cara 
         partner {
             name Dougal MacArthur

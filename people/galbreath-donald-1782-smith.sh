@@ -109,7 +109,7 @@ footnotes {
         $opr-ref[b-1811-537-000-0010-0046 "Peter Galbreath"]
     }
     peter1811-death {
-        $sp-ref-link[d-1877-537-00-0006 "Peter Galbraith"]
+        $sp-ref-link[d-1877-537-00-0006 0002 "Peter Galbraith"]
     }
     flora1812-baptism {
         $opr-ref[b-1812-537-000-0010-0049 "Flora Galbreath"]
