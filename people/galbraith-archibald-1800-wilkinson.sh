@@ -2,6 +2,25 @@ name Archibald Galbraith
 tags 'Killean and Kilchenzie' Campbeltown
 baptism -date 29-oct-1800 -location 'killean and kilchenzie' -ref archibald1800-baptism
 death -date 13-feb-1855 -location campbeltown -ref archibald1800-death
+todo {
+    cleanup census stuff
+}
+todo {
+    a few sons were married but died young.  Children TBD.
+}
+note {
+    Wilkinson is angelicized version of McQuilkan.  Maybe her parents:
+        maybe parents:
+    MCQUILKAN
+DUNCAN
+MARGARET MCMATH/FR351 (FR351)
+06/06/1799
+519
+10 / 341
+KILLEAN AND KILCHENZIE
+
+}
+
 partner {
     name Barbara Wilkinson
     marriage -date 1827 -location 'killean and kilchenzie'
@@ -16,10 +35,6 @@ partner {
     child {
         name Archibald Galbreath
         baptism -date 29-apr-1830 -location campbeltown -ref archibald1830-baptism
-        death -date 1860 -location Kilmarnock,Ayr -ref archibald1830-death 
-        body {
-            death can't be correct, as another son archibald was born in 1839
-        }
     }
     child {
         name Alexander Galbreath
@@ -29,7 +44,7 @@ partner {
             name Margaret McArthur
         }
         body {
-            Died to fractured ribs "due to violence." Marriage may be incorrect.
+            Died in the poorhouse with fractured ribs "due to violence." Children, marriage TBD.
         }
     }
     child {
@@ -46,30 +61,18 @@ partner {
     child {
         name Archibald Galbreath
         baptism -date 22-Aug-1839 -location campbeltown -ref archibald1839-baptism
-        death -date 1857 -location 'milton,glasgow' -ref archibald1839-death
+        death -date 10-may-1857 -location 'milton,glasgow' -ref archibald1839-death -note unmarried
     }
-    child {
-        name Angus Galbreath
-        baptism -date 5-Dec-1841 -location campebeltown -ref angus1841-baptism
-        death -date 1876 -location 'mid calder, midlothian' -ref angus1841-death
-    }
+    child galbraith-angus-1841-lindsay
 }
 body {
    $p{
     Barbara may have been name McQuilkan, which is somewhat similar to Wilkinson.
     Perhaps an Angelized version.
 
-    maybe parents:
-    MCQUILKAN
-DUNCAN
-MARGARET MCMATH/FR351 (FR351)
-06/06/1799
-519
-10 / 341
-KILLEAN AND KILCHENZIE
     }
     $ul{
-        $li{1851 Archibald listed as Mashman}
+        $li{1851 Archibald listed as Mashman: https://www.findmypast.com/transcript?id=GBC/1851/0019257311&expand=true}
         $li{1861 - Barbra https://www.findmypast.com/transcript?id=GBC%2F1861%2F0023675920}
         $li{1871 - Barbra https://www.findmypast.com/transcript?id=GBC%2F1871%2F0024730641}
     }
@@ -106,9 +109,6 @@ footnotes {
         $opr-ref-link[b-1830-507-000-0060-0203 "Archibald Galbreath"]
         Mother indexed as "Barbra McQuilkan"
     }
-    archibald1830-death {
-        $sp-ref-link[d-1860-597-00-0051 0017 "Archibald Galbraith"]
-    }
     alexander1832-baptism {
         $opr-ref-link[b-1832-507-000-0070-0018 "Alexander Galbreath"]
     }
@@ -126,12 +126,6 @@ footnotes {
         $opr-ref-link[b-1839-507-000-0070-0154 "Archibald Galbreath"]
     }
     archibald1839-death {
-        $sp-ref[d-1857-644-07-0338 "Archibald Galbraith"]
-    }
-    angus1841-baptism {
-        $opr-ref-link[b-1841-507-000-0070-0209 "Angus Galbreath"]
-    }
-    angus1841-death {
-        $sp-ref[d-1876-694-00-0024 "Angus Galbraith"]
+        $sp-ref-link[d-1857-644-07-0338 0113 "Archibald Galbraith"]
     }
 }
