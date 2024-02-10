@@ -1,9 +1,11 @@
 name Donald Galbreath
 birth -date 'about 1785'
-death -date 20-jun-1859 -location gigha -ref donald1785-death
 tags gigha
 external {
     familysearch KD3X-J7F
+}
+todo {
+    Death
 }
 todo {
     check if the Double Mary is two people or one.  Baptisms are exactly one year apart.
@@ -91,16 +93,6 @@ All listed as being born in Gigha.
 
 }
 footnotes {
-    donald1785-death {
-        $sp-ref-link[d-1859-537-000-0005 0002 "Donald Galbraith"]{
-        Name: Galbraith, Donald, Bell-man[?], (widower);
-        Date: 1859 June Twentieth;
-        Age: 75 years [birth ~1784];
-        Father: Edward Galbraith, Shoemaker (deceased)
-        Mother: [not listed];
-        Burial: Kildalton,Gigha
-        }
-    }
 
     brown-marriage {
 

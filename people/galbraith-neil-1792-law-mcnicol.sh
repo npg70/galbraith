@@ -40,6 +40,10 @@ partner {
     child {
         name Alexander Galbraith
         baptism -date 25-jun-1841 -location 'St Cuthberts, Midlothian' -ref alexander1841-baptism
+        death -date 21-mar-1876 -location 'St Geroge, Edinburgh' -ref alexander1841-death
+        body {  
+            TODO: married to Elizabeth Johnstone?
+        }
     }
     child {
         name David Galbraith
@@ -137,6 +141,9 @@ footnotes {
     }
     alexander1841-baptism {
         $opr-ref[b-1841-685-002-0350-0631 "Alexander Galbraith"]
+    }
+    alexander1841-death {
+        $sp-ref-link[d-1876-685-01-0301 0101 "Alexander Galbraith"]
     }
     david1843-baptism { 
         $opr-ref[b-1843-685-002-0360-0138 "David Galbraith"]
