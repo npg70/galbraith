@@ -4,7 +4,18 @@ death -date 10-dec-1856 -location gigha -ref donald1782-death
 tags gigha 'daughtered out'
 
 body {
+1827 Census of Gigha, Tarbert:$ref[census1827]
+$blockquote{
+Angus Smith, tenant, 56
+Catherine Smith, 53
+Flora (26), Neil (22), Catharine (18), Mary (15), Ann (13)
+Donald Galbraith, cottar, 46
+Betty Smith, wife, 40
+Peter (17), Flora (15), Archd. (13), Malcolm (12), Neil (9), Betty (6), Mary (4), Ann (1)
+}
+}
 
+body {
 1851 Census, Scotland, Argyllshire, Kintyre, Gigha, Tarbert:$ref[census1851]
 $csvtable{
 First,Last,Role,Age,Year,Place
@@ -16,7 +27,9 @@ Neil,Galbraith,Son,33,1818,Gigha
 Mary,Galbraith,Dau,26,1825,Gigha
 Jean,McMillan,G Dau,7,1844,Gigha
 }
+}
 
+body {
 1881 Census, Scotland, Argyllshire, Gigha, Gigha & Cara, Ardailly:$ref[census1881]
 $csvtable{
 First,Last,Role,Age,Year
@@ -24,8 +37,8 @@ Archibald,Galbraith,Head,61,1820
 Malcolm,Galbraith,Brother,59,1822
 Betsy,Galbraith,Sister,53,1828
 }
-
 }
+
 partner {
     name Elizabeth Smith
 
@@ -86,7 +99,9 @@ partner {
 }
 
 footnotes {
-
+    census1827 {
+        https://www.gigha.org.uk/viewItem.php?id=8932
+    }
     census1851 {
         https://www.findmypast.com/transcript?id=GBC/1851/0019322031&expand=true
     }

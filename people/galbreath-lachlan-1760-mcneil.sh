@@ -8,7 +8,7 @@ external {
     findagrave 115118948
 }
 body {
-1827 Census of Gigha, in Achamhinish (birth is calculated):$ref[gigha1827]
+1827 Census of Gigha, in Achamhinish (birth is calculated):$ref[census1827]
 $csvtable{
 First,Last,Age,Birth
 Lachlan, Galbraith, 62, 1765
@@ -77,7 +77,7 @@ footnotes {
         $opr-ref[b-1806-537-000-0010-0032 "Margarate Galbreath"]
     }
 
-    gigha1827 {
+    census1827 {
         From the 1827 Census of Gigha,
         https://www.gigha.org.uk/viewItem.php?id=8932
     }

@@ -44,7 +44,7 @@ partner {
     }
 }
 body {
-Present in the 1827 Census of Gigha, at Drumyeonmore Glebes:$ref[gigha1827]
+Present in the 1827 Census of Gigha, at Drumyeonmore Glebes:$ref[census1827]
 $csvtable{
 First,Last,Age,Year
 Alexander, Galbraith, 47, 1780
@@ -82,7 +82,7 @@ footnotes {
     archibald1817-baptism {
         $opr-ref[b-1817-537-000-0010-0057 "Archibald Galbreath"]
     }
-    gigha1827 {
+    census1827 {
         From the 1827 Census of Gigha,
         https://www.gigha.org.uk/viewItem.php?id=8932
     }
