@@ -2,13 +2,13 @@ name John Galbreath
 birth -date 'about 1767'
 tags gigha 'dead end'
 todo {
-    No records after 1827.  FamilySearch is a mess.
+    No records after 1827. 
 }
 note {
     Sarah was a common nickname of Merran
 }
 note {
-    There is also a John Galbreath who married a Merran Galbreath in Gigha at the same time.  They are different.
+    There is also a $child-link[galbreath-john-1770-galbreath]{John Galbreath} who married a Merran Galbreath in Gigha at the same time.  They are different.
 }
 partner {
     name Merran Sarah MacDonald

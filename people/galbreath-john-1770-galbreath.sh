@@ -5,8 +5,23 @@ external {
     familysearch M1B4-HNT
 }
 note {
-    Spouse appears to have sometimes used the name Sarah, while baptism and death 
-    records use Marion/Merran.
+    Spouse used the name nickname Sarah,
+    while baptism and death records use Marion/Merran. This was
+    apparently.
+}
+body {
+Isle of Gigha Census 1827:$ref[census1827]
+$csvtable{
+First,Last,Age,Year
+John, Galbraith, 60, 1767
+Donald, Galbraith, 29, 1798
+John, Galbraith, 27, 1800
+Catharine, Galbraith, 22, 1805
+Mary, Galbraith, 17, 1810
+Sarah,-, 15, 1812
+Malcolm,-, 12, 1815
+James,-, 9, 1818
+}
 }
 
 partner {
