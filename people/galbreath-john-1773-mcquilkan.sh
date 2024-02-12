@@ -4,7 +4,9 @@ tags Gigha
 external {
     familysearch LRD8-6SV
 }
-
+todo {
+    parents are known and moved to USA.
+}
 partner {
     name Isobel McQuilkan
 
@@ -39,17 +41,8 @@ partner {
         baptism -date 05-nov-1814 -location gigha -ref lachlan1814-baptism
         death -date 11-nov-1814 -location gigha -ref lachlan1814-death
     }
-    child {
-        name John Galbreath
-        baptism -date 24-aug-1816 -location gigha -ref john1816-baptism
-        death -date 09-mar-1882 -location campbeltown -ref john1816-death
-        partner {
-            name Ann McGeachy
-            birth -date 24-jul-1820 -location 'Killean and Kilchenzie'
-            death -date 28-jul-1904 -location campbeltown
-            marriage -date 13-feb-1844 -location gigha
-        }
-    }
+    child galbraith-john-1816-mcgeachy
+
 }
 body {
 Isle of Gigha Census 1827, North Drimachro:$ref[census1827]
@@ -88,8 +81,5 @@ footnotes {
     }
     lachlan1814-death {
         $opr-ref[d-1814-537-000-0010-0054 "Lachlan Galbreath"]
-    }
-    john1816-baptism {
-        $opr-ref[b-1816-537-000-0010-0055 "John Galbreath"]
     }
 }
