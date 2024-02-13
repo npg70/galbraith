@@ -7,7 +7,7 @@ birth -date 'about 1767'
 todo { Needs references }
 
 body {
-From the 1827 Census of Gigha at Drumyeonmore:$ref[gigha1827]
+From the 1827 Census of Gigha at Drumyeonmore:$ref[census1827]
 $csvtable{
 First,Last,Age,Birth
 Adam, Galbraith, 60, 1767
@@ -99,7 +99,7 @@ footnotes {
     malcolm1819-baptism {
         $opr-ref[b-1819-537-000-0010-0062 "Malcom Galbreath"]
     }
-    gigha1827 {
+    census1827 {
         From the 1827 Census of Gigha,
         https://www.gigha.org.uk/viewItem.php?id=8932
     }
