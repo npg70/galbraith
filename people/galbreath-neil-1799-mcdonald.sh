@@ -8,7 +8,7 @@ partner {
     name Flora MacDonald
     marriage -date 16-jul-1840 -location gigha -ref mcdonald-marriage
     body {
-        Death was between 1848 and 1851, as Neil is listed as a widower in 1851.
+        Her death was in 1850 or 1851, as the last child was born in 1850 and Neil is listed as a widower in 1851.
     }
     child {
         name Isabella Galbraith
@@ -27,7 +27,6 @@ partner {
         name Lachlan Galbreath
         baptism -date 14-Feb-1844 -location gigha -ref lachlan1844-baptism
     }
-
     child {
         name John Galbreath
         baptism -date 29-jul-1846 -location gigha -ref john1846-baptism
@@ -38,6 +37,12 @@ partner {
     }
 
     child galbraith-donald-1848-morrison
+
+    child {
+        name Flora Galbraith
+        baptism -date 26-jul-1850 -location gigha -ref flora1850-baptism
+        death -date 21-aug-1850 -location gigha -ref flora1850-death
+    }
 }
 body {
 
@@ -90,7 +95,12 @@ footnotes {
     john1846-death {
         $sp-ref-link[d-1925-644-17-0226 0079 "John Galbraith"]
     }
-
+    flora1850-baptism {
+        $opr-ref[b-1850-537-000-0020-0072 "Flora Galbraith"]
+    }
+    flora1850-death {
+        $opr-ref[d-1850-537-000-0020-0071 "Flora Galbraith"]
+    }
     census1851 {
         https://www.findmypast.com/transcript?id=GBC/1851/0019321884&expand=true
     }

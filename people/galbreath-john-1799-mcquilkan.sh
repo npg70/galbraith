@@ -62,12 +62,12 @@ partner {
     }
     child {
         name Betsy Galbraith
-        birth -date 1848 -location gigha
+        birth -date 12-jun-1848 -location gigha
         death -date 11-jan-1914 -location gigha -ref betsy1848-death -note unmarried
     }
     child {
         name Euphemia Galbraith
-        birth -date 1851 -location gigha
+        birth -date 06-nov-1850 -location gigha -ref euphemia1851-baptism
         death -date 09-mar-1926 -location gigha -ref euphemia1851-death -note unmarried
 
     }
@@ -110,8 +110,14 @@ footnotes {
     john1846-death {
         $sp-ref-link[d-1925-537-00-0002 0001 "John Galbraith"]
     }
+    betsy1848-baptism {
+        $opr-ref-link[b-1848-537-000-0020-0067 "Betsey Galbraith"]
+    }
     betsy1848-death {
         $sp-ref-link[d-1914-537-00-0001 0001 "Betsy Galbraith"]
+    }
+    euphemia1851-baptism {
+        $opr-ref[b-1850-537-000-0020-0072 "Effy Galbraith"]
     }
     euphemia1851-death {
         $sp-ref-link[d-1926-537-00-0001 0001 "Euphemia Galbraith"]
