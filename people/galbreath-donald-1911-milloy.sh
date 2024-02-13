@@ -22,7 +22,7 @@ partner {
     child {
         name Alexander Galbreath
         baptism -date 19-mar-1843 -location gigha -ref alexander1843-baptism
-        death -date 06-sep-1844 -locaton gigha -ref alexander1843-death
+        death -date 06-sep-1844 -location gigha -ref alexander1843-death
         body {
             Death is speculative.
         }
