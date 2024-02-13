@@ -25,10 +25,8 @@ partner {
         name Mary Galbreath
         baptism -date 18-jun-1837 -location gigha -ref mary1837-baptism
     }
-    child {
-        name Malcolm Galbreath
-        baptism -date 21-may-1840 -location gigha -ref malcolm1840-baptism
-    }
+    child galbreath-malcolm-1840-mclean
+
     child {
         name John Galbreath
         baptism -date 13-apr-1843 -location gigha -ref john1843-baptism
@@ -68,9 +66,6 @@ footnotes {
     }
     mary1837-baptism {
         $opr-ref[b-1837-537-000-0020-0035 "Mary Galbreath"]
-    }
-    malcolm1840-baptism {
-        $opr-ref[b-1840-537-000-0020-0043 "Malcolm Galbreath"]
     }
     john1843-baptism {
         $opr-ref[b-1843-537-000-0020-0053 "John Galbreath"]

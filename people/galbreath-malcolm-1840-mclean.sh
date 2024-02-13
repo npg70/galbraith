@@ -78,10 +78,6 @@ partner {
     }
 }
 
-body {
-    parents were Neil G- and Flora McNeil
-}
-
 footnotes {
     malcolm1840-birth {
         $opr-ref[b-1840-537-000-020-0043 "Malcolm Galbreath"]
