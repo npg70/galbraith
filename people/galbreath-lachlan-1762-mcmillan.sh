@@ -10,9 +10,6 @@ todo {
 todo {
     Mary/Margaret and her husband
 }
-todo {
-    fix neil on family search
-}
 partner {
     name Isabella McMillan
 

@@ -7,9 +7,12 @@ external {
 }
 partner {
     name Elizabeth Blue
+    birth -date 07-apr-1805 -location campbeltown
+    baptism -date 23-apr-1805 -location campbeltown
     marriage -date 29-aug-1842 -location campbeltown -ref blue-marriage
+    death -date 07-jun-1888 -location campbeltown -ref blue-death
     body {
-        She was the daughter of Duncan Blue.
+        She was the daughter of Duncan Blue and Elizabeth Bruce.
     }
     child {
         name Isabella Galbreath
@@ -33,6 +36,9 @@ footnotes {
     }
     blue-marriage {
         $opr-ref[m-1842-507-000-0060-0383 "Neil Galbreath" "Elizabeth Blue"]
+    }
+    blue-death {
+        $sp-ref-link[d-1888-507-00-0085 0029 "Elizabeth Galbraith"]
     }
     isabella1843-baptism {
         $opr-ref[b-1843-507-000-0070-0240 "Isabella Galbreath"]
