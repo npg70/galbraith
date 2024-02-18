@@ -45,6 +45,9 @@ func (z *Tokenizer) stateText() {
 				Type: html.TextNode,
 				Data: string(z.maybeText),
 			}
+			if z.current == nil {
+				panic("current is nil: adding " + text.Data)
+				}
 			z.current.AppendChild(text)
 			z.maybeText = nil
 			return
@@ -62,7 +65,9 @@ func (z *Tokenizer) stateText() {
 				z.current.AppendChild(text)
 				z.maybeText = nil
 			}
-			z.current = z.current.Parent
+			if z.current.Parent != nil{
+				z.current = z.current.Parent
+			}
 		default:
 			z.maybeText = append(z.maybeText, c)
 		}
