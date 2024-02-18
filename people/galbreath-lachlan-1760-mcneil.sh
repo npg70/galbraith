@@ -67,6 +67,10 @@ footnotes {
     mcneil-marriage {
         $opr-ref[m-1796-537-000-0010-0009 "Lachlan Galbreath" "Catharine McNeill"]
     }
+    catharine1801-baptism {
+        Note: mispelling of name;
+        $opr-ref[b-1801-537-000-0010-0021 "Catharine Galbreth"]
+    }
     flora1803-baptism {
         $opr-ref[b-1803-537-000-0010-0026 "Flora Galbreath"]
     }

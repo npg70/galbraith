@@ -41,7 +41,7 @@ partner {
 }
 footnotes {
     helen1795-baptism {
-        $opr-ref[b-1795-537-000-0010-0006 "Helen Galbreath"], note: also indexed as "Nelly Galbreath"]
+        $opr-ref[b-1795-537-000-0010-0006 "Helen Galbreath"], note: also indexed as "Nelly Galbreath"
     }
     william1796-baptism {
         Recorded twice:

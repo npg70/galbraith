@@ -44,11 +44,11 @@ partner {
     }
     child {
         name Margarate Galbreath
-        baptism -date 27-nov-1806 -location gigha -ref marg1806-baptism
+        baptism -date 01-aug-1807 -location gigha -ref marg1807-baptism
     }
     child {
         name Margarate Galbreath
-        baptism -date 01-aug-1807 -location gigha -ref marg1807-baptism
+        baptism -date 01-aug-1808 -location gigha -ref marg1808-baptism
     }
     child {
         name Isobel Galbreath
@@ -81,17 +81,17 @@ footnotes {
     neil1805-baptism {
         $opr-ref-link[b-1805-537-000-0010-0029 "Neil Galbreath"]
     }
-    marg1806-baptism {
-        $opr-ref-link[b-1806-537-000-0010-0032 "Margarate Galbreath"]
-    }
     marg1807-baptism {
-        $opr-ref[b-1807-537-000-0010-0034 "Margarate Galbreath"]
+        $opr-ref[b-1807-537-000-0010-0034 "Margarate Galbreath"], father listed as "Adom"
+    }
+    marg1808-baptism {
+        $opr-ref[b-1808-537-000-0010-0037 "Margarate Galbreath"], father listed as "Adom"
     }
     isobel1809-baptism {
         $opr-ref[b-1809-537-000-0010-0042 "Isobel Galbreath"]
     }
     lachlan1812-baptism {
-        $opr-ref-link[b-1819-537-000-0010-0048 "Lachlan Galbreath"]
+        $opr-ref-link[b-1812-537-000-0010-0048 "Lachlan Galbreath"]
     }
     nelly1815-baptism {
         $opr-ref[b-1815-537-000-0010-0053 "Nelly Galbreath"]

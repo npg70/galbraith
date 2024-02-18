@@ -7,14 +7,18 @@ external {
 }
 
 body {
-    Likely occupation was maltster, and then a "grazier" (a pastoral/livestock farmer)
+He was a maltster (distiller), and then a grazier (a pastoral/livestock farmer).
 }
 
 partner {
     name Martha Langwill
     marriage -date 14-Sep-1787 -location campbeltown -ref langwill-marriage
-    birth -date 12-May-1768 -location campbeltown
+    birth -date 09-may-1768 -location campbeltown
+    baptism -date 12-May-1768 -location campbeltown
     death -date 1789
+    body {
+        She was the daughter of Robert Langwill and Ann McMurchy.
+    }
     burial -name 'Kilkerran Cemetery'
     child {
         name William Galbreath
