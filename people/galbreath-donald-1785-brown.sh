@@ -56,7 +56,7 @@ partner {
     }
     child {
         name Catherine Galbreath
-        birth -date 'about 1819' -location gigha
+        birth -date 13-apr-1919  -location gigha -ref catherine1819-baptism
     }
     child {
         name Lachlan Galbreath
@@ -125,6 +125,9 @@ footnotes {
         $opr-ref-link[d-1835-537-000-0020-0032 "Ann Galbreath"]{
             July | 8 | Ann Galbreath at Ardmish, age 20 years.
         }
+    }
+    catherine1819-baptism {
+        $opr-ref[b-1819-537-000-0010-0061 "Catharine Galbreath"]
     }
     lachlan1822-baptism {
         $opr-ref-link[b-1822-537-000-0020-0007 "Lachlan Galbreath"]

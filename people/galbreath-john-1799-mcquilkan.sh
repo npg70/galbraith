@@ -33,7 +33,7 @@ partner {
     }
     child {
         name Sarah Galbraith
-        birth -date 'about 1839'
+        birth -date 02-jan-1839 -location gigha -ref sarah1839-baptism
         death -date 31-oct-1880 -location 'at sea' -note 'suicide by drowning' -ref sarah1839-death
     }
     child {
@@ -62,7 +62,7 @@ partner {
     }
     child {
         name Betsy Galbraith
-        birth -date 12-jun-1848 -location gigha
+        birth -date 12-jun-1848 -location gigha -ref betsy1848-baptism
         death -date 11-jan-1914 -location gigha -ref betsy1848-death -note unmarried
     }
     child {
@@ -91,6 +91,9 @@ footnotes {
     }
     malcolm1837-death {
         $sp-ref-link[d-1887-644-10-0629 0210 "Malcolm Wilkison Galbraith"]
+    }
+    sarah1839-baptism {
+        $opr-ref[b-1839-537-000-0020-0040 "Marion Galbreath"]. Note that "Sarah" was commonly used for "Merran" and "Marion"
     }
     sarah1839-death {
         1880 GALBRAITH, SARAH (Statutory registers Deaths 021/MR 205)
