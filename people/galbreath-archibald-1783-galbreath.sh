@@ -1,13 +1,19 @@
 name Archibald Galbreath
-birth -date 'say 1783'
+birth -date 'about 1782' -note 'son of Duncan Galbreath and Catherine Smith'
+
+death -date 21-jul-1865 -location gigha -ref archibald1782-death
 tags gigha 'daughtered out'
 external {
     familysearch K4TZ-W1N
 }
+todo {
+    lookup 1841 and 1851 census on gigha.
+}
 partner {
     name Mary Galbreath
-    marriage -date 24-may-1808 -location gigha -ref marriage
-
+    birth -date 'about 1779' -note 'daughter of Archibald Galbreath and Catherine Smith'
+    marriage -date 24-may-1808 -location gigha -ref mary-marriage
+    death -date 08-jan-1856 -location gigha -ref mary-death
     child {
         name Catherine Galbreath
         baptism -date 27-feb-1811 -location gigha -ref catherine1811-baptism
@@ -31,9 +37,20 @@ partner {
         baptism -date 08-jan-1817 -location gigha -ref duncan1817-baptism
         death -date 08-sep-1892 -location gigha -ref duncan1817-death -note unmarried
     }
+    child {
+        name Niel Galbreath
+        baptism -date 12-sep-1819 -location colonsay -ref niel1819-baptism
+        death -date 02-jul-1904 -location gigha -ref niel1819-death -note unmarried
+    }
 }
 footnotes {
-    marriage {
+    archibald1782-death {
+        $sp-ref-link[d-1865-537-00-0005 0002 "Archibald Galbraith"]
+    }
+    mary-death {
+        $sp-ref-link[d-1856-537-00-0001 0001 "Mary Galbreath"]
+    }
+    mary-marriage {
         $opr-ref[m-1808-537-000-0010-0040 "Archibald Galbreath" "Mary Galbreath"]
     }
     catherine1811-baptism {
@@ -59,5 +76,11 @@ footnotes {
     }
     duncan1817-death {
         $sp-ref-link[d-1892-537-00-0011 0004 "Duncan Galbraith"]
+    }
+    niel1819-baptism {
+        $opr-ref-link[b-1819-539-020-0010-0014 "Niel Galbreath"]
+    }
+    niel1819-death {
+        $sp-ref-link[d-1904-537-00-0005 0002 "Neil Galbreath"]
     }
 }

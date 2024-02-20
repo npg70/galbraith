@@ -18,6 +18,7 @@ partner {
     child {
         name Margaret Galbreath 
         birth -date 26-jan-1855 -location gigha -ref margaret1855-birth
+        death -date 1856 -location gigha -ref margaret1855-death
     }
     child {
         name Donald Galbreath
@@ -47,6 +48,9 @@ footnotes {
     }
     margaret1855-birth {
         $sp-ref-link[b-1855-537-00-0003 XXXX "Margaret Galbreath"]
+    }
+    margaret1855-death {
+        $sp-ref[d-1856-537-00-0008 "Margaret Galbreath"]
     }
     donald1856-birth {
         $sp-ref[b-1856-537-00-0014 "Donald Galbreath"]

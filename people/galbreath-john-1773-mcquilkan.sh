@@ -9,7 +9,9 @@ todo {
 }
 partner {
     name Isobel McQuilkan
-
+    birth -date 'about 1775'
+    death -date 09-apr-1858 -location gigha  -ref isobel-death
+    marriage -date 15-mar-1804 -location gigha -ref isobel-marriage
     child {
         name Angus Galbreath
         baptism -date 11-feb-1805 -location gigha -ref angus1805-baptism
@@ -81,5 +83,12 @@ footnotes {
     }
     lachlan1814-death {
         $opr-ref[d-1814-537-000-0010-0054 "Lachlan Galbreath"]
+    }
+
+    isobel-marriage {
+        $opr-ref[m-1804-537-000-0010-0028 "John Galbreath" "Isobel McQuilkean"]
+    }
+    isobel-death {
+        $sp-ref-link[d-1858-537-00-0002 0001 "Isabella Galbreath"]
     }
 }
