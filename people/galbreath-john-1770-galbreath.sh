@@ -41,6 +41,7 @@ partner {
     child {
         name Donald Galbreath
         baptism -date 31-mar-1798 -location gigha -ref donald1798-baptism
+        death -date 10-jan-1879 -location gigha -ref donald1798-baptism
     }
 
     child galbreath-john-1799-mcquilkan
@@ -48,6 +49,10 @@ partner {
     child {
         name Margaret Galbreath
         baptism -date 28-apr-1803 -location gigha -ref margaret1803-baptism
+        death -date 28-oct-1886 -location gigha -ref margaret1803-death
+        partner {
+            name John Smith
+        }
     }
 
     child {
@@ -65,6 +70,13 @@ partner {
     child {
         name Merran Galbreath
         baptism -date 24-may-1812 -location gigha -ref merran1812-baptism
+        death -date 20-sep-1864 -location gigha -ref merran1812-death
+        partner {
+            name John Willie?
+            body {
+                May be John McQuilkan
+            }
+        }
     }
     child galbreath-malcolm-1815-galbreath
 
@@ -86,8 +98,14 @@ footnotes {
     donald1798-baptism {
         $opr-ref[b-1798-537-000-0010-0013 "Donald Galbreath"]
     }
+    donald1798-baptism {
+        $sp-ref-link[d-1879-537-00-0001 0001 "Donald Galbraith"]
+    }
     margaret1803-baptism {
         $opr-ref[b-1803-537-000-0010-0025 "Margarate Galbreath"]
+    }
+    margaret1803-death {
+        $sp-ref-link[d-1886-537-00-0011 0004 "Margaret Galbraith"]
     }
     catharine1805-baptism {
         $opr-ref-link[b-1805-537-000-0010-0029 "Catharine Galbreath"]
@@ -102,6 +120,9 @@ footnotes {
     }
     merran1812-baptism {
         $opr-ref-link[b-1812-537-000-0010-0048 "Marran Galbreath"]
+    }
+    merran1812-death {
+        $sp-ref-link[d-1864-537-00-0006 0002 "Sarah Galbreath"]
     }
 }
 

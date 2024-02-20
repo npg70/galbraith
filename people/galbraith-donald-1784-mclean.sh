@@ -19,6 +19,7 @@ partner {
     child {
         name Margaret Peggy Galbraith
         birth -date 1808 -location 'Ballymoney, County Antrim, Ireland'
+        death -date 31-jan-1893 -location gigha -ref margaret1808-death -note unmarried
     }
     child {
         name Janet Galbraith
@@ -46,6 +47,7 @@ partner {
     child {
         name Alexander Galbraith
         baptism -date 28-jul-1819 -location gigha -ref alexander1819-baptism
+        death -date 11-aug-1886 -location gigha -ref alexander1819-death -note unmarried
     }
 
     child galbreath-peter-1822-niven
@@ -94,6 +96,9 @@ footnotes {
         Burial: Kildalton,Gigha
         }
     }
+    margaret1808-death {
+        $sp-ref-link[d-1893-537-00-0004 0002 "Margaret Galbraith"]
+    }
     janet1811-death {
         $sp-ref-link[d-1882-537-00-0004 0002 "Janet Galbraith"]
     }
@@ -109,7 +114,9 @@ footnotes {
     alexander1819-baptism {
         $opr-ref[b-1819-537-000-0010-0062 "Alexander Galbreath"]
     }
-
+    alexander1819-death {
+        $sp-ref-link[d-1886-537-00-0008 0003 "Alexander Galbraith"]
+    }
     census1827 {
         https://www.gigha.org.uk/viewItem.php?id=8932
     }

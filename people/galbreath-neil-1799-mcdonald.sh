@@ -22,6 +22,10 @@ partner {
     child {
         name Catherine Galbreath
         baptism -date 16-aug-1842 -location gigha -ref catherine1842-baptism
+        death -date 30-jun-1908 -location gigha -ref catherine1842-death
+        partner {
+            name Lachlan MacNeill
+        }
     }
     child {
         name Lachlan Galbreath
@@ -85,6 +89,9 @@ footnotes {
     }
     catherine1842-baptism {
         $opr-ref[b-1842-537-000-0020-0049 "Catherine Galbreath"]
+    }
+    catherine1842-death {
+        $sp-ref-link[d-1908-537-00-0008 0003 "Catherine Galbraith"]
     }
     lachlan1844-baptism {
         $opr-ref[b-1844-537-000-0020-0056 "Lachlan Galbreath"]

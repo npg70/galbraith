@@ -21,7 +21,7 @@ partner {
             name Catherine Thomson
         }
         body {
-            He as mason, and died in the poorhouse.  Children unknown.
+            He was a mason, and died in the poorhouse.  Children unknown.
         }
     }
     child {

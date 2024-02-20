@@ -1,6 +1,10 @@
 name Archibald Galbreath
 tags Gigha
-birth -date 29-may-1854 -location gigha -ref archibald1854-birth -note 'son of John Galbreath and Effy McQuilkan'
+birth -date 29-may-1854 -location gigha -ref archibald1854-birth
+death -date 02-dec-1918 -location glasgow -ref archibald1854-death
+external {
+    familysearch M1BH-3Q2
+}
 
 note {
     Wilkinson is the anglecized version of McQuilkan.
@@ -32,6 +36,9 @@ partner {
 footnotes {
     archibald1854-birth {
         $opr-ref[b-1854-537-000-0020-0078 "Archibald Galbreath"]
+    }
+    archibald1854-death {
+        $sp-ref-link[d-1918-644-11-0964 0322 "Archibald Galbraith"]
     }
     mcbain-marriage {
         $sp-ref-link[m-1881-644-07-0234 0117 "Archibald Galbreath" "Mary Ann McBain"]

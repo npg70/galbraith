@@ -33,6 +33,7 @@ partner {
     child {
         name Catharine Galbreath
         baptism -date 06-jun-1800 -location gigha -ref catharine1800-baptism
+        death -date 06-aug-1880 -location gigha -ref catharine1800-death -note unmarried
     }
     child {
         name John Galbreath
@@ -57,6 +58,7 @@ partner {
     child {
         name Lachlan Galbreath
         baptism -date 28-feb-1812 -location gigha -ref lachlan1812-baptism
+        death -date 18-jun-1875 -location gigha -ref lachlan1812-death -note unmarried
     }
     child {
         name Nelly Galbreath
@@ -65,8 +67,8 @@ partner {
     child {
         name Malcolm Galbreath
         baptism -date 10-jun-1819 -location gigha -ref malcolm1819-baptism
+        death -date 07-apr-1900 -location gigha -ref malcolm1819-death -note unmarried
     }
-
 }
 footnotes {
     flora-marriage {
@@ -74,6 +76,9 @@ footnotes {
     }
     catharine1800-baptism {
         $opr-ref[b-1800-537-000-0010-0018 "Catherine Galbreath"]
+    }
+    catharine1800-death {
+        $sp-ref-link[d-1880-537-00-0008 0003 "Catherine Galbraith"]
     }
     john1802-baptism {
         $opr-ref[b-1802-537-000-0010-0023 "John Galbreath"]
@@ -93,11 +98,17 @@ footnotes {
     lachlan1812-baptism {
         $opr-ref-link[b-1812-537-000-0010-0048 "Lachlan Galbreath"]
     }
+    lachlan1812-death {
+        $sp-ref-link[d-1875-537-000-0009 0003 "Lachlan Galbraith"]
+    }
     nelly1815-baptism {
         $opr-ref[b-1815-537-000-0010-0053 "Nelly Galbreath"]
     } 
     malcolm1819-baptism {
         $opr-ref[b-1819-537-000-0010-0062 "Malcom Galbreath"]
+    }
+    malcolm1819-death {
+        $sp-ref-link[d-1900-537-00-0007 0003 "Malcolm Galbraith"]
     }
     census1827 {
         From the 1827 Census of Gigha,

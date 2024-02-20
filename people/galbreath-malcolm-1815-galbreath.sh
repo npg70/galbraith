@@ -32,7 +32,7 @@ partner {
     child {
         name Ann Galbraith
         birth -date 02-jun-1858 -location edinburgh
-        death -date 1935 -location edinburgh
+        death -date 16-dec-1935 -location gigha -ref ann1858-death -note unmarried
     }
     child {
         name Malcolm Galbraith
@@ -59,6 +59,9 @@ footnotes {
     }
     mary1824-marriage {
         $opr-ref-link[m-1851-537-000-0020-0073 "Malcom Galbraith" "Mary Galbraith"]
+    }
+    ann1858-death {
+        $sp-ref-link[d-1935-537-00-0004 0002 "Annie Galbraith"]
     }
 }
 

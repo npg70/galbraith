@@ -3,6 +3,7 @@ baptism -date 07-oct-1799  -location gigha -ref john1799-baptism
 death -date 25-aug-1876 -location gigha -ref john1799-death
 tags gigha
 external {
+    familysearch LDHS-FMN 
     findagrave 170505471
 }
 note {
@@ -20,7 +21,7 @@ todo {
 
 partner {
     name Effy McQuilkan
-    birth -date 'about 1811' -note 'daughter of Malcolm McQuilkan and Ann McCormaig'
+    birth -date 06-mar-1811 -location 'Killean and Kilchenzie' -note 'daughter of Malcolm McQuilkan and Ann McCormaig'
     death -date 11-may-1890 -location gigha -ref mcquilkan-death
     marriage -date 09-apr-1835 -location gigha -ref mcquilkan-marriage
     child {
@@ -34,7 +35,7 @@ partner {
     child {
         name Sarah Galbraith
         birth -date 02-jan-1839 -location gigha -ref sarah1839-baptism
-        death -date 31-oct-1880 -location 'at sea' -note 'suicide by drowning' -ref sarah1839-death
+        death -date 22-jan-1899 -location gigha -ref sarah1839-death -note unmarried
     }
     child {
         name Anne Galbraith
@@ -96,7 +97,7 @@ footnotes {
         $opr-ref[b-1839-537-000-0020-0040 "Marion Galbreath"]. Note that "Sarah" was commonly used for "Merran" and "Marion"
     }
     sarah1839-death {
-        1880 GALBRAITH, SARAH (Statutory registers Deaths 021/MR 205)
+        $sp-ref-link[d-1899-537-00-0001 0001 "Sarah Galbraith"]
     }
     anne1842-baptism {
         $opr-ref[b-1842-537-000-0020-0049 "Anne Galbreath"]

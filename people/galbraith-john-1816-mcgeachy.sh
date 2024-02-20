@@ -60,7 +60,7 @@ partner {
     child {
         name John Galbraith
         birth -date 26-apr-1860 -location gigha -ref john1860-birth
-        death -date 5-aug-1863 -location campbeltown -ref john1860-death
+        death -date 5-aug-1863 -location gigha -ref john1860-death
     }
     child {
         name Duncan Galbraith

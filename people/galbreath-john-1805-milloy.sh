@@ -12,7 +12,8 @@ body {
 }
 partner {
     name Marion Milloy
-    birth -date 'about 1817' -location killean
+    birth -date 'about 1815' -location killean
+    death -date 27-jun-1894 -location gigha -ref milloy-death
     marriage -date 4-mar-1854 -location gigha -ref milloy-marriage
 
     child {
@@ -45,6 +46,9 @@ footnotes {
     }
     milloy-marriage {
         $opr-ref[m-1854-537-000-0020-0079 "John Galbreath" "Marion Milloy"]
+    }
+    milloy-death {
+        $sp-ref-link[d-1894-537-00-0002 0001 "Maisey Galbraith"]
     }
     margaret1855-birth {
         $sp-ref-link[b-1855-537-00-0003 XXXX "Margaret Galbreath"]
