@@ -1,6 +1,9 @@
 name Donald Galbreath
 baptism -date 1-feb-1782 -location campbeltown -ref donald1782-baptism -note "Son of Patrick Galbreath and Ann McLellan"
 death -date 10-dec-1856 -location gigha -ref donald1782-death
+external {
+    findagrave 115118817
+}
 tags gigha 'daughtered out'
 
 body {
@@ -41,7 +44,9 @@ Betsy,Galbraith,Sister,53,1828
 
 partner {
     name Elizabeth Smith
-
+    birth -date 'about 1784' -ref smith-marriage
+    death -date 07-apr-1859 -location gigha -ref smith-death
+    marriage -date 'say 1810'
     child {
         name Peter Galbreath
         baptism -date 27-mar-1811 -location gigha -ref peter1811-baptism
@@ -109,7 +114,7 @@ footnotes {
         https://www.findmypast.com/transcript?id=GBC/1861/0022538935&expand=true
     }
     census1871 {
-    https://www.findmypast.com/transcript?id=GBC/1871/0023498544&expand=true
+        https://www.findmypast.com/transcript?id=GBC/1871/0023498544&expand=true
     }
     census1881 {
         https://www.findmypast.com/transcript?id=GBC/1881/0029401979&expand=true
@@ -119,6 +124,12 @@ footnotes {
     }
     donald1782-death {
         $sp-ref-link[d-1856-537-00-0006 0002 "Donald Galbreath"]
+    }
+    smith-marriage {
+        Appears unrecorded.
+    }
+    smith-death {
+        $sp-ref-link[d-1859-537-00-0001 0001 "Elizabeth Galbraith"]
     }
     peter1811-baptism {
         $opr-ref[b-1811-537-000-0010-0046 "Peter Galbreath"]

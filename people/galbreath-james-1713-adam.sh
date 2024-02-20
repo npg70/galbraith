@@ -3,6 +3,7 @@ baptism -date 20-aug-1713 -location campbeltown -ref james1713-baptism
 external {
     familysearch G3PJ-D5Z
 }
+tags campbeltown
 partner {
     name Margaret Adam
     marriage -date "June 1738" -location campbeltown
@@ -28,7 +29,7 @@ partner {
     }
     child {
          name Margaret Galbreath
-         baptism -date 15-apr-1752 -location campbeltown -ref margaret1752-bapt
+         baptism -date 15-apr-1752 -location campbeltown -ref margaret1752-baptism
      }
     child galbreath-david-1755-fleeming
     child {

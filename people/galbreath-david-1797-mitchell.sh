@@ -2,7 +2,7 @@ name David Galbreath
 birth -date 16-sep-1797
 baptism -date 19-sep-1797 -location campbeltown -ref david1797-baptism
 death -date 12-aug-1884 -location campbeltown -ref david1797-death
-
+tags campbeltown
 external {
     familysearch LZVY-GWN
 }
