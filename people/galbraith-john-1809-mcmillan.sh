@@ -1,7 +1,10 @@
 name John Galbraith
 tags 'Kilcalmonell and Kilberry' Immigrant
 baptism -date 29-may-1809 -location 'kilcalmonell and kilberry' -ref john1809-baptism
-death -date 1892 -location canada
+death -date 30-dec-1892 -location canada
+external {
+    findagrave 101858455
+}
 partner {
     name Margaret McMillan
     marriage -date 21-mar-1840 -location 'kilcalmonell and kilberry' -ref mcmillan-marriage
@@ -21,13 +24,7 @@ partner {
             baptism not recorded
         }
     }
-    child {
-        name Donald Galbraith
-        birth -date 22-may-1845 -location 'kilcalmonell and kilberry' -ref donald1845-baptism
-        partner {
-            name Mary A Hill
-        }
-    }
+    child galbraith-donald-1845-hill
     child {
         name Margaret Galbraith
         partner {
@@ -76,8 +73,5 @@ footnotes {
     }
     mary1841-baptism {
         $opr-ref[b-1841-516-000-0020-0352 "Mary Galbraith"]
-    }
-    donald1845-baptism {
-        $opr-ref-link[b-1845-516-000-0020-0359 "Donald Galbraith"]
     }
 }

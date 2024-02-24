@@ -33,6 +33,8 @@ partner {
     }
     child {
         name Duncan Galbraith
+        birth -date 02-mar-1843 -location scotland
+        
     }
 }
 

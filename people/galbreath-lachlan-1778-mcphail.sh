@@ -14,7 +14,7 @@ note {
 tags 'Kilcalmonell and Kilberry'
 body {
 
-1841 Census, Baluar, Kilcalmonell, Argyllshire, Scotland:$ref[census1841]:
+1841 Census, Baluar, Kilcalmonell, Argyllshire, Scotland:$ref[census1841]
 $csvtable{
 First,Last,Age,Year
 Lachlan,Galbreith,60,1781
