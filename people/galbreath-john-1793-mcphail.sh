@@ -138,6 +138,9 @@ footnotes {
     catharine1836-baptism {
         $opr-ref[b-1836-516-000-0020-0342 "Catharine Galbraith"]
     }
+    catharine1836-death {
+        $sp-ref[d-1896-533-02-0003 "Catherine Galbraith"]
+    }
     betty1839-baptism {
         $opr-ref[b-1839-516-000-0020-0349 "Betty Galbraith"]
     }

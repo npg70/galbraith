@@ -16,6 +16,7 @@ partner {
     child {
         name Mary Galbreath
         baptism -date 28-dec-1820 -location 'Kilcalmonell and Kilberry' -ref mary1820-birth
+        death -date 21-aug-1898 -location 'south knapdale' -ref mary1820-death -note unmarried
     }
 
     child {
@@ -44,6 +45,9 @@ footnotes  {
 
     mary1820-birth {
         $opr-ref[b-1820-516-000-0020-0014 "Mary Galbreath"]
+    }
+    mary1820-death {
+        $sp-ref-link[d-1898-533-01-0002 0001 "Mary Galbraith"]
     }
     angus1826-birth {
         $opr-ref[b-1826-516-000-0020-0305 "Angus Galbraith"]

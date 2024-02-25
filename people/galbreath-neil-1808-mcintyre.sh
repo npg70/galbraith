@@ -30,7 +30,7 @@ partner {
     child {
         name Donald Galbraith
         baptism -date 20-sep-1849 -location 'south knapdale' -ref donald1849-baptism
-        death -date 1861 -location 'south knapdale' -ref donald1861-death
+        death -date 14-mar-1861 -location 'south knapdale' -ref donald1861-death
     }
 }
 footnotes {
@@ -54,6 +54,6 @@ footnotes {
         $opr-ref[b-1849-533-000-0020-0160 "Donald Galbraith"]
     }
     donald1861-death {
-        $sp-ref[d-1861-533-00-0003 "Donald Galbraith"]
+        $sp-ref-link[d-1861-533-00-0003 0001 "Donald Galbraith"]
     }
 }

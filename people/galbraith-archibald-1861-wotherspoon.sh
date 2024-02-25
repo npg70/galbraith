@@ -3,12 +3,16 @@ tags 'kilcalmonell and kilberry'
 external {
     familysearch LV7Y-5RK
 }
+todo {
+    Helen's mother was Eugina Galbraith
+}
 
 birth -date 27-may-1861 -location kilberry -ref archibald1861-birth
 death -date 29-jan-1940 -location kilberry -ref archibald1861-death
 partner {
     name Helen Wotherspoon
-    birth -date 8-aug-1875 -location gigha
+    birth -date 8-aug-1875 -location gigha -note 'daughter of James Wotherspoon and Eugenia Galbraith'
+
     death -date 2-jun-1951 -location kilberry -ref wotherspoon-death
     marriage -date 26-aug-1897 -location 'kilcalmonell and kilberry' -ref wotherspoon-marriage
     child {
@@ -90,7 +94,7 @@ footnotes {
         $sp-ref[m-1897-533-02-0005 "Archibald Galbraith" "Helen Wotherspoon"]
     }
     wotherspoon-death {
-        $sp-ref[d-1951-533-02-0003 "Helen Galbraith"]
+        $sp-ref-link[d-1951-533-02-0003 0001 "Helen Galbraith"]
     }
     james1895-birth {
         $sp-ref[b-1895-533-02-0005 "James Galbraith"]
@@ -133,6 +137,9 @@ footnotes {
     }
     martha1915-birth {
         $sp-ref[b-1915-533-02-0004 "Martha Wotherspoon Galbraith"]
+    }
+    martha1915-death {
+        $sp-ref-link[d-1915-533-02-0002 0001 "Martha Wotherspoon Galbraith"]
     }
     catherine1916-birth {
         $sp-ref[b-1916-533-02-0004 "Catherine Galbraith"]

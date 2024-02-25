@@ -10,8 +10,9 @@ external {
 }
 partner {
     name Agnes Morrison
+    birth -date 'about 1841' -note 'daughter of John Morrison and Isabella McDiamed'
     marriage -date 3-apr-1867 -location glasgow -ref marriage
-
+    death -date 31-jul-1912 -location 'south knapdale' -ref morrison-death
     child {
         name Donald Galbraith
         birth -date 22-aug-1868 -location lochgilphead -ref donald1868-birth
@@ -38,19 +39,14 @@ partner {
     child {
         name Isabella Galbraith
         birth -date 1875 -location 'south knapdale' -ref isabella1875-birth
+        death -date 1904 -location 'south knapdale' -ref isabella1875-death
     }
     child {
         name Mary Galbraith
         birth -date 1877 -location 'south knapdale' -ref mary1877-birth
     }
-    child {
-        name Archibald Galbraith
-        birth -date 5-may-1879 -location 'south knapdale' -ref archibald1879-birth
-        death -date 9-aug-1921  -location 'biggar, lanark' -ref archibald1879-death
-        partner {
-            name Jean Anderson
-        }
-    }
+    child galbraith-archibald-1879-anderson
+
     child {
         name Agnes Galbraith
         birth -date 1881 -location 'south knapdale' -ref agnes1881-birth
@@ -66,6 +62,9 @@ footnotes {
     }
     marriage {
         $sp-ref[m-1867-644-09-0138 0069 "Archibald Galbraith" "Agnes Morrison"]
+    }
+    morrison-death {
+        $sp-ref-link[d-1912-533-01-0005 0002 "Agnes Galbraith"]
     }
     donald1868-birth {
         $sp-ref-link[b-1868-526-00-0086 0029 "Donald Galbraith"]
@@ -85,14 +84,11 @@ footnotes {
     isabella1875-birth {
         $sp-ref[b-1875-533-00-0003 "Isabella Galbraith"]
     }
+    isabella1875-death {
+        $sp-ref[d-1904-533-01-0006 "Bella Galbraith"]
+    }
     mary1877-birth {
         $sp-ref[b-1877-533-00-0004 "Mary Galbraith"]
-    }
-    archibald1879-birth {
-        $sp-ref-link[b-1879-533-00-0005 0002 "Archibald Galbraith"]
-    }
-    archibald1879-death {
-        $sp-ref-link[d-1921-623-00-0025 0009 "Archibald Galbraith"]
     }
     agnes1881-birth {
         $sp-ref[b-1881-533-00-0004 "Agnes Galbraith"]

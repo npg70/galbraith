@@ -37,7 +37,7 @@ footnotes {
         $opr-ref[b-1853-516-000-0020-0368 "James Galbraith"]
     }
     james1853-death {
-        $sp-ref[d-1915-533-02-0001 "James Galbraith"]
+        $sp-ref-link[d-1915-533-02-0001 0001 "James Galbraith"]
     }
     wotherspoon-marriage {
         $sp-ref[m-1888-537-00-0002 "James Galbraith" "Mary Wotherspoon"]
