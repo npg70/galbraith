@@ -1,4 +1,5 @@
 name Thomas Wylie Galbraith
+tags campbeltown Edinburgh
 birth -date 3-feb-1878 -location campbeltown -ref thomas1878-birth
 death -date 13-july-1950 -location Edinburgh -ref thomas1878-death
 external {

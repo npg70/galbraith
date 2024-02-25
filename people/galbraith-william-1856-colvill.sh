@@ -1,4 +1,5 @@
 name William Galbraith
+tags campbeltown
 external {
     familysearch MTTZ-JCG
 }

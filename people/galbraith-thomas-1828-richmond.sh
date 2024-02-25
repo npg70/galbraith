@@ -1,4 +1,5 @@
 name Thomas Galbraith
+tags campbeltown Dalrymple
 external {
     familysearch KHQ4-ZJW
 }
