@@ -1,4 +1,5 @@
 name Lachlan Galbreath
+tags 'Kilcalmonell and Kilberry'
 birth -date 'about 1778'
 death -date sep-1850
 burial -name Largnahension Graveyard -location lochgilphead -ref burial
