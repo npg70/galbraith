@@ -531,7 +531,7 @@ func WriteChildBioLinked(w io.StringWriter, parent *Person, child *Person, ignor
 		if oldref != "" {
 			// if we have reference copy it into the parent
 			if parent.Footnotes == nil {
-					parent.Footnotes = make(Footnotes)
+				parent.Footnotes = make(Footnotes)
 			}
 			parent.Footnotes[bp.Ref] = child.Footnotes[oldref]
 			bp.Ref = oldref

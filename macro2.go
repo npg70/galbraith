@@ -47,7 +47,7 @@ func (z *Tokenizer) stateText() {
 			}
 			if z.current == nil {
 				panic("current is nil: adding " + text.Data)
-				}
+			}
 			z.current.AppendChild(text)
 			z.maybeText = nil
 			return
@@ -65,7 +65,7 @@ func (z *Tokenizer) stateText() {
 				z.current.AppendChild(text)
 				z.maybeText = nil
 			}
-			if z.current.Parent != nil{
+			if z.current.Parent != nil {
 				z.current = z.current.Parent
 			}
 		default:
