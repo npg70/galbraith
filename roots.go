@@ -116,7 +116,7 @@ $table{
 	// now figure out plaace name tags
 	tags := []string{}
 	special := "|all|daughtered out|dead end|illegitimate|immigrant|leaf|no children|root|todo|veteran|"
-	for tname, _ := range tmap {
+	for tname := range tmap {
 		tname = strings.ToLower(tname)
 		if strings.Contains(special, tname) {
 			continue

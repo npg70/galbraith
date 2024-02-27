@@ -112,7 +112,7 @@ func main() {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
 
-	page = indexRoots(db, roots, "Roots")
+	//page = indexRoots(db, roots, "Roots")
 	tmap := tagmap(db)
 
 	// make tag index

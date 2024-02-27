@@ -2,6 +2,9 @@ package main
 
 import (
 	"strings"
+
+	"golang.org/x/text/cases"
+	"golang.org/x/text/language"
 )
 
 func TitleCompound(s string) string {
@@ -45,10 +48,8 @@ func TitlePhrase(s string) string {
 }
 
 func Title(s string) string {
-	// strings.Title is deprecated and
-	// text.cases.Title is a bit complicated
-	// so abstract the function here
-	return strings.Title(s)
+	caser := cases.Title(language.English)
+	return caser.String(s)
 }
 
 func ChildPlural(num int) string {

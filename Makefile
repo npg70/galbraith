@@ -29,3 +29,9 @@ clean:
 roots:
 	go run . -root
 
+lint:
+	golangci-lint run .
+env:
+	brew upgrade
+	brew install golangci-lint
+	go install golang.org/x/tools/cmd/goimports@latest

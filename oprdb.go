@@ -422,13 +422,13 @@ func LoadOPRBaptisms() (OPRBaptismDB, error) {
 		}
 		uuid := args[0]
 		record := OPRBaptism{
-			Surname:       strings.Title(strings.ToLower(args[1])),
-			Forename:      strings.Title(strings.ToLower(args[2])),
+			Surname:       Title(strings.ToLower(args[1])),
+			Forename:      Title(strings.ToLower(args[2])),
 			Gender:        args[4],
 			Baptism:       args[5],
 			Parish:        args[6],
 			Ref:           args[7],
-			ParishName:    strings.Title(strings.ToLower(args[8])),
+			ParishName:    Title(strings.ToLower(args[8])),
 			Father:        args[9],
 			Mother:        args[10],
 			Transcription: args[11],

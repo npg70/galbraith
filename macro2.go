@@ -17,8 +17,10 @@ func (z *Tokenizer) readByte() (byte, error) {
 	return z.r.ReadByte()
 }
 func (z *Tokenizer) unreadByte() {
-	z.r.UnreadByte()
-	return
+	if err := z.r.UnreadByte(); err != nil {
+		// should never happen
+		panic("asset failed: unread byte failed")
+	}
 }
 
 func (z *Tokenizer) Parse(r io.ByteScanner) *html.Node {
@@ -404,5 +406,4 @@ func (z *Tokenizer) stateAfterAttributes(n *html.Node) {
 		return
 	}
 	z.unreadByte()
-	return
 }
