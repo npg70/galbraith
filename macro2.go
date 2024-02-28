@@ -259,7 +259,7 @@ func (z *Tokenizer) stateAttributeName(n *html.Node) {
 			z.unreadByte()
 			return
 		case '=':
-			z.stateAttributeValue(n, string(key))
+			z.stateBeforeAttributeValue(n, string(key))
 			return
 		default:
 			key = append(key, c)
@@ -269,6 +269,8 @@ func (z *Tokenizer) stateAttributeName(n *html.Node) {
 
 // stateBeforeAttributeValue
 // https://html.spec.whatwg.org/#before-attribute-value-state
+//
+//	key=value or key= value key="value"  key='value'
 func (z *Tokenizer) stateBeforeAttributeValue(n *html.Node, key string) {
 	for {
 		c, err := z.readByte()
@@ -287,9 +289,10 @@ func (z *Tokenizer) stateBeforeAttributeValue(n *html.Node, key string) {
 			z.stateAttributeValueQuote2(n, key)
 			return
 		case ']':
-
+			// key=]
 			// TBD
 		default:
+			z.unreadByte()
 			z.stateAttributeValue(n, key)
 			return
 		}
