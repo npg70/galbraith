@@ -385,9 +385,16 @@ func (z *Tokenizer) stateAttributeValue(n *html.Node, key string) {
 			z.unreadByte()
 			return
 		case '\'':
+			// note quite right
+			// this is the case of
+			//  key=foo'bar'
 			z.stateAttributeValueQuote1(n, key)
 			return
 		case '"':
+			// not quite right
+			// this is the case of
+			//   key=foo"bar"
+			//
 			z.stateAttributeValueQuote2(n, key)
 			return
 		default:
