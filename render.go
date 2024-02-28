@@ -7,6 +7,12 @@ import (
 	"golang.org/x/net/html"
 )
 
+// takes a HTML-node tree and renders it using user functions.
+// some node might be "pass through" (i.e. just render back to HTML).
+//
+// could be cleaned up but this is mostly simple and mostly happy with it.
+//
+
 type TagFunc func([]string, string) string
 
 func makeTag(tag string) TagFunc {
