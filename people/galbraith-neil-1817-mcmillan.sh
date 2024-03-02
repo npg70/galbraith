@@ -25,10 +25,7 @@ partner {
         birth -date 17-may-1861 -location saddell -ref unnamed1861-birth
         death -date 1861 -location saddell -ref unnamed1861-death
     }
-    child {
-        name Donald Galbreath
-        birth  -date 28-may-1862 -location saddell -ref donald1862-birth
-    }
+    child galbreath-donald-1862-mclarty
     child {
         name Mary Sinclair Galbreath
         birth -date 13-apr-1864 -location saddell -ref mary1864-birth
@@ -84,9 +81,6 @@ footnotes {
     }
     unnamed1861-death {
         $sp-ref[d-1861-531-01-0003 "_____ Galbreath"]
-    }
-    donald1862-birth {
-        $sp-ref[b-1862-531-01-0014 "Donald Galbreath"]
     }
     mary1864-birth {
         $sp-ref[b-1864-531-01-0010 "Mary Galbreath"]

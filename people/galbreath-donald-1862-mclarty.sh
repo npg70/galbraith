@@ -55,6 +55,10 @@ partner {
     }
 }
 footnotes {
+
+    donald1862-birth {
+        $sp-ref[b-1862-531-01-0014 "Donald Galbreath"]
+    }
     mclarty-marriage {
         $sp-ref-link[m-1886-507-00-0022 0011 "Donald Galbraith" "Catherine McLarty"]
     }
