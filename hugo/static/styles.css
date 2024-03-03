@@ -27,6 +27,8 @@
 }
 
 :root {
+    --bs-body-font-size: 120%;
+
     /* make text black
      * was #212529, rgb(33, 37, 41)
      */
