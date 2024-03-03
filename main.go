@@ -142,13 +142,8 @@ func main() {
 			log.Fatalf("Unable to make directory %s", err)
 		}
 		fullpath = filepath.Join(fullpath, "index.html")
-		if err := os.WriteFile(fullpath, []byte(tout), 0666); err != nil {
-			log.Fatalf("couldn't write %q: %s", fullpath, err)
-		}
-		// index roots
 		log.Printf("Writing %q", fullpath)
-		err = os.WriteFile(fullpath, []byte(tout), 0666)
-		if err != nil {
+		if err := os.WriteFile(fullpath, []byte(tout), 0666); err != nil {
 			log.Fatalf("couldn't write %q: %s", fullpath, err)
 		}
 	}
@@ -156,60 +151,18 @@ func main() {
 	for _, rootid := range roots {
 		kidsq := []string{rootid}
 		db.LoadAll(rootid)
-		suffix := ".html"
-		singlePage := false
-
-		doc := ""
-
-		if singlePage {
-			for len(kidsq) > 0 {
-				uid := kidsq[0]
-				kidsq = kidsq[1:]
-				intermediate, nextg := db.generateOne(uid)
-				kidsq = append(kidsq, nextg...)
-				if len(kidsq) == 0 {
-					break
-				}
-				doc += intermediate
-			}
-
-			p := Tokenizer{}
-			root := p.Parse(strings.NewReader(doc))
-
-			if err := footnoter(root); err != nil {
-				log.Fatalf("Footnoter failed: %s", err)
-			}
-
-			if err := paragrapher(root); err != nil {
-				log.Fatalf("Paragrapher failed: %s", err)
-			}
-			out := emitHTMLHugo(root, singlePage)
-			if outdir != "" {
-				fullpath := filepath.Join(outdir, "test"+suffix)
-				log.Printf("Writing %q", fullpath)
-				err := os.WriteFile(fullpath, []byte(out), 0666)
-				if err != nil {
-					log.Fatalf("couldn't write %q: %s", fullpath, err)
-				}
-			}
-			return
-		}
-
 		// one person, one page
 		for len(kidsq) > 0 {
 			uid := kidsq[0]
 			kidsq = kidsq[1:]
 			doc, nextg := db.generateOne(uid)
 			kidsq = append(kidsq, nextg...)
-
-			//		fmt.Println(doc)
 			log.Printf("Processing %s", uid)
 			p := Tokenizer{}
 			root := p.Parse(strings.NewReader(doc))
 			if err := footnoter(root); err != nil {
 				log.Fatalf("Footnoter failed: %s", err)
 			}
-
 			if err := paragrapher(root); err != nil {
 				log.Fatalf("Paragrapher failed: %s", err)
 			}
@@ -217,8 +170,6 @@ func main() {
 			if err != nil {
 				log.Fatalf("Template failed: %s", err)
 			}
-
-			//-----------
 			fullpath := filepath.Join(outdir, uid)
 			if err := os.MkdirAll(fullpath, 0750); err != nil {
 				log.Fatalf("Unable to make directory %s", err)
@@ -227,19 +178,6 @@ func main() {
 			if err := os.WriteFile(fullpath, []byte(tout), 0666); err != nil {
 				log.Fatalf("couldn't write %q: %s", fullpath, err)
 			}
-			// -----------
-			/*
-				out := emitHTMLHugo(root, singlePage)
-				if outdir == "" {
-					fmt.Println(out)
-					continue
-				}
-
-				fullpath = filepath.Join(outdir, uid+suffix)
-				if err := os.WriteFile(fullpath, []byte(out), 0666); err != nil {
-					log.Fatalf("couldn't write %q: %s", fullpath, err)
-				}
-			*/
 		}
 	}
 }
