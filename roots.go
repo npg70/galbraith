@@ -57,6 +57,25 @@ func computeRoots(db Root) []string {
 
 	return out
 }
+
+// content for index page
+func indexIndex() string {
+	out := strings.Builder{}
+	out.WriteString(`
+<ul>
+<li><a href="/galbraith/indexes/opr-birth-index/">OPR Birth Index</a></li>
+<li><a href="/galbraith/indexes/opr-death-index/">OPR Death Index</a></li>
+<li><a href="/galbraith/indexes/opr-marriage-index/">OPR Marriage Index</a></li>
+</ul>
+<ul>
+<li><a href="/galbraith/indexes/statutory-birth-index/">Statutory Birth Index</a></li>
+<li><a href="/galbraith/indexes/statutory-death-index/">Statutory Death Index</a></li>
+<li><a href="/galbraith/indexes/statutory-marriage-index/">Statutory Marriage Index</a></li>
+</ul>
+	`)
+	return out.String()
+}
+
 func tagIndex(tmap map[string][]string) string {
 	out := strings.Builder{}
 	out.WriteString(`

@@ -2,16 +2,14 @@
 combined: build serve
 
 hugo/content/people:
-	mkdir -p ./hugo/content/tags
 	mkdir -p ./hugo/content/people
 	mkdir -p ./hugo/content/indexes
 	mkdir -p ./hugo/content/lineages
 	mkdir -p ./hugo/content/sources
-	mkdir -p ./hugo/layouts/tags
 
 
 build: hugo/content/people
-	go run . -out hugo/content/people
+	go run . -out hugo/static
 
 test:
 	go test .
@@ -20,11 +18,10 @@ serve:
 clean:
 	rm -f .git/index.lock
 	rm -rf hugo/public/*
-	rm -rf hugo/content/people
-	rm -rf hugo/content/indexes
-	rm -rf hugo/content/lineages
-	rm -rf hugo/content/tags
-	rm -rf hugo/content/sources
+	rm -rf hugo/static/people hugo/content/people
+	rm -rf hugo/static/indexes hugo/content/indexes
+	rm -rf hugo/static/tags hugo/content/tags
+	rm -rf hugo/static/sources hugo/content/sources
 
 roots:
 	go run . -root

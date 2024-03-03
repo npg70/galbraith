@@ -11,6 +11,36 @@ import (
 func init() {
 	// flag stuff
 }
+
+func writeIndexPage() {
+	/* set up base template */
+	baset, err := os.ReadFile("baseof.html")
+	if err != nil {
+		log.Fatalf("can't find template: %s", err)
+	}
+	base, err := CreatePageTemplate(string(baset), RenderFunc(renderFuncs()))
+	if err != nil {
+		log.Fatalf("Unable to create template: %s", err)
+	}
+
+	p := Tokenizer{}
+	root := p.Parse(strings.NewReader(indexIndex()))
+	tout, err := RenderPage(base, root)
+	if err != nil {
+		log.Fatalf("Template failed: %s", err)
+	}
+	fullpath := "hugo/static/indexes"
+	if err := os.MkdirAll(fullpath, 0750); err != nil {
+		log.Fatalf("Unable to make directory %s", err)
+	}
+	fullpath = filepath.Join(fullpath, "index.html")
+	log.Printf("Writing %q", fullpath)
+	err = os.WriteFile(fullpath, []byte(tout), 0666)
+	if err != nil {
+		log.Fatalf("couldn't write %q: %s", fullpath, err)
+	}
+}
+
 func main() {
 	outdir := ""
 	rootsOnly := false
@@ -56,6 +86,8 @@ func main() {
 			log.Fatalf("couldn't write %q: %s", outpath, err)
 		}
 	}
+
+	writeIndexPage()
 
 	//
 	// Write OPR Birth Index
@@ -112,7 +144,6 @@ func main() {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
 
-	//page = indexRoots(db, roots, "Roots")
 	tmap := tagmap(db)
 
 	// make tag index
@@ -122,7 +153,11 @@ func main() {
 	if err != nil {
 		log.Fatalf("Template failed: %s", err)
 	}
-	fullpath = "hugo/layouts/tags/list.html"
+	fullpath = "hugo/static/tags"
+	if err := os.MkdirAll(fullpath, 0750); err != nil {
+		log.Fatalf("Unable to make directory %s", err)
+	}
+	fullpath = filepath.Join(fullpath, "index.html")
 	log.Printf("Writing %q", fullpath)
 	err = os.WriteFile(fullpath, []byte(tout), 0666)
 	if err != nil {
@@ -137,7 +172,7 @@ func main() {
 			log.Fatalf("Template failed: %s", err)
 		}
 		tag = strings.ReplaceAll(strings.ToLower(tag), " ", "-")
-		fullpath = filepath.Join("hugo/content", "tags", tag)
+		fullpath = filepath.Join("hugo/static", "tags", tag)
 		if err := os.MkdirAll(fullpath, 0750); err != nil {
 			log.Fatalf("Unable to make directory %s", err)
 		}
@@ -170,7 +205,7 @@ func main() {
 			if err != nil {
 				log.Fatalf("Template failed: %s", err)
 			}
-			fullpath := filepath.Join(outdir, uid)
+			fullpath := filepath.Join(outdir, "people", uid)
 			if err := os.MkdirAll(fullpath, 0750); err != nil {
 				log.Fatalf("Unable to make directory %s", err)
 			}
