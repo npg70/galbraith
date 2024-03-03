@@ -1,7 +1,7 @@
 name Donald Galbraith
 birth -date 1784 -location ireland -note 'son of Edward Galbraith'
 death -date 20-jun-1859 -location gigha -ref donald1784-death
-tags ireland gigha greenock
+tags ireland Argyll:gigha Renfrew:greenock
 external {
     familysearch GHYS-8TB
     findagrave 149745010

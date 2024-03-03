@@ -1,6 +1,6 @@
 name John Galbreath
 birth -date 04-jul-1773 -location Scotland
-tags Gigha
+tags Argyll:Gigha
 external {
     familysearch LRD8-6SV
 }

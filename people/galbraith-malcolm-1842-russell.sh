@@ -1,5 +1,5 @@
 name Malcolm Galbraith
-tags Colonsay
+tags Argyll:Colonsay
 birth -date 'about 1842'
 death -date 29-dec-1920 -location jura -ref malcolm1842-death
 partner {

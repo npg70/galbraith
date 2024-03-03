@@ -1,5 +1,5 @@
 name Catherine Galbreath
-tags gigha
+tags argyll:gigha
 baptism -date 5-jul-1835 -location gigha -ref catherine-baptism
 
 partner {

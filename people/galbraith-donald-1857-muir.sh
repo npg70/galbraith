@@ -1,10 +1,8 @@
 name Donald Galbraith
-tags gigha campbeltown
+tags Argyll:gigha Argyll:campbeltown
 external {
     familysearch GZ57-LSM
 }
-tags gigha campbeltown
-
 birth -date 23-sep-1857 -location gigha -ref donald1857-birth
 death -date 12-aug-1937 -location campbeltown -ref donald1857-death
 

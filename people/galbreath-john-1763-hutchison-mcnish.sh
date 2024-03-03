@@ -6,7 +6,7 @@ external {
     familysearch K8SX-C15
     findagrave 219614931
 }
-tags Dalrymple
+tags Ayr:Dalrymple
 
 partner {
     name Jean Hutchison

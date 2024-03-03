@@ -1,5 +1,5 @@
 name Adam Galbreath
-tags gigha
+tags argyll:gigha
 external {
     familysearch KZLH-6VP
 }

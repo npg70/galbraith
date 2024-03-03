@@ -1,5 +1,5 @@
 name Archibald Galbreath
-tags Gigha
+tags Argyll:Gigha
 birth -date 29-may-1854 -location gigha -ref archibald1854-birth
 death -date 02-dec-1918 -location glasgow -ref archibald1854-death
 external {

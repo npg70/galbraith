@@ -4,7 +4,7 @@ death -date 10-dec-1856 -location gigha -ref donald1782-death
 external {
     findagrave 115118817
 }
-tags gigha 'daughtered out'
+tags argyll:gigha 'daughtered out'
 
 body {
 1827 Census of Gigha, Tarbert:$ref[census1827]

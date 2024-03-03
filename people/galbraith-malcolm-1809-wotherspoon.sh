@@ -1,5 +1,5 @@
 name Malcolm Galbreath
-tags gigha 'Kilcalmonell and Kilberry'
+tags Argyll:gigha 'Argyll:Kilcalmonell and Kilberry'
 external {
     familysearch M1YV-RYD
 }

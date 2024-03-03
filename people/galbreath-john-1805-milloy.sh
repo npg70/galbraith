@@ -1,5 +1,5 @@
 name John Galbreath
-tags Gigha
+tags Argyll:Gigha
 external {
     familysearch K4KY-CLH
 }

@@ -1,5 +1,5 @@
 name John Galbreath
-tags gigha 'dead end'
+tags Argyll:gigha 'dead end'
 external {
     familysearch 9M9J-BDD
 }

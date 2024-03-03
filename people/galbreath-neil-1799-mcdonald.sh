@@ -1,5 +1,5 @@
 name Neil Galbreath
-tags gigha
+tags Argyll:gigha
 
 baptism -date 25-sep-1799 -location gigha -ref neil1799-baptism
 death -date 24-jun-1858 -location gigha -ref neil1799-death

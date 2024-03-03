@@ -4,7 +4,7 @@ external {
 }
 birth -date 'about 1793'
 death -date 20-apr-1885 -location Lochgilphead -ref duncan1793-death
-tags Lochgilphead
+tags Argyll:Lochgilphead
 partner {
     name Christina McGilp
     marriage -date 2-jun-1823 -location 'north knapdale' -ref mcgilp-marriage

@@ -1,6 +1,6 @@
 name Donald Galbreath
 birth -date 'about 1785'
-tags gigha
+tags argyll:gigha
 external {
     familysearch KD3X-J7F
 }

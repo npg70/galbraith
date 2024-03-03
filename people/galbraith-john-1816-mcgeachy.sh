@@ -1,5 +1,5 @@
 name John Galbraith
-tags gigha
+tags argyll:gigha
 baptism -date 24-aug-1816 -location gigha -ref john1816-baptism
 death -date 9-mar-1882 -location campbeltown -ref john1816-death
 

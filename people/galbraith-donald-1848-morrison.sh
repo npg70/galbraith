@@ -1,5 +1,5 @@
 name Donald Galbraith
-tags Gigha
+tags Argyll:Gigha
 external {
     familysearch 9M93-9S4
 }

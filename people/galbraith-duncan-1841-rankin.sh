@@ -1,5 +1,5 @@
 name Duncan Galbraith
-tags Greenock
+tags Renfrew:Greenock
 external {
     familysearch KZP7-YK7
 }

@@ -1,5 +1,5 @@
 name Malcolm Galbreath
-tags kildalton islay gigha
+tags kildalton islay Argyll:Gigha
 external {
     familysearch MG8J-JDV
 }

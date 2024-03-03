@@ -3,7 +3,7 @@ birth -date 'say 1770'
 external {
     familysearch M1BH-MWD
 }
-tags Gigha
+tags Argyll:Gigha
 note {
     Gigha records didn't start until 1795, so birth and marriage records
     unlikely to be found in OPR

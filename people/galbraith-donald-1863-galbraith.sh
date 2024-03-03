@@ -2,7 +2,7 @@ name Donald Galbraith
 external {  
     familysearch MMMH-159
 }
-tags Greenock
+tags Renfrew:Greenock
 birth -date 11-may-1863 -location greenock -ref donald1863-birth
 death -date 27-jun-1932 -location glasgow -ref donald1863-death
 partner {

@@ -5,7 +5,7 @@ external {
     familysearch KZV1-MYS
     findagrave 219634762
 }
-tags Dalrymple
+tags Ayr:Dalrymple
 partner {
     name Margaret Kidston Nicol
     marriage -date 24-oct-1836 -location glasgow

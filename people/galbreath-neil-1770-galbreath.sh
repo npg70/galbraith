@@ -1,6 +1,6 @@
 name Neil Galbreath
 birth -date 'say 1770'
-tags gigha 'dead end'
+tags argyll:gigha 'dead end'
 external {
     familysearch K4K3-DMF
 }

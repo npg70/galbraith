@@ -1,5 +1,5 @@
 name Alexander Galbraith
-tags lochgilphead
+tags argyll:lochgilphead
 
 external {
     familysearch GNX5-4RQ

@@ -1,5 +1,5 @@
 name Murdoch Galbreath
-tags gigha 'kilcalmonell and kilberry' 'daughtered out'
+tags argyll:gigha 'argyll:kilcalmonell and kilberry' 'daughtered out'
 external {
     familysearch M1Y2-X44
 }

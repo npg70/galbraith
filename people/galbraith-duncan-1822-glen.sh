@@ -1,5 +1,5 @@
 name Duncan Galbreath
-tags 'Kilcalmonell and Kilberry' greenock
+tags 'argyll:Kilcalmonell and Kilberry' renfrew:greenock
 external {
     familysearch M1YL-6Q4
 }

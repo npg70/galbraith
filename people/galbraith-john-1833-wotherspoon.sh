@@ -1,5 +1,5 @@
 name John Galbraith
-tags gigha
+tags argyll:gigha
 external {
     familysearch M1B4-F7Z
 }

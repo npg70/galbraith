@@ -1,5 +1,5 @@
 name John Galbreath
-tags Gigha
+tags Argyll:Gigha
 birth -date 'say 1770'
 external {
     familysearch M1B4-HNT

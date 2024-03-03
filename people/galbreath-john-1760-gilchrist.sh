@@ -1,5 +1,5 @@
 name John Galbreath
-tags gigha 'daughtered out'
+tags argyll:gigha 'daughtered out'
 birth -date 'about 1760'
 external {
     familysearch KZZS-S74

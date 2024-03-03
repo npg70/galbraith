@@ -1,5 +1,5 @@
 name Donald Galbreath
-tags gigha
+tags argyll:gigha
 
 external {
     familysearch M1B4-5WZ

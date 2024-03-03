@@ -1,5 +1,5 @@
 name Duncan Galbraith
-tags Greenock Veteran
+tags Renfrew:Greenock Veteran
 external {
     familysearch MMM7-M46
 }

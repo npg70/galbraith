@@ -1,5 +1,5 @@
 name Thomas Galbraith
-tags campbeltown Dalrymple
+tags Argyll:campbeltown Ayr:Dalrymple
 external {
     familysearch KHQ4-ZJW
 }

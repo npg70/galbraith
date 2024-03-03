@@ -1,5 +1,5 @@
 name James Galbreath
-tags Gigha 'Daughtered Out'
+tags Argyll:Gigha 'Daughtered Out'
 external {
     familysearch GHZZ-2N3
 }

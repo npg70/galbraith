@@ -1,5 +1,5 @@
 name John Galbreath
-tags Gigha Campbeltown
+tags Argyll:Gigha Argyll:Campbeltown
 baptism -date 21-feb-1833 -location gigha -ref john1833-baptism
 death -date 15-aug-1861 -location campbeltown -ref john1833-death
 

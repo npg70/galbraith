@@ -1,6 +1,6 @@
 name Duncan Galbreath
 birth -date 'say 1760'
-
+tags Argyll:Gigha
 todo {
     Neil's death listed a brother Archibald
 }

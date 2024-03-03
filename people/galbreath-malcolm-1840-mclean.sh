@@ -1,5 +1,5 @@
 name Malcolm Galbreath
-tags 'Gigha' campbeltown
+tags Argyll:Gigha Argyll:Campbeltown
 external {
     familysearch L43J-F7N
 }

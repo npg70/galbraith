@@ -2,7 +2,7 @@ name Archibald Galbreath
 birth -date 'about 1782' -note 'son of Duncan Galbreath and Catherine Smith'
 
 death -date 21-jul-1865 -location gigha -ref archibald1782-death
-tags gigha 'daughtered out'
+tags argyll:gigha 'daughtered out'
 external {
     familysearch K4TZ-W1N
 }

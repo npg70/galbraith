@@ -1,5 +1,5 @@
 name Malcolm Galbreath
-tags gigha 'daughtered out'
+tags Argyll:Gigha 'daughtered out'
 baptism -date 25-mar-1815 -location gigha -ref malcolm1815-baptism
 death -date 25-jun-1887 -location edinburgh -ref malcolm1815-death
 external {

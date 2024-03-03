@@ -1,5 +1,5 @@
 name Peter Galbreath
-tags gigha
+tags argyll:gigha
 todo {
     It appears this family took in other Galbreaths.
 }

@@ -4,7 +4,7 @@ death -date 2-oct-1887 -location gigha -ref neil1805-death
 body {
     the son of adam g- and flora g- 
 }
-tags Gigha
+tags Argyll:Gigha
 partner {
     name Mary Galbreath
     birth -date 'about 1812'

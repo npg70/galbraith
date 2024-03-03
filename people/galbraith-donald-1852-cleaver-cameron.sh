@@ -2,7 +2,7 @@ name Donald Galbraith
 external {
     familysearch M1RM-HQT
 }
-tags Colonsay Glassary
+tags Argyll:Colonsay Argyll:Glassary
 baptism -date 4-oct-1852 -location Glassary,Argyll -ref donald1852-baptism
 body {
     Donald appears to have been in the royal service and got sent to Jura to work the lighthouse.

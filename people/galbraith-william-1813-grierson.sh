@@ -1,5 +1,5 @@
 name William Galbraith
-tags Dalrymple
+tags Ayr:Dalrymple
 baptism -date 4-apr-1813 -location Dalrymple -ref william1813-baptism
 death -date 19-dec-1881 
 external {

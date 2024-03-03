@@ -1,5 +1,5 @@
 name Alexander Galbreath
-tags gigha
+tags argyll:gigha
 todo { needs marriage, check descendants }
 birth -date 'about 1780'
 external {

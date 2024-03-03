@@ -3,8 +3,11 @@ birth -date 'about 1781'
 external {
 
 }
+todo {
+    Family Search is a mess. May or may not have immigrated to Ontario, Canada like his son.
+}
 
-tags Colonsay Immigrant
+tags Argyll::Colonsay Immigrant:Canada:Ontario
 
 partner {
     name Mary McNeil

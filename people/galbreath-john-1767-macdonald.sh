@@ -1,6 +1,6 @@
 name John Galbreath
 birth -date 'about 1767'
-tags gigha 'dead end'
+tags argyll:gigha 'dead end'
 todo {
     No records after 1827. 
 }

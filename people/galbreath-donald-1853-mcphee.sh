@@ -1,5 +1,5 @@
 name Donald Galbreath
-tags Colonsay
+tags Argyll:Colonsay
 baptism -date 5-may-1853 -location colonsay -ref donald1853-baptism
 death -date 23-feb-1907 -location colonsay -ref donald1853-death
 todo {

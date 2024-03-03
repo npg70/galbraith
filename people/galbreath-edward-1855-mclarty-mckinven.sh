@@ -1,5 +1,5 @@
 name Edward Galbreath
-tags gigha campbeltown
+tags argyll:gigha argyll:campbeltown
 external {
     familysearch M1B4-7LV
     findagrave 241931140

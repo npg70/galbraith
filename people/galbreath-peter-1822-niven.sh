@@ -4,7 +4,7 @@ death -date 9-mar-1878 -location greenock -ref peter1822-death
 external {
     familysearch 9M1K-6LW
 }
-tags Gigha Bute Greenock
+tags Argyll:Gigha Bute Renfrew:Greenock
 partner {
     name Christina Niven
     marriage -date 22-nov-1847 -ref niven-marriage

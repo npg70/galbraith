@@ -2,7 +2,7 @@ name Neil Galbraith
 external {
     familysearch MMMD-3SM
 }
-tags Greenock
+tags Renfrew:Greenock
 birth -date 27-sep-1868 -location greenock -ref neil1868-birth
 death -date 22-aug-1931 -location greenock -ref neil1868-death
 todo {

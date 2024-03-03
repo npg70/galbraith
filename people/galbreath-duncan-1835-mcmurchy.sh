@@ -1,5 +1,5 @@
 name Duncan Galbraith
-tags gigha campbeltown
+tags argyll:gigha argyll:campbeltown
 birth -date 21-mar-1835 -location gigha -ref duncan1835-birth
 note {
     First child, Grace, was born before marriage.

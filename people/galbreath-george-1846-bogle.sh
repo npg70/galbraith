@@ -1,7 +1,7 @@
 name George Galbreath
 birth -date 15-mar-1846
 baptism -date 25-may-1846 -location greenock -ref george1846-baptism
-tags 'deadend'
+tags 'dead end' renfrew:greenock
 
 note {
     Family vanishes after 1891 census.  https://www.findmypast.com/transcript?id=GBC/1881/0028355565&expand=true

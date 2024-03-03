@@ -1,5 +1,5 @@
 name Duncan Galbreath
-tags lochgilphead
+tags argyll:lochgilphead
 baptism -date 7-sep-1832 -location 'north knapdale' -ref duncan1832-baptism
 note {
     Two sets of twins.

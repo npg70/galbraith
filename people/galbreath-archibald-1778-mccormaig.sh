@@ -1,5 +1,5 @@
 name Archibald Galbreath
-tags gigha
+tags argyll:gigha
 birth -date 'say 1778'
 external {
     familysearch KH6P-2NV

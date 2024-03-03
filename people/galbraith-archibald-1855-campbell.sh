@@ -1,5 +1,5 @@
 name Archibald Galbraith
-tags greenock
+tags renfrew:greenock
 external {
     familysearch GWX9-4H5
 }

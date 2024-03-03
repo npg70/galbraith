@@ -1,6 +1,6 @@
 name Donald Galbreath
 birth -date 'about 1811'
-tags gigha 'dead end'
+tags argyll:gigha 'dead end'
 
 note {
     no records found after 1841.  Possible immigration to Canada or USA.

@@ -1,7 +1,7 @@
 name John Galbreath
 baptism -date 07-oct-1799  -location gigha -ref john1799-baptism
 death -date 25-aug-1876 -location gigha -ref john1799-death
-tags gigha
+tags Argyll:Gigha
 external {
     familysearch LDHS-FMN 
     findagrave 170505471
