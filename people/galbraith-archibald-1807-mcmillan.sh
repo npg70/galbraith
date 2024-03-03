@@ -28,7 +28,7 @@ footnotes {
         }
     }
     mcmillan-marriage {
-        $sp-ref-link[m-1862-519-00-0004 0002 "Archibald Galbraith "Elizabeth McMillan"]
+        $sp-ref-link[m-1862-519-00-0004 0002 "Archibald Galbraith" "Elizabeth McMillan"]
     }
 }
 
