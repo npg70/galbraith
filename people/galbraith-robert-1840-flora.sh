@@ -1,4 +1,5 @@
 name Robert Galbraith
+tags ayr:dalrymple Immigrant:USA:Illinois
 baptism -date 27-nov-1840 -location dalrymple -ref robert1840-baptism
 death -date 1875 -location 'Kankakee,Illinois,USA'
 partner {
@@ -12,7 +13,6 @@ body {
 }
 todo { needs research, stub }
 
-tags immigrant
 external {
     familysearch L4B3-RM8
 }

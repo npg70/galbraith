@@ -1,5 +1,5 @@
 name John Galbraith
-tags 'Kilcalmonell and Kilberry' Immigrant
+tags 'argyll:Kilcalmonell and Kilberry' Immigrant:Canada:Ontario
 baptism -date 29-may-1809 -location 'kilcalmonell and kilberry' -ref john1809-baptism
 death -date 30-dec-1892 -location canada
 external {

@@ -1,5 +1,5 @@
 name Angus Galbraith
-tags 'Kilcalmonell and Kilberry' Immigrant
+tags 'Scotland:Argyll:Kilcalmonell and Kilberry' Immigrant:Canada:Ontario
 birth -date 23-sep-1876 -location 'whitehouse,kilcalmonell' -ref angus1876-birth
 death -date 15-feb-1948 -location 'sudberry,ontario,canada'
 body {

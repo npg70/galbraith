@@ -1,5 +1,5 @@
 name John Galbreath
-tags Glassary Immigrant
+tags Argyll:Glassary Immigrant:Canada:Ontario
 external {
     findagrave 111121055
     familysearch LBYK-Y9V

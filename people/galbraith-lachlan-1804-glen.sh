@@ -1,5 +1,5 @@
 name Lachlan Galbraith
-tags immigrant 'Kilcalmonell and Kilberry' 
+tags 'Argyll:Kilcalmonell and Kilberry'  Immigrant:Canada:Ontario
 birth -date 22-jan-1804
 baptism -date 30-jan-1804 -location 'Kilcalmonell and Kilberry' -ref lachlan1804-baptism
 death -date 8-feb-1879 -location harwich,kent,ontario,canada

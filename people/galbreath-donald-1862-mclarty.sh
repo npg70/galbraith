@@ -1,5 +1,5 @@
 name Donald Galbreath
-tags 'Saddell and Skipness' immigrant
+tags 'argyll:Saddell and Skipness' immigrant:canada:ontario
 external {
     familysearch M1RX-3KL
     ancestry tree/71855511/person/232218862057/facts

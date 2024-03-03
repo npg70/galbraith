@@ -1,6 +1,6 @@
 name William Galbraith
 birth -date 24-mar-1875 -location Kilcalmonell -ref william1875-birth
-tags 'Kilcalmonell and Kilberry' Immigrant
+tags 'argyll:Kilcalmonell and Kilberry' Immigrant:Canada:Ontario
 external {
 
 }

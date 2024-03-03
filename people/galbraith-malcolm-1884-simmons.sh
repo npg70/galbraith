@@ -1,5 +1,5 @@
 name Malcolm Galbraith
-tags campbeltown immigrant
+tags Argyll:Campbeltown 'Immigrant:New Zealand'
 birth -date 8-may-1884 -location campbeltown -ref malcolm1884-birth
 death -date 13-dec-1945 -location 'Auckland, New Zealand'
 external {

@@ -1,5 +1,5 @@
 name Donald Galbraith
-tags 'Kilcalmonell and Kilberry' immigrant 'daughtered out'
+tags 'Argyll:Kilcalmonell and Kilberry' immigrant:Canada:Ontario 'daughtered out'
 external {
     familysearch GSTD-ZKP
     findagrave 128003190

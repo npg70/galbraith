@@ -1,6 +1,6 @@
 name John Galbraith
 
-tags 'Saddell and Skipness' Immigrant 'Daughtered Out'
+tags 'Argyll:Saddell and Skipness' Immigrant:Canada:Montreal 'Daughtered Out'
 
 external {
     familysearch GWB9-33L

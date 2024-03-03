@@ -1,5 +1,5 @@
 name Florence Galbreath
-tags Campbeltown Immigrant
+tags Argyll:Campbeltown Immigrant:Canada:Ontario
 birth -date 11-sep-1777
 baptism -date 14-sep-1777 -location campbeltown -ref flo-bapt
 death -date 1866 -location 'Darlington, Durham, Ontario, Canada'

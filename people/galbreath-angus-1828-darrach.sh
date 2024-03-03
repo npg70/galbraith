@@ -1,5 +1,5 @@
 name Angus Galbreath
-tags Colonsay Immigrant
+tags Argyll:Colonsay Immigrant:Canada:Ontario
 external {
     familysearch LJ5K-MNJ
 }

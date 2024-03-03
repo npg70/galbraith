@@ -1,5 +1,5 @@
 name Samuel Galbraith
-tags campbeltown immigrant
+tags argyll:campbeltown immigrant:canada 'immigrant:british west indies'
 external {
     findagrave 122690973
 }

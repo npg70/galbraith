@@ -1,5 +1,5 @@
 name Malcolm Galbreath
-tags Glassary Immigrant
+tags Argyll:Glassary Immigrant:canada:ontario
 external {
     familysearch 9XTL-L9P
 }

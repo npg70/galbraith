@@ -1,5 +1,5 @@
 name Lachlan Galbraith
-tags Gigha Immigrant
+tags Argyll:Gigha Immigrant:Canada
 external {
     ancestry tree/15004321/person/933920426
     familysearch M1BH-CC3

@@ -1,5 +1,5 @@
 name John Galbreath
-tags Campbeltown Immigrant
+tags Argyll:Campbeltown Immigrant:USA:Ohio
 todo {
     Stub
 }

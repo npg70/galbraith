@@ -1,5 +1,5 @@
 name James Cairns Galbraith
-tags 'saddell and skipness' immigrant
+tags 'argyll:saddell and skipness' 'immigrant:canada:british columbia'
 birth -date 15-aug-1877 -location Saddell -ref james1877-birth
 death -date 10-jan-1935 -location 'Vancouver Island, British Columbia, Canada'
 

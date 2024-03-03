@@ -1,5 +1,5 @@
 name Neil Galbraith
-tags immigrant
+tags immigrant:Australia
 birth -date 31-aug-1900 -location dumbarton -ref neil1900-birth
 death -date 1962 -location Perth,AU
 partner {

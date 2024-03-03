@@ -1,5 +1,5 @@
 name Archibald Campbell Galbraith
-tags Glasgow Immigrant
+tags Glasgow Immigrant:USA:California
 external {
     familysearch GCM9-JG8
 }

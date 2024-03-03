@@ -1,5 +1,5 @@
 name George Wallace Galbraith
-tags Glasgow Immigrant
+tags Glasgow Immigrant:USA:California
 birth -date 8-nov-1885 -location govan,lanark -ref george1885-birth
 death -date 1957 -location 'laguna beach,orange,california,usa'
 external {

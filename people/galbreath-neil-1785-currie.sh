@@ -1,5 +1,5 @@
 name Neil Galbreath
-tags 'North Knapdale' Immigrant
+tags 'Argyll:North Knapdale' Immigrant:Canada:Ontario
 external {
     familysearch M1R1-KYZ
     findagrave 93835558 

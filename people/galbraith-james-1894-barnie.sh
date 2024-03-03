@@ -1,5 +1,5 @@
 name James Galbraith
-tags campbeltown immigrant
+tags argyll:campbeltown immigrant:canada:ontario
 external {
     familysearch GH2X-J97
     findagrave 236356385

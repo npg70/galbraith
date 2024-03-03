@@ -1,5 +1,5 @@
 name Alexander Galbreath
-tags Campbeltown Immigrant
+tags Argyll:Campbeltown Immigrant:USA:Pennsylvania
 external {
     familysearch MYW9-L2B
     findagrave 52621095

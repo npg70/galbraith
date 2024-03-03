@@ -1,5 +1,5 @@
 name William Galbraith
-tags Campbeltown Immigrant
+tags Argyll:Campbeltown Immigrant:Canada
 external {
     familysearch M1YM-JW4
 }

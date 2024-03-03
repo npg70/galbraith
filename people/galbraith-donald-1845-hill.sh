@@ -1,5 +1,5 @@
 name Donald Dan Galbraith
-tags 'kilcalmonell and kilberry' immigrant "end of line"
+tags 'Argyll:kilcalmonell and kilberry' immigrant:Canada "end of line"
 
 birth -date 22-may-1845 -location 'kilcalmonell and kilberry' -ref donald1845-baptism
 death -date 26-sep-1907 -location canada
