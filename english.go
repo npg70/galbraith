@@ -31,6 +31,14 @@ var allUpper = map[string]bool{
 	"uk":  true,
 }
 
+func TitleTag(s string) string {
+	tags := strings.Split(s, ":")
+	for i, tag := range tags {
+		tags[i] = TitlePhrase(tag)
+	}
+	return strings.Join(tags, ":")
+}
+
 func TitlePhrase(s string) string {
 	parts := strings.Fields(strings.ToLower(s))
 

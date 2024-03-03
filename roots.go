@@ -126,15 +126,19 @@ $table{
 		$td{No direct male decendants (open to better word or terminology here).}
 	}
 	$tr{
+		$td{$tag-link{end of line}}
+		$td{No children, or all children had no children}
+	}
+	$tr{
 		$td{$tag-link{dead end}}
 		$td{Families with no records after a time. Either immigranted or died-out without being recorded.}
 	}
 	$th[colspan=2]{Places}
 	`)
 
-	// now figure out plaace name tags
+	// now figure out place name tags
 	tags := []string{}
-	special := "|all|daughtered out|dead end|illegitimate|immigrant|leaf|no children|root|todo|veteran|"
+	special := "|all|daughtered out|dead end|illegitimate|immigrant|leaf|no children|root|todo|veteran|end of line|"
 	for tname := range tmap {
 		tname = strings.ToLower(tname)
 		if strings.Contains(special, tname) {
@@ -161,7 +165,7 @@ func indexRoots(db Root, roots []string, title string) string {
 			out.WriteString("<div class='ms-3 mb-3'>\n")
 			for _, tag := range p.Tags {
 				taglink := "/galbraith/tags/" + strings.ReplaceAll(strings.ToLower(tag), " ", "-") + "/"
-				out.WriteString("<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleCompound(tag) + "</a> ")
+				out.WriteString("<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleTag(tag) + "</a> ")
 			}
 			out.WriteString("</div>\n")
 		}
