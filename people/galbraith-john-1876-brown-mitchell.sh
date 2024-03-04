@@ -1,5 +1,5 @@
 name John Galbraith
-tags Campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch GL3B-36Y
     findagrave 179784140

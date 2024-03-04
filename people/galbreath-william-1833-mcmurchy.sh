@@ -1,5 +1,5 @@
 name William Galbraith
-tags Campbeltown Ireland
+tags Argyll:Campbeltown Ireland
 birth -date 29-sep-1833 
 baptism -date 2-oct-1833 -location Campbeltown -ref william1833-baptism
 death -date 28-may-1894 -location campbeltown -ref william1833-death

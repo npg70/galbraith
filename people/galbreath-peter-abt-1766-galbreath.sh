@@ -3,7 +3,7 @@ birth -date 'about 1766'
 external {
     familysearch K8JY-7CT
 }
-tags Campbeltown "Dead End"
+tags Argyll:Campbeltown "Dead End"
 body {
 According to baptismal records of children, he was a sailor in Campbeltown.
 }

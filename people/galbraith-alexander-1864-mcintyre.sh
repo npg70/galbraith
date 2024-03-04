@@ -1,5 +1,5 @@
 name Alexander Galbraith
-tags campbeltown 'daughtered out'
+tags Argyll:Campbeltown 'daughtered out'
 
 external {
     familysearch M1YN-PGV

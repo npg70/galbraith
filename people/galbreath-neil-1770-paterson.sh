@@ -4,7 +4,7 @@ birth -date 'about 1770'
 external {
     familysearch 9M9Z-V9G
 }
-tags Campbeltown
+tags Argyll:Campbeltown
 todo {
     The last child Neil who perhaps married Mary Hamilton needs investigating.
 }

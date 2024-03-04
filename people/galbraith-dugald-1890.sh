@@ -1,5 +1,5 @@
 name Dugald Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 birth -date 2-oct-1890 -location campbeltown -ref birth
 body {
     Unknown father, mother was Margaret Galbraith, farm servant.

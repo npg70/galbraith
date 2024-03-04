@@ -1,5 +1,5 @@
 name Duncan Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 baptism -date 27-apr-1841 -location campbeltown -ref duncan1841-baptism
 death -date 14-feb-1890 -location campbeltown -ref duncan1841-death
 partner {

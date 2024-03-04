@@ -1,5 +1,5 @@
 name William Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch MTTZ-JCG
 }

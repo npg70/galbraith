@@ -1,5 +1,5 @@
 name William John Galbraith
-tags campbeltown veteran 'no children'
+tags Argyll:Campbeltown veteran 'no children'
 external {
     familysearch GL7X-NVF
 }

@@ -1,5 +1,5 @@
 name John Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 birth -date 21-april-1850
 baptism -date 5-may-1850 -location 'killean and kilchenzie' -ref john1850-baptism
 death -date 20-feb-1898 -location campbeltown -ref john1850-death

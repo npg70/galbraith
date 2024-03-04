@@ -1,5 +1,5 @@
 name Alexander Galbreath
-tags Campbeltown
+tags Argyll:Campbeltown
 baptism -date 4-aug-1844 -location campbeltown -ref alexander1844-baptism
 death -date 25-dec-1883 -location campbeltown -ref alexander1844-death
 external {

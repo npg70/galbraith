@@ -1,7 +1,7 @@
 name Hugh Galbreath
 baptism -date 13-may-1823 -location campbeltown -ref hugh1823-baptism
 death -date 30-sep-1901 -location campbeltown -ref hugh1823-death
-tags campbeltown
+tags Argyll:Campbeltown
 partner {
     name Catherine McNair
     marriage -date 12-jun-1849 -location campbeltown -ref mcnair-marriage

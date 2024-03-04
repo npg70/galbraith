@@ -1,5 +1,5 @@
 name Alexander Galbraith
-tags Campbeltown 
+tags Argyll:Campbeltown 
 baptism -date 25-may-1854 -location campbeltown -ref alexander1854-baptism
 death -date 12-nov-1966 -location Saddell -ref alexander1854-death
 

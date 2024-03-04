@@ -1,5 +1,5 @@
 name Alexander Galbraith
-tags tarbert glasgow
+tags Argyll:Tarbert glasgow
 birth -date 'about 1851'
 death -date 30-jan-1923 -location glasgow -ref alexander1851-death 
 partner {

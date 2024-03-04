@@ -1,5 +1,5 @@
 name John McPhee Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 birth -date 27-jan-1877 -location campbeltown -ref john1877-birth
 body {
 

@@ -1,5 +1,5 @@
 name James Newlands Galbraith
-tags Campbeltown Illegitimate
+tags Argyll:Campbeltown Illegitimate
 birth -date 15-aug-1869 -location campbeltown -ref james1869-birth
 body {
     Father unknown, mother was Mary Galbraith, domestic servant.

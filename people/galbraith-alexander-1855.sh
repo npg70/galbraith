@@ -1,5 +1,5 @@
 name Alexander Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 
 birth -date 22-dec-1855 -location campbeltown -ref alexander1855-birth
 

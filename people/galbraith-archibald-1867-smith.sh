@@ -1,5 +1,5 @@
 name Archibald Galbraith
-tags tarbert
+tags Argyll:Tarbert
 birth -date 3-jan-1867 -location tarbert -ref archibald1867-birth
 death -date 28-jan-1928 -location tarbert -ref archibald1867-death
 partner {

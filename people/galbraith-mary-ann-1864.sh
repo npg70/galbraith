@@ -1,5 +1,5 @@
 name Mary Ann Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 birth -date 20-aug-1864 -location campbeltown -ref maryann1864-birth 
 death -date 09-aug-1946 -location camlachie,glasgow -ref maryann1864-death
 

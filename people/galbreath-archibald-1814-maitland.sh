@@ -3,7 +3,7 @@ birth -date 'about 1814' -location Gigha
 external {
     familysearch KH8D-G3C
 }
-tags Campbeltown 'Dead End'
+tags Argyll:Campbeltown 'Dead End'
 todo { 
     Needs 1841 census.
 }

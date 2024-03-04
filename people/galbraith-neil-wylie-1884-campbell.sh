@@ -1,5 +1,5 @@
 name Neil Wylie Galbraith
-tags Campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch GKHB-BKG
     findagrave 180049237

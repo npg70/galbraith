@@ -1,5 +1,5 @@
 name Norman Galbreath
-tags Campbeltown 'Daughtered Out'
+tags Argyll:Campbeltown 'Daughtered Out'
 baptism -date 17-mar-1811 -location campbeltown -ref norman1811-baptism
 death -date 2-feb-1892 -location campbeltown -ref norman1811-death
 note {

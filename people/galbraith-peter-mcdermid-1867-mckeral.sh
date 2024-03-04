@@ -1,5 +1,5 @@
 name Peter McDermid Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch M1Y3-K96
 }

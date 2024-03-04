@@ -1,5 +1,5 @@
 name David Galbreath
-tags campbeltown
+tags Argyll:Campbeltown
 baptism -date 2-oct-1718 -location campbeltown -ref david1718-baptism
 
 external {

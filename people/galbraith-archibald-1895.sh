@@ -1,5 +1,5 @@
 name Archibald Smith Galbraith
-tags Campbeltown Illegitimate
+tags Argyll:Campbeltown Illegitimate
 
 birth -date 5-jul-1895 -location campbeltown -ref archibald1895-birth
 body {

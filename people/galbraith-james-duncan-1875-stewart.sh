@@ -2,7 +2,7 @@ name James Duncan Galbraith
 external {
     familysearch GGJF-Q14
 }
-tags campbeltown
+tags Argyll:Campbeltown
 birth -date may-1875 -location campbeltown -ref james1875-birth
 death -date 7-feb-1943 -location campbeltown -ref james1875-death
 partner {

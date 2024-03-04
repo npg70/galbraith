@@ -1,5 +1,5 @@
 name John Galbreath
-tags Campbeltown
+tags Argyll:Campbeltown
 birth -date 3-sep-1842
 baptism -date 26-sep-1842 -location campbeltown -ref john1842-birth
 death -date 9-dec-1907 -location campbeltown -ref john1842-death

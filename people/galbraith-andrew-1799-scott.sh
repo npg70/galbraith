@@ -1,5 +1,5 @@
 name Andrew Galbraith
-tags Campbeltown 'Daughtered Out'
+tags Argyll:Campbeltown 'Daughtered Out'
 baptism -date 6-Feb-1799 -location campbeltown -ref andrew1799-baptism
 death -date 29-Nov-1885 -location 'Johnstone and Elderslie, Renfrew' -ref andrew1799-death
 external {

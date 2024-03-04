@@ -1,5 +1,5 @@
 name John Galbreath
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch M1R6-HFP
 }

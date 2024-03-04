@@ -1,5 +1,5 @@
 name Donald Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 birth -date 23-nov-1859 -location campbeltown -ref donald1859-birth
 
 body {

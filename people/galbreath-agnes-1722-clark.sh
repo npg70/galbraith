@@ -1,5 +1,5 @@
 name Agnes Galbreath
-tags campbeltown
+tags Argyll:Campbeltown
 birth -location Kilkeddan
 baptism -date 18-feb-1722 -location campbeltown -ref agnes1722-baptism
 external {

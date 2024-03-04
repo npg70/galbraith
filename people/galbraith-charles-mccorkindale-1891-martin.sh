@@ -1,5 +1,5 @@
 name Charles McCorkindale Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 birth -date 1891 -location campbeltown -ref charles1891-birth
 death -date 24-dec-1926 -location 'Kilmore and Kilbride,Argyll' -ref charles1891-death
 partner {

@@ -3,7 +3,7 @@ baptism -date 16-jan-1780 -location campbeltown -ref baptism
 external {
     familysearch KFJY-V29
 }
-tags Campbeltown
+tags Argyll:Campbeltown
 partner {
     name Jean Campbell
     marriage -date 27-jun-1803 -location Campbeltown -ref marriage

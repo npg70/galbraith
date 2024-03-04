@@ -1,5 +1,5 @@
 name Alexander Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch GK43-6XD
 }

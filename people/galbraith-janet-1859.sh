@@ -1,5 +1,5 @@
 name Janet Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 birth -date 17-sep-1859 -location campbeltown -ref janet1859
 body {
     Father unknown, mother was Margaret Galbraith, seamstress.

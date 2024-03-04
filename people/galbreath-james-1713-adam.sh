@@ -3,7 +3,7 @@ baptism -date 20-aug-1713 -location campbeltown -ref james1713-baptism
 external {
     familysearch G3PJ-D5Z
 }
-tags campbeltown
+tags Argyll:Campbeltown
 partner {
     name Margaret Adam
     marriage -date "June 1738" -location campbeltown

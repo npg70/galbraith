@@ -1,7 +1,7 @@
 name James Galbreath
 baptism -date 25-aug-1672 -location campbeltown -ref baptism
 birth -location Ardnacross
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch L4B3-KFQ
     wikitree Galbraith-1794

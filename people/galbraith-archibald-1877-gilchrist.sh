@@ -2,7 +2,7 @@ name Archibald Galbraith
 external {
     familysearch GH8W-88N
 }
-tags campbeltown
+tags Argyll:Campbeltown
 birth -date 30-nov-1877 -location campbeltown -ref archibald1877-birth
 death -date 14-sep-1955 -location campbeltown -ref archibald1877-death
 note {

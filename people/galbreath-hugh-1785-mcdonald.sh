@@ -1,6 +1,6 @@
 name Hugh Galbreath
 birth -date 'about 1785'
-tags Campbeltown "Daughtered Out"
+tags Argyll:Campbeltown "Daughtered Out"
 external {
     familysearch K8KC-YQG
 }

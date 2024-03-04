@@ -1,5 +1,5 @@
 name Allan Galbraith
-tags campbeltown 'daughtered out'
+tags Argyll:Campbeltown 'daughtered out'
 external {
     familysearch L1VB-L7S
 }

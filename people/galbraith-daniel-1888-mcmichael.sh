@@ -1,5 +1,5 @@
 name Daniel Galbraith
-tags Campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch GCM7-MJ3
 }

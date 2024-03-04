@@ -1,7 +1,7 @@
 name Jean Galbreath
 baptism -date 7-apr-1805 -location campbeltown -ref jean1805-baptism
 death -date 3-Jun-1864 -location campbeltown -ref jean1805-death
-tags campbeltown
+tags Argyll:Campbeltown
 partner {
     name John Coville Jr
     marriage -date 28-Jun-1824 -location campbeltown -ref marriage

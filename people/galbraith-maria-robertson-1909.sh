@@ -1,6 +1,6 @@
 name Maria Robertson Galbraith
 birth -date 11-aug-1909 -location campbeltown -ref maria1909-birth
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 body {
     Father was Charles McNaughton and Mary Galbraith, a farm servant.  
     Recorded under McNaughton, but Scotlands People indexes illegitimate births under mothers name as well. 

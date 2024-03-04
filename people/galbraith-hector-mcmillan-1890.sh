@@ -1,5 +1,5 @@
 name Hector McMillan Galbraith
-tags Campbeltown Illegitimate
+tags Argyll:Campbeltown Illegitimate
 birth -date 24-mar-1890 -location campbeltown -ref hector1890-birth
 body {
     Father unknown, mother was "Mary Ann Galbraith"

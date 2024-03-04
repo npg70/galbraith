@@ -1,7 +1,7 @@
 name Eugina Galbraith
 baptism -date 25-jan-1838 -location campbeltown -ref eugina1838-baptism
 death -date 5-oct-1920 -location clachan -ref eugina1838-death
-tags Campbeltown
+tags Argyll:Campbeltown
 todo {
     stub, marriage, james' parents
 }

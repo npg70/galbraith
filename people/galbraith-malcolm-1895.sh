@@ -1,7 +1,7 @@
 name Malcolm Galbraith
 birth -date 1895 -location campbeltown -ref birth
 death -date 12-oct-1917 -location france -ref d1,d2
-tags campbeltown veteran 'no children' 
+tags Argyll:Campbeltown veteran 'no children' 
 external {
     familysearch GZ7D-GCS
 }

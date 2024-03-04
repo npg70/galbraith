@@ -1,7 +1,7 @@
 name John Galbraith
 birth -date 26-jun-1878 -location campbeltown -ref john-birth
 death -date 3-feb-1954 -location tarbert -ref john-death
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 
 body {
     Born 5 years after husband died. It appears he used Crawford after birth.

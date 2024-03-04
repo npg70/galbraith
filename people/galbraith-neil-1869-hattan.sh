@@ -1,5 +1,5 @@
 name Neil Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 birth -date 23-may-1869 -location campbeltown -ref neil1869-birth
 partner {
     name Ellen Wilson Hattan

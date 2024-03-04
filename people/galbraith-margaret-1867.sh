@@ -1,5 +1,5 @@
 name Margaret Galbraith
-tags illegitimate campbeltown
+tags illegitimate argyll:campbeltown
 birth -date 28-mar-1867 -location campbeltown -ref margaret1867-birth
 body {
     mother was "Mary Galbraith", domestic servant.

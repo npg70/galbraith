@@ -3,7 +3,7 @@ birth -date 'about 1710'
 external {  
     familysearch K4TQ-M69
 }
-tags Campbeltown
+tags Argyll:Campbeltown
 note {
     Names recorded under Galbreath, Galbraith, and Calbraith.
 }

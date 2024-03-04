@@ -1,5 +1,5 @@
 name Archibald Galbreath
-tags Campbeltown "No Children"
+tags Argyll:Campbeltown "No Children"
 birth -date 29-may-1807
 baptism -date 31-may-1807 -location campbeltown -ref archibald1807-baptism
 death -date 19-aug-1887 -location 'Kincaid House, Campsie, Stirling, Scotland' -ref archibald1807-death

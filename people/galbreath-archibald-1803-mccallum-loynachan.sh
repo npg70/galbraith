@@ -1,7 +1,7 @@
 name Archibald Galbreath
 baptism -date 11-sep-1803 -location campbeltown -ref archibald1803-baptism
 death -date 17-feb-1885 -location campbeltown -ref archibald1803-death
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch KC9G-P5D
 }

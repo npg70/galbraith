@@ -1,5 +1,5 @@
 name William Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 birth -date 6-oct-1898 -location campbeltown -ref william1898-birth
 death -date 1978 -location campbeltown -ref william1898-death
 partner {

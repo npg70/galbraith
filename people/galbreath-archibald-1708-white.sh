@@ -1,5 +1,5 @@
 name Archibald Galbreath
-tags campbeltown
+tags Argyll:Campbeltown
 baptism -date 30-May-1708 -location Campbeltown -ref archibald1708-baptism
 death -date Sep-1789 -location Campbeltown
 burial -name "Kilchousland Graveyard"

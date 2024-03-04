@@ -1,5 +1,5 @@
 name Agnes Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 birth -date 2-feb-1870 -location campbeltown -ref agnes1870-birth
 body {
     Father unknown, mother was Mary? Galbraith, seamstree.  Aunt Margaret Galbraith present.

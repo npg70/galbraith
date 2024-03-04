@@ -1,5 +1,5 @@
 name Donald Galbraith
-tags tarbert kilmodan
+tags Argyll:Tarbert Argyll:kilmodan 'Argyll:Kilcalmonell and Kilberry'
 
 birth -date 5-apr-1870 -location kilberry -ref donald1870-birth
 death -date 6-aug-1935 -location inverchaolain,argyll -ref donald1870-death

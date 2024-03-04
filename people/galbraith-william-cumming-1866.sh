@@ -1,5 +1,5 @@
 name William Cumming Galbraith
-tags illegitimate campbeltown
+tags illegitimate argyll:campbeltown
 birth -date 8-aug-1866 -location campbeltown -ref william1866-birth
 
 body {

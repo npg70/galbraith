@@ -1,5 +1,5 @@
 name Peter Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 birth -date 30-may-1811 -location campbeltown
 baptism -date 31-may-1811 -location campbeltown -ref birth
 external {

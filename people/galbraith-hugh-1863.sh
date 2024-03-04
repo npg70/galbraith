@@ -1,5 +1,5 @@
 name Hugh Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 
 birth -date 6-jun-1863 -location campbeltown -ref hugh1863-birth
 

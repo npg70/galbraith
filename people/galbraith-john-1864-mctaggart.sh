@@ -1,5 +1,5 @@
 name John Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch M1R6-HX2
 }

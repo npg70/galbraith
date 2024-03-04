@@ -1,5 +1,5 @@
 name Donald Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch GGV7-1XH
 }

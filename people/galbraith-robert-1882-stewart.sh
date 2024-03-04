@@ -1,5 +1,5 @@
 name Robert Galbraith
-tags Campbeltown
+tags Argyll:Campbeltown
 birth -date "about 1882" -location campbeltown -ref robert1883-birth
 
 external {  

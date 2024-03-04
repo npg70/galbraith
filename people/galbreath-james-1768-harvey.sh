@@ -1,5 +1,5 @@
 name James Galbreath
-tags Campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch KCC8-XDD
 }

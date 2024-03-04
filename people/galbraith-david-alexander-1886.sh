@@ -1,5 +1,5 @@
 name David Alexander Galbraith
-tags campbeltown illegitimate 'no children'
+tags Argyll:Campbeltown illegitimate 'no children'
 
 birth -date 10-feb-1886 -location campbeltown -ref birth
 death -date 2-feb-1900 -location campbeltown -ref death

@@ -1,5 +1,5 @@
 name Neil Galbreath
-tags tarbert
+tags Argyll:Tarbert
 birth -date 1-jul-1863 -location tarbert -ref neil1863-birth
 death -date 20-nov-1933 -location tarbert -ref neil1863-death
 

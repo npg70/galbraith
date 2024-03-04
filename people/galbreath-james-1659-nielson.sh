@@ -4,7 +4,7 @@ external {
     familysearch GSS6-NPY
     wikitree Galbraith-1789
 }
-tags Campbeltown
+tags Argyll:Campbeltown
 
 partner {
     name Mary Nielson

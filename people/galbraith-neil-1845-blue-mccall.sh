@@ -1,5 +1,5 @@
 name Neill Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch LZK5-23F
 }

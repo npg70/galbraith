@@ -1,5 +1,5 @@
 name Archibald Galbreath
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch KZMF-1Y3
 }

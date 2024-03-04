@@ -2,7 +2,7 @@ name William Galbreath
 birth -date 'about 1736'
 death -date 'apr-1799'
 burial -name 'Kilkerran Cemetery'
-tags Campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch L6FC-1XM
     wikitree Galbraith-2401

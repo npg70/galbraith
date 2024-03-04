@@ -1,6 +1,6 @@
 name Patrick Galbreath
 birth -date 'about 1700'
-tags Campbeltown 'Dead End'
+tags Argyll:Campbeltown 'Dead End'
 note {
     Two children baptized in Campbeltown in 1700s with no other records.
 }

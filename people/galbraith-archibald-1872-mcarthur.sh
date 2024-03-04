@@ -1,5 +1,5 @@
 name Archibald Galbraith
-tags campbeltown glasgow
+tags Argyll:Campbeltown glasgow
 external {
     familysearch 93R3-PBC
 }

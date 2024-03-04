@@ -1,5 +1,5 @@
 name William Galbraith
-tags illegitimate campbeltown
+tags illegitimate argyll:campbeltown
 
 birth -date 2-may-1869 -location campbeltown -ref william1869-birth
 body {

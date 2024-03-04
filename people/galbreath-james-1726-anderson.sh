@@ -1,6 +1,6 @@
 name James Galbreath
 baptism -date 2-oct-1726 -location campbeltown -ref james1726-baptism
-tags Campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch KCQW-GZT
 }

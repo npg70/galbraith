@@ -1,6 +1,6 @@
 name William Galbreath
 baptism -date 16-nov-1701 -location campbeltown -ref william1701-baptism
-tags Campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch G3PJ-SDL
 }

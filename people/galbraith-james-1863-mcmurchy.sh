@@ -1,5 +1,5 @@
 name James Galbraith
-tags campbeltown 'daughtered out'
+tags Argyll:Campbeltown 'daughtered out'
 external {
     familysearch GZ9X-FND
 }

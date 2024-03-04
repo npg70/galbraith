@@ -1,5 +1,5 @@
 name Neil Fisher Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 birth -date 25-jun-1869 -location campbeltown -ref neil1869-birth
 
 body {

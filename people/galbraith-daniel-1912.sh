@@ -1,5 +1,5 @@
 name Daniel Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 birth -date 17-aug-1912 -location campbeltown -ref daniel1912-birth
 body {
     The father was Daniel Graham and Flora Galbraith, a domestic servant.  Registered

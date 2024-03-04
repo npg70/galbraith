@@ -1,6 +1,6 @@
 name Neil Galbreath
 birth -date 'about 1756'
-tags Campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch K821-T1P
 }

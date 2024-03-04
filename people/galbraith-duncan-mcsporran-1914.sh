@@ -1,5 +1,5 @@
 name Duncan McSporran Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 
 birth -date 08-aug-1914 -location campbeltown -ref duncan1914-birth
 death -date 1914 -location campbeltown -ref duncan1914-death

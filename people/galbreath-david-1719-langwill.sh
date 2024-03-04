@@ -1,5 +1,5 @@
 name David Galbreath
-tags Campbeltown "Dead End"
+tags Argyll:Campbeltown "Dead End"
 external {
     familysearch G3PJ-Q7V
 }

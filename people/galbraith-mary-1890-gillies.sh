@@ -1,5 +1,5 @@
 name Mary Galbraith
-tags campbeltown
+tags Argyll:Campbeltown
 birth -date 1-aug-1890 -location campbeltown -ref mary1890-birth
 body {
     The first twins born were before marriage.

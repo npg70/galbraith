@@ -1,5 +1,5 @@
 name Margaret Mathieson McGreachy Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 birth -date 29-apr-1913 -location campbeltown -ref margaret1913-birth
 body {
     Father unknown, mother was Mary Galbraith, farm servant.

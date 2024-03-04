@@ -1,5 +1,5 @@
 name Elizabeth Johnson Galbraith
-tags campbeltown illegitimate
+tags Argyll:Campbeltown illegitimate
 birth -date 25-sep-1916 -location campbeltown -ref eliz1916
 body {
     Father unknown, mother was Janet Galbraith, domestic servant", with "Isabella Galbraith, Grandmother, present."  Seems like we should be able to figure out who this is.  See also note on birth record.

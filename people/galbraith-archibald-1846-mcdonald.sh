@@ -1,7 +1,7 @@
 name Archibald Galbraith
 baptism -date 4-May-1846 -location 'Killean and Kilchenzie' -ref archibald1846-baptism
 death -date 9-apr-1914 -location campbeltown -ref archibald1846-death
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch M1BQ-K7W
     findagrave 179719680

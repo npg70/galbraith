@@ -1,6 +1,6 @@
 name James Galbreath
 birth -date 'about 1768'
-tags Campbeltown
+tags Argyll:Campbeltown
 external {
   familysearch KZ84-RRK
 }

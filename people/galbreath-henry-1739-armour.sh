@@ -5,7 +5,7 @@ burial -name "Kilchousland Graveyard"
 external {
     familysearch KFJB-HN8
 }
-tags campbeltown
+tags Argyll:Campbeltown
 partner {
     name Agnes Armour
     marriage -date 5-mar-1767 -location campbeltown -ref marriage

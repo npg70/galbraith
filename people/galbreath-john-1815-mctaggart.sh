@@ -4,7 +4,7 @@ death -date 15-Feb-1890 -location campbeltown -ref death
 external {
     familysearch LZ62-VM4
 }
-tags Campbeltown
+tags Argyll:Campbeltown
 partner {
     name Mary McTaggart
     marriage -date 27-Nov-1839 -location campbeltown -ref marriage

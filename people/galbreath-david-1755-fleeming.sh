@@ -1,6 +1,6 @@
 name David Galbreath
 baptism -date 12-feb-1755 -location campebeltown -ref david1755-baptism
-tags Campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch K898-WXH
 }

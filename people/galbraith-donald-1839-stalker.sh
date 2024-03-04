@@ -1,7 +1,7 @@
 name Donald Galbraith
 birth -date 'about 1839'
 death -date 8-mar-1912 -location tarbert -ref donald1839-death
-tags Tarbert 'Daughtered Out'
+tags Argyll:Tarbert 'Daughtered Out'
 partner {
     name Grace Stalker
     marriage -date 29-jan-1874 -location skipness -ref donald1839-marriage

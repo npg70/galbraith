@@ -3,7 +3,7 @@ birth -date 'about 1720'
 external {
     familysearch KC4Z-X5T
 }
-tags Campbeltown 'Dead End'
+tags Argyll:Campbeltown 'Dead End'
 note {
     No additional information on anyone found.  Either moved out, or died out.
 }

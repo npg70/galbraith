@@ -1,5 +1,5 @@
 name Archibald Galbreath
-tags Campbeltown
+tags Argyll:Campbeltown
 baptism -date 6-oct-1845 -location campbeltown -ref archibald1845-baptism
 death -date 1916 -location 'Newton Abbot, Devon, England'
 external {

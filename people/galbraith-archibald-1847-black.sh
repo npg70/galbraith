@@ -1,5 +1,5 @@
 name Archibald Galbraith
-tags inverchaolain
+tags argyll:inverchaolain
 
 birth -date 30-Sep-1847 -location inverchaolain -ref archibald1847-baptism -note "son of John Galbreath and Christan Campbell"
 

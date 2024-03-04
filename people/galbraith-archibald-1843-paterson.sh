@@ -1,5 +1,5 @@
 name Archibald Galbraith
-tags campbeltown glasgow 'dead end'
+tags Argyll:Campbeltown glasgow 'dead end'
 
 external {
     familysearch KCR1-MWR

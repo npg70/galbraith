@@ -1,6 +1,6 @@
 name Archibald Galbraith
 birth -date 'about 1839'
-tags campbeltown
+tags Argyll:Campbeltown
 external {
     familysearch M1BQ-K7W
 }
