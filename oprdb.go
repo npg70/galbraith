@@ -24,6 +24,7 @@ func ParishName(id1, id2 string) string {
 		"058":    "Shieldaig, Ross and Cromarty",
 		"058/2":  "Shieldaig, Ross and Cromarty",
 		"062":    "Dingwall, Ross and Cromarty",
+		"072":    "Kintail, Ross and Cromarty",
 		"074":    "Lochalsh, Ross and Cromarty",
 		"098":    "Kilmallie, Inverness",
 		"108":    "Barra",

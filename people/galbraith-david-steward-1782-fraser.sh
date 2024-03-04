@@ -40,10 +40,9 @@ partner {
     name Octavia Galbreath
     baptism -date 28-aug-1829 -location campbeltown -ref octavia1829-baptism
   }
-  child {
-    name Alfred Galbreath
-    baptism -date 14-sep-1830 -location campbeltown -ref alfred1830-baptism
-  }
+
+  child galbreath-alfred-stewart-1830-mckeen
+
   child {
     name Adelaide Galbreath
     baptism -date 23-sep-1831 -location campbeltown -ref adelaide1831-baptism
@@ -93,9 +92,6 @@ footnotes {
   }
   octavia1829-baptism {
     $opr-ref[b-1829-507-000-0060-0188 "Octavia Galbreath"]
-  }
-  alfred1830-baptism {
-    $opr-ref[b-1830-507-000-0060-0210 "Alfred Galbreath"]
   }
   adelaide1831-baptism {
   	$opr-ref[b-1831-507-000-0060-0228 "Adelaide Galbreath"]
