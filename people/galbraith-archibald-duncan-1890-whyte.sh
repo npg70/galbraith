@@ -1,5 +1,5 @@
 name Archibald Duncan Galbraith
-tags kilfinan
+tags argyll:kilfinan
 birth -date 26-jul-1890 -location kilfinan -ref archibald1890-birth
 partner {
     name Margaret Whyte

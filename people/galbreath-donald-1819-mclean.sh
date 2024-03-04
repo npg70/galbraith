@@ -1,5 +1,5 @@
 name Donald Galbraith
-tags 'Killean and Kilchenzie' Campbeltown
+tags 'Argyll:Killean and Kilchenzie' Argyll:Campbeltown
 external {
     familysearch LZ68-L2C
 }

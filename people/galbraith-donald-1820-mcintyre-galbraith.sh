@@ -1,5 +1,5 @@
 name Donald Galbraith
-tags islay campbeltown
+tags argyll:islay argyll:campbeltown
 external {
     familysearch M1TN-RQF
     findagrave 149818386

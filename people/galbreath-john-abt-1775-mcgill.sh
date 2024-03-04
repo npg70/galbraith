@@ -1,6 +1,6 @@
 name John Galbreath
 birth -date 'about 1775'
-tags 'Killean and Kilchenzie' 'Dead End'
+tags 'Argyll:Killean and Kilchenzie' 'Dead End'
 note {
     No record found after baptism of last child in 1819. Nothing in 1841 or 1851 census, nothing in
     statutory records.

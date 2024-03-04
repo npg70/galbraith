@@ -5,7 +5,7 @@ birth -date 'about 1776'
 external {
     familysearch K8VW-HKP
 }
-tags 'Killean and Kilchenzie'
+tags 'argyll:Killean and Kilchenzie'
 body {
     He perhaps died prior to 1851 since he does not appear in the census of the time.
 }

@@ -1,5 +1,5 @@
 name Donald Galbraith
-tags kilberry
+tags 'argyll:kilcalmonell and kilberry'
 external {
     familysearch M1YG-MLQ
 }

@@ -1,5 +1,5 @@
 name Peter Galbraith
-tags kilfinan
+tags argyll:kilfinan
 external {
     familysearch M1YP-ZPD
 }

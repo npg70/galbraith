@@ -1,6 +1,6 @@
 name Duncan Galbreath
 birth -date "about 1770"
-tags "Killean and Kilchenzie"
+tags "Argyll:Killean and Kilchenzie"
 external {
     familysearch 9M9N-15J
 }

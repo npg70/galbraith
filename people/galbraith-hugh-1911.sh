@@ -1,5 +1,5 @@
 name Hugh Galbraith
-tags kilfinan illegitimate
+tags argyll:kilfinan illegitimate
 birth -date 18-feb-1911 -location kilfinan -ref hugh1911-birth
 body {
     Mother was "Jane Galbraith", a domestic servant.

@@ -1,5 +1,5 @@
 name Donald Galbraith
-tags kilcalmonell
+tags 'argyll:kilcalmonell and kilberry'
 birth -date 1872 -location greenock -ref donald1872-birth
 partner {
     name Mary McAllister

@@ -1,5 +1,5 @@
 name Donald-Duncan Galbraith
-tags islay kildalton kilchoman
+tags argyll:islay:kildalton argyll:islay:kilchoman
 external {
     familysearch M9L5-2W3
     findagrave 132241708

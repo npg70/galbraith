@@ -1,5 +1,5 @@
 name John Galbraith
-tags Glassary
+tags Argyll:Glassary
 external {
     familysearch M15Y-X2L
     findagrave 182029989

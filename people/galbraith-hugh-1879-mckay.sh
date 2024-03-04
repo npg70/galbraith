@@ -1,5 +1,5 @@
 name Hugh Galbraith
-tags islay kildalton
+tags argyll:islay:kildalton
 birth -date 07-jun-1879 -location kildalton -ref hugh1879-birth
 death -date 14-may-1940 -location kildalton -ref hugh1879-death
 external {

@@ -1,7 +1,7 @@
 name Niel Galbraith
 birth -date 23-feb-1856 -location rothesay,bute -ref niel1856-birth
 death -date 1915 -location kilfinan -ref niel1856-death
-tags kilfinan
+tags argyll:kilfinan
 external {
     familysearch 9M1C-4J6
 }

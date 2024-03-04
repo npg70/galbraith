@@ -1,5 +1,5 @@
 name Archibald Galbraith
-tags 'Killean and Kilchenzie'
+tags 'Argyll:Killean and Kilchenzie'
 external {
     familysearch M1BQ-K4S
 }

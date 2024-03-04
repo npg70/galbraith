@@ -1,7 +1,7 @@
 name Duncan Galbreath
 baptism -date 7-oct-1815 -location 'killean and kilchenzie' -ref duncan1815-baptism
 death -date 17-mar-1880 -location 'campbeltown' -ref duncan1815-death
-tags 'killean and kilchenzie' campbeltown
+tags 'argyll:killean and kilchenzie' argyll:campbeltown
 
 external {
     familysearch M1TZ-CG7

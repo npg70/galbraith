@@ -1,5 +1,5 @@
 name Archibald Galbraith
-tags 'killean and kilchenzie' illegitimate
+tags 'argyll:killean and kilchenzie' illegitimate
 
 birth -date 31-jan-1869 -location glasgow -ref archibald1869-birth
 body {

@@ -1,5 +1,5 @@
 name Alexander Galbraith
-tags paisley 'daughtered out'
+tags renfrew:paisley 'daughtered out'
 birth -date "about 1839"
 death -date 12-aug-1865 -location paisley -ref alexander1839-death -note "Died of typhus fever."
 partner {

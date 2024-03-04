@@ -1,5 +1,5 @@
 name Archibald Galbreath
-tags 'killean and kilchenzie'
+tags 'argyll:killean and kilchenzie'
 baptism -date 22-apr-1807 -location 'killean and kilchenzie' -ref archibald1807-baptism
 death -date 16-Jan-1891 -location 'killean and kilchenzie' -ref archibald1807-death
 burial -name 'Putechan Cemetery'

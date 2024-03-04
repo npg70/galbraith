@@ -1,5 +1,5 @@
 name Susanna Galbreath
-tags 'killean and kilchenzie'
+tags 'argyll:killean and kilchenzie'
 external {
     familysearch K28L-RDH
     findagrave 167549500

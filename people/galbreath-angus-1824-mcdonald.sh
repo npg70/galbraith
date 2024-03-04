@@ -1,5 +1,5 @@
 name Angus Galbraith
-tags 'Killean and Kilchenzie'
+tags 'Argyll:Killean and Kilchenzie'
 baptism -date 7-nov-1824 -location 'killean and kilchenzie' -ref birth
 death -date 19-apr-1902 -location 'kilmarnock,ayr' -ref death
 external {

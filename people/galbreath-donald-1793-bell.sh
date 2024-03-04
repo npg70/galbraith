@@ -4,7 +4,7 @@ death -date 9-dec-1867 -location campbeltown -ref death
 external {
     familysearch L1Q8-4M5
 }
-tags 'Killean and Kilchenzie'
+tags 'Argyll:Killean and Kilchenzie'
 
 partner {
     name Ann Bell

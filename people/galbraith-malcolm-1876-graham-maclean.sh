@@ -1,5 +1,5 @@
 name Malcolm Galbraith
-tags islay kildalton paisley
+tags argyll:islay:kildalton renfrew:paisley
 birth -date 16-may-1876 -location kildalton -ref malcolm1876-birth
 death -date 2-oct-1952 -location paisley,renfrew -ref malcolm1876-death
 partner {

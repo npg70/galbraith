@@ -1,5 +1,5 @@
 name Archibald Galbraith
-tags veteran 'no children' 'KILLEAN AND KILCHENZIE'
+tags veteran 'no children' 'argyll:KILLEAN AND KILCHENZIE'
 external {
     familysearch GHDN-S7R
 }

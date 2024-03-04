@@ -1,5 +1,5 @@
 name Donald Galbreath
-tags 'dead end' glassary
+tags 'dead end' argyll:glassary
 external {
     familysearch KCQQ-7D9
 }

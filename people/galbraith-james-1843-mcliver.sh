@@ -2,7 +2,7 @@ name James Galbraith
 external {
     familysearch L697-YD7
 }
-tags ireland islay bowmore kilarrow
+tags ireland argyll:islay:bowmore argyll:islay:kilarrow
 birth -date 'about 1843' -location ireland
 death -date 17-nov-1884 -location bowmore -ref james1843-death
 

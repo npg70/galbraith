@@ -1,5 +1,5 @@
  name Edward Galbraith
- tags 'killean and kilchenzie'
+ tags 'argyll:killean and kilchenzie'
 
  birth -date 21-apr-1863 -location 'killean and kilchenzie' -ref edward1863-birth
  death -date 29-jun-1921 -location 'killean and kilchenzie' -ref edward1863-death

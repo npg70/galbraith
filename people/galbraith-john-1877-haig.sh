@@ -1,6 +1,6 @@
 name John Galbraith
 birth -date 24-apr-1877 -location kilcalmonell -ref john1877-birth
-tags islay kilchoman bute kilcalmonell
+tags argyll:islay:kilchoman bute 'argyll:kilcalmonell and kilberry'
 body {
     He was a police constable, perhaps having him travel across Kintyre, Bute, and Islay.
 }
