@@ -74,7 +74,7 @@ footnotes {
         $opr-ref-link[m-1832-516-000-0020-0384 "Archibald Galbraith" "Catharin Crawford"]
     }
     crawford-death {
-        $sp-ref-linkd-1878-602-00-0096 0032 "Catherine Galbraith"]
+        $sp-ref-link[d-1878-602-00-0096 0032 "Catherine Galbraith"]
     }
     archibald1804-death {
         $sp-ref-link[d-1861-535-00-0022 0008 "Archibald Galbreath"], Age: 60
