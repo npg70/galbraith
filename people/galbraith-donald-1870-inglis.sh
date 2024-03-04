@@ -2,29 +2,27 @@ name Donald Galbraith
 external {
    familysearch M1GK-RLL
 }
+tags Renfrew:Kilmalcolm
 birth -date 31-dec-1870 -location dunoon -ref donald1870-birth
 death -date 21-feb-1943 -location kilmacolm -ref donald1870-death
 partner {
     name Marion Inglis
-    birth -date 17-jan-1873 -location walston,lanark
+    birth -date 17-jan-1873 -location walston,lanark -note 'with mother name of Marhsall'
     death -date 20-jul-1922 -location kilmacolm -ref inglis-death
     marriage -date 1898 -location dumfries -ref inglis-marriage
-    child {
-        name Neil Galbraith
-        birth -date 1900
-    }
-    child {
-        name Charles Inglis Galbraith
-        birth -date 1902
-    }
+
+    child galbraith-neil-1899-rennie
+
+    child galbraith-charles-inglis-1902-hall
+
     child {
         name Marion Inglis Galbraith
-        birth -date 1906
+        birth -date 1905 -location kilmalcolm -ref marion1905-birth
         death -date 1975
     }
     child {
         name Helen Marshall Galbraith
-        birth -date 1907
+        birth -date 1907 -location kilmalcolm -ref helen1907-birth
         death -date 2006
     }
 }
@@ -41,5 +39,14 @@ footnotes {
     }
     inglis-marriage {
         $sp-ref[m-1898-832-00-0006 "Donald Galbraith" "Marion Inglis"]
+    }
+    inglis-death {
+        $sp-ref[d-1922-569-00-0032 "Marion Galbraith"]
+    }
+    marion1905-birth {
+        $sp-ref[b-1905-569-00-0058 "Marion Inglis Galbraith"]
+    }
+    helen1907-birth {
+        $sp-ref[b-1907-569-00-0070 "Helen Marshall Galbraith"]
     }
 }

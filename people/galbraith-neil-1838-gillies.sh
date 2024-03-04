@@ -28,12 +28,12 @@ partner {
     child {
         name Thomas Alexander Galbraith
         birth -date 19-jun-1881 -location kilmacolm,renfrew -ref thomas1881-birth
-        death -date 17-may-1957 -location kilmacolm,renfrew -ref thomas1881-death
+        death -date 17-may-1957 -location kilmacolm,renfrew -ref thomas1881-death -note unmarried
     }
     child {
         name Robert Hamilton Galbraith
         birth -date 04-nov-1885 -location kilmacolm,renfrew -ref robert1885-birth
-        death -date 07-dec-1915 -location glasgow -ref robert1885-death
+        death -date 07-dec-1915 -location hillhead,glasgow -ref robert1885-death -note umarried
     }
     child {
         name Catherine Crawford Galbriath
@@ -54,5 +54,32 @@ footnotes {
     }
     gillies-death {
         $sp-ref[d-1918-569-00-0069 "Catherine Galbraith"]
+    }
+    margaret1872-birth {
+        $sp-ref[b-1872-569-00-0022 "Margaret Galbraith"]
+    }
+    archibald1874-birth {
+        $sp-ref[b-1874-569-00-0017 "Archibald Galbraith"]
+    }
+    neil1878-birth {
+        $sp-ref[b-1878-569-00-0032 "Neil Galbraith"]
+    } 
+    thomas1881-birth {
+        $sp-ref[b-1881-569-00-0040 "Thomas Alexander Galbraith"]
+    }
+    thomas1881-death {
+        $sp-ref-link[d-1957-569-00-0016 0006 "Thomas Alexander Galbraith"]
+    }
+    robert1885-birth {
+        $sp-ref[b-1885-569-00-0063 "Robert Hamilton Galbraith"]
+    }
+    robert1885-death {
+        $sp-ref-link[d-1915-644-12-1081 0361 "Robert Hamilton Galbraith"]
+    }
+    catherine1888-birth {
+        $sp-ref[b-1888-569-00-0001 "Catherine Crawford Galbraith"]
+    }
+    catherine1888-death {
+        $sp-ref[d-1957-564-00-0303 "Catherine Crawford Galbraith"]
     }
 }
