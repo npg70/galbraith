@@ -3,7 +3,7 @@ birth -date 'about 1781'
 external {
     familysearch K45Y-S92
 }
-tags 'Kilcalmonell and Kilberry'
+tags 'Argyll:Kilcalmonell and Kilberry'
 todo {
     redo census, references, raw urls
 }

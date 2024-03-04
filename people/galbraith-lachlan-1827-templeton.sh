@@ -1,7 +1,7 @@
 name Lachlan Galbreath
 baptism -date 3-jan-1827 -location 'South Knapdale' -ref lachlan1827-baptism
 death -date 22-nov-1888 -location greenock -ref lachlan1827-death
-tags 'South Knapdale'
+tags 'Argyll:South Knapdale'
 partner {
     name Jane Templeton
     birth -date 'about 1841'

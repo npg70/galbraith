@@ -1,5 +1,5 @@
 name Neil Galbreath
-tags 'south knapdale' 'kilmacolm'
+tags 'argyll:south knapdale' 'kilmacolm'
 external {
     familysearch 9M97-6TB
 }

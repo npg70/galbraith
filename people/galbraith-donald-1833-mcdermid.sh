@@ -3,7 +3,7 @@ birth -date nov-1831
 baptism -date 14-mar-1832 -location 'kilcalmonell and kilberry' -ref donald1831-baptism
 death -date 19-aug-1901 -location campbeltown -ref donald1831-death
 
-tags 'kilcalmonell and kilberry' campbeltown
+tags 'argyll:kilcalmonell and kilberry' argyll:campbeltown
 external {
     familysearch KZ6S-1WF
 }

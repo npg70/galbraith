@@ -1,7 +1,7 @@
 name Richard Harris Galbraith
 birth -date 17-apr-1918 -location carradale -ref richard1918-birth
 death -date 30-jul-1995 -location campbeltown -ref richard1918-death
-tags 'Saddell and Skipness'
+tags 'Argyll:Saddell and Skipness'
 external {
     findagrave 172200107
     familysearch G8CD-65P

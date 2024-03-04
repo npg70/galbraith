@@ -1,5 +1,5 @@
 name Angus Galbreath
-tags 'dead end' 'kilcalmonell and kilberry'
+tags 'dead end' 'argyll:kilcalmonell and kilberry'
 external {
     familysearch KZ73-274
 }

@@ -5,7 +5,7 @@ note {
     Birth appears to be unrecorded or lost. Census records consistently put his birth as 1840 or 1841, while his death record
     indicates 1837. Given that his father died in 1839, a birth in 1840 isn't impossible.
 }
-tags 'Kilcalmonell and Kilberry' 
+tags 'Argyll:Kilcalmonell and Kilberry' 
 
 body {
 Listed as a joiner in 

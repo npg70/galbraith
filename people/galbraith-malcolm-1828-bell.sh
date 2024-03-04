@@ -2,7 +2,7 @@ name Malcolm Galbraith
 birth -date 29-apr-1828
 baptism -date 9-may-1828 -location 'Kilcalmonell and Kilberry' -ref malcolm1828-baptism
 death -date 8-mar-1908 -location dumbarton -ref malcolm1828-death
-tags 'Kilcalmonell and Kilberry' Dunbarton
+tags 'Argyll:Kilcalmonell and Kilberry' Dunbarton
 
 external {
     familysearch 273X-NLG

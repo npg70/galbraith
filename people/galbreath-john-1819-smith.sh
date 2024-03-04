@@ -1,5 +1,5 @@
 name John Galbreath
-tags 'South Knapdale' 'Tarbert'
+tags 'Argyll:South Knapdale' 'Tarbert'
 external {
     familysearch M15P-K7F
 }

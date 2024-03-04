@@ -1,6 +1,6 @@
 name Hector Galbraith
 birth -date 'about 1800'
-tags 'Kilcalmonell and Kilberry'
+tags 'Argyll:Kilcalmonell and Kilberry'
 external {
     familysearch KHT9-74M
 }

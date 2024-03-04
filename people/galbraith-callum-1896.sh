@@ -2,7 +2,7 @@ name Callum Galbraith
 note {
     Born as "Malcolm"
 }
-tags 'kilcalmonell and kilberry' veteran 'no children'
+tags 'argyll:kilcalmonell and kilberry' veteran 'no children'
 external {
     familysearch GHHR-FV5
     findagrave 115118805

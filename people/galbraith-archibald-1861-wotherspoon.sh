@@ -1,5 +1,5 @@
 name Archibald Galbraith
-tags 'kilcalmonell and kilberry'
+tags 'argyll:kilcalmonell and kilberry'
 external {
     familysearch LV7Y-5RK
 }

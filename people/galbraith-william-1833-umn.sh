@@ -1,5 +1,5 @@
 name William Galbraith
-tags 'Kilcalmonell and Kilberry' Campbeltown 'No Children'
+tags 'Argyll:Kilcalmonell and Kilberry' Argyll:Campbeltown 'No Children'
 baptism -date 9-Aug-1833 -location Kilcalmonell -ref william1833-baptism
 death -date 10-jun-1915 -location Campbeltown -ref william1833-death -note umn
 burial -name Kilkerran -ref william1833-burial

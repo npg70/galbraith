@@ -2,7 +2,7 @@ name John Galbraith
 external {
     familysearch M1RG-5FS
 }
-tags 'South Knapdale' 'Tarbert'
+tags 'Argyll:South Knapdale' 'Tarbert'
 
 birth -date 15-feb-1840
 baptism -date 18-feb-1840 -location 'south knapdale' -ref john1840-baptism                                                                       

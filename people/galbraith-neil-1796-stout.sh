@@ -4,7 +4,7 @@ death -date 11-aug-1879 -location Kilcalmonell -ref neil1794-death
 external {
     familysearch M1YK-YRN
 }
-tags 'Kilcalmonell and Kilberry'
+tags 'Argyll:Kilcalmonell and Kilberry'
 todo {
     Incomplete. Decendants not investigated.  Daughters all got married.
 }

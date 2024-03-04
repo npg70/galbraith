@@ -1,5 +1,5 @@
 name John Galbraith
-tags 'Kilcalmonell and Kilberry'
+tags 'Argyll:Kilcalmonell and Kilberry'
 external {
     familysearch M1YK-YJD
 }

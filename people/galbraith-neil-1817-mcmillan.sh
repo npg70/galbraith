@@ -1,5 +1,5 @@
 name Neil Galbraith
-tags 'saddell and skipness' 
+tags 'argyll:saddell and skipness' 
 external {
     familysearch KC75-NQR
 }

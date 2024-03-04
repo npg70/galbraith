@@ -1,5 +1,5 @@
 name Lachlan Galbraith
-tags 'Saddell and Skipness'
+tags 'Argyll:Saddell and Skipness'
 external {
     familysearch GDQ1-X1W
 }

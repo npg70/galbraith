@@ -1,7 +1,7 @@
 name Neil Galbreath
 baptism -date 23-apr-1808 -location 'south knapdale' -ref neil1808-baptism
 death -date 7-aug-1871 -location 'south knapdale' -ref neil1808-death
-tags 'South Knapdale'
+tags 'Argyll:South Knapdale'
 external {
     familysearch 9M9X-BH8
 }

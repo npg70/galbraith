@@ -1,7 +1,7 @@
 name Donald Galbraith
 baptism -date 1800 -location 'kilcalmonell and kilberry' -ref donald1800-baptism
 death -date 1839 -ref donald1800-death
-tags 'Kilcalmonell and Kilberry'
+tags 'Argyll:Kilcalmonell and Kilberry'
 external {
     familysearch GJR2-DMJ
 }

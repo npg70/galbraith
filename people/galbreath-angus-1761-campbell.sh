@@ -1,5 +1,5 @@
 name Angus Galbreath
-tags 'kilcalmonell and kilberry'
+tags 'argyll:kilcalmonell and kilberry'
 
 birth -date 'say 1761'
 

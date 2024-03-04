@@ -1,7 +1,7 @@
 name Archibald Galbreath
 birth -date 'about 1794'
 death -date 15-feb-1859 -location Saddell -ref archibald1794-death 
-tags 'Kilcalmonell and Kilberry'
+tags 'Argyll:Kilcalmonell and Kilberry'
 external {
     familysearch KCFP-591
 }

@@ -1,5 +1,5 @@
 name Lachlan Galbreath
-tags 'Kilcalmonell and Kilberry'
+tags 'Argyll:Kilcalmonell and Kilberry'
 birth -date 'about 1778'
 death -date sep-1850
 burial -name Largnahension Graveyard -location lochgilphead -ref burial
@@ -12,7 +12,6 @@ note {
     $child-link[galbreath-john-1793-mcphail]{John Galbraith}. Find-a-Grave (in 2023) has them mixed up.
 }
 
-tags 'Kilcalmonell and Kilberry'
 body {
 
 1841 Census, Baluar, Kilcalmonell, Argyllshire, Scotland:$ref[census1841]

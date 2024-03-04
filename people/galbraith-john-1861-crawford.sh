@@ -1,6 +1,6 @@
 name John Galbraith
 birth -date 'about 1761'
-
+tags 'Argyll:South Knapdale'
 external {
     familysearch 9M9X-D8S
 }

@@ -1,5 +1,5 @@
 name Angus Galbraith
-tags 'Kilcalmonell and Kilberry'
+tags 'Argyll:Kilcalmonell and Kilberry'
 baptism -date 18-feb-1827 -location 'kilcalmonell' -ref angus1827-baptism
 death -date 19-jul-1901 -location  'leigh,lancashire,england'
 intro {

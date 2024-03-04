@@ -1,5 +1,5 @@
 name Lachlan Galbreath
-tags 'Kilcalmonell and Kilberry' 'South Knapdale'
+tags 'Argyll:Kilcalmonell and Kilberry' 'Argyll:South Knapdale'
 external {
     familysearch K8JX-MLY
 }

@@ -1,8 +1,8 @@
-name William Arthur Forresster Galbraith
+name William Arthur Forrester Galbraith
 birth -date 25-jun-1909 -location saddell -ref william1909-birth
-tags "Illegitimate" "Saddell and Skipness"
+tags "Illegitimate" "Argyll:Saddell and Skipness"
 body {
-    Mother was "Mary Galbraith.'  Perhaps born in Edinburgh but registered in Saddell/Carradale.
+    Mother was "Mary Galbraith."  Perhaps born in Edinburgh but registered in Saddell/Carradale.
 }
 
 footnotes {

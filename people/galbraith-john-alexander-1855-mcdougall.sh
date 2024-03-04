@@ -1,5 +1,5 @@
 name John Alexander Galbraith
-tags 'saddell and skipness'
+tags 'argyll:saddell and skipness'
 external {
     familysearch G3XR-3S6
     findagrave 172200100

@@ -1,5 +1,5 @@
 name Angus Galbraith
-tags 'Saddell and Skipness'
+tags 'Argyll:Saddell and Skipness'
 birth -date 28-dec-1837
 baptism -date 31-dec-1837 -location 'Saddell and Skipness' -ref angus1837-baptism
 death -date 24-apr-1909 -location ardelve -ref angus1837-death

@@ -5,7 +5,7 @@ external {
     familysearch M1TB-T43
     findagrave 171954722
 }
-tags campbeltown southend
+tags argyll:campbeltown argyll:southend
 note {
     Last child was born when mother was 47.  I've double checked everything and it is correct.
 }

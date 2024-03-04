@@ -1,5 +1,5 @@
 name Neil Galbraith
-tags veteran 'no children' 'saddell and skipness'
+tags veteran 'no children' 'argyll:saddell and skipness'
 
 birth -date 1886 -location Saddell -ref neil1886-birth
 death -date 21-may-1915 -location France

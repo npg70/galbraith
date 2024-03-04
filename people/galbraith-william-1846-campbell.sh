@@ -1,5 +1,5 @@
 name William Galbraith
-tags Southend Campbeltown
+tags Argyll:Southend Argyll:Campbeltown
 external {
     findagrave 178695335
 }

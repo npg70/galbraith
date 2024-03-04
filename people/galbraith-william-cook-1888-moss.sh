@@ -1,5 +1,5 @@
 name William Cook Galbraith
-tags 'Saddell and Skipness'
+tags 'Argyll:Saddell and Skipness'
 external {
     familysearch G3X5-Y7X
     findagrave 172200109

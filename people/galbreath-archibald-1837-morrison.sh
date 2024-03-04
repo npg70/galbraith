@@ -1,5 +1,5 @@
 name Archibald Galbreath
-tags 'South Knapdale'
+tags 'Argyll:South Knapdale'
 baptism -date 28-nov-1837 -location 'south knapdale' -ref archibald1837-baptism
 death -date 19-jan-1936 -location 'south knapdale' -ref archibald1837-death
 todo {

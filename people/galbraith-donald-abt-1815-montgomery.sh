@@ -4,7 +4,7 @@ birth -date 'about 1815'
 external {
     familysearch 9MMT-RLY
 }
-tags Southend 'Dead End'
+tags Argyll:Southend 'Dead End'
 
 note {
     No additional information after 1851 census.  Perhaps immigrated?

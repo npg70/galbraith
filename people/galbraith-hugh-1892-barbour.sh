@@ -2,7 +2,7 @@ name Hugh Galbraith
 birth -date 4-Feb-1892 -location campbeltown -ref hugh1892-birth
 death -date 9-may-1947 -location glasgow -ref hugh1892-death
 burial -name 'kilkerran cemetery'
-tags southend
+tags argyll:southend
 
 external {
     familysearch G4BT-Y62

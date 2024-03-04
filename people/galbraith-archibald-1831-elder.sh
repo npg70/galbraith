@@ -2,7 +2,7 @@ name Archibald Galbraith
 birth -date 21-Apr-1831 -location 'Saddell and Skipness' -ref archibald1831-birth
 death -date 27-jul-1913 -location 'Dingwall, Ross and Cromarty' -ref archibald1831-death
 burial -name 'Fodderty Cemetery Strathpeffer' -location 'Fodderty, Highland, Scotland'
-tags 'Saddell and Skipness'
+tags 'Argyll:Saddell and Skipness'
 
 external {
     familysearch M15G-1SD

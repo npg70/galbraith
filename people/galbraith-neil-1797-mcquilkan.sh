@@ -1,7 +1,7 @@
 name Neil Galbraith
 baptism -date 4-jun-1797 -location Kilcalmonell -ref neil1797-baptism
 death -date 22-jun-1882 -location Kilcalmonell -ref neil1797-death
-tags 'Kilcalmonell and Kilberry'
+tags 'Argyll:Kilcalmonell and Kilberry'
 external {
     familysearch 273X-NNN
 }

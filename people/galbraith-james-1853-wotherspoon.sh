@@ -1,5 +1,5 @@
 name James Galbraith
-tags 'Kilcalmonell and Kilberry' 'Daughtered Out'
+tags 'Argyll:Kilcalmonell and Kilberry' 'Daughtered Out'
 external {
     familysearch M1YP-R7H
 }

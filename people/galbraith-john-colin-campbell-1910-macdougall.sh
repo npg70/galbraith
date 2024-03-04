@@ -1,5 +1,5 @@
 name John Colin Campbell Galbraith
-tags 'Saddell and Skipness'
+tags 'Argyll:Saddell and Skipness'
 external {
     familysearch G8CD-F15
     findagrave 172200101

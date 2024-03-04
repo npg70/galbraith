@@ -1,5 +1,5 @@
 name John McLaren Galbraith
-tags Southend 'No Children' Veteran
+tags Argyll:Southend 'No Children' Veteran
 birth -date 21-Apr-1918 -location southend -ref john1918-birth
 death -date 14-may-1961 -location dumfries -ref john1918-death
 external {

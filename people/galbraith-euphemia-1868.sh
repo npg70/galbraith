@@ -1,6 +1,6 @@
 name Euphemia Galbraith
 birth -date 16-aug-1868 -location 'south knapdale' -ref birth
-tags 'South Knapdale' illegitimate
+tags 'Argyll:South Knapdale' illegitimate
 body {
     Father unknown, mother was "Margarate Galbraith", a domestic servant.
 }
