@@ -10,7 +10,7 @@ partner {
    marriage -date 18-feb-1870 -location 'south knapdale' -ref gillies-marriage
    birth -date 30-mar-1844
    baptism -date 15-apr-1844 -location 'south knapdale'
-   death -date 20-dec-1918 -location kilmalcolm -ref gillies-death
+   death -date 20-dec-1918 -location kilmacolm -ref gillies-death
 
    child galbraith-donald-1870-inglis
     child {

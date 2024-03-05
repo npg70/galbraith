@@ -1,9 +1,9 @@
 name Neil Galbraith
-tags Renfrew:Kilmalcolm Glasgow
+tags Renfrew:Kilmacolm Glasgow
 external {
     familysearch L5BQ-XM5
 }
-birth -date 22-aug-1899 -location kilmalcolm -ref neil1899-birth
+birth -date 22-aug-1899 -location kilmacolm -ref neil1899-birth
 death -date 14-nov-1968 -location glasgow -ref neil1899-death
 partner {
    name Jeanie Rennie

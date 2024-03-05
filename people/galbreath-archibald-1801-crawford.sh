@@ -20,16 +20,9 @@ partner {
         name Janet Galbreath
         birth -date 1834 -location kilberry -note unrecorded
     }
-    child {
-        name Donald Galbraith
-        birth -date 3-may-1836
-        baptism -date 24-may-1836 -location 'South knapdale' -ref donald1836-baptism
-        death -date 26-mar-1888 -location greenock -ref donald1836-death
-        partner {
-            name Ann Jane Johnston
-            marriage -date 10-feb-1865 -location greenock
-        }
-    }
+
+    child galbraith-donald-1836-johnston
+
     child galbraith-neil-1838-gillies   
     child {
         name Archibald Galbraith
@@ -78,12 +71,6 @@ footnotes {
     }
     archibald1804-death {
         $sp-ref-link[d-1861-535-00-0022 0008 "Archibald Galbreath"], Age: 60
-    }
-    donald1836-baptism {    
-        $opr-ref[b-1836-533-000-0020-0094 "Donald Galbreath"]
-    }
-    donald1836-death {
-        $sp-ref-link[d-1888-564-01-0068 0023 "Donald Galbraith"]
     }
     archibald1840-death {   
         $sp-ref-link[d-1905-567-00-0002 0009 "Archibald Galbraith"]

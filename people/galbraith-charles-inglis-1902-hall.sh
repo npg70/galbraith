@@ -1,5 +1,5 @@
 name Charles Inglis Galbraith
-tags Renfrew:Kilmalcolm
+tags Renfrew:Kilmacolm
 external {
     familysearch L5BQ-XJG
     findagrave 208539325
@@ -8,7 +8,7 @@ note {
     Children uninvestigated
 }
 
-birth -date 25-mar-1902 -location kilmalcolm -ref charles1902-birth
+birth -date 25-mar-1902 -location kilmacolm -ref charles1902-birth
 death -date 31-jul-1971 -location 'Port Glasgow, Renfrew' -ref charles1902-death
 partner {
    name Elizabeth Hall

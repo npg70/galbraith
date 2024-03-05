@@ -2,7 +2,7 @@ name Donald Galbraith
 external {
    familysearch M1GK-RLL
 }
-tags Renfrew:Kilmalcolm
+tags Renfrew:Kilmacolm
 birth -date 31-dec-1870 -location dunoon -ref donald1870-birth
 death -date 21-feb-1943 -location kilmacolm -ref donald1870-death
 partner {
@@ -17,12 +17,12 @@ partner {
 
     child {
         name Marion Inglis Galbraith
-        birth -date 1905 -location kilmalcolm -ref marion1905-birth
+        birth -date 1905 -location kilmacolm -ref marion1905-birth
         death -date 1975
     }
     child {
         name Helen Marshall Galbraith
-        birth -date 1907 -location kilmalcolm -ref helen1907-birth
+        birth -date 1907 -location kilmacolm -ref helen1907-birth
         death -date 2006
     }
 }
