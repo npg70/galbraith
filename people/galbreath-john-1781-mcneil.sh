@@ -7,7 +7,7 @@ todo {
     Family Search is a mess. May or may not have immigrated to Ontario, Canada like his son.
 }
 
-tags Argyll::Colonsay Immigrant:Canada:Ontario
+tags Argyll:Colonsay Immigrant:Canada:Ontario
 
 partner {
     name Mary McNeil
