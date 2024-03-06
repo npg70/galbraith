@@ -1,5 +1,12 @@
 name Donald Galbraith
 tags 'Argyll:South Knapdale' Renfrew:Greenock
+external {
+    familysearch LZPC-82L
+    ancestry tree/6883622/person/-25977889
+}
+todo {
+    Many children
+}
 birth -date 3-may-1836
 baptism -date 24-may-1836 -location 'South knapdale' -ref donald1836-baptism
 death -date 26-mar-1888 -location greenock -ref donald1836-death

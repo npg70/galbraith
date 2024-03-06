@@ -1,4 +1,8 @@
 name Duncan Galbraith
+tags Argyll:Tarbert
+external {
+    familysearch M15P-CF4
+}
 birth -date 1-jun-1858 -location tarbert -ref duncan1858-birth
 death -date 30-may-1900 -location tarbert -ref duncan1858-death
 partner {
