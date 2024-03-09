@@ -1,5 +1,5 @@
 name Angus Galbreath
-birth -date 'say 1763'
+birth -date 'say 1738'
 tags 'Argyll:Inverary and Glenaray'
 external {
     familysearch L9HW-WF8
