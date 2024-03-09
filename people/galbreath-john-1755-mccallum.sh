@@ -1,5 +1,6 @@
 name John Galbreath
 birth -date 'say 1755'
+tags 'Argyll:North Knapdale' Argyll:Glassary
 
 external {
     familysearch M15R-6K6

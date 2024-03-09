@@ -1,6 +1,6 @@
 name James Galbreath
 baptism -date 27-dec-1809 -location campbeltown -ref james1809-baptism
-tags Argyll:Campbeltown Immigrant:Canada:Ohio
+tags Argyll:Campbeltown Immigrant:USA:Ohio
 partner {
     name Nancy Cole
     child {

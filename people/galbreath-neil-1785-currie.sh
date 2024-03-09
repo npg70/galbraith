@@ -29,6 +29,6 @@ footnotes {
         $opr-ref-link[b-1785-530-000-0010-0019 "Niel Galbreath"]
     }
     currie-marriage1 {
-        $opr-ref-link[m-1816-511-000-0020-0233 "Neil Galbreath" "Margaret Currie"] Note the index in Scotlands People lists the wife as "MARGARET OR CATHARINE CURRIE OR MACPHERSON FR417 (FR417)" since a line was crossed out in the original register.  Hwoever its very clear it's "Margaret Currie."
+        $opr-ref-link[m-1816-511-000-0020-0233 "Neil Galbreath" "Margaret Currie"] Note the index in Scotlands People lists the wife as "MARGARET OR CATHARINE CURRIE OR MACPHERSON FR417 (FR417)" since a line was crossed out in the original register.  However "Margaret Currie" appears to be correct.
     }
 }
