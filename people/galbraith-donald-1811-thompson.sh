@@ -14,7 +14,7 @@ note {
 partner {
     name Isabel Thompson
     birth -date 1830
-    death -date 28-may-1900 -location 'middledex,ontario,canada'
+    death -date 28-may-1900 -location 'middlesex,ontario,canada'
     marriage -date 09-dec-1851 -location 'Middlesex, Canada West, British Colonial America'
 
     child {

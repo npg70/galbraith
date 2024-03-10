@@ -2,10 +2,11 @@ name Angus Galbreath
 tags Argyll:Colonsay Immigrant:Canada:Ontario
 external {
     familysearch LJ5K-MNJ
+    findagrave 170628128
 }
 
 baptism -date 7-may-1828 -location colonsay -ref angus1828-baptism
-death -date 1880 -location 'Elderslie, Bruce, Ontario, Canada'
+death -date 22-feb-1880 -location 'Elderslie, Bruce, Ontario, Canada'
 partner {
     name Julia Ann Darrach
     marriage -date 16-jun-1856 -location colonsay -ref darrach-marriage

@@ -1,19 +1,24 @@
 name David Galbreath
 birth -date "about 1793"
+death -date 13-jan-1873 -location huron,ontario,canada
 external {
     familysearch K83Z-PK8
+    findagrave 217607595
 }
-tags Argyll:Campbeltown Immigrant:Canada
+tags Argyll:Campbeltown Immigrant:Canada:Ontario:Huron
 
 body {
-    Some or all of the family moved to Canada.
+    Some or all of the family moved to Huron, Ontario, Canada.
 }
 partner {
     name Mary Greenless
+    birth -date 'about 1792'
     marriage -date 9-jul-1818 -location campbeltown -ref marriage
+    death -date 12-apr-1875 -location huron,ontario,canada 
     child {
         name David Galbreath
         baptism -date 1-Apr-1819 -location campebeltown -ref david1819-baptism
+        death -date 26-Jan-1882 -location huron,ontario,canada
     }
     child {
         name Helen Galbreath
@@ -21,7 +26,7 @@ partner {
     }
     child {
         name Mary Galbreath
-        baptism -date 27-Mar-1822 -location campbeltown -ref mary-1822-baptism
+        baptism -date 27-Mar-1822 -location campbeltown -ref mary1822-baptism
     }
     child {
         name Thomas Galbreath
@@ -54,17 +59,19 @@ partner {
     child {
         name Archibald Galbreath
         baptism -date 15-Nov-1836 -location campbeltown -ref archibald1836-baptism
+        death -date 28-aug-1908 -location huron,ontario,canada
     }
     child {
         name Isabella Galbreath
         baptism -date 16-Feb-1842 -location campbeltown -ref isabella1842-baptism
+        death -date 28-aug-1908 -location huron,ontario,canada
     }
 }
 
 footnotes {
     marriage {
         $opr-ref-link[m-1818-507-000-0050-0124 "David Galbreath" "Mary Greenlees"]{
-            David Galbreath Farmer Ugadale and Mary Greenlees daughter of Thomas Greenless Maltster Campbeltown (both of this parish married 9 July 1818
+            David Galbreath Farmer Ugadale and Mary Greenlees daughter of Thomas Greenless Maltster Campbeltown, both of this parish married 9 July 1818
         }
     }
     david1819-baptism {

@@ -6,7 +6,7 @@ external {
     familysearch LDMP-K33
 }
 intro {
-    From Colonsay, the entire family moved to Ontario, Canada around 1851.
+    From Colonsay, the entire family moved to Elderslie,Bruce, Ontario, Canada around 1851.
 }
 note {
     FamilySearch for Catherine has details of Canada Census 1861 and 1871
