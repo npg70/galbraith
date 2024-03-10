@@ -82,6 +82,8 @@ func ParishName(id1, id2 string) string {
 		"522":    "Kilmodan, Argyll",
 		"523":    "Kilmore and Kilbride, Argyll",
 		"526":    "Lochgilphead, Argyll",
+		"527":    "Lochgoilhead, Argyll",
+		"527/1":  "Lochgoilhead, Argyll",
 		"530":    "North Knapdale, Argyll",
 		"531":    "Saddell and Skipness, Argyll",
 		"531/1":  "Saddell, Argyll",

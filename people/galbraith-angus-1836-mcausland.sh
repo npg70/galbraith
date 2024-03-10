@@ -1,5 +1,5 @@
 name Angus Galbraith
-tags 'argyll:kilcalmonel and kilberry' immigrant:canada:ontario
+tags 'argyll:kilcalmonell and kilberry' immigrant:canada:ontario
 external {
     findagrave 101857758
 }

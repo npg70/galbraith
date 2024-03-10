@@ -1,4 +1,6 @@
 name Neil Galbraith
+tags 'Argyll:Lochgoilhead'
+
 birth -date 'about 1792'
 death -date 12-dec-1869 -location Newington,Edinburgh -ref neil1792-death
 external {
@@ -15,11 +17,11 @@ partner {
 
     child {
         name John Galbraith
-        baptism -date 09-apr-1822 -location lochgilphead -ref john1822-baptism
+        baptism -date 09-apr-1822 -location lochgoilhead -ref john1822-baptism
     }
     child {
         name Archibald Galbreath
-        baptism -date 24-feb-1824 -location lochgilphead -ref archibald1824-baptism
+        baptism -date 24-feb-1824 -location lochgoilhead -ref archibald1824-baptism
     }
     child {
         name Peter Galbreath
