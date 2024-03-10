@@ -175,8 +175,7 @@ func indexRoots2(db Root, page tagpage) string {
 		if len(p.Tags) > 0 {
 			out.WriteString("<div class='ms-3 mb-3'>\n")
 			for _, tag := range p.Tags {
-				taglink := "/galbraith/tags/" + strings.ReplaceAll(strings.ToLower(tag), " ", "-") + "/"
-				out.WriteString("<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleTag(tag) + "</a> ")
+				out.WriteString(makeTagButton(page.path, tag))
 			}
 			out.WriteString("</div>\n")
 		}
