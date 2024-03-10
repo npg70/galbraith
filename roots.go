@@ -7,6 +7,8 @@ import (
 	"sort"
 	"strings"
 
+	"golang.org/x/exp/maps"
+
 	"github.com/bep/gitmap"
 )
 
@@ -76,6 +78,7 @@ func indexIndex() string {
 	return out.String()
 }
 
+// home page for tags
 func tagIndex(tmap map[string][]string) string {
 	out := strings.Builder{}
 	out.WriteString(`
@@ -154,10 +157,18 @@ $table{
 	return out.String()
 }
 
-// makes a page showing pages that have a tag
-func indexRoots(db Root, roots []string, title string) string {
+func indexRoots2(db Root, page tagpage) string {
 	out := strings.Builder{}
-	for _, r := range roots {
+
+	out.WriteString("<h1> ")
+	out.WriteString(strings.Join(page.path, " / "))
+	out.WriteString("</h1>\n")
+
+	for _, kid := range page.tags {
+		out.WriteString(makeTagButton(page.path, kid))
+	}
+	out.WriteString("<hr/>\n")
+	for _, r := range page.uids {
 		p := db[r]
 		out.WriteString(fmt.Sprintf("<h5><a href=/galbraith/people/%s>%s</a></h5>\n",
 			r, WriteTitle(p)))
@@ -176,23 +187,119 @@ func indexRoots(db Root, roots []string, title string) string {
 	return out.String()
 }
 
+// given a list of people (roots), display them with the subtags
+func indexRoots(db Root, roots []string, title string) string {
+	out := strings.Builder{}
+	for _, r := range roots {
+		p := db[r]
+		out.WriteString(fmt.Sprintf("<h5><a href=/galbraith/people/%s>%s</a></h5>\n",
+			r, WriteTitle(p)))
+		if len(p.Tags) > 0 {
+			out.WriteString("<div class='ms-3 mb-3'>\n")
+			for _, tag := range p.Tags {
+				makeTagButton(nil, tag)
+			}
+			out.WriteString("</div>\n")
+		}
+		if len(p.Intro) > 0 {
+			out.WriteString("$intro{" + p.Intro + "}\n")
+		}
+	}
+	return out.String()
+}
+
+type tagpage struct {
+	path []string
+	uids []string
+	tags []string
+}
+
+// Current Path
+// All matching childen
+// Tags for next path
+
+func tagmap2(db Root, page tagpage, depth int) []tagpage {
+	if depth == 4 {
+		return nil
+	}
+	// this is a map of TAG --> USERID
+	tmap := make(map[string][]string)
+	for _, uid := range page.uids {
+		// for each tag the user has
+		for _, tag := range db[uid].Tags {
+
+			// split into parts
+			tag = strings.ToLower(tag)
+			tp := strings.Split(tag, ":")
+
+			// foo, foo:bar, foo:bar:ding
+			for i := 1; i <= len(tp); i++ {
+				tg := strings.Join(tp[0:i], ":")
+				// log.Printf("trying: path=%q, tag=%q --> %v", page.path, tg, inLabelPath(page.path, tg))
+				if !inLabelPath(page.path, tg) {
+					tmap[tg] = append(tmap[tg], uid)
+				}
+			}
+		}
+	}
+	children := maps.Keys(tmap)
+	sort.Strings(children)
+	page.tags = children
+	result := []tagpage{page}
+
+	// we now have a set of all tags used with given UIDs
+	for tag, newuids := range tmap {
+		next := tagpage{
+			path: append(page.path, tag),
+			uids: newuids,
+		}
+		result = append(result, tagmap2(db, next, depth+1)...)
+	}
+	return result
+}
+
+func tagStart(db Root) []tagpage {
+
+	// all is all people
+	all := []string{}
+	for uid := range db {
+		all = append(all, uid)
+	}
+	sort.Strings(all)
+
+	next := tagpage{
+		path: []string{"all"},
+		uids: all,
+	}
+	return tagmap2(db, next, 0)
+}
+
 func tagmap(db Root) map[string][]string {
+
+	// mapping of tag ---> list of UIDs
 	idx := map[string][]string{}
 
 	// fake tag "all" that has everyone
 	all := []string{}
 
 	for uid, p := range db {
+
+		// all gets everything
 		all = append(all, uid)
+
+		// append the UID to each tag
 		for _, tag := range p.Tags {
 			tag = strings.ToLower(tag)
 			idx[tag] = append(idx[tag], uid)
 		}
 	}
 	idx["all"] = all
+
+	// sort the list of UIDs so it's stable
 	for tag, uids := range idx {
 		sort.Strings(uids)
 		idx[tag] = uids
 	}
+
 	return idx
 }

@@ -146,7 +146,7 @@ func main() {
 
 	tmap := tagmap(db)
 
-	// make tag index
+	// make descriptive home page for tags and labels
 	p := Tokenizer{}
 	root := p.Parse(strings.NewReader(tagIndex(tmap)))
 	tout, err := RenderPage(base, root)
@@ -164,15 +164,15 @@ func main() {
 		log.Fatalf("couldn't write %q: %s", fullpath, err)
 	}
 
-	// make a page per tag
-	for tag, uids := range tmap {
-		page := p.Parse(strings.NewReader(indexRoots(db, uids, tag)))
+	pages := tagStart(db)
+	for _, tp := range pages {
+		page := p.Parse(strings.NewReader(indexRoots2(db, tp)))
 		tout, err := RenderPage(base, page)
 		if err != nil {
 			log.Fatalf("Template failed: %s", err)
 		}
-		tag = strings.ReplaceAll(strings.ToLower(tag), " ", "-")
-		fullpath = filepath.Join("hugo/static", "tags", tag)
+		tagpath := makeTagFile(tp.path)
+		fullpath = filepath.Join("hugo/static", "tags", tagpath)
 		if err := os.MkdirAll(fullpath, 0750); err != nil {
 			log.Fatalf("Unable to make directory %s", err)
 		}

@@ -21,9 +21,7 @@ func renderFuncs() map[string]TagFunc {
 			return fmt.Sprintf("<a rel='noreferrer' target='_blank' href=%q>%s</a>", args[1], body)
 		},
 		"tag-link": func(args []string, body string) string {
-			tag := strings.ToLower(body)
-			taglink := "/galbraith/tags/" + strings.ReplaceAll(tag, " ", "-") + "/"
-			return "<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + TitleTag(tag) + "</a>\n"
+			return makeTagButton(nil, body)
 		},
 		"title": func(args []string, body string) string {
 			return "title: " + body + "\n"
@@ -102,8 +100,7 @@ func renderFuncs() map[string]TagFunc {
 			s := strings.Builder{}
 			s.WriteString("<div class=''>\n")
 			for _, tag := range args[1:] {
-				taglink := "/galbraith/tags/" + strings.ReplaceAll(strings.ToLower(tag), " ", "-") + "/"
-				s.WriteString("<a class='btn btn-sm btn-secondary text-decoration-none' href=" + taglink + ">" + TitleTag(tag) + "</a> ")
+				s.WriteString(makeTagButton(nil, tag))
 			}
 			s.WriteString("</div>\n")
 			return s.String()
