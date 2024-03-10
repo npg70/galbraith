@@ -2,6 +2,7 @@ name Malcolm Galbreath
 tags Argyll:Glassary Immigrant:canada:ontario
 external {
     familysearch 9XTL-L9P
+    findagrave 124845483
 }
 baptism -date 13-jan-1799 -location glassary -ref malcolm1799-baptism
 

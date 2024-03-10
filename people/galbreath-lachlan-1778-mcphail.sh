@@ -50,13 +50,8 @@ partner {
     child {
         name Margaret Galbreath
         baptism -date 8-oct-1806 -location 'kilcalmonell and kilberry' -ref margaret1806-baptism
-        death -date 1864 -location canada
-        partner {
-            name Neil Galbreath
-            marriage -date 9-aug-1834 -location 'kilcalmonell and kilberry' -ref margaret1806-marriage
-        }
         body {
-            one son Angus.  They appear in the 1841 and 1851 Census of Campbeltown.  Neil's birth estiamted at 1811.  At age 36, no children, so perhaps none.
+            Married $child-link[galbraith-neil-1791-galbraith]{Neil Galbraith}
         }
     }
 
@@ -97,9 +92,6 @@ footnotes {
     }
     margaret1806-baptism {
         $opr-ref[b-1806-516-000-0010-0175 "Margaret Galbreath"]
-    }
-    margaret1806-marriage {
-        $opr-ref-link[m-1834-516-000-0020-0388 "Margaret Galbreath" "Niel Galbreath"]
     }
     duncan1811-baptism {
         $opr-ref[b-1811-516-000-0010-0212 "Duncan Galbreath"]

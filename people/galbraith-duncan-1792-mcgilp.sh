@@ -2,9 +2,12 @@ name Duncan Galbraith
 external {
     familysearch K4XW-TFP
 }
-birth -date 'about 1793'
-death -date 20-apr-1885 -location Lochgilphead -ref duncan1793-death
-tags Argyll:Lochgilphead
+baptism -date 30-dec-1792 -location 'north knapdale' -ref dugald1792-baptism
+death -date 20-apr-1885 -location Lochgilphead -ref duncan1792-death
+tags 'Argyll:North Knapdale' Argyll:Lochgilphead
+note {
+    Baptized as Dugald.
+}
 partner {
     name Christina McGilp
     marriage -date 2-jun-1823 -location 'north knapdale' -ref mcgilp-marriage
@@ -32,11 +35,14 @@ partner {
 }
 
 footnotes {
-    duncan1793-death {
+    dugald1792-baptism {
+        $opr-ref-link[b-1792-530-000-0010-0036 "Dugald Galbreath"]
+    }
+    duncan1792-death {
         $sp-ref-link[d-1885-526-00-0030 0010 "Duncan Galbraith"]{
         Name: Duncan Galbraith, Farmer, widower of Christina McGilp;
         Date: 1885 April Twentieth;
-        Age: 92 $i{birth 1793};
+        Age: 92 [$i{birth 1793}];
         Father: Alexander Galbraith, Farmer;
         Mother: Mary Reitch;
         Present: Alex'd Galbraith, Grandson;
