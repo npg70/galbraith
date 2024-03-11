@@ -1,4 +1,5 @@
 name Helen Galbreath
+tags Argyll:Gigha Argyll:Campbeltown
 birth -date 'about 1764' -location gigha
 death -date 9-feb-1855 -location campbeltown -ref death
 burial -name 'Kilkerran Cemetery' 
@@ -11,7 +12,7 @@ Parents listed as Malcom Galbreath and Margaret Stewart.  In Gigha there is a re
 note {
     Gigha baptism records didn't start until 1794, so it's unlikely any documentation of her birth will be found.
 }
-note {
+todo {
     TODO: many children.
 }
 

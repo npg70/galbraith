@@ -1,4 +1,5 @@
 name John Galbreath
+tags 'Argyll:North Knapdale' Renfrew:Greenock
 external {
     familysearch M1RY-LMN
 }

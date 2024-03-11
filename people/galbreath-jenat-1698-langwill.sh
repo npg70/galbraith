@@ -1,4 +1,5 @@
 name Janet Galbreath
+tags Argyll:Campbeltown
 baptism -date 24-feb-1698 -location campbeltown -ref janet1698-baptism
 external {
     familysearch LQRH-NLV

@@ -1,4 +1,5 @@
 name Janet Galbreath
+tags Argyll:Campbeltown
 baptism -date 14-Oct-1711 -location Campbeltown -ref janet1711-baptism
 partner {
 	name James Ryburn

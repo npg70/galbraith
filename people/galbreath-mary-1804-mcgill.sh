@@ -1,4 +1,5 @@
 name Mary Galbreath
+tags Argyll:Campbeltown Immigrant:Canada:Ontario:Elgin
 birth -date 18-may-1804
 baptism -date 22-may-1804 -location campbeltown -ref mary1804-baptism
 death -date 18-jan-1873 -location Aldborough,Elgin,Ontario,Canada 

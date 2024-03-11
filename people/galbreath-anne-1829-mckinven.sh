@@ -1,4 +1,5 @@
 name Anne Galbreath
+tags Argyll:Campbeltown
 baptism -date 2-jun-1829 -location campbeltown -ref anne1829-bapt
 death -date 17-Sep-1863 -location campbeltown -ref anne1829-death
 note {

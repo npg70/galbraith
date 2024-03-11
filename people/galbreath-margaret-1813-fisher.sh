@@ -1,4 +1,5 @@
 name Margaret Galbreath
+tags 'Argyll:Killean and Kilchenzie' Argyll:Campbeltown
 baptism -date 13-Sep-1813 -location 'killean and kilchenzie' -ref peggy-bapt
 death -date 10-Jan-1888 -location campbeltown -ref peggy-death
 burial -name 'Kilchenzie Cemetery' -ref peggy-burial

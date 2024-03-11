@@ -1,4 +1,5 @@
 name Dugald Galbreath
+tags Argyll:Campbeltown
 birth -date 30-jul-1845
 baptism -date 31-Jul-1845 -location campbeltown -ref dugald1845-baptism
 death -date 2-may-1908 -location campbeltown -ref dugald1845-death

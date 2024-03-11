@@ -1,4 +1,5 @@
 name Neil Galbreath
+tags 'Argyll:North Knapdale' Argyll:Lochgilphead
 baptism -date 17-jul-1834 -location 'north knapdale' -ref neil1834-baptism
 
 partner {

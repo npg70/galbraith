@@ -1,4 +1,5 @@
 name Janet Galbreath
+tags Argyll:Campbeltown
 birth -date "abt 1785"
 death -date 23-Oct-1859 -location campbeltown -ref death
 partner {

@@ -1,4 +1,5 @@
 name Duncan Galbreath
+tags 'Argyll:Killean and Kilchenzie' 'Renfrew:Paisley' Argyll:Campbeltown
 baptism -date 20-Jun-1815 -location 'killean and kilchenzie' -ref duncan-bapt
 death -date 22-jul-1859 -location 'paisley low church' -ref duncan-death
 partner {

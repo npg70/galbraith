@@ -1,4 +1,5 @@
 name John Galbreath
+tags Argyll:Campbeltown
 baptism -date 2-may-1760 -location campbeltown -ref john1760-baptism
 
 external {

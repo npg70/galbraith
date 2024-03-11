@@ -1,4 +1,5 @@
 name Margaret Galbreath
+tags Argyll:Campbeltown
 birth -date 5-Dec-1762
 baptism -date 9-dec-1762 -location campbeltown -ref margaret1762-baptism
 death -date 9-sep-1821

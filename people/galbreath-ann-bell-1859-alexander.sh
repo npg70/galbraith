@@ -1,4 +1,5 @@
 name Ann Bell Galbreath
+tags Ayr Immigrant:Canada:Manitoba
 birth -date 26-mar-1859 -location Kilmaurs,Ayr -ref ab-birth
 death -date 3-jan-1937 -location 'Manitoba, Canada'
 external {

@@ -1,4 +1,5 @@
 name Lachlan Galbreath
+tags Argyll:Campbeltown 'Argyll:Gigha' 'Argyll:killean and kilchenzie'
 
 birth -date 'about 1762'
 external {
