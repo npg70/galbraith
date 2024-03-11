@@ -1,4 +1,5 @@
 name Martha Galbraith
+tags 'Argyll:Saddell and Skipness' Argyll:Campbeltown
 external {
     familysearch GMRV-V7V
 }

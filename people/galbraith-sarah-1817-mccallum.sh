@@ -1,4 +1,5 @@
 name Sarah Galbraith
+tags Argyll:Campbeltown
 baptism -date 8-Apr-1817 -location campbeltown -ref sarah1817-baptism
 death -date 9-jul-1881 -location campbeltown -ref sarah1817-death
 burial -name 'Kilkerran Cemetery'

@@ -1,4 +1,5 @@
 name John McCorkindale Galbraith
+tags Argyll:Campbeltown
 birth -date 18-aug-1886 -location campbeltown -ref john1886-birth
 death -date 19-jun-1974 -location campbeltown -ref john1886-death
 external {

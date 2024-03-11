@@ -1,4 +1,5 @@
 name Malcolm Galbraith
+tags Renfrew:Greenock Argyll:Colonsay Glasgow
 birth -date 25-sep-1879 -location greenock -ref malcolm1879-birth
 death -date 21-feb-1965 -location glasgow -ref malcolm1879-death
 partner {
