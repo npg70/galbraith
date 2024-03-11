@@ -1,4 +1,6 @@
 name John Galbraith
+tags 'Argyll:Kilcalmonell and Kilberry' Argyll:Campbeltown Renfrew:Greenock
+
 birth -date 25-mar-1836
 baptism -date 21-jul-1836 -location kilcalmonell -ref john1836-baptism
 external {

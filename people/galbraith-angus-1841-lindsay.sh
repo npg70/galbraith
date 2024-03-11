@@ -1,4 +1,5 @@
 name Angus Galbreath
+tags Argyll:Campbeltown
 baptism -date 5-Dec-1841 -location campbeltown -ref angus1841-baptism
 death -date 1876 -location 'mid calder, midlothian' -ref angus1841-death
 todo {

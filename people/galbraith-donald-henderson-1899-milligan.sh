@@ -1,6 +1,7 @@
 name Donald Henderson Galbraith
 birth -date 6-may-1899 -location govan -ref birth
 death -date 10-apr-1938 -location greenock -ref death
+tags Renfrew:Greenock
 external {
     familysearch GV6Z-KVF
 }

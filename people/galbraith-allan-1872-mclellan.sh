@@ -1,4 +1,5 @@
 name Allan Galbraith
+tags Argyll:Lochgilphead
 birth -date 1872 -location lochgilphead -ref allan1872-birth
 
 partner {

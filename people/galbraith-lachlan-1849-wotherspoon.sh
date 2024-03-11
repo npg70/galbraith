@@ -1,5 +1,5 @@
 name Lachlan Galbraith
-tags 'Daughtered Out'
+tags 'Daughtered Out' 'Argyll:Gigha' 'Argyll:Kilmartin'
 external { 
     familysearch M1BH-CJX
     findagrave 115118797

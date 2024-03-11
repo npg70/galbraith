@@ -1,8 +1,9 @@
 name Alexander Walter Galbraith
+tags 'Argyll:Saddell and Skipness' Argyll:Campbeltown
 external {
     familysearch LB45-J5V
 }
-birth -date 20-mar-1924 -location carradale
+birth -date 20-mar-1924 -location carradale -ref alexander1924-birth
 death -date jul-2007 -location campbeltown -ref alexander1924-death
 
 partner {

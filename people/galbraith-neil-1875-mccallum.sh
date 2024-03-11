@@ -1,4 +1,5 @@
 name Neil Galbraith
+tags 'Argyll:Saddell and Skipness' Argyll:Campbeltown
 birth -date 7-jan-1875 -location saddell -ref neil1875-birth
 partner {
    name Jeanie McCallum

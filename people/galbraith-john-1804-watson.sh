@@ -1,4 +1,5 @@
 name John Galbraith
+tags Argyll:Campbeltown
 baptism -date 13-may-1804 -location campbeltown -ref birth
 death -date 12-jul-1871 -location campbeltown -ref death
 external {

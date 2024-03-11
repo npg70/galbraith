@@ -1,4 +1,5 @@
 name Colin Mitchell Galbraith
+tags 'Argyll:Lochgilphead' 'Argyll:South Knapdale'
 birth -date 1888 -location lochgilphead -ref colin1888-birth
     
 partner {

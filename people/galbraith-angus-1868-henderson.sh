@@ -1,4 +1,5 @@
 name Angus Galbraith
+tags Ayr
 birth -date 3-mar-1868 -location govan -ref birth
 death -date 1-jan-1936 -location kilmarnock,ayr -ref death
 external {

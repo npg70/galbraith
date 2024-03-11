@@ -1,4 +1,5 @@
 name Elizabeth McMillan Galbraith
+tags 'Argyll:Killean and Kilchenzie'
 birth -date 17-apr-1895 -location 'killean and kilchenzie' -ref elizabeth1895-birth
 partner {
     name John McCormack

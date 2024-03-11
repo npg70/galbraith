@@ -1,4 +1,8 @@
 name Alexander Archibald Galbraith
+tags 'Argyll:Saddell and Skipness'
+todo {
+    cleanup sources
+}
 birth -date 1945 -location Carradale -ref aa-birth
 death -date 25-jan-2022 -location Carradale -ref aa-death
 partner {

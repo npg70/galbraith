@@ -1,4 +1,5 @@
 name Archibald Galbraith
+tags Agyll:Campbeltown
 external {
     familysearch M1YS-YRV
     wikitree Galbraith-2459

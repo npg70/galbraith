@@ -1,4 +1,5 @@
 name Hector Galbraith
+tags 'Argyll:Campbeltown' 'Argyll:Southend'
 birth -date 7-nov-1859 -location campbeltown -ref hector1859-birth
 death -date 18-nov-1921 -location southend -ref hector1859-death
 external {

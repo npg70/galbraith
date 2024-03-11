@@ -1,4 +1,5 @@
 name Neil Galbreath
+tags Argyll:Campbeltown 'Argyll:Saddell and Skipness'
 birth -date 18-aug-1841
 baptism -date 30-dec-1841 -location campbeltown -ref neil1841-baptism
 death -date 21-apr-1873 -location Saddell -ref neil1841-death -note "by drowning / suicide"

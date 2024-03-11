@@ -1,6 +1,9 @@
 name Patrick Galbreath
+tags Argyll:Campbeltown
 baptism -date 31-May-1718 -location Campbeltown -ref patrick1718-baptism
-body "unclear why i made this a separate entry"
+todo {
+    unclear why i made this a separate entry
+}
 
 footnotes {
 patrick1718-baptism {   

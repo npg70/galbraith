@@ -1,4 +1,5 @@
 name Lachlan Galbraith
+tags 'Argyll:South Knapdale'
 birth -date 8-nov-1856 -location 'South Knapdale' -ref lachlan1856-birth
 death -date 28-nov-1922 -location 'Barrhead and Levern, Renfrew' -ref lachlan1856-death
 external {

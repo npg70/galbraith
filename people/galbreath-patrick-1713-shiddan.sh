@@ -1,4 +1,5 @@
 name Patrick Galbreath
+tags Argyll:Campbeltown
 baptism -date 20-aug-1713 -location campbeltown -ref patrick1713-baptism
 partner {
     name Martha Shiddan

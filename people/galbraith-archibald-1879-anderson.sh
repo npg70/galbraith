@@ -1,4 +1,5 @@
 name Archibald Galbraith
+tags 'Argyll:South Knapdale'
 birth -date 5-may-1879 -location 'south knapdale' -ref archibald1879-birth
 death -date 9-aug-1921  -location 'biggar, lanark' -ref archibald1879-death
 partner {

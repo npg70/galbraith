@@ -1,4 +1,5 @@
 name James Galbraith
+tags 'Argyll:kilcalmonell and kilberry'
 birth -date 2-mar-1881 -location Kilcalmonell -ref james1881-birth
 death -date 5-dec-1936 -location Dingwall -ref james1881-death
 partner {

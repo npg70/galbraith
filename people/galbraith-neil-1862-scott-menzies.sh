@@ -1,5 +1,6 @@
 name Neil Galbraith
-birth -date 17-aug-1862 -location kilcalmonnell -ref neil1862-birth
+tags 'Argyll:Kilcalmonell and Kilberry'
+birth -date 17-aug-1862 -location kilcalmonell -ref neil1862-birth
 death -date 22-nov-1932 -location Dennistoun,Glasgow -ref neil1862-death
 
 partner {

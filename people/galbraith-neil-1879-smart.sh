@@ -1,4 +1,5 @@
 name Neil Galbraith
+tags 'Argyll:South Knapdale' argyll:Campbeltown argyll:Dunoon
 external {
     familysearch G8X9-J95
 }

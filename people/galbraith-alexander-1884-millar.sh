@@ -1,4 +1,8 @@
 name Alexander Galbraith
+tags Argyll:Kildaton
+todo {
+    Children need references.
+}
 birth -date 19-oct-1884 -location kildaton -ref alexander1884-birth
 death -date 19-feb-1938 -location govan -ref alexander1884-death
 partner {

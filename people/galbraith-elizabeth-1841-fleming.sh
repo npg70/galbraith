@@ -1,8 +1,11 @@
 name Elizabeth Galbraith
+tags Argyll:Campbeltown
 birth -date 25-apr-1841
 baptism -date 10-may-1841 -location campbeltown -ref elizabeth1841-baptism
 death -date 10-jan-1931 -location campbeltown -ref elizabeth1841-death
-
+todo {
+    cleanup html
+}
 external {
     familysearch M1TD-WMJ
     findagrave 167874666

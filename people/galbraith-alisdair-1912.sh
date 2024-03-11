@@ -1,5 +1,5 @@
 name Alisdair Galbraith
-tags veteran
+tags veteran 'Argyll:Saddell and Skipness'
 external {
     familysearch G3XR-JTK
     findagrave 172200085

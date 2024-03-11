@@ -1,4 +1,5 @@
 name John Galbraith
+tags Argyll:Campbeltown
 baptism -date 3-sep-1809 -location campbeltown -ref john1809-baptism
 death -date 12-sep-1881 -location 'Didsbury Manchester Lancashire, United Kingdom' 
 external {

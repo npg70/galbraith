@@ -1,4 +1,5 @@
 name Archibald Galbraith
+tags 'Argyll:Kilcalmonell and Kilberry' Glasgow
 birth -date 5-nov-1842
 baptism -date 24-dec-1842 -location 'Kilcalmonell and Kilberry' -ref archibald1842-baptism
 death -date 31-mar-1889 -location glasgow -ref archibald1842-death

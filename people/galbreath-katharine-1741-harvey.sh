@@ -1,4 +1,5 @@
 name Katharine Galbreath
+tags Argyll:Campbeltown
 baptism -date 10-may-1741 -location campbeltown -ref katharine1741-baptism
 birth -date 3-may-1741
 external () {

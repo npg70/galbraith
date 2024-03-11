@@ -1,4 +1,5 @@
 name Archibald Galbraith
+tags Bute Argyll:Campbeltown 'Argyll:Killean and Kilchenzie'
 baptism -date 29-jun-1817 -location Killean -ref archibald1817-baptism
 death -date 9-oct-1892 -location 'kinning park, glasgow' -ref archibald1817-death
 external {

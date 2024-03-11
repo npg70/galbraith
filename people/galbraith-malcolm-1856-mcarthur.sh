@@ -1,4 +1,5 @@
 name Malcom Galbreath
+tags Argyll:Gigha Argyll:Lochgilphead
 birth -date 10-sep-1856 -location gigha -ref malcolm1856-birth
 
 partner {

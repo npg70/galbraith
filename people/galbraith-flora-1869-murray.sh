@@ -1,4 +1,5 @@
 name Flora Galbraith
+tags Argyll:Campbeltown
 birth -date 'about 1869' -location campbeltown
 death -date 8-sep-1914 -location campbeltown -ref flora1869-death
 

@@ -1,4 +1,5 @@
 name Donald Henderson Galbraith
+tags Renfrew:Greenock
 birth -date 1929 -location 'Greenock East' -ref birth
 death -date 18-sep-2018 -location troon,ayrshire,scotland -ref death
 partner {

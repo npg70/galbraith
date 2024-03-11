@@ -1,4 +1,5 @@
 name Alexander Galbraith
+tags Argyll:Campbeltown
 birth -date 16-feb-1891 -location campbeltown -ref alexander1891-birth
 death -date 24-jun-1964 -location 'Rutherglen, Lanarkshire, Scotland, United Kingdom' -ref alexander1891-death
 partner {

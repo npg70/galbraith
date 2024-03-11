@@ -1,4 +1,5 @@
 name Charles Edward Galbraith
+tags Glasgow
 external {
     familysearch 93BC-89N
     findagrave 249312056
