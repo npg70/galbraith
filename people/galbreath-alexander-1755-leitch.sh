@@ -2,7 +2,7 @@ name Alexander Galbreath
 external {
     familysearch KZ27-8Q8
 }
-tags 'argyll:north knapdale'  immigrant:canada:ontario
+tags 'argyll:north knapdale'  immigrant:canada:ontario:middlesex
 
 birth -date 'say 1755'
 death -date 1851 -location Ekfrid,Middlesex,Ontario,Canada -note unconfirmed

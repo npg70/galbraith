@@ -1,11 +1,11 @@
 name Neil Galbreath
-tags 'Argyll:North Knapdale' Immigrant:Canada:Ontario
+tags 'Argyll:North Knapdale' Immigrant:Canada:Ontario:Middlesex
 external {
     familysearch M1R1-KYZ
     findagrave 93835558 
 }
 baptism -date 27-dec-1785 -location 'North Knapdale' -ref neil1785-baptism
-death -date 1857 -location 'Ekfrid, Middlesex County, Ontario, Canada'
+death -date 1857 -location 'Ekfrid, Middlesex, Ontario, Canada'
 burial -date 1857 -name 'Mayfair Cemetery' -location 'Mayfair, Middlesex County, Ontario, Canada'
 
 todo {

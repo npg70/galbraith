@@ -1,5 +1,5 @@
 name John Galbreath
-tags Argyll:Glassary Immigrant:Canada:Ontario
+tags Argyll:Glassary Immigrant:Canada:Ontario:Elgin
 external {
     findagrave 111121055
     familysearch LBYK-Y9V

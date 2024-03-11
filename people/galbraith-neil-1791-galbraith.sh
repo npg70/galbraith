@@ -3,7 +3,7 @@ tags 'Argyll:Kilcalmonel and Kilberry'
 external {
     findagrave 101858057
 }
-tags 'immigrant:canada:ontario'
+tags 'immigrant:canada:ontario:middlesex'
 note {
     Immigration to Middlesex, Ontario, Canada in July, 1863.
 }

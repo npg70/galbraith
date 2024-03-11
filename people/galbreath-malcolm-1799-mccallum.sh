@@ -1,5 +1,5 @@
 name Malcolm Galbreath
-tags Argyll:Glassary Immigrant:canada:ontario
+tags Argyll:Glassary Immigrant:canada:ontario:middlesex
 external {
     familysearch 9XTL-L9P
     findagrave 124845483

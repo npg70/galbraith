@@ -1,5 +1,5 @@
 name Angus Galbreath
-tags Argyll:Colonsay Immigrant:Canada:Ontario
+tags Argyll:Colonsay Immigrant:Canada:Ontario:Bruce
 external {
     familysearch LJ5K-MNJ
     findagrave 170628128

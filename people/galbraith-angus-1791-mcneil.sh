@@ -1,5 +1,5 @@
 name Angus Galbreath
-tags Argyll:Colonsay Immigrant:Canada:Ontario
+tags Argyll:Colonsay Immigrant:Canada:Ontario:Bruce
 birth -date 'about 1791'
 death -date nov-1851 -location 'ontario,canada'
 external {

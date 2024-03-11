@@ -1,7 +1,7 @@
 name Archibald Galbreath
 baptism -date 22-jan-1817 -location colonsay -ref archibald1817-baptism
 death -date 25-jan-1898  -location 'Saugeen,Bruce,Ontario,Canada'
-tags Argyll:Colonsay Immigrant:Canada:Ontario
+tags Argyll:Colonsay Immigrant:Canada:Ontario:Bruce
 external {
     familysearch LZDD-6V9
     findagrave 170426248
