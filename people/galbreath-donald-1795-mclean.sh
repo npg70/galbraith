@@ -1,7 +1,7 @@
 name Donald Galbreath
 birth -date 'say 1795' -location colonsay
 death -date 3-jan-1867 -location 'Elderslie Township, Bruce, Ontario, Canada'
-tags Argyll:Colonsay Immigrant:Canada:Ontario
+tags Argyll:Colonsay Immigrant:Canada:Ontario:Bruce
 external {
     familysearch KH1J-4Z6
     findagrave 170628191
