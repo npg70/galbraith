@@ -89,71 +89,35 @@ func main() {
 
 	writeIndexPage()
 
-	//
-	// Write OPR Birth Index
-	//
-	page := Execute(oprindex(db, "b"), renderFuncs())
-	fullpath := filepath.Join("hugo/content", "indexes/opr-birth-index.html")
-	log.Printf("Writing %q", fullpath)
-	err = os.WriteFile(fullpath, []byte(page), 0666)
-	if err != nil {
-		log.Fatalf("couldn't write %q: %s", fullpath, err)
-	}
+	writePage("hugo/static", "indexes/opr-birth-index", base,
+		oprindex(db, "b"))
 
-	// Write OPR Death Index
-	//
-	page = Execute(oprindex(db, "d"), renderFuncs())
-	fullpath = filepath.Join("hugo/content", "indexes/opr-death-index.html")
-	log.Printf("Writing %q", fullpath)
-	err = os.WriteFile(fullpath, []byte(page), 0666)
-	if err != nil {
-		log.Fatalf("couldn't write %q: %s", fullpath, err)
-	}
-	// Write OPR Marriage Index
-	//
-	page = Execute(oprindex(db, "m"), renderFuncs())
-	fullpath = filepath.Join("hugo/content", "indexes/opr-marriage-index.html")
-	log.Printf("Writing %q", fullpath)
-	err = os.WriteFile(fullpath, []byte(page), 0666)
-	if err != nil {
-		log.Fatalf("couldn't write %q: %s", fullpath, err)
-	}
-	// Write SP Birth Index
-	page = Execute(spindex(db, "b"), renderFuncs())
-	fullpath = filepath.Join("hugo/content", "indexes/statutory-birth-index.html")
-	log.Printf("Writing %q", fullpath)
-	err = os.WriteFile(fullpath, []byte(page), 0666)
-	if err != nil {
-		log.Fatalf("couldn't write %q: %s", fullpath, err)
-	}
-	// Write SP Death Index
-	page = Execute(spindex(db, "d"), renderFuncs())
-	fullpath = filepath.Join("hugo/content", "indexes/statutory-death-index.html")
-	log.Printf("Writing %q", fullpath)
-	err = os.WriteFile(fullpath, []byte(page), 0666)
-	if err != nil {
-		log.Fatalf("couldn't write %q: %s", fullpath, err)
-	}
+	writePage("hugo/static", "indexes/opr-death-index", base,
+		oprindex(db, "d"))
 
-	// Write SP Marriage Index
-	page = Execute(spindex(db, "m"), renderFuncs())
-	fullpath = filepath.Join("hugo/content", "indexes/statutory-marriage-index.html")
-	log.Printf("Writing %q", fullpath)
-	err = os.WriteFile(fullpath, []byte(page), 0666)
-	if err != nil {
-		log.Fatalf("couldn't write %q: %s", fullpath, err)
-	}
+	writePage("hugo/static", "indexes/opr-marriage-index", base,
+		oprindex(db, "m"))
+
+	writePage("hugo/static", "indexes/statutory-birth-index", base,
+		spindex(db, "b"))
+
+	writePage("hugo/static", "indexes/statutory-death-index", base,
+		spindex(db, "d"))
+
+	writePage("hugo/static", "indexes/statutory-marriage-index", base,
+		spindex(db, "m"))
+
+	p := Tokenizer{}
 
 	tmap := tagmap(db)
 
 	// make descriptive home page for tags and labels
-	p := Tokenizer{}
 	root := p.Parse(strings.NewReader(tagIndex(tmap)))
 	tout, err := RenderPage(base, root)
 	if err != nil {
 		log.Fatalf("Template failed: %s", err)
 	}
-	fullpath = "hugo/static/tags"
+	fullpath := "hugo/static/tags"
 	if err := os.MkdirAll(fullpath, 0750); err != nil {
 		log.Fatalf("Unable to make directory %s", err)
 	}
