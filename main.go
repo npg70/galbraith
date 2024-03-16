@@ -12,35 +12,6 @@ func init() {
 	// flag stuff
 }
 
-func writeIndexPage() {
-	/* set up base template */
-	baset, err := os.ReadFile("baseof.html")
-	if err != nil {
-		log.Fatalf("can't find template: %s", err)
-	}
-	base, err := CreatePageTemplate(string(baset), RenderFunc(renderFuncs()))
-	if err != nil {
-		log.Fatalf("Unable to create template: %s", err)
-	}
-
-	p := Tokenizer{}
-	root := p.Parse(strings.NewReader(indexIndex()))
-	tout, err := RenderPage(base, root)
-	if err != nil {
-		log.Fatalf("Template failed: %s", err)
-	}
-	fullpath := "hugo/static/indexes"
-	if err := os.MkdirAll(fullpath, 0750); err != nil {
-		log.Fatalf("Unable to make directory %s", err)
-	}
-	fullpath = filepath.Join(fullpath, "index.html")
-	log.Printf("Writing %q", fullpath)
-	err = os.WriteFile(fullpath, []byte(tout), 0666)
-	if err != nil {
-		log.Fatalf("couldn't write %q: %s", fullpath, err)
-	}
-}
-
 func main() {
 	outdir := ""
 	rootsOnly := false
@@ -87,64 +58,35 @@ func main() {
 		}
 	}
 
-	writeIndexPage()
+	writePage(outdir, "indexes", base, indexIndex())
 
-	writePage("hugo/static", "indexes/opr-birth-index", base,
+	writePage(outdir, "indexes/opr-birth-index", base,
 		oprindex(db, "b"))
 
-	writePage("hugo/static", "indexes/opr-death-index", base,
+	writePage(outdir, "indexes/opr-death-index", base,
 		oprindex(db, "d"))
 
-	writePage("hugo/static", "indexes/opr-marriage-index", base,
+	writePage(outdir, "indexes/opr-marriage-index", base,
 		oprindex(db, "m"))
 
-	writePage("hugo/static", "indexes/statutory-birth-index", base,
+	writePage(outdir, "indexes/statutory-birth-index", base,
 		spindex(db, "b"))
 
-	writePage("hugo/static", "indexes/statutory-death-index", base,
+	writePage(outdir, "indexes/statutory-death-index", base,
 		spindex(db, "d"))
 
-	writePage("hugo/static", "indexes/statutory-marriage-index", base,
+	writePage(outdir, "indexes/statutory-marriage-index", base,
 		spindex(db, "m"))
-
-	p := Tokenizer{}
 
 	tmap := tagmap(db)
 
-	// make descriptive home page for tags and labels
-	root := p.Parse(strings.NewReader(tagIndex(tmap)))
-	tout, err := RenderPage(base, root)
-	if err != nil {
-		log.Fatalf("Template failed: %s", err)
-	}
-	fullpath := "hugo/static/tags"
-	if err := os.MkdirAll(fullpath, 0750); err != nil {
-		log.Fatalf("Unable to make directory %s", err)
-	}
-	fullpath = filepath.Join(fullpath, "index.html")
-	log.Printf("Writing %q", fullpath)
-	err = os.WriteFile(fullpath, []byte(tout), 0666)
-	if err != nil {
-		log.Fatalf("couldn't write %q: %s", fullpath, err)
-	}
+	writePage(outdir, "tags", base, tagIndex(tmap))
 
 	pages := tagStart(db)
 	for _, tp := range pages {
-		page := p.Parse(strings.NewReader(indexRoots2(db, tp)))
-		tout, err := RenderPage(base, page)
-		if err != nil {
-			log.Fatalf("Template failed: %s", err)
-		}
 		tagpath := makeTagFile(tp.path)
-		fullpath = filepath.Join("hugo/static", "tags", tagpath)
-		if err := os.MkdirAll(fullpath, 0750); err != nil {
-			log.Fatalf("Unable to make directory %s", err)
-		}
-		fullpath = filepath.Join(fullpath, "index.html")
-		log.Printf("Writing %q", fullpath)
-		if err := os.WriteFile(fullpath, []byte(tout), 0666); err != nil {
-			log.Fatalf("couldn't write %q: %s", fullpath, err)
-		}
+		writePage(outdir, filepath.Join("tags", tagpath), base,
+			indexRoots2(db, tp))
 	}
 
 	for _, rootid := range roots {
