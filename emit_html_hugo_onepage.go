@@ -5,8 +5,6 @@ import (
 	"log"
 	"strconv"
 	"strings"
-
-	"golang.org/x/net/html"
 )
 
 func renderFuncs() map[string]TagFunc {
@@ -24,7 +22,7 @@ func renderFuncs() map[string]TagFunc {
 			return makeTagButton(nil, body)
 		},
 		"title": func(args []string, body string) string {
-			return "title: " + body + "\n"
+			return "<h1>" + body + "</h1>\n"
 		},
 		"intro":              makeTagClass("p", ""),
 		"nowrap":             makeTagClass("span", "text-nowrap"),
@@ -214,16 +212,4 @@ func renderFuncs() map[string]TagFunc {
 			return OPRText(args[1], args[2], person2, true) + body
 		},
 	}
-}
-
-func emitHTMLHugo(n *html.Node, singlePage bool) string {
-	front := ""
-	if singlePage {
-		front += "---\n"
-		front += "title: test\n"
-		front += "---\n"
-	}
-
-	out := Render(n, renderFuncs())
-	return front + out
 }

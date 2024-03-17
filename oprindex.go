@@ -72,9 +72,9 @@ func oprindex(db Root, rtype string) string {
 	sort.Strings(plist)
 
 	out := strings.Builder{}
-	out.WriteString("---\n")
-	out.WriteString("title: OPR " + word + " Index\n")
-	out.WriteString("---\n")
+
+	// TODO: wrap in meta tag?
+	out.WriteString("$title{OPR " + word + " Index}\n")
 
 	out.WriteString("$table{\n")
 	for _, pnum := range plist {
@@ -169,9 +169,7 @@ func spindex(db Root, rtype string) string {
 	sort.Strings(plist)
 
 	out := strings.Builder{}
-	out.WriteString("---\n")
-	out.WriteString(fmt.Sprintf("title: Statutory %s Index\n", word))
-	out.WriteString("---\n")
+	out.WriteString("$title{Statutory " + word + " Index}\n")
 
 	out.WriteString("$table{\n")
 	for _, pnum := range plist {
