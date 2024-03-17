@@ -2,7 +2,9 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"log"
+	"net/http"
 	"os"
 	"path/filepath"
 	"strings"
@@ -12,11 +14,19 @@ func init() {
 	// flag stuff
 }
 
+func serve(outdir string) {
+	fmt.Println("Starting")
+	http.Handle("/galbraith/", http.StripPrefix("/galbraith/", http.FileServer(http.Dir(outdir))))
+	http.ListenAndServe("localhost:1313", nil)
+}
+
 func main() {
 	outdir := ""
 	rootsOnly := false
+	server := false
 	flag.StringVar(&outdir, "out", "", "out directory")
 	flag.BoolVar(&rootsOnly, "root", false, "run and display roots")
+	flag.BoolVar(&server, "serve", false, "run webserver")
 	flag.Parse()
 
 	db := make(Root)
@@ -46,16 +56,13 @@ func main() {
 		log.Fatalf("Glob failed")
 	}
 	for _, s := range sources {
-		outfile := strings.TrimSuffix(filepath.Base(s), suffix) + ".html"
-		outpath := filepath.Join("hugo", "content", "sources", outfile)
-
 		raw, err := os.ReadFile(s)
-		page := Execute(string(raw), renderFuncs())
-		log.Printf("Writing %q", outpath)
-		err = os.WriteFile(outpath, []byte(page), 0666)
 		if err != nil {
-			log.Fatalf("couldn't write %q: %s", outpath, err)
+			log.Fatalf("Unable to read %s", s)
 		}
+		outfile := strings.TrimSuffix(filepath.Base(s), suffix)
+		writePage(outdir, filepath.Join("sources", outfile),
+			base, string(raw))
 	}
 
 	writePage(outdir, "indexes", base, indexIndex())
@@ -120,5 +127,9 @@ func main() {
 				log.Fatalf("couldn't write %q: %s", fullpath, err)
 			}
 		}
+	}
+
+	if server {
+		serve(outdir)
 	}
 }
