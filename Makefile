@@ -5,13 +5,14 @@ hugo/public:
 	mkdir -p hugo/public
 
 build: hugo/public
+	cp -rf hugo/static/* hugo/public/
 	go run . -out hugo/public
 
 test:
 	go test .
 
 serve: hugo/public
-	cp -rf hugo/static/* hugo/public
+	cp -rf hugo/static/* hugo/public/
 	go run . -out hugo/public -serve
 
 clean:
