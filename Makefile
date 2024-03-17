@@ -1,25 +1,22 @@
 
 combined: serve
 
-build:
-	go run . -out hugo/static 
+hugo/public:
+	mkdir -p hugo/public
+
+build: hugo/public
+	go run . -out hugo/public
 
 test:
 	go test .
 
-serve:
-	go run . -out hugo/static -serve
+serve: hugo/public
+	cp -rf hugo/static/* hugo/public
+	go run . -out hugo/public -serve
 
 clean:
 	rm -f .git/index.lock
-	rm -rf hugo/public/*
-	rm -rf hugo/static/people
-	rm -rf hugo/static/indexes
-	rm -rf hugo/static/tags
-	rm -rf hugo/static/sources
-
-roots:
-	go run . -root
+	rm -rf hugo/public
 
 lint:
 	golangci-lint run .

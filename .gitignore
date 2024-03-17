@@ -9,7 +9,3 @@
 
 hugo/.hugo_build.lock
 hugo/public
-hugo/static/tags
-hugo/static/people
-hugo/static/indexes
-hugo/static/sources

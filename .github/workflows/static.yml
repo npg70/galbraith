@@ -36,13 +36,6 @@ jobs:
           go-version: 1.22
       - name: Generate Source
         run: make build
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: 'latest'
-      - name: Hugo Build
-        run: hugo --minify
-        working-directory: ./hugo
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
