@@ -103,7 +103,7 @@ func oprindex(db Root, rtype string) string {
 			out.WriteString("}\n")
 		}
 	}
-	out.WriteString("</table>\n")
+	out.WriteString("}\n") /* end of table tag */
 	return out.String()
 }
 func spindex(db Root, rtype string) string {
