@@ -61,41 +61,34 @@ func main() {
 			log.Fatalf("Unable to read %s", s)
 		}
 		outfile := strings.TrimSuffix(filepath.Base(s), suffix)
-		writePage(outdir, filepath.Join("sources", outfile),
-			base, string(raw))
+		writePage(string(raw), nil, base, outdir, filepath.Join("sources", outfile))
 	}
 
-	writePage(outdir, "indexes", base, indexIndex())
+	writePage(indexIndex(), nil, base, outdir, "indexes")
 
-	writePage(outdir, "indexes/opr-birth-index", base,
-		oprindex(db, "b"))
+	writePage(oprindex(db, "b"), nil, base, outdir, "indexes/opr-birth-index")
 
-	writePage(outdir, "indexes/opr-death-index", base,
-		oprindex(db, "d"))
+	writePage(oprindex(db, "d"), nil, base, outdir, "indexes/opr-death-index")
 
-	writePage(outdir, "indexes/opr-marriage-index", base,
-		oprindex(db, "m"))
+	writePage(oprindex(db, "m"), nil, base, outdir, "indexes/opr-marriage-index")
 
-	writePage(outdir, "indexes/statutory-birth-index", base,
-		spindex(db, "b"))
+	writePage(spindex(db, "b"), nil, base, outdir, "indexes/statutory-birth-index")
 
-	writePage(outdir, "indexes/statutory-death-index", base,
-		spindex(db, "d"))
+	writePage(spindex(db, "d"), nil, base, outdir, "indexes/statutory-death-index")
 
-	writePage(outdir, "indexes/statutory-marriage-index", base,
-		spindex(db, "m"))
+	writePage(spindex(db, "m"), nil, base, outdir, "indexes/statutory-marriage-index")
 
+	// TODO: can we simplify and reuse something already?
 	tmap := tagmap(db)
-
-	writePage(outdir, "tags", base, tagIndex(tmap))
+	writePage(tagIndex(tmap), nil, base, outdir, "tags")
 
 	pages := tagStart(db)
 	for _, tp := range pages {
 		tagpath := makeTagFile(tp.path)
-		writePage(outdir, filepath.Join("tags", tagpath), base,
-			indexRoots2(db, tp))
+		writePage(indexRoots2(db, tp), nil, base, outdir, filepath.Join("tags", tagpath))
 	}
 
+	// write out each person
 	for _, rootid := range roots {
 		kidsq := []string{rootid}
 		db.LoadAll(rootid)
@@ -106,26 +99,8 @@ func main() {
 			doc, nextg := db.generateOne(uid)
 			kidsq = append(kidsq, nextg...)
 			log.Printf("Processing %s", uid)
-			p := Tokenizer{}
-			root := p.Parse(strings.NewReader(doc))
-			if err := footnoter(root); err != nil {
-				log.Fatalf("Footnoter failed: %s", err)
-			}
-			if err := paragrapher(root); err != nil {
-				log.Fatalf("Paragrapher failed: %s", err)
-			}
-			tout, err := RenderPage(base, root)
-			if err != nil {
-				log.Fatalf("Template failed: %s", err)
-			}
-			fullpath := filepath.Join(outdir, "people", uid)
-			if err := os.MkdirAll(fullpath, 0750); err != nil {
-				log.Fatalf("Unable to make directory %s", err)
-			}
-			fullpath = filepath.Join(fullpath, "index.html")
-			if err := os.WriteFile(fullpath, []byte(tout), 0666); err != nil {
-				log.Fatalf("couldn't write %q: %s", fullpath, err)
-			}
+			writePage(doc, peopleTree,
+				base, outdir, filepath.Join("people", uid))
 		}
 	}
 
