@@ -721,11 +721,6 @@ func (r Root) generateOne(primary string) (string, []string) {
 
 	out.WriteString("$person-body{")
 	out.WriteString("$person-secondary{")
-	out.WriteString("$externals{")
-	for _, val := range first.External.List() {
-		out.WriteString("$external[" + val.URL + "]{" + val.Name + "}\n")
-	}
-	out.WriteString("}\n")
 
 	out.WriteString("$lineage{")
 	for p := first; p != nil; p = p.parent {
@@ -742,11 +737,24 @@ func (r Root) generateOne(primary string) (string, []string) {
 	}
 	out.WriteString("}\n") /* lineage */
 
+	out.WriteString("$externals{")
+	for _, val := range first.External.List() {
+		out.WriteString("$external[" + val.URL + "]{" + val.Name + "}\n")
+	}
+	out.WriteString("}\n")
+
 	out.WriteString("$pagemeta{")
-	out.WriteString(fmt.Sprintf("<a href=https://github.com/npg70/galbraith/blob/main/people/%s.sh>%s</a> updated on ", first.ID, "source"))
+	out.WriteString(fmt.Sprintf("$elink[https://github.com/npg70/galbraith/blob/main/people/%s.sh]{Source} updated on ", first.ID))
 	out.WriteString("$date{" + ParseTime(first.lastUpdate).String() + "}")
 	out.WriteString("}\n") /* page meta */
 
+	if len(first.Tags) > 0 {
+		out.WriteString("$tags[")
+		for _, tag := range first.Tags {
+			out.WriteString(fmt.Sprintf("%q ", tag))
+		}
+		out.WriteString("]\n")
+	}
 	out.WriteString("}\n")
 
 	out.WriteString("$person-main{")
@@ -755,13 +763,6 @@ func (r Root) generateOne(primary string) (string, []string) {
 	if len(first.Intro) > 0 {
 		out.WriteString("$intro{" + first.Intro + "}\n")
 
-	}
-	if len(first.Tags) > 0 {
-		out.WriteString("$tags[")
-		for _, tag := range first.Tags {
-			out.WriteString(fmt.Sprintf("%q ", tag))
-		}
-		out.WriteString("]\n")
 	}
 	out.WriteString("</div>\n")
 

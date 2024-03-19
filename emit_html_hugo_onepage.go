@@ -45,19 +45,16 @@ func renderFuncs() map[string]TagFunc {
 		},
 		"lineage": func(args []string, body string) string {
 			out := strings.Builder{}
-			out.WriteString("<div class='mb-3'>")
-			out.WriteString("<h6>Lineage</h6>")
-			out.WriteString("<ol class='m-0'>")
+			out.WriteString("<tr><th class=col-1>Lineage</th><td><ol class='ps-0 mb-0'>")
 			out.WriteString(body)
-			out.WriteString("</ol>")
-			out.WriteString("</div><!-- lineage -->\n")
+			out.WriteString("</ol></td></tr>\n")
 			return out.String()
 		},
 		"ancestor": func(args []string, body string) string {
 			//genNumber := getKey(args, "generation")
 			counter := getKeyValue(args, "counter")
 			mother := getKeyValue(args, "mother")
-			return fmt.Sprintf("<li value=%s>%s<br>%s</li>\n",
+			return fmt.Sprintf("<li value=%s class='d-inline-block me-3'>%s<br>%s</li>\n",
 				counter, body, mother)
 		},
 		"person": func(args []string, body string) string {
@@ -69,15 +66,17 @@ func renderFuncs() map[string]TagFunc {
 			s.WriteString("</div><!-- person -->\n") // person
 			return s.String()
 		},
-		"person-body":      makeTagClass("div", "row"),
-		"person-main":      makeTagClass("div", "col-12 col-md-9 col-order-first print-hack"),
-		"person-secondary": makeTagClass("div", "person-secondary col-12 col-md-3 order-last small"),
+		"person-body": func(args []string, body string) string {
+			return "<div class='row'><div class='col-12'>" + body + "</div></div>\n"
+		},
+		"person-main":      makeTagClass("div", "print-hack"),
+		"person-secondary": makeTagClass("table", "table table-borderless .table-sm small"),
 		"banner": func(args []string, body string) string {
-			return "<div class='row'><div class='col-12 mb-4'>" + body + "</div></div>\n"
+			return "<div class='mb-4'>" + body + "</div>\n"
 		},
 		"pagemeta": func(args []string, body string) string {
-			return fmt.Sprintf("<div class=%s><h6>Meta</h6>%s</div><!-- %s -->\n",
-				args[0], body, args[0])
+			return fmt.Sprintf("<tr><th class='col-1'>Updated</th><td>%s</td></tr>",
+				body)
 		},
 		"person-bio": makeTag("div"),
 		"headline":   makeTag("h1"),
@@ -85,22 +84,22 @@ func renderFuncs() map[string]TagFunc {
 			if strings.TrimSpace(body) == "" {
 				return ""
 			}
-			return fmt.Sprintf("<div class=%s><h6>External</h6><ul class='list-unstyled'>%s</ul></div><!-- %s -->\n", args[0], body, args[0])
+			return fmt.Sprintf("<tr><th class=col-1>External</th><td><ul class='ps-0 mb-0' >%s</ul></td></tr>\n", body)
 		},
 		"external": func(args []string, body string) string {
 			// open external links into new window
-			return fmt.Sprintf("<li><a rel='noreferrer' target='_blank' href=%q>%s</a></li>\n", args[1], body)
+			return fmt.Sprintf("<li class='d-inline-block me-3'><a rel='noreferrer' target='_blank' href=%q>%s</a></li>\n", args[1], body)
 		},
 		"tags": func(args []string, body string) string {
 			if len(args) == 0 {
 				return ""
 			}
 			s := strings.Builder{}
-			s.WriteString("<div class=''>\n")
+			s.WriteString("<tr><th class=col-1>Tags</th><td>")
 			for _, tag := range args[1:] {
 				s.WriteString(makeTagButton(nil, tag))
 			}
-			s.WriteString("</div>\n")
+			s.WriteString("</td></tr>\n")
 			return s.String()
 		},
 		"child": func(args []string, body string) string {
@@ -127,10 +126,10 @@ func renderFuncs() map[string]TagFunc {
 				return ""
 			}
 			s := strings.Builder{}
-			s.WriteString("<div class='row'><div class='col-12 small'>\n")
+			s.WriteString("<div class='small'>\n")
 			s.WriteString("<hr>\n<table>\n")
 			s.WriteString(body)
-			s.WriteString("</table></div></div><!-- footnotes -->\n")
+			s.WriteString("</table></div><!-- footnotes -->\n")
 			return s.String()
 		},
 		"footnote": func(args []string, body string) string {
