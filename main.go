@@ -98,7 +98,6 @@ func main() {
 			kidsq = kidsq[1:]
 			doc, nextg := db.generateOne(uid)
 			kidsq = append(kidsq, nextg...)
-			log.Printf("Processing %s", uid)
 			writePage(doc, peopleTree,
 				base, outdir, filepath.Join("people", uid))
 		}
