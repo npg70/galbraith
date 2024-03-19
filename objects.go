@@ -264,6 +264,22 @@ func (p *Person) FirstName() string {
 func (p *Person) LastName() string {
 	return p.Name[len(p.Name)-1]
 }
+
+func (p *Person) BirthYearString() string {
+	e := p.Events["birth"]
+	if e == nil || e.Date.year == 0 {
+		e = p.Events["baptism"]
+	}
+	if e != nil && e.Date.year != 0 {
+		about := ""
+		if e.Date.qualifier != DATE_EXACT {
+			about = "~"
+		}
+		return fmt.Sprintf("%s%d", about, e.Date.year)
+	}
+	return ""
+}
+
 func (p *Person) UnmarshalText(text []byte) error {
 	scan := NewScanner(text)
 	for {
@@ -604,17 +620,9 @@ func WriteChildPartnerName(p *Person) string {
 
 func WriteTitle(p *Person) string {
 	out := p.FullName()
-
-	e := p.Events["birth"]
-	if e == nil || e.Date.year == 0 {
-		e = p.Events["baptism"]
-	}
-	if e != nil && e.Date.year != 0 {
-		about := ""
-		if e.Date.qualifier != DATE_EXACT {
-			about = "~"
-		}
-		out += fmt.Sprintf(" b. %s%d", about, e.Date.year)
+	by := p.BirthYearString()
+	if by != "" {
+		out += " b. " + by
 	}
 	for _, spouse := range p.Partners {
 		out += " m. " + spouse.FullName()
@@ -729,8 +737,8 @@ func (r Root) generateOne(primary string) (string, []string) {
 			break
 		}
 		mother := FindMother(p)
-		lineage = append(lineage, fmt.Sprintf("$ancestor[counter=%d generation=%d mother=%q]{%s}\n",
-			p.parent.counter, p.generation, mother.FullName(), WriteLineageNameLink(p.parent)))
+		lineage = append(lineage, fmt.Sprintf("$ancestor[counter=%d generation=%d mother=%q year=%q]{%s}\n",
+			p.parent.counter, p.generation, mother.FullName(), p.BirthYearString(), WriteLineageNameLink(p.parent)))
 	}
 	out.WriteString("$lineage{")
 	// and reverse

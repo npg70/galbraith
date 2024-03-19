@@ -45,17 +45,24 @@ func renderFuncs() map[string]TagFunc {
 		},
 		"lineage": func(args []string, body string) string {
 			out := strings.Builder{}
-			out.WriteString("<tr><th class=col-1>Lineage</th><td><ol class='ps-0 mb-0'>")
+			out.WriteString("<tr><th class=col-1>Lineage</th><td>")
 			out.WriteString(body)
 			out.WriteString("</ol></td></tr>\n")
 			return out.String()
 		},
 		"ancestor": func(args []string, body string) string {
 			//genNumber := getKey(args, "generation")
-			counter := getKeyValue(args, "counter")
+			//counter := getKeyValue(args, "counter")
 			mother := getKeyValue(args, "mother")
-			return fmt.Sprintf("<li value=%s class='d-inline-block me-3'>%s<br>%s</li>\n",
-				counter, body, mother)
+			year := getKeyValue(args, "year")
+			if year != "" {
+				year = " b. " + year + " "
+			}
+			/*
+				return fmt.Sprintf("<li value=%s class=''>%s %s</li>\n",
+					counter, body, mother)
+			*/
+			return fmt.Sprintf("<div>%s%sm. %s</div>\n", body, year, mother)
 		},
 		"person": func(args []string, body string) string {
 			pid := getKeyValue(args, "id")
