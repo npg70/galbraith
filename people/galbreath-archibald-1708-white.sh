@@ -9,7 +9,7 @@ external {
 }
 partner {
 	name Mary White
-    marriage -date 1-apr-1733 -location campbeltown
+    marriage -date 1-apr-1733 -location campbeltown -ref white-marriage
     child {
         name John Galbreath
         baptism -date 3-mar-1734 -location campbeltown -ref john1734-baptism
@@ -39,6 +39,10 @@ footnotes {
     archibald1708-baptism {
         $opr-ref-link[b-1708-507-000-0011-0104 "Archibald Galbreath"]
         $opr-ref-link[b-1708-507-000-0010-0047 "Archibald Galbraith"]
+    }
+    white-marriage {
+        $opr-ref-link[m-1733-507-000-0011-0442 "Archibald Calbraith" "Martha White"];
+        $opr-ref-link[m-1733-507-000-0010-0101 "Archibald Calbraith" "Martha White"]
     }
     john1734-baptism {
         $opr-ref-link[b-1734-507-000-0011-0202 "John Galbreath"]
