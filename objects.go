@@ -722,18 +722,20 @@ func (r Root) generateOne(primary string) (string, []string) {
 	out.WriteString("$person-body{")
 	out.WriteString("$person-secondary{")
 
-	out.WriteString("$lineage{")
+	// get lineage from newest to oldest
+	lineage := []string{}
 	for p := first; p != nil; p = p.parent {
 		if p.parent == nil {
 			break
 		}
 		mother := FindMother(p)
-
-		// this isn't quite right yet.
-		// might want generation number here and to break apart father's first and last names.
-
-		out.WriteString(fmt.Sprintf("$ancestor[counter=%d generation=%d mother=%q]{%s}\n",
+		lineage = append(lineage, fmt.Sprintf("$ancestor[counter=%d generation=%d mother=%q]{%s}\n",
 			p.parent.counter, p.generation, mother.FullName(), WriteLineageNameLink(p.parent)))
+	}
+	out.WriteString("$lineage{")
+	// and reverse
+	for i := len(lineage) - 1; i >= 0; i-- {
+		out.WriteString(lineage[i])
 	}
 	out.WriteString("}\n") /* lineage */
 
