@@ -6,7 +6,6 @@ death -date 19-may-1847 -location neville,clermont,ohio,usa
 external {
     familysearch M1Y6-H41
     wikitree Galbraith-1830
-    findagrave 10458564
 }
 partner {
     name Janet McNair

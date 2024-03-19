@@ -6,6 +6,7 @@ death -date 19-may-1847 -location neville,clermont,ohio,usa
 external () {
     familysearch LVX6-R5K
     wikitree Galbraith-1831
+    findagrave 10458564
 }
 partner () {
     name Katherine Harvie
