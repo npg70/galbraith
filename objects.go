@@ -743,10 +743,12 @@ func (r Root) generateOne(primary string) (string, []string) {
 	}
 	out.WriteString("}\n")
 
-	out.WriteString("$pagemeta{")
-	out.WriteString(fmt.Sprintf("$elink[https://github.com/npg70/galbraith/blob/main/people/%s.sh]{Source} updated on ", first.ID))
-	out.WriteString("$date{" + ParseTime(first.lastUpdate).String() + "}")
-	out.WriteString("}\n") /* page meta */
+	/*
+		out.WriteString("$pagemeta{")
+		out.WriteString(fmt.Sprintf("$elink[https://github.com/npg70/galbraith/blob/main/people/%s.sh]{Source} updated on ", first.ID))
+		out.WriteString("$date{" + ParseTime(first.lastUpdate).String() + "}")
+		out.WriteString("}\n")
+	*/
 
 	if len(first.Tags) > 0 {
 		out.WriteString("$tags[")
