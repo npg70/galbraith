@@ -29,7 +29,7 @@ partner {
     }
     child {
         name Agnes Leoran Galbraith
-        birth -date 10-jan-1881 -location campbeltown -ref agnes1881-birth
+        birth -date 10-jan-1883 -location campbeltown -ref agnes1883-birth
     }
 }
 footnotes {
@@ -48,7 +48,7 @@ footnotes {
     archibald1881-birth {
         $sp-ref-link[b-1881-507-00-0092 0031 "Archibald Galbraith"]
     }
-    agnes1881-birth {
+    agnes1883-birth {
         $sp-ref-link[b-1883-507-00-0023 0008 "Agnes Leoran Galbraith"]
     }
 }
