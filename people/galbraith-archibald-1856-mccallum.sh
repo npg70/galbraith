@@ -7,7 +7,9 @@ birth -date 24-apr-1856 -location 'killean and kilchenzie' -ref archibald1856-bi
 death -date 18-apr-1936 -location 'killean and kilchenzie' -ref archibald1856-death 
 partner {
     name Margaret McCallum
+    birth -date 'about 1857' -note 'daughter of Neil McCallum and Jean MacAlister'
     marriage -date 13-jan-1885 -location 'killean and kilchenzie' -ref marriage
+    death -date 11-apr-1930 -location 'killean and kilchenzie' -ref mcccallum-death
 
     child galbraith-donald-1886
 
@@ -31,6 +33,9 @@ footnotes {
     }
     marriage {
         $sp-ref-link[m-1885-519-00-0002 0001 "Archibald Galbraith" "Margaret McCallum"]
+    }
+    mccallum-death {
+        $sp-ref-link[d-1930-519-00-0005 0002 "Margaret Galbraith"]
     }
     jane1888-birth {
         $sp-ref[b-1888-519-00-0005 "Jane Galbraith"]
