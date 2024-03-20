@@ -6,7 +6,7 @@ external {
     familysearch KC9G-P5D
 }
 note {
-    Margaret Loynachan has been spelled "O Lynachan", "Olynchan", "Oloynachan", "Olinachan", "Lunachan", "Lynachan"
+    Margaret Loynachan has been spelled "O Lynachan", "Olynchan", "Oloynachan", "Olinachan", "Lunachan", "Lynachan."  In later documents, they gave up and just used "Lang."
 }
 
 partner {
@@ -47,19 +47,10 @@ partner {
 
   child galbraith-samuel-1850-reynolds
 
-  child {
-  	name Margaret Galbraith
-    birth -date 30-apr-1853
-    baptism -date 10-jul-1853 -location campbeltown -ref margaret1853-baptism
-  }
-  child {
-  	name Agnes Galbraith
-    birth -date 9-jun-1855 -location campbeltown -ref agnes1855-birth
-    death -date 4-jan-1944 -location glasgow -ref agnes1855-death
-    partner {
-    	name James Mitchell
-    }
-  }
+  child galbraith-margaret-1853-mitchell
+
+  child galbraith-agnes-1855-mitchell
+
   child {
   	name John Galbraith
     birth -date 17-oct-1857 -location campbeltown -ref john1857-birth
@@ -76,7 +67,7 @@ James,Galbreath,Son,17,1844,Campbeltown,Apprentice Saddler
 Samuel,Galbreath,Son,9,1852,Campbeltown,Scholar
 Margaret,Galbreath,Dau,7,1854,Campbeltown,Scholar
 Agness,Galbreath,Dau,5,1856,Campbeltown,Scholar
-John,Galbreath,Son,3,1858,-
+John,Galbreath,Son,3,1858,Campbeltown,-
 }
 }
 body {
@@ -98,7 +89,7 @@ Signed Auntie Sis.
 He was born on 9 November 1803 in Sherbolin, Campbeltown, Scotland. He married Eugina McCallum on 5 March 1835. Archibald Galbraith was 31. Archibald Galbraith married Margaret Loyachan on 25 August 1849. Archibald Galbraith was 45 Margaret Loyachan was 28.
 }
 
-It's a little hard to follow, however, it seems that John Reynolds and his wife Margaret somehow got stuck on BWI (perhaps by shipwreck) with "two maiden aunts" (unknown).  They had two children, Anna Marie and Mary Ellen.  It would appear they were the owners of the Antigue plantaion.
+It's a little hard to follow, however, it seems that John Reynolds and his wife Margaret somehow got stuck on BWI (perhaps by shipwreck) with "two maiden aunts" (unknown).  They had two children, Anna Marie and Mary Ellen.  It would appear they were the owners of the Antigue plantation.
 
 The planation passed from John and Margaret Reynolds to the "maiden aunts" and then to Mary Ellen, and thus to Samuel Galbraith by marriage.
 
@@ -161,15 +152,6 @@ footnotes {
   }
   agnes1847-baptism {
   	$opr-ref-link[b-1847-507-000-0070-0327 "Agnes Galbreath"]
-  }
-  margaret1853-baptism {
-  	$opr-ref-link[b-1853-507-000-0070-0416 "Margaret Galbraith"]
-  }
-  agnes1855-birth {
-  	$sp-ref-link[b-1855-507-01-0065 0013 "Agnes Galbraith"]
-  }
-  agnes1855-death {
-  	$sp-ref-link[d-1944-644-07-0009 0003 "Agnes Galbraith"]
   }
   john1857-birth {
   	$sp-ref-link[b-1857-507-00-0212 0071 "John Galbraith"]
