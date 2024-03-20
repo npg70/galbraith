@@ -1,5 +1,5 @@
 name Angus Galbraith
-tags 'Argyll:Kilcalmonell and Kilberry' 
+tags 'Argyll:Kilcalmonell and Kilberry' Renfrew:Greenock 
 birth -date 20-oct-1825
 baptism -date 8-nov-1825 -location 'Kilcalmonell and Kilberry' -ref angus1825-baptism
 death -date 6-sep-1879 -location Newington,Edinburgh  -ref angus1825-death
@@ -10,7 +10,7 @@ note {
 }
 
 note {
-    Only one child found.
+   Appears to have moved to Greenock between 1850-1855 
 }
 
 external {
@@ -26,6 +26,10 @@ partner {
         birth -date 23-nov-1849 
         baptism -date 23-jan-1850 -location clackmannan -ref john1850-baptism
         death -date 12-oct-1871 -location Hobkirk,Roxburgh -ref john1850-death -note umn
+    }
+    child {
+        name Margaret Galbraith
+        birth -date 18-feb-1855 -location greenock -ref margaret1855-birth
     }
 }
 
@@ -51,5 +55,8 @@ footnotes {
     }
     john1850-death {
         $sp-ref-link[d-1871-790-00-0015 0005 "John Galbraith"]
+    }
+    margaret1855-birth {
+        $sp-ref-link[b-1855-565-03-0123 0025 "Margaret Galbraith"]
     }
 }
