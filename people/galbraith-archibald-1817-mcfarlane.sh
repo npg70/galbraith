@@ -72,6 +72,7 @@ partner {
     child {
         name Isabella McAlister Galbraith
         birth -date 22-sep-1863 -location Dundonald,Ayr -ref isabella1863-birth
+        death -date 1913 -location london
     }
 }
 
