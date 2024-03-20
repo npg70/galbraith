@@ -36,7 +36,7 @@ partner {
         }
   }
 
-  child galbraith-archibald-1843-paterson
+  child galbraith-archibald-1843-paterson-forgan
 
   child galbraith-neil-1845-blue-mccall
 
@@ -65,6 +65,19 @@ partner {
     birth -date 17-oct-1857 -location campbeltown -ref john1857-birth
     death -date 7-mar-1864 -location campbeltown -ref john1857-death
   } 
+}
+body {
+    Census 1861, Harveys Lane, Campbeltown, Argyllshire, Scotland:$ref[census1861]
+$csvtable{
+First,Last,Role,Age,Year,Place,Occupation
+Archibald,Galbreath,Head,56,1805,Campbeltown,Flesher
+Margaret,Galbreath,Wife,40,1821,South End,-
+James,Galbreath,Son,17,1844,Campbeltown,Apprentice Saddler
+Samuel,Galbreath,Son,9,1852,Campbeltown,Scholar
+Margaret,Galbreath,Dau,7,1854,Campbeltown,Scholar
+Agness,Galbreath,Dau,5,1856,Campbeltown,Scholar
+John,Galbreath,Son,3,1858,-
+}
 }
 body {
 
@@ -163,5 +176,9 @@ footnotes {
   }
   john1857-death {
   	$sp-ref-link[d-1864-507-00-0049 0017 "John Galbraith"]
+  }
+
+  census1861 {
+    https://www.findmypast.com/transcript?id=GBC/1861/0022165688&expand=true
   }
 }

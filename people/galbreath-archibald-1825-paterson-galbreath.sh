@@ -6,14 +6,15 @@ death -date 9-apr-1895 -location campbeltown -ref archibald1825-death
 external {
     familysearch LZVY-RCL
 }
+todo {
+    descendants uninvestigated.
+}
+
 body {
     He was a fisherman.
 }
 note {
-    There is another Archibald Galbreath, b. 1843, who married a Mary Paterson.
-}
-note {
-    Descendants uninvestigated.
+    There is another $child-link[galbraith-archibald-1843-paterson]{Archibald Galbreath}, b. 1843, who married a different Mary Paterson.
 }
 note {
     There is another James Paterson Galbraith born about 1864, married Elizabeth McFarlane in Kelvin.$ref[not-james]
