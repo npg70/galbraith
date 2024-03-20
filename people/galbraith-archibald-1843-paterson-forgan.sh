@@ -1,5 +1,5 @@
 name Archibald Galbraith
-tags Argyll:Campbeltown glasgow england:lancashire 
+tags Argyll:Campbeltown glasgow england:lancashire  'daughtered out'
 
 external {
     familysearch KCR1-MWR
