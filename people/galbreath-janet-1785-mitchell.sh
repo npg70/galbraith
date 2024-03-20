@@ -1,5 +1,8 @@
 name Janet Galbreath
 tags Argyll:Campbeltown
+external {
+    familysearch KJZW-5B8
+}
 birth -date "abt 1785"
 death -date 23-Oct-1859 -location campbeltown -ref death
 partner {
@@ -8,6 +11,14 @@ partner {
     child {
         name Archibald Mitchell
         baptism -date 28-Mar-1805 -location campbeltown
+        death -date 26-sep-1882 -location campbeltown
+        partner {
+            name Jean Smith
+        }
+        partner {
+            name Ann McNair
+        }
+        body { no evidence of children }
     }
     child {
         name Samuel Mitchell
@@ -16,10 +27,18 @@ partner {
     child {
         name Hugh Mitchell
         baptism -date 13-Jun-1809  -location campbeltown
+        death -date 13-apr-1879 -location campbeltown
+        partner {
+            name Jean Greenlees
+        }
     }
     child {
         name Mary Mitchell
         baptism -date 29-Sep-1811 -location campbeltown
+        death -date 07-jul-1880 -location Nichollsville,clermont,oh,usa
+        partner {
+            name William McNair
+        }
     }
     child {
         name James Mitchell

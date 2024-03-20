@@ -3,9 +3,11 @@ tags Argyll:Campbeltown
 baptism -date 14-Oct-1711 -location Campbeltown -ref janet1711-baptism
 partner {
 	name James Ryburn
+    marriage
 }
 partner {
     name Robert Campbell
+    marriage
 }
 footnotes {
     janet1711-baptism {

@@ -7,7 +7,7 @@ external {
     familysearch 9M4Y-2Y4
 }
 note {
-    Margaret died while giving birth to her last child Annie.
+    Margaret died while giving birth to her last child Annie. Her husband, James, marred her sister $child-link[galbraith-agnes-1855-mitchell]{Agnes} a few years later.
 }
 
 body {
