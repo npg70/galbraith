@@ -10,8 +10,9 @@ partner {
     baptism -date 9-may-1731 -location campbeltown
     child {
         name James Armour
-        partner {
-            name Janet Galbreath
+        baptism -date 28-apr-1751
+        body {
+            married $child-link[galbreath-janet-1752-armour]{Janet Galbreath}
         }
     }
     child {
