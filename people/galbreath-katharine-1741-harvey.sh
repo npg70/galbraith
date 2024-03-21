@@ -7,8 +7,11 @@ external () {
 }
 partner () {
     name James Harvie
-    birth -date 1698
+    birth -date 1735
     marriage -date 1-dec-1761 -location campbeltown
+    body {
+        He was the son of James Harvey and Janet Mitchell.
+    }
     child () {
         name James Harvie
         birth -date 27-oct-1762     
