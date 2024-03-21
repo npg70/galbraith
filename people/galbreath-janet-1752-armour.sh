@@ -10,7 +10,7 @@ partner {
     baptism -date 28-apr-1751
     marriage -date 15-dec-1780 -location campbeltown -ref armour-marriage
     body {
-        Son of William Armour and Mary Galbreath.  TBD what is relation?
+        He was the son of William Armour and $child-link[galbreath-mary-1729-armour]{Mary Galbreath}.
     }
     child {
         name Andrew Armour
