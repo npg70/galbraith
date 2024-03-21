@@ -3,6 +3,10 @@ tags Argyll:Campbeltown
 external {
     familysearch KJZW-5B8
 }
+note {
+    Often confused with $child-link[galbreath-janet-1786]{Janet Galbreath}, daughter of John Galbreath and Marion McLean.
+}
+
 birth -date "abt 1785"
 death -date 23-Oct-1859 -location campbeltown -ref death
 partner {
