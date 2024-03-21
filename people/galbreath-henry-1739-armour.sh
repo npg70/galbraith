@@ -11,15 +11,8 @@ partner {
     marriage -date 5-mar-1767 -location campbeltown -ref marriage
     baptism -date 5-jun-1752 -location campbeltown
     child galbreath-james-1768-harvey
-    child {
-        name Margaret Galbreath
-        baptism -date 1-nov-1771 -location campbeltown -ref marg-bapt
-        death -date "13 Sep 1857" -location "New Mills, New Brunswick, Canada"
-        partner {
-            name Nathaniel McNair
-            marriage -date 26-apr-1803 -location campbeltown
-        }
-    }
+    child galbreath-margaret-1771-mcnair
+
     child galbreath-florence-1777-maitland
     child galbreath-william-1780-campbell
     child {
@@ -44,11 +37,6 @@ footnotes {
     marriage {
         $opr-ref-link[m-1768-507-000-0011-0469 "Hendry Galbraith" "Agnes Armour"]
         $opr-ref-link[m-1768-507-000-0011-0471 "Hendry Galbraith" "Agnes Armour"]
-    }
-    marg-bapt {
-        $opr-ref[b-1771-507-000-0030-0198 "Margaret Galbreath"]
-        $opr-ref[b-1771-507-000-0011-0380 "Margaret Galbreath"]
-        Father indexed as "Henery"
     }
     mary-bapt {
         $opr-ref[b-1782-507-000-0020-0062 "Mary Galbreath"]
