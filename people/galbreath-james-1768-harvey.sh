@@ -62,7 +62,7 @@ note {
 
 footnotes {
     james1768-baptism {
-        $opr-ref[b-1768-507-000-0011-0368 "James Galbreath"]
+        $opr-ref-link[b-1768-507-000-0011-0368 "James Galbreath"]
         $opr-ref[b-1768-507-000-0010-0330 "James Galbraith"]
     }
     marriage {
