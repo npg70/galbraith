@@ -1,5 +1,8 @@
 name Janet Galbreath
 tags Argyll:Campbeltown
+external {
+    familysearch G5H5-JWV
+}
 baptism -date 10-jan-1786 -location campbeltown -ref janet1786-baptism
 body {
     No known marriage or children
