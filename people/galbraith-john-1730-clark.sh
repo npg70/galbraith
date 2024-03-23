@@ -4,7 +4,9 @@ birth -date 'say 1730'
 external {
     familysearch KHM8-SP6
 }
-
+note {
+    There is another $child-link[galbraith-john-1741-clark]{John Galbraith} who married a Catherine Clark.
+}
 partner {
     name Jean Clark
     marriage -date 30-sep-1758 -location campbeltown -ref clark-marriage
