@@ -1,5 +1,5 @@
 name John Galbreath
-birth -date 'say 1758'
+birth -date 'about 1737'
 tags Argyll:Campbeltown
 
 external {
@@ -10,12 +10,24 @@ He was a Town Officier and/or Sherif.
 }
 
 note {
-He died betwen 1793 and 1811 based on the date of the last child born, and the marriage of his daughter which listed him as deceased.
+He died between 1793 and 1811 based on the date of the last child born, and the marriage of his daughter which listed him as deceased.
 }
 
+body {
+Census of 1792, 108 Burnside, Campbeltown:$ref[census-1792]
+$csvtable{
+Row,Age,Birth,Men,Women,Children
+1,55,1737,John Galbreath,,
+2,34,1758,,Ann Galbreath,
+3,19,1773,David Galbreath,,
+4,10,1782,,,Mary Galbreath
+5,8,1784,,,Daneil Galbreath
+6,2,1790,,,Martha Galbreath
+}
+}
 partner {
     name Agnes Galbreath
-    birth -date 'say 1761'
+    birth -date 'about 1758'
 
     marriage -date 08-may-1779 -location campbeltown -ref agnes-marriage 
 
