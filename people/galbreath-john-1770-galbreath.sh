@@ -63,10 +63,8 @@ partner {
         name Hector Galbreath
         baptism -date 18-aug-1807 -location gigha -ref hector1808-baptism
     }
-    child {
-        name Mary Galbreath
-        baptism -date 15-jul-1810 -location gigha -ref mary1810-baptism
-    }
+    child galbraith-mary-1810-templeton
+
     child {
         name Merran Galbreath
         baptism -date 24-may-1812 -location gigha -ref merran1812-baptism
@@ -114,9 +112,6 @@ footnotes {
         Indexed twice, 
         $opr-ref[b-1807-537-000-0010-0034 "Hector Galbreath"];
         $opr-ref[b-1808-537-000-0010-0037 "Hector Galbreath"]
-    }
-    mary1810-baptism {
-        $opr-ref[b-1810-537-000-0010-0044 "Mary Galbreath"]
     }
     merran1812-baptism {
         $opr-ref-link[b-1812-537-000-0010-0048 "Marran Galbreath"]
