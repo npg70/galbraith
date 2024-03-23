@@ -54,10 +54,8 @@ partner {
             Founder and Partner in Stewart, Galbraith & Co.
         }
     }
-    child {
-        name Margaret Galbreath
-        baptism -date 19-jan-1803 -location campbeltown -ref margaret1803-baptism
-    }
+    child galbraith-margaret-1803-clark
+
     child galbraith-jean-1805-coville
     child galbreath-archibald-1807
     child galbraith-john-1809-mcewing
@@ -104,9 +102,6 @@ footnotes {
     }
     william1801-death {
         $sp-ref-link[d-1863-507-00-0140 0047 "William Galbraith"]
-    }
-    margaret1803-baptism {
-        $opr-ref[b-1803-507-000-0040-0243 "Margaret Galbreath"]
     }
     rachel1811-baptism {
         $opr-ref-link[b-1811-507-000-0040-0373 "Rachel Galbreath"]
