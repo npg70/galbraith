@@ -68,7 +68,10 @@ Margaret,Clark,-,8,1843,Campbeltown,Scholar
 
 footnotes {
     margaret1803-baptism {
-        $opr-ref[b-1803-507-000-0040-0243 "Margaret Galbreath"]
+        $opr-ref-link[b-1803-507-000-0040-0243 "Margaret Galbreath"]{
+            Margaret | Lawful Daughter to Archibald Galbreath Merchant in Campbeltown
+            and Jean Corbert. Born 16th baptized 19th January 1803. Named Margaret.
+        }
     }
 
     marg1831 {
