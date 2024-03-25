@@ -16,7 +16,6 @@ $h2{95}
 
 $blockquote{Inscribed stone Erected by DONALD McPHAIL, farmer, Paisley, in memory of his wife ELIZABETH GALBRAITH who died 22 Jun 1851 aged 50 years and of their son ANGUS who died 27 Aug 1850 aged 19 years also their daughter CHRISTINA died 22 Jan 1862 aged 20 years, the above DONALD McPHAIL died 12 May 1864 aged 65 years also their son JOHN died 26 Aug 1884 aged 55 years and their daughter ELIZABETH died 1 Jan 1887 aged 60 years, DONALD died 17 Nov 1888 aged 40, ARCHIBALD died 18 Jan 1889 aged 45, CATHERINE McPHAIL died 17 Dec 1923 aged 74 years daughter of the above DONALD and ELIZABETH McPHAIL and beloved wife of HUGH McMILLAN, Oatfield Cottage, Roading, Campbeltown, the above HUGH McMILLAN died 9 Feb 1933 aged 72 years.}
 
-
 Find-A-Grave: Elizabeth Galbraith
 Canidates of baptism on ScotlandsPeople
 Marriage of Betty: ScotlandsPeople
@@ -139,7 +138,14 @@ $h2{697}
 
 $blockquote{Erected by WILLIAM McDOUGALL in memory of his parents DANIEL McDOUGALL who died 16 June 1816 aged 83 years and MARY GALBREATH his wife who died 10 January 1838 aged 92 years also of their son DANIEL sailing master, R N who died at Antigua 13 December 1816 aged 37 years, ARCHIBALD who died March 1833 aged 58 years.}
 
+$ul{
+$li{
 2021-11-28: Perhaps a Margaret Galbreath that married at Campbeltown 28 Aug 1784. FamilySearch is a mess.
+}
+$li{
+2024: McDOUGAL with pheontic matches, with parents "dan" and "mar" returns a number of matches.
+}
+}
 }
 
 $section{
@@ -252,7 +258,38 @@ $child-link[galbraith-peter-1811-armour]{Peter Galbraith} born 1811, son of Will
 }
 
 $section{
+$h2{1126}
+
+$blockquote{By JAMES McLACHLAN, Maltster in Campbeltown, in memory of his father DONALD McLACHLAN. Maltster there who died 21 December 1822 in the 48th year of his age also his mother MARY PARK who died 18 November 1823 in the 41st year of her age also his sister ISABELL who died in infancy.}
+
+See next section.
+}
+
+$section{
 $h2{1127}
 
 $blockquote{1815 Erected by DONALD McLACHLAN, Malster in Campbeltown in memory of his father in law J. PARK late merchant there who died 9 October 1806 aged 56 years also his mother in law MARY GALBREATH who died 3 April 1825 aged 71 years.}
+
+$p{$child-link[galbreath-mary-1751-park]{Mary Galbreath}, b. 1751, the daughter of $child-link[galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill, and the older sister of $child-link[/galbreath-alexander-1753-flemming]{Alexander Galbreath}, immigrant to USA. The marriage to James Park appears to be lost or unrecorded.}
+
+$p{From the last two inscriptions:}
+
+$ul{
+$li{James McLachlan}
+$li{Donald McLachlan, b. ~1774, d. 21 Dec 1822}
+$li{Mary Park, b. ~1782, d. 18 Nov 1823}
+$li{James Park, b. ~1750, d. 9 Oct 1806}
+$li{Mary Galbreath, b. ~1754, d. 3 Apr 1825}
+}
+
+$p{This maps to OPR records of:}
+
+$ul{
+$li{James McLauchlin, bp. 30 Jun 1806, son of Daniel McLauchlin and Mary Park}
+$li{Daniel or Donald McLauchlin, many possible canidates} 
+$li{Mary Park, bp. 1782, m. in 1803 to Daniel MacLauchlin}
+$li{James Park, b. ~1750, d. 9 Oct 1806}
+$li{Mary Galbreath, bp. 1751, marriage unrecorded}
+}
+
 }
