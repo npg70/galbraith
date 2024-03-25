@@ -12,10 +12,9 @@ partner {
     name Janet Watson
     marriage -date 11-dec-1838 -location campbeltown -ref watson-marriage
     death -date 29-aug-1858 -location campletown -ref watson-death
-    child {
-        name Jane Galbraith
-        baptism -date 22-dec-1839 -location campbeltown -ref jane-birth
-    }
+
+    child galbraith-jane-1839-spiers-mclean
+
     child galbreath-john-1842-henderson
     child {
         name Janet Galbreath
@@ -50,9 +49,6 @@ footnotes {
     }
     watson-death {
         $sp-ref-link[d-1858-507-00-0086 0029 "Janet Galbreath"]
-    }
-    jane-birth {
-        $opr-ref-link[b-1839-507-000-0070-0163 "Jane Galbreath"]
     }
     janet1845-baptism {
         $opr-ref-link[b-1845-507-000-0070-0284 "Janet Galbreath"]

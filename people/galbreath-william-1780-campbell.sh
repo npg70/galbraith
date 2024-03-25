@@ -8,13 +8,8 @@ partner {
     name Jean Campbell
     marriage -date 27-jun-1803 -location Campbeltown -ref marriage
     child galbraith-john-1804-watson
-    child {
-        name Isobell Galbraith
-        baptism -date 12-dec-1808 -location Campbeltown -ref isobell-baptism
-        partner {
-            name James Patterson
-        }
-    }
+    child galbraith-isabella-1808-paterson
+
     child galbraith-peter-1811-armour
     child {
         name Robert Galbraith
@@ -31,9 +26,6 @@ footnotes {
             William Galbreath and Jean Campbell both of this parish
             Contracted the 24th and were married 27th June 1803
         }
-    }
-    isobell-baptism {
-        $opr-ref-link[b-1808-507-000-0040-0329 "Isobell Galbeath"]
     }
     robert-bapt {
         $opr-ref-link[b-1811-507-000-0020-0149 "Robert Galbreath"]

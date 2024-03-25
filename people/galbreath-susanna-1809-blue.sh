@@ -6,7 +6,7 @@ external {
 }
 
 baptism -date 10-aug-1809 -location 'killean and kilchenzie' -ref susanna1809-baptism
-death -date 9-Mar-1888  -location campbelotwn -ref susanna1809-death
+death -date 9-Mar-1888  -location campbeltown -ref susanna1809-death
 
 partner {
     name William Blue

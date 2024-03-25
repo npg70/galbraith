@@ -1,5 +1,5 @@
 name William Galbreath
-birth -date 'about 1736'
+birth -date 'about 1736' -ref william1736-birth
 death -date 'apr-1799'
 burial -name 'Kilkerran Cemetery'
 tags Argyll:Campbeltown
@@ -41,6 +41,9 @@ partner {
 }
 
 footnotes {
+    william1736-birth {
+        Based on the Census of 1792
+    }
     dunlop-marriage {
         $opr-ref-link[m-1760-507-000-0011-0460 "William Galbreath" "Margaret Dunlop"]{
             William Galbreath and Margaret Dunlop | January 12th (1760)

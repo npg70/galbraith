@@ -97,6 +97,10 @@ $ul{
 }
 
 $h2{Manuscripts}
+
+$ul{
+	$li{$source-link[kilkerran-graveyard-inscriptions]{Kilkerran Graveyard Inscriptions} - Unpublished
+}
 `)
 	return out.String()
 }
