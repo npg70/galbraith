@@ -1,6 +1,6 @@
 name Agnes Galbraith
 birth -date 'about 1882' -location campbeltown -ref agnes1882-birth
-
+death -date 1962 -location Ontario,Canada
 tags Argyll:Campbeltown Immigrant:Canada:Ontario:Lambton
 todo {
     merge father records on familysearch
