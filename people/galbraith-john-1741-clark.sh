@@ -47,7 +47,7 @@ footnotes {
     james1775-baptism {
         $opr-ref-link[b-1775-507-000-0020-0020 "John Galbreath"]{
             James | Lawful son to John Galbreath and 
-            Katharine Clark. Bron 10th July Bapt the same Day
+            Katharine Clark. Born 10th July Bapt the same Day
         }
     }
 }
