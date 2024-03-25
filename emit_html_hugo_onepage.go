@@ -40,8 +40,11 @@ func renderFuncs() map[string]TagFunc {
 		"primary-number": func(args []string, body string) string {
 			return "<span class='fw-bold pe-3'>" + body + ". </span>"
 		},
+		"source-link": func(args []string, body string) string {
+			return "<a href=/galbraith/sources/" + args[1] + ">" + body + "</a>"
+		},
 		"child-link": func(args []string, body string) string {
-			return "<a href=/galbraith/people/" + args[1] + ">" + body + "</a>"
+			return "<a class='text-smallcaps' href=/galbraith/people/" + args[1] + ">" + body + "</a>"
 		},
 		"lineage": func(args []string, body string) string {
 			out := strings.Builder{}
@@ -67,7 +70,7 @@ func renderFuncs() map[string]TagFunc {
 		"person": func(args []string, body string) string {
 			pid := getKeyValue(args, "id")
 			s := strings.Builder{}
-			s.WriteString("<div class='container-fluid mx-auto mb-5'>")
+			s.WriteString("<div class='mb-5'>")
 			s.WriteString(fmt.Sprintf("<a name=%q></a>\n", pid))
 			s.WriteString(body)
 			s.WriteString("</div><!-- person -->\n") // person

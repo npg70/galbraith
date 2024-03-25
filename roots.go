@@ -78,6 +78,29 @@ func indexIndex() string {
 	return out.String()
 }
 
+func indexSources() string {
+	out := strings.Builder{}
+	out.WriteString(`
+
+$h2{Books}
+
+$h2{Magazines}
+
+$ul{
+	$li{$source-link[kintyre-magazine-14]{Kintyre Magazine #14} - An 18th Century Letter from Campbeltown to America}
+	$li{$source-link[kintyre-magazine-16]{Kintyre Magazine #16} - James Stewart - Fact of Fiction Another Dunaverty Mystery}
+	$li{$source-link[kintyre-magazine-28]{Kintyre Magazine #28} - TBD}
+	$li{$source-link[kintyre-magazine-35]{Kintyre Magazine #35} - Letters to America}
+	$li{$source-link[kintyre-magazine-50]{Kintyre Magazine #50} - The Templetons of Kintyre}
+	$li{$source-link[kintyre-magazine-67]{Kintyre Magazine #67} - Argyll's Forgotten Whisky Barons}
+	$li{$source-link[kintyre-magazine-90]{Kintyre Magazine #90} - TBD}
+}
+
+$h2{Manuscripts}
+`)
+	return out.String()
+}
+
 // home page for tags
 func tagIndex(tmap map[string][]string) string {
 	out := strings.Builder{}

@@ -64,6 +64,7 @@ func main() {
 		writePage(string(raw), nil, base, outdir, filepath.Join("sources", outfile))
 	}
 
+	writePage(indexSources(), paragrapher, base, outdir, "sources")
 	writePage(indexIndex(), nil, base, outdir, "indexes")
 
 	writePage(oprindex(db, "b"), nil, base, outdir, "indexes/opr-birth-index")
