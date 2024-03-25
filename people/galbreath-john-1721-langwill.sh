@@ -13,10 +13,7 @@ partner {
 		name James Galbreath
         baptism -date 22-jul-1748 -location Campbeltown -ref james1748-baptism
 	}
-    child {
-		name Mary Galbreath	
-		baptism -date 28-Apr-1751 -location Campbeltown -ref mary1751-baptism
-	}
+    child galbreath-mary-1751-park
 
     child galbreath-alexander-1753-flemming
 
@@ -39,9 +36,6 @@ footnotes {
         Indexed in lowland and highland indexes:
         $opr-ref-link[m-1746-507-000-0011-0449 "James Calbraith" "Agnes Languill"];
         $opr-ref-link[m-1746-507-000-0010-0179 "James Calbraith" "Agnes Languill"]
-    }
-    mary1751-baptism {
-        $opr-ref[b-1751-507-000-0011-0276 "Mary Galbreath"]
     }
     john1756-baptism {
         $opr-ref-link[b-1756-507-000-0011-0301 "John Galbreath"]
