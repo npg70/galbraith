@@ -12,6 +12,8 @@ func renderFuncs() map[string]TagFunc {
 		"root": func(args []string, body string) string {
 			return body
 		},
+		"section": makeTagClass("section", "mb-4"),
+
 		"front": func(args []string, body string) string {
 			return ""
 		},
