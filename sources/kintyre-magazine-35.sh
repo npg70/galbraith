@@ -70,7 +70,7 @@ $child-link[galbraith-john-1809-mcewing]{John Galbraith} (1809-1861[1881])
 who was Provost of the Burgh from 1860 till 1866 and whose daughter
 [ $child-link[galbraith-elizabeth-1841-fleming]{Elizabeth Galbraith} ]
 married the ill-fated banker James Nicol Fleming (Magazine No. 28).
-He too was descended like the emigrant [ $child-link[galbreath-alexander-1753-flemmin]{Alexander} ]
+He too was descended like the emigrant [ $child-link[galbreath-alexander-1753-flemming]{Alexander} ]
 from $child-link[galbreath-john-1680-mitchell]{John} in Kilteddan
 and Mary Mitchell, but through their oldest son
 $child-link[galbreath-archibald-1708-white]{Archibald}.
