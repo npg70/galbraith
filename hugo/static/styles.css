@@ -112,18 +112,24 @@ small, .small {
   font-size: 0.8125em;
 }
 
-blockquote {
-    font-size: smaller;
+pre {
+   font-family: courier-prime, serif; 
+}
 
+blockquote {
+    line-spacing: 1.0;
+    font-size: 90%;
+/*    font-family: var(--bs-font-sans-serif); */
+    
     /* if @font-face doesn't work, it will break and use Serif
      * so you can tell it's broken
      */
-    font-family: courier-prime, serif;
+/*    font-family: courier-prime, serif; */
 
     margin-top: 0.5rem;
-    margin-left: 2rem;
-
-    margin-bottom: 0.2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 1rem;
 
     page-break-inside: avoid;
 }
