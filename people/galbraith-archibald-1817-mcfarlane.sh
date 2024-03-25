@@ -6,6 +6,9 @@ external {
     familysearch 9KMJ-5ZH
 }
 note {
+    Their daughter Margaret is sometimes confused with $child-link[galbraith-margaret-1853-mitchell]{Margaret Galbreath}, bp. 1853, the daughter of $child-link[galbreath-archibald-1803-mccallum-loynachan]{Archibald Galbreath}, butcher, and Margaret Loynachan.
+}
+note {
     FamilySearch March 2023 has Archibald pointing to the wrong parents.
 }
 body {

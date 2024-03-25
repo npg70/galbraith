@@ -7,12 +7,18 @@ external {
     familysearch 9M4Y-2Y4
 }
 note {
+    Sometimes confused with Margaret Galbreath, bp. 1855, daughter of $child-link[galbraith-archibald-1817-mcfarlane]{Archibald Galbreath} and Agnes McFarlane.  She was born in Govan, and her father was involved in railroads.
+}
+
+note {
     Margaret died while giving birth to her last child Annie. Her husband, James, marred her sister $child-link[galbraith-agnes-1855-mitchell]{Agnes} a few years later.
 }
 
 body {
 
+$p{
 1891 Census of 10, Eaglesham Street, Govan, Plantation, Lanarkshire, Scotland:$ref[census1891]
+}
 
 $csvtable{
 First,Last,Role,Age,Year,Place
