@@ -28,19 +28,13 @@ partner {
         name Catharine Galbraith
         baptism -date 5-Apr-1853 -location campbeltown -ref catharine1853-baptism
    }
+   child galbraith-jean-1855-fullarton
+
    child {
-        name Jean Galbraith
-        baptism -date 5-aug-1855 -location campbeltown -ref jean1855-birth
-        death -date 14-july-1942 -location campbeltown -ref jean1855-death
-        partner {
-            name Robert Fullarton
-        }
-    }
-    child {
         name Margaret Galbraith
         birth -date 2-mar-1863 -location campbeltown -ref margaret1863-birth
         death -date 1863 -location campbeltown -ref margaret1863-death
-    }
+   }
 }
 
 footnotes {
@@ -76,19 +70,6 @@ footnotes {
     catharine1853-baptism {
         $opr-ref-link[b-1853-507-000-0070-0412 "Catharine Galbraith"]
         Mother indexed as "McPaton"
-    }
-    jean1855-birth {
-        $sp-ref-link[b-1855-507-01-0095 0019 "Jean Galbraith"]
-        Long form, has lots of details.  Also another Galbraith was born on same page.
-    }
-    jean1855-death {
-        $sp-ref-link[d-1942-507-00-0066 0022 "Jean Galbraith"]{
-            66. Jean Fullarton, widow of Robert Fullarton, House Painter;
-            Death: 1942 July Fourteenth, age 86
-            Father: Duncan Galbraith, Distillery Workman (deceased);
-            Mother: Catherine Galbraith, M.S. McPhater (deceased);
-            Present: Duncan Galbraith, newphew
-        }
     }
     margaret1863-birth {
         $sp-ref-link[b-1863-507-00-0030 0010 "Margaret Galbraith"]
