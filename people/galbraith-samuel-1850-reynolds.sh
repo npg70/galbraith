@@ -10,6 +10,32 @@ todo {
     clean up familysearch. There are at least 3 listed that need merging/consolidating.
 }
 
+body {
+$p{An unsourced letter from FamilySearch, by "morgancharlesgalbraith1" in 2016:}
+
+$blockquote{
+Antigua Plantation
+
+Archibald Galbraith The Galbraith's were prosperous sugar plantation owners in Antigua.
+
+There had to be when my great-grandmother was young, four adults each of Mother and Father and two Maiden Aunts. Your father always said that the Faith's and the North's were shipped wrecked on the way to England, which is quite possible. That left her two children and Anna Maria and Mary Ellen your great grandmother in the care of the two Maiden Aunts. They also had to run the plantation. They also own a store in St. John's. I don't know when Samuel came to the scene but I have an idea he probably worked in the store. Eventually the plantation was left to Mary Ellen and Samuel after the sisters died. Hannah Maria got nothing, why I don't know except she was noted for having a very nasty disposition. Samuel lost the plantation through carelessness, he let the insurance lapse, and the plantation was burned to the ground. Somebody hated him. Such a large family they eventually moved to Winnipeg around 1908. Some of the Sons had already come north. One daughter Louise married Thomas Jackson at age eighteen. He was an Englishman and stayed in the West Indies until about 1935, when they all went to England. Aunt Louie as we called her never saw her Mother and Father again. 
+
+Margaret married John Tough, we spent one year in Dublin and four years in Winnipeg during World War One, going back to Antigua in 1919, and then to St. Vincent. We came to Canada for good in 1923.
+
+Anna Maria married M. Bladen and lived in Antigua until she died about 1937.
+
+Signed Auntie Sis.
+
+He was born on 9 November 1803 in Sherbolin, Campbeltown, Scotland. He married Eugina McCallum on 5 March 1835. Archibald Galbraith was 31. Archibald Galbraith married Margaret Loyachan on 25 August 1849. Archibald Galbraith was 45 Margaret Loyachan was 28.
+}
+
+$p{It's a little hard to follow, however, it seems that John Reynolds and his wife Margaret somehow got stuck on BWI (perhaps by shipwreck) with "two maiden aunts" (unknown).  They had two children, Anna Marie and Mary Ellen.  It would appear they were the owners of the Antigue plantation.}
+
+$p{The planation passed from John and Margaret Reynolds to the "maiden aunts" and then to Mary Ellen, and thus to Samuel Galbraith by marriage.}
+
+$p{The author "Auntie Sis," is perhaps the daughter of Margaret V Galbraith and John Tough.}
+}
+
 partner {
   	name Mary Ellen Reynolds
     birth -date 25-oct-1861 -location 'British West Indies'
