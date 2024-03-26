@@ -84,6 +84,10 @@ func indexSources() string {
 
 $h2{Books}
 
+$ul{
+	$li{$source-link[kilkerran-graveyard]{An Historical and Genealogical Tour of Killerran Graveyard}}
+}
+
 $h2{Magazines}
 
 $ul{
