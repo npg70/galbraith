@@ -31,7 +31,8 @@ body {
     He was a coppersmith.
 }
 body {
-Scotland Census 1871, Shields Place, 3, Govan, Govan Church, Lanarkshire, Scotland:$ref[census-1871]
+Census of 1871 at  Shields Place, 3, Govan, Govan Church, Lanarkshire, Scotland:$ref[census-1871]
+
 $csvtable{
 First,Last,Role,Age,Year,Birth,Occupation
 Archihbald,Galbraith,Head,26,1845,Campbeltown,Coppersmith
@@ -40,7 +41,8 @@ Samuel,Galbraith,Brother,19,1852,Campbeltown,Draper shopman
 Margaret,Galbraith,Sister,16,1855,Campbeltown,Shirt maker
 }
 
-1881 Census of 35, Coulton Street, Barrow in Furness, Lancashire, England:$ref[census-1881]
+$p{Census of 1881 at 35, Coulton Street, Barrow in Furness, Lancashire, England:$ref[census-1881]}
+
 $csvtable{
 First,Last,Role,Age,Year,Birth,Occupation
 Archibald,Galbraith,Head,37,1844,Scotland,Master coppersmith
