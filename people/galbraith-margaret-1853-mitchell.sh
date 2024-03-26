@@ -15,7 +15,9 @@ note {
 }
 
 body {
-Census of 1871 at  Shields Place, 3, Govan, Govan Church, Lanarkshire, Scotland:$ref[census-1871]
+
+$section{
+$p{Census of 1871 at  Shields Place, 3, Govan, Govan Church, Lanarkshire, Scotland:$ref[census-1871]}
 
 $csvtable{
 First,Last,Role,Age,Year,Birth,Occupation
@@ -24,8 +26,10 @@ Mary,Galbraith,Wife,28,1843,Campbeltown,-
 Samuel,Galbraith,Brother,19,1852,Campbeltown,Draper shopman
 Margaret,Galbraith,Sister,16,1855,Campbeltown,Shirt maker
 }
+}
 
-$p{Census of 1881 at 13, Devonshire Bdgs, Barrow in Furness, Lancashire, England: $ref[census1881] (all listed as being born in Scotland}
+$section{
+$p{Census of 1881 at 13, Devonshire Bdgs, Barrow in Furness, Lancashire, England: $ref[census-1881] (all listed as being born in Scotland. Note that sister Agnes is listed who later married James Mitchell.}
 $csvtable{
 First,Last,Role,Status,Age,Year
 Maggie,Mitchell,Head,Married,25,1857
@@ -33,9 +37,10 @@ Isabella,Mitchell,Daughter,Single,3,1878
 Archie,Mitchell,Daughter,Single,1,1880
 Agnes,Galbraith,Sister,Single,22,1859
 }
-Note: her sister Agnes is listed who later married James Mitchell.
+}
 
-$p{Census of 1891 at 10, Eaglesham Street, Govan, Plantation, Lanarkshire, Scotland:$ref[census1891]}
+$section{
+$p{Census of 1891 at 10, Eaglesham Street, Govan, Plantation, Lanarkshire, Scotland:$ref[census-1891]}
 
 $csvtable{
 First,Last,Role,Age,Year,Place
@@ -47,6 +52,7 @@ Jeanie,Mitchell,Dau,7,1884,Govan
 James,Mitchell,Son,4,1887,Govan
 John,Mitchell,Son,2,1889,Govan
 Samuel,Mitchell,Son,0,1891,Govan
+}
 }
 }
 partner {
@@ -115,7 +121,13 @@ footnotes {
     margaret1853-death {
         $sp-ref-link[d-1897-644-05-0449 0150 "Margaret Galbraith"]
     }
-    census1891 {
+    census-1871 {
+      	https://www.findmypast.com/transcript?id=GBC%2F1871%2F0024906490
+    }
+    census-1881 {
+        https://www.findmypast.com/transcript?id=GBC/1881/0019853284
+    }
+    census-1891 {
         https://www.findmypast.com/transcript?id=GBC/1891/0034022400&expand=true
     }
     sam1890-birth {

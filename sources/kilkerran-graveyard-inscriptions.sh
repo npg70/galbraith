@@ -8,7 +8,7 @@ $h2{89}
 
 $blockquote{Inscribed stone Erected to the memory of WILLIAM BLUE, slater, Campbeltown, who died Jan 1847 aged 4 …? …, $b{SUSANNAH GALBRAITH} who died 9 Mar 1888 aged 70 and of their son DUNCAN and of WILLIAM BLUE father of the above WILLIAM reported lost at sea.}
 
-$child-link[galbreath-susanna-1809-blue]{Susanna Galbreath}, baptized 1809, the daughter of $child-link[galbreath-duncan-1770-kelly]{Duncan Galbreath} and Mary Kelly.
+$child-link[galbreath-susanna-1809-blue]{Susanna Galbreath}, the daughter of $child-link[galbreath-duncan-1770-kelly]{Duncan Galbreath} and Mary Kelly, baptized in 1809 at the parish of Killean and Kilchenzie.
 }
 
 $section{
@@ -16,11 +16,11 @@ $h2{95}
 
 $blockquote{Inscribed stone Erected by DONALD McPHAIL, farmer, Paisley, in memory of his wife ELIZABETH GALBRAITH who died 22 Jun 1851 aged 50 years and of their son ANGUS who died 27 Aug 1850 aged 19 years also their daughter CHRISTINA died 22 Jan 1862 aged 20 years, the above DONALD McPHAIL died 12 May 1864 aged 65 years also their son JOHN died 26 Aug 1884 aged 55 years and their daughter ELIZABETH died 1 Jan 1887 aged 60 years, DONALD died 17 Nov 1888 aged 40, ARCHIBALD died 18 Jan 1889 aged 45, CATHERINE McPHAIL died 17 Dec 1923 aged 74 years daughter of the above DONALD and ELIZABETH McPHAIL and beloved wife of HUGH McMILLAN, Oatfield Cottage, Roading, Campbeltown, the above HUGH McMILLAN died 9 Feb 1933 aged 72 years.}
 
-Find-A-Grave: Elizabeth Galbraith
-Canidates of baptism on ScotlandsPeople
-Marriage of Betty: ScotlandsPeople
-FamilySearch
-Census 1851 on FindMyPast
+$p{
+Parents for Elizabeth are unclear, but 
+$elink[https://www.familysearch.org/tree/person/details/M1YL-H7P]{FamilySearch} has extensive details. 
+For marriage and baptism of children she used the name Betty (and variants).
+}
 
 }
 
@@ -55,11 +55,9 @@ $h2{270 Railed enclosure with 2 stones and 1 loose tablet}
 
 $blockquote{Sacred to the memory of JOHN CHRISTIE Officer of Customs, Campbeltown who died 8 Jan 1843 aged 86 years and HELEN GALBREATH his spouse who died 9 Feb 1855 aged 90 years and four of their children viz. AGNES who died in infancy MARY who died 4 Mar 1827 aged 24 years, FLORA who died 23 Aug 1828 aged 23 years and DAVID who died 9 Nov 1831 aged 24 years.}
 
-2021:
-
-Helen Galbreath on FamilySearch is a mess
-death record (last one on page) https://www.scotlandspeople.gov.uk/view-image/nrs_stat_deaths/2889871?return_row=4
-Malcom Galbreath and Margaret Stewart
+$p{
+$child-link[galbreath-helen-1764-christie]{Helen Galbreath}, daughter of Malcom Galbreath and Margaret Stewart, born about 1764 in Gigha.
+}
 }
 
 $section{
