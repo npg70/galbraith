@@ -87,6 +87,7 @@ $h2{Books}
 $ul{
 	$li{$source-link[kilkerran-graveyard]{An Historical and Genealogical Tour of Killerran Graveyard}}
 	$li{$source-link[kilkerran-graveyard-revisted]{Kilkerran Graveyard Revisited}}
+	$li{$source-link[kintyre-country-life]{Kintyre Country Life}}
 }
 
 $h2{Magazines}
