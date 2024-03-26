@@ -25,13 +25,8 @@ partner {
         birth -date 30-dec-1786
         baptism -date 31-dec-1786 -location campbeltown -ref james1786-baptism
     }
-    child {
-        name Mary Galbreath
-        baptism -date 29-aug-1788 -location campbeltown -ref mary1788-baptism
-        partner {
-            name Robert Clark
-        }
-    }
+    child galbraith-mary-1788-clark
+
     child {
         name Janet Galbreath
         birth -date 23-dec-1790
@@ -87,9 +82,6 @@ footnotes {
             Mary Fleeming was born 30th + Bapt 31st Dec.
         }
         Due to cross-out,the father is indexed as "David or Samuel Galbraith".
-    }
-    mary1788-baptism {
-        $opr-ref-link[b-1788-507-000-0020-0107 "Mary Galbreath"]
     }
     janet1790-baptism {
         $opr-ref-link[b-1790-507-000-0020-0126 "Janet Galbreath"]
