@@ -8,12 +8,17 @@ todo {
 external {
     familysearch L8BB-XTK
 }
-
+note {
+    Likely adopted.
+}
 body {
 Her birth as "Agnes Galbraith" does not appear to be recorded.
 Census records consistenly say she born in Scotland in 1882 or 1883.
 The 1911 census listed her birth place as 'Cambelltown Resident Scotland.'
-In her 1913 marriage certificate, her lists her father as Archibald Galbreath, a coppersmith (good), but her mother as "Mary McQuistan."  No records really confirm or deny this.  However, given the lack of other children, the guess is Agness is adopted.
+In her 1913 marriage certificate, her lists her father as Archibald Galbreath,
+a coppersmith (good), but her mother as "Mary McQuistan." 
+No records confirm or deny this.  However, given the lack of other children,
+it's probable that Agnes is adopted.
 }
 
 partner {
