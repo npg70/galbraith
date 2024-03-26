@@ -15,10 +15,27 @@ note {
 }
 
 body {
+Census of 1871 at  Shields Place, 3, Govan, Govan Church, Lanarkshire, Scotland:$ref[census-1871]
 
-$p{
-1891 Census of 10, Eaglesham Street, Govan, Plantation, Lanarkshire, Scotland:$ref[census1891]
+$csvtable{
+First,Last,Role,Age,Year,Birth,Occupation
+Archihbald,Galbraith,Head,26,1845,Campbeltown,Coppersmith
+Mary,Galbraith,Wife,28,1843,Campbeltown,-
+Samuel,Galbraith,Brother,19,1852,Campbeltown,Draper shopman
+Margaret,Galbraith,Sister,16,1855,Campbeltown,Shirt maker
 }
+
+$p{Census of 1881 at 13, Devonshire Bdgs, Barrow in Furness, Lancashire, England: $ref[census1881] (all listed as being born in Scotland}
+$csvtable{
+First,Last,Role,Status,Age,Year
+Maggie,Mitchell,Head,Married,25,1857
+Isabella,Mitchell,Daughter,Single,3,1878
+Archie,Mitchell,Daughter,Single,1,1880
+Agnes,Galbraith,Sister,Single,22,1859
+}
+Note: her sister Agnes is listed who later married James Mitchell.
+
+$p{Census of 1891 at 10, Eaglesham Street, Govan, Plantation, Lanarkshire, Scotland:$ref[census1891]}
 
 $csvtable{
 First,Last,Role,Age,Year,Place
@@ -99,7 +116,7 @@ footnotes {
         $sp-ref-link[d-1897-644-05-0449 0150 "Margaret Galbraith"]
     }
     census1891 {
-        https://www.findmypast.com/transcript?id=GBC/1891/0034022408&expand=true
+        https://www.findmypast.com/transcript?id=GBC/1891/0034022400&expand=true
     }
     sam1890-birth {
         1890 MITCHELL, SAMUEL (Statutory registers Births 646/1 587)
