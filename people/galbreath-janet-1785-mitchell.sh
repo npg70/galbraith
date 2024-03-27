@@ -2,6 +2,8 @@ name Janet Galbreath
 tags Argyll:Campbeltown
 external {
     familysearch KJZW-5B8
+    wikitree Galbraith-1785
+    findagrave 176703650
 }
 note {
     Often confused with $child-link[galbreath-janet-1786]{Janet Galbreath}, daughter of John Galbreath and Marion McLean.

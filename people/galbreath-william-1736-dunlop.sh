@@ -49,7 +49,7 @@ footnotes {
             William Galbreath and Margaret Dunlop | January 12th (1760)
         }
         $opr-ref-link[m-1760-507-000-0010-0245 "Wiluam Galbreth" "Margaret Dunlop"]{
-            January 12th Wiluam Galbreth anf Margaret Dunlop
+            January 12th Wiluam Galbreth and Margaret Dunlop
         }
     }
     campbell-marriage {

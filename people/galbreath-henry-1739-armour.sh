@@ -4,6 +4,10 @@ death -date 15-jul-1789 -location campbeltown
 burial -name "Kilchousland Graveyard"
 external {
     familysearch KFJB-HN8
+    findagrave 167549463
+}
+todo {
+    fix inscription on findagrave
 }
 tags Argyll:Campbeltown
 partner {

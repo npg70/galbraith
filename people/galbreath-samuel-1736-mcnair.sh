@@ -2,7 +2,6 @@ name Samuel Galbreath
 tags Argyll:Campbeltown
 birth -location Peninver
 baptism -date 4-feb-1736 -location campbeltown -ref samuel1736-baptism
-death -date 19-may-1847 -location neville,clermont,ohio,usa
 external {
     familysearch M1Y6-H41
     wikitree Galbraith-1830
@@ -12,7 +11,7 @@ partner {
     birth -date 29-jul-1780
     baptism -date 30-Jul-1780 -location campbeltown
     marriage -date "about 1774"
-    death -date 21-jun-1847 -location Washington,Clermont,Ohio,USA
+    death -date 07-jul-1831 -location scotland
     child {
         name Archibald Galbreath
         baptism -date 14-sep-1777 -location campbeltown -ref archibald1777-baptism
