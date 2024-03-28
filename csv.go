@@ -8,7 +8,7 @@ import (
 // takes csv and makes an HTML table
 func CsvTableHTML(args []string, body string) string {
 	out := strings.Builder{}
-	out.WriteString("<div class=overflow-x-auto>")
+	out.WriteString("<div class=table-responsive>")
 	out.WriteString("<table class='table table-borderless table-sm font-monospace small'>")
 	r := csv.NewReader(strings.NewReader(body))
 
@@ -16,7 +16,8 @@ func CsvTableHTML(args []string, body string) string {
 	row, _ := r.Read()
 	out.WriteString("<tr>")
 	for _, col := range row {
-		out.WriteString("<th>" + strings.TrimSpace(col) + "</th>")
+		// note: bootstrap tables don't inherit colors
+		out.WriteString("<th class='text-body'>" + strings.TrimSpace(col) + "</th>")
 	}
 	out.WriteString("</tr>\n")
 
@@ -27,7 +28,8 @@ func CsvTableHTML(args []string, body string) string {
 		}
 		out.WriteString("<tr>")
 		for _, col := range row {
-			out.WriteString("<td>" + col + "</td>")
+			// note: bootstrap tables don't inherit colors
+			out.WriteString("<td class='text-body'>" + col + "</td>")
 		}
 		out.WriteString("</tr>\n")
 	}
