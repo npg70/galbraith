@@ -23,8 +23,11 @@ $li{1910: Petition for Release: https://www.britishnewspaperarchive.co.uk/viewer
 
 partner {
     name  Margaret McMillan
+    birth -date 'about 1864'
+    marriage -date 06-sep-1892 -location campbeltown -ref mcmillan-marriage
+
     body { 
-        daughter of Malcolm McMillian and Agnes McGreachy.
+        She was the daughter of Malcolm McMillan and Agnes McGreachy.
     }
     child {
         name Janet McGreachy Galbraith
@@ -43,6 +46,9 @@ partner {
 footnotes {
     william1870-birth {
         $sp-ref-link[b-1870-507-00-0077 0026 "William Galbraith"]
+    }
+    mcmillan-marriage {
+        $sp-ref-link[m-1892-507-00-0048 0024 "William Galbraith" "Maggie McMillan"]
     }
     janet1893-birth {
         $sp-ref-link[b-1893-507-00-0078 0026 "Janet McGreachy Galbraith"]
