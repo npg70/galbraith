@@ -44,7 +44,7 @@
 
     /* our monospace is for trasnscription and quoting,  not code */
     /* switch to courier prime */
-    --bs-font-monospace: courier-prime, "Courier New", monospace; 
+    /* --bs-font-monospace: courier-prime, "Courier New", monospace;  */
 }
 body {
     font-family: "Source Serif VF", "Source Serif", sans;
@@ -87,8 +87,22 @@ nav, .badge, .btn {
 
 /* should be font-smallcaps */
 .text-smallcaps {
-    font-feature-settings: "smcp" 1;
+    font-variant-caps: small-caps;
+    /* font-feature-settings: "smcp" 1; */
 }
+
+/* not needed - default in Serif Pro is tabular */
+.text-normal-nums {
+    font-variant-numeric: normal;
+}
+.text-proportional-nums {
+    font-variant-numeric: proportional-nums;
+}
+.text-tabular-nums {
+    font-variant-numeric: lining-nums;  /* probably not needed */
+    font-feature-settings: tabular-nums;
+}
+*/
 
 /* print page break utilitites */
 .break-after-always {
@@ -118,7 +132,7 @@ pre {
 
 blockquote {
     line-spacing: 1.0;
-    font-size: 0.8125em;
+    font-size: 0.9rem;
 
     /* font-family: var(--bs-font-sans-serif); */
     /* font-family: courier-prime, serif; */
