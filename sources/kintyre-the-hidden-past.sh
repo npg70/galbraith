@@ -12,38 +12,35 @@ $section{
 }
 $section{
 $h2{Page 114}
-
-$blockquote{
-The company of a black and white fattening pig at Port na Cuthaig, Saddell, kept by the ferryman there, Lachie Galbraith, was much indulged by the Galbraith children.
-}
-
 $p{
 $child-link[galbraith-lachlan-1878-mccallum-mccallum]{Lachlan Galbraith}, son of Donald Galbraith (fisherman) and Janet Morrison, born 1878 in Saddell.
+}
+$blockquote{
+The company of a black and white fattening pig at Port na Cuthaig, Saddell, kept by the ferryman there, Lachie Galbraith, was much indulged by the Galbraith children.
 }
 }
 
 $section{
 $h2{Page 152}
+$p{
+$child-link[galbraith-callum-1896]{Callum Galbraith}
+}
 $blockquote{
 The Craigaig hut was built in the early years of the 1939-1945 war by a team of young men comprising ... Calum Galbraith ... all of them from the Drumlemble-Machrihanish district.
 }
-$p{
-}
 }
 
 $section{
 $h2{Page 210}
+$p{
+$child-link[galbraith-john-china-1871]{John 'China' Galbraith}
 $blockquote{
 in the early years of the present centures [1900s]... with piper 'China' (John Galbraith)
 }
-$p{
-
-}
 }
 
 $section{
 $h2{Page 210}
-
 $p{
 Appendix II - Surname Changes in Kintyre
 }
