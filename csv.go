@@ -8,6 +8,7 @@ import (
 // takes csv and makes an HTML table
 func CsvTableHTML(args []string, body string) string {
 	out := strings.Builder{}
+	//out.WriteString("<div style=overflow-x:auto>")
 	out.WriteString("<table class='table table-borderless table-sm font-monospace small'>")
 	r := csv.NewReader(strings.NewReader(body))
 
@@ -31,6 +32,7 @@ func CsvTableHTML(args []string, body string) string {
 		out.WriteString("</tr>\n")
 	}
 
-	out.WriteString("</table>\n")
+	out.WriteString("</table>")
+	//out.WriteString("</div>\n")
 	return out.String()
 }

@@ -118,13 +118,10 @@ pre {
 
 blockquote {
     line-spacing: 1.0;
-    font-size: 90%;
-/*    font-family: var(--bs-font-sans-serif); */
-    
-    /* if @font-face doesn't work, it will break and use Serif
-     * so you can tell it's broken
-     */
-/*    font-family: courier-prime, serif; */
+    font-size: 0.8125em;
+
+    /* font-family: var(--bs-font-sans-serif); */
+    /* font-family: courier-prime, serif; */
 
     margin-top: 0.5rem;
     margin-left: 3rem;
