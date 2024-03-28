@@ -2,6 +2,7 @@ name Samuel Galbreath
 birth -date 'say 1765'
 external {
     familysearch KZ3Z-DXW
+    findagrave 114485218
 }
 tags Argyll:Campbeltown
 body {

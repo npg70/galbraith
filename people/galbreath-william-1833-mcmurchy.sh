@@ -8,6 +8,7 @@ note {
 }
 external {
     familysearch K84P-4BG
+    findagrave 114485220
 }
 
 partner {
