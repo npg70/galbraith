@@ -88,18 +88,21 @@ $ul{
 	$li{$source-link[kilkerran-graveyard]{An Historical and Genealogical Tour of Killerran Graveyard}}
 	$li{$source-link[kilkerran-graveyard-revisted]{Kilkerran Graveyard Revisited}}
 	$li{$source-link[kintyre-country-life]{Kintyre Country Life}}
+	$li{$source-link[kintyre-the-hidden-past]{Kintyre, The Hidden Past}}
+	$li{$source-link[saga-of-out-kintyre-kin]{Saga of our Kintyre Kin}}
 }
 
 $h2{Magazines}
 
 $ul{
-	$li{$source-link[kintyre-magazine-14]{Kintyre Magazine #14} - An 18th Century Letter from Campbeltown to America}
-	$li{$source-link[kintyre-magazine-16]{Kintyre Magazine #16} - James Stewart - Fact of Fiction Another Dunaverty Mystery}
-	$li{$source-link[kintyre-magazine-28]{Kintyre Magazine #28} - TBD}
-	$li{$source-link[kintyre-magazine-35]{Kintyre Magazine #35} - Letters to America}
-	$li{$source-link[kintyre-magazine-50]{Kintyre Magazine #50} - The Templetons of Kintyre}
-	$li{$source-link[kintyre-magazine-67]{Kintyre Magazine #67} - Argyll's Forgotten Whisky Barons}
-	$li{$source-link[kintyre-magazine-90]{Kintyre Magazine #90} - TBD}
+	$li{$source-link[kintyre-magazine-14]{Kintyre Magazine #14}, "An 18th Century Letter from Campbeltown to America"}
+	$li{$source-link[kintyre-magazine-16]{Kintyre Magazine #16},"James Stewart - Fact of Fiction Another Dunaverty Mystery"}
+	$li{$source-link[kintyre-magazine-28]{Kintyre Magazine #28}, TBD}
+	$li{$source-link[kintyre-magazine-35]{Kintyre Magazine #35}, "Letters to America"}
+	$li{$source-link[kintyre-magazine-50]{Kintyre Magazine #50}, "The Templetons of Kintyre"}
+	$li{$source-link[kintyre-magazine-55]{Kintyre Magazine #55}, "Ten Miles South of Campbeltown"}
+	$li{$source-link[kintyre-magazine-67]{Kintyre Magazine #67}, "Argyll's Forgotten Whisky Barons"}
+	$li{$source-link[kintyre-magazine-90]{Kintyre Magazine #90}, "Letter 1849/1850, page 17, note 11"}
 }
 
 $h2{Manuscripts}
