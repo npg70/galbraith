@@ -618,8 +618,21 @@ func WriteChildPartnerName(p *Person) string {
 	return "$child-partner-name{" + p.FullName() + "}"
 }
 
+// plain text version
 func WriteTitle(p *Person) string {
 	out := p.FullName()
+	by := p.BirthYearString()
+	if by != "" {
+		out += " b. " + by
+	}
+	for _, spouse := range p.Partners {
+		out += " m. " + spouse.FullName()
+	}
+	return out
+}
+
+func WriteTitleLink(p *Person) string {
+	out := "$child-link[" + p.ID + "]{" + p.FullName() + "}"
 	by := p.BirthYearString()
 	if by != "" {
 		out += " b. " + by

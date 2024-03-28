@@ -75,7 +75,6 @@ func oprindex(db Root, rtype string) string {
 
 	// TODO: wrap in meta tag?
 	out.WriteString("$title{OPR " + word + " Index}\n")
-	//	out.WriteString("<div style=overflow-x:auto>")
 	out.WriteString("$table{\n")
 	for _, pnum := range plist {
 		out.WriteString("$tr{\n")
@@ -99,7 +98,7 @@ func oprindex(db Root, rtype string) string {
 			out.WriteString("  $td{" + strconv.Itoa(i+1) + "}\n")
 			out.WriteString("  $td{$nowrap{" + parts[1] + " " + oprref(parts) + "}}\n")
 			out.WriteString("  $td{" + name + "}\n")
-			out.WriteString("  $td{$nowrap{$child-link[" + item.pid + "]{" + person + "}}}\n")
+			out.WriteString("  $td{$nowrap{$child-link-plain[" + item.pid + "]{" + person + "}}}\n")
 			out.WriteString("}\n")
 		}
 	}
@@ -195,7 +194,7 @@ func spindex(db Root, rtype string) string {
 			out.WriteString("  $td{" + strconv.Itoa(i+1) + "}\n")
 			out.WriteString("  $td{$nowrap{" + statref(parts) + "}}\n")
 			out.WriteString("  $td{" + name + "}\n")
-			out.WriteString("  $td{$child-link[" + item.pid + "]{" + person + "}}\n")
+			out.WriteString("  $td{$nowrap{$child-link-plain[" + item.pid + "]{" + person + "}}}\n")
 			out.WriteString("}\n")
 		}
 	}

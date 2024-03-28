@@ -48,6 +48,9 @@ func renderFuncs() map[string]TagFunc {
 		"child-link": func(args []string, body string) string {
 			return "<a class='text-smallcaps' href=/galbraith/people/" + args[1] + ">" + body + "</a>"
 		},
+		"child-link-plain": func(args []string, body string) string {
+			return "<a class=text-body href=/galbraith/people/" + args[1] + ">" + body + "</a>"
+		},
 		"lineage": func(args []string, body string) string {
 			out := strings.Builder{}
 			out.WriteString("<tr><th class=col-1>Lineage</th><td>")
