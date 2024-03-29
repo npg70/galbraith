@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Source Serif VF';
-    font-weight: 200 900;
+    font-weight: 400 500 700;
     font-style: normal;
     font-stretch: normal;
     src: url('/galbraith/fonts/SourceSerif4Variable-Roman.otf.woff2') format('woff2')
@@ -8,22 +8,10 @@
 
 @font-face{
     font-family: 'Source Serif VF';
-    font-weight: 200 900;
+    font-weight: 400 500 700;
     font-style: italic;
     font-stretch: normal;
     src: url('/galbraith/fonts/SourceSerif4Variable-Italic.otf.woff2') format('woff2')
-}
-
-@font-face {
-    /*
-     * https://github.com/quoteunquoteapps/CourierPrime
-     * https://johnaugust.com/2013/introducing-courier-prime
-     * https://fonts.google.com/specimen/Courier+Prime
-     *
-     * and then converted from ttf to woff2 (109k to 29k)
-     */
-    font-family: courier-prime;
-    src: url("/galbraith/fonts/Courier Prime.ttf.woff2") format('woff2');
 }
 
 :root {
@@ -41,10 +29,6 @@
     --bs-link-color-rgb: 13,76,177;
     --bs-link-hover-color: rgb(13,76,177);
     --bs-link-hover-color-rgb: 13,76,177;
-
-    /* our monospace is for trasnscription and quoting,  not code */
-    /* switch to courier prime */
-    /* --bs-font-monospace: courier-prime, "Courier New", monospace;  */
 }
 body {
     font-family: "Source Serif VF", "Source Serif", sans;
@@ -53,18 +37,6 @@ body {
 
     /* required for Safari */
     text-rendering: optimizeLegibility;
-
-    /* Using Source Serif @ 400 for body text at small sizes isi
-     * bit thin and anti-aliased to gray.  450 thickens it up a bit.
-     * This applies to everything so undo for nav-specific
-     * items which are using a sans-serif font. 
-     *
-     * Bootstrap uses 500 for h1-h6 items already, which seems fine.
-     * Bold and Bolder is 700
-     *
-     * TODO: perhaps change --bs-body-font-weight instead
-     */
-    /* font-weight: 400; */
 }
 
 a {
@@ -126,16 +98,9 @@ small, .small {
   font-size: 0.8125em;
 }
 
-pre {
-   font-family: courier-prime, serif; 
-}
-
 blockquote {
     line-spacing: 1.0;
     font-size: 0.9rem;
-
-    /* font-family: var(--bs-font-sans-serif); */
-    /* font-family: courier-prime, serif; */
 
     margin-top: 0.5rem;
     margin-left: 3rem;
