@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"log"
+	"mime"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -105,6 +106,7 @@ func main() {
 	}
 
 	if server {
+		mime.AddExtensionType(".woff2", "font/woff2")
 		serve(outdir)
 	}
 }
