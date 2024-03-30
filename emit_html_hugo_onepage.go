@@ -82,7 +82,7 @@ func renderFuncs() map[string]TagFunc {
 			return s.String()
 		},
 		"person-body": func(args []string, body string) string {
-			return "<div class='row'><div class='col-12'>" + body + "</div></div>\n"
+			return "<div>" + body + "</div>\n"
 		},
 		"person-main":      makeTagClass("div", "print-hack"),
 		"person-secondary": makeTagClass("table", "table table-borderless .table-sm small"),

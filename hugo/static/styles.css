@@ -21,6 +21,7 @@
     font-stretch: normal;
     src: url('/galbraith/fonts/SourceSerif4-It.otf.woff2') format('woff2');
 }
+/* not currently used */
 @font-face{
     font-family: 'Source Serif Subhead';
     font-weight: 500;
@@ -56,19 +57,6 @@ body {
     /* Turn on ligatures,etc */
     font-feature-settings: "kern" 1, "liga" 1;
     text-rendering: optimizeLegibility;
-
-    /*
-     * Safari/Firefox default
-    -webkit-font-smoothing: subpixel-antialiased;
-
-    * Chrome on Safari default which is crappy.
-    * will make the font look the same as chrome but not as good.
-    * would need to bump up font-weight or size to improve contrast
-    -webkit-font-smoothing: antialiased;
-    */
-}
-h1,h2,h3 {
-   font-family: 'Source Serif', 'Source Serif', serif;
 }
 a {
     text-decoration: none;
@@ -80,7 +68,6 @@ a:hover {
 nav, .badge, .btn {
     /* uses san-serif font for UI and restore normal weight */
     font-family: var(--bs-font-sans-serif);
-    font-weight: 400;
 
     /* badge/button specific hacks */
     --bs-btn-font-size: 0.75rem;
@@ -194,75 +181,6 @@ ul.notes {
 ul.notes li {
     margin-left: 0;
     padding-left: 2rem;
-}
-
-@media screen and (prefers-color-scheme: dark) {
-    :root {
-  /* cut-n-paste from bootstrap.  This is their dark theme */
-  --bs-body-color: #dee2e6;
-  --bs-body-color-rgb: 222, 226, 230;
-  --bs-body-bg: #212529;
-  --bs-body-bg-rgb: 33, 37, 41;
-  --bs-emphasis-color: #fff;
-  --bs-emphasis-color-rgb: 255, 255, 255;
-  --bs-secondary-color: rgba(222, 226, 230, 0.75);
-  --bs-secondary-color-rgb: 222, 226, 230;
-  --bs-secondary-bg: #343a40;
-  --bs-secondary-bg-rgb: 52, 58, 64;
-  --bs-tertiary-color: rgba(222, 226, 230, 0.5);
-  --bs-tertiary-color-rgb: 222, 226, 230;
-  --bs-tertiary-bg: #2b3035;
-  --bs-tertiary-bg-rgb: 43, 48, 53;
-  --bs-primary-text-emphasis: #6ea8fe;
-  --bs-secondary-text-emphasis: #a7acb1;
-  --bs-success-text-emphasis: #75b798;
-  --bs-info-text-emphasis: #6edff6;
-  --bs-warning-text-emphasis: #ffda6a;
-  --bs-danger-text-emphasis: #ea868f;
-  --bs-light-text-emphasis: #f8f9fa;
-  --bs-dark-text-emphasis: #dee2e6;
-  --bs-primary-bg-subtle: #031633;
-  --bs-secondary-bg-subtle: #161719;
-  --bs-success-bg-subtle: #051b11;
-  --bs-info-bg-subtle: #032830;
-  --bs-warning-bg-subtle: #332701;
-  --bs-danger-bg-subtle: #2c0b0e;
-  --bs-light-bg-subtle: #343a40;
-  --bs-dark-bg-subtle: #1a1d20;
-  --bs-primary-border-subtle: #084298;
-  --bs-secondary-border-subtle: #41464b;
-  --bs-success-border-subtle: #0f5132;
-  --bs-info-border-subtle: #087990;
-  --bs-warning-border-subtle: #997404;
-  --bs-danger-border-subtle: #842029;
-  --bs-light-border-subtle: #495057;
-  --bs-dark-border-subtle: #343a40;
-  --bs-heading-color: inherit;
-  --bs-link-color: #6ea8fe;
-  --bs-link-hover-color: #8bb9fe;
-  --bs-link-color-rgb: 110, 168, 254;
-  --bs-link-hover-color-rgb: 139, 185, 254;
-  --bs-code-color: #e685b5;
-  --bs-highlight-color: #dee2e6;
-  --bs-highlight-bg: #664d03;
-  --bs-border-color: #495057;
-  --bs-border-color-translucent: rgba(255, 255, 255, 0.15);
-  --bs-form-valid-color: #75b798;
-  --bs-form-valid-border-color: #75b798;
-  --bs-form-invalid-color: #ea868f;
-  --bs-form-invalid-border-color: #ea868f;
-    }
-    /* Add more contrast. */ 
-    :root {
-        --bs-body-color: #e1e1e1;
-        --bs-body-color-rgb: 226,226,226;
-        --bs-body-bg: #121212;
-        --bs-body-bg-rgb: 18,18,18;
-    }
-    /* bootstrap 5.3 - navbar is a separate animal */
-    .navbar  {
-        --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    }
 }
 
 @media print {
