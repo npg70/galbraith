@@ -1,45 +1,75 @@
 @font-face{
-    font-family: 'Source Serif VF';
-        font-weight: 300 400 500;
+    font-family: 'Source Serif';
+    font-weight: normal;
     font-style: normal;
     font-stretch: normal;
-    src: url('/galbraith/fonts/SourceSerif4Variable-Roman.otf.woff2') format('woff2')
+    src: url('/galbraith/fonts/SourceSerif4-Regular.otf.woff2') format('woff2');
 }
-
 @font-face{
-    font-family: 'Source Serif VF';
-    font-weight: 400;
+    font-family: 'Source Serif';
+    font-weight: bold;
+    font-display: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/galbraith/fonts/SourceSerif4-Semibold.otf.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'Source Serif';
+    font-weight: normal;
+    font-display: normal;
     font-style: italic;
     font-stretch: normal;
-    src: url('/galbraith/fonts/SourceSerif4Variable-Italic.otf.woff2') format('woff2')
+    src: url('/galbraith/fonts/SourceSerif4-It.otf.woff2') format('woff2');
 }
-
+@font-face{
+    font-family: 'Source Serif Subhead';
+    font-weight: 500;
+    font-display: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/galbraith/fonts/SourceSerif4Subhead-Semibold.otf.woff2') format('woff2');
+}
 :root {
     --bs-body-font-size: 120%;
 
     /* make text black
      * was #212529, rgb(33, 37, 41)
      */
-    /*
     --bs-body-color: #000000;
     --bs-body-color-rgb: 0,0,0;
-     */
 
+    --bs-link-color: rgb(43,103,211);
+    --bs-link-color-rgb: 43,103,211;
+    --bs-link-hover-color: rgb(43,103,211);
+    --bs-link-hover-color-rgb: 43,103,211 
+    /*
     --bs-link-color: rgb(13,76,177);
     --bs-link-color-rgb: 13,76,177;
     --bs-link-hover-color: rgb(13,76,177);
     --bs-link-hover-color-rgb: 13,76,177;
+    */
 }
 body {
-    font-family: "Source Serif VF", "Source Serif", sans;
+    font-family: "Source Serif", sans;
     font-synthesis: none;
+
+    /* Turn on ligatures,etc */
     font-feature-settings: "kern" 1, "liga" 1;
-    font-optical-sizing: auto;
-
-    /* required for Safari */
     text-rendering: optimizeLegibility;
-}
 
+    /*
+     * Safari/Firefox default
+    -webkit-font-smoothing: subpixel-antialiased;
+
+    * Chrome on Safari default which is crappy.
+    * will make the font look the same as chrome but not as good.
+    * would need to bump up font-weight or size to improve contrast
+    -webkit-font-smoothing: antialiased;
+    */
+}
+h1,h2,h3 {
+   font-family: 'Source Serif', 'Source Serif', serif;
+}
 a {
     text-decoration: none;
 }
