@@ -8,7 +8,7 @@ import (
 // takes csv and makes an HTML table
 func CsvTableHTML(args []string, body string) string {
 	out := strings.Builder{}
-	out.WriteString("<div class=table-responsive style='max-width:768px'>")
+	out.WriteString("<div class=table-responsive>")
 	out.WriteString("<table class='table table-borderless table-sm small ms-3'>")
 	r := csv.NewReader(strings.NewReader(body))
 
