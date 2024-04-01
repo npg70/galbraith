@@ -26,7 +26,7 @@ partner {
     marriage -date 1827 -location 'killean and kilchenzie'
     death -date 13-mar-1886 -location 'mid calder, midlothian' -ref barbara-death 
     body {
-        Maybe the daughted of Duncan McQuilkan and Margaret McMath, baptized 6 Jun 1799 in Killean and Kilcehnzie.
+        She may be the daughter of Duncan McQuilkan and Margaret McMath, baptized 6 Jun 1799 in Killean and Kilcehnzie.
     }
     child {
         name Duncan Galbreath
