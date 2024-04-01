@@ -108,7 +108,13 @@ $ul{
 $h2{Manuscripts}
 
 $ul{
-	$li{$source-link[kilkerran-graveyard-inscriptions]{Kilkerran Graveyard Inscriptions} - Unpublished
+	$li{$source-link[kilkerran-graveyard-inscriptions]{Kilkerran Graveyard Inscriptions} - Unpublished}
+}
+
+$h2{Census}
+
+$ul{
+	$li{$source-link[census-gigha-1827]{Isle of Gigha Census of 1827}}
 }
 `)
 	return out.String()
