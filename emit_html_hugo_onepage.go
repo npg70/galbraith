@@ -147,7 +147,7 @@ func renderFuncs() map[string]TagFunc {
 			s := strings.Builder{}
 			s.WriteString("<tr class=break-inside-avoid>")
 			s.WriteString("<td class=footnote-counter>")
-			s.WriteString("<span><sup>" + args[1] + "</sup>&nbsp;</span>")
+			s.WriteString("<span>" + args[1] + ".&nbsp;</span>")
 			s.WriteString("</td>")
 			s.WriteString("<td>")
 			s.WriteString(strings.TrimSpace(body))
