@@ -4,7 +4,6 @@ import (
 	"flag"
 	"fmt"
 	"log"
-	"mime"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -15,9 +14,19 @@ func init() {
 	// flag stuff
 }
 
+// may or may not be needed for CORS + Fonts
+func addHeaders(fs http.Handler) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		if strings.HasSuffix(r.URL.Path, ".woff2") {
+			w.Header().Add("Access-Control-Allow-Origin", "http://localhost:1313")
+		}
+		fs.ServeHTTP(w, r)
+	}
+}
+
 func serve(outdir string) {
 	fmt.Println("Starting")
-	http.Handle("/galbraith/", http.StripPrefix("/galbraith/", http.FileServer(http.Dir(outdir))))
+	http.Handle("/galbraith/", addHeaders(http.StripPrefix("/galbraith/", http.FileServer(http.Dir(outdir)))))
 	http.ListenAndServe("localhost:1313", nil)
 }
 
@@ -106,7 +115,6 @@ func main() {
 	}
 
 	if server {
-		mime.AddExtensionType(".woff2", "font/woff2")
 		serve(outdir)
 	}
 }
