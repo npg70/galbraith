@@ -4,34 +4,46 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
     <title>{{ select . "title" }}</title>
-    <link rel="stylesheet" type="text/css" href="/galbraith/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/galbraith/styles.css">
     <link rel="preload" href="/galbraith/fonts/SourceSerif4-Regular.otf.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/galbraith/fonts/SourceSerif4-Semibold.otf.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/galbraith/fonts/SourceSerif4-Semibold.otf.woff2" as="font" type="font/woff2" crossorigin  />
+
+    <!-- Safari 17.4 - script must be above stylesheet, else double loads on fonts -->
+    <script type="text/javascript">
+    function togglenav(element) {
+      menu = document.getElementById("navbarNavAltMarkup");
+      if (element.getAttribute("aria-expanded") == "true") {
+        element.setAttribute("aria-expanded", "false");
+        menu.classList.remove("show");
+        return
+      }
+      element.setAttribute("aria-expanded", "true");
+      menu.classList.add("show");
+    }
+    </script>
+    <link rel="stylesheet" type="text/css" href="/galbraith/styles.css">
 </head>
 <body class="bg-white">
   <div style="max-width: 50em;" class="bg-white mx-auto">
-     <nav class="mb-3 navbar navbar-expand-md border-bottom"><div class="container-fluid">
-       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-           <span class="navbar-toggler-icon"></span>
-       </button>
-       <a class="navbar-brand mx-auto ml-md-0" href="/galbraith/">Galbraith Research</a>
-       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-             <a class="nav-link" href="/galbraith/indexes/">Indexes</a>
-             <a class="nav-link" href="/galbraith/tags/">Tags</a>
-             <a class="nav-link" href="/galbraith/sources/">Sources</a>
-          </div>
+     <nav class="navbar navbar-expand-md mb-3 border-bottom">
+       <div class="container-fluid">
+          <button onclick="togglenav(this)" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+          </button>
+         <a class="navbar-brand mx-auto" href="/galbraith/">Galbraith Research</a>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+               <a class="nav-link" href="/galbraith/indexes/">Indexes</a>
+               <a class="nav-link" href="/galbraith/tags/">Tags</a>
+               <a class="nav-link" href="/galbraith/sources/">Sources</a>
+            </div>
+         </div>
        </div>
      </nav>
+
      <div class="ps-2 pe-2">
          {{ render . }}
      </div>
   </div><!-- main container -->
-  <script src="/galbraith/bootstrap.min.js"></script>
 </body>
 </html>

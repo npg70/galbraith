@@ -53,7 +53,7 @@ func renderFuncs() map[string]TagFunc {
 		},
 		"lineage": func(args []string, body string) string {
 			out := strings.Builder{}
-			out.WriteString("<tr><th class=col-1>Lineage</th><td>")
+			out.WriteString("<tr><th>Lineage</th><td>")
 			out.WriteString(body)
 			out.WriteString("</ol></td></tr>\n")
 			return out.String()
@@ -66,10 +66,6 @@ func renderFuncs() map[string]TagFunc {
 			if year != "" {
 				year = " b. " + year + " "
 			}
-			/*
-				return fmt.Sprintf("<li value=%s class=''>%s %s</li>\n",
-					counter, body, mother)
-			*/
 			return fmt.Sprintf("<div>%s%sm. %s</div>\n", body, year, mother)
 		},
 		"person": func(args []string, body string) string {
@@ -85,12 +81,12 @@ func renderFuncs() map[string]TagFunc {
 			return "<div>" + body + "</div>\n"
 		},
 		"person-main":      makeTagClass("div", "print-hack"),
-		"person-secondary": makeTagClass("table", "table table-borderless .table-sm small"),
+		"person-secondary": makeTagClass("table", "small"),
 		"banner": func(args []string, body string) string {
 			return "<div class='mb-4'>" + body + "</div>\n"
 		},
 		"pagemeta": func(args []string, body string) string {
-			return fmt.Sprintf("<tr><th class='col-1'>Updated</th><td>%s</td></tr>",
+			return fmt.Sprintf("<tr class='pb-3'><th class='pe-5'>Updated</th><td>%s</td></tr>",
 				body)
 		},
 		"person-bio": makeTag("div"),
@@ -99,18 +95,18 @@ func renderFuncs() map[string]TagFunc {
 			if strings.TrimSpace(body) == "" {
 				return ""
 			}
-			return fmt.Sprintf("<tr><th class=col-1>External</th><td><ul class='ps-0 mb-0' >%s</ul></td></tr>\n", body)
+			return fmt.Sprintf("<tr><th class='pe-5'>External</th><td>%s</td></tr>\n", body)
 		},
 		"external": func(args []string, body string) string {
 			// open external links into new window
-			return fmt.Sprintf("<li class='d-inline-block me-3'><a rel='noreferrer' target='_blank' href=%q>%s</a></li>\n", args[1], body)
+			return fmt.Sprintf("<a class='me-3' rel='noreferrer' target='_blank' href=%q>%s</a>\n", args[1], body)
 		},
 		"tags": func(args []string, body string) string {
 			if len(args) == 0 {
 				return ""
 			}
 			s := strings.Builder{}
-			s.WriteString("<tr><th class=col-1>Tags</th><td>")
+			s.WriteString("<tr><th class='pe-5'>Tags</th><td>")
 			for _, tag := range args[1:] {
 				s.WriteString(makeTagButton(nil, tag))
 			}

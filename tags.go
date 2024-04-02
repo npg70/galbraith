@@ -90,5 +90,12 @@ func makeTagButton(path []string, body string) string {
 	taglink := "/galbraith/tags/" + strings.Join(path, "/")
 	taglink = taglink + "/" + tagname + "/"
 	taglink = strings.ReplaceAll(taglink, ":", "-")
-	return "<a class='btn btn-sm btn-secondary' href=" + taglink + ">" + tag + "</a>\n"
+
+	tag = strings.ReplaceAll(tag, " and ", " ")
+	parts := strings.Fields(tag)
+	for i := 0; i < len(parts); i++ {
+		parts[i] = Title(parts[i])
+	}
+	tag = "#" + strings.Join(parts, "")
+	return "<a class='font-sans text-color' href=" + taglink + ">" + tag + "</a>\n"
 }
