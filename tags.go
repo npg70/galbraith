@@ -97,5 +97,5 @@ func makeTagButton(path []string, body string) string {
 		parts[i] = Title(parts[i])
 	}
 	tag = "#" + strings.Join(parts, "")
-	return "<a class='font-sans text-color' href=" + taglink + ">" + tag + "</a>\n"
+	return "<a class='font-sans text-color me-2' href=" + taglink + ">" + tag + "</a>\n"
 }
