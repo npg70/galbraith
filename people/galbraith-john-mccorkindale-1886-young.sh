@@ -25,11 +25,8 @@ partner {
         birth -date 1923 -location southend -ref hector1923-birth
         death -date 2001 -location campbeltown -ref hector1923-death
     }
-    child {
-        name Andrew Young Galbraith
-        birth -date 1925 -location southend -ref andrew1925-birth
-        death -date 2007 -location campbeltown -ref andrew1925-death
-    }
+    child galbraith-andrew-young-1925-mckinnon
+
     child {
         name Mary McCorkindale Galbraith
         birth -date 12-may-1928 -location southend -ref mary1928-birth
@@ -60,12 +57,6 @@ footnotes {
     }
     hector1923-death {
         $sp-ref[d-2001-536-00-0048 "Hector McNair Galbraith"]
-    }
-    andrew1925-birth {
-        $sp-ref[b-1925-532-00-0015 "Andrew Young Galbraith"]
-    }
-    andrew1925-death {
-        $sp-ref[d-2007-536-00-0003 "Andrew Young Galbraith"]
     }
     mary1928-birth {
         $sp-ref[b-1928-532-00-0013 "Mary McCorkindale Galbraith"]
