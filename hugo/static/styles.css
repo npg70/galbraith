@@ -739,10 +739,10 @@ blockquote {
     line-spacing: 1.0;
     font-size: 90%;
 
-    margin-top: 0.5rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
 
     page-break-inside: avoid;
 }
