@@ -66,6 +66,12 @@
     --bs-link-hover-decoration: underline;
 }
 
+/* set font to 100% (or inherit?)
+ * blockquote makes the font smaller, but in footnotes 
+ * this is too small.  So just keep font the same size
+ * as parent
+ */
+.fs-100p { font-size: inherit; }
 .text-color { color: var(--bs-body-color); }
 .bg-white { background-color: #fff; }
 
@@ -135,7 +141,6 @@ table>:not(caption)>*>* {
 }
 th {
   text-align: inherit;
-  text-align: -webkit-match-parent;
 }
 
 thead,
@@ -155,6 +160,15 @@ th {
 td, th {
     vertical-align: top;
 }
+/* .table-p0 > tbody > tr > :is(td,th) { */
+.table-p0 td,th {
+    padding: 0;
+}
+/*
+.table-p0 > * > * > td {
+    padding: 0;
+}
+*/
 
 .table {
   width: 100%;
@@ -723,12 +737,12 @@ small, .small {
 
 blockquote {
     line-spacing: 1.0;
-    font-size: 0.8125em;
+    font-size: 90%;
 
     margin-top: 0.5rem;
     margin-left: 3rem;
     margin-right: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 
     page-break-inside: avoid;
 }
@@ -743,14 +757,18 @@ sup {
     line-height: 0;
 }
 
-td.child-counter {
+.width-100r {
     width: 1rem;
 }
-td.roman {
+.width-200r {
     width: 2rem;
 }
-td.footnote-counter {
-    width: 1.rem;
+.width-300r {
+    width: 3rem;
+}
+
+td.child-counter {
+    width: 1rem;
 }
 ul.todos {
     list-style-type: "\26A0";
@@ -1260,19 +1278,5 @@ nav {
   flex-grow: 0;
   padding: 0;
   overflow-y: visible;
-}
-
-.menu-content {
-    max-height: 0;
-    overflow: hidden;
-    font-family: 'Oswald', sans-serif; 
-    padding: 0 0 0 50px;
-}
-/* Toggle Effect */
-input:checked ~ label {
-    background-image: url(close.png);
-}
-input:checked ~ .menu-content {
-    max-height: 100%;
 }
 

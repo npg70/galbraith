@@ -30,7 +30,7 @@ func renderFuncs() map[string]TagFunc {
 		"nowrap":             makeTagClass("span", "text-nowrap"),
 		"csvtable":           CsvTableHTML,
 		"date":               makeTagClass("span", "text-nowrap"),
-		"child-list":         makeTagClass("table", "mb-3"),
+		"child-list":         makeTagClass("table", "table-p0 mb-3"),
 		"gen":                makeTag("sup"),
 		"children":           makeTag("div"),
 		"child-partner-name": makeTagClass("span", "text-smallcaps text-nowrap"),
@@ -116,14 +116,14 @@ func renderFuncs() map[string]TagFunc {
 		"child": func(args []string, body string) string {
 			s := strings.Builder{}
 			s.WriteString("<tr>")
-			s.WriteString("<td class=child-counter>")
+			s.WriteString("<td class=width-100r>")
 			lineageCounter := getKeyValue(args, "counter")
 			if lineageCounter != "" && lineageCounter != "0" {
 				s.WriteString(lineageCounter)
 			}
 			s.WriteString("</td>")
 			r, _ := strconv.Atoi(getKeyValue(args, "birth-order"))
-			s.WriteString("<td class='text-end roman'>" + toRoman(r) + "." + "</td>")
+			s.WriteString("<td class='text-end width-200r'>" + toRoman(r) + "." + "</td>")
 			s.WriteString("<td class='ps-3'>" + body + "</td>")
 			s.WriteString("</tr>\n")
 			return s.String()
@@ -137,19 +137,19 @@ func renderFuncs() map[string]TagFunc {
 				return ""
 			}
 			s := strings.Builder{}
-			s.WriteString("<div class='small'>\n")
-			s.WriteString("<hr>\n<table>\n")
+			s.WriteString("<div>\n")
+			s.WriteString("<hr>\n<table class='table-p0 small' >\n")
 			s.WriteString(body)
 			s.WriteString("</table></div><!-- footnotes -->\n")
 			return s.String()
 		},
 		"footnote": func(args []string, body string) string {
 			s := strings.Builder{}
-			s.WriteString("<tr class=break-inside-avoid>")
-			s.WriteString("<td class=footnote-counter>")
+			s.WriteString("<tr class=''>")
+			s.WriteString("<td class='width-100r'>")
 			s.WriteString("<span>" + args[1] + ".&nbsp;</span>")
 			s.WriteString("</td>")
-			s.WriteString("<td>")
+			s.WriteString("<td class=''>")
 			s.WriteString(strings.TrimSpace(body))
 			s.WriteString("</td>")
 			s.WriteString("</tr>\n")
@@ -179,7 +179,7 @@ func renderFuncs() map[string]TagFunc {
 			}
 			body = strings.TrimSpace(body)
 			if len(body) > 0 {
-				body = "<blockquote>" + body + "</blockquote>"
+				body = "<blockquote class='fs-100p'>" + body + "</blockquote>"
 			}
 			person2 := ""
 			if len(args) == 5 {
@@ -212,7 +212,7 @@ func renderFuncs() map[string]TagFunc {
 			}
 			body = strings.TrimSpace(body)
 			if len(body) > 0 {
-				body = "<blockquote>" + body + "</blockquote>"
+				body = "<blockquote class='fs-100p'>" + body + "</blockquote>"
 			}
 			person2 := ""
 			if len(args) == 4 {
