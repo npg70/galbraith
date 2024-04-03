@@ -137,8 +137,8 @@ func renderFuncs() map[string]TagFunc {
 				return ""
 			}
 			s := strings.Builder{}
-			s.WriteString("<div>\n")
-			s.WriteString("<hr>\n<table class='table-p0 small' >\n")
+			s.WriteString("<hr><div>\n")
+			s.WriteString("<table class='table-p0 small' >\n")
 			s.WriteString(body)
 			s.WriteString("</table></div><!-- footnotes -->\n")
 			return s.String()
