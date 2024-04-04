@@ -1,5 +1,5 @@
 name Hector McNair Galbraith
-birth -date 1923 -location southend -ref hector1923-birth
+birth -date 19-mar-1923 -location southend -ref hector1923-birth
 death -date 20-jul-2001 -location campbeltown -ref hector1923-death
 
 external {
@@ -15,7 +15,7 @@ partner {
 }
 footnotes {
     hector1923-birth {
-        $sp-ref[b-1923-532-00-0006 "Hector McNair Galbraith"]
+        $sp-ref-link[b-1923-532-00-0006 0002 "Hector McNair Galbraith"]
     }
     hector1923-death {
         $sp-ref[d-2001-536-00-0048 "Hector McNair Galbraith"]
