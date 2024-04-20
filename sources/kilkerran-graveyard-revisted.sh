@@ -37,7 +37,7 @@ his wife $b{Agnes Galbraith}, who died of tuberculosis at age 23 on 28/10/1886.
 }
 
 $p{
-Agnes Galbraith, daughter of [Neil Galbreath](/people/galbraith-neil-1841.md) and Martha Stewart, born 23 Jan 1863, Saddell.
+Agnes Galbraith, daughter of $child-link[galbreath-neil-1841-stewart]{Niel Galbraith} and Martha Stewart, born 23 Jan 1863, Saddell.
 }
 }
 
