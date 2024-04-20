@@ -12,6 +12,10 @@ todo {
 tags Argyll:Campbeltown
 partner {
     name Agnes Armour
+    body {
+        She was the daughter of $child-link[armour-james-1716-stewart]{James Armour}
+        and Florance Stewart.
+    }
     marriage -date 5-mar-1767 -location campbeltown -ref marriage
     baptism -date 5-jun-1752 -location campbeltown
     child galbreath-james-1768-harvey

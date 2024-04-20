@@ -90,6 +90,7 @@ $ul{
 	$li{$source-link[kintyre-country-life]{Kintyre Country Life}}
 	$li{$source-link[kintyre-the-hidden-past]{Kintyre, The Hidden Past}}
 	$li{$source-link[saga-of-out-kintyre-kin]{Saga of our Kintyre Kin}}
+	$li{$source-link[distilleries-of-campbeltown]{The Distilleries of Campbeltown}}
 }
 
 $h2{Magazines}

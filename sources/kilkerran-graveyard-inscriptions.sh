@@ -113,6 +113,13 @@ $child-link[galbreath-martha-1800-mcmillan]{Martha Galbreath}, daughter of $chil
 }
 
 $section{
+$h2{560 - Walled Enclosure}
+$blockquote{
+Erected by JAMES ARMOUR, Malster in memory of JOHN ARMOUR his son Couper in Campbeltown who died 24 August 1789 aged 39 years also JAMES, JOHN, JOHN and ISOBELL his children and this is the place designed for ISOBELL COLVIN his spouse and family, the above JAMES ARMOUR maltster died 10 November 1796 aged 80 years and ISOBELL COLVIN widow of JOHN ARMOUR cooper died 20 February 1815.
+}
+$child-link[armour-james-1716-stewart]{James Armour}
+}
+$section{
 $h2{563}
 
 $blockquote{Erected by JAMES GALBREATH baker, in memory of his father HENDRY GALBREATH Shoemaker in Campbeltown who died 15 July 1789 aged 46 years also FLORANCE and MARY his children and this is the place designed for AGNES ARMOUR his spouse and family.}
@@ -121,7 +128,12 @@ $blockquote{Erected by JAMES GALBREATH baker, in memory of his father HENDRY GAL
 
 $child-link[galbreath-henry-1739-armour]{Henry Galbreath}, son of $child-link[galbreath-william-1701-kilpatrick]{William Galbreath} and Margaret Kilpatrick, baptized in Campbeltown April 1739,
 }
-
+$section{
+$h2{564}
+$blockquote{
+Here lyes AGNES, MARGARET and ALEXANDER ARMOUR children of JAMES ARMOUR Maltster in Campbeltown and this is the place designed for FLORANCE his spouse and family.
+}
+}
 $section{
 $h2{608}
 

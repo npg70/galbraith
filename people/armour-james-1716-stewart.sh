@@ -1,0 +1,45 @@
+name James Armour
+birth -date 'about 1716'
+tags Argyll:Campbeltown
+death -date 10-nov-1796 -location campbeltown
+external {
+    familysearch  L41Z-P3C
+}
+partner {
+    name Florance Stewart
+    birth -date 'about 1715'
+
+    child {
+        name Agnes Armour
+        baptism -date 11-Aug-1747 -location campbeltown
+    }
+    child {
+        name John Armour
+        baptism -date 02-oct-1750 -location campbeltown
+        death -date 25-aug-1789
+        partner {
+            name Isabella Colville
+        }
+    }
+    child {
+        name Agnes Armour
+        baptism -date 05-jun-1752 -location Campbeltown
+        body {
+            Married $child-link[galbreath-henry-1739-armour]{Henry Galbreath}
+        }
+    }
+    child {
+        name James Armour
+        baptism -date 25-aug-1754 -location campbeltown
+    }
+    child {
+        name Alexander Armour
+        baptism -date 11-jul-1756 -location campbeltown
+    }
+    child {
+        name Alexander Armour
+        baptism -date 17-apr-1759 -location campbeltown
+    }
+
+}
+
