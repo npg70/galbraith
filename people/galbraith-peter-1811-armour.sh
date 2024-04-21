@@ -4,6 +4,7 @@ birth -date 30-may-1811 -location campbeltown
 baptism -date 31-may-1811 -location campbeltown -ref birth
 external {
     familysearch K8FY-YJ4
+    findagrave 223869457
 }
 body {
     Peter was a distiller or "distillery workman"

@@ -5,6 +5,7 @@ death -date 10-nov-1796 -location campbeltown
 external {
     familysearch  L41Z-P3C
 }
+
 partner {
     name Florance Stewart
     birth -date 'about 1715'
@@ -13,14 +14,8 @@ partner {
         name Agnes Armour
         baptism -date 11-Aug-1747 -location campbeltown
     }
-    child {
-        name John Armour
-        baptism -date 02-oct-1750 -location campbeltown
-        death -date 25-aug-1789
-        partner {
-            name Isabella Colville
-        }
-    }
+    child armour-john-1750-colville
+
     child {
         name Agnes Armour
         baptism -date 05-jun-1752 -location Campbeltown

@@ -24,39 +24,14 @@ In 1789 the quantity of whisky produced by one of the town stills...
 The original partners in the business were James Armour, cooper, and John Armour, merchant. Then after the death of the later, Hugh Ferguson and James Galbreath joined James Armour in the partnership.
 }
 
-Occupations of James and John likely mixed up.
-
 $p{
-$child-link[armour-james-1716-stewart]{James Armour}, malster, born about 1716.
+The occupations of James and John are possibly confused. But there is a
+$child-link[armour-james-1716-stewart]{James Armour}, maltster, born about 1716.
+His son $child-link[armour-john-1750-colville]{John}, was a cooper, married Isabella Colville, had many children, and died in 1789.
+James also had a daughter Agnes Armour, who married $child-link[galbreath-henry-1739-armour]{Henry Galbreath}.
+Henry and Agnes had a son, $child-link[galbreath-james-1768-harvey]{James Galbreath}. It's possible this the James mentioned above.
 }
-$p{
-His son John the cooper, married Isabella Colville and had many children.
 }
-
-$p{
-"Armour , John , late cooper in Campbeltown 8 Apr. 1790 and 20 Jan.1792"
-https://www.scotlandspeople.gov.uk/view-image/nrs_wills_testaments/33862?image=1&return_row=0
-spouse not listed but...
-Lists children: Margaret, Florance, Agnes, Alexander, James, Robert, Janet
-}
-
-$p{
-John Armour m. Isobell Colvill, children on ScotlandsPeople
-Margaret 1773
-James 1775
-John 1775 (twins)
-Agnes 1779
-Alexander 1781
-James 1781 (twins)
-John 1783
-Isabell 1785
-Robert 1787
-Janet (twins) 1787
-}
-$p{
-John has a bother James. Missing Florance.
-}
-
 $section{
 $h2{Page 16}
 
@@ -64,6 +39,9 @@ $blockquote{
 Subscribed by a Committee of the Distillers, at Campbeltown, the Twenty-fourth Day of August, 1797
 $br{}
 Signed Archibald Galbreath, James Elder, Nathaiel Harvey
+}
+$p{
+Strong guess Archibald is $child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbreath}, born about 1760 who married Margaret Langwell and Jean Corbert.
 }
 }
 
@@ -76,7 +54,7 @@ $blockquote{
 Scotia Distillery was founded in the year 1837 by the late Dean of Guild Stewart and the late Provost John Galbraith, North Park.
 }
 
-John Galbraith, born 1809, son of Archibald Galbreath and Jean Corbet.
+$child-link[galbraith-john-1809-mcewing]{John Galbraith}, the son of $child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbreath} and Jean Corbet, born 1809.
 }
 $section{
 $h2{Page 194}

@@ -6,7 +6,7 @@ external {
 }
 tags Argyll:Campbeltown
 body {
-Little is know about the origins of Samuel. Guessing his birth to be around 1765 would make first child born when he was 28 which seems reasonable. All children appear to have been born "in Town" and the marriage said the couple were "both of this parish".
+Little is known about the origins of Samuel. Guessing his birth to be around 1765 would make first child born when he was 28 which seems reasonable. All children appear to have been born "in Town" and the marriage said the couple were "both of this parish."
 }
 partner {
     name Janet Langwill

@@ -227,13 +227,15 @@ $h2{978}
 
 $blockquote{1823 Erected by JAMES RYBURN, shipmaster in Campbeltown, to the memory of WILLIAM RYBURN his father who died 15 June 1819 aged 81 and JANET GALBRAITH his mother who died 17 August 1793 aged 52.}
 
-Janet Galbreath, daughter of $child-link[galbreath-william-1701-kilpatrick]{William Galbreath} and Margaret Kilpatrick, baptised at Campbeltown 27 Apr 1735.
+$child-link[galbreath-janet-1735-ryburn]{Janet Galbreath}, daughter of $child-link[galbreath-william-1701-kilpatrick]{William Galbreath} and Margaret Kilpatrick, baptised at Campbeltown 27 Apr 1735.
 
 Oddly can not find any records of James Ryburn.
 }
 
 $section{
-$h2{1009 - Nunqua non paratus}
+$h2{1009}
+
+$p{Nunqua non paratus}
 
 $blockquote{By WILLIAM JOHNSTON, Wright in Campbeltown, in memory of MARGARET GALBREATH his mother who died 9 September 1821 aged 58 years.}
 
@@ -245,10 +247,16 @@ $h2{1103}
 
 $blockquote{Erected by DANIEL GALBRAITH, shipmaster in Campbeltown, in memory of MARY GALBREATH his spouse who died 18 November 1782 aged 30 years and also in memory of MARGRET ORR his mother who died 7 December 1788 aged 65 years. This is the intended burial place for that family}
 
+$p{
 Can't find a baptism or marriage record for Daniel.
-
+}
+$p{
+There are multiple choices on who Mary could be.
+}
+$p{
 "Margret Orr" may be the following, but can't find any marraige record to a Galbraith.
-
+}
+$blockquote{
 ORR
 MARGARET
 EDWARD ORR/ELIZABETH WYLIE FR83 (FR83)
@@ -257,6 +265,7 @@ F
 507/
 11 154
 Campbeltown
+}
 }
 
 $section{
