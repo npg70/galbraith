@@ -12,7 +12,7 @@ body {
 $ul{
 $li{Left town at age 1814 (age 14) to go to Glasgow}
 $li{Listed as Malster in 1843}
-$li{Dead of Guilds, Glasgow 1848-1850}
+$li{Dean of Guilds, Glasgow 1848-1850}
 $li{Provost Glasgow 1857-1860}
 $li{Formed Johnson, Galbraith & Co... trade house with Havana and Hondouras., with Alexander Johnson}
 $li{Formed A&A Galbraith, power loom company with his brother Archibald}
