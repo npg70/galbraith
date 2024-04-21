@@ -9,6 +9,9 @@ import (
 
 func renderFuncs() map[string]TagFunc {
 	return map[string]TagFunc{
+		"br": func(args []string, body string) string {
+			return "<br>"
+		},
 		"root": func(args []string, body string) string {
 			return body
 		},
