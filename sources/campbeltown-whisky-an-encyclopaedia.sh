@@ -13,7 +13,7 @@ $h2{Page 34}
 $p{Reference to $child-link[galbraith-elizabeth-1841-fleming]{Elizabeth Galbraith}, b. 1841, and her father $child-link[galbraith-john-1809-mcewing]{John Galbrath}
 }
 
-$p{
+$blockquote{
 James Nichol Fleming was a Glasgow merchant who married Elizabeth Galbraith daughter of John Galbreath in 1859
 }
 }
@@ -24,12 +24,8 @@ $p{Reference to $child-link[galbraith-jean-1805-coville]{Jean Galbraith} b. 1805
 
 $blockquote{
 Colvill(e), John Jr, who died on 5 Dec 1851...
-}
-
-$p{
 His parents were Archibald Colville and Janet Clark, and he married Jean Galbraith, daughter of Archibald, merchant, in 1824. She died in 1864.}
 }
-
 
 $section{
 $h2{Page 63}
@@ -39,7 +35,7 @@ $blockquote{
 the 1841 census was taken... there was Hugh Templeton, described as a maltster, and his wife Catharine Galbreath.
 }
 $p{
-Catharine Galbreath, bp. 25 Apr 1809, daughter of James Galbreath and Martha Galbreath.
+Catharine Galbreath, bp. 25 Apr 1809, daughter of $child-link[galbreath-james-1768-galbreath]{James Galbreath} and Martha Galbreath.
 }
 }
 
@@ -54,8 +50,11 @@ $blockquote{
 His widow, Mary Coville McEwing, was aged 82 when she died in 1900. Her parents were John Townley McEwing, R.N., and Elizabeth Colville. For daughter Elizabeth...
 }
 
+$p{The reference of parent and grandparents both being "Archibald Galbraith" is incorrect. His father $child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbreath} married twice, first to Martha Langwill, then Jean Corbet.
+This makes $child-link[galbreath-william-1736-dunlop]{William Galbreath} the grand-father, not great-grandfather.
+}
 $p{
-Possible error for William's death. This has 1883. But may be 1863.
+There is an error with the death of the brother William Galbreath. He died in 1863 not 1883.
 }
 }
 
@@ -80,7 +79,7 @@ $p{Janet "Jessie" Coville is the daughter of John Coville Jr and Jean Galbraith.
 $section{
 $h2{Pages 106-107}
 
-$p{Regarding Catherine Galbreath, b. 1788.}
+$p{Regarding $child-link[galbreath-catharine-1788-greenlees]{Catherine Galbreath}, daughter of $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath} and Janet McNair, b. 1788.}
 
 $blockquote{
 Samuel Greenless... He was one of 11 children born to James Greenlees, farmer, and Catherine Galbraith. There were native, Gaelic-speaking Galbraiths in Kintyre, but Catharine belonged to a Lowland family which also left its mark in distilling history.
