@@ -30,7 +30,7 @@ func makeTagClass(tag string, cz string) TagFunc {
 func IsHTMLTag(tag string) bool {
 	// todo make map
 	switch tag {
-	case "h1", "h2", "h3", "h4", "p", "b", "i", "em", "br", "hr", "s":
+	case "h1", "h2", "h3", "h4", "p", "b", "i", "em", "hr", "s":
 		return true
 	case "table", "tbody", "th", "tr", "td", "tfoot":
 		return true
