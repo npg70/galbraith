@@ -10,7 +10,8 @@ $publisher{Grimsay Press}
 $section{
 $h2{Page 34}
 
-$p{Reference to Elizabeth Galbraith, b. 1841.}
+$p{Reference to $child-link[galbraith-elizabeth-1841-fleming]{Elizabeth Galbraith}, b. 1841, and her father $child-link[galbraith-john-1809-mcewing]{John Galbrath}
+}
 
 $p{
 James Nichol Fleming was a Glasgow merchant who married Elizabeth Galbraith daughter of John Galbreath in 1859
@@ -19,7 +20,7 @@ James Nichol Fleming was a Glasgow merchant who married Elizabeth Galbraith daug
 
 $section{
 $h2{Page 44}
-$p{Reference to Jean Galbraith b. 1805 and her father Archibald Galbreath b. 1760.}
+$p{Reference to $child-link[galbraith-jean-1805-coville]{Jean Galbraith} b. 1805 and her father $child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbreath} b. 1760.}
 
 $blockquote{
 Colvill(e), John Jr, who died on 5 Dec 1851...
@@ -44,7 +45,7 @@ Catharine Galbreath, bp. 25 Apr 1809, daughter of James Galbreath and Martha Gal
 
 $section{
 $h2{Pages 76-77}
-$p{Extensive notes on John Galbraith, founder of Scotia Distillery and Provost of Campbeltown 1860-66:}
+$p{Extensive notes on $child-link[galbraith-john-1809-mcewing]{John Galbraith}, founder of Scotia Distillery and Provost of Campbeltown 1860-66:}
 
 $blockquote{
 His Galbraith family was not of native Kintyre stock, but descended from 17th century Lowland settlers. John's parents were Archibald Galbraith, merchant, and Jean Corbet. His grandfather, Archibald Galbraith, was a merchant in Campbeltown, and his great-grandfather, William, was a maltster. Each of these, like his father, married into a Plantation family: Langwill and Dunlop, respectively. John's bother William, a merchant in Campbeltown, was a partner in Stewart, Galbraith & co. from its foundation until his death in 1883. His other brothers, Archibald and Andrew, who left Kintyre, were cotton-spinners amd merchants, and Andrew was Lord Provost of Glasgow from 1857 until 1860.
@@ -61,7 +62,7 @@ Possible error for William's death. This has 1883. But may be 1863.
 $section{
 $h2{Page 88}
 
-$p{Many notes on Glen Scotia Distillery, with John Galbraith being an original partner in 1832.}
+$p{Many notes on Glen Scotia Distillery, with $child-link[galbraith-john-1809-mcewing]{John Galbraith} being an original partner in 1832.}
 }
 
 $section{
@@ -73,7 +74,7 @@ $blockquote{
 his wife Jessie ... died 1930, age 89... was also a Coville, a daugher of John Coville Jr... sister of Archibald Coville who succeeded to the Glasgow cotton-spinning business, A. & A. Galbraith founded by his uncles Andrew and Archibald.
 }
 
-$p{Janet "Jessie" Coville is the daughter of John Coville Jr and Jean Galbraith. Jean is the child of Archibald Galbreath and Jean Corbet, as is Andrew and Archibald}
+$p{Janet "Jessie" Coville is the daughter of John Coville Jr and Jean Galbraith. Jean is the child of $child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbreath} and Jean Corbet, as is $child-link[galbraith-andrew-1799-scott]{Andrew} and $child-link[galbreath-archibald-1807]{Archibald}.
 }
 
 $section{
@@ -114,7 +115,7 @@ $section{
 $h2{Page 137}
 
 $p{
-Mentions John Galbraith became a partner in Longrow Distillery, and other business notes.
+Mentions $child-link[galbraith-john-1809-mcewing]{John Galbraith} became a partner in Longrow Distillery, and other business notes.
 }
 }
 
