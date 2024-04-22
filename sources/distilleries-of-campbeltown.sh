@@ -25,11 +25,20 @@ The original partners in the business were James Armour, cooper, and John Armour
 }
 
 $p{
-The occupations of James and John are possibly confused. But there is a
-$child-link[armour-james-1716-stewart]{James Armour}, maltster, born about 1716.
-His son $child-link[armour-john-1750-colville]{John}, was a cooper, married Isabella Colville, had many children, and died in 1789.
-James also had a daughter Agnes Armour, who married $child-link[galbreath-henry-1739-armour]{Henry Galbreath}.
+The occupations of James and John are possibly confused.
+}
+$p{
+$child-link[armour-james-1716-stewart]{James Armour}, maltster,
+born about 1716.
+His son $child-link[armour-john-1750-colville]{John}, was a cooper, married Isabella Colville, and died in 1789.  They had many children
+but of particular interest is Agnes and Robert.
+}
+$p{
+Agnes Armour, who married $child-link[galbreath-henry-1739-armour]{Henry Galbreath}.
 Henry and Agnes had a son, $child-link[galbreath-james-1768-harvey]{James Galbreath}. It's possible this the James mentioned above.
+}
+$p{
+$child-link[armour-robert-1787-porter]{Robert Armour} sold illicit distilling equipment to the town.
 }
 }
 $section{
