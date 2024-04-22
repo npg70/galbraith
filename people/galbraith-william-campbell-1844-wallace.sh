@@ -13,7 +13,8 @@ The last two sons immigrated to California.
 partner {
     name Mary Hamilton Wallace
     birth -date 21-may-1848 -location Fenwick,Ayr 
-
+    marriage -date 09-jun-1870 -location glasgow -ref wallace-marriage
+    death -date 17-oct-1936 -location Ayr,Ayr
     child galbraith-william-campbell-1871-thomson-cook
 
     child {
@@ -65,6 +66,9 @@ footnotes {
             Mother: Sarah Armour; 
             Present: William[?] C Galbraith, son
         }
+    }
+    wallace-marriage {
+        $sp-ref-link[m-1870-644-08-0191 0096 "William Galbraith" "Mary Wallace"]
     }
     peter1873-birth {
         $sp-ref[b-1873-644-08-0525 "Peter Galbraith"]

@@ -11,7 +11,11 @@ body {
 }
 partner {
     name Sarah Armour
+    body {
+        She was the daughter of Archibald Armour and Margaret Turner.
+    }
     marriage -date 15-aug-1843 -location campbeltown -ref marriage
+    birth -date 25-apr-1823
     baptism -date 1-may-1823 -location campbeltown -ref sarah-armour-birth
     death -date 25-oct-1899 -location campbeltown -ref sarah-armour-death
     child galbraith-william-campbell-1844-wallace 

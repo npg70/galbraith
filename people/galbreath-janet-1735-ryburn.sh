@@ -4,10 +4,20 @@ tags Argyll:Campbeltown
 external {
    familysearch KHC3-LK7
 }
+note {
+    Often confused with a Janet Galbreath who marries James Harvie.
+    This Janet is confirmed with inscription at Kilkerran Cemetery.
+}
+
+todo {
+    Find Janet G and James Harvie.
+}
+
 partner {
    name William Ryburn
    marriage -date 16-jun-1761 -location campbeltown -ref ryburn-marriage
    baptism -date 12-mar-1732 -location campbeltown
+   death -date 15-jun-1819 -location campbeltown
 }
 footnotes {
     janet1735-bapt {

@@ -7,7 +7,7 @@ external {
 partner {
     name Margaret Anderson
     birth -date "about 1725"
-    marriage -date 'about 1747'
+    marriage -date 10-jan-1748 -location campbeltown -ref anderson-marriage 
     child {
         name James Galbreath
         baptism -date 30-oct-1748 -location campbeltown -ref james1748-baptism
@@ -52,6 +52,12 @@ footnotes {
     }
     james1748-baptism {
         $opr-ref[b-1748-507-000-0011-0266 "James Galbreath"]
+    }
+    anderson-marriage {
+        $opr-ref-link[m-1748-507-000-0011-0450 "James Calbraith" "Margaret Anderson"]{
+        1748 James Calbraith + Margt Anderson | Jan 10th
+        }
+        $opr-ref[m-1748-507-000-0010-0087 "James Calbraith" "Margaret Anderson"]
     }
     margaret1750-baptism {
         $opr-ref[b-1750-507-000-0011-0274 "Margaret Galbreath"]
