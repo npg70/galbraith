@@ -751,7 +751,7 @@ func (r Root) generateOne(primary string) (string, []string) {
 		}
 		mother := FindMother(p)
 		lineage = append(lineage, fmt.Sprintf("$ancestor[counter=%d generation=%d mother=%q year=%q]{%s}\n",
-			p.parent.counter, p.generation, mother.FullName(), p.BirthYearString(), WriteLineageNameLink(p.parent)))
+			p.parent.counter, p.generation, mother.FullName(), p.parent.BirthYearString(), WriteLineageNameLink(p.parent)))
 	}
 	out.WriteString("$lineage{")
 	// and reverse
