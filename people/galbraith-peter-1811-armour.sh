@@ -1,7 +1,7 @@
 name Peter Galbraith
 tags Argyll:Campbeltown
 birth -date 30-may-1811 -location campbeltown
-baptism -date 31-may-1811 -location campbeltown -ref birth
+baptism -date 31-may-1811 -location campbeltown -ref peter1811-birth
 external {
     familysearch K8FY-YJ4
     findagrave 223869457
@@ -33,7 +33,7 @@ partner {
     }
 }
 footnotes {
-    birth {
+    peter1811-birth {
         $opr-ref-link[b-1811-507-000-0040-0369 "Peter Galbreath"]
     }
     marriage {
