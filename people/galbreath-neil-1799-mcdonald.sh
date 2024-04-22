@@ -10,15 +10,7 @@ partner {
     body {
         Her death was in 1850 or 1851, as the last child was born in 1850 and Neil is listed as a widower in 1851.
     }
-    child {
-        name Isabella Galbraith
-        baptism -date 12-may-1841 -location gigha -ref isabella1841-baptism
-        death -date 04-apr-1924 -location gigha -ref isabella1841-death
-        partner {
-            name Hugh Wotherspoon
-            marriage -date 1863 -location gigha -ref isabella1841-marriage
-        }
-    }
+    child galbraith-isabella-1841-wotherspoon
     child {
         name Catherine Galbreath
         baptism -date 16-aug-1842 -location gigha -ref catherine1842-baptism
@@ -77,15 +69,6 @@ footnotes {
 
     mcdonald-marriage {
         $opr-ref-link[m-1840-537-000-0020-0042 "Neill Galbreath" "Flora MacDonald"]
-    }
-    isabella1841-baptism {
-        $opr-ref[b-1841-537-000-0020-0046 "Isabella Galbreath"]
-    }
-    isabella1841-death {
-        $sp-ref-link[d-1924-537-00-0002 0001 "Isabella Galbraith"]
-    }
-    isabella1841-marriage {
-        $sp-ref[m-1863-537-00-0002 "Isabella Galbraith" "Hugh Wotherspoon"]
     }
     catherine1842-baptism {
         $opr-ref[b-1842-537-000-0020-0049 "Catherine Galbreath"]

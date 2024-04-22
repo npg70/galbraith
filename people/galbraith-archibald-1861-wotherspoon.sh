@@ -3,16 +3,14 @@ tags 'argyll:kilcalmonell and kilberry'
 external {
     familysearch LV7Y-5RK
 }
-todo {
-    Helen's mother was Eugina Galbraith
-}
-
 birth -date 27-may-1861 -location kilberry -ref archibald1861-birth
 death -date 29-jan-1940 -location kilberry -ref archibald1861-death
 partner {
     name Helen Wotherspoon
-    birth -date 8-aug-1875 -location gigha -note 'daughter of James Wotherspoon and Eugenia Galbraith'
-
+    birth -date 8-aug-1875 -location gigha
+    body {
+        She was the daughter of James Wotherspoon and $child-link[galbraith-eugina-1838-wotherspoon]{Eugenia Galbraith}.
+    }
     death -date 2-jun-1951 -location kilberry -ref wotherspoon-death
     marriage -date 26-aug-1897 -location 'kilcalmonell and kilberry' -ref wotherspoon-marriage
     child {
@@ -40,16 +38,7 @@ partner {
         birth -date 29-jun-1904 -location kilberry -ref eugina1904-birth
         death -date 1978 -location ayr,ayr 
     }
-    child {
-        name Archibald Wotherspoon Galbraith
-        birth -date 25-mar-1907 -location kilberry -ref archibald1907-birth
-        death -date 18-dec-1970 -location tarbert -ref archibald1907-death
-        partner {
-            name Molly Mooring
-            birth -date 'about 1917'
-            marriage -date 02-sep-1948 -location kilberry -ref mooring-marriage
-        }
-    }
+    child galbraith-archibald-wotherspoon-1907-mooring
     child {
         name Helen Galbraith
         birth -date 12-dec-1909 -location kilberry -ref helen1909-birth
@@ -71,16 +60,7 @@ partner {
         birth -date 8-sep-1916 -location kilberry -ref catherine1916-birth
         death -date 5-aug-2009 -location glasgow -ref catherine1916-death
     }
-    child {
-        name William Wotherspoon Galbraith
-        birth -date 20-sep-1920 -location tarbert -ref william1920-birth
-        death -date 27-mar-1977 -location 'Cinderford, Gloucestershire, England'
-        partner {
-            name Joyce Elizabeth Thomas
-            birth -date 24-feb-1921 -location 'Cinderford, Gloucestershire, England'
-            death -date 13-nov-2011
-        }
-    }
+    child galbraith-william-wotherspoon-1920-thomas
 
 }
 footnotes {
@@ -120,15 +100,6 @@ footnotes {
     eugina1904-birth {
         $sp-ref-link[b-1904-533-02-0006 0002 "Eugina Galbraith"]
     }
-    archibald1907-birth {
-        $sp-ref[b-1907-533-02-0003 "Archibald Wotherspoon Galbraith"]
-    }
-    archibald1907-death {
-        $sp-ref-link[d-1970-535-00-0029 0029 "Archibald Wotherspoon Galbraith"]
-    }
-    mooring-marriage {
-        $sp-ref-link[m-1948-533-02-0001 0001 "Archibald Wotherspoon Galbraith" "Molly Mooring"]
-    }
     helen1909-birth {
         $sp-ref[b-1909-533-02-0009 "Helen Galbraith"]
     }
@@ -143,8 +114,5 @@ footnotes {
     }
     catherine1916-birth {
         $sp-ref[b-1916-533-02-0004 "Catherine Galbraith"]
-    }
-    william1920-birth {
-        $sp-ref-link[b-1920-533-02-0005 0002 "William Wotherspoon Galbraith"]
     }
 }

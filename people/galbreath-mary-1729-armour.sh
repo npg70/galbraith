@@ -3,11 +3,15 @@ tags Argyll:Campbeltown
 baptism -date 19-oct-1729 -location campbeltown -ref mary1729-baptism
 external {
     wikitree Galbraith-1881
+    familysearch GF24-VMS
 }
 partner {
     name William Armour
     marriage -date 30-apr-1750 -location campbeltown -ref marriage
     baptism -date 9-may-1731 -location campbeltown
+    body {
+        He was the son of John Armour and Janet Clark.
+    }
     child {
         name James Armour
         baptism -date 28-apr-1751

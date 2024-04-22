@@ -3,6 +3,7 @@ tags Argyll:Campbeltown
 baptism -date 24-feb-1698 -location campbeltown -ref janet1698-baptism
 external {
     familysearch LQRH-NLV
+    wikitree Galbraith-1800
 }
 partner {
     name Peter Langwill
