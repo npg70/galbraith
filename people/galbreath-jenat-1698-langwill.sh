@@ -20,10 +20,10 @@ partner {
     } 
     child {
         name Isobell Langwill
-        baptism -date 14-Feb-1725
-        partner {
-            name Edward Orr        
-         }
+        baptism -date 14-Feb-1725 -location campbeltown
+        body {
+            Married $child-link[orr-edward-1720-langwill]{Edward Orr}
+        }
     }
     child {
         name John Langwill

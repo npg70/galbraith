@@ -247,7 +247,8 @@ $h2{1100}
 $blockquote{
 In memory of EDWARD ORR, Merchant, Campbeltown, who died 18 October 1796 aged 76 and his wife ISABELLA LANGWILL died 9 January 1795 aged 70, also their grandsons JOHN died 2 February 1873 aged 79, WILLIAM died 31 May 1885 aged 80.
 }
-$p{Isabella Langwill is the daughter of $child-link[galbreath-jenat-1698-langwill]{Janet Galbraith} and Peter Langwill.}
+$p{
+$child-link[orr-edward-1720-langwill]{Edward Orr}'s spouse Isabella Langwill is the daughter of $child-link[galbreath-jenat-1698-langwill]{Janet Galbraith} and Peter Langwill.}
 }
 
 $section{

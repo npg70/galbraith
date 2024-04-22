@@ -76,17 +76,17 @@ $p{
 The Memorial of the Lowland Congregation of Campbeltown 22 Sept 1749
 }
 
-$ul{
-$li{William Galbreath}
-$li{David Galbreath}
-$li{David Galbreath}
-$li{John Galbreath}
-$li{John Galbreath}
-$li{Archibald Galbreath}
-$li{James Galbreath}
-$li{David Galbreath}
-$li{James Galbreath}
-$li{Samuel Galbreath}
+$blockquote{
+William Galbreath$br{}
+David Galbreath$br{}
+David Galbreath$br{}
+John Galbreath$br{}
+John Galbreath$br{}
+Archibald Galbreath$br{}
+James Galbreath$br{}
+David Galbreath$br{}
+James Galbreath$br{}
+Samuel Galbreath$br{}
 }
 }
 $section{
@@ -117,7 +117,9 @@ Nice summaries of Campbeltown families involved at the time.
 }
 
 $blockquote{
-Galbreath or Galbraith: John and David, maltmen, signed the Maltster Declaration, 1743 They were members of the Lowland congregation and later the Relief congregation, 1767.
+Galbreath or Galbraith:
+}
+$blockquote{John and David, maltmen, signed the Maltster Declaration, 1743 They were members of the Lowland congregation and later the Relief congregation, 1767.
 }
 $blockquote{
 Samuel, maltman, traded extensively in malt and bear to Belfast;

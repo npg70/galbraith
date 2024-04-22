@@ -5,7 +5,9 @@ external {
     wikitree Galbraith-1789
 }
 tags Argyll:Campbeltown
-
+note {
+   Note gap 1680-1691, and that only sons were baptized.
+}
 partner {
     name Mary Nielson
     marriage -date "About 1671"
