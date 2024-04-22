@@ -1,5 +1,5 @@
 name William Galbreath
-baptism -date 16-jan-1780 -location campbeltown -ref baptism
+baptism -date 16-jan-1780 -location campbeltown -ref william1780-baptism
 external {
     familysearch KFJY-V29
 }
@@ -18,7 +18,7 @@ partner {
     child galbraith-william-1815-glass
 }
 footnotes {
-    baptism {
+    william1780-baptism {
         $opr-ref[b-1780-507-000-0020-0047 "William Galbreath"]
     }
     marriage {
