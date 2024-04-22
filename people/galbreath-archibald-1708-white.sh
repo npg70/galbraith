@@ -1,11 +1,12 @@
 name Archibald Galbreath
 tags Argyll:Campbeltown
 baptism -date 30-May-1708 -location Campbeltown -ref archibald1708-baptism
-death -date Sep-1789 -location Campbeltown
-burial -name "Kilchousland Graveyard"
+death -date Sep-1789 -location Campbeltown -ref archibald1708-burial
+burial -name "Kilchousland Graveyard" -ref archibald1708-burial
 external {
     familysearch LZZ8-6K7
     wikitree Galbraith-1788
+    findagrave 114485207
 }
 partner {
 	name Mary White
@@ -39,6 +40,18 @@ footnotes {
     archibald1708-baptism {
         $opr-ref-link[b-1708-507-000-0011-0104 "Archibald Galbreath"]
         $opr-ref-link[b-1708-507-000-0010-0047 "Archibald Galbraith"]
+    }
+    archibald1708-burial {
+    Find a Grave, database and images (https://www.findagrave.com/memorial/114485207/archibald-galbraith: accessed April 21, 2024), memorial page for Archibald Galbraith (30 May 1708–1789), Find a Grave Memorial ID 114485207, citing Kilchousland Graveyard, Argyll and Bute, Scotland; Maintained by Pixturmn (contributor 47729036).
+    $p{Transcription:}
+    $blockquote{$pre{
+Erected by
+___ Galbreath ___
+___ Archd Galbreath
+___ __ Ardnacross __
+___ died Sept 1789 __
+illegible
+}}
     }
     white-marriage {
         $opr-ref-link[m-1733-507-000-0011-0442 "Archibald Calbraith" "Martha White"];
