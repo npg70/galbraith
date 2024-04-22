@@ -3,6 +3,7 @@ baptism -date 02-oct-1750 -location campbeltown
 death -date 25-aug-1789
 external {
     familysearch K4K8-GZF
+    wikitree Armour-874
 }
 body {
 In his wills/testaments, his spouse is not listed, but his children are:
@@ -50,15 +51,7 @@ partner {
         name Isabell Armour
         baptism -date 12-aug-1785 -location campbeltown
     }
-    child {
-        name Robert Armour
-        baptism -date 30-sep-1787 -location campbeltown
-        death -date 11-may-1873 -location campbeltown
-        partner {
-            name Mary Porter
-            marriage -date 25-jan-1820 -location campbeltown
-        }
-    }
+    child armour-robert-1787-porter
     child {
         name Janet Armour
         baptism -date 30-sep-1787 -location campbeltown

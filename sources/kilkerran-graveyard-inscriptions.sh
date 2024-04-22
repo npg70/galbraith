@@ -120,13 +120,33 @@ Erected by JAMES ARMOUR, Malster in memory of JOHN ARMOUR his son Couper in Camp
 $child-link[armour-james-1716-stewart]{James Armour}
 }
 $section{
+$h2{561}
+$blockquote{
+By ROBERT ARMOUR coppersmith Campbeltown and MARY PORTER his spouse in memory of their sons JOHN and JAMES who died young.  The above ROBERT ARMOUR died 12 May 1873 aged 87 years, MARY PORTER his spouse died 26 July 1876 aged 78 years also their daughter AGNES who died 20 June 1880 aged 46 years.
+}
+$p{
+$child-link[armour-robert-1787-porter]{Robert Armour}, son of John, grandson of James above, keeps a records of distilling equipement.
+}
+}
+$section{
+$h2{562}
+$p{Inscribed stone}
+$blockquote{
+In loving memory of ROBERT ARMOUR Coppersmith who died 12 May 1873 aged 87 years and MARY PORTER his wife who died 26 July 1876 aged 78 years erected in affectionate remembrance by their children.
+}
+$p{
+$child-link[armour-robert-1787-porter]{Robert Armour}, as previous.
+}
+}
+
+$section{
 $h2{563}
 
 $blockquote{Erected by JAMES GALBREATH baker, in memory of his father HENDRY GALBREATH Shoemaker in Campbeltown who died 15 July 1789 aged 46 years also FLORANCE and MARY his children and this is the place designed for AGNES ARMOUR his spouse and family.}
 
-(surrounded by other Armour graves)
-
-$child-link[galbreath-henry-1739-armour]{Henry Galbreath}, son of $child-link[galbreath-william-1701-kilpatrick]{William Galbreath} and Margaret Kilpatrick, baptized in Campbeltown April 1739,
+$p{
+$child-link[galbreath-henry-1739-armour]{Henry Galbreath}, son of $child-link[galbreath-william-1701-kilpatrick]{William Galbreath} and Margaret Kilpatrick, baptized in Campbeltown April 1739.
+}
 }
 $section{
 $h2{564}
