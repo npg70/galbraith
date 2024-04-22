@@ -243,16 +243,32 @@ $child-link[galbreath-margaret-1762-johnson]{Margaret Galbreath}, born 1762, dau
 }
 
 $section{
+$h2{1100}
+$blockquote{
+In memory of EDWARD ORR, Merchant, Campbeltown, who died 18 October 1796 aged 76 and his wife ISABELLA LANGWILL died 9 January 1795 aged 70, also their grandsons JOHN died 2 February 1873 aged 79, WILLIAM died 31 May 1885 aged 80.
+}
+$p{Isabella Langwill is the daughter of $child-link[galbreath-jenat-1698-langwill]{Janet Galbraith} and Peter Langwill.}
+}
+
+$section{
+$h2{1101}
+Inscribed stone, inscription obliterated.
+}
+
+$section{
+$h2{1102}
+Inscribed stone, inscription obliterated.
+}
+
+$section{
 $h2{1103}
 
 $blockquote{Erected by DANIEL GALBRAITH, shipmaster in Campbeltown, in memory of MARY GALBREATH his spouse who died 18 November 1782 aged 30 years and also in memory of MARGRET ORR his mother who died 7 December 1788 aged 65 years. This is the intended burial place for that family}
 
-$p{
-Can't find a baptism or marriage record for Daniel.
-}
-$p{
-There are multiple choices on who Mary could be.
-}
+$p{Can't find a baptism record for Daniel.}
+$p{Can't find a merriage record for a Daniel and Mary.}
+$p{There are multiple choices on who Mary could be.}
+$p{Unclear if Margaret Orr is connected to Edward Orr in 1100.}
 $p{
 "Margret Orr" may be the following, but can't find any marraige record to a Galbraith.
 }
