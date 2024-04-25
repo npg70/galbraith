@@ -7,7 +7,7 @@ baptism -date 28-apr-1719 -location campbeltown -ref david1719-baptism
 note {
     There are two people named David Galbreath, who both married a Langwill and both had their
     first child in 1743.  This David married $i{Jean} Langwill
-    and the other David Galbreath married $i{Mary} Langwill.
+    and the other $child-link[galbreath-david-1718-langwill]{David Galbreath } married $i{Mary} Langwill.
 }
 note {
     No information on children beyond baptism.
