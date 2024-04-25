@@ -32,5 +32,12 @@ partner {
         birth -date 07-jun-1763
         baptism -date 08-jun-1763 -location campbeltown
     }
+    child {
+        name Margaret Fleeming
+        birth -date 'about 1765'
+        body {
+            Married $child-link[ralston-andrew-1758-fleeming]{Andrew Ralston}
+        }
+    }
 }
 

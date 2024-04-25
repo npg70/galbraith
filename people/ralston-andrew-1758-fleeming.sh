@@ -7,7 +7,9 @@ external {
 partner {
     name Margaret Fleeming
     marriage -date 23-jan-1778 -location campbeltown
-
+    body {
+        She was the daughter of $child-link[fleeming-john-1713-langwill]{John Fleeming} and Agnes Langwill.
+    }
     child {
         name Robert Ralston
         baptism -date 28-dec-1778
