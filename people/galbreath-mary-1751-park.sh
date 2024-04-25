@@ -6,6 +6,23 @@ todo {
     link to kilkerran
 }
 partner {
+    name Matthew Andrew
+    marriage -date 15-nov-1771 -location campbeltown -ref andrew-marriage
+
+    child {
+        name Agnes Andrew
+        baptism -date 06-sep-1772 -location campbeltown
+        partner {
+            name William Greenlees
+        }
+    }
+    child {
+        name Elisabeth Andrew
+        baptism -date 18-jan-1775 -location campbeltown
+    }
+}
+
+partner {
     name James Park
     birth -date 'about 1750'
     death -date 09-oct-1806 -location campbeltown
@@ -40,6 +57,7 @@ partner {
     child {
         name Margaret Park
         birth -date 04-oct-1790 -location campbeltown
+        death -date 1791
     }
     child {
         name Margaret Park
@@ -52,4 +70,9 @@ footnotes {
         $opr-ref[b-1751-507-000-0011-0276 "Mary Galbreath"]
     }
 
+    andrew-marriage {
+        $opr-ref-link[m-1771-507-000-0011-0473 "Mary Galbreath" "Matthew Andrew"];
+        $opr-ref-link[m-1771-507-000-0020-0156 "Mary Galbreath" "Matthew Andrew"];
+        $opr-ref[m-1771-507-000-0010-0343 "Mary Galbreath" "Matthew Andrew"]
+    }
 }
