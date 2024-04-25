@@ -92,4 +92,266 @@ $blockquote{
 I am particularly indebted to the late Wm. W. Galbreath Jr of Lynchburg, Virginia, a nuclear scientist, for originally making the correspondence available to me and to Mr Ralph W. Sloan of Westminster, Maryland, the present archivist of' the American Galbreaths. I hope that local members will appreciate that the footnotes to the correspondence are much more detailed than they might find necessary. This is for the benefit of American readers who do not have the same local knowledge.
 }
 
+$hr{}
+
+$h2{Letter 1}
+$p{Dated 20 Dec 1787}
+
+$blockquote{
+1. James McNair was a farmer near Campbeltown. The McNairs and Galbraiths were intermarried.
+}
+$p{
+TBD
+}
+
+$blockquote{
+We had a letter from John Fleming (4) from London about a month ago and he is gone for Virginia from that you may posible see him before he Returns
+$br{}$br{}
+4. John Fleming, a sailor, was married to Margaret Galbraith.
+}
+$p{
+$elink[https://www.familysearch.org/tree/person/details/9M94-6SP]{John Fleeming} married Margaret Galbreath in Campbeltown on 5 Jan 1782, and had two children. However, no other records have been found.
+}
+
+$blockquote{
+5. John Paterson was married to Mary Fleming. The new baby James in 1830 took to do with the estate of his aunt Margaret Fleming, widow of David Ferguson, Smith in Campbeltown.
+}
+$p{
+$elink[https://www.familysearch.org/tree/person/details/KZW8-C4F]{John Paterson} and Mary Fleeming, last child, James Paterson married $child-link[galbraith-isabella-1808-paterson]{Isabella Galbraith}.
+}
+
+$blockquote{
+6. William Watson, a very prominent Merchant & Shipowner.
+}
+$p{
+TBD
+}
+
+$blockquote{
+Big Baldie (9) is married to Robert Langwills daughter
+$br{}$br{}
+9. "Big Baldy" was Archibald Galbraith, the son of William and grandson of Archibald, the oldest brother of Alexander Galbraith's father John. His first wife Margaret Longwill died aged 20. His second wife Jean Corbet died on 2nd August 1861 aged 90. By his second wife he had ten known children.
+}
+
+$p{
+$child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbraith}, the son of $child-link[/galbreath-william-1736-dunlop]{William Galbraith} and Margaret Dunlop,  married Robert Langwill's daughter Martha in 1787. He subsequently married Jean Corbet.
+}
+
+$p{
+Less certiain is the phrase "the grandson of Archibald, the oldest brother of $child-link[galbreath-alexander-1753-flemming]{Alexander Galbraith}'s father $child-link[galbreath-john-1721-langwill]{John}."  This implies Alexander descends from $child-link[galbreath-archibald-1708-white]{Archibald Galbreath} and Mary White. However there are no records for William, especially born around 1736.
+}
+
+
+$blockquote{
+10. James Park was married to Mary Langwill. He was, in other words, a brother-in-law of Alexander Galbraith. Along with William Kerr mentioned in another letter he witnessed the Will of Margaret Fleming Ferguson on 8th December 1783. In the Duke's Census of 1792 he is shown as living in Kirk Street with his wife and children John, Mary, James and Betty. The son James died in August 1793 as mentioned in a later letter.
+}
+
+$p
+Correction: "James Park was married to Mary $strike{Langwill} Galbreath" (this took a while to figure out!). $child-link[galbreath-mary-1751-park]{Mary Galbreath} was the sister of Alexander, and married James Park.
+}
+
+$hr{}
+
+$h2{Letter 2}
+$p{Dated 21 July 1791}
+
+$blockquote{
+Jas Park's step Dr married two weeks' ago to a William Greenlees(3) a skipper.
+}
+$p{
+Before she married James Park, $child-link[galbreath-mary-1751-park]{Mary Galbreath} was first married to Matthew Andrew. The first daughter Agnes Andrew married William Greenlees.
+}
+$blockquote{
+ Wm Ferguson's old Dr married in winter last to a Jas. Greenlees a skipper. 
+}
+$p{
+Isabell Ferguson m. James Greenlees
+}
+$p{
+GREENLEES
+JOHN
+JAMES GREENLEES/ISABELL FERGUSON FR761 (FR761)
+M
+17/01/1792
+507
+20 / 138
+CAMPBELTOWN
+}
+
+$blockquote{
+old bridgend has got 2 letters from his sons who are in virginia. his sone Rob't is married to Jas Hervey Parks old daughter.
+}
+$p{
+"Old Bridgend" is James Clark, the son of John Clark and Margaret Fulton,
+baptized Campbeltown in 1712.  He married $child-link[galbreath-agnes-1722-clark]{Agnes Galbreath}, daughter of James Galbreath and Mary Fleeming, grand-daughter of James Galbreath and Mary Nielson.
+}
+$p{The two sons are likely Peter or Patrick Clark and James Clark who both immigrated to Glade Spring, Virgina, USA.  Peter married $child-link[galbreath-mary-1759-clark]{Mary Galbreath} in 1759 at Campbeltown.  She was the great-grand-daughter of James Galbreath and Mary Nielson.
+}
+$p{His son $child-link[clark-robert-1756-harvie]{Robert Clark} married
+to Martha Harvie.  The also immigrated to Glade Spring in 1814.  Martha was the daughter of James Harvey and $child-link[galbreath-katharine-1741-harvey]{Katherine Galbreath}, another grand-daughter of James Galbreath and Mary Nielson from a different line.
+}
+
+$blockquote{
+Jas Park had a child of about one year old who died a week ago.
+}
+
+$p{
+Margaret Park, daughter of James Park and $child-link[galbreath-mary-1751-park]{Mary Galbreath}, born 1790, and  died 1791.
+}
+
+$blockquote{
+My [William Ker] young ones which consist of 2 boys by my last marriage has both had it the youngest who is now 54 weeks old is just recovering
+}
+$p{
+TBD $elink[https://www.familysearch.org/tree/person/details/9M9Z-KQY]{Charles Kerr}, bp. 13-jul-1790, son of William Kerr and Margaret MacNeil.
+}
+
+$blockquote{
+your brother J. Fleeming was married to Robert Colviel's old daughter(9)
+}
+$p{
+That is Alexander's brother-in-law (the brother of his spouse Agnes Fleeming),:
+$elink[https://www.familysearch.org/tree/person/details/KH7S-T42]{John Fleeming}, son of John Fleeming and Agnes Langwill, born 1758.   And $elink[https://www.familysearch.org/tree/person/details/M1TZ-QBN]{Jean Colvill}, the daughter of Robert Colvill and Agnes Fleeming.  They married on 20 Dec 1790, and had 13 or 14 children before immigrating to Washington County in Ohio, USA.
+}
+
+$blockquote{
+ I seed your father and stepmother a day or two ago as also Mrs. Mitchail.
+}
+$p{
+TBD
+}
+$blockquote{
+Munday 24th July [1791]. I am this moment returned from Southend & was in your sister's house viz A. Ralstons(13) they are all well and has 6 or 7 fine children.
+}
+$blockquote{
+(13) In the 1792 Census Andrew Ralston, (My third cousin five times removed- HR), and Peggy Fleming with a family of six are shown in Knockstaplebeg off the Campbeltown-Southend road.
+}
+
+$p{
+TBD
+}
+
+$blockquote{
+(9)That is James Hervey in the farm of Park, not to be confused with James Park.
+}
+$p{
+James Harvey who married $child-link[galbreath-katharine-1741-harvey]{Katherine Galbreath}
+}
+
+$blockquote{
+Margaret Fleeming (a sister of this Galbreath) and her husband David Ferguson made special provision in their mutual will dated 7th December 1783 that Robert Colvill in Trodigal and his heirs should be debarred from inheritance. James Park and William Ker, writers of these letters, witnessed the will.
+}
+
+$p{
+As mentioned, Margaret Fleeming as a sister to Mary and Agnes. 
+}
+
+$hr{}
+$h3{Letter 3}
+Dated 25-aug-1791
+
+$blockquote{
+Andrew Armour in trodical son to William got Married about six months since to Ann Armours daughter in Belewilling & Ran off with her the Day that she was to be married to Willm Culbertson & since he and her have parted & he will not see her. (2)
+}
+
+$blockquote{
+(2)The late Mr Archibald D. Armour in correspondence with the family in 1906 was anxious to distance himself from these ongoings. He writes: "The gossip about Andrew Armour, son to Wm. Armour farmer in Trodigal is very interresting as revealed by the baptismal records [which record] the birth to this same Andrew Armour and the daughter of Ann Armour, and her husband's name not given but the daughter's name Helen, of a son David, called a natural son, born March 7th 1792. The family of Armours in Trodigal are of the same race [as us] but we have been in the town long before the date here mentioned."
+}
+
+$hr{}
+
+$h2{Letter 4}
+From James Park
+
+To Brother John
+$hr{}
+$h2{Letter 5}
+Dated:1 Mar 1793
+From William Kerr
+To Alexander Galbreath
+
+$blockquote{
+Mr. Pinkerton(6) still a widower and going about as usuall
+}
+$blockquote{
+(6)Minister of the Relief Church, Campbeltown.
+}
+$p{
+
+}
+
+$blockquote{
+David Galbreath still in L Knockh his son married Peter in Straths sister
+}
+$p{
+
+}
+
+$blockquote{
+p. s. I wrote you that your mother died last Harvest but I have this day seen the old Laird who tells me that it was on the 11th of last March
+}
+$p{
+
+}
+
+$hr{}
+$h2{Letter 6}
+Dated: After Feb 1793
+From: Joh fleeming
+to: Alexander G
+
+$blockquote{
+We are in a thriveing way at home I have Tow Boyes James & Robt verey promiseing childering at present
+}
+
+$blockquote{
+ But Jen Joins me in his Love to you and Sister Agness & Family 
+}
+
+$hr{}
+$h2{Letter 7}
+Dated 7 april 1794
+
+$blockquote{
+I ame Dr. Son your mother.
+$br{}
+JANET LANGWILL. (2)
+}
+$blockquote{
+(2)The signature is somewhat of a mystery since the mother of Alexander Galbraith was Agnes Langwill.
+}
+$hr{}
+$h2{Letter 8}
+Dated{ 08-apr-1794
+From James Park
+To Alexander Galbreath
+}
+
+$blockquote{
+But I wrote you formerly of my Refuseing to Pay Samuel Galbraith 
+}
+
+$blockquote{
+My family consists of my old soon & Mary & Betty I wrote you last of the Death of James August Last
+}
+$blockquote{
+We are all well at present Unkel James is still alive but has not been out of bed this 18 months but as he is lifted Archd Paterson(3)is badlie & confined this 2 months past for the most part
+}
+$blockquote{
+(3)Archd Paterson was married to Isobel Langwill. He was 77 in 1792.
+}
+
+$blockquote{
+William Galbreath wished me to Inclose his letter to his brother and left it open for your perusal when you read you will wafer and forward to him
+}
+
+$blockquote{
+ Robert Mitchell & Betty are well & they are not pleased you never write them
+}
+$blockquote{
+James Anderson friends are all in hope but his brother Robert is very fraill.
+}
+$blockquote{
+You need not doubt if your sister joins me in her love to you & familie.
+}
 
