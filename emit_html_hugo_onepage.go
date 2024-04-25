@@ -9,6 +9,7 @@ import (
 
 func renderFuncs() map[string]TagFunc {
 	return map[string]TagFunc{
+		"strike": makeTag("s"),
 		"br": func(args []string, body string) string {
 			return "<br>"
 		},
