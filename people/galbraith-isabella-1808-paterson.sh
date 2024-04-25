@@ -9,7 +9,7 @@ todo {
     stub.. has kilkerran inscription, etc
 }
 partner {
-   name James Patterson
+   name James Paterson
    marriage -date 31-jul-1828 -location campbeltown
 }
 footnotes {
