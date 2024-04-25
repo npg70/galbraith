@@ -25,7 +25,8 @@ For marriage and baptism of children she used the name Betty (and variants).
 }
 
 $section{
-$h2{156. Inscribed stone}
+$h2{156}
+$p{Inscribed stone:}
 
 $blockquote{Erected by NEIL GALBREATH in memory of his daughter JEAN who died in the year 1805 aged 5 years also his granddaughter JEAN GALBREATH who died …}
 Find-A-Grave:
@@ -43,7 +44,8 @@ $blockquote{Inscribed stone Erected by BARBARA GALBREATH in memory of her daught
 }
 
 $section{
-$h2{247 - Inscribed stone}
+$h2{247}
+$p{Inscribed stone:}
 
 $blockquote{Erected by WILLIAM FULLARTON, Coalree, in memory of his son THOMAS who died 2 Apr 1827 aged 17 years ROBERT FULLARTON, painter, beloved husband of JEAN GALBRAITH died 4 Feb 1933 aged 87.}
 
@@ -51,7 +53,8 @@ $child-link[galbraith-jean-1855-fullarton]{Jean Galbraith}, born 5 Aug 1855 and 
 }
 
 $section{
-$h2{270 Railed enclosure with 2 stones and 1 loose tablet}
+$h2{270}
+$p{Railed enclosure with 2 stones and 1 loose tablet:}
 
 $blockquote{Sacred to the memory of JOHN CHRISTIE Officer of Customs, Campbeltown who died 8 Jan 1843 aged 86 years and HELEN GALBREATH his spouse who died 9 Feb 1855 aged 90 years and four of their children viz. AGNES who died in infancy MARY who died 4 Mar 1827 aged 24 years, FLORA who died 23 Aug 1828 aged 23 years and DAVID who died 9 Nov 1831 aged 24 years.}
 
@@ -61,7 +64,8 @@ $child-link[galbreath-helen-1764-christie]{Helen Galbreath}, daughter of Malcom 
 }
 
 $section{
-$h2{310 -  Inscribed stone}
+$h2{310}
+$p{Inscribed stone:}
 
 $blockquote{Erected by CATHERINE GALBRAITH in memory of her husband DAVID GALBRAITH who died 19 Aug 1855 aged 38 years and of their family MARGARET died 26 Jul 1881 aged 31 years, ISABELLA died 21 Sep 1882 aged 33 years, ROBERT died 18 May 1885 aged 33 years also her uncle DUGALD HAXTON died 1 Dec 1872 aged 87 years, the above CATHERINE GALBRAITH died 5 Mar 1886 aged 68 years, ALEXANDER GALBRAITH Private 72 Highlanders died 4 Dec 1887 aged 42 years took part in the following engagements, Pliwarmotal, Cara …, Cabul, Kandahar and Tel-el-keber.}
 
@@ -69,14 +73,16 @@ $child-link[galbreath-david-1812-mckinnon]{David Galbraith}, b. 1819, m. Catheri
 }
 
 $section{
-$h2{407 - Inscribed stone}
+$h2{407}
+$p{Inscribed stone:}
 
 $blockquote{
 1813 Erected by JOHN McEACHEARAN in memory of his father and mother in law ? CAMPBELL and CATHRINE GALBREATH also of his children who died in infancy.}
 }
 
 $section{
-$h2{412 - Inscribed stone }
+$h2{412}
+$p{Inscribed stone:}
 
 $blockquote{ 1840 By JAMES PATERSON and ISABELLA GALBRAITH his wife in memory of their son WILLIAM who died young.}
 
@@ -84,7 +90,8 @@ $child-link[galbraith-isabella-1808-paterson]{Isabella Galbraith}, bp. 1808 in C
 }
 
 $section{
-$h2{490 - Inscribed stone}
+$h2{490}
+$p{Inscribed stone:}
 
 $blockquote{Erected by ARCHIBALD KELLY in memory of his mother JANET GALBREATH who died 25 Jul 1842 aged 37 years and of his father WILLIAM KELLY who died 11 Jan 1844 aged 41 years and of his aunt MARY KELLY died 22 Jan 1887 aged 86 years.}
 
@@ -97,7 +104,8 @@ Janet on FamilySearch. 2022-08-14: no parents.
 }
 
 $section{
-$h2{531 - Stone slab with coat of arms}
+$h2{531}
+$p{Stone slab with coat of arms:}
 
 $blockquote{In memory of DONALD CAMPBELL of Clachan late provost of Campbeltown obt March 1727 aged 83. MARGARET McFARLAN his spouse died August 1706 aged 46 and MARY CLARK their grand daughter obt 17 …. By permission of CHARLES ROWATT, Surgeon, grandson of DONALD CAMPBELL, MARGARET PHILIPS HILL and AGNES GALBRAITH, wives of the Rev. Jas PINKERTON, lie here with ROBERT, CHARLES and WILLIAM his sons also the Rev JAMES PINKERTON first minister of the relief congregation in Campbeltown the duties of his office he discharged with fidelity he lived respected and died lamented 22 May 1805 in the 62 year of his age and 37 of his marriage remarried Jan 1843}
 
@@ -105,7 +113,8 @@ James Pinkerton's second wife $elink[https://www.familysearch.org/tree/person/de
 }
 
 $section{
-$h2{541 - Inscribed stone}
+$h2{541}
+$p{Inscribed stone:}
 
 $blockquote{By MALCOM McMILLAN ship carpenter in Campbeltown and MARTHA GALBRAITH his wife in memory of their children MALCOM MONTGOMERY McMILLAN who died 2 September 1838 aged 6 months, NEIL died 2 March 1840 aged 6 years, MARGARET died 1 May 1853 aged 11 years and 11 months, MARTHA GALBRAITH died 20 March 1871 aged 71 years and the above MALCOM McMILLAN died 7 June 1873 aged 76 years.}
 
@@ -113,7 +122,8 @@ $child-link[galbreath-martha-1800-mcmillan]{Martha Galbreath}, daughter of $chil
 }
 
 $section{
-$h2{560 - Walled Enclosure}
+$h2{560}
+$p{Walled Enclosure:}
 $blockquote{
 Erected by JAMES ARMOUR, Malster in memory of JOHN ARMOUR his son Couper in Campbeltown who died 24 August 1789 aged 39 years also JAMES, JOHN, JOHN and ISOBELL his children and this is the place designed for ISOBELL COLVIN his spouse and family, the above JAMES ARMOUR maltster died 10 November 1796 aged 80 years and ISOBELL COLVIN widow of JOHN ARMOUR cooper died 20 February 1815.
 }
@@ -202,14 +212,15 @@ $child-link[galbraith-janet-1839-spiers-mclean]{Jane Galbraith}, born 1839, daug
 }
 
 $section{
-$h2{970 - Railed enclosure, three tablets}
+$h2{970}
+$p{Railed enclosure, three tablets:}
 
 $h3{970.1}
 
 $blockquote{Here lie the remains of MARY DUNLOP who died 26 September 1773 aged 45, spouse of WM. GALBRAITH, Maltster, Campbeltown. Here lie MARY, JAS and ANN GALBRAITH their children. This is the place designed for the family. WM GALBRAITH died April 1799 aged 63}
 
 $ul{
-$li{$child-link[galbreath-william-1736-dunlop]{William Galbreath}, but perhaps "age 63" is actually "83"?}
+$li{$child-link[galbreath-william-1736-dunlop]{William Galbreath}, but perhaps "age 63" (born 1736) is actually "83" (born 1716) ?}
 $li{Mary Dunlop, born ~1728}
 $li{Mary Galbraith, bp. 23 Aug 1764}
 $li{JAS is James Galbraith, bp. 10 Feb 1768}
