@@ -77,7 +77,8 @@ footnotes {
         ? where did I find this ?
     }
     smith-marriage {
-        $opr-ref-link[m-1854-228-000-0040-0492 "Angus Galbraith" "Agnes Smith"]{
+        $opr-ref-link[m-1854-228-000-0040-0492 "Angus Galbraith" "Agnes Smith"]:
+        $blockquote{
             Galbraith + Smith | The Revd. Angus Galbraith minister of 
             the congregational Chapel in [?]field + Agnes
             Smith daughter of the late Joshua Smith, Mill Creek, after
