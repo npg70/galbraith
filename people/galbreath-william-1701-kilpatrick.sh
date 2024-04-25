@@ -3,6 +3,10 @@ baptism -date 16-nov-1701 -location campbeltown -ref william1701-baptism
 tags Argyll:Campbeltown
 external {
     familysearch G3PJ-SDL
+    wikitree Galbraith-1847
+}
+note {
+The daughter Mary is often confused with Margaret Galbreath, who married Archibald McNair.  No idea why.
 }
 partner {
     name Margaret Jean Kilpatrick
@@ -25,18 +29,8 @@ partner {
         name Jean Galbreath
         baptism -date 2-jul-1733 -location campbeltown -ref jean1733-bapt
     }
-    child {
-        name Janet Galbreath
-        baptism -date 27-apr-1735 -location campbeltown -ref janet1735-bapt
-        external {
-            familysearch KHC3-LK7
-        }
-        partner {
-            name William Ryburn
-            marriage -date 16-jun-1761 -location campbeltown
-            baptism -date 12-mar-1732 -location campbeltown
-        }
-    }   
+    child galbreath-janet-1735-ryburn
+
     child {
         name Ann Galbreath
         baptism -date 22-jan-1738 -location campbeltown -ref ann1738-bapt
@@ -65,10 +59,6 @@ footnotes {
     jean1733-bapt {
         $opr-ref[b-1733-507-000-0011-0199 "Jean Galbreath"]
         $opr-ref[b-1733-507-000-0010-0145 "Jean Galbraith"]
-    }
-    janet1735-bapt {
-        $opr-ref[b-1735-507-000-0011-0209 "Janet Galbreath"]
-        $opr-ref[b-1735-507-000-0010-0152 "Janet Calbraith"]
     }
     ann1738-bapt {
         $opr-ref[b-1738-507-000-0011-0221 "Ann Galbreath"]
