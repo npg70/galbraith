@@ -228,7 +228,8 @@ $blockquote{
 }
 
 $p{
-TBD
+$child-link[ralston-andrew-1758-fleeming]{Andrew Ralson}.
+TBD - there are two Andrew Ralston in south end...
 }
 
 $blockquote{
@@ -277,14 +278,14 @@ $blockquote{
 (6)Minister of the Relief Church, Campbeltown.
 }
 $p{
-
+$elink[https://www.familysearch.org/tree/person/details/LLSK-W4W]{James Pinkerton}'s second spouse was Agnes Galbraith, married 23-nov-1773.    She was the daugher of Archibald Galbreath and Janet Robison in the Greenock area. (no immediate connection to the Campbeltown Galbreaths).  Rev. Pinkerton remarried in Edinburgh 1796 to Jean Gardner.
 }
 
 $blockquote{
 David Galbreath still in L Knockh his son married Peter in Straths sister
 }
 $p{
-
+Nothing really obvious here.
 }
 
 $blockquote{
@@ -297,15 +298,21 @@ $p{
 $hr{}
 $h2{Letter 6}
 Dated: After Feb 1793
-From: Joh fleeming
+From: John Fleeming
 to: Alexander G
 
 $blockquote{
 We are in a thriveing way at home I have Tow Boyes James & Robt verey promiseing childering at present
 }
+$p{
+TBD family of John Fleeming.
+}
 
 $blockquote{
- But Jen Joins me in his Love to you and Sister Agness & Family 
+But Jen Joins me in his Love to you and Sister Agness & Family 
+}
+$p{
+TBD -- Jean his wife, and his sister Agnes Fleeming, spouse of Alexander.
 }
 
 $hr{}
@@ -330,28 +337,47 @@ To Alexander Galbreath
 $blockquote{
 But I wrote you formerly of my Refuseing to Pay Samuel Galbraith 
 }
+$p{
+TBD Samuel Galbraith
+}
 
 $blockquote{
 My family consists of my old soon & Mary & Betty I wrote you last of the Death of James August Last
 }
+$p{
+TBD
+}
+
 $blockquote{
 We are all well at present Unkel James is still alive but has not been out of bed this 18 months but as he is lifted Archd Paterson(3)is badlie & confined this 2 months past for the most part
 }
 $blockquote{
 (3)Archd Paterson was married to Isobel Langwill. He was 77 in 1792.
 }
-
+$p{
+Archibald
+TBD - 
+}
 $blockquote{
 William Galbreath wished me to Inclose his letter to his brother and left it open for your perusal when you read you will wafer and forward to him
 }
-
-$blockquote{
- Robert Mitchell & Betty are well & they are not pleased you never write them
+$p{
+Unclear what is going on here. 
 }
 $blockquote{
-James Anderson friends are all in hope but his brother Robert is very fraill.
+Robert Mitchell & Betty are well & they are not pleased you never write them
+}
+$blockquote{
+James Anderson friends are all in hope but
+his brother Robert is very fraill.
+}
+$p{
+TBD
 }
 $blockquote{
 You need not doubt if your sister joins me in her love to you & familie.
+}
+$p{
+John Park's wife, and Alexander Galbreath's sister was Mary Galbreath.
 }
 
