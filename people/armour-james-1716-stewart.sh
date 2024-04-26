@@ -36,6 +36,5 @@ partner {
         name Alexander Armour
         baptism -date 17-apr-1759 -location campbeltown
     }
-
 }
 
