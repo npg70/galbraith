@@ -27,7 +27,7 @@ $blockquote{
 On Mary Mitchell's death John senior married Katherine McCallum who gave him one son, Archibald.
 }
 
-Almost.  No evidence of marriage, however an Archibald Galbreath and Katherine McCallum are recorded as the parents of "natural birth" (i.e. illegitimate) of Archibald Galbreath.
+Almost.  No evidence of marriage, however an John Galbreath and Katherine McCallum are recorded as the parents of "natural birth" (i.e. illegitimate) of Archibald Galbreath.
 
 $blockquote{
 There is something of a mystery about Agnes Langwill. The Lowland church register gives her name as Agnes four times but in one of the letters hereinafter produced she signs herself Janet Langwill. This discrepancy was noticed as long ago as 1895 when the late Mr $child-link[armour-archibald-dunlop-1863-stuart-smith]{Archibald Dunlop Armour} was in touch with the family. Like him, I can provide no explanation.
@@ -333,7 +333,7 @@ $blockquote{
 }
 $hr{}
 $h2{Letter 8}
-Dated{ 08-apr-1794
+Dated 08-apr-1794
 From James Park
 To Alexander Galbreath
 }
