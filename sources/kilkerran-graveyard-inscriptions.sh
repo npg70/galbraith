@@ -252,7 +252,13 @@ $li{William Galbreath, son of Jean Corbert, }
 $li{Rachel Galbreath, daughter of Jean Corbet, bp. 25 Aug 1811. TODO: update}
 }
 }
+$section{
+$h2{971}
+$blockquote{
+Erected by ROBERT MITCHELL in memory of ELIZABETH FLEMING his spouse who died 11 November 1805 aged 42 years.  The above ROBERT MITCHELL died June 1824 aged 74 years, their daughter ELIZABETH wife of PETER PATERSON died 29 April 1837 aged 37 years, PETER PATERSON died at Glasgow 11 November 1878 aged 88 years, CATHERINE PATERSON daughter of the said PETER PATERSON and ELIZABETH MITCHELL died 20 November 1907 aged 79 years and interred here.
+}
 
+}
 $section{
 $h2{978}
 

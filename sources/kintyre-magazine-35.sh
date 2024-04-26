@@ -2,6 +2,8 @@ $title{Kintyre Magazine 35}
 
 Letters to America, by A I B Stewart
 
+$elink[https://www.familysearch.org/tree/person/details/GRSD-YS1]{Archibald Ian Balfour Stewart}.
+
 $blockquote{
 $child-link[galbreath-james-1659-nielson]{James Galbreath} and his
 wife Mary Nielsone were apparenly first in Ardnacross,
@@ -370,6 +372,9 @@ Unclear what is going on here.
 }
 $blockquote{
 Robert Mitchell & Betty are well & they are not pleased you never write them
+}
+$p{
+Likely Robert Mitchell b 1750-d.1824 who married $elink[https://www.familysearch.org/tree/person/details/KZ4K-N9S]{Elizabeth Fleeming}, sister of $elink[https://www.familysearch.org/tree/person/details/KH7S-T42]{John Fleeming} and Jean Covile.
 }
 $blockquote{
 James Anderson friends are all in hope but
