@@ -3,6 +3,7 @@ tags Argyll:Campbeltown
 external {
     familysearch KHX3-X26
     wikitree Armour-1000
+    findagrave 158186933
 }
 baptism -date 30-sep-1787 -location campbeltown
 death -date 11-may-1873 -location campbeltown

@@ -30,11 +30,14 @@ On Mary Mitchell's death John senior married Katherine McCallum who gave him one
 Almost.  No evidence of marriage, however an Archibald Galbreath and Katherine McCallum are recorded as the parents of "natural birth" (i.e. illegitimate) of Archibald Galbreath.
 
 $blockquote{
-There is something of a mystery about Agnes Langwill. The Lowland church register gives her name as Agnes four times but in one of the letters hereinafter produced she signs herself Janet Langwill. This discrepancy was noticed as long ago as 1895 when the late Mr Archibald Dunlop Armour was in touch with the family. Like him, I can provide no explanation.
+There is something of a mystery about Agnes Langwill. The Lowland church register gives her name as Agnes four times but in one of the letters hereinafter produced she signs herself Janet Langwill. This discrepancy was noticed as long ago as 1895 when the late Mr $child-link[armour-archibald-dunlop-1863-stuart-smith]{Archibald Dunlop Armour} was in touch with the family. Like him, I can provide no explanation.
 }
-
-I do recall seeing one letter signed Janet as "step-mother."
-
+$p{
+The correspondence with $child-link[armour-archibald-dunlop-1863-stuart-smith]{Archibald Dunlop Armour} has not been published. He was the Grandson of $child-link[armour-robert-1787-porter]{Robert Armour}, the illicit still maker in Campbeltown.  He was also the founder of the Campbeltown Picture House.
+}
+$p{
+The mystery of Agnes Langwill versus Janet Langwell is more than just her name.  She was also supposedly dead.  More details below.
+}
 $blockquote{
 Among the four children of John Galbreath and Agnes Langwill
 was $child-link[galbreath-alexander-1753-flemming]{Alexander},
@@ -256,7 +259,8 @@ Andrew Armour in trodical son to William got Married about six months since to A
 }
 
 $blockquote{
-(2)The late Mr Archibald D. Armour in correspondence with the family in 1906 was anxious to distance himself from these ongoings. He writes: "The gossip about Andrew Armour, son to Wm. Armour farmer in Trodigal is very interresting as revealed by the baptismal records [which record] the birth to this same Andrew Armour and the daughter of Ann Armour, and her husband's name not given but the daughter's name Helen, of a son David, called a natural son, born March 7th 1792. The family of Armours in Trodigal are of the same race [as us] but we have been in the town long before the date here mentioned."
+(2)The late Mr $child-link[armour-archibald-dunlop-1863-stuart-smith]{
+Archibald D. Armour} in correspondence with the family in 1906 was anxious to distance himself from these ongoings. He writes: "The gossip about Andrew Armour, son to Wm. Armour farmer in Trodigal is very interresting as revealed by the baptismal records [which record] the birth to this same Andrew Armour and the daughter of Ann Armour, and her husband's name not given but the daughter's name Helen, of a son David, called a natural son, born March 7th 1792. The family of Armours in Trodigal are of the same race [as us] but we have been in the town long before the date here mentioned."
 }
 
 $hr{}
