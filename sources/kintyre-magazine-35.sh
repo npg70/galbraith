@@ -201,14 +201,14 @@ Jas Park had a child of about one year old who died a week ago.
 }
 
 $p{
-Margaret Park, daughter of James Park and $child-link[galbreath-mary-1751-park]{Mary Galbreath}, born 1790, and  died 1791.
+Margaret Park, daughter of James Park and $child-link[galbreath-mary-1751-park]{Mary Galbreath}, born 1790, and died 1791.
 }
 
 $blockquote{
-My [William Ker] young ones which consist of 2 boys by my last marriage has both had it the youngest who is now 54 weeks old is just recovering
+My [$elink[https://www.familysearch.org/tree/person/details/9M9Z-KQY]{William Ker}] young ones which consist of 2 boys by my last marriage has both had it the youngest who is now 54 weeks old is just recovering
 }
 $p{
-TBD $elink[https://www.familysearch.org/tree/person/details/9M9Z-KQY]{Charles Kerr}, bp. 13-jul-1790, son of William Kerr and Margaret MacNeil.
+The two boys are $elink[https://www.familysearch.org/tree/person/details/M1TD-RSK]{John Kerr}, bp. 24 Nov 1788 and $elink[https://www.familysearch.org/tree/person/details/M1YH-SJF]{Charles Kerr}, bp. 13-jul-1790.
 }
 
 $blockquote{
@@ -263,6 +263,9 @@ Andrew Armour in trodical son to William got Married about six months since to A
 $blockquote{
 (2)The late Mr $child-link[armour-archibald-dunlop-1863-stuart-smith]{
 Archibald D. Armour} in correspondence with the family in 1906 was anxious to distance himself from these ongoings. He writes: "The gossip about Andrew Armour, son to Wm. Armour farmer in Trodigal is very interresting as revealed by the baptismal records [which record] the birth to this same Andrew Armour and the daughter of Ann Armour, and her husband's name not given but the daughter's name Helen, of a son David, called a natural son, born March 7th 1792. The family of Armours in Trodigal are of the same race [as us] but we have been in the town long before the date here mentioned."
+}
+$p{
+As mentioned $elink[https://www.familysearch.org/tree/person/details/M1Y4-X5B]{David Armour}, was baptized as a "natural son" on 7 Mar 1792.  His parents are listed as $elink[https://www.familysearch.org/tree/person/details/M1Y4-XRV]{Andrew Armour} and $elink[https://www.familysearch.org/tree/person/details/M1T4-X6D]{Helen Armour}. Helen appears to be the daughter of Robert Armour and Ann Clark, baptized 5 Aug 1774.  No other records have been found.
 }
 
 $hr{}
