@@ -14,34 +14,34 @@ partner {
     }
     child {
         name James Armour
-        baptism -date 28-apr-1751
+        baptism -date 28-apr-1751 -location campbeltown
         body {
             married $child-link[galbreath-janet-1752-armour]{Janet Galbreath}
         }
     }
     child {
         name William Armour
-        baptism -date 1753
+        baptism -date 18-dec-1753 -location campbeltown
     }
     child {
         name John Armour
-        baptism -date 1753
+        baptism -date 11-apr-1753 -location campbeltown
     }
     child {
         name John Armour
-        baptism -date 1756
+        baptism -date 25-nov-1756 -location campbeltown
     }
     child {
         name Alexander Armour
-        baptism -date 1758
+        baptism -date 01-nov-1758 -location campbeltown
     }
     child {
         name John Armour
-        baptism -date 1760
+        baptism -date 31-oct-1760 -location campbeltown
     }
     child {
         name Andrew Armour
-        baptism -date 1764
+        baptism -date 26-Jul-1764 -location campbeltown
     }
 }
 footnotes { 
