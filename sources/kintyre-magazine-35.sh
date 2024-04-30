@@ -57,6 +57,10 @@ When in 1992 I went to York County in search of information about Hugh Henry Bre
 }
 
 $p{
+TBD: Hugh Henry Breckenridge
+}
+
+$p{
 TBD: Joe Galbreath
 }
 
@@ -90,11 +94,20 @@ $blockquote{
 Mr A.L. Mitchell, author of that article, informs me that John's 
 older brother $child-link[galbraith-andrew-1799-scott]{Andrew} (1799-1888) was Lord Provost of Glasgow, from 1857-1860. He was also a founder member of the Kintyre Club and three times its president, including during the 50th anniversary year, 1875.
 }
-
+$p{
 Confirmed.
-
+}
 $blockquote{
 I am particularly indebted to the late Wm. W. Galbreath Jr of Lynchburg, Virginia, a nuclear scientist, for originally making the correspondence available to me and to Mr Ralph W. Sloan of Westminster, Maryland, the present archivist of' the American Galbreaths. I hope that local members will appreciate that the footnotes to the correspondence are much more detailed than they might find necessary. This is for the benefit of American readers who do not have the same local knowledge.
+}
+$p{
+$elink[https://www.familysearch.org/tree/person/details/G6TS-MSR]{William Wilson Galbreath, Jr}, b. 1919 in Ohio, and died 15 Sep 1983.  He is the six[check] generation from Alexander Galbreath.  He worked on the Manhattan Project.  It's unclear what happened to the letter.
+}
+$p{
+$elink[https://www.familysearch.org/tree/person/details/LCB4-CPC]{Ralph W Sloan}, b. 1918, d. 2010, married to Cornelia Halie Galbreath, also a sixth generation descendart of Alexnader.
+}
+$p{
+Unfortunately, since the Covid Epidemic of 2022, the meetings and reunions of the Galbreath family have stopped.
 }
 
 $hr{}
@@ -159,6 +172,16 @@ $hr{}
 
 $h2{Letter 2}
 $p{Dated 21 July 1791}
+
+$blockquote{
+The writer of this letter William Ker was the Overseer or Manager of the Coal Mine...
+}
+$blockquote{
+The following letter is from Knochrioch, 21st July, 1791, and Wm. Ker whose wife is a Galbarith is a brother-in-law of $child-link[galbreath-alexander-1753-flemming/]{Alexander Galbreath} to whom it is addressed.
+}
+$p{
+William Kerr.
+}
 
 $blockquote{
 Jas Park's step Dr married two weeks' ago to a William Greenlees(3) a skipper.
