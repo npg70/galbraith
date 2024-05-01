@@ -111,26 +111,20 @@ CORRECTION: Father is Neil not Donald, at least according to OPR records.
 Rev. Angus G- d. 1901 age 74, m. Smith
 }
 $p{
-Angus G- (father), d. 1836 age 42, m. Mary McLeod
+$child-link[galbraith-angus-1794-mcleod]{Angus Galbraith} (father), d. 1836 age 42, m. Mary McLeod -- schoolteacher in Kilcalmonel / Clachan. 
+He has two tombstones, one in Kilkerran Cemetery, and the other older one in Largnahension Graveyard, Lochgilphead
 }
 $p{
-Daniel Galbreath (brother), b. 1831 d. 1896, m. Jesss MacQueen
+$child-link[galbraith-daniel-1831-mcqueen]{Daniel Galbreath} (brother), b. 1831 d. 1896, m. Jesss MacQueen --  married in Campbeltown on 5 Nov 1867
 }
 $p{
-William G- (bother), jeweller/watchmaker, d. 1915, age 81
+$child-link[galbraith-william-1833-umn]{William Galbraith} (bother), jeweller/watchmaker, d. 1915, age 81 -- almost murdered during attempted robbery and arson.  He survived, but the damaged bankrupted him.
 }
 $p{
-John (brother), TBD
+$child-link[galbraith-john-1836-boyd]{John Galbraith} (brother) -- bp. 1836 at Kilcalmonell.  Married Maraget Boyd in 1863 at Greenock.
 }
 
 $p{
-NOTE: Angus d. 1836 has two tombstones, one in Kilkerran Cemetery, and the other older one in Largnahension Graveyard, Lochgilphead
-}
-$p{
-BIO: Daniel G- married Jess McQueen in Campbeltown on 5 Nov 1867
-}
-$p{
-NOTE: William was a victim of an attempted murder/robbery at his store. He survived but the damage bankrupted him.
 }
 $p{
 John G-, d. 15 Dec 1908 London
@@ -215,7 +209,7 @@ $child-link[galbraith-william-cook-1888-moss]{William Cook Galbraith} (carradale
 }
 
 $p{
-Donald G- (son), b. 1862 Saddell, m. Catharine McLarty in 1886 in Campbeltown, moved to Ontario. Piper.
+$child-link[galbreath-donald-1862-mclarty]{Donald Galbreath} (son), b. 1862 Saddell, m. Catharine McLarty in 1886 in Campbeltown, moved to Ontario. Piper.
 }
 
 $p{
