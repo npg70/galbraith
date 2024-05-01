@@ -48,7 +48,7 @@ John Kenneth G-, b 1908, d. 2006 -- still researching his Kintyre connections
 NOTE: Still researching exactly his Kintyre connections
 $hr{}
 $p{
-Lachlan G, "teacher of Enlgish and Gaelic", x-Gigha - NOTE: Can't figure out who this is.
+Lachlan G, "teacher of English and Gaelic", from Gigha - NOTE: Can't figure out who this is.
 }
 $p{
 $child-link[galbreath-edward-1855-mclarty-mckinven]{Edward G-}, d. 1933, age 77, m. Mary Mclarty 1883, "son of John shoemaker, Mary McGeachy" -- CORRECTION: Edward was the son of Ann McGeachy, not Mary.  Note: Edward married again 4 Jun 1901 to Elizabeth "Betsy" McKinven.
@@ -153,12 +153,12 @@ CORRECTION: Middle name is suspect. The official records have McMillian, McCallu
 $p{
 NOTE: She was a twin -- Jeannie! Can't find any info however.
 }
-
+$hr{}
 $p{
 $child-link[galbraith-archibald-1865-mckay]{Archibald Galbraith}, d. 1928,age 62, m. Isabella McKay -- the  son of Daniel/Donald Galbraith and Isabella McDermid, was born Campbeltown 1 July 1865, and died 25 Mar 1928. He married at Campbeltown 16 Apr 1888 to Isabella McKay}
 }
 $p{
-NOTE: Uncle of Jeannie G- (above, the one with "many near relatives in Campbeltown)
+NOTE: Uncle of Jeannie G- (above, the one with "many near relatives in Campbeltown")
 }
 
 $p{
@@ -180,8 +180,12 @@ $child-link[galbreath-neil-1841-stewart]{Neil Galbraith}, d. 1873 age 32 drownin
 
 $p{
 $child-link[galbraith-martha-1867-mcbain]{Martha Galbraith} (daughter), mother of footballer Neil McBain -- 
-the daughter of Neil Galbraith and Martha Stewart, born at Saddell on 25 March 1867.1 She died 31 July 1939 in Campbeltown, and burried in Kilkerran Graveyard. She married 31 Dec 1884 in Campbeltown to Robert McBain.
-Neil G-, x. Kilberry, m. Isabella McMillian. Piper.
+the daughter of Neil Galbraith and Martha Stewart, born at Saddell on 25 March 1867.1 She died 31 July 1939 in Campbeltown, and burried in Kilkerran Graveyard. She married 31 Dec 1884 in Campbeltown to Robert McBain
+}
+
+$p{
+$child-link[galbraith-neil-1817-mcmillan]{Neil Galbreath}, from Kilberry, m. Isabella McMillian. Piper.-- the son of $child-link[galbreath-john-1793-sinclair]{John Galbraith} and Mary Sinclair, born at Kilbery ~1818. He died at Saddell 23 Mar 1874. He married at Saddell 6 Feb 1856 to Isabella McMillan.
+
 }
 
 $p{
@@ -193,16 +197,10 @@ $child-link[galbraith-william-cook-1888-moss]{William Cook Galbraith} (carradale
 }
 
 $p{
-$child-link[galbreath-donald-1862-mclarty]{Donald Galbreath} (son), b. 1862 Saddell, m. Catharine McLarty in 1886 in Campbeltown, moved to Ontario. Piper.
-}
+$child-link[galbreath-donald-1862-mclarty]{Donald Galbreath} (son), b. 1862 Saddell, m. Catharine McLarty in 1886 in Campbeltown, moved to Ontario. Piper. -- the son of Neil Galbraith and Isabella McMillan, born Saddell 26 May 1862. He died 13 August 1947 London, Middlesex, Ontario, Canada. He married at Campbeltown 11 June 1886 Catharine McLarty.
 
-$p{
-BIO: Neil Galbraith, son of John Galbraith and Mary Sinclair, born at Kilbery ~1818. He died at Saddell 23 Mar 1874. He married at Saddell 6 Feb 18563 to Isabella McMillan.
 }
 $hr{}
-$p{
-BIO: Donald Galbraith, son of Neil Galbraith and Isabella McMillan, born Saddell 26 May 1862. He died 13 August 1947 London, Middlesex, Ontario, Canada. He married at Campbeltown 11 June 1886 Catharine McLarty.
-}
 
 $p{
 $child-link[galbraith-donald-1848-morrison]{Donald Galbraith}, from Gigha, m. Janet Morrison, d. Saddell 1905 age 54
