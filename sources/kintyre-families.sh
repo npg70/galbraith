@@ -81,12 +81,11 @@ William Campbell G-
 }
 
 $p{
-$child-link[galbraith-william-campbell-1869-mitchell]{William Campbell Galbraith} (1870-1946)
+$child-link[galbraith-william-campbell-1869-morrison]{William Campbell Galbraith} (1870-1946) -- Colonel William Campbell Galbraith
 }
 
 $p{
-$child-link[galbraith-william-1846-campbell]{William G}, d. 1926 age 80 (father of above), m. Helen Campbell
-BIO: William G married Helen Campbell at Southend 22 June 1869
+$child-link[galbraith-william-1846-campbell]{William G}, d. 1926 age 80 (father of above), m. Helen Campbell -- married at Southend 22 June 1869. He was a mason.
 }
 $hr{}
 $p{
@@ -300,16 +299,21 @@ BIO: Robert Galbreath, son of Samuel Galbreath and Janet McNair, born in Peninve
 QUESTION: Did Robert sell his farm to his younger sister Catherine Greenlees?
 
 $hr{}
-Samuel G- m. Mary Ellen Reynolds, Antigua... born Ugadale in 1856
+$p{
+$child-link[galbraith-samuel-1850-reynold]{Samuel Galbraith}- m. Mary Ellen Reynolds, Antigua... born Ugadale in 1856.
+}
+$p{
+$child-link[galbreath-archibald-1803-mccallum-loynachan]{Archibald Galbreath} m. Margaret Loynachan.
+}
 
-Archibald G-, m. Margaret Loynachan.
-
-James Galbreath, m. Martha G
-
+$p{
+$child-link[galbreath-james-1768-galbreath]{James Galbreath}, m. Martha Galbreath
+}
+$p{
 QUESTION: James & Martha - lowland?
 CORRECTION: For Archibald, maybe just mention Margaret was 2nd wife as you did with a previous entry.
 CORRECTION?: Samuel - Can't find reference to Samuel being born in Ugadale or in 1856. His birth isn't in OPR or Statutory records. He is listed in 1851 Census as being "5M", so 1850 or 1851. But all subsequent records have him in 1852-1856 range.
-
+}
 $hr{}
 
 $p{
