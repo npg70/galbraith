@@ -47,18 +47,17 @@ John Kenneth G-, b 1908, d. 2006 -- still researching his Kintyre connections
 }
 NOTE: Still researching exactly his Kintyre connections
 $hr{}
-Lachlan G, "teacher of Enlgish and Gaelic", x-Gigha
-
+$p{
+Lachlan G, "teacher of Enlgish and Gaelic", x-Gigha - NOTE: Can't figure out who this is.
+}
 $p{
 $child-link[galbreath-edward-1855-mclarty-mckinven]{Edward G-}, d. 1933, age 77, m. Mary Mclarty 1883, "son of John shoemaker, Mary McGeachy" -- CORRECTION: Edward was the son of Ann McGeachy, not Mary.  Note: Edward married again 4 Jun 1901 to Elizabeth "Betsy" McKinven.
 }
+
+$hr{} 
 $p{
-NOTE: Unable to find any information on Lachlan:
-}
-
-$hr{}
 $child-link[galbraith-david-steward-1782-fraser.sh]{David Stewart Galbraith}
-
+}
 Flora Campbell G-
 $p{
 NOTE: DSG was frequently mentioned in Kirk Session of Campbeltown (found by flipping through them on ScotlandsPeople)
@@ -89,12 +88,7 @@ $p{
 $child-link[galbreath-david-1797-mitchell]{David G-}, his father -- 
 the  son of Samuel Galbreath and Janet Langwill, at Campbeltown was born 16 Sept 1797 and baptised 19 Sep 1797. He died 12 Aug 1884. He married 5 Oct 1824 to Janet Mitchell.  She was the daughter of Archibald Mitchell and Agnes Greenless, born around 1801 and died 4 Oct 1874 in Campbeltown.
 }
-
-$p{
-QUESTION: Could this be a lowland family? Based just on names I would think so.
-}
 $hr{}
-
 $p{
 $child-link[galbraith-angus-1837-sutherland]{Rev. Angus Galbraith} 1837-1909, son of $strike{Donald} $child-link[galbraith-neil-1797-mcquilkan]{Niel} and Janet McQuilkan --  CORRECTION: Father is Neil not Donald, at least according to OPR records.
 }
@@ -138,14 +132,15 @@ When not piping, China's day job was working at a distillery (like his father, a
 }
 $hr{}
 $p{
-Jeannie G- whiteinch Glasgow in 1914 was 24y.o. "has many very near relatives in Campbeltown".
+Jeannie G- whiteinch Glasgow in 1914 was 24y.o. "has many very near relatives in Campbeltown". -- born in 1890 in Patrick,Lanark, and murdered in Glasgow on 3 July 1914
 }
 $p{
-NOTE: Her mother was Jane Galbraith (another Galbraith/Galbraith marriage)... Jane was daughter of Donald Galbraith and Isabella McDermid, born Campbeltown 19 Dec 1861.
+NOTE: Her mother was Jane Galbraith (another Galbraith/Galbraith marriage)... Jane was daughter of $child-link[galbraith-donald-1833-mcdermid]{Donald Galbraith} and Isabella McDermid, born Campbeltown 19 Dec 1861.
 }
 $p{
-NOTE: Her father was Donald Galbraith (different), but seems un-connected to Kintyre.
+NOTE: Her father was $child-link[galbraith-donald-1863-galbraith]{Donald Galbraith} (different), who has origins in Gigha and perhaps Ireland. 
 }
+$hr{}
 $p{
 Margaret McCallum G-, d. 25 Nov 1931 (burns), age 15. "her adoptive father was Archibald Gillies"
 }
