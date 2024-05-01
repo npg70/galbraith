@@ -110,6 +110,7 @@ $ul{
 $h2{Manuscripts}
 
 $ul{
+	$li{$source-link[kintyre-families]{Kintyre Families} - notes on an advance draft of an unpublished book.}
 	$li{$source-link[kilkerran-graveyard-inscriptions]{Kilkerran Graveyard Inscriptions} - Unpublished}
 	$li{$source-link[trade-and-economic-development-in-eighteenth-century-campbeltown]{Trade and Economic Development in 18th Century Campbeltown} 1982 PHd thesis}
 }
