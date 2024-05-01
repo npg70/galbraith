@@ -32,6 +32,10 @@ partner {
         name Lachlan Galbraith
         birth -date 30-jan-1902 -location kilberry -ref lachlan1902-birth
         death -date 5-nov-1949 -location kilberry -ref lachlan1902-death
+        partner {
+            name Janet McIntyre
+            marriage -date 1949 -location 'north knapdale'
+        }
     }
     child {
         name Eugina Galbraith
@@ -95,7 +99,7 @@ footnotes {
         $sp-ref-link[b-1902-533-02-0002 0001 "Lachlan Galbraith"]
     }
     lachlan1902-death {
-        $sp-ref[b-1949-530-00-0007 "Lachlan Galbraith"]
+        $sp-ref-link[b-1949-530-00-0007 0003 "Lachlan Galbraith"]
     }
     eugina1904-birth {
         $sp-ref-link[b-1904-533-02-0006 0002 "Eugina Galbraith"]
