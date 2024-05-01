@@ -5,7 +5,7 @@ death -date 20-feb-1946 -location London,England
 burial -name "Kilkerran Graveyard"
 partner {
     name Mary Keith Mitchell
-    marriage -date 1956
+    marriage -date 1956 -location campbeltown -ref mitchell-marriage
 }
 external {
     findagrave 178048077
@@ -18,5 +18,8 @@ footnotes {
             Father: William Galbraith, Stone Cutter;
             Mother: Helen Campbell, Farm Servant
         }
+    }
+    mitchell-marriage {
+        $sp-ref[m-1956-507-00-0015 "William Campbell Galbraith" "Mary Keith Mitchell"]
     }
 }
