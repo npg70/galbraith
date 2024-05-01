@@ -45,6 +45,8 @@ partner {
         name Christina Galbraith
         birth -date 29-oct-1922 -location campbeltown -ref christina1922-birth
     }
+
+    child galbraith-william-campbell-1929-mitchell
 }
 
 footnotes {
