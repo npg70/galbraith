@@ -70,7 +70,14 @@ partner {
         birth -date 11-nov-1777
         baptism -date 16-nov-1777 -location campbeltown    
     }
-
+    child {
+        name Katherine Harvie
+        birth -date 29-jul-1780
+        baptism -date 30-jul-1780 -location campbeltown
+        body {
+            She married $child-link[galbreath-robert-1778-harvey]{Robert Galbreath}.
+        }
+    }
     child {
         name Andrew Harvey
         birth -date 23-feb-1783

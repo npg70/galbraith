@@ -11,6 +11,9 @@ external () {
 partner () {
     name Katherine Harvie
     marriage -date 18-apr-1805 -location campbeltown -ref marriage
+    body {
+        She was the daughter of James Harvie and $child-link[galbreath-katharine-1741-harvey]{Katharine Galbreath}.
+    }
     birth -date 29-jul-1780
     baptism -date 30-Jul-1780 -location campbeltown
     death -date 21-jun-1847 -location Washington,Clermont,Ohio,USA
