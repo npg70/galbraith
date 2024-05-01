@@ -11,7 +11,18 @@ partner {
 }
 
 body {
-    TBD: Campbeltown book
+$p{
+Campbeltown Courier Obit:
+}
+$blockquote{
+Annoucements Feburary 4 2022 GALBRAITH – Peacefully at home, Dunolly, Carradale, on January 25, 2022, Alexander Galbraith (Sandy) in his 77th year, a very beloved husband of Doreen, much loved dad of Lesley, Linda and Alex, loving papa of Lara, Carly, Alex, Cameron, Connor, Emma and James.
+}
+$p{
+Listed on page 62 of the Campbeltown book
+}
+$blockquote{
+The modern shipyard at Trench Point ... built only two fishing boats for Campbeltown owners... The Aquarian was launched in spring [of 1971] for Archibald Galbraith.
+}
 }
 
 body {
