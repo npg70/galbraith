@@ -38,7 +38,7 @@ partner {
     }
     child {
         name James Galbreath
-        birth -date 6-may-1877 -location campbeltown -ref james1877
+        birth -date 6-may-1877 -location campbeltown -ref james1877-birth
     }
     child {
         name _____ Galbraith
