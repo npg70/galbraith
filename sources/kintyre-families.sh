@@ -40,13 +40,13 @@ $p{
 NOTE: Wasn't clear how Hugh fit in... he is the Great-Great-Grandson of John G- and More McLean (via Neil b 1855, High b 1823, Neil b 1788, and John b. 1760)
 }
 $p{
-NOTE: The Internet says the line goes back on generation more to a John Galbreath and Isobell Clark (see below). Evidence is circumstantial however (i.e. looks resonable but I suspect it's only based on OPR records and appropriate ages).
+NOTE: The Internet says the line goes back on generation one more to a $child-link[galbreath-john-1710-clark]{John Galbreath} and Isobell Clark (see below). Evidence is circumstantial based on OPR records and appropriate ages, but looks reasonable.
 }
 $p{
 BIO: Hector Galbraith, son of Hugh Galbraith and Catharine McNair, was born at Campbeltown 7 Nov 1859. He died Southend 18 Nov 1921. He married 27 Nov 1885 to Mary McCorkindale.
 }
 $p{
-BIO: John Galbreath, son of John Galbreath and Isobell Clark, baptized at Campbeltown on 2 May 1760. He married 28 October 1781 to Marion McLean, b. about 1750 of unknown parents.
+BIO: John Galbreath, son of $child-link[galbreath-john-1710-clark]{John Galbreath} and Isobell Clark, baptized at Campbeltown on 2 May 1760. He married 28 October 1781 to Marion McLean, b. about 1750 of unknown parents.
 }
 $p{
 BIO: Hugh Galbraith, son of Neil Galbraith and Mary McCallumm born Campbeltown 4 Feb 1892, died Hillhead, Glasgow 9 May 1947, and buried at Kilkerran Cemetary. He married Agnes Jane Barbour.
@@ -64,7 +64,7 @@ $p{
 NOTE: Unable to find any information on Lachlan:
 }
 
-David Stewart G-
+$child-link[galbraith-david-steward-1782-fraser.sh]{David Stewart Galbraith}
 
 Flora Campbell G-
 
@@ -104,11 +104,11 @@ QUESTION: Could this be a lowland family? Based just on names I would think so.
 $hr{}
 
 $p{
-Rev. Angus G- 1837-1909, son of Donald Niel and Janet McQuilkan
+$child-link[galbraith-angus-1837-sutherland]{Rev. Angus Galbraith} 1837-1909, son of $strike{Donald} $child-link[galbraith-neil-1797-mcquilkan]{Niel} and Janet McQuilkan --  CORRECTION: Father is Neil not Donald, at least according to OPR records.
 }
+
 $p{
-CORRECTION: Father is Neil not Donald, at least according to OPR records.
-Rev. Angus G- d. 1901 age 74, m. Smith
+$child-link[galbraith-angus-1827-smith]{Rev. Angus Galbraith} d. 1901 age 74, m. Smith -- the son of Angus Galbraith and Mary McLeod (below), moved to Edinburghand then Yorkshire, England.
 }
 $p{
 $child-link[galbraith-angus-1794-mcleod]{Angus Galbraith} (father), d. 1836 age 42, m. Mary McLeod -- schoolteacher in Kilcalmonel / Clachan. 
@@ -118,14 +118,12 @@ $p{
 $child-link[galbraith-daniel-1831-mcqueen]{Daniel Galbreath} (brother), b. 1831 d. 1896, m. Jesss MacQueen --  married in Campbeltown on 5 Nov 1867
 }
 $p{
-$child-link[galbraith-william-1833-umn]{William Galbraith} (bother), jeweller/watchmaker, d. 1915, age 81 -- almost murdered during attempted robbery and arson.  He survived, but the damaged bankrupted him.
+$child-link[galbraith-william-1833-umn]{William Galbraith} (bother), jeweller/watchmaker, d. 1915, age 81 -- NOTE: almost murdered during attempted robbery and arson.  He survived, but the damaged bankrupted him.
 }
 $p{
 $child-link[galbraith-john-1836-boyd]{John Galbraith} (brother) -- bp. 1836 at Kilcalmonell.  Married Maraget Boyd in 1863 at Greenock.
 }
 
-$p{
-}
 $p{
 John G-, d. 15 Dec 1908 London
 }
@@ -229,7 +227,8 @@ $child-link[galbraith-lachlan-1878-mccallum-mccallum]{Lachlan Galbraith} (son), 
 }
 
 $p{
-John G- (brother)
+$child-link[galbraith-john-1871-livingston]{John Galbraith} (brother) -- 
+b. Saddell 18 May 1871, d. 26 Apr 1943 Tradeston Glasgow; m. Susan Livingstone.
 }
 
 $p{
@@ -241,17 +240,11 @@ NOTE: Neil and Lachland both married twice, but their first marriages were to si
 }
 
 $p{
-BIO: John Galbraith, b. Saddell 18 May 1871, d. 26 Apr 1943 Tradeston Glasgow; m. Susan Livingston
 }
 $hr{}
 
 $p{
-Charolette MacMicharl G "Carol", at 1951 age 21, b. 1930, m. Derick R Thomson, d. 2017 (Linn Cemetary Glasgow)
-}
-
-$p{
-
-QUESTION: Too recent to get records off Scotlands People (have to wait to 2030). Do we have any additional info on her parents?
+Charolette MacMicharl G "Carol", at 1951 age 21, b. 1930, m. Derick R Thomson, d. 2017 (Linn Cemetary Glasgow) -- too modern for anything off of Scotlands People.
 }
 $hr{}
 $p{
@@ -288,6 +281,8 @@ Unless I have completely screwed up!
 $hr{}
 $p{
 $child-link[galbreath-robert-1778-harvey]{Robert Galbreath} immigrated to America in 1818 --the  son of $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath} and Janet McNair, born in Peninver, Argyll, Scotland 12 Oct 1778, baptized Campbeltown, Argyll, Scotland 15 Oct 1778,1 died Neville, Clermont, Ohio, USA 19 May 1847. 
+}
+$p{
 He married at Campbeltown 18 Apr 1805, Katherine Harvie, daugher of James Harvie and $child-link[galbreath-katharine-1741-harvey]{Katherine Galbreath}, born 29 Jul 1780 and baptized at Campbeltown 30 Jul 1780,2 died Washington Township, Clermont, Ohio, USA 21 Jun 1847.
 }
 $p{
@@ -297,19 +292,13 @@ QUESTION: Did Robert sell his farm to his younger sister Catherine Greenlees
 $hr{}
 $p{
 $child-link[galbraith-samuel-1850-reynold]{Samuel Galbraith}- m. Mary Ellen Reynolds, Antigua... born Ugadale in 1856.
+ -- CORRECTION?: Samuel - Can't find reference to Samuel being born in Ugadale or in 1856. His birth isn't in OPR or Statutory records. He is listed in 1851 Census as being "5M", so 1850 or 1851. But all subsequent records have him in 1852-1856 range.
 }
 $p{
-$child-link[galbreath-archibald-1803-mccallum-loynachan]{Archibald Galbreath} m. Margaret Loynachan.
-}
-
-$p{
-$child-link[galbreath-james-1768-galbreath]{James Galbreath}, m. Martha Galbreath
+$child-link[galbreath-archibald-1803-mccallum-loynachan]{Archibald Galbreath} m. Margaret Loynachan --  For Archibald, maybe just mention Margaret was 2nd wife as you did with a previous entry.
 }
 $p{
-CORRECTION: For Archibald, maybe just mention Margaret was 2nd wife as you did with a previous entry.
-}
-$p{
-CORRECTION?: Samuel - Can't find reference to Samuel being born in Ugadale or in 1856. His birth isn't in OPR or Statutory records. He is listed in 1851 Census as being "5M", so 1850 or 1851. But all subsequent records have him in 1852-1856 range.
+$child-link[galbreath-james-1768-galbreath]{James Galbreath}, m. Martha Galbreath -- NOTE: likely won a turnip growing competition, as mentioned in The Campbeltown Book.
 }
 $hr{}
 
@@ -323,31 +312,32 @@ $child-link[galbraith-john-1824-paterson]{John Galbraith} (son) got another leas
 son of William Galbraith (above) and Mary Grieve, was baptized in Dalrymple, Ayr 28 Mar 1824. He married in 1871 at Stewarton, Ayr to Catharine Paterson.
 }
 $hr{}
+$h2{Possible Additions}
 
-Possible Additions
+$p{
+$child-link[galbraith-john-mclaren-191]{John McLaren Galbraith}, son of John McCorkindale Galbraith and Margaret Hardie Young, was born 21 April 1918. He died 14 May 1961. Mentioned in The Campbeltown Book as "probably the first Kintyre man to cross the Atlantic by air."  TBD: New book that came out.
+}
 
-John McLaren Galbraith, son of John McCorkindale Galbraith and Margaret Hardie Young, was born 21 April 1918. He died 14 May 1961. Mentioned in The Campbeltown Book as "probably the first Kintyre man to cross the Atlantic by air." but the full story is quite interesting (click in to see it)
-
-William G- (bother), jeweller/watchmaker, d. 1915, age 81. Already mentioned, but the arson/theft/attempted murder story is good.
-
-Archibald Alexander Galbraith, also nicknamed Sandy, and great-grandson of the other Archibald Sandy, and son of Alexander and Marion (McDougall) Galbraith. If I got this correct.
-
-b. 1945, d. 25 Jan 2022. m. Doreen Allen in 1971
-Campbeltown Courier Obit:
-Annoucements Feburary 4 2022 GALBRAITH – Peacefully at home, Dunolly, Carradale, on January 25, 2022, Alexander Galbraith (Sandy) in his 77th year, a very beloved husband of Doreen, much loved dad of Lesley, Linda and Alex, loving papa of Lara, Carly, Alex, Cameron, Connor, Emma and James.
+$p{
+$child-link[galbraith-alexander-archibald-1945-allen]{Alexander Archibald Galbraith}, also nicknamed Sandy, and great-grandson of the other Archibald Sandy, and son of Alexander and Marion (McDougall) Galbraith. If I got this correct.  b. 1945, d. 25 Jan 2022. m. Doreen Allen in 1971.
+}
+$p{
 Listed on page 62 of the Campbeltown book
+}
+$blockquote{
 The modern shipyard at Trench Point ... built only two fishing boats for Campbeltown owners... The Aquarian was launched in spring [of 1971] for Archibald Galbraith.
+}
+$p{
 Perhaps the same Archibald involved in the rescue of 10 people from the motor yacht Quesada on the night of 22nd/23rd May, 1966. https://lifeboatmagazinearchive.rnli.org/volume/40/419/award-for-scottish-skipper?searchterm=Yacht+Gan&page=691
-Archibald Galbreath son of Donald Galbraith and Margaret McNeil, was born 24 Apr 1856 at Killean and Kilchenzie. He died 28 Apr 1936. He married 30 January 1885 at Killean and Kilchenzie to Margaret McCallum.
+}
 
+$p{
+$child-link[galbraith-archibald-1856-mccallum]{Archibald Galbreath} son of Donald Galbraith and Margaret McNeil, was born 24 Apr 1856 at Killean and Kilchenzie. He died 28 Apr 1936. He married 30 January 1885 at Killean and Kilchenzie to Margaret McCallum.
+}
+$p{
 Margaret was mentioned in the Campbeltown Courier, Honouring Killean and Kilchenzie’s fallen 100 years on, Updated: 04/08/22, 4:31 pm. Her's sons Donald and Archibald were killed in WWI, in Bulgaria and France respectively.
-
+}
+$blockquote{
 Before family members laid their wreaths at the foot of the memorial in 1922, the first wreath was placed by Mrs Archibald Galbraith, two of whose sons were included in the fallen. This was followed by a march past of ex-servicemen.
-Children of Archibald and Margaret (McCallum) Galbraith:
-
-Donald Galbraith, b. 12 Jan 1886; d. 9 May 1917, Bulgaria. Honored at the Campbeltown War Memorial.
-Jeanie Galbraith, b. 1887; d. 14 Jun 1963, Campbeltown
-Archibald Galbraith, b. 9 April 1890; d. 24 April 1917, France. Honored at the Campbeltown War Memorial.
-Neil Galbraith, b. 24 Feb 1894; m. Catherine McSporran
-
+}
 
