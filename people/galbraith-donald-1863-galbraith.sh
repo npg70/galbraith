@@ -14,10 +14,7 @@ partner {
         The daughter of $child-link[galbraith-donald-1833-mcdermid]{Donald Galbraith} and Isabella McDermid.
     }
 
-    child {
-        name Jane Galbraith
-        birth -date 19-jun-1890 -location Patrick,Lanark -ref jane1890-birth
-    }
+    child galbraith-jane-1890
 }
 
 footnotes {
@@ -32,9 +29,6 @@ footnotes {
     }
     jane-death {
         $sp-ref-link[d-1914-644-22-0615 0205 "Jane Galbraith"]
-    }
-    jane1890-birth {
-        $sp-ref-link[b-189-646-03-0802 0268 "Jane Galbraith"]
     }
 }
 

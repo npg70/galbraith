@@ -132,7 +132,7 @@ When not piping, China's day job was working at a distillery (like his father, a
 }
 $hr{}
 $p{
-Jeannie G- whiteinch Glasgow in 1914 was 24y.o. "has many very near relatives in Campbeltown". -- born in 1890 in Patrick,Lanark, and murdered in Glasgow on 3 July 1914
+$child-link[galbraith-jane-1890]{Jeannie Galbraith} of Whiteinch Glasgow in 1914 was 24y.o. "has many very near relatives in Campbeltown". -- born in 1890 in Patrick,Lanark, and murdered in Glasgow on 3 July 1914
 }
 $p{
 NOTE: Her mother was Jane Galbraith (another Galbraith/Galbraith marriage)... Jane was daughter of $child-link[galbraith-donald-1833-mcdermid]{Donald Galbraith} and Isabella McDermid, born Campbeltown 19 Dec 1861.
