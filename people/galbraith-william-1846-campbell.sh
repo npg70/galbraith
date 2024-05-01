@@ -17,7 +17,7 @@ partner {
     death -date 21-mar-1932 -location campbeltown -ref campbell-death
     marriage -date 22-jun-1869 -location Southend -ref campbell-marriage
 
-    child galbraith-william-campbell-1869-mitchell
+    child galbraith-william-campbell-1869-morrison
 
     child {
         name Neil Galbreath
