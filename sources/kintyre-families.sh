@@ -292,11 +292,13 @@ See the kilkerran inscriptions you sent me #970: https://github.com/npg70/galbre
 Unless I have completely screwed up!
 
 $hr{}
-
-Robert G- immigrated to America in 1818
-
-BIO: Robert Galbreath, son of Samuel Galbreath and Janet McNair, born in Peninver, Argyll, Scotland 12 Oct 1778, baptized Campbeltown, Argyll, Scotland 15 Oct 1778,1 died Neville, Clermont, Ohio, USA 19 May 1847. He married at Campbeltown 18 Apr 1805, Katherine Harvie, daugher of James Harvie and Katherine Galbreath, born 29 Jul 1780 and baptized at Campbeltown 30 Jul 1780,2 died Washington Township, Clermont, Ohio, USA 21 Jun 1847.
-QUESTION: Did Robert sell his farm to his younger sister Catherine Greenlees?
+$p{
+$child-link[galbreath-robert-1778-harvey]{Robert Galbreath} immigrated to America in 1818 --the  son of $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath} and Janet McNair, born in Peninver, Argyll, Scotland 12 Oct 1778, baptized Campbeltown, Argyll, Scotland 15 Oct 1778,1 died Neville, Clermont, Ohio, USA 19 May 1847. 
+He married at Campbeltown 18 Apr 1805, Katherine Harvie, daugher of James Harvie and $child-link[galbreath-katharine-1741-harvey]{Katherine Galbreath}, born 29 Jul 1780 and baptized at Campbeltown 30 Jul 1780,2 died Washington Township, Clermont, Ohio, USA 21 Jun 1847.
+}
+$p{
+QUESTION: Did Robert sell his farm to his younger sister Catherine Greenlees
+}
 
 $hr{}
 $p{
@@ -310,8 +312,9 @@ $p{
 $child-link[galbreath-james-1768-galbreath]{James Galbreath}, m. Martha Galbreath
 }
 $p{
-QUESTION: James & Martha - lowland?
 CORRECTION: For Archibald, maybe just mention Margaret was 2nd wife as you did with a previous entry.
+}
+$p{
 CORRECTION?: Samuel - Can't find reference to Samuel being born in Ugadale or in 1856. His birth isn't in OPR or Statutory records. He is listed in 1851 Census as being "5M", so 1850 or 1851. But all subsequent records have him in 1852-1856 range.
 }
 $hr{}
