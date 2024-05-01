@@ -199,7 +199,7 @@ Neil G-, x. Kilberry, m. Isabella McMillian. Piper.
 }
 
 $p{
-John G- (son), d. 10 May 1932 age 66, jumped from police boat. m. Isabella McTaggart in 1887.
+$child-link[galbraith-john-1864-mctaggart]{John Galbraith} (son), d. 10 May 1932 age 66, jumped from police boat. m. Isabella McTaggart in 1887.
 }
 
 $p{
