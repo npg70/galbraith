@@ -21,14 +21,8 @@ partner {
 
     child galbraith-flora-1869-murray
 
-    child {
-        name John Galbraith
-        birth -date 23-jun-1871 -location Saddell -ref john1871-birth
-        death -date 26-apr-1943 -location 'Tradeston,Strathclyde'
-        partner {
-            name Susan Livingston
-        }
-    }
+    child galbraith-john-1871-livingstone
+
     child {
         name Janet Galbraith
         birth -date 3-mar-1873 -location saddell -ref janet1873-birth
@@ -80,9 +74,6 @@ footnotes {
     }
     morrison-death {
         $sp-ref-link[d-1928-531-01-0003 0001 "Janet Galbraith"]
-    }
-    john1871-birth {
-        $sp-ref-link[b-1871-531-01-0011 0004 "John Galbraith"]
     }
     janet1873-birth {
         $sp-ref[b-1873-531-01-0006 "Janet Galbraith"]
