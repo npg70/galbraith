@@ -2,7 +2,7 @@ name William Campbell Galbraith
 tags Argyll:Campbeltown 
 birth -date 27-jul-1844
 baptism -date 25-aug-1844 -location campbeltown -ref william1844-birth
-death -date 28-May-1926 -location Ayr,Ayr -ref william1844-death
+death -date 28-May-1925 -location Ayr,Ayr -ref william1844-death
 external {
     familysearch KCH5-Y3X
     ancestry /tree/5901559/person/7032351092
