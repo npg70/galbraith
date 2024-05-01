@@ -25,36 +25,28 @@ John G-, attacked during a shinty match 1818 --
 Unable to find any additional info to identify him.
 }
 $hr{}
-$ul{
-$li{
-$child-link[galbraith-hector-1859-mccorkindale]{Hector Galbraith}, d. 1921 age 62, m. Mary Corkindale
-}
-$li{
-$child-link[galbreath-john-1760-mclean]{John Galbraith}, m. More McLean
-}
-$li{
-$child-link[galbraith-hugh-1892-barbour]{Hugh Galbratih}, d. 1947, m. Agnes Barbour
-}
+$p{
+$child-link[galbraith-hector-1859-mccorkindale]{Hector Galbraith}, d. 1921 age 62, m. Mary Corkindale -- the son of Hugh Galbraith and Catharine McNair, was born at Campbeltown 7 Nov 1859. He died Southend 18 Nov 1921. He married 27 Nov 1885 to Mary McCorkindale.
 }
 $p{
-NOTE: Wasn't clear how Hugh fit in... he is the Great-Great-Grandson of John G- and More McLean (via Neil b 1855, High b 1823, Neil b 1788, and John b. 1760)
+$child-link[galbreath-john-1760-mclean]{John Galbraith}, m. More McLean -- 
+perhaps the son of $child-link[galbreath-john-1710-clark]{John Galbreath} and Isobell Clark, baptized at Campbeltown on 2 May 1760. He married 28 October 1781 to Marion McLean, b. about 1750 of unknown parents.
+}
+$p{
+$child-link[galbraith-hugh-1892-barbour]{Hugh Galbratih}, d. 1947, m. Agnes Barbour -- the son of Neil Galbraith and Mary McCallumm born Campbeltown 4 Feb 1892, died Hillhead, Glasgow 9 May 1947, and buried at Kilkerran Cemetary. He married Agnes Jane Barbour.
+}
+$p{
+NOTE: Wasn't clear how Hugh fit in... he is the Great-Great-Grandson of John G- and More McLean (via Neil b 1855, Hugh b 1823, Neil b 1788, and John b. 1760)
 }
 $p{
 NOTE: The Internet says the line goes back on generation one more to a $child-link[galbreath-john-1710-clark]{John Galbreath} and Isobell Clark (see below). Evidence is circumstantial based on OPR records and appropriate ages, but looks reasonable.
 }
-$p{
-BIO: Hector Galbraith, son of Hugh Galbraith and Catharine McNair, was born at Campbeltown 7 Nov 1859. He died Southend 18 Nov 1921. He married 27 Nov 1885 to Mary McCorkindale.
-}
-$p{
-BIO: John Galbreath, son of $child-link[galbreath-john-1710-clark]{John Galbreath} and Isobell Clark, baptized at Campbeltown on 2 May 1760. He married 28 October 1781 to Marion McLean, b. about 1750 of unknown parents.
-}
-$p{
-BIO: Hugh Galbraith, son of Neil Galbraith and Mary McCallumm born Campbeltown 4 Feb 1892, died Hillhead, Glasgow 9 May 1947, and buried at Kilkerran Cemetary. He married Agnes Jane Barbour.
-}
+$hr{}
 $p{
 John Kenneth G-, b 1908, d. 2006 -- still researching his Kintyre connections
 }
 NOTE: Still researching exactly his Kintyre connections
+$hr{}
 Lachlan G, "teacher of Enlgish and Gaelic", x-Gigha
 
 $p{
@@ -64,10 +56,10 @@ $p{
 NOTE: Unable to find any information on Lachlan:
 }
 
+$hr{}
 $child-link[galbraith-david-steward-1782-fraser.sh]{David Stewart Galbraith}
 
 Flora Campbell G-
-
 $p{
 NOTE: DSG was frequently mentioned in Kirk Session of Campbeltown (found by flipping through them on ScotlandsPeople)
 }
@@ -167,13 +159,12 @@ $p{
 NOTE: She was a twin -- Jeannie! Can't find any info however.
 }
 
-$child-link[galbraith-archibald-1865-mckay]{Archibald Galbraith}, d. 1928,age 62, m. Isabella McKay
-
+$p{
+$child-link[galbraith-archibald-1865-mckay]{Archibald Galbraith}, d. 1928,age 62, m. Isabella McKay -- the  son of Daniel/Donald Galbraith and Isabella McDermid, was born Campbeltown 1 July 1865, and died 25 Mar 1928. He married at Campbeltown 16 Apr 1888 to Isabella McKay}
+}
 $p{
 NOTE: Uncle of Jeannie G- (above, the one with "many near relatives in Campbeltown)
 }
-$p{
-BIO: Archibald Galbraith, son of Daniel/Donald Galbraith and Isabella McDermid, was born Campbeltown 1 July 1865, and died 25 Mar 1928. He married at Campbeltown 16 Apr 1888 to Isabella McKay}
 
 $p{
 $child-link[galbreath-john-1821-cook]{John Galbreath}, 1821-1902, m. Margaret Cook in 1840. "most of john jr's family emigrated to Canada
@@ -248,31 +239,37 @@ Charolette MacMicharl G "Carol", at 1951 age 21, b. 1930, m. Derick R Thomson, d
 }
 $hr{}
 $p{
-Archibald Galbreath (cotton)
+$child-link[galbreath-archibald-1807]{Archibald Galbreath} (cotton)
 }
 
 $p{
-Andrew Galbraith lord provost of Glasgow
+$child-link[galbraith-andrew-1799-scott]{Andrew Galbraith} lord provost of Glasgow
 }
 
 $p{
-John Galbraith (1809-1881)
+$child-link[galbraith-john-1809-mcewing]{John Galbraith} (1809-1881)
 }
 
 $p{
-Archibald G- (son of John above), d. 1916 age 71
+$child-link[galbraith-archibald-1845-carr]{Archibald Galbraith} (son of John above), d. 1916 age 71
 }
 
 $p{
-Elizabeth G-, m. James Nicol Flemming
+$child-link[galbraith-elizabeth-1841-fleming]{Elizabeth Galbraith}, m. James Nicol Flemming
 }
 
 $p{
 NOTE: Looking forward to hearing about Johnson, Galbraith & Co... as I know almost zero info about it
 }
-NOTE: Maybe mention Scotia/Glen Scotia/Stewart, Galbraith & Co, distiller by name?
+$p{
+NOTE: Maybe mention Scotia/Glen Scotia/Stewart, Galbraith & Co, distiller by name?}
+$p{
 NOTE: Perhaps add correction to Campbeltown Whiskey here? There it was mentioned on page 77:
+}
+$blockquote{
 His Galbraith family was not native Kintyre stock, but descended from 17th century Lowland settlers. John's parents were Archibald Galbreath, merchant, and Jean Corbet. His grandfather, Archibald Galbreath, was a merchant in Campbeltown, and his great-grandfather, William, was a maltster. Each of these, like his father, married into a Plantation family: Langwill and Dunlop, respectively
+}
+
 The two "Archibald Galbreath" are the same person. He married twice, first to Margaret Langwill, then to Jean Corbet.
 Using this correction, the grand-father is William Galbreath who married Margaret Dunlop
 See the kilkerran inscriptions you sent me #970: https://github.com/npg70/galbreath/blob/main/sources/kilkerran-graveyard-inscriptions.md#970
