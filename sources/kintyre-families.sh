@@ -73,7 +73,7 @@ $child-link[galbraith-william-campbell-1869-mitchell]{William Campbell Galbraith
 }
 
 $p{
-$child-link[galbraith-william-campbell-1869-morrison]{William Campbell Galbraith} (1870-1946) -- Colonel William Campbell Galbraith
+$child-link[galbraith-william-campbell-1869-morrison]{William Campbell Galbraith} (1870-1946) -- Colonel William Campbell Galbraith, with long obit in "Oban Times and Argyllshire Advertiser - Saturday 06 April 1946" - See $elink[https://www.britishnewspaperarchive.co.uk/viewer/bl/0005085/19460406/082/0005]{British Newspaper Archives} mentioning how he was involved in helping Argyllshire farmers sell their goods to England.
 }
 
 $p{
@@ -212,11 +212,11 @@ b. Saddell 18 May 1871, d. 26 Apr 1943 Tradeston Glasgow; m. Susan Livingstone.
 }
 
 $p{
-Neil G- (brother), m2. Margaret Morrison Black 17 Feb 1926, d. age 50 20 Dec 1926
+$child-link[galbraith-neil-1875-mccallum]{Neil Galbraith} (brother), m2. Margaret Morrison Black 17 Feb 1926, d. age 50 20 Dec 1926
 }
 
 $p{
-NOTE: Neil and Lachland both married twice, but their first marriages were to sister, Jeanie and Annie McCallum. The daughters of Dugald McCallum (blacksmith) and Isabella McMillian
+NOTE: Neil and Lachland both married twice, but their first marriages were to sisters, Jeanie and Annie McCallum, the daughters of Dugald McCallum (blacksmith) and Isabella McMillian.
 }
 $hr{}
 $p{
