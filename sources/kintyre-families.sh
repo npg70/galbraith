@@ -36,21 +36,21 @@ $p{
 $child-link[galbraith-hugh-1892-barbour]{Hugh Galbratih}, d. 1947, m. Agnes Barbour -- the son of Neil Galbraith and Mary McCallumm born Campbeltown 4 Feb 1892, died Hillhead, Glasgow 9 May 1947, and buried at Kilkerran Cemetary. He married Agnes Jane Barbour.
 }
 $p{
-NOTE: Wasn't clear how Hugh fit in... he is the Great-Great-Grandson of John G- and More McLean (via Neil b 1855, Hugh b 1823, Neil b 1788, and John b. 1760)
+NOTE: Wasn't clear how Hugh fit in... he is the Great-Great-Grandson of John Galbreath and More McLean (via Neil b 1855, Hugh b 1823, Neil b 1788, and John b. 1760)
 }
 $p{
 NOTE: The Internet says the line goes back on generation one more to a $child-link[galbreath-john-1710-clark]{John Galbreath} and Isobell Clark (as mentioned above). Evidence appears to be circumstantial based on OPR records and appropriate ages, but looks reasonable.
 }
 $hr{}
 $p{
-$elink[https://en.wikipedia.org/wiki/John_Kenneth_Galbraith]{John Kenneth Galbraith}, the economist, 1908, d. 2006 -- Note: still researching his Kintyre connections
+$elink[https://en.wikipedia.org/wiki/John_Kenneth_Galbraith]{John Kenneth Galbraith}, the economist, 1908, d. 2006 -- NOTE: still researching his Kintyre connections
 }
 $hr{}
 $p{
 Lachlan Galbreath, "teacher of English and Gaelic", from Gigha - NOTE: Can't figure out who this is.
 }
 $p{
-$child-link[galbreath-edward-1855-mclarty-mckinven]{Edward Galbreath}, d. 1933, age 77, m. Mary Mclarty 1883, "son of John shoemaker, Mary McGeachy" -- CORRECTION: Edward was the son of Ann McGeachy, not Mary.  Note: Edward married again 4 Jun 1901 to Elizabeth "Betsy" McKinven.
+$child-link[galbreath-edward-1855-mclarty-mckinven]{Edward Galbreath}, d. 1933, age 77, m. Mary Mclarty 1883, "son of John shoemaker, $strike{Mary} Ann McGeachy" -- CORRECTION: Edward was the son of Ann McGeachy, not Mary. Also, Edward married again 4 Jun 1901 to Elizabeth "Betsy" McKinven.
 }
 
 $hr{} 
@@ -99,7 +99,7 @@ $child-link[galbraith-angus-1827-smith]{Rev. Angus Galbraith} d. 1901 age 74, m.
 }
 $p{
 $child-link[galbraith-angus-1794-mcleod]{Angus Galbraith} (father), d. 1836 age 42, m. Mary McLeod -- schoolteacher in Kilcalmonel / Clachan. 
-He has two tombstones, one in Kilkerran Cemetery, and the other older one in Largnahension Graveyard, Lochgilphead
+He has two tombstones, one in $elink[https://www.findagrave.com/memorial/179310014/angus-galbraith]{Kilkerran Cemetery}, and another older one in $elink[https://www.findagrave.com/memorial/160593770/angus-galbraith]{Largnahension Graveyard}, Lochgilphead.
 }
 $p{
 $child-link[galbraith-daniel-1831-mcqueen]{Daniel Galbreath} (brother), b. 1831 d. 1896, m. Jesss MacQueen --  married in Campbeltown on 5 Nov 1867
@@ -143,7 +143,7 @@ $p{
 Margaret McCallum G-, d. 25 Nov 1931 (burns), age 15. "her adoptive father was Archibald Gillies" -- daughter $child-link[galbraith-mary-1890-gillies]{Mary Galbraith} and an unknown father.
 }
 $p{
-CORRECTION: Not orphaned, but illegitmate birth, with father unknown. Mother Mary is listed in Census with Archibald Gillies.
+CORRECTION: Not orphaned, but illegitmate birth, with father unknown. Mother Mary later married Archibald Gillies.
 }
 $p{
 CORRECTION: Middle name is suspect. The official records have McMillian, McCallum, and McNair.
@@ -156,7 +156,7 @@ $p{
 $child-link[galbraith-archibald-1865-mckay]{Archibald Galbraith}, d. 1928,age 62, m. Isabella McKay -- the  son of Daniel/Donald Galbraith and Isabella McDermid, was born Campbeltown 1 July 1865, and died 25 Mar 1928. He married at Campbeltown 16 Apr 1888 to Isabella McKay}
 }
 $p{
-NOTE: Uncle of Jeannie Galbraith (above, the one with "many near relatives in Campbeltown")
+NOTE: Uncle of $child-link[galbraith-jane-1890]{Jeannie Galbraith} (above, the one with "many near relatives in Campbeltown")
 }
 $hr{}
 $p{
