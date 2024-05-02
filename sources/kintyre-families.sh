@@ -3,7 +3,7 @@ $front{
     $pub-author{Angus Martin}
 }
 $p{
-Note from as of yet unpublished book.
+Notes from as of yet unpublished book.
 }
 $hr{}
 $p{Various older references (uninvestigated):
@@ -93,7 +93,7 @@ $hr{}
 $p{
 $child-link[galbraith-angus-1837-sutherland]{Rev. Angus Galbraith} 1837-1909, son of $strike{Donald} $child-link[galbraith-neil-1797-mcquilkan]{Niel} and Janet McQuilkan --  CORRECTION: Father is Neil not Donald, at least according to OPR records.
 }
-
+$hr{}
 $p{
 $child-link[galbraith-angus-1827-smith]{Rev. Angus Galbraith} d. 1901 age 74, m. Smith -- the son of Angus Galbraith and Mary McLeod (below), moved to Edinburghand then Yorkshire, England.
 }
@@ -110,13 +110,13 @@ $child-link[galbraith-william-1833-umn]{William Galbraith} (bother), jeweller/wa
 $p{
 $child-link[galbraith-john-1836-boyd]{John Galbraith} (brother) -- bp. 1836 at Kilcalmonell.  Married Maraget Boyd in 1863 at Greenock.
 }
-
+$hr{}
 $p{
-John Galbraith, d. 15 Dec 1908 London -- 
+John Galbraith, d. 15 Dec 1908 London --  NOTE: 
 $elink[https://books.google.com/books?id=OV02W1GizPwC&pg=RA24-PA12&lpg=RA24-PA12&dq=John+Galbraith+%22London+Society+of+Compositors%22&source=bl&ots=Xcm8rJeMfg&sig=ACfU3U0giVtAEi0X-5B1HNx9i3bcP8Af5A&hl=en&sa=X&ved=2ahUKEwizpIu-l5z5AhULIEQIHWjAAd0Q6AF6BAgVEAI#v=onepage&q=John%20Galbraith%20%22London%20Society%20of%20Compositors%22&f=false]{Additional obit} on Google Books. -- 
  Maybe born 1839, died age 69ish. Can't find any parent information, nor in census. Seems unmarried.
 }
-
+$hr{}
 $p{
 $child-link[galbraith-william-1870-mcmillan]{William Galbraith}, b. 1870, murdered his wife Margaret McMillian
 }
@@ -140,7 +140,7 @@ NOTE: Her father was $child-link[galbraith-donald-1863-galbraith]{Donald Galbrai
 }
 $hr{}
 $p{
-Margaret McCallum G-, d. 25 Nov 1931 (burns), age 15. "her adoptive father was Archibald Gillies" -- daughter of unknown and $child-link[galbraith-mary-1890-gillies]{Mary Galbraith}.
+Margaret McCallum G-, d. 25 Nov 1931 (burns), age 15. "her adoptive father was Archibald Gillies" -- daughter $child-link[galbraith-mary-1890-gillies]{Mary Galbraith} and an unknown father.
 }
 $p{
 CORRECTION: Not orphaned, but illegitmate birth, with father unknown. Mother Mary is listed in Census with Archibald Gillies.
@@ -149,7 +149,7 @@ $p{
 CORRECTION: Middle name is suspect. The official records have McMillian, McCallum, and McNair.
 }
 $p{
-NOTE: She was a twin -- Jeannie! Can't find any info however.  Both were born in Campbeltown on 4 Mar 1916.
+NOTE: She was a twin -- Jeannie! Both were born in Campbeltown on 4 Mar 1916.  Can't find any additional records for Jeannie however.
 }
 $hr{}
 $p{
@@ -158,7 +158,7 @@ $child-link[galbraith-archibald-1865-mckay]{Archibald Galbraith}, d. 1928,age 62
 $p{
 NOTE: Uncle of Jeannie Galbraith (above, the one with "many near relatives in Campbeltown")
 }
-
+$hr{}
 $p{
 $child-link[galbreath-john-1821-cook]{John Galbreath}, 1821-1902, m. Margaret Cook in 1840. "most of john jr's family emigrated to Canada
 }
@@ -171,7 +171,7 @@ BIO: John G Jr, b. 1848: He married at Leith, Edinburghshire on 24 Sep 1872 to H
 $p{
 $child-link[galbraith-alexander-1854-campbell]{Alexander "Sandy" Galbraith}, (son), (1854-1912), m. Mary Campbell
 }
-
+$hr{}
 $p{
 $child-link[galbreath-neil-1841-stewart]{Neil Galbraith}, d. 1873 age 32 drowning, m. Martha Stewart
 }
@@ -193,13 +193,11 @@ $child-link[galbraith-john-1864-mctaggart]{John Galbraith} (son), d. 10 May 1932
 $p{
 $child-link[galbraith-william-cook-1888-moss]{William Cook Galbraith} (carradale), (son of Sandy G & Mary Campbell, above), b. 1888, d. 1969, m. Christina Moss.
 }
-
+$hr{}
 $p{
-$child-link[galbreath-donald-1862-mclarty]{Donald Galbreath} (son), b. 1862 Saddell, m. Catharine McLarty in 1886 in Campbeltown, moved to Ontario. Piper. -- the son of Neil Galbraith and Isabella McMillan, born Saddell 26 May 1862. He died 13 August 1947 London, Middlesex, Ontario, Canada. He married at Campbeltown 11 June 1886 Catharine McLarty.
-
+$child-link[galbreath-donald-1862-mclarty]{Donald Galbreath} (son), b. 1862 Saddell, m. Catharine McLarty in 1886 in Campbeltown, moved to Ontario. Piper. -- the son of Neil Galbraith and Isabella McMillan, born Saddell 26 May 1862. He died 13 August 1947 London, Middlesex, Ontario, Canada. He married at Campbeltown 11 June 1886 to Catharine McLarty.
 }
 $hr{}
-
 $p{
 $child-link[galbraith-donald-1848-morrison]{Donald Galbraith}, from Gigha, m. Janet Morrison, d. Saddell 1905 age 54
 }
@@ -220,13 +218,9 @@ Neil G- (brother), m2. Margaret Morrison Black 17 Feb 1926, d. age 50 20 Dec 192
 $p{
 NOTE: Neil and Lachland both married twice, but their first marriages were to sister, Jeanie and Annie McCallum. The daughters of Dugald McCallum (blacksmith) and Isabella McMillian
 }
-
-$p{
-}
 $hr{}
-
 $p{
-Charolette MacMicharl G "Carol", at 1951 age 21, b. 1930, m. Derick R Thomson, d. 2017 (Linn Cemetary Glasgow) -- too modern for anything off of Scotlands People.
+Charlotte MacMicharl G "Carol", at 1951 age 21, b. 1930, m. Derick R Thomson, d. 2017 (Linn Cemetary Glasgow) -- NOTE: couldn't find any details. too modern for anything off of Scotlands People.
 }
 $hr{}
 $p{
@@ -261,11 +255,13 @@ $blockquote{
 His Galbraith family was not native Kintyre stock, but descended from 17th century Lowland settlers. John's parents were Archibald Galbreath, merchant, and Jean Corbet. His grandfather, Archibald Galbreath, was a merchant in Campbeltown, and his great-grandfather, William, was a maltster. Each of these, like his father, married into a Plantation family: Langwill and Dunlop, respectively
 }
 
-$p{The two "Archibald Galbreath" are the same person. He married twice, first to Margaret Langwill, then to Jean Corbet.
+$p{The two "$child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbreath}" are the same person. He married twice, first to Margaret Langwill, then to Jean Corbet.
 }
 $p{
-Using this correction, the grand-father is William Galbreath who married Margaret Dunlop
-See the kilkerran inscriptions you sent me #970: https://github.com/npg70/galbreath/blob/main/sources/kilkerran-graveyard-inscriptions.md#970
+Using this correction, the grand-father is $child-link[galbreath-william-1736-dunlop]{William Galbreath} who married Margaret Dunlop.
+}
+$p{
+See the $source-link[kilkerran-graveyard-inscriptions]{Kilkerran Cemetary Inscriptions} section 970 for details.
 Unless I have completely screwed up!
 }
 
