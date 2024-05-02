@@ -6,7 +6,7 @@ $p{
 Note from as of yet unpublished book.
 }
 $hr{}
-$p{Various older references (uninvested):
+$p{Various older references (uninvestigated):
 
 $ul{
 $li{
