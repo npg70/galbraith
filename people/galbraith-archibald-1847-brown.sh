@@ -19,17 +19,9 @@ partner {
         birth -date 14-oct-1887 -location campbeltown -ref flora1887-birth
     }
 
-    child galbraith-mary-1890-gillies.sh
+    child galbraith-mary-1890-gillies
 
-    child {
-        name Duncan Galbraith
-        birth -date 5-feb-1897 -location campbeltown -ref duncan1897-birth
-        death -date 18-dec-1961 -location campbeltown -ref duncan1897-death
-        partner {
-            name Elizabeth Stewart McArthur
-            marriage -date 1927 -location campbeltown -ref mcarthur-marriage
-        }
-    }
+    child galbraith-duncan-1897-mcarthur
 }
 body {
 He was a fisherman.
@@ -50,14 +42,5 @@ footnotes {
     }
     flora1887-birth {
         $sp-ref-link[b-1887-507-00-0323 0108 "Flora Galbraith"]
-    }
-    duncan1897-birth {
-        $sp-ref-link[b-1897-507-00-0025 0009 "Duncan Galbraith"]
-    }
-    duncan1897-death {
-        $sp-ref-link[d-1961-507-00-0097 0033 "Duncan Galbraith"]
-    }
-    mcarthur-marriage {
-        $sp-ref[m-1927-507-00-0046 "Duncan Galbraith" "Elizabeth Steward McArthur"], note also listed as "Elizabeth Stewart". Perhaps remarried.
     }
 }

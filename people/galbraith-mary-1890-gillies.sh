@@ -1,8 +1,12 @@
 name Mary Galbraith
+external {
+    familysearch GLH7-DNF
+}
 tags Argyll:Campbeltown
 birth -date 1-aug-1890 -location campbeltown -ref mary1890-birth
+death -date 21-jul-1923 -location campbeltown -ref mary1890-death
 body {
-    The first twins born were before marriage.
+    The first twins born were before marriage, and the father is probably not Alexander.
 }
 partner {
     name Alexander Gillies
@@ -21,6 +25,9 @@ partner {
 footnotes {
     mary1890-birth {
         $sp-ref-link[b-1890-507-00-0198 0066 "Mary Galbraith"]
+    }
+    mary1890-death {
+        $sp-ref-link[d-1923-507-00-0082 0028 "Mary Galbraith"]
     }
     gillies-marriage {
         $sp-ref-link[m-1919-507-00-0042 0021 "Mary Galbraith" "Alexander Gillies"]
