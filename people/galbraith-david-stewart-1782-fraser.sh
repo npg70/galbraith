@@ -10,6 +10,7 @@ todo {
 }
 partner {
   name Margaret McKeigh
+  marriage
   child {
     name John Sayers Galbreath
     birth -date 4-may-1810
@@ -32,6 +33,7 @@ partner {
     name Alexander MacDonald Galbreath
     baptism -date 16-sep-1819 -location campbeltown -ref alexander1819-baptism
   }
+  child galbraith-flora-1820-hook
   child {
   	name David Stewart Galbraith
     baptism -date 22-aug-1827 -location campbeltown -ref david1827-baptism

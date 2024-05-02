@@ -55,12 +55,14 @@ $child-link[galbreath-edward-1855-mclarty-mckinven]{Edward Galbreath}, d. 1933, 
 
 $hr{} 
 $p{
-$child-link[galbraith-david-steward-1782-fraser]{David Stewart Galbraith}
+$child-link[galbraith-david-stewart-1782-fraser]{David Stewart Galbraith}-- 
+NOTE: he was frequently mentioned in the Kirk Sessions of Campbeltown (found by flipping through them on ScotlandsPeople)
 }
-Flora Campbell G-
+
 $p{
-NOTE: DSG was frequently mentioned in Kirk Session of Campbeltown (found by flipping through them on ScotlandsPeople)
+$child-link[galbraith-flora-1820-hook]{Flora Campbell Galbraith} - NOTE unclear on middle name.
 }
+
 $hr{}
 $p{
 $child-link[galbraith-hugh-1863]{Hugh G-}, father was Francis Kennedy -- TBD }
