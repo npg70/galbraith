@@ -65,7 +65,7 @@ $child-link[galbraith-flora-1820-hook]{Flora Campbell Galbraith} - NOTE unclear 
 
 $hr{}
 $p{
-$child-link[galbraith-hugh-1863]{Hugh Galbraith}, father was Francis Kennedy -- and perhaps later in life used the Kennedy name, not Galbraith.  There is a RCE in the OPR that changes his name.}
+$child-link[galbraith-hugh-1863]{Hugh Galbraith}, father was Francis Kennedy -- and perhaps later in life Hugh used the Kennedy name, not Galbraith.  There is a RCE in the OPR that changes his name.}
 $hr{}
 
 $p{
@@ -317,14 +317,14 @@ $blockquote{
 The modern shipyard at Trench Point ... built only two fishing boats for Campbeltown owners... The Aquarian was launched in spring [of 1971] for Archibald Galbraith.
 }
 $p{
-Perhaps the same Archibald involved in the rescue of 10 people from the motor yacht Quesada on the night of 22nd/23rd May, 1966. https://lifeboatmagazinearchive.rnli.org/volume/40/419/award-for-scottish-skipper?searchterm=Yacht+Gan&page=691
+Perhaps the same Archibald involved in the rescue of 10 people from the motor yacht Quesada on the night of 22nd/23rd May, 1966. $elink[https://lifeboatmagazinearchive.rnli.org/volume/40/419/award-for-scottish-skipper?searchterm=Yacht+Gan&page=691]{Lifeboat Magazine}.
 }
 
 $p{
 $child-link[galbraith-archibald-1856-mccallum]{Archibald Galbreath} son of Donald Galbraith and Margaret McNeil, was born 24 Apr 1856 at Killean and Kilchenzie. He died 28 Apr 1936. He married 30 January 1885 at Killean and Kilchenzie to Margaret McCallum.
 }
 $p{
-Margaret was mentioned in the Campbeltown Courier, Honouring Killean and Kilchenzie’s fallen 100 years on, Updated: 04/08/22, 4:31 pm. Her's sons Donald and Archibald were killed in WWI, in Bulgaria and France respectively.
+Margaret was mentioned in the Campbeltown Courier, Honouring Killean and Kilchenzie’s fallen 100 years on, Updated: 04/08/22, 4:31 pm. Her sons $child-link[galbraith-donald-1886]{Donald} and $child-link[galbraith-archibald-1890]{Archibald} were killed during WWI, in Bulgaria and France respectively.
 }
 $blockquote{
 Before family members laid their wreaths at the foot of the memorial in 1922, the first wreath was placed by Mrs Archibald Galbraith, two of whose sons were included in the fallen. This was followed by a march past of ex-servicemen.
