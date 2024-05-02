@@ -65,7 +65,7 @@ $child-link[galbraith-flora-1820-hook]{Flora Campbell Galbraith} - NOTE unclear 
 
 $hr{}
 $p{
-$child-link[galbraith-hugh-1863]{Hugh G-}, father was Francis Kennedy -- TBD }
+$child-link[galbraith-hugh-1863]{Hugh Galbraith}, father was Francis Kennedy -- and perhaps later in life used the Kennedy name, not Galbraith.  There is a RCE in the OPR that changes his name.}
 $hr{}
 
 $p{
