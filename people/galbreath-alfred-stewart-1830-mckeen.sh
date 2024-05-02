@@ -31,5 +31,7 @@ partner {
     }
 }
 footnotes {
-
+    alfred1830-baptism {
+        $opr-ref[b-1830-507-000-0060-0210 "Alfred Galbraith"]
+    }
 }
