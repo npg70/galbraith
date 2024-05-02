@@ -21,7 +21,7 @@ Neill Galbreath, 1733, son of Gilnive, Kilchamaig
 }
 $hr{}
 $p{
-John G-, attacked during a shinty match 1818 -- 
+John Galbraith, attacked during a shinty match 1818 -- 
 Unable to find any additional info to identify him.
 }
 $hr{}
@@ -39,24 +39,23 @@ $p{
 NOTE: Wasn't clear how Hugh fit in... he is the Great-Great-Grandson of John G- and More McLean (via Neil b 1855, Hugh b 1823, Neil b 1788, and John b. 1760)
 }
 $p{
-NOTE: The Internet says the line goes back on generation one more to a $child-link[galbreath-john-1710-clark]{John Galbreath} and Isobell Clark (see below). Evidence is circumstantial based on OPR records and appropriate ages, but looks reasonable.
+NOTE: The Internet says the line goes back on generation one more to a $child-link[galbreath-john-1710-clark]{John Galbreath} and Isobell Clark (as mentioned above). Evidence appears to be circumstantial based on OPR records and appropriate ages, but looks reasonable.
 }
 $hr{}
 $p{
-John Kenneth G-, b 1908, d. 2006 -- still researching his Kintyre connections
+$elink[https://en.wikipedia.org/wiki/John_Kenneth_Galbraith]{John Kenneth Galbraith}, the economist, 1908, d. 2006 -- Note: still researching his Kintyre connections
 }
-NOTE: Still researching exactly his Kintyre connections
 $hr{}
 $p{
-Lachlan G, "teacher of English and Gaelic", from Gigha - NOTE: Can't figure out who this is.
+Lachlan Galbreath, "teacher of English and Gaelic", from Gigha - NOTE: Can't figure out who this is.
 }
 $p{
-$child-link[galbreath-edward-1855-mclarty-mckinven]{Edward G-}, d. 1933, age 77, m. Mary Mclarty 1883, "son of John shoemaker, Mary McGeachy" -- CORRECTION: Edward was the son of Ann McGeachy, not Mary.  Note: Edward married again 4 Jun 1901 to Elizabeth "Betsy" McKinven.
+$child-link[galbreath-edward-1855-mclarty-mckinven]{Edward Galbreath}, d. 1933, age 77, m. Mary Mclarty 1883, "son of John shoemaker, Mary McGeachy" -- CORRECTION: Edward was the son of Ann McGeachy, not Mary.  Note: Edward married again 4 Jun 1901 to Elizabeth "Betsy" McKinven.
 }
 
 $hr{} 
 $p{
-$child-link[galbraith-david-steward-1782-fraser.sh]{David Stewart Galbraith}
+$child-link[galbraith-david-steward-1782-fraser]{David Stewart Galbraith}
 }
 Flora Campbell G-
 $p{
@@ -68,7 +67,7 @@ $child-link[galbraith-hugh-1863]{Hugh G-}, father was Francis Kennedy -- TBD }
 $hr{}
 
 $p{
-William Campbell G-
+$child-link[galbraith-william-campbell-1869-mitchell]{William Campbell Galbraith}  -- 
 }
 
 $p{
@@ -76,16 +75,16 @@ $child-link[galbraith-william-campbell-1869-morrison]{William Campbell Galbraith
 }
 
 $p{
-$child-link[galbraith-william-1846-campbell]{William G}, d. 1926 age 80 (father of above), m. Helen Campbell -- married at Southend 22 June 1869. He was a mason.
+$child-link[galbraith-william-1846-campbell]{William Galbraith}, d. 1926 age 80 (father of above), m. Helen Campbell -- married at Southend 22 June 1869. He was a mason.
 }
 $hr{}
 $p{
-$child-link[galbreath-samuel-1827-beton]{Samuel G-}, d. 1860 -- 
+$child-link[galbreath-samuel-1827-beton]{Samuel Galbreath}, d. 1860 -- 
 son of David Galbreath (below)  and Janet Mitchell. baptized at Campbeltown 14 Jan 1827, and died 17 Oct 1860. He married at Campbeltown 8 April 1860 to Margaret Beton.
 }
 
 $p{
-$child-link[galbreath-david-1797-mitchell]{David G-}, his father -- 
+$child-link[galbreath-david-1797-mitchell]{David Galbreath}, his father -- 
 the  son of Samuel Galbreath and Janet Langwill, at Campbeltown was born 16 Sept 1797 and baptised 19 Sep 1797. He died 12 Aug 1884. He married 5 Oct 1824 to Janet Mitchell.  She was the daughter of Archibald Mitchell and Agnes Greenless, born around 1801 and died 4 Oct 1874 in Campbeltown.
 }
 $hr{}
@@ -111,12 +110,9 @@ $child-link[galbraith-john-1836-boyd]{John Galbraith} (brother) -- bp. 1836 at K
 }
 
 $p{
-John G-, d. 15 Dec 1908 London
-}
-
-$p{
-Additional obit
-BIO: Maybe born 1839, died age 69ish. Can't find any parent information, nor in census. Seems unmarried.
+John Galbraith, d. 15 Dec 1908 London -- 
+$elink[https://books.google.com/books?id=OV02W1GizPwC&pg=RA24-PA12&lpg=RA24-PA12&dq=John+Galbraith+%22London+Society+of+Compositors%22&source=bl&ots=Xcm8rJeMfg&sig=ACfU3U0giVtAEi0X-5B1HNx9i3bcP8Af5A&hl=en&sa=X&ved=2ahUKEwizpIu-l5z5AhULIEQIHWjAAd0Q6AF6BAgVEAI#v=onepage&q=John%20Galbraith%20%22London%20Society%20of%20Compositors%22&f=false]{Additional obit} on Google Books. -- 
+ Maybe born 1839, died age 69ish. Can't find any parent information, nor in census. Seems unmarried.
 }
 
 $p{
@@ -142,7 +138,7 @@ NOTE: Her father was $child-link[galbraith-donald-1863-galbraith]{Donald Galbrai
 }
 $hr{}
 $p{
-Margaret McCallum G-, d. 25 Nov 1931 (burns), age 15. "her adoptive father was Archibald Gillies"
+Margaret McCallum G-, d. 25 Nov 1931 (burns), age 15. "her adoptive father was Archibald Gillies" -- daughter of unknown and $child-link[galbraith-mary-1890-gillies]{Mary Galbraith}.
 }
 $p{
 CORRECTION: Not orphaned, but illegitmate birth, with father unknown. Mother Mary is listed in Census with Archibald Gillies.
@@ -151,14 +147,14 @@ $p{
 CORRECTION: Middle name is suspect. The official records have McMillian, McCallum, and McNair.
 }
 $p{
-NOTE: She was a twin -- Jeannie! Can't find any info however.
+NOTE: She was a twin -- Jeannie! Can't find any info however.  Both were born in Campbeltown on 4 Mar 1916.
 }
 $hr{}
 $p{
 $child-link[galbraith-archibald-1865-mckay]{Archibald Galbraith}, d. 1928,age 62, m. Isabella McKay -- the  son of Daniel/Donald Galbraith and Isabella McDermid, was born Campbeltown 1 July 1865, and died 25 Mar 1928. He married at Campbeltown 16 Apr 1888 to Isabella McKay}
 }
 $p{
-NOTE: Uncle of Jeannie G- (above, the one with "many near relatives in Campbeltown")
+NOTE: Uncle of Jeannie Galbraith (above, the one with "many near relatives in Campbeltown")
 }
 
 $p{
@@ -263,10 +259,13 @@ $blockquote{
 His Galbraith family was not native Kintyre stock, but descended from 17th century Lowland settlers. John's parents were Archibald Galbreath, merchant, and Jean Corbet. His grandfather, Archibald Galbreath, was a merchant in Campbeltown, and his great-grandfather, William, was a maltster. Each of these, like his father, married into a Plantation family: Langwill and Dunlop, respectively
 }
 
-The two "Archibald Galbreath" are the same person. He married twice, first to Margaret Langwill, then to Jean Corbet.
+$p{The two "Archibald Galbreath" are the same person. He married twice, first to Margaret Langwill, then to Jean Corbet.
+}
+$p{
 Using this correction, the grand-father is William Galbreath who married Margaret Dunlop
 See the kilkerran inscriptions you sent me #970: https://github.com/npg70/galbreath/blob/main/sources/kilkerran-graveyard-inscriptions.md#970
 Unless I have completely screwed up!
+}
 
 $hr{}
 $p{
@@ -276,27 +275,25 @@ $p{
 He married at Campbeltown 18 Apr 1805, Katherine Harvie, daugher of James Harvie and $child-link[galbreath-katharine-1741-harvey]{Katherine Galbreath}, born 29 Jul 1780 and baptized at Campbeltown 30 Jul 1780,2 died Washington Township, Clermont, Ohio, USA 21 Jun 1847.
 }
 $p{
-QUESTION: Did Robert sell his farm to his younger sister Catherine Greenlees
+QUESTION: Did Robert sell his farm to his younger sister Catherine Greenlees?
 }
 
 $hr{}
 $p{
 $child-link[galbraith-samuel-1850-reynold]{Samuel Galbraith}- m. Mary Ellen Reynolds, Antigua... born Ugadale in 1856.
- -- CORRECTION?: Samuel - Can't find reference to Samuel being born in Ugadale or in 1856. His birth isn't in OPR or Statutory records. He is listed in 1851 Census as being "5M", so 1850 or 1851. But all subsequent records have him in 1852-1856 range.
+ -- Note: - Can't find reference to Samuel being born in Ugadale or in 1856. His birth isn't in OPR or Statutory records. He is listed in 1851 Census as being "5M", so 1850 or 1851. But all subsequent records have him in 1852-1856 range.
 }
 $p{
-$child-link[galbreath-archibald-1803-mccallum-loynachan]{Archibald Galbreath} m. Margaret Loynachan --  For Archibald, maybe just mention Margaret was 2nd wife as you did with a previous entry.
+$child-link[galbreath-archibald-1803-mccallum-loynachan]{Archibald Galbreath} m. Margaret Loynachan --  For Archibald, maybe mention Margaret was 2nd wife.
 }
 $p{
 $child-link[galbreath-james-1768-galbreath]{James Galbreath}, m. Martha Galbreath -- NOTE: likely won a turnip growing competition, as mentioned in The Campbeltown Book.
 }
 $hr{}
-
 $p{
 $child-link[galbraith-william-1791-grieve]{William Galbraith} b. Ayrshire, moved to Southend in 1851 -- 
 the son of Peter Galbraith and Jean Logan, baptized in Dalrymple, Ayr on 9 Dec 1791. He married in Dalrymple 25 Aug 1818 to Mary Grieve.
 }
-
 $p{
 $child-link[galbraith-john-1824-paterson]{John Galbraith} (son) got another lease in 1861. --
 son of William Galbraith (above) and Mary Grieve, was baptized in Dalrymple, Ayr 28 Mar 1824. He married in 1871 at Stewarton, Ayr to Catharine Paterson.
