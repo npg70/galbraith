@@ -2,6 +2,7 @@ name Donald Galbraith
 tags Argyll:Gigha
 external {
     familysearch 9M93-9S4
+    findagrave 114305383
 }
 baptism -date 15-aug-1848 -location gigha -ref donald1848-baptism
 death -date 22-jan-1904 -location saddell -ref donald1848-death
