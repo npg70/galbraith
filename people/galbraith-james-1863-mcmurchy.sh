@@ -15,6 +15,10 @@ partner {
     child {
         name Catherine McLean Galbraith
         birth -date 18-jan-1885 -location campbeltown -ref catherine1885-birth
+        death -date 01-aug-1927 -location 'kilmore and kilbride' -ref catherine1885-death
+        partner {
+            name Neil Galbraith Martin?
+        }
     }
     child {
         name Mary McMurchy Galbraith
@@ -59,6 +63,9 @@ footnotes {
     }
     catherine1885-birth {
         $sp-ref-link[b-1885-507-00-0046 0016 "Catherine McLean Galbraith"].  Born before marriage.
+    }
+    catherine1884-death {
+        $sp-ref-link[d-1927-523-00-0069 0023 "Catherine McLean Galbraith"]
     }
     mary1886-birth {
         $sp-ref[b-1887-507-00-0006 "Mary McMurchy Galbraith"]. Born in 1886, recorded in 1887.

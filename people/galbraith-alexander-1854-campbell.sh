@@ -25,10 +25,7 @@ partner {
     }
     child galbraith-robert-1881-mcintosh
 
-    child {
-        name Mary Galbraith
-        birth -date 1883 -location Saddell -ref mary1883-birth
-    }
+    child galbraith-mary-1883-macdougall
     child galbraith-john-alexander-1855-mcdougall
 
     child galbraith-alexander-1887-campbell
@@ -93,9 +90,6 @@ footnotes {
     }
     archibald1879-birth {
         $sp-ref-link[b-1879-531-01-0016 0006 "Archibald Galbraith"]
-    }
-    mary1883-birth {
-        $sp-ref[b-1883-531-01-0020 "Mary Galbraith"]
     }
     annie1890-birth {
         $sp-ref[b-1890-531-01-0012 "Annie Campbell Galbraith"]
