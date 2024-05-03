@@ -17,14 +17,8 @@ partner {
 
     child galbreath-archibald-1825-paterson-galbreath
     child galbreath-samuel-1827-beton
-    child {
-        name Agnes Galbreath
-        baptism -date 3-aug-1828 -location campbeltown -ref agnes1828-baptism
-        partner {
-            name John Carmichael
-            marriage -date 24-apr-1849
-        }
-    }
+
+    child galbraith-agnes-1828-carmichael
     child {
         name Janet Galbreath
         baptism -date 6-may-1830 -location campbeltown -ref janet1830-baptism
@@ -60,9 +54,6 @@ footnotes {
             David Galbreath Laborer + Janet Mitchell both of this parish
             were married 5th October 1824
         }    
-    }
-    agnes1828-baptism {
-        $opr-ref[b-1828-507-000-0060-0167 "Agnes Galbreath"]
     }
     janet1830-baptism {
         $opr-ref-link[b-1830-507-000-0060-0203 "Janet Galbreath"]

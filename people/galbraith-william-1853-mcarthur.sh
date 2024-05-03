@@ -20,10 +20,7 @@ partner {
         birth -date 1884 -location campbeltown -ref william1884-birth
         death -date 1885 -location campbeltown -ref william1884-death
     }
-    child {
-        name Elizabeth McArthur Galbraith
-        birth -date 1886 -location campbeltown -ref elizabeth1886-birth
-    }
+    child galbraith-elizabeth-mcarthur-1886-downie
     child {
         name Catherine Sillars Galbraith
         birth -date 1889 -location campbeltown -ref catherine1889-birth
@@ -75,9 +72,6 @@ footnotes {
     }
     william1884-death {
         $sp-ref[d-1885-507-00-0186 "William Galbraith"]
-    }
-    elizabeth1886-birth {
-        $sp-ref[b-1886-507-00-0311 "Elizabeth McArthur Galbraith"]
     }
     catherine1889-birth {
         $sp-ref[b-1889-507-00-0195 "Catherine Sillars Galbraith"]

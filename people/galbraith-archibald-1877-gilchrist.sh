@@ -6,11 +6,14 @@ tags Argyll:Campbeltown
 birth -date 30-nov-1877 -location campbeltown -ref archibald1877-birth
 death -date 14-sep-1955 -location campbeltown -ref archibald1877-death
 note {
-    The first child, Mary, was born before marriage.
+    The first child Rachel was from an unknown father, and second
+    child Mary was born before marriage.
 }
 partner {
    name Mary Gilchrist
    marriage -date 25-nov-1903 -location campbeltown -ref gilchrist-marriage
+
+   child galbraith-rachel-1899-mustarde
 
    child galbraith-mary-paterson-1903-sym
 
