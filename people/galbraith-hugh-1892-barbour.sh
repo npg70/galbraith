@@ -17,15 +17,22 @@ partner {
     child {
         name Neil Galbraith
         birth -date 21-feb-1921 -location southend -ref neil1921-birth
+        death -date 1993 -location campbeltown -ref neil1921-death
     }
     child {
         name John Barbour Galbraith
         birth -date 7-dec-1922 -location southend -ref john1922-birth
+        death -date 12-jul-2011 -location glasgow
+        partner {
+            name Janet McDougall Martin
+            birth -date 1929
+            death -date 2012
+        }
     }
     child {
         name Hugh Galbraith
         birth -date 1924 -location southend -ref hugh1924-birth
-        death -date 29-jul-1987
+        death -date 29-jul-1987 -location southend
     }
 }
 
@@ -44,6 +51,9 @@ footnotes {
     }
     neil1921-birth {
         $sp-ref-link[b-1921-532-00-0003 0001 "Neil Galbraith"]
+    }
+    neil1921-death {
+        $sp-ref[d-1993-536-00-0132 "Neil Galbraith"]
     }
     john1922-birth {
         $sp-ref-link[b-1922-532-00-0013 0005 "John Barbour Galbraith"]

@@ -3,6 +3,10 @@ tags Argyll:Southend veteran
 birth -date 11-feb-1869 -location Southend -ref william1869-birth
 death -date 20-feb-1946 -location London,England
 
+note {
+    There is another $child-link[galbraith-william-campbell-1871-thomson-cook]{William Campbell Galbraith} born in 1871.
+}
+
 todo {
     1901 census https://www.findmypast.com/transcript?id=GBC/1901/0006743374&expand=true
 }
