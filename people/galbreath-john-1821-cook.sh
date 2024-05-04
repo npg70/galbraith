@@ -38,15 +38,8 @@ partner {
         name Mary Galbraith
         birth -date 1-nov-1858 -location Saddell -ref mary1858-birth
     }
-    child {
-        name Elizabeth Galbraith
-        birth -date 1-oct-1860 -location Saddell -ref elizabeth1860-birth
-        death -date 18-feb-1919 -location saddell -ref elizabeth1860-death
-        partner {
-            name John McIntosh
-            marriage -date 13-dec-1882 -location saddell
-        }
-    }
+    child galbraith-elizabeth-1860-macintosh
+
     child {
         name Jemina Galbraith
         birth -date 13-dec-1862 -location campbeltown -ref jemina1862-birth
@@ -86,12 +79,6 @@ footnotes {
     mary1858-birth {
         $sp-ref-link[b-1858-531-01-0020 0007 "Mary Galbreath"]
         Mother indexed as "Coole"
-    }
-    elizabeth1860-birth {
-        $sp-ref-link[b-1860-531-01-0017 0006 "Elizabeth Galbreath"]
-    }
-    elizabeth1860-death {
-        $sp-ref-link[d-1919-531-01-0003 0001 "Elizabeth Galbraith"]
     }
     jemina1862-birth {
         $sp-ref-link[b-1863-531-01-0002 0001 "Jemina Galbreath"]

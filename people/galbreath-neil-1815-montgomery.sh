@@ -13,14 +13,8 @@ partner {
     name Catherine Montgomery
     death -date 11-apr-1875 -location 'killean and kilchenzie' -ref montgomery-death
     marriage -date 28-jan-1832 -location southend -ref montgomery-marriage
-    child {
-        name Margaret Galbraith
-        birth -date 1833
-        death -date 24-may-1915 -location 'campbeltown' -ref marg1833-death
-        partner {
-            name Peter Blackstock
-        }
-    }
+    child galbraith-margaret-1833-blackstock
+
     child galbraith-archibald-1839-mcdonald
 
     child {
@@ -29,11 +23,7 @@ partner {
         death -date 27-jun-1876 -location 'killean and kilchenzie' -note umd
         body { Dairymaid. }
     }
-    child {
-        name Donald Galbraith
-        birth -date 1841
-        death -date 19-aug-1861 -location gigha -ref donald1841-death -note umd
-    }
+    child galbraith-donald-1841
     child {
         name Mary Galbraith
         birth -date 1852
@@ -64,12 +54,6 @@ footnotes {
     }
     montgomery-death {
         $sp-ref-link[d-1875-519-00-0008 0003 "Catherine Galbreath"]
-    }
-    marg1833-death {
-        $sp-ref[d-1915-507-00-0065 "Margaret Galbraith"]
-    }
-    donald1841-death {
-        $sp-ref-link[d-1861-537-00-0007 0003 "Donald Galbraith"]
     }
     mary1852-death {
         $sp-ref-link[d-1900-644-09-0071 0024 "Mary Galbraith"]

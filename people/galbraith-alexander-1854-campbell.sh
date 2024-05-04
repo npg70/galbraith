@@ -54,17 +54,10 @@ partner {
             name Angus Wilkieson
         }
     }
-    child {
-        name Ellen Elizabeth Galbraith
-        birth -date 1897 -location Saddell -ref ellen1897-birth
-    }
-    child {
-        name Elizabeth Jessie Galbraith
-        birth -date 1899 -location Saddell -ref elizabeth1899-birth
-        partner {
-            name Duncan McIntosh
-        }
-    }
+    child galbraith-ellen-elizabeth-1897-mackinven
+
+    child galbraith-elizabeth-jessie-1899-macintosh
+
     child {
         name Jessie McKinnon Galbraith
         birth -date 2-apr-1903 -location Saddell -ref jessie1903-birth
@@ -99,12 +92,6 @@ footnotes {
     }
     catherine1895-birth {
         $sp-ref[b-1895-531-01-0005 "Catherine Campbell Galbraith"]
-    }
-    ellen1897-birth {
-        $sp-ref[b-1897-531-01-0002 "Ellen Elizabeth Galbraith"]
-    }
-    elizabeth1899-birth {
-        $sp-ref[b-1899-531-01-0001 "Elizabeth Jessie Galbraith"]
     }
     jessie1903-birth {
         $sp-ref[b-1903-531-01-0006 "Jessie McKinnon Galbraith"]

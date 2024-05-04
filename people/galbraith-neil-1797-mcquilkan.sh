@@ -31,13 +31,7 @@ partner {
     child galbraith-malcolm-1828-bell
     child galbraith-archibald-1831-elder
     child galbraith-angus-1837-sutherland
-
-    child {
-        name Elizabeth Galbraith
-        birth -date 7-nov-1840 -location Torisdale
-        baptism -date 27-nov-1840 -location 'Saddell and Skipness' -ref elizabeth1840-baptism
-    }
-        
+    child galbraith-elizabeth-1840-weir
 }
 footnotes {
     neil1797-baptism {
@@ -57,8 +51,5 @@ footnotes {
     }
     john1825-death {
         $sp-ref-link[d-1870-535-00-0019 0007 "John Galbraith"]
-    }
-    elizabeth1840-baptism {
-        $opr-ref-link[b-1840-531-000-0020-0043 "Elizabeth Galbraith"]
     }
 }

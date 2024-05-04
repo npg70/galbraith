@@ -26,10 +26,8 @@ partner {
             name "John" "O'Hara"
         }
     }
-    child {
-        name Jean Cameron Galbraith
-        baptism -date 6-dec-1852 -location campbeltown -ref jean-birth
-    }
+    child galbraith-jean-cameron-1852-huie
+
     child {
         name Alexander Galbraith
         baptism -date 21-dec-1855 -location campbeltown -ref alex-birth
@@ -53,9 +51,6 @@ footnotes {
     }
     agnes-birth {
         $opr-ref[b-1848-507-000-0070-0341 "Agnes Galbreath"]
-    }
-    jean-birth {
-        $opr-ref[b-1852-507-000-0070-0408 "Jean Cameron Galbraith"]
     }
     alex-birth {
         $sp-ref-link[b-1855-507-01-0179 0036 "Alexander Galbraith"]

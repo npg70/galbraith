@@ -32,14 +32,8 @@ partner {
         birth -date 'abt 1837'
         death -date 17-Mar-1882 -location campbeltown -ref margaret1837-death -note  Unmarried
     }
-    child {
-        name Mary Galbraith
-        birth -date 'about 1845'
-        death -date 5-Apr-1914 -location Paisley,Renfrew.
-        body {
-            Married. Children unknown.
-        }
-    }
+    child galbraith-mary-1845-carrigan
+
     child {
         name Ann Galbraith
         birth -date 'about 1850'

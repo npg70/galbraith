@@ -9,14 +9,14 @@ note {
     Likely other children after 1854.
 }
 partner {
-    name Andrew McKniven
+    name Andrew McKinven
     marriage -date 1851 -location campbeltown -ref marriage
     child {
-        name Lawrence McKniven
+        name Lawrence McKinven
         baptism -date 30-apr-1853 -location campbeltown -ref lawrence-baptism
     }
     child {
-        name Alexander McKniven
+        name Alexander McKinven
         baptism -date 14-may-1854 -location campbeltown -ref alexander-baptism
     }
 }

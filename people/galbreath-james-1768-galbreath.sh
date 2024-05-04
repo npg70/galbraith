@@ -6,10 +6,10 @@ external {
 }
 body {
 $p{
-He died between 1829 and 1837 due to marriage records of his daughters Orsella and Catherine. The same daughters may have married bothers James and Hugh. (See ScotlandsPeoples)
+He died between 1829 and 1837 due to marriage records of his daughters Orsella and Catherine. The same daughters may have married bothers James and Hugh.
 }
 $p{
-Martha Galbreath and their youngest daughter Mary are recorded in the 1841 Census as being in Long Row, Campbeltown.2 Later records for either of them have not been found.
+Martha Galbreath and their youngest daughter Mary are recorded in the 1841 Census as being in Long Row, Campbeltown. Later records for either of them have not been found.
 }
 $p{
 From the baptism records of children, he was a farmer in Skebolin.
@@ -25,17 +25,10 @@ partner {
   child {
   	name Janet Galbreath
     baptism -date 31-sep-1801 -location campbeltown -ref janet1801-baptism
-	}
-  child galbreath-archibald-1803-mccallum-loynachan
-  child {
-  	name Orsella Galbreath
-    baptism -date 24-nov-1805 -location campbeltown -ref orsella1805-baptism
-    death -date 2-dec-1898 -location campbeltown -ref orsella1805-death
-    partner {
-    	name James Templeton
-      marriage -date 3-feb-1829 -location campbeltown -ref orsella1805-marriage
-    }
   }
+  child galbreath-archibald-1803-mccallum-loynachan
+  child galbreath-orsella-1805-templeton
+
   child {
   	name Martha Galbreath
     baptism -date 16-dec-1807 -location campbeltown -ref martha1807-baptism
@@ -91,15 +84,6 @@ footnotes {
   }
   janet1801-baptism {
   	$opr-ref-link[b-1801-507-000-0040-0219 "Janet Galbreath"]
-  }
-  orsella1805-baptism {
-  	$opr-ref-link[b-1805-507-000-0040-0282 "Orsella Galbreath"]
-  }
-  orsella1805-death {
-   	$sp-ref-link[d-1898-507-00-0137 0046 "Orsella Galbraith"]
-  }
-  orsella1805-marriage {
-    $opr-ref-link[m-1829-507-000-0060-0288 "Orsla Galbreath" "James Templeton"]
   }
   martha1807-baptism {
   	$opr-ref-link[b-1807-507-000-0040-0312 "Martha Galbreath"]
