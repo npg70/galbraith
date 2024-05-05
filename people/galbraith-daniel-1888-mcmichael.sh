@@ -14,6 +14,8 @@ partner {
     marriage -date 1923 -location campebeltown -ref mcmichael-marriage
     birth -date 1898
     death -date 1968 
+
+    child galbraith-carol-macmichael-1930-thomson
 }
 footnotes {
     daniel1888-birth {
