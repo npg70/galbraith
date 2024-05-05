@@ -61,7 +61,7 @@ footnotes {
         $opr-ref[b-1797-537-000-0010-0011 "Lachlan Galbreath"]
     }
     lachlan1797-death {
-        $sp-ref-link[b-1867-519-00-0016 0006 "Lachlan Galbraith"]
+        $sp-ref-link[d-1867-519-00-0016 0006 "Lachlan Galbraith"]
     }
     unnamed1799-baptism {
         Indexed three times:
