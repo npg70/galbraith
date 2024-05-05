@@ -369,5 +369,18 @@ $li{Mary Park, bp. 1782, m. in 1803 to Daniel MacLauchlin}
 $li{James Park, b. ~1750, d. 9 Oct 1806}
 $li{Mary Galbreath, bp. 1751, marriage unrecorded}
 }
+}
 
+$section{
+$h2{1162}
+$blockquote{
+Erected by WILLIAM and DAVID FERGUSON in memory of their parents WILLIAM FERGUSON late Smith in Campbeltown who died 10 January 1788 aged 83 years, also ISABELL FERGUSON his spouse who died December 1774 aged 66 years, the above WILLIAM FERGUSON died 14 August 1800 aged 62 years, also JEAN GREENLEES his spouse died 2 September 1811 aged 63 years, JEAN their daughter died 1 May 1816 aged 42 years.
+}
+}
+
+$section{
+$h2{1163}
+$blockquote{
+Erected by MARGARET FLEMING in memory of her husband DAVID FERGUSON late smith and merchant in Campbeltown who died 25 February 1813 aged 64 years.  He lived much respected and died universally regretted
+}
 }
