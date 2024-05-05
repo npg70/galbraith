@@ -193,17 +193,7 @@ $blockquote{
  Wm Ferguson's old Dr married in winter last to a Jas. Greenlees a skipper. 
 }
 $p{
-Isabell Ferguson m. James Greenlees
-}
-$p{
-GREENLEES
-JOHN
-JAMES GREENLEES/ISABELL FERGUSON FR761 (FR761)
-M
-17/01/1792
-507
-20 / 138
-CAMPBELTOWN
+$elink[https://www.familysearch.org/tree/person/details/G3G4-YFG]{Isabell Ferguson} m. $elink[https://www.familysearch.org/tree/person/details/G3G4-WDX]{James Greenlees}
 }
 
 $blockquote{
