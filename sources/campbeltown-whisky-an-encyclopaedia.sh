@@ -73,7 +73,7 @@ $blockquote{
 his wife Jessie ... died 1930, age 89... was also a Coville, a daugher of John Coville Jr... sister of Archibald Coville who succeeded to the Glasgow cotton-spinning business, A. & A. Galbraith founded by his uncles Andrew and Archibald.
 }
 
-$p{Janet "Jessie" Coville is the daughter of John Coville Jr and Jean Galbraith. Jean is the child of $child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbreath} and Jean Corbet, as is $child-link[galbraith-andrew-1799-scott]{Andrew} and $child-link[galbreath-archibald-1807]{Archibald}.
+$p{Janet "Jessie" Coville is the daughter of John Coville Jr and $child-link[galbraith-jean-1805-coville]{Jean Galbraith}. Jean is the child of $child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbreath} and Jean Corbet, as is $child-link[galbraith-andrew-1799-scott]{Andrew} and $child-link[galbreath-archibald-1807]{Archibald}.
 }
 
 $section{
