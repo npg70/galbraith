@@ -172,7 +172,12 @@ $blockquote{Erected by the family in memory of their father DUNCAN McCALLUM who 
 $child-link[galbraith-sarah-1817-mccallum]{Sarah Galbraith}, born 1817, the daughter of $child-link[galbreath-neill-1788-mcmillan]{Neil Galbreath} and Mary McMillian, born 1817.
 
 }
-
+$section{
+$h2{669}
+$blockquote{
+Erected by JAMES GREENLEES, Shipmaster in Campbeltown, in memory of ISOBELL FERGUSON his spouse who died 12 March 1804 aged 34 years also three children to wit JEAN died 22 September 1794 aged 15 months also JEAN died 22 September 1798 aged 12 days, JAMES died 1 August 1802 aged 10 months.
+}
+}
 $section{
 $h2{697}
 
