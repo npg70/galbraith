@@ -1,20 +1,15 @@
 name John Fleeming
 tags Argyll:Campbeltown
+external {
+    familysearch GQ56-J5L
+}
+birth -date 'say 1713'
 
 partner {
     name Agnes Langwill
     marriage -date 02-oct-1756 -location campbeltown
 
-    child {
-        name John Fleeming
-        baptism -date 23-jan-1758 -location campbeltown
-        death -date 05-feb-1854 -location 'barlow,washington,ohio,usa'
-        partner {
-            name Jean Colville
-            marriage -date 20-dec-1790
-            death -date 1852
-        }
-    }
+    child fleming-john-1758-colville
 
     child {
         name Isobell Fleeming

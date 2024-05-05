@@ -239,7 +239,7 @@ your brother J. Fleeming was married to Robert Colviel's old daughter(9)
 }
 $p{
 That is Alexander's brother-in-law (the brother of his spouse Agnes Fleeming),:
-$elink[https://www.familysearch.org/tree/person/details/KH7S-T42]{John Fleeming}, son of John Fleeming and Agnes Langwill, born 1758.   And $elink[https://www.familysearch.org/tree/person/details/M1TZ-QBN]{Jean Colvill}, the daughter of Robert Colvill and Agnes Fleeming.  They married on 20 Dec 1790, and had 13 or 14 children before immigrating to Washington County in Ohio, USA.
+$child-link[fleming-john-1758-colville]{John Fleeming}, son of John Fleeming and Agnes Langwill, born 1758.   And $elink[https://www.familysearch.org/tree/person/details/M1TZ-QBN]{Jean Colvill}, the daughter of Robert Colvill and Agnes Fleeming.  They married on 20 Dec 1790, and had 13 or 14 children before immigrating to Washington County in Ohio, USA.
 }
 
 $blockquote{
