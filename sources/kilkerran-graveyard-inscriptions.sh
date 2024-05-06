@@ -209,6 +209,24 @@ $blockquote{Here lie the remains of JOHN COLVILL Junr, Merchant, Campbeltown, wh
 $child-link[galbraith-jean-1805-coville]{Jean Galbraith}, born 1805, daughter of $child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbreath} and Jean Corbet, who are also buried here.
 }
 $section{
+$h2{906}
+$blockquote{
+JOHN FLEMING in Kellounen the place deseined for himself.
+}
+}
+$section{
+$h2{907}
+$blockquote{
+Erected by JOHN FLEEMING in memory of his father JAMES FLEEMING late tenant in Killownan who died 2 March 1785 aged 56 years and by JEAN FLEEMING in memory of her husband ARCHD McMURCHY who died 12 January 1828 aged 49 years, MARY their daughter died 14 March 1828 aged 11 years.
+}
+$p{
+$elink[https://www.familysearch.org/tree/person/details/9M98-J5C]{Jean Fleeming} is ok, but John and James TBD.
+}
+$p{
+TBD: $child-link[fleming-john-1758-colville]{John Fleeming}/Colville has children born in Killownan.
+}
+}
+$section{
 $h2{927}
 
 $blockquote{Erected by ANDREW SPIERS in memory of his father ANDREW SPIERS who was drowned in Troon Harbour in his 31st year and his mother JANE GALBRAITH who died 10 July 1915 in her 76th year. The above ANDREW SPIERS died 2 September 1939 in his 74th year also his wife JANET MONTGOMERY died 24 January 1940 in her 71st year.}
