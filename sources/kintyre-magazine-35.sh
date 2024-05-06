@@ -113,9 +113,11 @@ Unfortunately, since the Covid Epidemic of 2022, the meetings and reunions of th
 $hr{}
 
 $h2{Letter 1}
-$p{Dated 20 Dec 1787}
+$p{Dated 20 Dec 1787, From James Park to Alexander Galbraith.}
 
 $blockquote{
+since you wrote concerning James McNairs$sup{1}
+$br{}$br{}
 1. James McNair was a farmer near Campbeltown. The McNairs and Galbraiths were intermarried.
 }
 $p{
@@ -123,7 +125,7 @@ TBD
 }
 
 $blockquote{
-We had a letter from John Fleming (4) from London about a month ago and he is gone for Virginia from that you may posible see him before he Returns
+We had a letter from John Fleming$sup{4} from London about a month ago and he is gone for Virginia from that you may posible see him before he Returns
 $br{}$br{}
 4. John Fleming, a sailor, was married to Margaret Galbraith.
 }
@@ -132,10 +134,20 @@ $elink[https://www.familysearch.org/tree/person/details/9M94-6SP]{John Fleeming}
 }
 
 $blockquote{
+John Paterson$sup{5} has another son whose name is James
+$br{}$br{}
 5. John Paterson was married to Mary Fleming. The new baby James in 1830 took to do with the estate of his aunt Margaret Fleming, widow of David Ferguson, Smith in Campbeltown.
 }
 $p{
-$elink[https://www.familysearch.org/tree/person/details/KZW8-C4F]{John Paterson} and Mary Fleeming, last child, James Paterson married $child-link[galbraith-isabella-1808-paterson]{Isabella Galbraith}.
+There is a $child-link[paterson-john-1764-fleeming]{John Paterson} married Mary Fleeming about 1785 (no marriage record has found).  They had nine children the first John being born in 1787.  The last child born in 1807, James Paterson, married $child-link[galbraith-isabella-1808-paterson]{Isabella Galbraith}.
+}
+$p{The letter was written in 1797, and no record of a James being born was found. Even if there was a James, he would have died young, since another James was born.
+}
+$p{
+I suspect the original writer or the transcription is in error and that he refering to the first son John, which was born only a month before the letter was written.  I'm unable to explain why this is "another" son, except, if there was another son born previous and unrecorded (like the marriage).
+}
+$p{ 
+I'm also unable to find any record involving the estate of Margaret Fleeming or David Ferguson.  Perhaps that will shed light on the topic.
 }
 
 $blockquote{
@@ -146,7 +158,7 @@ TBD
 }
 
 $blockquote{
-Big Baldie (9) is married to Robert Langwills daughter
+Big Baldie$sup{9} is married to Robert Langwills daughter
 $br{}$br{}
 9. "Big Baldy" was Archibald Galbraith, the son of William and grandson of Archibald, the oldest brother of Alexander Galbraith's father John. His first wife Margaret Longwill died aged 20. His second wife Jean Corbet died on 2nd August 1861 aged 90. By his second wife he had ten known children.
 }
@@ -180,7 +192,7 @@ $blockquote{
 The following letter is from Knochrioch, 21st July, 1791, and Wm. Ker whose wife is a Galbraith is a brother-in-law of $child-link[galbreath-alexander-1753-flemming/]{Alexander Galbreath} to whom it is addressed.
 }
 $p{
-William Kerr.
+William Kerr.  No evidence of a marriage or children with a Galbraith.
 }
 
 $blockquote{
@@ -197,7 +209,9 @@ $elink[https://www.familysearch.org/tree/person/details/G3G4-YFG]{Isabell Fergus
 }
 
 $blockquote{
-old bridgend has got 2 letters from his sons who are in virginia. his sone Rob't is married to Jas Hervey Parks old daughter.
+old bridgend has got 2 letters from his sons who are in virginia. his sone Rob't is married to Jas Hervey Parks old daughter.$sup{9a}
+$br{}$br
+9a. That is James Hervey in the farm of Park, not to be confused with James Park.
 }
 $p{
 "Old Bridgend" is James Clark, the son of John Clark and Margaret Fulton,
@@ -225,10 +239,13 @@ The two boys are $elink[https://www.familysearch.org/tree/person/details/M1TD-RS
 }
 
 $blockquote{
-your brother J. Fleeming was married to Robert Colviel's old daughter(9)
+your brother J. Fleeming was married to Robert Colviel's old daughter$sup{9b}
+}
+$blockquote{
+9b. Margaret Fleeming (a sister of this Galbreath) and her husband David Ferguson made special provision in their mutual will dated 7th December 1783 that Robert Colvill in Trodigal and his heirs should be debarred from inheritance. James Park and William Ker, writers of these letters, witnessed the will.
 }
 $p{
-That is Alexander's brother-in-law (the brother of his spouse Agnes Fleeming),:
+"J. Fleeming" is Alexander's brother-in-law (the brother of his spouse Agnes Fleeming):
 $child-link[fleming-john-1758-colville]{John Fleeming}, son of $child-link[fleeming-john-1713-langwill]{John Fleeming} and Agnes Langwill, born 1758.   And $elink[https://www.familysearch.org/tree/person/details/M1TZ-QBN]{Jean Colvill}, the daughter of Robert Colvill and Agnes Fleeming.  They married on 20 Dec 1790, and had 13 or 14 children before immigrating to Washington County in Ohio, USA.
 }
 
@@ -250,16 +267,7 @@ $child-link[ralston-andrew-1758-fleeming]{Andrew Ralson}.
 TBD - there are two Andrew Ralston in south end...
 }
 
-$blockquote{
-(9)That is James Hervey in the farm of Park, not to be confused with James Park.
-}
-$p{
-James Harvey who married $child-link[galbreath-katharine-1741-harvey]{Katherine Galbreath}
-}
 
-$blockquote{
-Margaret Fleeming (a sister of this Galbreath) and her husband David Ferguson made special provision in their mutual will dated 7th December 1783 that Robert Colvill in Trodigal and his heirs should be debarred from inheritance. James Park and William Ker, writers of these letters, witnessed the will.
-}
 
 $p{
 As mentioned, Margaret Fleeming as a sister to Mary and Agnes. 

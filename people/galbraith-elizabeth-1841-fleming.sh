@@ -6,6 +6,9 @@ death -date 10-jan-1931 -location campbeltown -ref elizabeth1841-death
 todo {
     cleanup html
 }
+note {
+    extensive notes on FindAGrave
+}
 external {
     familysearch M1TD-WMJ
     findagrave 167874666

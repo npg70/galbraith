@@ -13,7 +13,7 @@ partner {
 
     child {
         name Isobell Fleeming
-        baptism -date 24-feb-1760 -location campbeltown
+        baptism -date 24-feb-1760 -location campbeltown -ref isobell1760-baptism
     }
     child {
         name Agnes Fleeming
@@ -39,5 +39,11 @@ footnotes {
             John Fleeming + Agnes Languill | Oct 2nd [1756]
         }
     }
-
+    isobell1760-baptism {
+        $opr-ref-link[b-1760-507-000-0011-0318 "Isobell Fleeming"]
+        $blockquote{
+            Isobell | John Fleeming and Agnes Langwill had a Daught.
+            baptized 24th Febry named Isobell
+        }
+    }
 }

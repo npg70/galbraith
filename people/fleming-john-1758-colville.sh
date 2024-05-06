@@ -3,7 +3,7 @@ external {
     familysearch KH7S-T42
     findagrave 100209162
 }
-baptism -date 23-jan-1758 -location campbeltown
+baptism -date 23-jan-1758 -location campbeltown -ref john1758-baptism
 death -date 05-feb-1854 -location 'barlow,washington,ohio,usa'
 partner {
    name Jean Colville
@@ -32,6 +32,13 @@ partner {
   }
 }
 footnotes {
+    john1758-baptism {
+        $opr-ref-link[b-1758-507-000-0011-0308 "John Fleeming"]
+        $blockquote{
+            John Flemming and Agnes Langwill had
+            a son baptized 23rd January named John 
+        }
+    }
     james1791-baptism {
         $opr-ref-link[b-1791-507-000-0020-0136 "James Fleeming"]
         $blockquote{
