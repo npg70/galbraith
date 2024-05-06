@@ -11,7 +11,7 @@ partner {
     name Anne McGreachy
     baptism -date 24-jul-1820 -location Killean 
     death -date 28-jul-1904 -location campbeltown -ref mcgreachy-death
-
+    marriage -date 13-feb-1844 -location gigha -ref mcgreachy-marriage
     child {
         name Malcolm Galbreath
         baptism -date 22-nov-1844 -location gigha -ref malcolm1844-baptism
@@ -81,6 +81,9 @@ footnotes {
     }
     john1816-death {
         $sp-ref-link[d-1882-507-00-0037 0013 "John Galbraith"]
+    }
+    mcgreachy-marriage {
+        $opr-ref[m-1844-537-000-0020-0055 "John Galbreath" "Anne McGeachy"]
     }
     malcolm1844-baptism {
         $opr-ref[b-1844-537-000-0020-0057 "Malcolm Galbreath"]
