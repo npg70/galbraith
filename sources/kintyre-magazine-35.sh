@@ -177,7 +177,7 @@ $blockquote{
 The writer of this letter William Ker was the Overseer or Manager of the Coal Mine...
 }
 $blockquote{
-The following letter is from Knochrioch, 21st July, 1791, and Wm. Ker whose wife is a Galbarith is a brother-in-law of $child-link[galbreath-alexander-1753-flemming/]{Alexander Galbreath} to whom it is addressed.
+The following letter is from Knochrioch, 21st July, 1791, and Wm. Ker whose wife is a Galbraith is a brother-in-law of $child-link[galbreath-alexander-1753-flemming/]{Alexander Galbreath} to whom it is addressed.
 }
 $p{
 William Kerr.
@@ -229,7 +229,7 @@ your brother J. Fleeming was married to Robert Colviel's old daughter(9)
 }
 $p{
 That is Alexander's brother-in-law (the brother of his spouse Agnes Fleeming),:
-$child-link[fleming-john-1758-colville]{John Fleeming}, son of John Fleeming and Agnes Langwill, born 1758.   And $elink[https://www.familysearch.org/tree/person/details/M1TZ-QBN]{Jean Colvill}, the daughter of Robert Colvill and Agnes Fleeming.  They married on 20 Dec 1790, and had 13 or 14 children before immigrating to Washington County in Ohio, USA.
+$child-link[fleming-john-1758-colville]{John Fleeming}, son of $child-link[fleeming-john-1713-langwill]{John Fleeming} and Agnes Langwill, born 1758.   And $elink[https://www.familysearch.org/tree/person/details/M1TZ-QBN]{Jean Colvill}, the daughter of Robert Colvill and Agnes Fleeming.  They married on 20 Dec 1790, and had 13 or 14 children before immigrating to Washington County in Ohio, USA.
 }
 
 $blockquote{
@@ -323,21 +323,21 @@ $p{
 $hr{}
 $h2{Letter 6}
 Dated: After Feb 1793
-From: John Fleeming
+From: $child-link[fleming-john-1858-colville]{John Fleeming}
 to: Alexander G
 
 $blockquote{
 We are in a thriveing way at home I have Tow Boyes James & Robt verey promiseing childering at present
 }
 $p{
-TBD family of John Fleeming.
+Sons James and Robert Fleeming, born 1791 and 1793 respectively.
 }
 
 $blockquote{
 But Jen Joins me in his Love to you and Sister Agness & Family 
 }
 $p{
-TBD -- Jean his wife, and his sister Agnes Fleeming, spouse of Alexander.
+With Jen being Jean Colville, his wife, and his sister Agnes Fleeming, the spouse of Alexander.
 }
 
 $hr{}
@@ -380,9 +380,17 @@ $blockquote{
 (3)Archd Paterson was married to Isobel Langwill. He was 77 in 1792.
 }
 $p{
-Archibald
-TBD - 
+From the Census of 1792, at 25 Backstreet in Campbeltown:
 }
+$blockquote{
+Archibald Paterson, age 77,  -- 1715$br{}
+Isobell Langwill, age 68 -- 1724$br{}
+Betty Peterson, age 30 -- 1762$br{}
+}
+$p{
+They appear to share the house with the family of Robert Armour and Janet Pickan.
+}
+
 $blockquote{
 William Galbreath wished me to Inclose his letter to his brother and left it open for your perusal when you read you will wafer and forward to him
 }
@@ -393,7 +401,7 @@ $blockquote{
 Robert Mitchell & Betty are well & they are not pleased you never write them
 }
 $p{
-Likely Robert Mitchell b 1750-d.1824 who married $elink[https://www.familysearch.org/tree/person/details/KZ4K-N9S]{Elizabeth Fleeming}, sister of $elink[https://www.familysearch.org/tree/person/details/KH7S-T42]{John Fleeming} and Jean Covile.
+Likely Robert Mitchell b 1750-d.1824 who married $child-link[fleeming-elizabeth-1763-mitchell]{Elizabeth Fleeming}, sister of $child-link[fleming-john-1758-colville]{John Fleeming} and Jean Coville.
 }
 $blockquote{
 James Anderson friends are all in hope but
@@ -406,6 +414,6 @@ $blockquote{
 You need not doubt if your sister joins me in her love to you & familie.
 }
 $p{
-John Park's wife, and Alexander Galbreath's sister was Mary Galbreath.
+John Park's wife, and Alexander Galbreath's sister was $child-link[galbreath-mary-1751-park]{Mary Galbreath}.
 }
 

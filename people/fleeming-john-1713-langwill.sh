@@ -7,7 +7,7 @@ birth -date 'say 1713'
 
 partner {
     name Agnes Langwill
-    marriage -date 02-oct-1756 -location campbeltown
+    marriage -date 02-oct-1756 -location campbeltown -ref langwill-marriage
 
     child fleming-john-1758-colville
 
@@ -22,11 +22,8 @@ partner {
             Married $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
         }
     }
-    child {
-        name Elizabeth Fleeming
-        birth -date 07-jun-1763
-        baptism -date 08-jun-1763 -location campbeltown
-    }
+    child fleeming-elizabeth-1763-mitchell
+
     child {
         name Margaret Fleeming
         birth -date 'about 1765'
@@ -35,4 +32,12 @@ partner {
         }
     }
 }
+footnotes {
+    langwill-marriage {
+        $opr-ref-link[m-1756-507-000-0011-0458 "John Fleeming" "Agnes Languil"]
+        $blockquote{
+            John Fleeming + Agnes Languill | Oct 2nd [1756]
+        }
+    }
 
+}
