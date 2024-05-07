@@ -4,15 +4,16 @@ tags Argyll:Campbeltown
 external {
     familysearch KC9M-5ZQ
 }
-todo {
-    Missing references. Body copy references old footnotes.
-}
 body {
-Family is listed as living in Laggan in the Parish of Kilchousland according to the 1792 Census2
-
-He died before 1811.3
-
-He was a farmer.4
+$p{
+Family is listed as living in Laggan in the Parish of Kilchousland according to the 1792 Census.
+}
+$p{
+He died before 1811.
+}
+$p{
+He was a farmer.
+}
 }
 
 partner {
@@ -38,13 +39,8 @@ partner {
         name Archibald Galbreath
         baptism -date 2-Nov-1783 -location campbeltown -ref archibald1783-baptism
     }
-    child {
-        name Mary Galbreath
-        baptism -date 21-Sep-1785 -location campbeltown -ref mary1785-baptism
-        partner {
-            name Andrew Ferguson
-        }
-    }
+    child galbreath-mary-1785-ferguson
+
     child {
         name James Galbreath
         baptism -date 27-oct-1787 -location campbeltown -ref james1787-baptism
@@ -104,9 +100,6 @@ footnotes {
     }
     archibald1783-baptism {
         $opr-ref-link[b-1783-507-000-0020-0070 "Archibald Galbreath"]
-    }
-    mary1785-baptism {
-        $opr-ref-link[b-1785-507-000-0020-0085 "Mary Galbreath"]
     }
     james1787-baptism {
         $opr-ref[b-1787-507-000-0020-0099 "James Galbreath"]
