@@ -3,7 +3,7 @@ tags Ayr:Dalrymple
 external {
     familysearch K4LB-FV2
 }
-baptism -date 05-apr-1801 -location dalrymple
+baptism -date 05-apr-1801 -location dalrymple -ref agnes1801-baptism
 
 partner {
     name Donald MacKay
@@ -15,7 +15,9 @@ Census 1851 - https://www.findmypast.com/transcript?id=GBC/1851/0019302935
 }
 
 footnotes {
-   
+    agnes1801-baptism {
+        $opr-ref[b-1801-588-000-0020-0031 "Agnes Galbraith"]
+    } 
     mackay-marriage {
         $opr-ref-link[m-1824-532-000-0020-0139 "Agnes Galbraith" "Donald McKay"]
         $blockquote{
