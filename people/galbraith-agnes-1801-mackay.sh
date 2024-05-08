@@ -7,6 +7,7 @@ baptism -date 05-apr-1801 -location dalrymple -ref agnes1801-baptism
 
 partner {
     name Donald MacKay
+    death -date 1854
     marriage -date 27-mar-1824 -location southend -ref mackay-marriage
 }
 body {
