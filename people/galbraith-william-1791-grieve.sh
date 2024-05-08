@@ -1,12 +1,12 @@
 name William Galbraith
-baptism -date 9-dec-1791 -location Dalrymple,Ayr -ref william1791-baptism -note 'the son of Peter Galbraith and Jean Logan'
+baptism -date 9-dec-1791 -location Dalrymple,Ayr -ref william1791-baptism
 tags Argyll:Southend Ayr:Dalrymple
 external {
     familysearch K6MR-GCC
     findagrave 114206412
 }
 todo {
-    Fix me: add parents, fix census info
+    Fix me: census info
 }
 body {
 He moved to Southend, Argyll ~1851 (unsourced).
