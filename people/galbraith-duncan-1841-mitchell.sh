@@ -2,6 +2,19 @@ name Duncan Galbraith
 tags Argyll:Campbeltown
 baptism -date 27-apr-1841 -location campbeltown -ref duncan1841-baptism
 death -date 14-feb-1890 -location campbeltown -ref duncan1841-death
+body {
+    He was a tinsmith.
+}
+body {
+Census 1881 @ New Quay Head Pensioners Row, Campbeltown, Argyllshire, Scotland:$ref[census1881]
+$csvtable{
+First,Last,Role,Age,Year,Birth,Occupation
+Duncan,Galbraith,Head,39,1842,Campbeltown,Master Tin Smith
+Jessie,Galbraith,Wife,34,1846,Paisley,-
+Donald,Galbraith,Son,0,1881,Campbeltown,-
+}
+}
+
 partner {
     name Jessie Mitchell
     marriage -date 24-jan-1878 -location campbeltown -ref mitchell-marriage
@@ -46,5 +59,7 @@ footnotes {
     archibald1881-birth {
         $sp-ref-link[b-1881-507-00-0349 0117 "Archibald Smith Galbraith"]
     }
-        
+    census1881 {
+        https://www.findmypast.com/transcript?id=GBC/1881/0029347276&expand=true
+    }    
 }

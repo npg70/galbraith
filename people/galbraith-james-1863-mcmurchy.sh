@@ -64,7 +64,7 @@ footnotes {
     catherine1885-birth {
         $sp-ref-link[b-1885-507-00-0046 0016 "Catherine McLean Galbraith"].  Born before marriage.
     }
-    catherine1884-death {
+    catherine1885-death {
         $sp-ref-link[d-1927-523-00-0069 0023 "Catherine McLean Galbraith"]
     }
     mary1886-birth {

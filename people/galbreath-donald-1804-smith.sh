@@ -12,8 +12,16 @@ body {
 $p{
 Donald moved to the Campbeltown area in 1835 or 1836, and is present in the 1841 Census2 and 1851 Census3 where he is listed as a fisherman.
 }
+
 $p{
-The 1861 Census5 for Shore Street, Campbeltown lists Flora ("formally a domestic servant"), along with children Duncan and Archibald, and grandchild Donald Ferguson.
+Census 1861 @ Shore Street, Campbeltown, Argyllshire, Scotland:$ref[census1861]
+}
+$csvtable{
+First,Last,Role,Age,Year,Birth,Occupation
+Flora,Galbraith,Head,54,1807,Gigha,Formerly domestic servant
+Duncan,Galbraith,Son,20,1841,Campbeltown,Copper smith
+Archibald,Galbraith,Son,13,1848,Campbeltown,Scholar
+Donald,Ferguson,GSon,7,1854,Campbetown,-
 }
 }
 partner {

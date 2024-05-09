@@ -82,8 +82,8 @@ footnotes {
     malcolm1840-birth {
         $opr-ref[b-1840-537-000-020-0043 "Malcolm Galbreath"]
     }
-    mcneil-marriage {
-        $sp-ref-link[m-1863-507-00-0024 0012 "Malcolm Galbraith" "Catherine McNeil"]
+    mclean-marriage {
+        $sp-ref-link[m-1863-507-00-0024 0012 "Malcolm Galbraith" "Catherine McLean"]
     }
     catherine1865-birth {
         $sp-ref-link[b-1865-507-00-0098 0033 "Catherine Galbraith"]
