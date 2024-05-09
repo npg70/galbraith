@@ -79,6 +79,9 @@ $h2{Carswell}
 $blockquote{
 Donald gardener at Kilchrist, whose wife was Margaret Galbraith [from Campbeltown], died suddenly on 12/4/1866.... 
 }
+$p{
+$b{TBD}: Age 69 at death, otherwise can't find anything. No marriage records.
+}
 
 $h2{Colville}
 
