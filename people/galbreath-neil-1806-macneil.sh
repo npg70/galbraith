@@ -10,6 +10,8 @@ note {
 }
 body {
 1841 census: https://www.findmypast.com/transcript?id=GBC/1841/0016662266&expand=true
+$br{}
+1851 census: https://www.findmypast.com/transcript?id=GBC/1851/0019258814&expand=true
 }
 
 partner {
