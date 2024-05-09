@@ -2,9 +2,16 @@ name Neil Galbreath
 tags argyll:Gigha argyll:Campbeltown
 baptism -date 13-sep-1806 -location gigha -ref neil1806-baptism
 death -date 15-mar-1884 -location campbeltown -ref neil1806-death
+external {
+    familysearch M1BH-MW7
+}
 note {
     Incomplete.
 }
+body {
+1841 census: https://www.findmypast.com/transcript?id=GBC/1841/0016662266&expand=true
+}
+
 partner {
     name Flora MacNeal
     marriage -date 25-nov-1830 -location gigha -ref macneal-marriage
