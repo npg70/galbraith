@@ -5,9 +5,8 @@ external {
     familysearch M1B4-HNT
 }
 note {
-    Spouse used the name nickname Sarah,
-    while baptism and death records use Marion/Merran. This was
-    apparently.
+    Spouse was baptized as Marrion/Merror but used the
+    angelization of Sarah.
 }
 body {
 Isle of Gigha Census 1827:$ref[census1827]
