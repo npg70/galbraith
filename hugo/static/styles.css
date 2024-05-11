@@ -735,6 +735,11 @@ small, .small {
   font-size: 0.8125em;
 }
 
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
 blockquote {
     line-spacing: 1.0;
     font-size: 90%;
@@ -745,6 +750,16 @@ blockquote {
     margin-bottom: 0.5em;
 
     page-break-inside: avoid;
+}
+
+.white-space-pre {
+    white-space: pre;
+}
+.white-sapce-pre-wrap {
+    white-space: pre-wrap;
+}
+.white-space-pre-line {
+    white-space: pre-line;
 }
 
 /* unclear how much is needed */
