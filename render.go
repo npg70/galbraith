@@ -17,13 +17,13 @@ type TagFunc func([]string, string) string
 
 func makeTag(tag string) TagFunc {
 	return func(args []string, body string) string {
-		return fmt.Sprintf("<%s>%s</%s>", tag, body, tag)
+		return fmt.Sprintf("<%s>%s</%s>", tag, strings.TrimSpace(body), tag)
 	}
 }
 
 func makeTagClass(tag string, cz string) TagFunc {
 	return func(args []string, body string) string {
-		return fmt.Sprintf("<%s class=%q>%s</%s>", tag, cz, body, tag)
+		return fmt.Sprintf("<%s class=%q>%s</%s>", tag, cz, strings.TrimSpace(body), tag)
 	}
 }
 
