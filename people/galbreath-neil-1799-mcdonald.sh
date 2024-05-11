@@ -41,11 +41,12 @@ partner {
     }
 }
 body {
-
+$p{
 Given that both died before 1861, it seems that Lachlan and Isabella were taken in by $child-link[galbreath-peter-1798-galbreath]{Peter Galbreath} and Merran Galbreath. It's possible that John was renamed Neil, as there was already a John.
-
-
+}
+$p{
 1851 Census of South Ardelay, Gigha, Kintyre, Argyllshire, Scotland:$ref[census1851]
+}
 $csvtable{
 First,Last,Role,Marital,Age,Year
 Neil,Galbraith,Head,Widower,52,1799
