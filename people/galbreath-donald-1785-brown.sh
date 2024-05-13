@@ -71,9 +71,9 @@ $csvtable{
 First,Last,Age,Year
 Donald,Galbraith,42,1785
 Catharine,Brown,42,1785
-Peggy,Galbraith,22,1802
-Mary,Galbraith,20,1804
-More,Galbraith,18,1806
+Peggy,Galbraith,22,1805
+Mary,Galbraith,20,1807
+More,Galbraith,18,1809
 Donald,-,13,1814
 Ann,-,10,1817
 Catharine,-,5,1822
