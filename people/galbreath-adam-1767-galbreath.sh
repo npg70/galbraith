@@ -57,11 +57,18 @@ partner {
     child {
         name Isobel Galbreath
         baptism -date 12-nov-1809 -location gigha -ref isobel1809-baptism
+        death -date 27-mar-1876 -location gigha -ref isobell1809-death
+        body {
+            Unmarried.
+        }
     }
     child {
         name Lachlan Galbreath
         baptism -date 28-feb-1812 -location gigha -ref lachlan1812-baptism
-        death -date 18-jun-1875 -location gigha -ref lachlan1812-death -note unmarried
+        death -date 18-jun-1875 -location gigha -ref lachlan1812-death
+        body {
+            Unmarried.
+        }
     }
     child {
         name Nelly Galbreath
@@ -70,7 +77,10 @@ partner {
     child {
         name Malcolm Galbreath
         baptism -date 10-jun-1819 -location gigha -ref malcolm1819-baptism
-        death -date 07-apr-1900 -location gigha -ref malcolm1819-death -note unmarried
+        death -date 07-apr-1900 -location gigha -ref malcolm1819-death
+        body {
+            Unmarried.
+        }
     }
 }
 footnotes {
@@ -100,6 +110,9 @@ footnotes {
     }
     isobel1809-baptism {
         $opr-ref[b-1809-537-000-0010-0042 "Isobel Galbreath"]
+    }
+    isobell1809-death {
+        $sp-ref-link[d-1876-537-00-0001 0001 "Isabella Galbraith"]
     }
     lachlan1812-baptism {
         $opr-ref-link[b-1812-537-000-0010-0048 "Lachlan Galbreath"]
