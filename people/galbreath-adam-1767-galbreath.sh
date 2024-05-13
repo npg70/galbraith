@@ -30,7 +30,7 @@ partner {
     marriage -date 07-dec-1796 -location gigha -ref flora-marriage
     death -date 27-nov-1856 -location gigha -ref flora-death
     body {
-        She was the daughter of a Neil Galbreath and Catherine Galbreath.
+        She was the daughter of $child-link[galbreath-neil-1750-galbreath]{Neil Galbreath} and Catherine Galbreath.
     }
     child galbreath-peter-1798-galbreath
     child {
