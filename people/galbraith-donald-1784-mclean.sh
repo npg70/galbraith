@@ -7,7 +7,7 @@ external {
     findagrave 149745010
 }
 note {
-    Unknown why Janet was referred to as Janet Pool and Janet McLean, however confirmed it is the same person due to her daughter's death in 1882.  Mother's maiden name is given as "Poole McLean."
+Unknown why Janet was referred to as Janet Pool and Janet McLean, however confirmed it is the same person due to her daughter's death in 1882.  Mother's maiden name is given as "Poole McLean."
 }
 
 partner {
@@ -40,8 +40,9 @@ partner {
     child {
         name Mary Galbraith
         birth -date 30-nov-1815 -location gigha -ref mary1815-baptism
-        partner {
-            name Donald McConachie
+        death -date 26-jul-1873 -location gigha -ref mary1815-death
+        body {
+            Unmarried.  Sometimes confused with another Mary who married Donald McConanchie
         }
     }
     child {
@@ -111,6 +112,18 @@ footnotes {
     mary1815-baptism {  
         $opr-ref[b-1815-537-000-0010-0053 "Mary Galbreath"]
     }
+    mary1815-death {
+        $sp-ref-link[d-1873-537-00-0003 0001 "Mary Galbraith"]
+        $p{}
+        $ppre{
+        Name: Mary Galbraith, Pauper (single);
+        Date: 1873 July Twentysixth...;
+        Age: 58 (~1815);
+        Father: Donald Galbraith, Woolen Weaver (deceased);
+        Mother: Janet McLean (deceased);
+        Present: Margaret Galbraith, sister;
+        }
+    } 
     alexander1819-baptism {
         $opr-ref[b-1819-537-000-0010-0062 "Alexander Galbreath"]
     }

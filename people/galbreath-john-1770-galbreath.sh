@@ -37,11 +37,7 @@ partner {
         }
     }
 
-    child {
-        name Donald Galbreath
-        baptism -date 31-mar-1798 -location gigha -ref donald1798-baptism
-        death -date 10-jan-1879 -location gigha -ref donald1798-baptism
-    }
+    child galbraith-donald-1798-henderson
 
     child galbreath-john-1799-mcquilkan
 
@@ -91,12 +87,6 @@ footnotes {
     }
     morrison-marriage {
         $opr-ref-link[m-1826-564-003-0080-0114 "Archibald Galbraith" "Janet Morison"]
-    }
-    donald1798-baptism {
-        $opr-ref[b-1798-537-000-0010-0013 "Donald Galbreath"]
-    }
-    donald1798-baptism {
-        $sp-ref-link[d-1879-537-00-0001 0001 "Donald Galbraith"]
     }
     margaret1803-baptism {
         $opr-ref[b-1803-537-000-0010-0025 "Margarate Galbreath"]

@@ -1,21 +1,16 @@
 name John Galbreath
 birth -date 04-jul-1773 -location Scotland
+death -date 25-jun-1859 -location gigha -ref john-death
 tags Argyll:Gigha
 external {
     familysearch LRD8-6SV
-}
-todo {
-    parents are known and moved to USA.
 }
 partner {
     name Isobel McQuilkan
     birth -date 'about 1775'
     death -date 09-apr-1858 -location gigha  -ref isobel-death
     marriage -date 15-mar-1804 -location gigha -ref isobel-marriage
-    child {
-        name Angus Galbreath
-        baptism -date 11-feb-1805 -location gigha -ref angus1805-baptism
-    }
+    child galbreath-angus-1805-galbreath
     child {
         name Donald Galbreath
         baptism -date 13-oct-1806 -location gigha -ref donald1806-baptism
@@ -47,7 +42,9 @@ partner {
 
 }
 body {
+$p{
 Isle of Gigha Census 1827, North Drimachro:$ref[census1827]
+}
 $csvtable{
 First,Last,Age,Year
 John, Galbraith, 46, 1781
@@ -57,14 +54,24 @@ Donald, Galbraith, 20, 1807
 Malcolm, Galbraith, 19, 1808
 John, Galbraith, 11, 1816
 }
+$p{
+Census of 1851 @ Drumyoinbeg Shore, Gigha, Kintyre, Argyllshire, Scotland: $ref[census1851]:
+}
+$csvtable{
+First,Last,Role,Marital,Age,Year,Birth,Occupation
+John,Galbraith,Head,Married,68,1783,Gigha,Farmer of now a crofter
+Isabella,Galbraith,Wife,Married,73,1778,Gigha, Farmers Wife
+Catherine,Galbraith,D-in-Law,Widow,31,1820,Gigha,Annuitant
+Isabella,Galbraith,GDau,Unmarried,5,1846,Scholar,Mochrum Wigtownshire
+}
 }
 
 footnotes {
+    john-death {
+        $sp-ref-link[d-1859-537-00-0006 0002 "John Galbraith"]
+    }
     census1827 {
         https://www.gigha.org.uk/viewItem.php?id=8932
-    }
-    angus1805-baptism {
-        $opr-ref-link[b-1805-537-000-0010-0029 "Angus Galbreath"]
     }
     donald1806-baptism {
         $opr-ref-link[b-1806-537-000-0010-0032 "Donald Galbreath"]
@@ -90,5 +97,8 @@ footnotes {
     }
     isobel-death {
         $sp-ref-link[d-1858-537-00-0002 0001 "Isabella Galbreath"]
+    }
+    census1851 {
+        https://www.findmypast.com/transcript?id=GBC/1851/0019321929
     }
 }

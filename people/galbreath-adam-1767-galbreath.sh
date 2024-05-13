@@ -26,9 +26,12 @@ Malcolm, Galbraith, 7, 1820
 
 partner {
     name Flora Galbreath
-    birth -date 'about 1775'
+    birth -date 'about 1773'
     marriage -date 07-dec-1796 -location gigha -ref flora-marriage
-
+    death -date 27-nov-1856 -location gigha -ref flora-death
+    body {
+        She was the daughter of a Neil Galbreath and Catherine Galbreath.
+    }
     child galbreath-peter-1798-galbreath
     child {
         name Catharine Galbreath
@@ -74,6 +77,9 @@ footnotes {
     flora-marriage {
 
     }
+    flora-death {
+        $sp-ref-link[d-1856-537-00-0005 0002 "Flora Galbreath"]
+    }    
     catharine1800-baptism {
         $opr-ref[b-1800-537-000-0010-0018 "Catherine Galbreath"]
     }
