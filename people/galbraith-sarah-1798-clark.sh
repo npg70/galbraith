@@ -18,7 +18,7 @@ $p{
 }
 }
 note {
-    "Sarah" is the ancelization of "Marion", "Moore", etc.
+    "Sarah" is the ancelization of "Marion", "Moore", "Merran", etc.
 }
 partner {
     name Donald Clark
