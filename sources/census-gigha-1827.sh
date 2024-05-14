@@ -303,7 +303,7 @@ Mary Macneill, 46
 Mary Macneill, niece, _
 
 Sweeney Macquilkan, 46
-$b{Flora Galbraith}, wife, 41
+$child-link[galbraith-flora-1789-mcquilkan]{Flora Galbraith}, wife, 41
 John (18), Angus (16), Catherine (14), Effie (12), Isabella (9), Malcolm (4), Flora (1)
 
 Archibald Macquilkan, 69
