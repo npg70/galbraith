@@ -10,7 +10,7 @@ import (
 )
 
 func renderFuncs() map[string]tf.TagFunc {
-	return map[string]tf.TagFunc{
+	m := map[string]tf.TagFunc{
 		"ppre":   tf.MakeTagClass("p", "white-space-pre-line"),
 		"strike": tf.MakeTag("s"),
 		"br": func(args []string, body string) string {
@@ -239,4 +239,19 @@ func renderFuncs() map[string]tf.TagFunc {
 			return OPRText(args[1], args[2], person2, true) + body
 		},
 	}
+
+	// add some pass through HTML tags
+	passthrough := []string{
+		"h1", "h2", "h3", "h4",
+		"p", "b", "i", "em", "s",
+		"table", "thead", "tbody", "th", "tr", "td", "tfoot",
+		"blockquote", "pre",
+		"ol", "ul", "li",
+		"hr",
+	}
+	for _, tag := range passthrough {
+		m[tag] = tf.ArgsToSimpleTag
+	}
+	return m
+
 }
