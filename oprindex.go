@@ -8,6 +8,8 @@ import (
 	"strings"
 
 	"golang.org/x/net/html"
+
+	tf "github.com/client9/tagfunctions"
 )
 
 // if person has any todos, make a tag
@@ -39,7 +41,7 @@ func oprindex(db Root, rtype string) string {
 	}
 	pmap := map[string][]pair{}
 
-	tok := Tokenizer{}
+	tok := tf.Tokenizer{}
 	for id, p := range db {
 		for _, fnote := range p.Footnotes {
 			root := tok.Parse(strings.NewReader(fnote))
@@ -126,7 +128,7 @@ func spindex(db Root, rtype string) string {
 	}
 	pmap := map[string][]pair{}
 
-	tok := Tokenizer{}
+	tok := tf.Tokenizer{}
 	for id, p := range db {
 		for _, fnote := range p.Footnotes {
 			root := tok.Parse(strings.NewReader(fnote))

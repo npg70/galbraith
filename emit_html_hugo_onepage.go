@@ -5,19 +5,21 @@ import (
 	"log"
 	"strconv"
 	"strings"
+
+	tf "github.com/client9/tagfunctions"
 )
 
-func renderFuncs() map[string]TagFunc {
-	return map[string]TagFunc{
-		"ppre":   makeTagClass("p", "white-space-pre-line"),
-		"strike": makeTag("s"),
+func renderFuncs() map[string]tf.TagFunc {
+	return map[string]tf.TagFunc{
+		"ppre":   tf.MakeTagClass("p", "white-space-pre-line"),
+		"strike": tf.MakeTag("s"),
 		"br": func(args []string, body string) string {
 			return "<br>"
 		},
 		"root": func(args []string, body string) string {
 			return body
 		},
-		"section": makeTagClass("section", "mb-4"),
+		"section": tf.MakeTagClass("section", "mb-4"),
 
 		"front": func(args []string, body string) string {
 			return ""
@@ -31,19 +33,19 @@ func renderFuncs() map[string]TagFunc {
 		"title": func(args []string, body string) string {
 			return "<h1>" + body + "</h1>\n"
 		},
-		"intro":              makeTagClass("p", ""),
-		"nowrap":             makeTagClass("span", "text-nowrap"),
+		"intro":              tf.MakeTagClass("p", ""),
+		"nowrap":             tf.MakeTagClass("span", "text-nowrap"),
 		"csvtable":           CsvTableHTML,
-		"date":               makeTagClass("span", "text-nowrap"),
-		"child-list":         makeTagClass("table", "table-p0 mb-3"),
-		"gen":                makeTag("sup"),
-		"children":           makeTag("div"),
-		"child-partner-name": makeTagClass("span", "text-smallcaps text-nowrap"),
-		"child-name":         makeTagClass("span", "text-smallcaps text-nowrap"),
-		"primary-name":       makeTagClass("span", "fw-bold text-smallcaps text-nowrap"),
-		"partner-name":       makeTagClass("span", "fw-bold text-smallcaps text-nowrap"),
-		"lineage-name":       makeTag("span"),
-		"children-intro":     makeTag("p"),
+		"date":               tf.MakeTagClass("span", "text-nowrap"),
+		"child-list":         tf.MakeTagClass("table", "table-p0 mb-3"),
+		"gen":                tf.MakeTag("sup"),
+		"children":           tf.MakeTag("div"),
+		"child-partner-name": tf.MakeTagClass("span", "text-smallcaps text-nowrap"),
+		"child-name":         tf.MakeTagClass("span", "text-smallcaps text-nowrap"),
+		"primary-name":       tf.MakeTagClass("span", "fw-bold text-smallcaps text-nowrap"),
+		"partner-name":       tf.MakeTagClass("span", "fw-bold text-smallcaps text-nowrap"),
+		"lineage-name":       tf.MakeTag("span"),
+		"children-intro":     tf.MakeTag("p"),
 		"primary-number": func(args []string, body string) string {
 			return "<span class='fw-bold pe-3'>" + body + ". </span>"
 		},
@@ -85,8 +87,8 @@ func renderFuncs() map[string]TagFunc {
 		"person-body": func(args []string, body string) string {
 			return "<div>" + body + "</div>\n"
 		},
-		"person-main":      makeTagClass("div", "print-hack"),
-		"person-secondary": makeTagClass("table", "small"),
+		"person-main":      tf.MakeTagClass("div", "print-hack"),
+		"person-secondary": tf.MakeTagClass("table", "small"),
 		"banner": func(args []string, body string) string {
 			return "<div class='mb-4'>" + body + "</div>\n"
 		},
@@ -94,8 +96,8 @@ func renderFuncs() map[string]TagFunc {
 			return fmt.Sprintf("<tr class='pb-3'><th class='pe-5'>Updated</th><td>%s</td></tr>",
 				body)
 		},
-		"person-bio": makeTag("div"),
-		"headline":   makeTag("h1"),
+		"person-bio": tf.MakeTag("div"),
+		"headline":   tf.MakeTag("h1"),
 		"externals": func(args []string, body string) string {
 			if strings.TrimSpace(body) == "" {
 				return ""
@@ -133,10 +135,10 @@ func renderFuncs() map[string]TagFunc {
 			s.WriteString("</tr>\n")
 			return s.String()
 		},
-		"todos": makeTagClass("ul", "todos"),
-		"todo":  makeTag("li"),
-		"notes": makeTagClass("ul", "notes"),
-		"note":  makeTag("li"),
+		"todos": tf.MakeTagClass("ul", "todos"),
+		"todo":  tf.MakeTag("li"),
+		"notes": tf.MakeTagClass("ul", "notes"),
+		"note":  tf.MakeTag("li"),
 		"footnotes": func(args []string, body string) string {
 			if len(body) == 0 {
 				return ""

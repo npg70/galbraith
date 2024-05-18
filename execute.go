@@ -1,10 +1,14 @@
 package main
 
-import "strings"
+import (
+	"strings"
+
+	tf "github.com/client9/tagfunctions"
+)
 
 // Execute parses and renders a tag string
-func Execute(src string, fmap map[string]TagFunc) string {
-	t := Tokenizer{}
+func Execute(src string, fmap map[string]tf.TagFunc) string {
+	t := tf.Tokenizer{}
 	n := t.Parse(strings.NewReader(src))
-	return Render(n, fmap)
+	return tf.Render(n, fmap)
 }

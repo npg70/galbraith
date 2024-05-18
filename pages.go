@@ -9,6 +9,8 @@ import (
 	"text/template"
 
 	"golang.org/x/net/html"
+
+	tf "github.com/client9/tagfunctions"
 )
 
 type TreeFunc func(*html.Node) error
@@ -28,7 +30,7 @@ func writePage(tpl string, treefn TreeFunc,
 	base *template.Template, outdir string, outfile string) error {
 
 	// this makes the tree from datafile
-	p := Tokenizer{}
+	p := tf.Tokenizer{}
 	root := p.Parse(strings.NewReader(tpl))
 
 	// any tree editing

@@ -8,6 +8,8 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
+
+	tf "github.com/client9/tagfunctions"
 )
 
 func init() {
@@ -53,7 +55,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("can't find template: %s", err)
 	}
-	base, err := CreatePageTemplate(string(baset), RenderFunc(renderFuncs()))
+	base, err := CreatePageTemplate(string(baset), tf.RenderFunc(renderFuncs()))
 	if err != nil {
 		log.Fatalf("Unable to create template: %s", err)
 	}
