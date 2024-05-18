@@ -67,16 +67,16 @@ func renderFuncs() map[string]tf.TagFunc {
 		},
 		"ancestor": func(args []string, body string) string {
 			//genNumber := getKey(args, "generation")
-			//counter := getKeyValue(args, "counter")
-			mother := getKeyValue(args, "mother")
-			year := getKeyValue(args, "year")
+			//counter := tf.GetKeyValue(args, "counter")
+			mother := tf.GetKeyValue(args, "mother")
+			year := tf.GetKeyValue(args, "year")
 			if year != "" {
 				year = " b. " + year + " "
 			}
 			return fmt.Sprintf("<div>%s%sm. %s</div>\n", body, year, mother)
 		},
 		"person": func(args []string, body string) string {
-			pid := getKeyValue(args, "id")
+			pid := tf.GetKeyValue(args, "id")
 			s := strings.Builder{}
 			s.WriteString("<div class='mb-5'>")
 			s.WriteString(fmt.Sprintf("<a name=%q></a>\n", pid))
@@ -124,12 +124,12 @@ func renderFuncs() map[string]tf.TagFunc {
 			s := strings.Builder{}
 			s.WriteString("<tr>")
 			s.WriteString("<td class=width-100r>")
-			lineageCounter := getKeyValue(args, "counter")
+			lineageCounter := tf.GetKeyValue(args, "counter")
 			if lineageCounter != "" && lineageCounter != "0" {
 				s.WriteString(lineageCounter)
 			}
 			s.WriteString("</td>")
-			r, _ := strconv.Atoi(getKeyValue(args, "birth-order"))
+			r, _ := strconv.Atoi(tf.GetKeyValue(args, "birth-order"))
 			s.WriteString("<td class='text-end width-200r'>" + toRoman(r) + "." + "</td>")
 			s.WriteString("<td class='ps-3'>" + body + "</td>")
 			s.WriteString("</tr>\n")

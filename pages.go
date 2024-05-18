@@ -20,7 +20,7 @@ func peopleTree(root *html.Node) error {
 	if err := footnoter(root); err != nil {
 		return fmt.Errorf("Footnoter failed: %s", err)
 	}
-	if err := paragrapher(root); err != nil {
+	if err := tf.Paragrapher(root); err != nil {
 		return fmt.Errorf("Paragrapher failed: %s", err)
 	}
 	return nil

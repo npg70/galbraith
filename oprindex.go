@@ -46,11 +46,12 @@ func oprindex(db Root, rtype string) string {
 		for _, fnote := range p.Footnotes {
 			root := tok.Parse(strings.NewReader(fnote))
 
-			footnotes := Selector(root, func(n *html.Node) bool {
+			footnotes := tf.Selector(root, func(n *html.Node) bool {
 				return n.Data == "opr-ref" || n.Data == "opr-ref-link"
 			})
 			for _, fnote := range footnotes {
-				args := toArgv(fnote)
+				// format ID Name Spouse?
+				args := tf.ToArgv(fnote)
 				// recall: args[0] is name of function
 				parts := strings.Split(args[1], "-")
 				if parts[0] != rtype {
@@ -133,11 +134,11 @@ func spindex(db Root, rtype string) string {
 		for _, fnote := range p.Footnotes {
 			root := tok.Parse(strings.NewReader(fnote))
 
-			footnotes := Selector(root, func(n *html.Node) bool {
+			footnotes := tf.Selector(root, func(n *html.Node) bool {
 				return n.Data == "sp-ref" || n.Data == "sp-ref-link"
 			})
 			for _, fnote := range footnotes {
-				args := toArgv(fnote)
+				args := tf.ToArgv(fnote)
 				// recall: args[0] is name of function
 				parts := strings.Split(args[1], "-")
 				if parts[0] != rtype {

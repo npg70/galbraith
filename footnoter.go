@@ -5,13 +5,15 @@ import (
 	"strconv"
 
 	"golang.org/x/net/html"
+
+	tf "github.com/client9/tagfunctions"
 )
 
 // collects all references and changes them to ordinals
 // collects all footnotes and sorts them based on ordinals
 func footnoter(n *html.Node) error {
 
-	persons := Selector(n, func(n *html.Node) bool {
+	persons := tf.Selector(n, func(n *html.Node) bool {
 		return n.Data == "person"
 	})
 	for _, p := range persons {
@@ -25,7 +27,7 @@ func footnoter(n *html.Node) error {
 func footnoter_person(n *html.Node) error {
 	ordmap := map[string]int{}
 
-	refs := Selector(n, func(n *html.Node) bool {
+	refs := tf.Selector(n, func(n *html.Node) bool {
 		return n.Data == "ref"
 	})
 
@@ -55,7 +57,7 @@ func footnoter_person(n *html.Node) error {
 	}
 	i := 1
 	for _, ref := range refs {
-		id := getArg(ref, 1)
+		id := tf.GetArg(ref, 1)
 		// one source can be used multiple times
 		// so only add if it's new.
 		if _, ok := ordmap[id]; !ok {
@@ -65,7 +67,7 @@ func footnoter_person(n *html.Node) error {
 	}
 
 	// get all footnotes --they can be defined anywhere in the document
-	footnotes := Selector(n, func(n *html.Node) bool {
+	footnotes := tf.Selector(n, func(n *html.Node) bool {
 		return n.Data == "footnote"
 	})
 	// remove them from doc.. they'll be added back later
@@ -75,14 +77,14 @@ func footnoter_person(n *html.Node) error {
 
 	// sort them according to our map above
 	sort.SliceStable(footnotes, func(i, j int) bool {
-		a1 := ordmap[getArg(footnotes[i], 1)]
-		a2 := ordmap[getArg(footnotes[j], 1)]
+		a1 := ordmap[tf.GetArg(footnotes[i], 1)]
+		a2 := ordmap[tf.GetArg(footnotes[j], 1)]
 		return a1 < a2
 	})
 
 	// get the container for footnotes.  This is where footnotes will be
 	// placed in document
-	fnContainerList := Selector(n, func(n *html.Node) bool {
+	fnContainerList := tf.Selector(n, func(n *html.Node) bool {
 		return n.Data == "footnotes"
 	})
 
@@ -106,14 +108,14 @@ func footnoter_person(n *html.Node) error {
 
 	// change the refs to ordinals 1,2,3,4,5...
 	for _, ref := range refs {
-		if id := ordmap[getArg(ref, 1)]; id != 0 {
-			setArg(ref, 1, strconv.Itoa(id))
+		if id := ordmap[tf.GetArg(ref, 1)]; id != 0 {
+			tf.SetArg(ref, 1, strconv.Itoa(id))
 		}
 	}
 	// change the ID to the ordinals
 	for _, fn := range footnotes {
-		if id := ordmap[getArg(fn, 1)]; id != 0 {
-			setArg(fn, 1, strconv.Itoa(id))
+		if id := ordmap[tf.GetArg(fn, 1)]; id != 0 {
+			tf.SetArg(fn, 1, strconv.Itoa(id))
 		}
 	}
 
