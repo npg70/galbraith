@@ -33,9 +33,19 @@ func renderFuncs() map[string]tf.TagFunc {
 		"title": func(args []string, body string) string {
 			return "<h1>" + body + "</h1>\n"
 		},
-		"intro":              tf.MakeTagClass("p", ""),
-		"nowrap":             tf.MakeTagClass("span", "text-nowrap"),
-		"csvtable":           CsvTableHTML,
+		"intro":  tf.MakeTagClass("p", ""),
+		"nowrap": tf.MakeTagClass("span", "text-nowrap"),
+		"csvtable": NewCsvTableHTML(func(tag string, row int, col int) string {
+			switch tag {
+			case "wrapper":
+				return "table-responsive"
+			case "table":
+				return "table table-borderless table-sm small ms-3"
+			case "th", "td":
+				return "text-body"
+			}
+			return ""
+		}),
 		"date":               tf.MakeTagClass("span", "text-nowrap"),
 		"child-list":         tf.MakeTagClass("table", "table-p0 mb-3"),
 		"gen":                tf.MakeTag("sup"),
