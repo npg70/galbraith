@@ -35,7 +35,7 @@ func renderFuncs() map[string]tf.TagFunc {
 		},
 		"intro":  tf.MakeTagClass("p", ""),
 		"nowrap": tf.MakeTagClass("span", "text-nowrap"),
-		"csvtable": NewCsvTableHTML(func(tag string, row int, col int) string {
+		"csvtable": tf.NewCsvTableHTML(func(tag string, row int, col int) string {
 			switch tag {
 			case "wrapper":
 				return "table-responsive"
