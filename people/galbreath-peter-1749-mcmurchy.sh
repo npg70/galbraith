@@ -5,15 +5,11 @@ external {
     familysearch KC9M-5ZQ
 }
 body {
-$p{
 Family is listed as living in Laggan in the Parish of Kilchousland according to the 1792 Census.
-}
-$p{
+
 He died before 1811.
-}
-$p{
+
 He was a farmer.
-}
 }
 
 partner {
