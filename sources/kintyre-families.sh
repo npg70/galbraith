@@ -304,7 +304,7 @@ $blockquote{
 $child-link[galbreath-robert-1778-harvey]{Robert Galbreath} succeeded to his late father $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath}'s lease of High Peninver buy by 1819 had gone to America.
 }
 $blockquote{
-$child-link[galbraith-samuel-1850-reynold]{Samuel Galbraith} who married Mary Ellen Reynolds, Antigua... born in 1856 to 
+$child-link[galbraith-samuel-1850-reynolds]{Samuel Galbraith} who married Mary Ellen Reynolds, Antigua... born in 1856 to 
 $child-link[galbreath-archibald-1803-mccallum-loynachan]{Archibald Galbreath} and Margaret Loynachan.  Archibald's father 
 $child-link[galbreath-james-1768-galbreath]{James Galbreath}, married Martha Galbreath, who shared the same surname.
 }
