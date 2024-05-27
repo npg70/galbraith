@@ -31,6 +31,6 @@ footnotes {
         $sp-ref[d-1939-507-00-0060 "Martha Galbraith"]
     }
     mcbain-marriage {
-        $sp-ref[m-1885-507-00-0001 "Martha Galbraith" "Robert "McBain"]  Note: married on last day of 1884, but recorded in 1885. 
+        $sp-ref[m-1885-507-00-0001 "Martha Galbraith" "Robert McBain"]  Note: married on last day of 1884, but recorded in 1885. 
     }
 }

@@ -87,7 +87,7 @@ footnotes {
         $sp-ref-link[d-1923-644-12-0070 0024 "Alexander Galbraith"]
     }
     murray-marriage {
-        $sp-ref-link[m-1871-535-00-0005 0003 "Alexander Galbraith"]
+        $sp-ref-link[m-1871-535-00-0005 0003 "Alexander Galbraith" "Isabella Murray"]
     }
     murray-death {
         $sp-ref-link[d-1892-646-01-0305 0102 "Isabella Galbraith"]

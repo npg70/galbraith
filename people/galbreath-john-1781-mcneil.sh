@@ -47,7 +47,7 @@ partner {
 
 footnotes {
     mcneil-marriage {
-        $opr-ref[m-1809-539-020-0010-0017 "John Galbreath"]
+        $opr-ref[m-1809-539-020-0010-0017 "John Galbreath" "Mary McNeil"]
     }
     flory1810-baptism {
         $opr-ref-link[b-1810-539-020-0010-0008 "Flory Galbreath"]

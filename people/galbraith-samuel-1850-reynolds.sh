@@ -11,7 +11,7 @@ todo {
 }
 
 body {
-$p{An unsourced letter from FamilySearch, by "morgancharlesgalbraith1" in 2016:}
+An unsourced letter from FamilySearch, by "morgancharlesgalbraith1" in 2016:
 
 $blockquote{
 Antigua Plantation
@@ -29,11 +29,11 @@ Signed Auntie Sis.
 He was born on 9 November 1803 in Sherbolin, Campbeltown, Scotland. He married Eugina McCallum on 5 March 1835. Archibald Galbraith was 31. Archibald Galbraith married Margaret Loyachan on 25 August 1849. Archibald Galbraith was 45 Margaret Loyachan was 28.
 }
 
-$p{It's a little hard to follow, however, it seems that John Reynolds and his wife Margaret somehow got stuck on BWI (perhaps by shipwreck) with "two maiden aunts" (unknown).  They had two children, Anna Marie and Mary Ellen.  It would appear they were the owners of the Antigue plantation.}
+It would seem that John Reynolds and his wife Margaret somehow got stuck on BWI (perhaps by shipwreck) with "two maiden aunts" (unknown).  They had two children, Anna Marie and Mary Ellen.  It would appear they were the owners of the Antigua plantation.
 
-$p{The planation passed from John and Margaret Reynolds to the "maiden aunts" and then to Mary Ellen, and thus to Samuel Galbraith by marriage.}
+The planation passed from John and Margaret Reynolds to the "maiden aunts" and then to Mary Ellen, and thus to Samuel Galbraith by marriage.
 
-$p{The author "Auntie Sis," is perhaps the daughter of Margaret V Galbraith and John Tough.}
+The author "Auntie Sis" may be the daughter of Margaret V Galbraith and John Tough.
 }
 
 partner {

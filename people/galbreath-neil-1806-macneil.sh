@@ -113,7 +113,7 @@ footnotes {
         $sp-ref-link[d-1884-507-00-0049 0017 "Neil Galbraith"]
     }
     macneal-marriage {
-        $opr-ref-link[m-1830-537-000-0010-0032  "Neil Galbreath"]{
+        $opr-ref-link[m-1830-537-000-0010-0032  "Neil Galbreath" "Flora MacNeill"]{
             Nov 25 Neil Galbreath at Ardmanish was married to 
             Flora MacNeill at the New Quay.
         }

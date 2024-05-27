@@ -18,15 +18,12 @@ note {
 }
 body {
 old notes:
-$p{
+
 Maybe 1841 Census: South Drimcrow, Gigha https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016661129 has the only david in Gigha. Also has ALexander (father) at age 60 / ~1781, and Marion age 20 / ~ 1821, and some grandchild? Alex age 5 / 1836. Ages are all rounded to nearest 5 so who knows.
-}
-$p{
+
 He is present in the 1851 census5
-}
-$p{
+
 Multiple Merrans died in the 1830, with birth in 1780s so this could be ok.
-}
 }
 
 partner {

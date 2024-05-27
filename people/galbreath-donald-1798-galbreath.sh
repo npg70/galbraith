@@ -97,7 +97,7 @@ footnotes {
         $opr-ref[b-1829-537-000-0020-0019 "Margarat Galbreath"]
     }
     margaret1829-death {
-        $opr-ref-link[d-1829-537-000-0020-0020 Margaret Galbreath"]
+        $opr-ref-link[d-1829-537-000-0020-0020 "Margaret Galbreath"]
     }
     margaret1830-baptism {
         $opr-ref[b-1830-537-000-0020-0021 "Margarat Galbreath"]

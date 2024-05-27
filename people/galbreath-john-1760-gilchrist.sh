@@ -55,7 +55,7 @@ footnotes {
         https://www.gigha.org.uk/viewItem.php?id=8932
     }
     gilchrist-marriage {
-        $opr-ref-link[m-1785-519-000-0010-0311 "John Galbreath"]
+        $opr-ref-link[m-1785-519-000-0010-0311 "John Galbreath" "Mary Gilchrist"]
     }
     lachlan1797-baptism {
         $opr-ref[b-1797-537-000-0010-0011 "Lachlan Galbreath"]

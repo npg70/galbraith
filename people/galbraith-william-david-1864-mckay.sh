@@ -109,7 +109,7 @@ footnotes {
 
     }
     mckay-marriage {
-        $sp-ref-link[b-1892-644-12-0206 0103 "William Galbraith" "Margaret McKay"]
+        $sp-ref-link[m-1892-644-12-0206 0103 "William Galbraith" "Margaret McKay"]
     }
     ann1892-birth {
         $sp-ref[b-1892-510-01-0099 "Ann Brooks Galbraith"]

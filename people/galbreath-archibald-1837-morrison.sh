@@ -61,7 +61,7 @@ footnotes {
         $sp-ref-link[d-1936-533-01-0001 0001 "Archibald Galbraith"]
     }
     marriage {
-        $sp-ref[m-1867-644-09-0138 0069 "Archibald Galbraith" "Agnes Morrison"]
+        $sp-ref-link[m-1867-644-09-0138 0069 "Archibald Galbraith" "Agnes Morrison"]
     }
     morrison-death {
         $sp-ref-link[d-1912-533-01-0005 0002 "Agnes Galbraith"]

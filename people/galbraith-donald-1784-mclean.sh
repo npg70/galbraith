@@ -84,9 +84,7 @@ Anhus,Clark,1,1840,Argyllshire
 Donald was listed as Woolen & linen weaver.
 }
 
-
 footnotes {
-
     donald1784-death {
         $sp-ref-link[d-1859-537-000-0005 0002 "Donald Galbraith"]{
         Name: Galbraith, Donald, Bell-man[?], (widower);

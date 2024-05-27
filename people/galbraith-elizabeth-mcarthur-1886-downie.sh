@@ -10,7 +10,7 @@ footnotes {
         $sp-ref[b-1886-507-00-0311 "Elizabeth McArthur Galbraith"]
     }
     downie-marriage {
-        $sp-ref-link[m-1906-507-00-0037 0019 "Elizabeth McArthur Galbraith" "William Adam Downie"
+        $sp-ref-link[m-1906-507-00-0037 0019 "Elizabeth McArthur Galbraith" "William Adam Downie"]
     }
 }
 

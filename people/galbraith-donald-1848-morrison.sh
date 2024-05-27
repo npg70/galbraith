@@ -71,7 +71,7 @@ footnotes {
         $sp-ref-link[d-1904-531-01-0001 0001 "Donald Galbraith"]
     }
     morrison-marriage {
-        $sp-ref-link[m-1871-531-01-0001 0001 "Donald Galbreath"]
+        $sp-ref-link[m-1871-531-01-0001 0001 "Donald Galbreath" "Janet Morrison"]
     }
     morrison-death {
         $sp-ref-link[d-1928-531-01-0003 0001 "Janet Galbraith"]

@@ -9,9 +9,7 @@ todo {
     Census needs transcribing. Generally not investigated.  Maybe other children, etc.
 }
 body {
-$p{
 Donald moved to the Campbeltown area in 1835 or 1836, and is present in the 1841 Census2 and 1851 Census3 where he is listed as a fisherman.
-}
 
 $p{
 Census 1861 @ Shore Street, Campbeltown, Argyllshire, Scotland:$ref[census1861]
@@ -71,7 +69,7 @@ footnotes {
         $sp-ref-link[d-1859-507-00-0123 0041 "Donald Galbraith"]
     }
     smith1806-marriage {
-        $opr-ref-link[b-1832-537-000-0020-0026 "Donald Galbreath" "Flora Smith"] 
+        $opr-ref-link[m-1832-537-000-0020-0026 "Donald Galbreath" "Flora Smith"] 
     }
     smith1806-death {
         $sp-ref-link[d-1885-507-00-0084 0028 "Flora Galbraith"]

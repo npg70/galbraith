@@ -5,9 +5,7 @@ external {
     familysearch M1B4-B41
 }
 body {
-$p{
 Worked as an coast guard officer in $elink[https://en.wikipedia.org/wiki/Port_William,_Dumfries_and_Galloway]{Port William}, in Mochrum, Wigtonshire. 
-}
 }
 
 partner {

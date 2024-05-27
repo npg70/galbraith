@@ -20,7 +20,7 @@ footnotes {
         $sp-ref-link[d-1921-623-00-0025 0009 "Archibald Galbraith"]
     }
     marriage {
-        $sp-ref-link[m-1903-623-00-0004 0002 "Archibald Galbraith" "Jane G Anderson]
+        $sp-ref-link[m-1903-623-00-0004 0002 "Archibald Galbraith" "Jane G Anderson"]
     }
     agnes1906-birth {
         $sp-ref-link[b-1906-623-00-0003 0001 "Agnes Morrison Galbraith"]
