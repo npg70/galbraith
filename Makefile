@@ -16,6 +16,7 @@ serve: hugo/public
 	go run . -out hugo/public -serve
 
 clean:
+	go clean -i -r -cache -testcache
 	rm -f .git/index.lock
 	rm -rf hugo/public
 
