@@ -5,22 +5,21 @@ external {
     familysearch K897-J2V
 }
 body {
-$p{
+
     She was the daughter of John Galbraith and Catherine McGougan.
-}
-$p{
+   
+    Listed in the 1827 Census of Gigha as being born in 1786.
+
     Listed in the 1841 Census as being born in 1791.$ref[census1841]
-}
-$p{
+    
     Listed in the 1851 Census as being born in 1789, and a widow.$ref[census1851]
-}
 }
 partner {
     name Suine McQuilkan
     birth -date 'about 1781'
     marriage -date 1808 -location gigha -ref flora-marriage
     body {
-        He died between 1841 and 1851.  His first name was also spelled as Sweeny or Sweenie
+        He died between 1841 and 1851.  His first name was also spelled as Sweeny or Sweenie.
     }
 }
 

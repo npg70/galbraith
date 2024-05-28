@@ -380,7 +380,7 @@ Neil M-, fisherman, ... Carradale.  ... He died on 22/1/1973, aged 92, and was f
 
 $h2{MacGeachy}
 $blockquote{
- her father ‘Suine’ McQuilkan married Flora Galbraith on Gigha in 1808 – th
+ her father ‘Suine’ McQuilkan married $child-link[galbraith-flora-1789-mcquilkan]{Flora Galbraith} on Gigha in 1808
 }
 
 $h2{MacIntosh}
