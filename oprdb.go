@@ -8,6 +8,9 @@ import (
 	"os"
 	"strconv"
 	"strings"
+
+	tf "github.com/client9/tagfunctions"
+	"golang.org/x/net/html"
 )
 
 func ParishRef(id1, id2 string) string {
@@ -240,7 +243,7 @@ func SPLink(imageid string) string {
 
 func makeImageID(refid string, imageNum string) string {
 	// CONFUSION ALERT
-	// so the image id is the redif with the last field swapped for the imageNum
+	// so the image id is the ref id with the last field swapped for the imageNum
 	// ie. refid =  d-1867-507-00-0148  imageNum = 50 -->
 	// imageId== d-1867-507-00-0050
 
@@ -248,7 +251,7 @@ func makeImageID(refid string, imageNum string) string {
 		log.Fatalf("got a refid of %s, and imagenum of %q", refid, imageNum)
 	}
 
-	// pade left with zeros
+	// pad left with zeros
 	for len(imageNum) < 4 {
 		imageNum = "0" + imageNum
 	}
@@ -257,9 +260,9 @@ func makeImageID(refid string, imageNum string) string {
 	return refid[:len(refid)-4] + imageNum
 }
 
-func SPLinkHTML(refText string, refid string, imageNum string) string {
+func SPLinkHTML(refText string, refid string, imageNum string) *html.Node {
 	target := SPLink(makeImageID(refid, imageNum))
-	return fmt.Sprintf("<a href='%s'>%s</a>", target, refText)
+	return tf.Append(tf.NewElement("a", "href", target), tf.NewText(refText))
 }
 
 // converts a full opr id into something that
@@ -293,15 +296,8 @@ func oprlink(parts []string) string {
 	base := "https://storage.googleapis.com/galbraith-research/scotlandspeople"
 	return base + "/opr-" + strings.Join(parts[2:], "-") + ".png"
 }
-func oprhtml(parts []string, link bool) string {
-	text := oprref(parts)
-	if link {
-		return fmt.Sprintf("<a href=%s>%s</a>", oprlink(parts), text)
-	}
-	return text
-}
 
-func OPRText(refid, name, name2 string, link bool) string {
+func OPRText(n *html.Node, refid, name, name2 string, link bool) error {
 	parts := strings.Split(refid, "-")
 	// args[0] --> type
 	// args[1] --> year, 4 digits
@@ -310,51 +306,73 @@ func OPRText(refid, name, name2 string, link bool) string {
 	// args[4] --> volume
 	// args[5] --> page, 4 digits
 	if len(parts) != 6 {
-		log.Fatalf("OPRText: expected 6 parts but got %s", refid)
+		return fmt.Errorf("%s: expected 6 parts but got %v", n.Data, parts)
 	}
-	base := fmt.Sprintf("%s. OPR of %s, %s",
+	text := ""
+	base := fmt.Sprintf("%s. OPR of %s, ",
 		parts[1],
-		ParishName(parts[2], parts[3]),
-		oprhtml(parts, link))
+		ParishName(parts[2], parts[3]))
 	switch parts[0] {
 	case "b":
-		return fmt.Sprintf("Baptism of %s, %s", name, base)
+		text = fmt.Sprintf("Baptism of %s, %s", name, base)
 	case "m":
-		return fmt.Sprintf("Marriage of %s and %s, %s", name, name2, base)
+		text = fmt.Sprintf("Marriage of %s and %s, %s", name, name2, base)
 	case "d":
-		return fmt.Sprintf("Death of %s, %s", name, base)
+		text = fmt.Sprintf("Death of %s, %s", name, base)
+	default:
+		return fmt.Errorf("%s: unknown record type %v", n.Data, parts)
 	}
-	log.Fatalf("Unknown OPR ref: %s", refid)
-	return ""
+
+	refText := oprref(parts)
+	if !link {
+		n.InsertBefore(tf.NewText(text+refText), n.FirstChild)
+		return nil
+	}
+
+	n.InsertBefore(tf.Append(tf.NewElement("a", "href", oprlink(parts)), tf.NewText(refText)), n.FirstChild)
+	n.InsertBefore(tf.NewText(text), n.FirstChild)
+	return nil
 }
 
-func SPText(refid, imageNum, name, name2 string) string {
+func SPText(n *html.Node, refid, imageNum, name, name2 string) error {
 	parts := strings.Split(refid, "-")
 	if len(parts) != 5 {
-		log.Fatalf("SPText: expected 5 parts got %s", refid)
+		return fmt.Errorf("SPText: expected 5 parts got %s", refid)
 	}
-	refText := fmt.Sprintf("%s %s %s", parts[1], ParishRef(parts[2], parts[3]),
-		strings.TrimLeft(parts[4], "0"))
-	if imageNum != "" {
-		refText = SPLinkHTML(refText, refid, imageNum)
-	}
+	text := ""
+	year := parts[1]
+	parishName := ParishName(parts[2], parts[3])
 	switch parts[0] {
 	case "d":
 		// d-4YEAR-3PARISH-2SUBPARISH-4RECORD
-		return fmt.Sprintf("Death of %s, %s Statutory Records of %s, Reference %s",
-			name, parts[1], ParishName(parts[2], parts[3]), refText)
+		text = fmt.Sprintf("Death of %s, %s Statutory Records of %s, Reference ",
+			name, year, parishName)
 	case "b":
 		// b-4YEAR-3PARISH-2SUBPARISH-3PAGE
-		return fmt.Sprintf("Birth of %s, %s Statutory Records of %s, Reference %s",
-			name, parts[1], ParishName(parts[2], parts[3]), refText)
+		text = fmt.Sprintf("Birth of %s, %s Statutory Records of %s, Reference ",
+			name, year, parishName)
 	case "m":
 		// M-4YEAR-3PARISH-2SUBPARISH-3PAGE
-		return fmt.Sprintf("Marriage of %s and %s, %s Statutory Records of %s, Reference %s",
-			name, name2, parts[1], ParishName(parts[2], parts[3]), refText)
+		text = fmt.Sprintf("Marriage of %s and %s, %s Statutory Records of %s, Reference ",
+			name, name2, year, parishName)
 	default:
-		log.Fatalf("Unknown SP record type: %s", refid)
+		return fmt.Errorf("Unknown SP record type: %s", refid)
 	}
-	return ""
+
+	refText := fmt.Sprintf("%s %s %s", year, ParishRef(parts[2], parts[3]),
+		strings.TrimLeft(parts[4], "0"))
+
+	// we have no image number so this whole this is plain text
+	if imageNum == "" {
+		//tf.Append(n, tf.NewText(text+refText)
+
+		n.InsertBefore(tf.NewText(text+refText), n.FirstChild)
+		return nil
+	}
+
+	n.InsertBefore(SPLinkHTML(refText, refid, imageNum), n.FirstChild)
+	n.InsertBefore(tf.NewText(text), n.FirstChild)
+	return nil
 }
 
 type OPRBaptism struct {

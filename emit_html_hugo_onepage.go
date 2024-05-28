@@ -7,32 +7,63 @@ import (
 	"strings"
 
 	tf "github.com/client9/tagfunctions"
+	"golang.org/x/net/html"
 )
 
-func renderFuncs() map[string]tf.TagFunc {
-	m := map[string]tf.TagFunc{
+func renderFuncs() map[string]tf.NodeFunc {
+	m := map[string]tf.NodeFunc{
+		"ent": func(n *html.Node) error {
+			ent := tf.GetArg(n, 0)
+			if len(ent) <= 0 || len(ent) > 15 {
+				return fmt.Errorf("Got unknown entity %q", ent)
+			}
+			for _, b := range []byte(ent) {
+				switch {
+				case b == '#':
+				case b >= 'a' && b <= 'z':
+				case b >= 'A' && b <= 'Z':
+				case b >= '0' && b <= '9':
+				default:
+					return fmt.Errorf("Got unknown entity %q", ent)
+				}
+			}
+			// ok seems saw, let convert this to a raw node.
+			n.Type = html.RawNode
+			n.Attr = nil
+			n.DataAtom = 0
+			n.Data = "&" + ent + ";"
+			return nil
+		},
+		"banner": func(n *html.Node) error {
+			tf.TransformElement(n, "div", "class", "mb-4")
+			return nil
+		},
 		"ppre":   tf.MakeTagClass("p", "white-space-pre-line"),
 		"strike": tf.MakeTag("s"),
-		"br": func(args []string, body string) string {
-			return "<br>"
-		},
-		"root": func(args []string, body string) string {
-			return body
+		"root": func(n *html.Node) error {
+			return nil
 		},
 		"section": tf.MakeTagClass("section", "mb-4"),
 
-		"front": func(args []string, body string) string {
-			return ""
+		"front": func(n *html.Node) error {
+			// TODO: interesting case
+			// do we delete it?
+			tf.RemoveChildren(n)
+			// turn into something benign
+			tf.TransformElement(n, "div")
+			return nil
 		},
-		"elink": func(args []string, body string) string {
-			return fmt.Sprintf("<a rel='noreferrer' target='_blank' href=%q>%s</a>", args[1], body)
+		"elink": func(n *html.Node) error {
+			href := tf.GetArg(n, 0)
+			tf.TransformElement(n, "a", "rel", "noreferrer", "target", "_blank", "href", href)
+			return nil
 		},
-		"tag-link": func(args []string, body string) string {
-			return makeTagButton(nil, body)
+		"tag-link": func(n *html.Node) error {
+			path := strings.Split(tf.GetArg(n, 0), "/")
+			tf.Replace(n, makeTagButton(path, n.FirstChild.Data))
+			return nil
 		},
-		"title": func(args []string, body string) string {
-			return "<h1>" + body + "</h1>\n"
-		},
+		"title":  tf.MakeTag("h1"),
 		"intro":  tf.MakeTagClass("p", ""),
 		"nowrap": tf.MakeTagClass("span", "text-nowrap"),
 		"csvtable": tf.NewCsvTableHTML(func(tag string, row int, col int) string {
@@ -56,202 +87,289 @@ func renderFuncs() map[string]tf.TagFunc {
 		"partner-name":       tf.MakeTagClass("span", "fw-bold text-smallcaps text-nowrap"),
 		"lineage-name":       tf.MakeTag("span"),
 		"children-intro":     tf.MakeTag("p"),
-		"primary-number": func(args []string, body string) string {
-			return "<span class='fw-bold pe-3'>" + body + ". </span>"
+		"primary-number": func(n *html.Node) error {
+			// assuming FirstChild exists and is a text node
+			// add a dot to end of text
+			n.FirstChild.Data += "."
+			tf.TransformElement(n, "span", "class", "fw-bold pe-3")
+			return nil
 		},
-		"source-link": func(args []string, body string) string {
-			return "<a href=/galbraith/sources/" + args[1] + ">" + body + "</a>"
+		"source-link": func(n *html.Node) error {
+			tf.TransformElement(n, "a", "href", "/galbraith/sources/"+tf.GetArg(n, 0))
+			return nil
 		},
-		"child-link": func(args []string, body string) string {
-			return "<a class='text-smallcaps' href=/galbraith/people/" + args[1] + ">" + body + "</a>"
+		"child-link": func(n *html.Node) error {
+			tf.TransformElement(n, "a", "class", "text-smallcaps", "href", "/galbraith/people/"+tf.GetArg(n, 0))
+			return nil
 		},
-		"child-link-plain": func(args []string, body string) string {
-			return "<a class=text-body href=/galbraith/people/" + args[1] + ">" + body + "</a>"
+		"child-link-plain": func(n *html.Node) error {
+			path := tf.GetArg(n, 0)
+			tf.TransformElement(n, "a", "class", "text-body", "href", "/galbraith/people/"+path)
+			return nil
 		},
-		"lineage": func(args []string, body string) string {
-			out := strings.Builder{}
-			out.WriteString("<tr><th>Lineage</th><td>")
-			out.WriteString(body)
-			out.WriteString("</ol></td></tr>\n")
-			return out.String()
+		"lineage": func(n *html.Node) error {
+			// <tr><th>Lineage</th><td>inner</td></tr>
+			newNode :=
+				tf.Append(
+					tf.NewElement("tr"),
+					tf.Append(tf.NewElement("th"), tf.NewText("Lineage")),
+					tf.Reparent(tf.NewElement("td"), n))
+
+			tf.Replace(n, newNode)
+
+			return nil
 		},
-		"ancestor": func(args []string, body string) string {
+		"ancestor": func(n *html.Node) error {
 			//genNumber := getKey(args, "generation")
 			//counter := tf.GetKeyValue(args, "counter")
-			mother := tf.GetKeyValue(args, "mother")
-			year := tf.GetKeyValue(args, "year")
+			mother := tf.GetAttr(n, "mother")
+			year := tf.GetAttr(n, "year")
 			if year != "" {
 				year = " b. " + year + " "
 			}
-			return fmt.Sprintf("<div>%s%sm. %s</div>\n", body, year, mother)
+			tf.TransformElement(n, "div")
+			n.AppendChild(tf.NewText(fmt.Sprintf("%sm. %s", year, mother)))
+			return nil
 		},
-		"person": func(args []string, body string) string {
-			pid := tf.GetKeyValue(args, "id")
-			s := strings.Builder{}
-			s.WriteString("<div class='mb-5'>")
-			s.WriteString(fmt.Sprintf("<a name=%q></a>\n", pid))
-			s.WriteString(body)
-			s.WriteString("</div><!-- person -->\n") // person
-			return s.String()
+		"person": func(n *html.Node) error {
+			pid := tf.GetAttr(n, "id")
+			tf.TransformElement(n, "div", "class", "mb-5")
+			n.InsertBefore(tf.NewElement("a", "name", pid), n.FirstChild)
+			return nil
 		},
-		"person-body": func(args []string, body string) string {
-			return "<div>" + body + "</div>\n"
-		},
+		"person-body":      tf.MakeTag("div"),
 		"person-main":      tf.MakeTagClass("div", "print-hack"),
 		"person-secondary": tf.MakeTagClass("table", "small"),
-		"banner": func(args []string, body string) string {
-			return "<div class='mb-4'>" + body + "</div>\n"
-		},
-		"pagemeta": func(args []string, body string) string {
-			return fmt.Sprintf("<tr class='pb-3'><th class='pe-5'>Updated</th><td>%s</td></tr>",
-				body)
+		"pagemeta": func(n *html.Node) error {
+			td := tf.Reparent(tf.NewElement("td"), n)
+			tf.Append(tf.TransformElement(n, "tr", "class", "pb-3"),
+				tf.Append(tf.NewElement("th", "class", "pe-5"), tf.NewText("External")),
+				td)
+			return nil
 		},
 		"person-bio": tf.MakeTag("div"),
 		"headline":   tf.MakeTag("h1"),
-		"externals": func(args []string, body string) string {
+		"externals": func(n *html.Node) error {
+			body := tf.TextContent(n)
 			if strings.TrimSpace(body) == "" {
-				return ""
+				// TODO
+				//n.Parent.RemoveChild(n)
+				return nil
 			}
-			return fmt.Sprintf("<tr><th class='pe-5'>External</th><td>%s</td></tr>\n", body)
+			tf.Append(tf.TransformElement(n, "tr"),
+				tf.Append(tf.NewElement("th", "class", "pe-5"), tf.NewText("External")),
+				tf.Reparent(tf.NewElement("td"), n))
+			return nil
 		},
-		"external": func(args []string, body string) string {
-			// open external links into new window
-			return fmt.Sprintf("<a class='me-3' rel='noreferrer' target='_blank' href=%q>%s</a>\n", args[1], body)
+		"external": func(n *html.Node) error {
+			arg := tf.GetArg(n, 0)
+			tf.TransformElement(n, "a", "class", "me-3", "rel", "noreferrer", "target", "_blank", "href", arg)
+			return nil
 		},
-		"tags": func(args []string, body string) string {
+		"tags": func(n *html.Node) error {
+			args := tf.ToArgs(n)
+
+			// no tags, just do nothing.
 			if len(args) == 0 {
-				return ""
+				// TODO
+				//n.Parent.RemoveChild(n)
+				return nil
 			}
-			s := strings.Builder{}
-			s.WriteString("<tr><th class='pe-5'>Tags</th><td>")
-			for _, tag := range args[1:] {
-				s.WriteString(makeTagButton(nil, tag))
+
+			// make a TD element containing the buttons
+			td := tf.NewElement("td")
+			for _, tag := range args {
+				td.AppendChild(makeTagButton(nil, tag))
 			}
-			s.WriteString("</td></tr>\n")
-			return s.String()
+
+			// make a row and replace
+			tf.Replace(n, tf.Append(tf.NewElement("tr"),
+				tf.Append(tf.NewElement("th", "class", "pe-5"), tf.NewText("Tags")),
+				td))
+
+			return nil
 		},
-		"child": func(args []string, body string) string {
-			s := strings.Builder{}
-			s.WriteString("<tr>")
-			s.WriteString("<td class=width-100r>")
-			lineageCounter := tf.GetKeyValue(args, "counter")
+		"child": func(n *html.Node) error {
+			lineageCounter := tf.GetAttr(n, "counter")
+			r, _ := strconv.Atoi(tf.GetAttr(n, "birth-order"))
+
+			td := tf.NewElement("td", "class", "width-100r")
 			if lineageCounter != "" && lineageCounter != "0" {
-				s.WriteString(lineageCounter)
+				tf.Append(td, tf.NewText(lineageCounter))
 			}
-			s.WriteString("</td>")
-			r, _ := strconv.Atoi(tf.GetKeyValue(args, "birth-order"))
-			s.WriteString("<td class='text-end width-200r'>" + toRoman(r) + "." + "</td>")
-			s.WriteString("<td class='ps-3'>" + body + "</td>")
-			s.WriteString("</tr>\n")
-			return s.String()
+
+			tf.Append(
+				tf.TransformElement(n, "tr"),
+				td,
+				tf.Append(tf.NewElement("td", "class", "width-200r"), tf.NewText(toRoman(r))),
+				tf.Reparent(tf.NewElement("td", "class", "ps-3"), n),
+			)
+			return nil
 		},
 		"todos": tf.MakeTagClass("ul", "todos"),
 		"todo":  tf.MakeTag("li"),
 		"notes": tf.MakeTagClass("ul", "notes"),
 		"note":  tf.MakeTag("li"),
-		"footnotes": func(args []string, body string) string {
+		"footnotes": func(n *html.Node) error {
+			body := tf.TextContent(n)
 			if len(body) == 0 {
-				return ""
+				// TODO
+				//n.Parent.RemoveChild(n)
+				return nil
 			}
-			s := strings.Builder{}
-			s.WriteString("<hr><div>\n")
-			s.WriteString("<table class='table-p0 small' >\n")
-			s.WriteString(body)
-			s.WriteString("</table></div><!-- footnotes -->\n")
-			return s.String()
+			n.Parent.InsertBefore(tf.NewElement("hr"), n)
+			tf.Append(tf.TransformElement(n, "div"),
+				tf.Reparent(tf.NewElement("table", "class", "table-p0 small"), n))
+			return nil
 		},
-		"footnote": func(args []string, body string) string {
-			s := strings.Builder{}
-			s.WriteString("<tr class=''>")
-			s.WriteString("<td class='width-100r'>")
-			s.WriteString("<span>" + args[1] + ".&nbsp;</span>")
-			s.WriteString("</td>")
-			s.WriteString("<td class=''>")
-			s.WriteString(strings.TrimSpace(body))
-			s.WriteString("</td>")
-			s.WriteString("</tr>\n")
-			return s.String()
+		"footnote": func(n *html.Node) error {
+			ref := tf.GetArg(n, 0)
+			td := tf.Reparent(tf.NewElement("td"), n)
+			tf.Append(tf.TransformElement(n, "tr"),
+				tf.Append(tf.NewElement("td", "class", "width-100r"), tf.Append(tf.NewElement("span"), (tf.NewText(ref)))),
+				td)
+			return nil
+			/*
+				s := strings.Builder{}
+				s.WriteString("<tr class=''>")
+				s.WriteString("<td class='width-100r'>")
+				s.WriteString("<span>" + args[1] + ".&nbsp;</span>")
+				s.WriteString("</td>")
+				s.WriteString("<td class=''>")
+				s.WriteString(strings.TrimSpace(body))
+				s.WriteString("</td>")
+				s.WriteString("</tr>\n")
+				return s.String()
+			*/
 		},
-		"ref": func(args []string, body string) string {
-			return "<sup class=footnote-ref>[" + args[1] + "]</sup>"
-		},
-		"sp-ref": func(args []string, body string) string {
-			if len(args) < 3 {
-				log.Fatalf("%s: expected at least 3 args, got %v", args[0], args[1:])
+		"ref": func(n *html.Node) error {
+			ref := tf.GetArg(n, 0)
+			if ref == "" {
+				log.Printf("got empty ref")
+				return nil
 			}
-			if strings.HasPrefix(args[1], "b") || strings.HasPrefix(args[1], "d") {
-				if len(args) != 3 {
-					log.Fatalf("%s: Got Birth or Death record, but not 3 args, %v", args[0], args[1:])
+			tf.Append(tf.TransformElement(n, "sup", "class", "footnote-ref"), tf.NewText("["+ref+"]"))
+			return nil
+		},
+		"sp-ref": func(n *html.Node) error {
+			// sp-ref: arg0 = ID, arg 1 = name, arg2 is optional name
+			args := tf.ToArgs(n)
+			if len(args) == 0 || len(args[0]) == 0 {
+				return fmt.Errorf("%s: expected at least 2 args, got %v", n.Data, args)
+			}
+			person2 := ""
+			refid := args[0]
+			switch refid[0] {
+			case 'b':
+				if len(args) != 2 {
+					return fmt.Errorf("%s: birth record expects 2 args, got %v", n.Data, args)
 				}
-			}
-			person2 := ""
-			if len(args) == 4 {
-				person2 = args[3]
-			}
-			return SPText(args[1], "", args[2], person2)
-		},
-		"sp-ref-link": func(args []string, body string) string {
-			if len(args) < 4 {
-				log.Fatalf("Expected 4 or 5 args, got %v", args)
-			}
-			body = strings.TrimSpace(body)
-			if len(body) > 0 {
-				body = "<blockquote class='fs-100p'>" + body + "</blockquote>"
-			}
-			person2 := ""
-			if len(args) == 5 {
-				person2 = args[4]
-			}
-			return SPText(args[1], args[2], args[3], person2) + body
-		},
-
-		"opr-ref": func(args []string, body string) string {
-			if len(args) < 3 {
-				log.Fatalf("%s: expected at least 3 args, got %v", args[0], args[1:])
-			}
-			if strings.HasPrefix(args[1], "b") || strings.HasPrefix(args[1], "d") {
-				if len(args) != 3 {
-					log.Fatalf("%s: Got Birth or Death record, but not 3 args, %v", args[0], args[1:])
+			case 'd':
+				if len(args) != 2 {
+					return fmt.Errorf("%s: death record expects 2 args, got %v", n.Data, args)
 				}
-			}
-			if len(args) < 3 || len(args) > 4 {
-				log.Fatalf("%s: expected 3 or 4 args got %v", args[0], args[1:])
-			}
-			person2 := ""
-			if len(args) == 4 {
-				person2 = args[3]
-			}
-			return OPRText(args[1], args[2], person2, false)
-		},
-		"opr-ref-link": func(args []string, body string) string {
-			if len(args) < 3 || len(args) > 4 {
-				log.Fatalf("%s: expected 3 or 4 args got %v", args[0], args[1:])
-			}
-			body = strings.TrimSpace(body)
-			if len(body) > 0 {
-				body = "<blockquote class='fs-100p'>" + body + "</blockquote>"
-			}
-			person2 := ""
-			if len(args) == 4 {
-				person2 = args[3]
+			case 'm':
+				if len(args) != 3 {
+					return fmt.Errorf("%s: marriage record expects 3 args, got %v", n.Data, args)
+				}
+				person2 = args[2]
+			default:
+				return fmt.Errorf("%s: unknown ID reference: %v", args)
 			}
 
-			return OPRText(args[1], args[2], person2, true) + body
+			person1 := args[1]
+			tf.TransformElement(n, "div")
+			return SPText(n, refid, "", person1, person2)
+		},
+		"sp-ref-link": func(n *html.Node) error {
+			// sp-ref: arg0 = ID, arg1 = imgid, arg 2 = name, arg3 is optional name
+			args := tf.ToArgs(n)
+			if len(args) == 0 || len(args[0]) == 0 {
+				return fmt.Errorf("%s: expected at least 3 args, got %v", n.Data, args)
+			}
+			person2 := ""
+			refid := args[0]
+			switch refid[0] {
+			case 'b':
+				if len(args) != 3 {
+					return fmt.Errorf("%s: birth record expects 3 args, got %v", n.Data, args)
+				}
+			case 'd':
+				if len(args) != 3 {
+					return fmt.Errorf("%s: death record expects 3 args, got %v", n.Data, args)
+				}
+			case 'm':
+				if len(args) != 4 {
+					return fmt.Errorf("%s: marriage record expects 4 args, got %v", n.Data, args)
+				}
+				person2 = args[3]
+			default:
+				return fmt.Errorf("%s: unknown ID reference: %v", args)
+			}
+			imgid := args[1]
+			person1 := args[2]
+			tf.TransformElement(n, "div")
+			return SPText(n, refid, imgid, person1, person2)
+		},
+		"opr-ref": func(n *html.Node) error {
+			// sp-ref: arg0 = ID, arg1 = imgid, arg 2 = name, arg3 is optional name
+			args := tf.ToArgs(n)
+			if len(args) == 0 || len(args[0]) == 0 {
+				return fmt.Errorf("%s: expected at least 3 args, got %v", n.Data, args)
+			}
+			person2 := ""
+			refid := args[0]
+			switch refid[0] {
+			case 'b':
+				if len(args) != 2 {
+					return fmt.Errorf("%s: birth record expects 2 args, got %v", n.Data, args)
+				}
+			case 'd':
+				if len(args) != 2 {
+					return fmt.Errorf("%s: death record expects 2 args, got %v", n.Data, args)
+				}
+			case 'm':
+				if len(args) != 3 {
+					return fmt.Errorf("%s: marriage record expects 3 args, got %v", n.Data, args)
+				}
+				person2 = args[2]
+			}
+			person1 := args[1]
+			tf.TransformElement(n, "div")
+			return OPRText(n, refid, person1, person2, false)
+		},
+		"opr-ref-link": func(n *html.Node) error {
+			// sp-ref: arg0 = ID, arg1 = imgid, arg 2 = name, arg3 is optional name
+			args := tf.ToArgs(n)
+			if len(args) == 0 || len(args[0]) == 0 {
+				return fmt.Errorf("%s: expected at least 3 args, got %v", n.Data, args)
+			}
+			person2 := ""
+			refid := args[0]
+			switch refid[0] {
+			case 'b':
+				if len(args) != 2 {
+					return fmt.Errorf("%s: birth record expects 2 args, got %v", n.Data, args)
+				}
+			case 'd':
+				if len(args) != 2 {
+					return fmt.Errorf("%s: death record expects 2 args, got %v", n.Data, args)
+				}
+			case 'm':
+				if len(args) != 3 {
+					return fmt.Errorf("%s: marriage record expects 3 args, got %v", n.Data, args)
+				}
+				person2 = args[2]
+			}
+			person1 := args[1]
+			tf.TransformElement(n, "div")
+			// move all children into a blockquote
+			bq := tf.Reparent(tf.NewElement("blockquote", "class", "fs-100p"), n)
+			tf.Append(n, bq)
+
+			return OPRText(n, refid, person1, person2, true)
 		},
 	}
 
-	// add some pass through HTML tags
-	passthrough := []string{
-		"h1", "h2", "h3", "h4",
-		"p", "b", "i", "em", "s",
-		"table", "thead", "tbody", "th", "tr", "td", "tfoot",
-		"blockquote", "pre",
-		"ol", "ul", "li",
-		"hr",
-	}
-	for _, tag := range passthrough {
-		m[tag] = tf.ArgsToSimpleTag
-	}
 	return m
-
 }

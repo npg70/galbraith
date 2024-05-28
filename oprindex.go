@@ -51,9 +51,8 @@ func oprindex(db Root, rtype string) string {
 			})
 			for _, fnote := range footnotes {
 				// format ID Name Spouse?
-				args := tf.ToArgv(fnote)
-				// recall: args[0] is name of function
-				parts := strings.Split(args[1], "-")
+				args := tf.ToArgs(fnote)
+				parts := strings.Split(args[0], "-")
 				if parts[0] != rtype {
 					continue
 				}
@@ -62,7 +61,7 @@ func oprindex(db Root, rtype string) string {
 				if rtype == "m" {
 					spouse = args[len(args)-1]
 				}
-				pmap[parts[2]] = append(oprbirth, pair{args[1], id, args[2], spouse})
+				pmap[parts[2]] = append(oprbirth, pair{args[0], id, args[1], spouse})
 			}
 		}
 	}
@@ -82,7 +81,7 @@ func oprindex(db Root, rtype string) string {
 	for _, pnum := range plist {
 		out.WriteString("$tr{\n")
 		out.WriteString("  $th[colspan=4 class='pt-3 pb-2 fs-5']{")
-		out.WriteString(fmt.Sprintf("Parish %s &mdash; %s", pnum, ParishName(pnum, "")))
+		out.WriteString(fmt.Sprintf("Parish %s $ent[mdash] %s", pnum, ParishName(pnum, "")))
 		out.WriteString("}\n")
 		out.WriteString("}\n")
 
@@ -138,27 +137,26 @@ func spindex(db Root, rtype string) string {
 				return n.Data == "sp-ref" || n.Data == "sp-ref-link"
 			})
 			for _, fnote := range footnotes {
-				args := tf.ToArgv(fnote)
-				// recall: args[0] is name of function
-				parts := strings.Split(args[1], "-")
+				args := tf.ToArgs(fnote)
+				parts := strings.Split(args[0], "-")
 				if parts[0] != rtype {
 					continue
 				}
 				oprbirth := pmap[parts[2]]
 
-				sv := args[2]
+				sv := args[1]
 				if fnote.Data == "sp-ref-link" {
-					if len(args) < 4 {
+					if len(args) < 3 {
 						log.Fatalf("OOPS: %v", args)
 					}
-					sv = args[3]
+					sv = args[2]
 				}
 				spouse := ""
 				if parts[0] == "m" {
 					// last arg
 					spouse = args[len(args)-1]
 				}
-				pmap[parts[2]] = append(oprbirth, pair{args[1], id, sv, spouse})
+				pmap[parts[2]] = append(oprbirth, pair{args[0], id, sv, spouse})
 			}
 		}
 	}
@@ -177,7 +175,7 @@ func spindex(db Root, rtype string) string {
 	for _, pnum := range plist {
 		out.WriteString("$tr{\n")
 		out.WriteString("  $th[colspan=4 class='pt-3 pb-2 fs-5']{")
-		out.WriteString(fmt.Sprintf("Parish %s &mdash; %s", pnum, ParishName(pnum, "")))
+		out.WriteString(fmt.Sprintf("Parish %s $ent[mdash] %s", pnum, ParishName(pnum, "")))
 		out.WriteString("}\n")
 		out.WriteString("}\n")
 

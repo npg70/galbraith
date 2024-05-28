@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"os"
 	"path/filepath"
 	"strings"
@@ -13,32 +12,44 @@ import (
 	tf "github.com/client9/tagfunctions"
 )
 
-type TreeFunc func(*html.Node) error
+func nodeExecute() func(*html.Node) (string, error) {
+	tmp := renderFuncs()
+	tagexec := tf.ExecuteFunc(tmp)
 
-// some post-processing of people data
-func peopleTree(root *html.Node) error {
-	if err := footnoter(root); err != nil {
-		return fmt.Errorf("Footnoter failed: %s", err)
+	toHTML := tf.RenderStringFunc(tf.RenderHTML)
+
+	p := tf.Paragrapher{}
+
+	return func(n *html.Node) (string, error) {
+		if err := footnoter(n); err != nil {
+			return "", fmt.Errorf("Footnoter failed: %s", err)
+		}
+
+		if err := p.Execute(n); err != nil {
+			return "", fmt.Errorf("Paragrapher failed: %s", err)
+		}
+
+		if err := tagexec(n); err != nil {
+			return "", fmt.Errorf("TagFunc failed: %s", err)
+		}
+
+		return toHTML(n)
 	}
-	if err := tf.Paragrapher(root); err != nil {
-		return fmt.Errorf("Paragrapher failed: %s", err)
-	}
-	return nil
 }
 
-func writePage(tpl string, treefn TreeFunc,
-	base *template.Template, outdir string, outfile string) error {
+// writePage
+//
+//	tfsrc -- the tagfunction source code
+//	treefn --
+//	base -- golang html template, "the shell" of the page
+//	outdir, outfile - duh   should be redone
+func writePage(tfsrc string,
+	base *template.Template,
+	outdir string, outfile string) error {
 
 	// this makes the tree from datafile
 	p := tf.Tokenizer{}
-	root := p.Parse(strings.NewReader(tpl))
-
-	// any tree editing
-	if treefn != nil {
-		if err := treefn(root); err != nil {
-			return err
-		}
-	}
+	root := p.Parse(strings.NewReader(tfsrc))
 
 	// insert into template, generate output
 	tout, err := RenderPage(base, root)
@@ -52,10 +63,9 @@ func writePage(tpl string, treefn TreeFunc,
 		return err
 	}
 	fullpath = filepath.Join(fullpath, "index.html")
-	log.Printf("Writing %q", fullpath)
 	err = os.WriteFile(fullpath, []byte(tout), 0666)
 	if err != nil {
-		return err
+		return fmt.Errorf("Error writing %q: %s", fullpath, err)
 	}
 	return nil
 }

@@ -2,6 +2,9 @@ package main
 
 import (
 	"strings"
+
+	tf "github.com/client9/tagfunctions"
+	"golang.org/x/net/html"
 )
 
 //  foo     foo           --> yes
@@ -78,7 +81,10 @@ func makeTagFile(parts []string) string {
 	return tagpath
 }
 
-func makeTagButton(path []string, body string) string {
+func makeTagButton(path []string, body string) *html.Node {
+	if len(path) == 1 && path[0] == "" {
+		path = nil
+	}
 	if len(path) == 0 && !strings.HasPrefix(body, "all") {
 		path = []string{"all"}
 	}
@@ -97,5 +103,10 @@ func makeTagButton(path []string, body string) string {
 		parts[i] = Title(parts[i])
 	}
 	tag = "#" + strings.Join(parts, "")
-	return "<a class='font-sans text-color me-2' href=" + taglink + ">" + tag + "</a>\n"
+
+	return tf.Append(
+		tf.NewElement("a",
+			"class", "font-sans text-color me-2",
+			"href", taglink),
+		tf.NewText(tag))
 }

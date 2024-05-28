@@ -57,7 +57,7 @@ func footnoter_person(n *html.Node) error {
 	}
 	i := 1
 	for _, ref := range refs {
-		id := tf.GetArg(ref, 1)
+		id := tf.GetArg(ref, 0)
 		// one source can be used multiple times
 		// so only add if it's new.
 		if _, ok := ordmap[id]; !ok {
@@ -77,8 +77,8 @@ func footnoter_person(n *html.Node) error {
 
 	// sort them according to our map above
 	sort.SliceStable(footnotes, func(i, j int) bool {
-		a1 := ordmap[tf.GetArg(footnotes[i], 1)]
-		a2 := ordmap[tf.GetArg(footnotes[j], 1)]
+		a1 := ordmap[tf.GetArg(footnotes[i], 0)]
+		a2 := ordmap[tf.GetArg(footnotes[j], 0)]
 		return a1 < a2
 	})
 
@@ -102,20 +102,20 @@ func footnoter_person(n *html.Node) error {
 
 	// delete everything in fnContainer, as it might contain text nodes
 	// or unsorted foot notes
-	for c := fnContainer.FirstChild; c != nil; c = c.NextSibling {
-		fnContainer.RemoveChild(c)
+	for fnContainer.FirstChild != nil {
+		fnContainer.RemoveChild(fnContainer.FirstChild)
 	}
 
 	// change the refs to ordinals 1,2,3,4,5...
 	for _, ref := range refs {
-		if id := ordmap[tf.GetArg(ref, 1)]; id != 0 {
-			tf.SetArg(ref, 1, strconv.Itoa(id))
+		if id := ordmap[tf.GetArg(ref, 0)]; id != 0 {
+			tf.SetArg(ref, 0, strconv.Itoa(id))
 		}
 	}
 	// change the ID to the ordinals
 	for _, fn := range footnotes {
-		if id := ordmap[tf.GetArg(fn, 1)]; id != 0 {
-			tf.SetArg(fn, 1, strconv.Itoa(id))
+		if id := ordmap[tf.GetArg(fn, 0)]; id != 0 {
+			tf.SetArg(fn, 0, strconv.Itoa(id))
 		}
 	}
 

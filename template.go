@@ -9,7 +9,7 @@ import (
 	tf "github.com/client9/tagfunctions"
 )
 
-func CreatePageTemplate(base string, renderfn func(*html.Node) string) (*template.Template, error) {
+func CreatePageTemplate(base string, renderfn func(*html.Node) (string, error)) (*template.Template, error) {
 	// TODO - load file or string into template
 	fmap := template.FuncMap{
 		"render": renderfn,

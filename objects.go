@@ -465,11 +465,6 @@ func WritePersonLink(p *Person) string {
 func WriteChildLink(w io.StringWriter, p *Person) {
 	val := fmt.Sprintf("$child-link[%s]{%s}", p.ID, p.FullName())
 	w.WriteString(WriteChildName(val))
-
-	/*
-		w.WriteString(WriteChildName(fmt.Sprintf("<child-link href=%q>%s</child-link>",
-			p.ID, p.FullName())))
-	*/
 }
 func WriteChildBioInline(w io.StringWriter, parent *Person, child *Person, ignorePlace string) {
 	// no linkage, print mini-bio
@@ -479,32 +474,32 @@ func WriteChildBioInline(w io.StringWriter, parent *Person, child *Person, ignor
 	if birth != nil && bp == nil {
 		// since this child doesn't have it's own page,
 		// the footnote is attached to the parent, not the child
-		w.WriteString(", b.&nbsp;" + EventDatePlaceCompact(parent, birth, ignorePlace))
+		w.WriteString(", b.$ent[nbsp]" + EventDatePlaceCompact(parent, birth, ignorePlace))
 	}
 	if birth == nil && bp != nil {
 		// since this child doesn't have it's own page,
 		// the footnote is attached to the parent, not the child
-		w.WriteString(", bp.&nbsp;" + EventDatePlaceCompact(parent, bp, ignorePlace))
+		w.WriteString(", bp.$ent[nbsp]" + EventDatePlaceCompact(parent, bp, ignorePlace))
 	}
 	if birth != nil && bp != nil {
 		// both specified.. it gets complicated
 		// if both same location -- do something smart
 		// if both have date -- do something smart
 
-		w.WriteString(", b.&nbsp;" + EventDatePlaceCompact(parent, birth, ignorePlace))
-		w.WriteString(", bp.&nbsp;" + EventDatePlaceCompact(parent, bp, ignorePlace))
+		w.WriteString(", b.$ent[nbsp]" + EventDatePlaceCompact(parent, birth, ignorePlace))
+		w.WriteString(", bp.$ent[nbsp]" + EventDatePlaceCompact(parent, bp, ignorePlace))
 	}
 	death := child.Events["death"]
 	if death != nil {
-		w.WriteString("; d.&nbsp;" + EventDatePlaceCompact(parent, death, ""))
+		w.WriteString("; d.$ent[nbsp]" + EventDatePlaceCompact(parent, death, ""))
 	}
 	if len(child.Partners) == 1 {
 		// ; m. name
-		w.WriteString("; m.&nbsp;" + WriteChildPartnerName(child.Partners[0]))
+		w.WriteString("; m.$ent[nbsp]" + WriteChildPartnerName(child.Partners[0]))
 	} else {
 		// ; m.(1) name; m.(2) name
 		for i, p := range child.Partners {
-			w.WriteString(fmt.Sprintf("; m.(%d)&nbsp;%s", i+1, WriteChildPartnerName(p)))
+			w.WriteString(fmt.Sprintf("; m.(%d)$ent[nbsp]%s", i+1, WriteChildPartnerName(p)))
 		}
 	}
 	w.WriteString(".")
@@ -528,7 +523,7 @@ func WriteChildBioLinked(w io.StringWriter, parent *Person, child *Person, ignor
 		birth.Ref = importFootnoteID(child, oldRef)
 
 		// here the footnote is actually in the child page
-		w.WriteString(", b.&nbsp;" + EventDatePlaceCompact(child, birth, ignorePlace))
+		w.WriteString(", b.$ent[nbsp]" + EventDatePlaceCompact(child, birth, ignorePlace))
 
 		if oldRef != "" {
 			// if we have reference copy it into the parent
@@ -541,7 +536,7 @@ func WriteChildBioLinked(w io.StringWriter, parent *Person, child *Person, ignor
 	if birth == nil && bp != nil {
 		oldref := bp.Ref
 		// here the footnote is actually in the child page
-		w.WriteString(",&nbsp;bp. " + EventDatePlaceCompact(child, bp, ignorePlace))
+		w.WriteString(",$ent[nbsp]bp. " + EventDatePlaceCompact(child, bp, ignorePlace))
 
 		// if we have reference copy it into the parent
 		if oldref != "" {
@@ -560,12 +555,12 @@ func WriteChildBioLinked(w io.StringWriter, parent *Person, child *Person, ignor
 		// if both same location -- do something smart
 		// if both have date -- do something smart
 
-		w.WriteString(", b.&nbsp;" + EventDatePlaceCompact(parent, birth, ignorePlace))
+		w.WriteString(", b.$ent[nbsp]" + EventDatePlaceCompact(parent, birth, ignorePlace))
 
 		// hack -- assume baptism has the reference
 		oldref := bp.Ref
 		// here the footnote is actually in the child page
-		w.WriteString(",&nbsp;bp. " + EventDatePlaceCompact(child, bp, ignorePlace))
+		w.WriteString(",$ent[nbsp]bp. " + EventDatePlaceCompact(child, bp, ignorePlace))
 
 		// if we have reference copy it into the parent
 		if oldref != "" {
@@ -576,11 +571,11 @@ func WriteChildBioLinked(w io.StringWriter, parent *Person, child *Person, ignor
 	}
 	if len(child.Partners) == 1 {
 		// ; m. name
-		w.WriteString("; m.&nbsp;" + WriteChildPartnerName(child.Partners[0]))
+		w.WriteString("; m.$ent[nbsp]" + WriteChildPartnerName(child.Partners[0]))
 	} else {
 		// ; m.(1) name; m.(2) name
 		for i, p := range child.Partners {
-			w.WriteString(fmt.Sprintf("; m.(%d)&nbsp;%s", i+1, WriteChildPartnerName(p)))
+			w.WriteString(fmt.Sprintf("; m.(%d)$ent[nbsp]%s", i+1, WriteChildPartnerName(p)))
 		}
 	}
 	w.WriteString(".")
@@ -648,11 +643,9 @@ func WriteTitleLink(p *Person) string {
 func WriteTitleBlock(p *Person) string {
 	out := "$front{"
 
-	out += "$title{"
-	out += WriteTitle(p)
-	out += "}\n"
+	out += "$title{" + WriteTitle(p) + "}"
 
-	out += "}\n"
+	out += "}"
 	return out
 }
 
@@ -735,11 +728,9 @@ func (r Root) generateOne(primary string) (string, []string) {
 
 	out.WriteString(fmt.Sprintf("$person[id=%s generation=%d counter=%d]{",
 		primary, first.generation, first.counter))
-
 	out.WriteString("$banner{")
 	out.WriteString("$headline{" + WriteTitle(first) + "}\n")
 	out.WriteString("}\n")
-
 	out.WriteString("$person-body{")
 	out.WriteString("$person-secondary{")
 
@@ -758,7 +749,7 @@ func (r Root) generateOne(primary string) (string, []string) {
 	for i := len(lineage) - 1; i >= 0; i-- {
 		out.WriteString(lineage[i])
 	}
-	out.WriteString("}\n") /* lineage */
+	out.WriteString("}\n")
 
 	out.WriteString("$externals{")
 	for _, val := range first.External.List() {
@@ -784,12 +775,15 @@ func (r Root) generateOne(primary string) (string, []string) {
 
 	out.WriteString("$person-main{")
 
-	out.WriteString("<div class='ms-5 me-5 mb-3'>")
+	// TODO: seems like this should be in person-main
+	out.WriteString("$div[class='ms-5 me-5 mb-3']{")
+
+	// this logic can be moved out
 	if len(first.Intro) > 0 {
 		out.WriteString("$intro{" + first.Intro + "}\n")
 
 	}
-	out.WriteString("</div>\n")
+	out.WriteString("}\n")
 
 	out.WriteString("$person-bio{$p{")
 	out.WriteString(fmt.Sprintf("$primary-number{%d}", first.counter))

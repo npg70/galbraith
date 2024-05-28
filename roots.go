@@ -64,16 +64,16 @@ func computeRoots(db Root) []string {
 func indexIndex() string {
 	out := strings.Builder{}
 	out.WriteString(`
-<ul>
-<li><a href="/galbraith/indexes/opr-birth-index/">OPR Birth Index</a></li>
-<li><a href="/galbraith/indexes/opr-death-index/">OPR Death Index</a></li>
-<li><a href="/galbraith/indexes/opr-marriage-index/">OPR Marriage Index</a></li>
-</ul>
-<ul>
-<li><a href="/galbraith/indexes/statutory-birth-index/">Statutory Birth Index</a></li>
-<li><a href="/galbraith/indexes/statutory-death-index/">Statutory Death Index</a></li>
-<li><a href="/galbraith/indexes/statutory-marriage-index/">Statutory Marriage Index</a></li>
-</ul>
+$ul{
+$li{$a[href=/galbraith/indexes/opr-birth-index/ ]{OPR Birth Index}}
+$li{$a[href=/galbraith/indexes/opr-death-index/ ]{OPR Death Index}}
+$li{$a[href=/galbraith/indexes/opr-marriage-index/ ]{OPR Marriage Index}}
+}
+$ul{
+$li{$a[href=/galbraith/indexes/statutory-birth-index/ ]{Statutory Birth Index}}
+$li{$a[href=/galbraith/indexes/statutory-death-index/ ]{Statutory Death Index}}
+$li{$a[href=/galbraith/indexes/statutory-marriage-index/ ]{Statutory Marriage Index}}
+}
 	`)
 	return out.String()
 }
@@ -206,45 +206,23 @@ $table{
 func indexRoots2(db Root, page tagpage) string {
 	out := strings.Builder{}
 
-	out.WriteString("<h1> ")
+	out.WriteString("$h1{")
 	out.WriteString(strings.Join(page.path, " / "))
-	out.WriteString("</h1>\n")
-
+	out.WriteString("}")
 	for _, kid := range page.tags {
-		out.WriteString(makeTagButton(page.path, kid))
+		out.WriteString(fmt.Sprintf("$tag-link[%s]{%s}", strings.Join(page.path, "/"), kid))
 	}
-	out.WriteString("<hr/>\n")
+	out.WriteString("$hr{}\n")
 	for _, r := range page.uids {
 		p := db[r]
-		out.WriteString(fmt.Sprintf("<h5><a href=/galbraith/people/%s>%s</a></h5>\n",
+		out.WriteString(fmt.Sprintf("$h5{$a[href=/galbraith/people/%s]{%s}}\n",
 			r, WriteTitle(p)))
 		if len(p.Tags) > 0 {
-			out.WriteString("<div class='ms-3 mb-3'>\n")
+			out.WriteString("$div[class='ms-3 mb-3']{")
 			for _, tag := range p.Tags {
-				out.WriteString(makeTagButton(page.path, tag))
+				out.WriteString(fmt.Sprintf("$tag-link[%s]{%s}", strings.Join(page.path, "/"), tag))
 			}
-			out.WriteString("</div>\n")
-		}
-		if len(p.Intro) > 0 {
-			out.WriteString("$intro{" + p.Intro + "}\n")
-		}
-	}
-	return out.String()
-}
-
-// given a list of people (roots), display them with the subtags
-func indexRoots(db Root, roots []string, title string) string {
-	out := strings.Builder{}
-	for _, r := range roots {
-		p := db[r]
-		out.WriteString(fmt.Sprintf("<h5><a href=/galbraith/people/%s>%s</a></h5>\n",
-			r, WriteTitle(p)))
-		if len(p.Tags) > 0 {
-			out.WriteString("<div class='ms-3 mb-3'>\n")
-			for _, tag := range p.Tags {
-				makeTagButton(nil, tag)
-			}
-			out.WriteString("</div>\n")
+			out.WriteString("}\n")
 		}
 		if len(p.Intro) > 0 {
 			out.WriteString("$intro{" + p.Intro + "}\n")
