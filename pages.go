@@ -18,17 +18,24 @@ func nodeExecute() func(*html.Node) (string, error) {
 
 	toHTML := tf.RenderStringFunc(tf.RenderHTML)
 
-	p := tf.Paragrapher{}
+	p1 := tf.Paragrapher{}
+	p1.Tag = "p"
+
+	p2 := tf.Paragrapher{}
+	p2.Tag = "blockquote"
 
 	return func(n *html.Node) (string, error) {
 		if err := footnoter(n); err != nil {
 			return "", fmt.Errorf("Footnoter failed: %s", err)
 		}
 
-		if err := p.Execute(n); err != nil {
-			return "", fmt.Errorf("Paragrapher failed: %s", err)
+		if err := p1.Execute(n); err != nil {
+			return "", fmt.Errorf("Paragrapher for $p failed: %s", err)
 		}
 
+		if err := p2.Execute(n); err != nil {
+			return "", fmt.Errorf("Paragrapher for $blockquote failed: %s", err)
+		}
 		if err := tagexec(n); err != nil {
 			return "", fmt.Errorf("TagFunc failed: %s", err)
 		}
