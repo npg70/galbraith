@@ -13,4 +13,4 @@ require (
 
 require golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
 
-require github.com/client9/tagfunctions v0.0.0-20240601173820-10767c2676b1
+require github.com/client9/tagfunctions v0.0.0-20240608044151-d58860b0d505

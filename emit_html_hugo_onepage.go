@@ -12,28 +12,7 @@ import (
 
 func renderFuncs() map[string]tf.NodeFunc {
 	m := map[string]tf.NodeFunc{
-		"ent": func(n *html.Node) error {
-			ent := tf.GetArg(n, 0)
-			if len(ent) <= 0 || len(ent) > 15 {
-				return fmt.Errorf("Got unknown entity %q", ent)
-			}
-			for _, b := range []byte(ent) {
-				switch {
-				case b == '#':
-				case b >= 'a' && b <= 'z':
-				case b >= 'A' && b <= 'Z':
-				case b >= '0' && b <= '9':
-				default:
-					return fmt.Errorf("Got unknown entity %q", ent)
-				}
-			}
-			// ok seems saw, let convert this to a raw node.
-			n.Type = html.RawNode
-			n.Attr = nil
-			n.DataAtom = 0
-			n.Data = "&" + ent + ";"
-			return nil
-		},
+		"ent": tf.Entity,
 		"banner": func(n *html.Node) error {
 			tf.TransformElement(n, "div", "class", "mb-4")
 			return nil
