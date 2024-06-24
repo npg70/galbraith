@@ -1,7 +1,7 @@
 github.com/bep/gitmap v1.3.0 h1:SF10pGvxXivWbuPL4yZ1cFLgr6KAttxZf7GCoWYMfPY=
 github.com/bep/gitmap v1.3.0/go.mod h1:n+3W1f/rot2hynsqEGxGMErPRgT41n9CkGuzPvz9cIw=
-github.com/client9/tagfunctions v0.0.0-20240608044151-d58860b0d505 h1:cUb5M2/wV0TpPhjOld0DdeY2mrAwv2UeQwZUwTH7FKo=
-github.com/client9/tagfunctions v0.0.0-20240608044151-d58860b0d505/go.mod h1:u6lmNENEdq6a/l60ogwor75DS1ivXLqpmg8ovmT0Zvs=
+github.com/client9/tagfunctions v0.0.0-20240608164824-b829631f050b h1:FYC9yqtAJcsgFlb2PvI/YVFxynq8jwJ8/7HllCOiFyQ=
+github.com/client9/tagfunctions v0.0.0-20240608164824-b829631f050b/go.mod h1:u6lmNENEdq6a/l60ogwor75DS1ivXLqpmg8ovmT0Zvs=
 golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842 h1:vr/HnozRka3pE4EsMEg1lgkXJkTFJCVUX+S/ZT6wYzM=
 golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842/go.mod h1:XtvwrStGgqGPLc4cjQfWqZHG1YFdYs6swckp8vpsjnc=
 golang.org/x/net v0.25.0 h1:d/OCCoBEUq33pjydKrGQhw7IlUPI2Oylr+8qLx49kac=
