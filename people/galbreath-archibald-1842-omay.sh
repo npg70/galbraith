@@ -2,6 +2,7 @@ name Archibald Galbreath
 tags Argyll:Campbeltown
 external {
     familysearch LTZN-9KC
+    wikitree Galbraith-3330
 }
 birth -date 25-aug-1842
 baptism -date 25-sep-1842 -location campbeltown -ref archibald1842-baptism
@@ -9,6 +10,10 @@ death -date 22-sep-1896 -location campbeltown -ref archibald1842-death
 body {
     His occupation was in the distilling industry.
 }
+todo {
+    Present in 1851 Census
+}
+
 partner {
     name Agnes O'May
     body { She was the daughter of William O'May and Margaret Milloy. }
