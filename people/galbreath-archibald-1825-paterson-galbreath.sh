@@ -13,6 +13,11 @@ todo {
 body {
     He was a fisherman.
 }
+
+body {
+He may have went to prision for 30 days in 1848. See "1848 GALBRAITH, ARCHIBALD (Prison registers, Reference HH002100005-00008-, EDINBURGH PRISON (1841-1851)) Image 34 Last image 34"
+}
+
 note {
     There is another $child-link[galbraith-archibald-1843-paterson]{Archibald Galbreath}, b. 1843, who married a different Mary Paterson.
 }
@@ -27,8 +32,8 @@ partner {
     marriage -date 6-apr-1865 -location campbeltown -ref paterson-marriage
     child {
         name Archibald Galbreath
-        birth -date 21-july-1867 -location campbeltown -ref archibald1867-birth
-        death -date 23-apr-1868 -location campbelton -ref archibald1867-death
+        birth -date 21-jul-1867 -location campbeltown -ref archibald1867-birth
+        death -date 23-apr-1868 -location campbeltown -ref archibald1867-death
     }
     child {
         name James Paterson Galbraith
@@ -55,7 +60,7 @@ partner {
     birth -date 13-mar-1837
     marriage -date 26-dec-1881 -location campbeltown -ref galbraith-marriage
     body {
-        Daughter of Archibald Galbreath (mason) and Agnes Henderson
+        Daughter of $child-link[galbreath-archibald-1800-henderson]{Archibald Galbreath} (mason) and Agnes Henderson
     }
 }
 
