@@ -4,6 +4,7 @@ baptism -date 4-aug-1844 -location campbeltown -ref alexander1844-baptism
 death -date 25-dec-1883 -location campbeltown -ref alexander1844-death
 external {
     familysearch K8D5-31F
+    wikitree Galbraith-3332
 }
 body {
     He was a distillery workman or maltster.
