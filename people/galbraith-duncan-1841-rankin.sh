@@ -2,6 +2,7 @@ name Duncan Galbraith
 tags Renfrew:Greenock
 external {
     familysearch KZP7-YK7
+    wikitree Galbraith-3062
 }
 birth -date 26-jun-1841 
 baptism -date 14-sep-1846 -location 'Kilcalmonell and Kilberry' -ref duncan1841-baptism
