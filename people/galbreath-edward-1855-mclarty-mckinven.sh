@@ -3,6 +3,7 @@ tags argyll:gigha argyll:campbeltown
 external {
     familysearch M1B4-7LV
     findagrave 241931140
+    wikitree Galbraith-2759
 }
 birth -date 11-jun-1855 -location gigha -ref edward1855-birth
 death -date 10-mar-1933 -location campbeltown

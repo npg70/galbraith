@@ -5,6 +5,7 @@ death -date 9-mar-1882 -location campbeltown -ref john1816-death
 
 external {
     familysearch 9M9J-BXK
+    wikitree Galbraith-2472
 }
 
 partner {

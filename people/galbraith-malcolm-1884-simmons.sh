@@ -5,6 +5,7 @@ death -date 13-dec-1945 -location 'Auckland, New Zealand'
 external {
     familysearch KZW7-S81
     findagrave 188063026
+    wikitree Galbraith-3396
 }
 partner {
     name Annie Eliza Simmons
