@@ -139,6 +139,14 @@ Margaret married John Galbreath, maltman in Campbeltown, and died in
 December 1778. 
 }
 
+$p{
+Possible John remarried in 1781  see $child-link[galbreath-john-1760-mclean]{John Galbreath b. 1760}.  Needs investigation.
+}
+
+$p{
+The other John that got married around this time is $child-link[galbreath-john-1737-galbreath]{John Galbreath b. 1837} was a police offier and unlikely to be a match.
+}
+
 $h2{Ferguson}
 
 $blockquote{
