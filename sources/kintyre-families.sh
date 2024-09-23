@@ -393,6 +393,10 @@ Street in C1901 with son John and daughter Elizabeth and died in 1933,
 aged 83. [KG]
 }
 
+$p{
+Jane was the grand-daughter of $child-link[galbraith-jean-1800-macisaac]{Jean Galbraith}.
+}
+
 $h2{Johnson}
 
 $blockquote{
