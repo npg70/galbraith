@@ -53,15 +53,7 @@ partner {
         name Neil Galbraith
         birth -date 20-jun-1876 -location campbeltown -ref neil1876-birth
     }
-    child {
-        name Duncan Galbraith
-        birth -date 15-feb-1878 -location campbeltown -ref duncan1878-birth
-        death -date 25-jan-1962 -location 'Stockton,, Manitoba, Canada'
-        partner {
-            name Elizabeth Bessie Sinclair
-            marriage -date 18-apr-1905 -location campbeltown
-        }
-    }
+    child galbraith-duncan-1878-sinclair
     child {
         name Malcolm Galbraith
         birth -date 26-jul-1879 -location campbeltown -ref malcolm1879-birth
@@ -108,9 +100,6 @@ footnotes {
     }
     neil1876-birth {
         $sp-ref-link[b-1876-507-00-0157 0053 "Neil Galbraith"]
-    }
-    duncan1878-birth {
-        $sp-ref-link[b-1878-507-00-0065 0022 "Duncan McLean Galbraith"]
     }
     malcolm1879-birth {
         $sp-ref-link[b-1879-507-00-0196 0066 "Malcolm Galbraith"]

@@ -41,15 +41,8 @@ partner {
         name James Galbreath
         baptism -date 27-oct-1787 -location campbeltown -ref james1787-baptism
     }
-    child {
-        name Margaret Galbreath
-        baptism -date 9-jun-1790 -location campbeltown -ref margaret1790-baptism
-        death -date 25-may-1873 -location campbeltown -ref margaret1790-death
-        partner {
-            name Neil Hawthorn
-            marriage -date 1-jan-1816 -location campbeltown -ref margaret1790-marriage
-        }
-    }
+    child galbreath-margaret-1790-hawthorn
+
     child {
         name Orslay (Ursula) Galbreath
         baptism -date 23-Jun-1792 -location campbeltown -ref orslay1792-baptism
@@ -99,15 +92,6 @@ footnotes {
     }
     james1787-baptism {
         $opr-ref[b-1787-507-000-0020-0099 "James Galbreath"]
-    }
-    margaret1790-baptism {
-        $opr-ref[b-1790-507-000-0020-0121 "Margaret Galbreath"]
-    }
-    margaret1790-death {
-        $sp-ref-link[d-1873-507-00-0118 0040 "Margaret Galbraith"]
-    }
-    margaret1790-marriage {
-        $opr-ref-link[m-1816-507-000-0050-0115 "Margaret Galbreath" "Neil Hawthorn"]
     }
     orslay1792-baptism {
         $opr-ref[b-1792-507-000-0020-0143 "Orslay Galbreath"]

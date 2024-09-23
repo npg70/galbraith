@@ -8,7 +8,7 @@ external {
 birth -date 11-jun-1855 -location gigha -ref edward1855-birth
 death -date 10-mar-1933 -location campbeltown
 body {
-    He was a carter, a store-keeper, and an insurance agent.
+    He was associated with Gaelic movement, and held the occupations of carter, store-keeper, and insurance agent. $ref[obit]
 }
 partner {
     name Mary McLarty
@@ -105,5 +105,8 @@ footnotes {
     }
     stewart1906-birth {
         $sp-ref-link[b-1906-507-00-0252 0084 "Stewart Galbraith"]
+    }
+    obit {
+        See $elink[https://www.britishnewspaperarchive.co.uk/viewer/bl/0005086/19330318/037/0002]{British Newspaper Archive} for Campbeltown Courier - Saturday 18 March 1933.
     }
 }

@@ -8,7 +8,7 @@ Notes from as of yet unpublished book.
 $h2{Arkell}
 
 $blockquote{
-May Sym... she the only daughter of Alexander S–and $child-link[galbraith-mary-paterson-1903-sym]{Mary Galbraith}
+May [Mary] Galbraith Sym... she the only daughter of Alexander Sym and $child-link[galbraith-mary-paterson-1903-sym]{Mary Galbraith}
 }
 
 $h2{Baird}
@@ -27,6 +27,13 @@ $h2{Barbour}
 
 $blockquote{
 Their daughters ... Agnes B- to $child-link[galbraith-hugh-1892-barbour]{Hugh Galbraith}
+}
+
+$h2{Blackney}
+
+$blockquote{
+[In 1765] when Agnes (Ann in this case) B- was accused of assaults on
+Ann Campbell, wife of $child-link[galbreath-neill-1839-campbell]{Neill Galbreath}, sailor,
 }
 
 $h2{Blackstock}
@@ -54,14 +61,6 @@ $blockquote{
 Duncan B–, d. Campbeltown 1907, b. 1818 on Gigha, m. $child-link[galbraith-mary-1827-brown]{Mary Galbraith}, from Colonsay, d. 1888 
 }
 
-$h2{Cameron}
-
-$blockquote{
-Alexander C–, Bardaravine,  m. Sarah Galbraith, ‘the Rhu’, in 1839.
-}
-$p{
-Only a marraige record.  Can't find anything else.
-}
 $h2{Campbell}
 
 $blockquote{
@@ -83,10 +82,32 @@ $p{
 $b{TBD}: Age 69 at death, otherwise can't find anything. No marriage records.
 }
 
+$h2{Christy}
+
+$blockquote{
+John Christy married $child-link[galbreath-helen-1764-christie]{Nelly Galbreath} in 1786 in
+Kilcalmonell. On the family gravestone in Kilkerran, as Christie, he is
+described as ‘Officer of Customs, Campbeltown’. He died on 8/1/1843,
+aged 86, and she – as Helen – on 9/2/1855, aged 90.
+}
+
 $h2{Colville}
 
 $blockquote{
 ... John Colville Jr. (below) and $child-link[galbraith-jean-1805-coville]{Jean Galbraith}.
+}
+
+$h2{Cowan}
+
+$blockquote{
+in 1809, Alexander, in Lailt, married Mary Galbreath, Machrihanish.
+}
+
+$h2{Douglas}
+
+$blockquote{
+    In 1786, Donald Duglass and Barbra Galbreth in Lagan Ròaig, Skipness
+Parish, had a daughter Jean. 
 }
 
 $h2{Downie}
@@ -95,10 +116,27 @@ $blockquote{
 William Adam D– and $child-link[galbraith-elizabeth-mcarthur-1886-downie]{Elizabeth Galbraith}
 }
 
+$h2{Drain, Hawthorn}
+
+$blockquote{
+Neil Hawthorn was a rope-maker in Campbeltown when he married
+$child-link[galbreath-margaret-1790-hawthorn]{Margaret Galbreath} in 1816. He was employed by William Watson Jr. &
+Co. from 1818 until shortly before his death, aged 73, in 1856,
+}
+
 $h2{Drummond}
 
 $blockquote{
 Mary Galbraith, who was her cousin: Margaret Cook, who married $child-link[galbreath-john-1821-cook]{John Galbraith} in 1840, was a sister of Flora’s maternal grandfather, John Cook (1813-72).
+}
+
+$h2{Eccles}
+
+$blockquote{
+in 1773 Matthew
+‘Heccles’ married Margaret McKenzie. [all OPR CP] Matthew’s sister
+Margaret married John Galbreath, maltman in Campbeltown, and died in
+December 1778. 
 }
 
 $h2{Ferguson}
@@ -111,11 +149,6 @@ $h2{Fisher}
 
 $blockquote{
 ...a grandson of Donald F– and $child-link[galbreath-margaret-1813-fisher]{Margaret Galbraith}.
-}
-
-$h2{Fleming}
-$p{ 
-TBD
 }
 
 $h2{Galbraith / Galbreath }
@@ -345,19 +378,32 @@ was a son of James G–, farmer at Peninver, and $child-link[galbreath-catharine
 
 }
 
-$h2{Hook}
-$p{
-TBD
-}
 $h2{Huie}
 
 $blockquote{
  Alex H–, who drowned in Kildalloig Bay while line-fishing from the skiff Lena on 2/5/1898, left wife, $child-link[galbraith-jean-cameron-1852-huie]{Jeanie Galbraith}, and four children. 
 }
 
+$h2{Izett}
+
+$blockquote{
+His widow, Jane
+Galbraith Hattan, whom he married in Campbeltown in 1873, was in Kirk
+Street in C1901 with son John and daughter Elizabeth and died in 1933,
+aged 83. [KG]
+}
+
 $h2{Johnson}
-$p{
-TBD
+
+$blockquote{
+Alexander Johnston of Shield Hall, a merchant in Glasgow, was a cousin
+of $child-link[galbreath-archibald-1807]{Archibald} and $child-link[galbraith-andrew-1799-scott]{Andrew GALBRAITH}, with whom he had the firm of
+Johnston, Galbraith & Co.
+}
+
+$blockquote{
+Robert J– (born in 1764) and $child-link[galbreath-rachel-1765-johnson]{Rachel Galbraith}, born in 1765
+to $child-link[galbreath-william-1736-dunlop]{William G–} and Margaret Dunlop.
 }
 
 $h2{Kerr}
@@ -366,17 +412,47 @@ $blockquote{
 John K–, painter and decorator ...  sold his business to $child-link[galbraith-daniel-1831-mcqueen]{Daniel Galbraith} and Thomas Cochranei ... in 1862
 }
 
-$h2{MacBean}
+$h2{MacBain}
 
 $blockquote{
-His father, Robert, was born in Glasgow, and his mother, Martha, was a daughter of $child-link[galbreath-neil-1841-stewart]{Neil Galbraith}, who drowned in 1873, and Martha Stewart.
+His father, Robert, was born in Glasgow, and his mother, Martha, was a daughter of $child-link[galbreath-neil-1841-stewart]{Neil Galbraith}, who drowned in 1873.
 }
+
+$h2{MacCallum}
+
+$blockquote{
+Eugenia McC– , daughter of John, tenant in Corran,
+married $child-link[galbreath-archibald-1803-mccallum-loynachan]{Archibald Galbreath}, farmer in Skeroblin, in 1835.
+Their daughter $child-link[galbraith-eugina-1838-wotherspoon]{Eugenia} married on Gigha in 1866 to James Wotherspoon,
+fisherman and later Master Mariner, and died at Clachan in 1920, aged 83.
+}
+
+$h2{MacCambridge}
+
+$blockquote{
+John McCambrage, who was indentured in 1767 as
+an apprentice cooper to William Galbreath in Campbeltown, was on
+Sanda in 1773
+}
+
+$p{$b{ Unknown }}
 
 $h2{MacDougall}
 
 $blockquote{
 Neil M-, fisherman, ... Carradale.  ... He died on 22/1/1973, aged 92, and was followed twelve days later by his wife, $child-link[galbraith-mary-1883-macdougall]{Mary Campbell Galbraith}.
 }
+
+$h2{MacEachran}
+
+$blockquote{
+In 1818, 20-year-old
+‘Alexander Cochrane or McEachran’ in Culfuar signed a witness statement
+‘Alexander McEachran’, and John McEachran, 28-year-old servant with
+John Galbreath, Tayinloan, signed as ‘J. Cochran’.
+}
+
+$p{$b{Unknown}}
 
 $h2{MacGeachy}
 $blockquote{
@@ -396,6 +472,7 @@ $h2{MacIsaac}
 $blockquote{
 John McI–, .. died in 1868. His widow $child-link[galbraith-jean-1800-macisaac]{Jane Galbraith} was 81 when she died in 1881. 
 }
+
 $h2{MacKay}
 
 $blockquote{
@@ -422,7 +499,7 @@ Donald McK– .... his death ... in 1932, aged 77 ...  His wife, $child-link[gal
 $h2{MacKinven}
 
 $blockquote{
-James alexander MacK- ... parents... Peter and $child-link[galbraith-ellen-elizabeth-1897-mackinven]{Ellen (Galbraith)}, Seaview, Carradale,
+James Alexander MacK- ... his parents... Peter and $child-link[galbraith-ellen-elizabeth-1897-mackinven]{Ellen (Galbraith)}, Seaview, Carradale,
 }
 
 $blockquote{
@@ -455,6 +532,22 @@ Mrs Catherine Galbraith [spouse of $child-link[galbreath-duncan-1835-mcmurchy]{D
  who died at Dalintober in 1927, aged 93, .. her maiden name was McMurchy.
 }
 
+$h2{MacQuarrie}
+
+$blockquote{
+n 1768, Lachlan McQuary in
+Campbeltown complained that he had given Samuel Galbreath a gold
+half-guinea for a glass of punch and received change for a silver sixpence.
+}
+
+$p{TBD}
+
+$h2{Maitland}
+
+$blockquote{
+In 1804, John Jr., miller, married $child-link[galbreath-florence-1777-maitland]{Florence Galbreath}.
+Their son John, who died in Greenock on 16/8/1901, aged 93,
+}
 
 $h2{Martin}
 
@@ -468,7 +561,7 @@ $blockquote{
 Archibald Jr., who married $child-link[galbraith-rachel-1899-mustarde]{Rachel Galbraith} in 1921 ...
 }
 
-$h2{Paterson}
+$h2{Paton,Paterson,McFatter}
 
 $blockquote{
 In 1844, $child-link[galbreath-duncan-1815-mcfater]{Duncan Galbraith}, Muasdale, married Catherine McFatter, 
@@ -479,14 +572,23 @@ $h2{Paul}
 $blockquote{
 in 1844, ... sub-let the premises to three Campbeltown merchants, David Colville Jr., John Colville Jr., and John Galbraith,
 }
+$p{Should be doable to figure out who John Galbraith is.}
+
+$h2{Sinclair}
+
+$blockquote{
+Elizabeth S–, widow of $child-link[galbraith-duncan-1878-sinclair]{Duncan Galbraith},
+Clifton Farm, Stockton, Manitoba, died in 1976, aged 93. 
+}
 
 $h2{Smith}
 
 $blockquote{
-Neil S–, who, in March 1859, fell overboard from a Campbeltown cod-fishing boat and drowned,...  Neil GALBRAITH drowned with him, 
+James S–
+drowned on 21/4/1873 when a Campbeltown fishing skiff was swamped at
+Saddell Pluck in a squall... $child-link[galbreath-neil-1841-stewart]{Neil GALBRAITH} drowned with him, 
 }
-$p{
-$b{NOTE}: Can't find Neil's death in any record.
+$p{$b{NOTE:} Death of Neil doesn't list spouse or parent, but gives an age of 42.  General other details of Neil would seem to match.
 }
 
 $h2{Stewart, Stuart}
@@ -507,6 +609,18 @@ $h2{Templeton}
 
 $blockquote{
 James T– ...  was 87 years old when he died in 1888 ...  His widow, $child-link[galbreath-orsella-1805-templeton]{Orsella Galbraith}, whom he married in 1829, died at Whitehill in 1898, aged 93.
+}
+
+$h2{Thomson}
+
+$blockquote{
+Their sister Catherine had a sweet shop, known as ‘Cathie Thomson’s’,
+at 45 Longrow, and her name was familiar to the generation of
+Campbeltown children born after the Second World War. Before the war,
+she was a popular singer in Gaelic and English and won many
+competitions. She was a member of Campbeltown Gaelic Choir and, in
+1930, under the tuition of $child-link[galbreath-edward-1855-mclarty-mckinven]{Edward GALBRAITH}, was ‘making great
+strides in acquiring the language’.
 }
 
 $h2{Weir}

@@ -5,9 +5,10 @@ baptism -date 10-jul-1825 -location campbeltown -ref archibald1825-baptism
 death -date 9-apr-1895 -location campbeltown -ref archibald1825-death
 external {
     familysearch LZVY-RCL
+    wikitree Galbraith-3406
 }
 todo {
-    descendants uninvestigated.
+    descendants uninvestigated, discrepancy in Wikitree on "edward"
 }
 
 body {
@@ -38,6 +39,8 @@ partner {
     child {
         name James Paterson Galbraith
         birth -date 12-dec-1868 -location campbeltown -ref james1868-birth
+        death -date 1886 -note 'perhaps died at sea'
+
     }
     child {
         name Samuel Galbraith
