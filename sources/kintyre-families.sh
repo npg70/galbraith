@@ -205,7 +205,7 @@ $child-link[galbraith-david-stewart-1782-fraser]{David Stewart Galbraith}, laywe
 $child-link[galbraith-flora-1820-hook]{Flora Campbell Galbraith} ...
 }
 $p{
-NOTE: For "Flora Campbell" the  middle name is suspect, and is a bit confusing given her husband has the same middle ename. OPR baptism is MIA, so who knows.
+NOTE: For "Flora Campbell" the  middle name is suspect, and is a bit confusing given her husband has the same middle name. OPR baptism is MIA, so who knows.
 }
 $hr{}
 $blockquote{
