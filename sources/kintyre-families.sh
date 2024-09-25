@@ -249,7 +249,7 @@ $blockquote{
 John G-, chairman of the London Society of Composers died in London on 15/12/1908...
 }
 $p{
-Unclear who the parents.  Notes on $child-link[galbraith-john-1839-tbd]{John Galbraith} - unclear who parents are.
+Notes on $child-link[galbraith-john-1839-ehret]{John Galbraith} - unclear who parents are.
 Maybe son of $child-link[galbreath-archibald-1814-maitland]{Archibald Galbreath}
 }
 

@@ -66,7 +66,7 @@ Census 1901 - Penny Bank Buildings, 8, Clerkenwell, Holborn, London & Middlesex,
 $csvtable{
 First,Last,Role,Age,Year,Place,Occupation
 John,Galbraith,Head,63,1838,Scotland,Printer compositor
-Jessie,Galbraith,Dau,30,1871,Holloway,Islington,-
+Jessie,Galbraith,Dau,30,1871,Holloway,-
 Emily,Galbraith,Dau,24,1877,Holloway,Vellum Folder
 }
 
