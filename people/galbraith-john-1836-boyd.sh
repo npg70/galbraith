@@ -21,10 +21,8 @@ partner {
         name Elizabeth Galbraith
         birth -date 03-jan-1866 -location greenock -ref elizabeth1866-birth
     }
-    child {
-        name Jane Boyd Galbraith
-        birth -date 9-sep-1867 -location campbeltown -ref jane1867-birth
-    }
+    child galbraith-jane-boyd-1867-henderson
+
     child {
         name John Galbraith
         birth -date 01-nov-1869 -location greenock -ref john1869-birth
@@ -60,9 +58,6 @@ footnotes {
     }
     elizabeth1866-birth {
         $sp-ref[b-1866-564-03-0071 "Elizabeth Galbraith"]
-    }
-    jane1867-birth {
-        $sp-ref-link[b-1867-507-00-0211 0071 "Jane Boyd Galbraith"]
     }
     boyd-death {
         $sp-ref-link[d-1901-564-02-0206 0069 "Margaret Galbraith"]

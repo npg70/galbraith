@@ -241,7 +241,7 @@ $child-link[galbraith-william-1833-umn]{William Galbraith} ... The last survivin
 $child-link[galbraith-john-1836-boyd]{John Galbraith} ... lived in retirement with daughter who married a Congregationist minister.
 }
 $p{
-$b{TODO}: Daughter who?
+$b{NOTE}: Daughter is $child-link[galbraith-jane-boyd-1867-henderson]{Jane Boyd Galbraith} who married Alexander Roy Henderson in 1893.
 }
 
 $hr{}
