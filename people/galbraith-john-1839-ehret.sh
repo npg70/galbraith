@@ -22,7 +22,7 @@ partner {
             name Robert George Tanner
             birth -date 25-jan-1871 -location 'Bermondsey, St. Olave Southwark, Surrey, England'
             death -date  8-feb-1943 -location 'Colchester, Essex, England'
-            marriage -date 28-jul-1894 -lcation 'Harley Street Congregational Chapel, Poplar, London, England'
+            marriage -date 28-jul-1894 -location 'Harley Street Congregational Chapel, Poplar, London, England'
         }
     }
     child {
