@@ -39,6 +39,7 @@ partner {
     marriage -date 17-nov-1835 -location campbeltown -ref maitland-marriage
     child {
         name John Galbreath
+        birth -date 21-jun-1839
         baptism -date 26-mar-1840 -location campbeltown -ref john1840-baptism
     }
     child {
@@ -55,10 +56,18 @@ footnotes {
         }
     }
     john1840-baptism {
-        $opr-ref[b-1840-507-000-0070-0169 "John Galbreath"]
+        $opr-ref-link[b-1840-507-000-0070-0169 "John Galbreath"]{
+            John - Lawful son of Archibald Galbreath Fisherman
+            and Elizabeth Maitland was born the
+            twenty-first June 1839 and Bapt 26th March
+        }
     }
     flora1843-baptism {
-        $opr-ref[b-1843-507-000-0070-0249 "Flora Galbreath"]
+        $opr-ref-link[b-1843-507-000-0070-0249 "Flora Galbreath"]{
+            Flora - Lawful daughter of of Archd Galbreath Seaman
+            and Elizabeth Maitland was born fiftheenth October
+            and Bapt 6th Nov 1843.
+        }
     }
     census-1841 {
         https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016593065&expand=true&tab=this
