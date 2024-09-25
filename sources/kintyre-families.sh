@@ -231,7 +231,7 @@ In 1888,
 $child-link[galbraith-angus-1837-sutherland]{Rev. Angus Galbraith} 1837-1909... born to $strike{Donald} $child-link[galbraith-neil-1797-mcquilkan]{Niel} and Janet McQuilkan.
 }
 $p{
-$b{CORRECTION}: Father is Neil not Donald, at least according to OPR recordsa
+$b{CORRECTION}: Father is Neil not Donald, at least according to OPR records.
 }
 $hr{}
 $blockquote{
