@@ -249,10 +249,10 @@ $blockquote{
 John G-, chairman of the London Society of Composers died in London on 15/12/1908...
 }
 $p{
-NOTE: 
-$elink[https://books.google.com/books?id=OV02W1GizPwC&pg=RA24-PA12&lpg=RA24-PA12&dq=John+Galbraith+%22London+Society+of+Compositors%22&source=bl&ots=Xcm8rJeMfg&sig=ACfU3U0giVtAEi0X-5B1HNx9i3bcP8Af5A&hl=en&sa=X&ved=2ahUKEwizpIu-l5z5AhULIEQIHWjAAd0Q6AF6BAgVEAI#v=onepage&q=John%20Galbraith%20%22London%20Society%20of%20Compositors%22&f=false]{Additional obit} on Google Books. -- 
- Maybe born 1839, died age 69ish. Can't find any parent information, nor in census. Seems unmarried.
+Unclear who the parents.  Notes on $child-link[galbraith-john-1839-tbd]{John Galbraith} - unclear who parents are.
+Maybe son of $child-link[galbreath-archibald-1814-maitland]{Archibald Galbreath}
 }
+
 $hr{}
 $blockquote{
 In 1897, $child-link[galbraith-william-1870-mcmillan]{William Galbraith} ... guilty of manslaughter of his wife Margaret McMillian.  He was born in 1870 to 

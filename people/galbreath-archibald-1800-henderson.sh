@@ -52,12 +52,48 @@ partner {
 }
 body {
     $p{
-    His birth date from death certificate says 1800 or 1801, but census reports give it as 1808 or 1811. Death certificate says his parents where John Galbreath and Margt (maybe Mary) Galbreath. There is an Archibald Galbreath b. GALBREATH ARCHIBALD NEIL GALBREATH/MARGARET GALBREATH FR1200 (FR1200) M 05/02/1800 507/. Given the first child is also named Neil, and given Scot-Irish naming convention, this looks likely.
+    His birth date from death certificate says 1800 or 1801, but census reports give it as 1808 or 1811. Death certificate says his parents where John Galbreath and Margt (maybe Mary) Galbreath. There is an Archibald Galbreath b. GALBREATH ARCHIBALD NEIL GALBREATH/MARGARET GALBREATH FR1200 (FR1200) M 05/02/1800 507/. Given the first child is also named Neil, and given Scot-Irish naming convention, this looks possible.
     }
 
     $p{
     He was a mason.
     }
+
+    $p{
+Census 1841, Burn Side, Campbeltown$ref[census-1841]
+$csvtable{
+First,Last,Age,Year,Place,Occupation
+Archibald,Galbreath,37,1804,Argyllshire,Masson
+Ann,Galbreath,30,1811,Argyllshire,-
+Neill,Galbreath,7,1834,Argyllshire,-
+Margaret,Galbreath,4,1837,Argyllshire,-
+Margaret,Galbreath,85,1756,Argyllshire,-
+}
+}
+    $p{
+Census 1851, High Street, Campbeltown$ref[census-1851]
+    $csvtable{
+First, Last, Role, Age, Year,Birth,Occupation
+Archibald, Galbraith,Head, 40, 1811,Campbeltown,Mason
+Ann,Henderson,Wife,35,1816,Campbeltown,-
+Neil,Galbraith,Son,15,1836,Campbeltown,Scholar
+Catherine,Galbraith,Dau,7,1844,Campbeltown,-
+Archibald,Galbraith,Son,5,1846,Campbeltown,-
+Alexander,Galbraith,Son,3,1848,Campbeltown,-
+}
+}
+
+$p{
+Census 1861,Ladymary Row, Campbeltown$ref[census-1861]
+$csvtable{
+First,Last,Role,Age,Year,Place,Occupation
+Archibald,Galbraith,Head,53,1808,Campbeltown,Mason
+Agnes,Galbraith,Wife,42,1819,Campbeltown,Mason's Wife
+Catherine,Galbraith,Dau,15,1846,Campbeltown,Mason's Daughter
+Archibald,Galbraith,Son,14,1847,Campbeltown,Mason
+Alexander,Galbraith,Son,11,1850,Campbeltown,Scholar
+}
+}
 }
 
 footnotes {
@@ -92,5 +128,14 @@ footnotes {
     }
     catherine1844-death {
         $sp-ref-link[d-1879-507-00-0174 0058 "Catherine Galbraith"]
+    }
+    census-1841 {
+        https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016606306&tab=this
+    }
+    census-1851 {
+        https://www.findmypast.com/transcript?id=GBC%2F1851%2F0019255388&expand=true&tab=this
+    }
+    census-1861 {
+        https://www.findmypast.com/transcript?id=GBC%2F1861%2F0022162705&expand=true&tab=this
     }
 }

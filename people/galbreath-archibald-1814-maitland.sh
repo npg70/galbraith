@@ -4,11 +4,19 @@ external {
     familysearch KH8D-G3C
 }
 tags Argyll:Campbeltown 'Dead End'
-todo { 
-    Needs 1841 census.
-}
+
 body {
-1851 Census, 507-11-16
+1841 Census, Store House New Quay Head, Campbeltown$ref[census-1841]
+$csvtable{
+Name,Age,Year
+Archibald Galbreath,25,1816
+John Galbreath,2,1839
+John Maitland,55,1786
+Catharine McLiver,45,1786
+}
+
+
+1851 Census, Shore Street East Side, Campbeltown,  507-11-16$ref[census-1851]
 $csvtable{
 Name,Relation,Age,Year,Birthplace,Occupation
 Archibald Galbreath,Head,38,1813,Gigha,Fisherman
@@ -51,5 +59,11 @@ footnotes {
     }
     flora1843-baptism {
         $opr-ref[b-1843-507-000-0070-0249 "Flora Galbreath"]
+    }
+    census-1841 {
+        https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016593065&expand=true&tab=this
+    }
+    census-1851 {
+        https://www.findmypast.com/transcript?id=GBC%2F1851%2F0019261122&expand=true&tab=this
     }
 }
