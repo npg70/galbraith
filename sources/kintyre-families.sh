@@ -307,7 +307,7 @@ $blockquote{
 ...Lachlan Galbreath, "teacher of English and Gaelic" ... master of private school in Torrisdale in 1838 and belonged to  Gigha
 }
 $p{
-$b{NOTE}: Can't figure out who this is. 
+$b{NOTE}: May be $child-link[galbraith-lachlan-1810-mcgilvray]{Lachlan McTaggart Galbraith}, whose death record in Jura states he was a teacher.
 }
 $hr{}
 $blockquote{
