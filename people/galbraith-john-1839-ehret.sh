@@ -1,5 +1,5 @@
 name John Galbraith
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown 'daughtered out'
 birth -date 1839 -location campbeltown
 death -date 15-dec-1908 -location Holborn,London,England -ref john-death
 partner {
@@ -13,6 +13,7 @@ partner {
     child {
         name Janet Galbraith
         birth -date 1869 -location Islington,Middlesex,England
+        death -date 1941
     }
     child {
         name Eliza Galbraith
@@ -28,10 +29,12 @@ partner {
     child {
         name Frederick Galbraith
         birth -date 1874 -location Islington,Middlesex,England
+        death -date 1886 -location Holborn,London,England -ref frederick1886-death
     }
     child {
         name Emily Galbraith
         birth -date 1877 -location Islington,Middlesex,England
+        death -date 1943 -location 'Shoreditch, London, England'
     }
 }
 body {
@@ -84,6 +87,9 @@ $elink[https://books.google.com/books?id=OV02W1GizPwC&pg=RA24-PA12&lpg=RA24-PA12
 footnotes {
     john-death {
         https://www.findmypast.com/transcript?id=BMD%2FD%2F1908%2F4%2FAZ%2F000125%2F100&tab=this
+    }
+    frederick-death {
+        https://www.findmypast.com/transcript?id=BMD%2FD%2F1886%2F2%2FAZ%2F000120%2F314&tab=this
     }
     census-1871 {
         https://www.findmypast.com/transcript?id=GBC%2F1871%2F0001693819&tab=this
