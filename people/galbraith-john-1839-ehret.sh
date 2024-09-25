@@ -88,7 +88,7 @@ footnotes {
     john-death {
         https://www.findmypast.com/transcript?id=BMD%2FD%2F1908%2F4%2FAZ%2F000125%2F100&tab=this
     }
-    frederick-death {
+    frederick1874-death {
         https://www.findmypast.com/transcript?id=BMD%2FD%2F1886%2F2%2FAZ%2F000120%2F314&tab=this
     }
     census-1871 {
@@ -104,11 +104,12 @@ footnotes {
         https://www.findmypast.com/transcript?id=GBC%2F1901%2F0007176067&tab=this
     }
     ehret-marriage {
-        Due to strange UK system, there are two indirect records.  First record is for $elink[https://www.findmypast.com/transcript?id=BMD%2FM%2F1869%2F1%2FAZ%2F000079%2F140&tab=this]{John Galbraith} which lists the marriage in the first quarter of 1869, in Islington, London, Volume 1B, Page 337.
+        With the UK system, the partners are not listed together.  Instead there are two indirect records.
+      
+        First record is for $elink[https://www.findmypast.com/transcript?id=BMD%2FM%2F1869%2F1%2FAZ%2F000079%2F140&tab=this]{John Galbraith} which lists the marriage in the first quarter of 1869, in Islington, London, Volume 1B, Page 337.
 
         The second record is for $elink[https://www.findmypast.com/transcript?id=BMD%2FM%2F1869%2F1%2FAZ%2F000067%2F139&tab=this]{Eliza Ehret}. Due to a transcription error, it says the record is on Page 317.  FindMyPast has been notified on 24-Sep-2024.
     }
-
     ehret-death {
         https://www.findmypast.com/transcript?id=BMD%2FD%2F1880%2F1%2FAZ%2F000136%2F337&tab=this
 
