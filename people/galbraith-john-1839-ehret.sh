@@ -16,7 +16,14 @@ partner {
     }
     child {
         name Eliza Galbraith
-        birth -date 1871 -location Islington,Middlesex,England
+        birth -date 29-dec-1870 -location Islington,Middlesex,England
+        death -date 01-aug-1941 -location 'Colchester, Essex, England'
+        partner {
+            name Robert George Tanner
+            birth -date 25-jan-1871 -location 'Bermondsey, St. Olave Southwark, Surrey, England'
+            death -date  8-feb-1943 -location 'Colchester, Essex, England'
+            marriage -date 28-jul-1894 -lcation 'Harley Street Congregational Chapel, Poplar, London, England'
+        }
     }
     child {
         name Frederick Galbraith
