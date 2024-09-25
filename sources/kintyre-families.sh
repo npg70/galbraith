@@ -342,7 +342,7 @@ $child-link[galbraith-elizabeth-1841-fleming]{Elizabeth Galbraith}, married Jame
 }
 $hr{}
 $blockquote{
-$child-link[galbreath-robert-1778-harvey]{Robert Galbreath} succeeded to his late father $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath}'s lease of High Peninver buy by 1819 had gone to America.
+$child-link[galbreath-robert-1778-harvey]{Robert Galbreath} succeeded to his late father $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath}'s lease of High Peninver but by 1819 had gone to America.
 }
 $blockquote{
 $child-link[galbraith-samuel-1850-reynolds]{Samuel Galbraith} who married Mary Ellen Reynolds, Antigua... born in 1856 to 
