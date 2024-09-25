@@ -104,7 +104,7 @@ footnotes {
         https://www.findmypast.com/transcript?id=GBC%2F1901%2F0007176067&tab=this
     }
     ehret-marriage {
-        With the UK system, the partners are not listed together.  Instead there are two indirect records.
+        With the UK marriage indexes, the partners are not listed together.  Instead there are two indirect records.
       
         First record is for $elink[https://www.findmypast.com/transcript?id=BMD%2FM%2F1869%2F1%2FAZ%2F000079%2F140&tab=this]{John Galbraith} which lists the marriage in the first quarter of 1869, in Islington, London, Volume 1B, Page 337.
 
