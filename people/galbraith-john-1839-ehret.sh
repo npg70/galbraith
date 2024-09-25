@@ -29,7 +29,7 @@ partner {
     child {
         name Frederick Galbraith
         birth -date 1874 -location Islington,Middlesex,England
-        death -date 1886 -location Holborn,London,England -ref frederick1886-death
+        death -date 1886 -location Holborn,London,England -ref frederick1874-death
     }
     child {
         name Emily Galbraith

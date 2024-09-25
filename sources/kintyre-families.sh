@@ -246,7 +246,7 @@ $b{TODO}: Daughter who?
 
 $hr{}
 $blockquote{
-John G-, chairman of the London Society of Composers died in London on 15/12/1908...
+John G-, chairman of the London Society of Compositors died in London on 15/12/1908...
 }
 $p{
 Notes on $child-link[galbraith-john-1839-ehret]{John Galbraith} - unclear who parents are.
