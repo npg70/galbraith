@@ -113,7 +113,7 @@ $ppre{
 $b{Elizabeth Galbraith}, 64
 Bell Gillies, her granddaughter, 5
 Nelly Gillies, her granddaughter, 3
-Donald Blue, niller, 40
+Donald Blue, miller, 40
 Alexander Buie, 13
 }
 
