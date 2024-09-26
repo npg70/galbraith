@@ -144,7 +144,7 @@ Possible John remarried in 1781  see $child-link[galbreath-john-1760-mclean]{Joh
 }
 
 $p{
-The other John that got married around this time is $child-link[galbreath-john-1737-galbreath]{John Galbreath b. 1837} was a police offier and unlikely to be a match.
+The other John that got married around this time is $child-link[galbreath-john-1737-galbreath]{John Galbreath b. 1737} was a police offier and unlikely to be a match.
 }
 
 $h2{Ferguson}
@@ -213,10 +213,7 @@ $child-link[galbraith-hugh-1863]{Hugh Galbraith}-- was born in Campbeltown in 18
 }
 $hr{}
 $blockquote{
-$child-link[galbraith-william-campbell-1869-morrison]{William Campbell Galbraith} (1870-1946), son of $child-link[galbraith-william-1846-campbell]{William} ...
-}
-$p{
-NOTE: I have b. 1869 not 1870.
+$child-link[galbraith-william-campbell-1869-morrison]{William Campbell Galbraith} (1869-1946), son of $child-link[galbraith-william-1846-campbell]{William} ...
 }
 
 $hr{}
@@ -228,10 +225,7 @@ $hr{}
 
 $blockquote{
 In 1888, 
-$child-link[galbraith-angus-1837-sutherland]{Rev. Angus Galbraith} 1837-1909... born to $strike{Donald} $child-link[galbraith-neil-1797-mcquilkan]{Niel} and Janet McQuilkan.
-}
-$p{
-$b{CORRECTION}: Father is Neil not Donald, at least according to OPR records.
+$child-link[galbraith-angus-1837-sutherland]{Rev. Angus Galbraith} 1837-1909... born to $child-link[galbraith-neil-1797-mcquilkan]{Niel} and Janet McQuilkan.
 }
 $hr{}
 $blockquote{
@@ -312,10 +306,7 @@ $b{NOTE}: May be $child-link[galbraith-lachlan-1810-mcgilvray]{Lachlan McTaggart
 $hr{}
 $blockquote{
 ... age 19, 
-$child-link[galbreath-edward-1855-mclarty-mckinven]{Edward Galbreath} moved from Gigha to Campbletown where he died in 1933. A son of $child-link[galbraith-john-1816-mcgeachy]{John} shoemaker and $strike{Mary} Ann McGeachy
-}
-$p{
-$b{CORRECTION}: His mother was Ann, not Mary.
+$child-link[galbreath-edward-1855-mclarty-mckinven]{Edward Galbreath} moved from Gigha to Campbletown where he died in 1933. A son of $child-link[galbraith-john-1816-mcgeachy]{John} shoemaker and Ann McGeachy
 }
 $hr{}
 $blockquote{
@@ -488,10 +479,7 @@ John McI–, .. died in 1868. His widow $child-link[galbraith-jean-1800-macisaac
 $h2{MacKay}
 
 $blockquote{
-On 27/3/$strike{1823}1824, Donald McK–, wright at Dunglas, married $child-link[galbraith-agnes-1801-mackay]{Agnes Galbraith} born at Dalrymple, Ayrshire. 
-}
-$p{
-$b{CORRECTION}: Marriage was in 1824, not 1823.
+On 27/3/1824, Donald McK–, wright at Dunglas, married $child-link[galbraith-agnes-1801-mackay]{Agnes Galbraith} born at Dalrymple, Ayrshire. 
 }
 $p{
 $b{NOTE}: younger sister of $child-link[galbraith-william-1791-grieve]{William Galbraith} who moved from Dalyrmple to Ayr in 1851, as mentioned in GALBRAITH section.
@@ -644,9 +632,6 @@ In 1863, their son John W-  married $child-link[galbraith-elizabeth-1840-weir]{B
 $h2{Young}
 
 $blockquote{
-daughter Margaret Y- married $strike{Hector} $child-link[galbraith-john-mccorkindale-1886-young]{John Galbraith}, Polliwilline, in 1917.
-}
-$p{
-$b{CORRECTION}: She married John, not Hector. 
+daughter Margaret Y- married $child-link[galbraith-john-mccorkindale-1886-young]{John Galbraith}, Polliwilline, in 1917.
 }
 
