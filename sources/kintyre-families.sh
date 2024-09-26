@@ -217,11 +217,6 @@ $child-link[galbraith-william-campbell-1869-morrison]{William Campbell Galbraith
 }
 
 $hr{}
-$blockquote{
-Recently married $child-link[galbreath-samuel-1827-beton]{Samuel Galbreath}, (died) ... 1860 ... His father $child-link[galbreath-david-1797-mitchell]{David} ...
-}
-
-$hr{}
 
 $blockquote{
 In 1888, 
@@ -333,6 +328,11 @@ $child-link[galbraith-elizabeth-1841-fleming]{Elizabeth Galbraith}, married Jame
 }
 $hr{}
 $blockquote{
+Recently married $child-link[galbreath-samuel-1827-beton]{Samuel Galbreath}, (died) ... 1860 ... His father $child-link[galbreath-david-1797-mitchell]{David} ...
+}
+
+$hr{}
+$blockquote{
 $child-link[galbreath-robert-1778-harvey]{Robert Galbreath} succeeded to his late father $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath}'s lease of High Peninver but by 1819 had gone to America.
 }
 $blockquote{
@@ -345,30 +345,6 @@ $child-link[galbraith-william-1791-grieve]{William Galbraith} (of) Dalrymple,Ayr
 $child-link[galbraith-john-1824-paterson]{John Galbraith} ...
 }
 $hr{}
-$h3{Possible Additions}
-
-$p{
-$child-link[galbraith-alexander-archibald-1945-allen]{Alexander Archibald Galbraith}, also nicknamed Sandy, and great-grandson of the other Archibald Sandy, and son of Alexander and Marion (McDougall) Galbraith. If I got this correct.  b. 1945, d. 25 Jan 2022. m. Doreen Allen in 1971.
-}
-$p{
-Listed on page 62 of the Campbeltown book
-}
-$blockquote{
-The modern shipyard at Trench Point ... built only two fishing boats for Campbeltown owners... The Aquarian was launched in spring [of 1971] for Archibald Galbraith.
-}
-$p{
-Perhaps the same Archibald involved in the rescue of 10 people from the motor yacht Quesada on the night of 22nd/23rd May, 1966. $elink[https://lifeboatmagazinearchive.rnli.org/volume/40/419/award-for-scottish-skipper?searchterm=Yacht+Gan&page=691]{Lifeboat Magazine}.
-}
-
-$p{
-$child-link[galbraith-archibald-1856-mccallum]{Archibald Galbreath} son of Donald Galbraith and Margaret McNeil, was born 24 Apr 1856 at Killean and Kilchenzie. He died 28 Apr 1936. He married 30 January 1885 at Killean and Kilchenzie to Margaret McCallum.
-}
-$p{
-Margaret was mentioned in the Campbeltown Courier, Honouring Killean and Kilchenzie’s fallen 100 years on, Updated: 04/08/22, 4:31 pm. Her sons $child-link[galbraith-donald-1886]{Donald} and $child-link[galbraith-archibald-1890]{Archibald} were killed during WWI, in Bulgaria and France respectively.
-}
-$blockquote{
-Before family members laid their wreaths at the foot of the memorial in 1922, the first wreath was placed by Mrs Archibald Galbraith, two of whose sons were included in the fallen. This was followed by a march past of ex-servicemen.
-}
 
 $h2{Greenlees}
 
