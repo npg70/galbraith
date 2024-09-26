@@ -1,5 +1,5 @@
 $title{Kintyre Magazine}
-$pub-author{Elizabeth Morrison}
+$pub-author{Elizabeth Marrison}
 $pub-name{Ten Miles South of Campbeltown}
 $pub-date{2004}
 $pub-url{http://www.ralstongenealogy.com/number55kintmag.htm#first}
