@@ -35,8 +35,12 @@ $li{
 Mary Blue (the missing daughter) and Hugh Gillies married in 1818 on Gigha.
 }
 $li{
-Mary Gillies died at age 47 (b. ~1800) as recorded in OPR and on $elink[https://www.findagrave.com/memorial/115118895/mary-gillies]{Find A Grave}
+Mary (Blue) Gillies died at age 47 (b. ~1800) as recorded in OPR and on $elink[https://www.findagrave.com/memorial/115118895/mary-gillies]{Find A Grave}
+$blockquote{
+1855. Erected by Hugh Gillies, Beallochroy in memory of his wife Mary Blue who died 22 nd Dec 1847 aged 53 years.
 }
+}
+
 $li{
 Malcolm Blue died 1823 age 77 (b. ~1746)  at Ardelay.  Assume he was married to Elizabeth Galbreath.
 }
