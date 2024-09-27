@@ -98,12 +98,15 @@ $h2{Magazines}
 
 $ul{
 	$li{$source-link[kintyre-magazine-14]{Kintyre Magazine #14}, "An 18th Century Letter from Campbeltown to America"}
-	$li{$source-link[kintyre-magazine-16]{Kintyre Magazine #16},"James Stewart - Fact of Fiction Another Dunaverty Mystery"}
-	$li{$source-link[kintyre-magazine-28]{Kintyre Magazine #28}, TBD}
+	$li{$source-link[kintyre-magazine-16]{Kintyre Magazine #16}, "James Stewart - Fact of Fiction Another Dunaverty Mystery"}
+	$li{$source-link[kintyre-magazine-17]{Kintyre Magazine #17}, "Sons of the Highland Manse"}
+	$li{$source-link[kintyre-magazine-23]{Kintyre Magazine #23}, "The Blues of North Kintyre"}
+	$li{$source-link[kintyre-magazine-28]{Kintyre Magazine #28}, "The McShannons of Kintyre: Harpers to Tacksmen"}
 	$li{$source-link[kintyre-magazine-35]{Kintyre Magazine #35}, "Letters to America"}
 	$li{$source-link[kintyre-magazine-50]{Kintyre Magazine #50}, "The Templetons of Kintyre"}
 	$li{$source-link[kintyre-magazine-55]{Kintyre Magazine #55}, "Ten Miles South of Campbeltown"}
 	$li{$source-link[kintyre-magazine-67]{Kintyre Magazine #67}, "Argyll's Forgotten Whisky Barons"}
+	$li{$source-link[kintyre-magazine-83]{Kintyre Magazine #83}, "Obit: Carol (Galbraith) Thomson"}
 	$li{$source-link[kintyre-magazine-90]{Kintyre Magazine #90}, "Letter 1849/1850, page 17, note 11"}
 }
 
