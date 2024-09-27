@@ -54,7 +54,7 @@ $blockquote{
 Ann B–, widow of John Galbraith, was 97 when she died at Tayinloan in 1866
 }
 $p{
-Marriage was in 1791, but no other records, no apparent children.  She was a mid-wife if I read correctly.
+$b{NOTE:} Marriage was in 1791, but no other records, no apparent children.  She was a mid-wife if I read correctly.
 }
 
 $blockquote{
@@ -64,7 +64,7 @@ Duncan B–, d. Campbeltown 1907, b. 1818 on Gigha, m. $child-link[galbraith-mar
 $h2{Campbell}
 
 $blockquote{
-MacNeill C–, who shortly afterwards purchased Glensaddell Estate for £44,000 from John C– of Glensaddell and David Galbraith 
+MacNeill C–, who shortly afterwards purchased Glensaddell Estate for £44,000 from John C– of Glensaddell and $b{David Galbraith} [CC 28/4/1928 & 5/3/1932]
 }
 
 $h2{Carmichael}
@@ -76,10 +76,10 @@ $blockquote{
 $h2{Carswell}
 
 $blockquote{
-Donald gardener at Kilchrist, whose wife was Margaret Galbraith [from Campbeltown], died suddenly on 12/4/1866.... 
+Donald gardener at Kilchrist, whose wife was $b{Margaret Galbraith} [from Campbeltown], died suddenly on 12/4/1866.... 
 }
 $p{
-$b{TBD}: Age 69 at death, otherwise can't find anything. No marriage records.
+$b{NOTE}: Age 69 at death, otherwise can't find anything. No marriage records.
 }
 
 $h2{Christy}
@@ -100,13 +100,13 @@ $blockquote{
 $h2{Cowan}
 
 $blockquote{
-in 1809, Alexander, in Lailt, married Mary Galbreath, Machrihanish.
+in 1809, Alexander, in Lailt, married $b{Mary Galbreath}, Machrihanish.
 }
 
 $h2{Douglas}
 
 $blockquote{
-    In 1786, Donald Duglass and Barbra Galbreth in Lagan Ròaig, Skipness
+    In 1786, Donald Duglass and $b{Barbra Galbreth} in Lagan Ròaig, Skipness
 Parish, had a daughter Jean. 
 }
 
@@ -135,15 +135,15 @@ $h2{Eccles}
 $blockquote{
 in 1773 Matthew
 ‘Heccles’ married Margaret McKenzie. [all OPR CP] Matthew’s sister
-Margaret married John Galbreath, maltman in Campbeltown, and died in
+Margaret married $b{John Galbreath}, maltman in Campbeltown, and died in
 December 1778. 
 }
 
-$p{
+$p{$b{NOTE:}
 Possible John remarried in 1781  see $child-link[galbreath-john-1760-mclean]{John Galbreath b. 1760}.  Needs investigation.
 }
 
-$p{
+$p{$b{NOTE:}
 The other John that got married around this time is $child-link[galbreath-john-1737-galbreath]{John Galbreath b. 1737} was a police offier and unlikely to be a match.
 }
 
@@ -176,24 +176,24 @@ Neill Galbreath, 1733, son of Gilnive, Kilchamaig
 }
 $hr{}
 $blockquote{
-John G-, innkeeper and constable in Tayinload ... attacked ... 18181
+$b{John G-}, innkeeper and constable in Tayinload ... attacked ... 1818
 }
 $p{
-NOTE: Unable to find any additional info to identify him.   IMHO, it's a odd start to the section.
+$b{NOTE:} Unable to find any additional info to identify him.
 }
 
 $blockquote{
 $child-link[galbraith-hector-1859-mccorkindale]{Hector Galbraith} ... died 1921 ... widow Mary McCorkindale.  Son $child-link[galbraith-john-mccorkindale-1886-young]{John} ... married Margaret Young. For their son $child-link[galbraith-john-mclaren-1918]{John McLaren G--}... earliest in ... this line was $child-link[galbreath-john-1760-mclean]{John} who married More McLean in 1781...
 }
 $p{
-NOTE: The Internet says the line goes back on generation one more to a $child-link[galbreath-john-1710-clark]{John Galbreath} and Isobell Clark. Evidence appears to be circumstantial based on OPR records and appropriate ages, but looks reasonable.
+$b{NOTE:} The Internet says the line goes back on generation one more to a $child-link[galbreath-john-1710-clark]{John Galbreath} and Isobell Clark. Evidence appears to be circumstantial based on OPR records and appropriate ages, but looks reasonable.
 }
 
 $blockquote{
 $child-link[galbraith-hugh-1892-barbour]{Hugh Galbratih} ... and his wife Agnes J. Barbour ...  In 1947 ... Neil ... aged 25... grandson of the late $child-link[galbraith-neil-1855-mccallum]{Neil Galbraith} ...
 }
 
-$p{ NOTE: a bit hard to read.  Neil is "Neil G--".  Died in 1993.  Marriage unknown.
+$p{$b{NOTE:} Neil is "Neil G--".  Died in 1993.  Marriage unknown.
 }
 
 $hr{}
@@ -205,7 +205,7 @@ $child-link[galbraith-david-stewart-1782-fraser]{David Stewart Galbraith}, laywe
 $child-link[galbraith-flora-1820-hook]{Flora Campbell Galbraith} ...
 }
 $p{
-NOTE: For "Flora Campbell" the  middle name is suspect, and is a bit confusing given her husband has the same middle name. OPR baptism is MIA, so who knows.
+$b{NOTE:} For "Flora Campbell" the  middle name is suspect, and is a bit confusing given her husband has the same middle name. OPR baptism is MIA, so who knows.
 }
 $hr{}
 $blockquote{
@@ -265,7 +265,7 @@ $blockquote{
 $child-link[galbraith-archibald-1865-mckay]{Archibald Galbraith}, d. 1928,age 62, ... married Isabella McKay.
 }
 $p{
-NOTE: Uncle of $child-link[galbraith-jane-1890]{Jeannie Galbraith} (above, the one with "many near relatives in Campbeltown")
+$b{NOTE:} Uncle of $child-link[galbraith-jane-1890]{Jeannie Galbraith} (above, the one with "many near relatives in Campbeltown")
 }
 $hr{}
 $blockquote{
@@ -388,7 +388,7 @@ to $child-link[galbreath-william-1736-dunlop]{William G–} and Margaret Dunlop.
 $h2{Kerr}
 
 $blockquote{
-John K–, painter and decorator ...  sold his business to $child-link[galbraith-daniel-1831-mcqueen]{Daniel Galbraith} and Thomas Cochranei ... in 1862
+John K–, painter and decorator ...  sold his business to $child-link[galbraith-daniel-1831-mcqueen]{Daniel Galbraith} and Thomas Cochrane ... in 1862
 }
 
 $h2{MacBain}
@@ -410,11 +410,11 @@ $h2{MacCambridge}
 
 $blockquote{
 John McCambrage, who was indentured in 1767 as
-an apprentice cooper to William Galbreath in Campbeltown, was on
+an apprentice cooper to $b{William Galbreath} in Campbeltown, was on
 Sanda in 1773
 }
 
-$p{$b{ Unknown }}
+$p{$b{Note:} Unknown }
 
 $h2{MacDougall}
 
@@ -428,10 +428,10 @@ $blockquote{
 In 1818, 20-year-old
 ‘Alexander Cochrane or McEachran’ in Culfuar signed a witness statement
 ‘Alexander McEachran’, and John McEachran, 28-year-old servant with
-John Galbreath, Tayinloan, signed as ‘J. Cochran’.
+$b{John Galbreath}, Tayinloan, signed as ‘J. Cochran’.
 }
 
-$p{$b{Unknown}}
+$p{$b{NOTE:} Not clear what is going on here.
 
 $h2{MacGeachy}
 $blockquote{
@@ -512,11 +512,10 @@ $h2{MacQuarrie}
 
 $blockquote{
 n 1768, Lachlan McQuary in
-Campbeltown complained that he had given Samuel Galbreath a gold
+Campbeltown complained that he had given $b{Samuel Galbreath} a gold
 half-guinea for a glass of punch and received change for a silver sixpence.
 }
-
-$p{TBD}
+$p{$b{NOTE:} There are a few canidates for Samuel.}
 
 $h2{Maitland}
 
@@ -546,9 +545,14 @@ In 1844, $child-link[galbreath-duncan-1815-mcfater]{Duncan Galbraith}, Muasdale,
 $h2{Paul}
 
 $blockquote{
-in 1844, ... sub-let the premises to three Campbeltown merchants, David Colville Jr., John Colville Jr., and John Galbraith,
+in 1844, ... sub-let the premises to three Campbeltown merchants, David Colville Jr., John Colville Jr., and $child-link[{galbraith-john-1809-mcewing]{John Galbraith}...
 }
-$p{Should be doable to figure out who John Galbraith is.}
+$ul{
+$li{David Colville Jr, is $child-link[colville-david-1813-barr]{David Colville}, b. 1813, the son of Robert Colville and Janet Mitchell, all from Campbeltown. Unclear why "Jr." was used, but it's him. 
+}
+$li{John Colville Jr is certainly the husband of $child-link[galbraith-jean-1805-coville]{Jean Galbraith}, b. 1796, d. 1851.  Again unclear why the "Jr" is used, as his father was Archibald.}
+$li{John Galbraith is likely Jean's brother $child-link[galbraith-john-1809-mcewing]{John Galbraith}, future Provost of Campbeltown, who married Mary Colville McEwing, who is possibly John Colville's sister.}
+}
 
 $h2{Sinclair}
 
@@ -576,10 +580,10 @@ Archibald, Refluich, drowned with $child-link[galbraith-donald-1841]{Donald Galb
 $h2{Tarbert}
 
 $blockquote{
-Twins Mary and Flora were born in 1809 to Robert T–, shipmaster, and Margaret Galbraith. 
+Twins Mary and Flora were born in 1809 to Robert T–, shipmaster, and $b{Margaret Galbraith}. 
 }
 $p{
-$b{NOTE}: Can't find much about them.  They married at Campbeltown in 1796, "of this Parish."   $elink[https://www.familysearch.org/tree/person/details/K4DH-DMX]{Family Search}
+$b{NOTE:} Can't find much about them.  They married at Campbeltown in 1796, "of this Parish."   $elink[https://www.familysearch.org/tree/person/details/K4DH-DMX]{Family Search}
 }
 $h2{Templeton}
 
