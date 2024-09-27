@@ -431,8 +431,6 @@ In 1818, 20-year-old
 $b{John Galbreath}, Tayinloan, signed as ‘J. Cochran’.
 }
 
-$p{$b{NOTE:} Not clear what is going on here.
-
 $h2{MacGeachy}
 $blockquote{
  her father ‘Suine’ McQuilkan married $child-link[galbraith-flora-1789-mcquilkan]{Flora Galbraith} on Gigha in 1808
