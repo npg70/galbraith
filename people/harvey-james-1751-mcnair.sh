@@ -12,6 +12,7 @@ partner {
         name Jean Harvey
         birth -date 16-mar-1788
         baptism -date 19-mar-1788 -location campbeltown -ref jean1788-baptism
+    }
 }
 body {
     He was a shoe marker.
