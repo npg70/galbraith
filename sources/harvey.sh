@@ -1,7 +1,7 @@
 $title{test}
 
 $section{
-$h2{KL 192}
+$h2{KL 182}
 
 $ul{
 $li{1775 - $b{Robert Culbertson} Tenant in Calliburn and Andrew Harvey Merchant in Campbeltown}
@@ -10,6 +10,26 @@ $li{1800 - $b{James Galbreath} Tenant in Ardnacross}
 $li{1800 - The lands east of Skerbolin presently possesed by $b{James Harvey} as heir to $b{Andrew Harvey} his father.}
 $li{1807 - $b{James Culbertson} tenant in West Skeroblingatty}
 }
+}
+
+$section{
+$h2{KL 189}
+
+$ul{
+$li{1780 - $b{John Stewart} at High Park (He succeeded the deceased John Fleeming)}
+$li{1798 - $b{James Harvie} tenant in Bellevein + $b{Andrew Harvie} residing in Skerobolinraid or Park" sons of James Harvie there}
+$li{1798 - $b{Donald McWilliams} tenant of South Peninver}
+$li{1813 - $b{Robert Galbreath} present tacksman of High Peninver. In a memorial dated 1812 he states that he succeeded his father the deceased Samuel Galbreath as tenant of farm of High Peninver. His father's tack will expire at [???] 1813.}
+$li{1817 - $b{Andrew Harvie} present tenant in Mid Peninver. On 28th Oct 1820 $b{Andrew Harvie} wrote
+to the Chamberlain that he desired to go to America "where so many of my relations are before me," &
+relinquish this lease.}
+$li{xxxx - $b{James Greenlees} sent a letter dated "North Peninver 1st Oct 1819" to Chamberlain complaining that his man collecting "Drift/Seaware" for his farm were hindered by $b{Duncan Stewart} "on whose boat[?] of the shore the wreck had drifted [?]," Greenlees mentioned his predecessor $b{Robt. Galbreath}
+    who "went to America."}
+$li{1817 - $b{Duncan Stewart} present tenant in the lands hereby set. In 1815 he took over the farm from the heirs of $b{Donald McWillam} + $b{Janet ???}}
+$li{1821 - $b{Andrew Stewart} in Peninver. In 1820 he was in Park farm & Skerobolinraid & made an offer for Low Peninver.... Farm of Mid Peninver ... as formerly possesed by $b{Andrew Harvie}}
+}
+}
+
 $section{
 $h2{Robert Galbreath x Katharine Harvie}
 
