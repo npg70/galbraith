@@ -1,16 +1,16 @@
 name Katharine Galbreath
 tags Argyll:Campbeltown
-baptism -date 10-may-1741 -location campbeltown -ref katharine1741-baptism
 birth -date 3-may-1741
+baptism -date 10-may-1741 -location campbeltown -ref katharine1741-baptism
 external {
     familysearch 9M9D-F9R
 }
 partner {
     name James Harvie
-    birth -date 1735
+    baptism -date oct-1735 -location campbeltown
     marriage -date 1-dec-1761 -location campbeltown
     body {
-        He was the son of James Harvey and Janet Mitchell.
+        He was the son of $child-link[harvey-james-1698-mitchell]{James Harvey} and Janet Mitchell.
     }
     child {
         name James Harvie
@@ -33,7 +33,7 @@ partner {
             birth -date 1757
             death -date 1821
         }
-        body 'Immigrated in 1814 with sons'
+        body 'Immigrated in 1814 with sons.'
     }
     child  {
         name Janet Harvie

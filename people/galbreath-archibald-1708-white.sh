@@ -70,7 +70,7 @@ illegible
         $opr-ref-link[b-1750-507-000-0011-0271 "Ann Galbreath"]
     }
     martha1756-baptism {
-        $opr-ref-link[b-1756-507-000-0011-0299 "Martha Galbreath"]
+        $opr-ref-link[b-1756-507-000-0011-0299 "Martha Galbreath"];
         $opr-ref-link[b-1756-507-000-0010-0226 "Martha Galbraith"]
     }
 }
