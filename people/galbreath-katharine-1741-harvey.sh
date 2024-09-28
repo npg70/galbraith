@@ -73,7 +73,7 @@ partner {
     child {
         name Katherine Harvie
         birth -date 29-jul-1780
-        baptism -date 30-jul-1780 -location campbeltown
+        baptism -date 30-jul-1780 -location campbeltown -ref katherine1780-baptism
         body {
             She married $child-link[galbreath-robert-1778-harvey]{Robert Galbreath}.
         }
@@ -81,17 +81,39 @@ partner {
     child {
         name Andrew Harvey
         birth -date 23-feb-1783
-        baptism -date 26-feb-1783 -location campbeltown
+        baptism -date 26-feb-1783 -location campbeltown -ref andrew1783-baptism
     }
     child {
         name Agnes Harvey
         birth -date 5-jun-1785
-        baptism -date 5-jun-1785 -location campbeltown    
+        baptism -date 5-jun-1785 -location campbeltown -ref agnes1785-baptism
     }
 }
 footnotes {
     katharine1741-baptism {
-        $opr-ref-link[b-1741-507-000-0011-0236 "Katharine Galbreath"]
+        $opr-ref-link[b-1741-507-000-0011-0236 "Katharine Galbreath"]{
+            Katharine | Archd Galbreath + Martha White had a Daughter
+            baptized 3rd May named Katharne
+        }
+    }
+
+    katherine1780-baptism {
+        $opr-ref-link[b-1780-507-000-0020-0049 "Katherine Harvie"]{
+            Katherine | Lawful Daur to James Harvie + Katherine Galbreath
+            born 29th was baptd 30th July 1780.
+        }
+    }
+    andrew1783-baptism {
+        $opr-ref-link[b-1783-507-000-0020-0065 "Andrew Harvey"]{
+            Andrew | Lawful son to Jas. Harvey Farmer in Park & Kath-erine
+            Galbreath born 23rd & Baptd 26th Febry 1783.
+        }
+    }
+    agnes1785-baptism {
+        $opr-ref-link[b-1785-507-000-0020-0083 "Agnes Harvie"]{
+            Agnes | Lawful daugt to James Harvie Farmer in Skeb...
+            and Katherine Galbreath was born 5th & Bapt. the same day
+        }
     }
 }
 

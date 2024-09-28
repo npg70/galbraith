@@ -52,14 +52,24 @@ footnotes {
         $opr-ref-link[b-1778-507-000-0020-0040 "Robert Galbreath"]
     }
     marriage {
-        $opr-ref-link[m-1805-507-000-0050-0069 "Robert Galbreath" "Catharine Harvey"]
+        $opr-ref-link[m-1805-507-000-0050-0069 "Robert Galbreath" "Catharine Harvey"]{
+            Robert Galbreath Farmer in Peniver + Catherine Harvey
+            Daught to James Harvey Farmer in Peninver both of this Parish
+            contacted the 13th + married the 18th day of April 1805.
+        }
     }
 
     jane1806-baptism {
-        $opr-ref-link[b-1806-507-000-0040-0286 "Janet Galbreath"]
+        $opr-ref-link[b-1806-507-000-0040-0286 "Janet Galbreath"]{
+            Janet | Lawful Daughter to Robert Galbreath Malster in Dalintober
+            and Catherine Harvie born + baptized 11 March 1806. Janet
+        }
     }
     samuel1808-baptism {
-        $opr-ref-link[b-1808-507-000-0040-0316 "Samuel Galbreath"]
+        $opr-ref-link[b-1808-507-000-0040-0316 "Samuel Galbreath"]{
+            Samuel | Lawful Son to Robert Galbreath farmer in Peninver and
+            Catherine Harvie born + batpized 22 March 1808. Samuel
+        }
     }
     robert1812-baptism {
         $opr-ref-link[b-1812-507-000-0040-0380 "Robert Galbreath"]
