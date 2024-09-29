@@ -3,12 +3,15 @@ external {
     familysearch L78X-68N
 }
 birth -date 07-dec-1772
-baptism -date 08-dec-1772 -location campbeltown
+baptism -date 08-dec-1772 -location campbeltown -ref andrew1772-baptism
 
 partner {
     name Elizabeth McMurchy
-    marriage -date 06-apr-1809
-
+    baptism -date 28-jan-1786 -location campbeltown -ref mcmurchy-baptism
+    marriage -date 06-apr-1809 -location campbeltown -ref mcmurchy-marriage
+    body {
+        She is the daughter of William McMurchy, a farmer on Moy, and Janet Clark.
+    }
     child {
         name Janet Harvey
         birth -date 28-feb-1810 -location campbeltown -ref janet1810-baptism
@@ -27,7 +30,7 @@ partner {
     child {
         name William Harvey
         birth -date 01-mar-1813
-        baptism -date 02-mar-1813 -location campbeltown -ref william-1813-baptism
+        baptism -date 02-mar-1813 -location campbeltown -ref william1813-baptism
     }
     child {
         name Catharine Harvey
@@ -78,5 +81,18 @@ footnotes {
     }
     elizabeth1820-baptism {
         $opr-ref[b-1820-507-000-0060-0019 "Elizabeth Harvey"]
+    }
+    mcmurchy-baptism {
+        $opr-ref-link[b-1786-507-000-0020-0087 "Elizabeth McMurchy"]{
+            Elizabeth Lawful daur to William McMurchy Farmer in Moy &
+            Janet Clark was born 27th Bapt 28th January.
+        }
+    }   
+    mcmurchy-marriage {
+        $opr-ref-link[m-1809-507-000-0050-0086 "Andrew Harvie" "Elizabeth MacMurchy"]{
+            Andrew Harvie Farmer Peninver and Elizabeth MacMurchy daughter to
+            William MacMurchy Farmer in Moy both of this Parish
+            were married the 6th April 1809
+        }
     }
 }

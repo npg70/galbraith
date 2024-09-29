@@ -53,15 +53,16 @@ From children baptisms, James worked Skerbolin and Park farms.
 }
 $li{ Children born 1762-1785.}
 $li{ The eldest is James b. 1762, who we think immigrated to Ohio.  }
-$li{ Parents and age generally unconfirmed.  }
+$li{ Parents and age confirmed by OPR and 1792 Census.  }
 }
 }
+
 $section{
 $h2{James Harvey x Catharine Mitchel}
 $ul{
 $li{$child-link[harvey-james-1768-mitchell]{James Harvey}, b. ~1770}
 $li{Worked the farm at Bellevein}
-$li{Children from 1789-1813}
+$li{Children from 1789-1813, which mean Catharine was ~20 when married}
 }
 }
 
@@ -69,7 +70,7 @@ $section{
 $h2{Andrew Harvey x Elizabeth MacMurchy}
 $ul{
 $li{$child-link[harvey-andrew-1772-mcmurchy]{Andrew Harvey}, b. ~1770?, m. 1809}
-$li{He was a farm on Peninver from baptism records of child.}
+$li{He was a farmer on Peninver from baptism records of child.}
 $li{Parents and age generally unconfirmed.}
 $li{Married at age 39 is bit late... he could be younger.}
 }
@@ -85,6 +86,7 @@ Likely unconnected.
 }
 $ul{
 $li{$child-link[harvey-james-1751-mcnair]{James Harvey} was a shoemaker, "in town."}
+$li{Parents are James Harvey b. 1728, m. Jean Alexander.}
 $li{Stub.}
 }
 }
@@ -103,5 +105,13 @@ perhaps 3rd or 4th cousin to Robert above.
 $li{
 Jean's parents are unknown.
 }
+}
+}
+$section{
+$h2{Andrew Harvey x Margaret Orr}
+
+$ul{
+$li{This $child-link[harvey-andrew-1749-orr]{Andrew Harvey} was a "merchant in Campbeltown" and a "maltman in town"}
+$li{Parents were Nathaniel Harvey and Janet Smith.}
 }
 }

@@ -31,7 +31,10 @@ partner {
     }
     child {
         name Margaret Orr
-        birth -date 'about 1754'
+        baptism -date 31-mar-1754 -location campbeltown
+        body {
+            She married $child-link[harvey-andrew-1749-orr]{Andrew Harvey}.
+        }
     }
     child {
         name Mary Orr
