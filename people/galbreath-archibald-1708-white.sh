@@ -46,11 +46,12 @@ footnotes {
     $p{Transcription:}
     $blockquote{$pre{
 Erected by
-___ Galbreath ___
-___ Archd Galbreath
-___ __ Ardnacross __
-___ died Sept 1789 __
-illegible
+[John?] Galbreath [the?]
+[son of?] Archd Galbreath
+[tenant in?] Ardnacross 
+who died Sept 1789 __
+[illegible]
+[illegible]
 }}
     }
     white-marriage {
