@@ -243,7 +243,7 @@ $h3{970.1}
 $blockquote{Here lie the remains of MARY DUNLOP who died 26 September 1773 aged 45, spouse of WM. GALBRAITH, Maltster, Campbeltown. Here lie MARY, JAS and ANN GALBRAITH their children. This is the place designed for the family. WM GALBRAITH died April 1799 aged 63}
 
 $ul{
-$li{$child-link[galbreath-william-1736-dunlop]{William Galbreath}, but perhaps "age 63" (born 1736) is actually "83" (born 1716) ?}
+$li{$child-link[galbreath-william-1736-dunlop]{William Galbreath}}, b. 1736.
 $li{Mary Dunlop, born ~1728}
 $li{Mary Galbraith, bp. 23 Aug 1764}
 $li{JAS is James Galbraith, bp. 10 Feb 1768}
@@ -256,6 +256,7 @@ $blockquote{Sacred to the memory of ARCHIBALD GALBRAITH of Campbeltown died 28 A
 
 $ul{
 $li{$child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbreath}, born 1760, son of the above William and Jean Corbet}
+$li{Note transcription error: death was 1846, not 1816}
 $li{Jean Corbet, second spouse of Archibald}
 $li{Mary}
 $li{Martha}

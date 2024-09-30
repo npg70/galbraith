@@ -1,5 +1,6 @@
 name Archibald Galbreath
 baptism -date 12-oct-1760 -location campbeltown -ref archibald1760-baptism
+death -date 28-apr-1848 -location campbeltown -ref archibald1760-death
 tags Argyll:Campbeltown
 external {
     familysearch M1YM-NN8
@@ -72,6 +73,14 @@ partner {
 footnotes {
     archibald1760-baptism {
         $opr-ref-link[b-1760-507-000-0011-0322 "Archibald Galbreath"]
+    }
+    archibald1760-death {
+        From Glasgow Chronicle - Wednesday 30 April 1846, page 2 on $elink[https://www.britishnewspaperarchive.co.uk/viewer/bl/0003088/18460506/126/0008]{British Newspaper Archive}
+        $blockquote{
+             At Campbelton, on the 28th inst., Archibald Galbreath, Esq., in his 86th year. 
+        }
+        The use of "Esq" or "Esquire" was a polite term, and did not imply being a lawyer.
+
     }
     langwill-marriage {
         $opr-ref-link[m-1787-507-000-0020-0170 "Archibald Galbreth" "Martha Langwill"] 
