@@ -1,21 +1,35 @@
 name Mary Galbreath	
 tags Argyll:Campbeltown
 baptism -date 28-Apr-1751 -location Campbeltown -ref mary1751-baptism
-death -date 03-apr-1825 -location campbeltown
+death -date 03-apr-1825 -location campbeltown -ref mary1751-death
 todo {
     link to kilkerran
 }
+
+body {
+Census of 1792, 53 Kirk Street:
+
+$csvtable{
+Age,Year,Men,Women,Children
+40,1752,James Park,,
+38,1754,,Mary Langwill,
+14,1778,,,John Park
+ 8,1784,,,Mary Park
+ 6,1786,,,James Park
+ 4,1788,,,Betty Park
+19,1773,,Margaret Muir,
+32,1760,William Greenlees,,
+19,1773,,Agnes Andrew,
+52,1740,,Mary Ferguson,
+}
+}
+
 partner {
     name Matthew Andrew
     marriage -date 15-nov-1771 -location campbeltown -ref andrew-marriage
 
-    child {
-        name Agnes Andrew
-        baptism -date 06-sep-1772 -location campbeltown
-        partner {
-            name William Greenlees
-        }
-    }
+    child andrew-agnes-1772-greenlees
+
     child {
         name Elisabeth Andrew
         baptism -date 18-jan-1775 -location campbeltown
@@ -70,6 +84,11 @@ footnotes {
         $opr-ref[b-1751-507-000-0011-0276 "Mary Galbreath"]
     }
 
+    mary1751-death {
+       From Kilkerran Cemetery:
+$blockquote{
+1815 Erected by DONALD McLACHLAN, Malster in Campbeltown in memory of his father in law J. PARK late merchant there who died 9 October 1806 aged 56 years also his mother in law MARY GALBREATH who died 3 April 1825 aged 71 years.}
+    }
     andrew-marriage {
         $opr-ref-link[m-1771-507-000-0011-0473 "Mary Galbreath" "Matthew Andrew"];
         $opr-ref-link[m-1771-507-000-0020-0156 "Mary Galbreath" "Matthew Andrew"];

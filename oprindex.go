@@ -61,7 +61,11 @@ func oprindex(db Root, rtype string) string {
 				if rtype == "m" {
 					spouse = args[len(args)-1]
 				}
-				pmap[parts[2]] = append(oprbirth, pair{args[0], id, args[1], spouse})
+				if len(args) < 2 {
+					log.Printf("Wrong arg length: %v", args)
+				}
+				pp := pair{args[0], id, args[1], spouse}
+				pmap[parts[2]] = append(oprbirth, pp)
 			}
 		}
 	}

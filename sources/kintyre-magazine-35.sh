@@ -46,7 +46,9 @@ was $child-link[galbreath-alexander-1753-flemming]{Alexander},
 baptised on 25th June 1753, who, on 28 December 1779 married Agnes, daughter of Daniel Fleming, a Campbeltown merchant, and Isobel Johnstone.
 }
 
-Confirmed.
+$p{
+Unclear who the spouse of Alexander was.  Certainly $child-link[fleeming-daniel-1721-johnstone]{Daniel Fleeming} had a daughter Agnes around this time.
+}
 
 $blockquote{
 Alexander with his family emigrated and landed in Baltimore on 1st September 1785 where he carried on his trade of master tailor. On 7th August 1787 he got a grant of land in Harford County, Maryland, just south of the Mason-Dixon line, which he named Galbreath's Delight. In 1796 he acquired more land from the heirs of William Penn. This land was in York County, Pennsylvania, just north of the Mason-Dixon line and five miles west of the Susquehanna River. This large farm of several hundred acres remained in the family until 1939. The house he built in 1819 just before his death is illustrated on the front cover.
@@ -57,7 +59,7 @@ When in 1992 I went to York County in search of information about Hugh Henry Bre
 }
 
 $p{
-TBD: Hugh Henry Breckenridge
+$elink[https://www.familysearch.org/tree/person/details/K4YK-T8D]{Hugh Henry Breckenridge} immigrated to Pennslyvana in 1753 at age 5.
 }
 
 $p{
@@ -139,15 +141,10 @@ $br{}$br{}
 5. John Paterson was married to Mary Fleming. The new baby James in 1830 took to do with the estate of his aunt Margaret Fleming, widow of David Ferguson, Smith in Campbeltown.
 }
 $p{
-There is a $child-link[paterson-john-1764-fleeming]{John Paterson} married Mary Fleeming about 1785 (no marriage record has found).  They had nine children the first John being born in 1787.  The last child born in 1807, James Paterson, married $child-link[galbraith-isabella-1808-paterson]{Isabella Galbraith}.
-}
-$p{The letter was written in 1797, and no record of a James being born was found. Even if there was a James, he would have died young, since another James was born.
-}
-$p{
-I suspect the original writer or the transcription is in error and that he refering to the first son John, which was born only a month before the letter was written.  I'm unable to explain why this is "another" son, except, if there was another son born previous and unrecorded (like the marriage).
+$child-link[paterson-john-1764-fleeming]{John Paterson} married Mary Fleeming about 1785 (no marriage record has found).  They had nine children the first being baptized as "John" being born on 13 Nov 1787.  The Census of 1792 lists the family living at 86 Shore street, with "John" now being "James."  This child died young.  There was another John bp. in 1796 and the last child born in 1807, James Paterson, went on to marry $child-link[galbraith-isabella-1808-paterson]{Isabella Galbraith}.
 }
 $p{ 
-I'm also unable to find any record involving the estate of Margaret Fleeming or David Ferguson.  Perhaps that will shed light on the topic.
+$child-link[ferguson-david-1748-fleeming]{David Ferguson} was born in 1749 and died in 1813. Margaret died in 1834 (not 1830), and the estate was settled by the above James Paterson ("Margaret Ferguson", 31/12/1834, Dunoon Sheriff Court, SC51/32/4).
 }
 
 $blockquote{
@@ -192,14 +189,14 @@ $blockquote{
 The following letter is from Knochrioch, 21st July, 1791, and Wm. Ker whose wife is a Galbraith is a brother-in-law of $child-link[galbreath-alexander-1753-flemming/]{Alexander Galbreath} to whom it is addressed.
 }
 $p{
-William Kerr.  No evidence of a marriage or children with a Galbraith.
+$child-link[kerr-william-1767-mcneil]{William Kerr}, b ~1767 and married to Margaret MacNeil in 1788.  The family is not listed in the Census of 1792.
 }
 
 $blockquote{
 Jas Park's step Dr married two weeks' ago to a William Greenlees(3) a skipper.
 }
 $p{
-Before she married James Park, $child-link[galbreath-mary-1751-park]{Mary Galbreath} was first married to Matthew Andrew. The first daughter Agnes Andrew married William Greenlees.
+Before she married James Park, $child-link[galbreath-mary-1751-park]{Mary Galbreath} was first married to Matthew Andrew. The first daughter $child-link[andrew-agnes-1772-greenlees]{Agnes Andrew} married William Greenlees.
 }
 $blockquote{
  Wm Ferguson's old Dr married in winter last to a Jas. Greenlees a skipper. 
@@ -235,7 +232,7 @@ $blockquote{
 My [$elink[https://www.familysearch.org/tree/person/details/9M9Z-KQY]{William Ker}] young ones which consist of 2 boys by my last marriage has both had it the youngest who is now 54 weeks old is just recovering
 }
 $p{
-The two boys are $elink[https://www.familysearch.org/tree/person/details/M1TD-RSK]{John Kerr}, bp. 24 Nov 1788 and $elink[https://www.familysearch.org/tree/person/details/M1YH-SJF]{Charles Kerr}, bp. 13-jul-1790.
+The two boys are $elink[https://www.familysearch.org/tree/person/details/M1TD-RSK]{John Kerr}, bp. 24 Nov 1788 and $elink[https://www.familysearch.org/tree/person/details/M1YH-SJF]{Charles Kerr}, bp. 13-jul-1790.  The "by my last marriage" implies there was more than one.  Perhaps he was married to a Galbraith previously.
 }
 
 $blockquote{

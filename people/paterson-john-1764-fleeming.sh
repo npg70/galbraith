@@ -7,10 +7,23 @@ external {
 body {
     He was a cooper.
 }
+body {
+Census of 1792, 86 Shore Street:
+$csvtable{
+Age,Name
+?,John Paterson
+24,Mary Fleeming
+8,James Paterson
+2, Janet Paterson
+18,James Paterson
+?, Mary Muir
+}
+}
+
 partner {
     name Mary Fleeming
-    birth -date 'about 1765'
-    marriage -ref fleeming-marriage
+    birth -date 'about 1768' -ref fleeming-birth
+    marriage -date 'about 1787' -ref fleeming-marriage
     child {
         name John Paterson
         birth -date 13-nov-1787
@@ -64,7 +77,10 @@ partner {
 }
 footnotes {
     fleeming-marriage {
-        No record found.
+        No record found.  1787 is estimated based on birth of first child.
+    }
+    fleeming-birth {
+        The Census of 1792 lists her age as 24 (~1768).
     }
     janet1790-baptism {
         $opr-ref-link[b-1790-507-000-0020-0117 "Janet Paterson"]

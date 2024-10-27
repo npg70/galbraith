@@ -2,6 +2,7 @@ name John Fleeming
 external {
     familysearch KH7S-T42
     findagrave 100209162
+    wikitree Fleming-7954
 }
 baptism -date 23-jan-1758 -location campbeltown -ref john1758-baptism
 death -date 05-feb-1854 -location 'barlow,washington,ohio,usa'

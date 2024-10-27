@@ -2,6 +2,7 @@ name John Fleeming
 tags Argyll:Campbeltown
 external {
     familysearch GQ56-J5L
+    wikitree Fleeming-67
 }
 birth -date 'say 1713'
 

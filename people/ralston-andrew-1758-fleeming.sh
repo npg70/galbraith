@@ -6,7 +6,7 @@ external {
 }
 partner {
     name Margaret Fleeming
-    marriage -date 23-jan-1778 -location campbeltown
+    marriage -date 23-jan-1778 -location campbeltown -ref marriage
     body {
         She was the daughter of $child-link[fleeming-john-1713-langwill]{John Fleeming} and Agnes Langwill.
     }
@@ -70,4 +70,11 @@ partner {
         }
     }
 }
-
+footnotes {
+    marriage {
+        $opr-ref-link[m-1778-507-000-0020-0160 "Andrew Ralston" "Margaret Fleming"]{
+        Andrew Ralston in parish Southend & Margt Fleming
+        in this parish was contracted 23rd Jan 1778 & married.
+    }
+    }
+}
