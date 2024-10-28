@@ -132,7 +132,7 @@ $br{}$br{}
 4. John Fleming, a sailor, was married to Margaret Galbraith.
 }
 $p{
-$elink[https://www.familysearch.org/tree/person/details/9M94-6SP]{John Fleeming} married Margaret Galbreath in Campbeltown on 5 Jan 1782, and had two children. However, no other records have been found.
+John Fleeming married $child-link[galbreath-margaret-1760-fleeming]{Margaret Galbreath} in Campbeltown on 5 Jan 1782, and had two children. However, no other records have been found.
 }
 
 $blockquote{
@@ -315,7 +315,12 @@ $blockquote{
 David Galbreath still in L Knockh his son married Peter in Straths sister
 }
 $p{
-Nothing really obvious here.
+David was an unusal name in Campbeltown, except around 1719, when three different Davids were born.  Two married different Langwills, and had their first child about the same time.
+}
+$ul{
+$li{$child-link[galbreath-david-1718-langwill]{David Galbreath}, b. 1718, m. Mary Langwill}
+$li{$child-link[galbreath-david-1719-langwill]{David Galbreath}, b. 1719, m. Jean Langwill}
+$li{$child-link[galbreath-david-1720-baird]{David Galbreath}, b. 1720, m. Martha Baird}
 }
 
 $blockquote{

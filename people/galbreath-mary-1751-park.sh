@@ -44,30 +44,25 @@ partner {
     marriage -date 'about 1776'
 
     child {
-        name James Park
+        name James/John Park
         baptism -date 10-jul-1777 -location campbeltown
     }
     child {
         name Robert Park
         baptism -date 04-jul-1779 -location campbeltown
-    }
-    child {
-        name Mary Park
-        baptism -date 25-nov-1782 -location campbeltown
-        death -date 18-nov-1823 -location campbeltown
-        partner {
-            name Donald McLachlan
-            marriage -date 1803
+        body {
+            Died young.
         }
     }
+
+    child park-mary-1782-mclachlan
+
     child {
         name James Park 
         baptism -date 29-aug-1784 -location campbeltown
+        death -date 1793
     }
-    child {
-        name Elisabeth Park
-        birth -date 11-sep-1786 -location campbeltown
-    }
+    child park-elizabeth-1786-reid 
     child {
         name Margaret Park
         birth -date 04-oct-1790 -location campbeltown
