@@ -1,6 +1,6 @@
 $title{Kintyre Magazine 35}
 
-Letters to America, by A I B Stewart
+$elink[http://www.ralstongenealogy.com/number35kintmag.htm]{Letters to America}, by A I B Stewart
 
 $elink[https://www.familysearch.org/tree/person/details/GRSD-YS1]{Archibald Ian Balfour Stewart}.
 
@@ -38,7 +38,7 @@ $p{
 The correspondence with $child-link[armour-archibald-dunlop-1863-stuart-smith]{Archibald Dunlop Armour} has not been published. He was the Grandson of $child-link[armour-robert-1787-porter]{Robert Armour}, the illicit still maker in Campbeltown.  He was also the founder of the Campbeltown Picture House.
 }
 $p{
-The mystery of Agnes Langwill versus Janet Langwell is more than just her name.  She was also supposedly dead.  More details below.
+The mystery of Agnes Langwill versus Janet Langwill is more than just her name. She was also supposedly dead. More details below.
 }
 $blockquote{
 Among the four children of John Galbreath and Agnes Langwill
@@ -100,13 +100,13 @@ $p{
 Confirmed.
 }
 $blockquote{
-I am particularly indebted to the late Wm. W. Galbreath Jr of Lynchburg, Virginia, a nuclear scientist, for originally making the correspondence available to me and to Mr Ralph W. Sloan of Westminster, Maryland, the present archivist of' the American Galbreaths. I hope that local members will appreciate that the footnotes to the correspondence are much more detailed than they might find necessary. This is for the benefit of American readers who do not have the same local knowledge.
+I am particularly indebted to the late Wm. W. Galbreath Jr of Lynchburg, Virginia, a nuclear scientist, for originally making the correspondence available to me and to Mr Ralph W. Sloan of Westminster, Maryland, the present archivist of' the American Galbreaths.
 }
 $p{
 $elink[https://www.familysearch.org/tree/person/details/G6TS-MSR]{William Wilson Galbreath, Jr}, b. 1919 in Ohio, and died 15 Sep 1983.  He is the six[check] generation from Alexander Galbreath.  He worked on the Manhattan Project.  It's unclear what happened to the letter.
 }
 $p{
-$elink[https://www.familysearch.org/tree/person/details/LCB4-CPC]{Ralph W Sloan}, b. 1918, d. 2010, married to Cornelia Halie Galbreath, also a sixth generation descendart of Alexnader.
+$elink[https://www.familysearch.org/tree/person/details/LCB4-CPC]{Ralph W Sloan}, b. 1918, d. 2010, married to Cornelia Halie Galbreath, also a sixth generation descendart of Alexander.
 }
 $p{
 Unfortunately, since the Covid Epidemic of 2022, the meetings and reunions of the Galbreath family have stopped.
@@ -115,7 +115,9 @@ Unfortunately, since the Covid Epidemic of 2022, the meetings and reunions of th
 $hr{}
 
 $h2{Letter 1}
-$p{Campbeltown, Dated 20 Dec 1787, From James Park to Alexander Galbraith.}
+$p{
+Campbeltown, Dated 20 Dec 1787, From $child-link[galbreath-mary-1751-park]{James Park} to $child-link[galbreath-alexander-1753-flemming]{Alexander Galbraith.}
+}
 
 $blockquote{
 since you wrote concerning James McNairs$sup{1}
@@ -180,7 +182,9 @@ Correction: "James Park was married to Mary $strike{Langwill} Galbreath" (this t
 $hr{}
 
 $h2{Letter 2}
-$p{Knockrioch, Dated 21 July 1791, From William Kerr to Alexander Galbreath}
+$p{
+Knockrioch, Dated 21 July 1791, From $child-link[kerr-william-1767-mcneil]{William Kerr} to $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
+}
 
 $blockquote{
 The writer of this letter William Ker was the Overseer or Manager of the Coal Mine...
@@ -229,7 +233,7 @@ Margaret Park, daughter of James Park and $child-link[galbreath-mary-1751-park]{
 }
 
 $blockquote{
-My [$elink[https://www.familysearch.org/tree/person/details/9M9Z-KQY]{William Ker}] young ones which consist of 2 boys by my last marriage has both had it the youngest who is now 54 weeks old is just recovering
+My [$child-link[kerr-william-1767-mcneil]{William Kerr}] young ones which consist of 2 boys by my last marriage has both had it the youngest who is now 54 weeks old is just recovering
 }
 $p{
 The two boys are $elink[https://www.familysearch.org/tree/person/details/M1TD-RSK]{John Kerr}, bp. 24 Nov 1788 and $elink[https://www.familysearch.org/tree/person/details/M1YH-SJF]{Charles Kerr}, bp. 13-jul-1790.  The "by my last marriage" implies there was more than one.  Perhaps he was married to a Galbraith previously.
@@ -272,7 +276,9 @@ As mentioned, Margaret Fleeming as a sister to Mary and Agnes.
 
 $hr{}
 $h3{Letter 3}
-Campbeltown, Dated 25-aug-1791, From James Park to Alexander Galbreath
+$p{
+Campbeltown, Dated 25-aug-1791, From $child-link[galbreath-mary-1751-park]{James Park} to $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
+}
 
 $blockquote{
 Andrew Armour in trodical son to William got Married about six months since to Ann Armours daughter in Belewilling & Ran off with her the Day that she was to be married to Willm Culbertson & since he and her have parted & he will not see her. (2)
@@ -289,7 +295,7 @@ As mentioned $elink[https://www.familysearch.org/tree/person/details/M1Y4-X5B]{D
 $hr{}
 
 $h2{Letter 4}
-From James Park
+From $child-link[galbreath-mary-1751-park]{James Park}
 $blockquote{
 if you think of coming home your mother in Law will still pay your passages
 }
@@ -297,7 +303,7 @@ if you think of coming home your mother in Law will still pay your passages
 To Brother John
 $hr{}
 $h2{Letter 5}
-Knockrioch, Dated 1 Mar 1793, From William Kerr To Alexander Galbreath
+Knockrioch, Dated 1 Mar 1793, From $child-link[kerr-william-1767-mcneil}{William Kerr} To $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
 
 $blockquote{
 Mr. Pinkerton(6) still a widower and going about as usuall
@@ -312,8 +318,9 @@ $elink[https://www.familysearch.org/tree/person/details/LLSK-W4W]{James Pinkerto
 $blockquote{
 David Galbreath still in L Knockh his son married Peter in Straths sister
 }
+$p{"L Knockh" is "Lower Knockinoch"?}
 $p{
-David was an unusal name in Campbeltown, except around 1719, when three different Davids were born.  Two married different Langwills, and had their first child about the same time.
+David was an unusual name in Campbeltown, except around 1719, when three different Davids were born. Two married different Langwills, and had their first child about the same time.
 }
 $ul{
 $li{$child-link[galbreath-david-1718-langwill]{David Galbreath}, b. 1718, m. Mary Langwill}
@@ -325,12 +332,14 @@ $blockquote{
 p. s. I wrote you that your mother died last Harvest but I have this day seen the old Laird who tells me that it was on the 11th of last March
 }
 $p{
-
+Someone's mother died on 11 March 1792.
 }
 
 $hr{}
 $h2{Letter 6}
-Dated: After Feb 1793, From $child-link[fleming-john-1858-colville]{John Fleeming} to Alexander Galbreath
+$p{
+Dated: After Feb 1793, From $child-link[fleming-john-1858-colville]{John Fleeming} to $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
+}
 
 $blockquote{
 We are in a thriveing way at home I have Tow Boyes James & Robt verey promiseing childering at present
@@ -348,7 +357,9 @@ With Jen being Jean Colville, his wife, and his sister Agnes Fleeming, the spous
 
 $hr{}
 $h2{Letter 7}
-Campbeltown 7 april 1794, From Janet Langwill to Alexander Galbreath
+$p{
+Campbeltown 7 april 1794, From Janet Langwill to $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
+}
 
 $blockquote{
 I ame Dr. Son your mother.
@@ -360,7 +371,9 @@ $blockquote{
 }
 $hr{}
 $h2{Letter 8}
-Campbeltown 8 April 1794, from James Park to Alexander Galbreath
+$p{
+Campbeltown 8 April 1794, from $child-link[galbreath-mary-1751-park]{James Park} to $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
+}
 
 $blockquote{
 But I wrote you formerly of my Refuseing to Pay Samuel Galbraith 
@@ -391,7 +404,7 @@ Isobell Langwill, age 68 -- 1724$br{}
 Betty Peterson, age 30 -- 1762$br{}
 }
 $p{
-They appear to share the house with the family of Robert Armour and Janet Pickan.
+They appear to share the house with the family of Robert Armour and Janet Pickan.  No other records have been found.
 }
 
 $blockquote{
@@ -404,19 +417,19 @@ $blockquote{
 Robert Mitchell & Betty are well & they are not pleased you never write them
 }
 $p{
-Likely Robert Mitchell b 1750-d.1824 who married $child-link[fleeming-elizabeth-1763-mitchell]{Elizabeth Fleeming}, sister of $child-link[fleming-john-1758-colville]{John Fleeming} and Jean Coville.
+Robert Mitchell, 1750-1824, who married $child-link[fleeming-elizabeth-1763-mitchell]{Elizabeth Fleeming}, sister of $child-link[fleming-john-1758-colville]{John Fleeming} and Jean Coville.
 }
 $blockquote{
 James Anderson friends are all in hope but
 his brother Robert is very fraill.
 }
 $p{
-TBD
+James Anderson, b. 1743, and his older brother Robert, b. 1732, sons of $elink[https://www.familysearch.org/tree/person/details/M1YQ-JRF]{Allan Anderson} and Matha Anderson.
 }
 $blockquote{
 You need not doubt if your sister joins me in her love to you & familie.
 }
 $p{
-John Park's wife, and Alexander Galbreath's sister was $child-link[galbreath-mary-1751-park]{Mary Galbreath}.
+"Your sister" is $child-link[galbreath-mary-1751-park]{Mary Galbreath}, John Park's wife and Alexander Galbreath's sister.
 }
 
