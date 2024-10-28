@@ -67,7 +67,7 @@ TBD: Joe Galbreath
 }
 
 $p{
-Nine generations were listed in "The Alexander Galbraith Family", published 1955,1976,1932.
+Nine generations were listed in "The Alexander Galbraith Family", published 1955, 1976, 1932.
 }
 
 $blockquote{
@@ -275,9 +275,21 @@ As mentioned, Margaret Fleeming as a sister to Mary and Agnes.
 }
 
 $hr{}
-$h3{Letter 3}
+$h3{Letter 3a}
 $p{
 Campbeltown, Dated 25-aug-1791, From $child-link[galbreath-mary-1751-park]{James Park} to $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
+}
+$blockquote{
+ I wrote you before that John Was Married to Robert Colvin's daughter in trodical.
+}
+$p{
+Again, $child-link[fleming-john-1758-colville]{John Fleeming} who married Jean Colville.
+}
+$blockquote{
+Roberts old son John has got Married about 2 Months ago to a girl in Sligo not to the satisfaction of his parents 
+}
+$p{
+
 }
 
 $blockquote{
