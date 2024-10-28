@@ -115,7 +115,7 @@ Unfortunately, since the Covid Epidemic of 2022, the meetings and reunions of th
 $hr{}
 
 $h2{Letter 1}
-$p{Dated 20 Dec 1787, From James Park to Alexander Galbraith.}
+$p{Campbeltown, Dated 20 Dec 1787, From James Park to Alexander Galbraith.}
 
 $blockquote{
 since you wrote concerning James McNairs$sup{1}
@@ -180,7 +180,7 @@ Correction: "James Park was married to Mary $strike{Langwill} Galbreath" (this t
 $hr{}
 
 $h2{Letter 2}
-$p{Dated 21 July 1791}
+$p{Knockrioch, Dated 21 July 1791, From William Kerr to Alexander Galbreath}
 
 $blockquote{
 The writer of this letter William Ker was the Overseer or Manager of the Coal Mine...
@@ -272,7 +272,7 @@ As mentioned, Margaret Fleeming as a sister to Mary and Agnes.
 
 $hr{}
 $h3{Letter 3}
-Dated 25-aug-1791
+Campbeltown, Dated 25-aug-1791, From James Park to Alexander Galbreath
 
 $blockquote{
 Andrew Armour in trodical son to William got Married about six months since to Ann Armours daughter in Belewilling & Ran off with her the Day that she was to be married to Willm Culbertson & since he and her have parted & he will not see her. (2)
@@ -297,9 +297,7 @@ if you think of coming home your mother in Law will still pay your passages
 To Brother John
 $hr{}
 $h2{Letter 5}
-Dated:1 Mar 1793
-From William Kerr
-To Alexander Galbreath
+Knockrioch, Dated 1 Mar 1793, From William Kerr To Alexander Galbreath
 
 $blockquote{
 Mr. Pinkerton(6) still a widower and going about as usuall
@@ -332,9 +330,7 @@ $p{
 
 $hr{}
 $h2{Letter 6}
-Dated: After Feb 1793
-From: $child-link[fleming-john-1858-colville]{John Fleeming}
-to: Alexander G
+Dated: After Feb 1793, From $child-link[fleming-john-1858-colville]{John Fleeming} to Alexander Galbreath
 
 $blockquote{
 We are in a thriveing way at home I have Tow Boyes James & Robt verey promiseing childering at present
@@ -352,7 +348,7 @@ With Jen being Jean Colville, his wife, and his sister Agnes Fleeming, the spous
 
 $hr{}
 $h2{Letter 7}
-Dated 7 april 1794
+Campbeltown 7 april 1794, From Janet Langwill to Alexander Galbreath
 
 $blockquote{
 I ame Dr. Son your mother.
@@ -364,10 +360,7 @@ $blockquote{
 }
 $hr{}
 $h2{Letter 8}
-Dated 08-apr-1794
-From James Park
-To Alexander Galbreath
-}
+Campbeltown 8 April 1794, from James Park to Alexander Galbreath
 
 $blockquote{
 But I wrote you formerly of my Refuseing to Pay Samuel Galbraith 
