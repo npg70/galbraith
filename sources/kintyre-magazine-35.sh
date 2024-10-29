@@ -134,10 +134,10 @@ $li{
 $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath}, b. 1736 married Janet McNair.  She was the daughter of previous family.
 }
 $li{
-$child-link[mcnair-archibald-1722-galbraith]{Archibald McNair}, b. 1722 married Margaret Galbreath.
+$child-link[mcnair-archibald-1722-galbraith]{Archibald McNair}, b. 1722 married Margaret Galbreath, of unknown origin.
 }
 $li{
-$child-link[galbreath-margaret-1771-mcnair]{Nathaniel McNair}, b. 1771 married Margaret Galbreath.
+$child-link[galbreath-margaret-1771-mcnair]{Nathaniel McNair}, b. 1771 married Margaret Galbreath, a six-generation decendant of James Galbreath and Mary Nielson.
 }
 }
 

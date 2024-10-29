@@ -22,6 +22,7 @@ partner {
             Veteran in USA Revolutionary War
         }
     }
+    child mcnair-robert-1749-johnston
     child {
         name John McNair
         baptism -date 10-mar-1751 -location campbeltown

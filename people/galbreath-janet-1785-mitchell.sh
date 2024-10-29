@@ -14,18 +14,7 @@ death -date 23-Oct-1859 -location campbeltown -ref death
 partner {
     name William Mitchell
     marriage -date 21-jun-1803 -location campbeltown -ref marriage
-    child {
-        name Archibald Mitchell
-        baptism -date 28-Mar-1805 -location campbeltown
-        death -date 26-sep-1882 -location campbeltown
-        partner {
-            name Jean Smith
-        }
-        partner {
-            name Ann McNair
-        }
-        body { no evidence of children }
-    }
+    child mitchell-archibald-1805-smith-mcnair
     child {
         name Samuel Mitchell
         baptism -date 14-May-1807 -location campbeltown
