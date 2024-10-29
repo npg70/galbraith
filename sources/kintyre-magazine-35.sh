@@ -127,6 +127,19 @@ $br{}$br{}
 $p{
 TBD
 }
+$ul{
+$li{$child-link[mcnair-robert-1718-galbraith]{Robert McNair}, b. 1718 married in 1744 to Janet Galbraith, of unknown origin.
+}
+$li{
+$child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath}, b. 1736 married Janet McNair.  She was the daughter of previous family.
+}
+$li{
+$child-link[mcnair-archibald-1722-galbraith]{Archibald McNair}, b. 1722 married Margaret Galbreath.
+}
+$li{
+$child-link[galbreath-margaret-1771-mcnair]{Nathaniel McNair}, b. 1771 married Margaret Galbreath.
+}
+}
 
 $blockquote{
 We had a letter from John Fleming$sup{4} from London about a month ago and he is gone for Virginia from that you may posible see him before he Returns

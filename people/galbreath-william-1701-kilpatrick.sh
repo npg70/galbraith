@@ -6,7 +6,7 @@ external {
     wikitree Galbraith-1847
 }
 note {
-The daughter Mary is often confused with Margaret Galbreath, who married Archibald McNair.  No idea why.
+The daughter Mary is often confused with Margaret Galbreath, who married $child-link[mcnair-archibald-1722-galbraith]{Archibald McNair}.  No idea why.
 }
 partner {
     name Margaret Jean Kilpatrick

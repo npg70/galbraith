@@ -8,8 +8,9 @@ external {
 }
 partner {
     name Janet McNair
-    birth -date 29-jul-1780
-    baptism -date 30-Jul-1780 -location campbeltown
+    body {She was the daughter of $child-link[mcnair-robert-1718-galbraith]{Robert McNair} and Janet Galbraith.}
+
+    baptism -date 12-oct-1755 -location campbeltown
     marriage -date "about 1774"
     death -date 07-jul-1831 -location scotland
     child {
