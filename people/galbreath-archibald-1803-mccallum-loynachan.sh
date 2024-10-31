@@ -58,6 +58,9 @@ partner {
   } 
 }
 body {
+He started as farmer in Ugadale.  He later switch to being a flesher (butcher).
+}
+body {
 $p{Census 1861, Harveys Lane, Campbeltown, Argyllshire, Scotland:$ref[census1861]}
 
 $csvtable{
@@ -100,13 +103,13 @@ footnotes {
   loynachan-marriage {
     $opr-ref-link[m-1839-532-000-0020-0164 "Archibald Galbraith" "Margaret Lynachan"]
     
-    Cross-recorded at Campbeltown on 25 Aug 1860:
+    Cross-recorded at Campbeltown on 25 Aug 1840:
     
     $opr-ref-link[m-1840-507-000-0060-0367 "Archibald Galbreath" "Margaret Loynachan"]{
         Archibald Galbreath Farmer Ugadale of this Parish
         and Margaret Loynachan daughter of the
         late Neil Loynachan Farmer Edam Southend
-        Parish were married twentyfifth August 1860.
+        Parish were married twentyfifth August 1840.
     }
   }
   loynachan-death {
