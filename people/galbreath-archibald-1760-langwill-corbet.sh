@@ -5,6 +5,7 @@ tags Argyll:Campbeltown
 external {
     familysearch M1YM-NN8
     findagrave 204250177
+    wikitree Galbraith-2402
 }
 
 body {
@@ -30,7 +31,11 @@ partner {
 partner {
     name Jean Corbet
     marriage -date 'about 1791'
+    baptism -date 25-sep-1770 -location campbeltown -ref corbet-birth
     death -date 2-aug-1861 -location campbeltown -ref corbet-death
+    body {
+        She was the daughter of Daniel Corbett, Blacksmith and Agnes Armour.
+    }
     child {
         name Martha Galbreath
         baptism -date 19-mar-1792 -location campbeltown -ref martha1792-baptism
@@ -84,6 +89,9 @@ footnotes {
     }
     langwill-marriage {
         $opr-ref-link[m-1787-507-000-0020-0170 "Archibald Galbreth" "Martha Langwill"] 
+    }
+    corbet-birth {
+        $opr-ref[b-1770-507-000-0030-0187 "Jean Corbet"]
     }
     corbet-death {
         $sp-ref-link[d-1861-507-00-0088 0030 "Jean Galbraith"]
