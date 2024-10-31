@@ -3,7 +3,7 @@ tags Argyll:Campbeltown 'Daughtered Out'
 baptism -date 6-Feb-1799 -location campbeltown -ref andrew1799-baptism
 death -date 29-Nov-1885 -location 'Johnstone and Elderslie, Renfrew' -ref andrew1799-death
 external {
-    familysearch K8WN-49W
+    familysearch K82Y-N8C
     findagrave 202954277
     ancestry tree/3451498/person/6935000095
 }

@@ -1,5 +1,11 @@
 $title{Kintyre Magazine #28}
-
+$front{
+    $biblio-author{Kieth Sanger}
+    $biblio-title{The McShannons of Kintyre: Harpers to Tacksmen}
+    $biblio-publisher{The Kintyre Antiquarian & Natural History Society}
+    $biblio-publisher-url{https://www.kintyreantiquarians.uk}
+    $biblio-content-url{http://www.ralstongenealogy.com/number28kintmag.htm}
+}
 $h2{The McShannons of Kintyre: Harpers to Tacksmen}
 
 $blockquote{

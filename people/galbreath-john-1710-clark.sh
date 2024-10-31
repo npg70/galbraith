@@ -14,10 +14,16 @@ partner {
     child {
         name Daniel Galbreath
         baptism -date 3-feb-1734 -location campbeltown -ref daniel1734
+        body {
+            Died young.
+        }
     }
     child {
         name James Galbreath
         baptism -date jan-1735 -location campbeltown -ref james1735
+        body {
+            Died young.
+        }
     }
     child {
         name Ann Galbreath
@@ -26,6 +32,9 @@ partner {
     child {
         name Mary Galbreath
         baptism -date 1-oct-1738 -location campbeltown -ref mary1738
+        body {
+            Died young.
+        }
     }
     child {
         name Jean Galbreath
@@ -34,6 +43,9 @@ partner {
     child {
         name Mary Galbreath
         baptism -date 15-sep-1743 -location campbeltown -ref mary1743
+        body {
+            Died young.
+        }
     }
     child {
         name William Galbreath
@@ -58,6 +70,9 @@ partner {
     child {
         name John Galbreath
         baptism -date 30-jan-1752 -location campbeltown -ref john1752
+        body {
+            Died young.
+        }
     }
     child {
         name Daniel Galbreath
