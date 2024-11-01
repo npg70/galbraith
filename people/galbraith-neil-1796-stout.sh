@@ -52,7 +52,7 @@ Census 1841, Scotland, Argyllshire, Kilcalmonell:$ref[census1841]
 $csvtable{
 First,Last,Age,Year,Place
 Neil, Galbraith,40, 1801, Argyllshire
-Betsy, Galbraith,,25, 1816, Argyllshire
+Betsy, Galbraith,25, 1816, Argyllshire
 Betsy, Stout, 50, 1791, Argyllshire
 }
 
@@ -76,7 +76,7 @@ $csvtable{
 First,Last,Role,Age,Year,Place,Occupation
 Neil,Galbraith,Head,75,1796,Knapdale,Mason
 Betsy,Galbraith,Wife,53,1818,KILFINICHIN,-
-John,Galbraith,Son,17,1854,Kilcalmonell
+John,Galbraith,Son,17,1854,Kilcalmonell,-
 }
 }
 footnotes {

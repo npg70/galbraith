@@ -54,7 +54,7 @@ Bella,Galbraith,Dau,Unmarried,10,1841
 Catherine,Galbraith,Dau,Unmarried,8,1843
 Lauchlan,Galbraith,Son,-,6,1845
 John,Galbraith,Son,-,4,1847
-Donald,Galbraith,Son,2,1849
+Donald,Galbraith,Son,-,2,1849
 }
 
 

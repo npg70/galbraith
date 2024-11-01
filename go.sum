@@ -6,6 +6,10 @@ github.com/client9/tagfunctions v0.0.0-20240608164824-b829631f050b h1:FYC9yqtAJc
 github.com/client9/tagfunctions v0.0.0-20240608164824-b829631f050b/go.mod h1:u6lmNENEdq6a/l60ogwor75DS1ivXLqpmg8ovmT0Zvs=
 github.com/client9/tagfunctions v0.0.0-20241101033415-eecc69222948 h1:1ISFRLdZSG+N4X7SGHJ1AJuEvFCCiU8tcHmbX94Lo1A=
 github.com/client9/tagfunctions v0.0.0-20241101033415-eecc69222948/go.mod h1:u6lmNENEdq6a/l60ogwor75DS1ivXLqpmg8ovmT0Zvs=
+github.com/client9/tagfunctions v0.0.0-20241101040520-6d24cf487d11 h1:uAJ5qQkAPUig+yNntSkCM21w6wiD+BpixPeZIKsnrBk=
+github.com/client9/tagfunctions v0.0.0-20241101040520-6d24cf487d11/go.mod h1:u6lmNENEdq6a/l60ogwor75DS1ivXLqpmg8ovmT0Zvs=
+github.com/client9/tagfunctions v0.0.0-20241101043239-861527e9c97d h1:bjt5ctC6/4es44I1Ug0MPBCQARymDpPfvgi4LEdX0Sg=
+github.com/client9/tagfunctions v0.0.0-20241101043239-861527e9c97d/go.mod h1:u6lmNENEdq6a/l60ogwor75DS1ivXLqpmg8ovmT0Zvs=
 golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842 h1:vr/HnozRka3pE4EsMEg1lgkXJkTFJCVUX+S/ZT6wYzM=
 golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842/go.mod h1:XtvwrStGgqGPLc4cjQfWqZHG1YFdYs6swckp8vpsjnc=
 golang.org/x/net v0.25.0 h1:d/OCCoBEUq33pjydKrGQhw7IlUPI2Oylr+8qLx49kac=

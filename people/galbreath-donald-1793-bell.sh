@@ -54,8 +54,8 @@ Name,Age,Year,Occupation
 Donald Galbraith,48,1793,Laborer
 Ann Galbraith,48,1793,-
 Ann Galbraith,10,1831,-
-Margaret Galbraith,1833,-
-Elizabeth Galbraith,1835,-
+Margaret Galbraith,8,1833,-
+Elizabeth Galbraith,6,1835,-
 }
 
 1851 Census, Campbeltown:$ref[census-1851]
@@ -67,7 +67,7 @@ Agnes Galbraith,Wife,Married,57,1794,Killean,-
 Christina Galbraith,Daught,Married,26,1825,Killean,-
 Alexander Galbraith,Son,Unmarried,22,1829,Killean, Sailor
 Eliza Galbraith,Daught,Unmarried,14,1837,Killean,-
-Christina Galbraith,Niece,Unmarried,7,1844,Campbeltown
+Christina Galbraith,Niece,Unmarried,7,1844,Campbeltown,-
 }
 
 

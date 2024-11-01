@@ -62,7 +62,7 @@ $csvtable{
 Name,Role,Age,Year,Birth,Occupation
 Angus Galbraith, Head, 68, 1823, Argyllshire, Laborer
 Ann Galbraith,Wife,49,1842,Argyllshire, -
-Alexander Galbraith,Son $i{actually grandson},10,1881, Kilmarnock, Scholar
+Alexander Galbraith,Son [actually grandson],10,1881, Kilmarnock, Scholar
 }
 
 The 1901 Census:
@@ -71,7 +71,7 @@ $csvtable{
 Name,Role,Age,Year,Birth,Occupation
 Angus Galbraith,Head,76,1825,Campbeltown,Gardener
 Ann Galbraith,Wife,64,1837,Campbeltown,-
-Alexander Galbraith,Son $i{actually grandson},20,1881,Kilmarnock,Grocer
+Alexander Galbraith,Son [actually grandson],20,1881,Kilmarnock,Grocer
 Angus Galbraith,Son Married,32,1869,Govan,Engineer (fitter)
 Angus Galbraith,Grandson,7,1894,Kilmarnock,Scholar
 }

@@ -55,7 +55,7 @@ Nelly,Galbreath,8,1833
 John,Galbreath,6,1835
 Mary,Galbreath,4,1837
 Niel,Galbreath,2,1839
-Flora,Galbreath,1839
+Flora,Galbreath,2,1839
 }
 (All listed "argyllshire" as birthplace. note some other non-Galbraith residents not listed.)
 

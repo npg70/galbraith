@@ -33,8 +33,8 @@ Row,Age,Birth,Men,Women,Children
 20,20,1772,,Jean Corbett,
 21,20,1772,John Galbreath,,
 22,24,1768,Robert Johnson,,
-23,23,1769,,"$child-link[galbreath-rachel-1765-johnson]{Rachel Galbreath}",
-24,1,1791,,Alexander Johnson,
+23,23,1769,,Rachel Galbreath,
+24,1,1791,,,Alexander Johnson
 }
 }
 partner {
