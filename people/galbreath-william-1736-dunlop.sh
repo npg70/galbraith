@@ -9,32 +9,61 @@ external {
 }
 body {
 Census of 1792:
+$ul{
+$li{
+Rows 7-8: The head of household, William Galbreath and the assumed second wife.
+}
+$li{
+Rows 12-17: His daughter $child-link[galbreath-margaret-1762-johnson]{Margaret Galbreath}, with husband William Johnston and four children.
+}
+$li{
+Rows 22-24: His daughter $child-link[galbreath-rachel-1765-johnson]{Rachel Galbreath}, with husband Robert Johnson and son.
+}
+$li{
+Rows 19-20: His son $child-link[galbreath-archibald-1760-langwill-corbet]{Archibald} and his second wife Jean Corbet, married in 1791.
+Their first child Martha who was baptized 19-mar-1792 is not listed.  The child from his first marriage is not listed as well and assumed he died with his mother during child birth. 
+}
+$li{
+Row 9: Andrew Galbreath is perhaps his youngest son, born in 1769, but here listed as 1771.
+}
+$li{
+Row 21: John Galbreath, b. 1772, is unknown.
+}
+$li{
+Rows 1-6: The children of $child-link[galbreath-henry-1739-armour]{Henry Galbraith}. Henry died in 1789. His wife Agnes Amour must have died soon after. The connection between Henry and William is not known.
+}
+
+$li{
+Rows 10,11,18: Servants?
+}
+}
+
 $csvtable{
-Row,Age,Birth,Men,Women,Children
-1,20,1772,James Galbreath,,
-2,18,1774,,Margaret Galbreath,
-3,15,1777,,,Florence Galbreath
-4,11,1781,,,William Galbreath
-5,7,1785,,,John Galbreath
-6,4,1788,,,Alexander Galbreath
-7,50,1742,William Galbreath,,
-8,42,1750,,Mary Campbell,
-9,21,1771,Andrew Galbreath,,
-10,17,1775,,Mary Stevenson,
-11,16,1774,,Jean Armour,
-12,30,1762,William Johnson,,
-13,27,1765,,Margaret Galbreath,
-14,8,1784,,Margaret Johnson,
-15,6,1786,,Alexander Johnson,
-16,3,1789,,William Johnson,
-17,1,1791,,James Johnson,
-18,23,1769,,Mary McEachine,
-19,32,1760,Archibald Galbreath,,
-20,20,1772,,Jean Corbett,
-21,20,1772,John Galbreath,,
-22,24,1768,Robert Johnson,,
-23,23,1769,,Rachel Galbreath,
-24,1,1791,,,Alexander Johnson
+Row,Age,Birth,Men,Women,Children,Role
+1,20,1772,James Galbreath,,,Unknown
+2,18,1774,,Margaret Galbreath,,Unknown
+3,15,1777,,,Florence Galbreath,Unknown
+4,11,1781,,,William Galbreath,Unknown
+5,7,1785,,,John Galbreath,Unknown
+6,4,1788,,,Alexander Galbreath,Unknown
+7,50,1742,William Galbreath,,,Head
+8,42,1750,,Mary Campbell,,Wife
+9,21,1771,Andrew Galbreath,,,Son?
+10,17,1775,,Mary Stevenson,,Servant?
+11,16,1774,,Jean Armour,,Servant?
+12,30,1762,William Johnson,,,Son-in-Law
+13,27,1765,,Margaret Galbreath,,Daughter
+14,8,1784,,,Margaret Johnson,Grand Daughter
+15,6,1786,,,Alexander Johnson,Grand Son
+16,3,1789,,,William Johnson,Grand Son
+17,1,1791,,,James Johnson,Grand Son
+18,23,1769,,Mary McEachine,,Servant?
+19,32,1760,Archibald Galbreath,,,Son
+20,20,1772,,Jean Corbett,,Daughter-in-Law
+21,20,1772,John Galbreath,,,Unknown
+22,24,1768,Robert Johnson,,,Son-in-Law
+23,23,1769,,Rachel Galbreath,,Daughter
+24,1,1791,,,Alexander Johnson,Grandson
 }
 }
 partner {
