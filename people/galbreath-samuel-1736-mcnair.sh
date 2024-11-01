@@ -25,6 +25,9 @@ partner {
     child {
         name Martha Galbreath
         baptism -date 27-jan-1781 -location campbeltown -ref martha1781-baptism
+        body {
+            May have married $child-link[galbreath-james-1768-galbreath]{James Galbreath}.
+        }
     }
     child {
         name Archibald Galbreath

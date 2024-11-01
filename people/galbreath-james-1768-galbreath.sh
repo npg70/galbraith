@@ -17,8 +17,11 @@ From the baptism records of children, he was a farmer in Skebolin.
 $p{
 He won a prize for turnip growning in 1804.
 }
-}
 
+$p{
+The parents of James may be $child-link[galbreath-william-1736-dunlop]{William Galbreath} and Mary Dunlop.   Martha's parents may be $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath} and Janet McNair.
+}
+}
 partner {
   name Martha Galbreath
   marriage -date 20-mar-1800 -location campbeltown -ref galbreath-marriage  

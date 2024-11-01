@@ -27,7 +27,7 @@ $li{
 Row 9: Andrew Galbreath is perhaps his youngest son, born in 1769, but here listed as 1771.
 }
 $li{
-Row 21: John Galbreath, b. 1772, is unknown.
+Row 21: John Galbreath, b. 1772, is unknown. He is perhaps son James, b. 1768. John and James often switched around.
 }
 $li{
 Rows 1-6: The children of $child-link[galbreath-henry-1739-armour]{Henry Galbraith}. Henry died in 1789. His wife Agnes Amour must have died soon after. The connection between Henry and William is not known.
@@ -47,7 +47,7 @@ Row,Age,Birth,Men,Women,Children,Role
 5,7,1785,,,John Galbreath,Unknown
 6,4,1788,,,Alexander Galbreath,Unknown
 7,50,1742,William Galbreath,,,Head
-8,42,1750,,Mary Campbell,,Wife
+8,42,1750,,Mary Campbell,,2nd Wife?
 9,21,1771,Andrew Galbreath,,,Son?
 10,17,1775,,Mary Stevenson,,Servant?
 11,16,1774,,Jean Armour,,Servant?
@@ -86,6 +86,9 @@ partner {
     child {
         name James Galbreath
         baptism -date 10-feb-1768 -location campbeltown -ref james1768-baptism
+        body {
+            Maybe the same $child-link[galbreath-james-1768-galbreath]{James Galbreath} who married Martha Galbreath.
+        }
     }
     child {
         name Andrew Galbreath
