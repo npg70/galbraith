@@ -152,6 +152,8 @@ $child-link[armour-robert-1787-porter]{Robert Armour}, as previous.
 $section{
 $h2{563}
 
+These are in a section of Amour families.
+
 $blockquote{Erected by JAMES GALBREATH baker, in memory of his father HENDRY GALBREATH Shoemaker in Campbeltown who died 15 July 1789 aged 46 years also FLORANCE and MARY his children and this is the place designed for AGNES ARMOUR his spouse and family.}
 
 $p{
@@ -163,6 +165,7 @@ $h2{564}
 $blockquote{
 Here lyes AGNES, MARGARET and ALEXANDER ARMOUR children of JAMES ARMOUR Maltster in Campbeltown and this is the place designed for FLORANCE his spouse and family.
 }
+Agnes is the wife of the above $child-link[galbreath-henry-1739-armour]{Henry Galbreath}.
 }
 $section{
 $h2{608}

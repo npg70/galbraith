@@ -5,9 +5,19 @@ burial -name "Kilchousland Graveyard"
 external {
     familysearch KFJB-HN8
     findagrave 167549463
+    wikitree Galbreath-743
 }
 todo {
     fix inscription on findagrave
+}
+body {
+$blockquote{
+563.	Erected by JAMES GALBREATH baker, in memory of his father HENDRY GALBREATH Shoemaker in Campbeltown who died 15 July 1789 aged 46 years also FLORANCE and MARY his children and this is the place designed for AGNES ARMOUR his spouse and family.
+}
+$blockquote{
+564.	Here lyes AGNES, MARGARET and ALEXANDER ARMOUR children of JAMES ARMOUR Maltster in Campbeltown and this is the place designed for FLORANCE his spouse and family
+}
+
 }
 tags Argyll:Campbeltown
 partner {

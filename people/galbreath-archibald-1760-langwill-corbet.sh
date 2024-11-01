@@ -12,6 +12,36 @@ body {
 He was a maltster (distiller), and then a grazier (a pastoral/livestock farmer).
 }
 
+body {
+Census of 1841: Back Street, Campbeltown, Argyllshire, Scotland$ref[census-1841]
+$csvtable{
+First,Last,Age,Year,Occupation
+Archibald,Galbraith,80,1761,Grazier
+Jean,Galbraith,70,1771,-
+Martha,Galbraith,45,1796,-
+William,Galbraith,40,1801,-
+Mary,Galbraith,25,1816,-
+}
+
+Census of 1851:
+Cross Street, Campbeltown, Cantyre, Argyllshire, Scotland$ref[census-1851]
+$csvtable{
+First,Last,Role,Status,Age,Year,Birth,Occupation
+Jane,Galbraith,Head,Widow,80,1771,Campbeltown,Annuitant
+Martha,Galbraith,Dau,Unmarried,59,1792,Campbeltown,Annuitant daur
+William,Galbraith,Son,Unmarried,50,1801,Campbeltown,Merchant
+May,Galbraith,Dau,Unmarried,37,1814,Campbeltown,Annuitant daur
+}
+
+Census of 1861: Cross Street, Campbeltown, Argyllshire, Scotland:$ref[census-1861]
+$csvtable{
+First,Last,Role,Status,Age,Year,Birth,Occupation
+Jean,Galbreath,Head,Widow,90,1771,Campbeltown,Fund holder
+Agness,Galbreath,Dau,Unmarried,64,1797,Campbeltown,Fund holder
+William,Galbreath,Son,Unmarried,60,1801,Campbeltown,General merchant
+}
+}
+
 partner {
     name Martha Langwill
     marriage -date 14-Sep-1787 -location campbeltown -ref langwill-marriage
@@ -57,7 +87,7 @@ partner {
         baptism -date 8-feb-1801 -location campbeltown -ref william1801-baptism
         death -date 2-nov-1863 -location campbeltown -ref william1801-death
         body {
-            Founder and Partner in Stewart, Galbraith & Co.
+            Founder and Partner in Stewart, Galbraith & Co.  Unmarried.
         }
     }
     child galbraith-margaret-1803-clark
@@ -127,5 +157,12 @@ footnotes {
     mary1814-baptism {
         $opr-ref-link[b-1814-507-000-0040-0407 "Mary Galbreath"]
         father indexed as "Archd" not "Archibald"
+    }
+
+    census-1841 {
+        https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016605236&expand=true&tab=this
+    }
+    census-1851 {
+        https://www.findmypast.com/transcript?id=GBC%2F1851%2F0019259701&tab=this
     }
 }
