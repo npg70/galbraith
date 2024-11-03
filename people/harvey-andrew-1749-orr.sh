@@ -6,7 +6,7 @@ external {
 body {
     According to baptism of last child he was a Merchant and/or Maltman.
 
-    His parents Nathaniel Harvey and Janet Smith.
+    He was the son of Nathaniel Harvey and Janet Smith.
 }
 partner {
     name Margaret Orr

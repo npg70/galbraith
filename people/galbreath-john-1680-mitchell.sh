@@ -87,7 +87,7 @@ footnotes {
         $opr-ref-link[b-1725-507-000-0010-0117 "Samuel Galbreath"]
     }
     arch2-bapt {
-        $opr-ref-link[b-1729-507-000-0011-0181 "Archibald Galbreath"];
+        $opr-ref-link[b-1729-507-000-0011-0181 "Archibald Galbreath"]
         $opr-ref-link[b-1729-507-000-0010-0135 "Archibald Galbreath"]
     }
 }

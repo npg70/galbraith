@@ -25,16 +25,14 @@ partner {
 
 footnotes {
     john1721-baptism {
-        Double indexed,
-        $opr-ref-link[b-1721-507-000-0010-0100 "John Galbraith"];
+        $opr-ref-link[b-1721-507-000-0010-0100 "John Galbraith"]
         $opr-ref-link[b-1721-507-000-0010-0100 "John Calbreth"]
     }
     james1748-baptism {
         $opr-ref[b-1748-507-000-0011-0265 "James Galbreath"]
     }
     langwill-marriage {
-        Indexed in lowland and highland indexes:
-        $opr-ref-link[m-1746-507-000-0011-0449 "James Calbraith" "Agnes Languill"];
+        $opr-ref-link[m-1746-507-000-0011-0449 "James Calbraith" "Agnes Languill"]
         $opr-ref-link[m-1746-507-000-0010-0179 "James Calbraith" "Agnes Languill"]
     }
     john1756-baptism {
