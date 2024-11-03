@@ -15,7 +15,7 @@ partner {
 		baptism -date 25-dec-1709 -location Campbeltown -ref mary1-bapt
 		death -note "Assumed died in early childhood."
 	}
-    child galbreath-janet-1711-ryburn
+    child galbreath-janet-1711
     child {
 		name James Galbreath
 		baptism -date 22-mar-1713 -location Campbeltown -ref james1-bapt

@@ -6,6 +6,24 @@ external {
     familysearch M1Y6-H41
     wikitree Galbraith-1830
 }
+
+body {
+Census of 1792: Parish of Kilchousland, Peninver:
+$csvtable{
+Age,Year,Men,Women,Children,Role
+54,1738,Samuel Galbreath,,,Head
+35,1757,,Janet McNair,,Wife
+13,1778,,,Robert Galbreath,Son
+11,1781,,,Martha Galbreath,Dau
+9,1783,,,Archibald Galbreath,Dau
+7,1785,,,Janet Galbreath,Dau
+4,1788,,,Cathrin Galbreath,Dau
+1,1791,,,James Galbreath,Son
+}
+$p{
+Of particular note is the presence of Janet Galbreath, b. 1785. The baptism record for her is lost.
+}
+}
 partner {
     name Janet McNair
     body {She was the daughter of $child-link[mcnair-robert-1718-galbraith]{Robert McNair} and Janet Galbraith.}

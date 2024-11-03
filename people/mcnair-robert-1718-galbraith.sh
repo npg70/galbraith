@@ -2,18 +2,26 @@ name Robert McNair
 tags Argyll:Campbeltown
 external {
     familysearch KZQF-HBV
+    wikitree Galbraith-1784
+}
+note {
+Indexed under McNair since I'm not sure who Janet is yet?
+}
+
+body {
+    He was the son of Robert McNair and Mary Picken.  Their line is described in $elink[https://archive.org/details/mcnairmcnearmcne1928mcna/page/46/mode/2up]{McNair, McNear, and McNeir genealogies : Supplement 1928}
 }
 body {
     He was a farmer in Smerby.
 }
 body {
-    Parents of Janet are unclear.
+    This Janet may be the $child-link[galbreath-janet-1711]{Janet Galbreath} who is  the daughter of $child-link[galbreath-john-1680-mitchell]{John Galbreath} and Mary Mitchell.
 }
 
-baptism -date   05-jan-1718 -location campbeltown
+baptism -date 05-jan-1718 -location campbeltown
 partner {
     name Janet Galbraith
-    marriage -date 01-jul-1744 -location campbeltown
+    marriage -date 01-jul-1744 -location campbeltown -ref janet-marriage
     child {
         name James McNair
         baptism -date 16-nov-1746 -location campbeltown
@@ -42,7 +50,7 @@ partner {
     }
     child {
         name Janet McNair
-        baptism -date 12-oct-1755 -location campbeltown
+        baptism -date 12-oct-1755 -location campbeltown -ref janet1755-baptism
         body {
             Married $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath}.
         }
@@ -60,5 +68,18 @@ partner {
     }
 }
 footnotes {
-
+    janet-marriage {
+        $opr-ref-link[m-1744-507-000-0011-0448 "Janet Calbraith" "Robert McNair"]
+        $opr-ref[m-1744-507-000-0010-0172 "Janet Calbraith" "Robert McNair"]
+    }
+    janet1755-baptism {
+        $opr-ref-link[b-1755-507-000-0011-0297 "Janet McNair"]{
+        Janet | Robert McNair and Janet Galbreath had a 
+        Daugt. & baptized 12th Oct named Janet
+        }
+        $opr-ref-link[b-1755-507-000-0010-0224 "Janet McNair"]{
+            Janet | Robert Mc Nair & Janet Galbraith had a D
+            bapt. Janet - Oct 12th
+        }
+    }
 }

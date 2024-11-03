@@ -26,7 +26,11 @@ footnotes {
         $opr-ref-link[b-1713-507-000-0011-0117 "Mary Galbreath"]
     }
     janet-baptism {
-        $opr-ref[b-1715-507-000-0011-0122 "Janet Galbreath"]
+        $opr-ref-link[b-1715-507-000-0011-0122 "Janet Galbreath"]{
+        Janet | David Galbreath and Isobell Watson his lawful spouse
+        had a Daught. Born 13th August named Janet
+        }
+        $opr-ref[b-1715-507-000-0010-0070 "Janet Calbreath"]
     }
 }
 
