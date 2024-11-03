@@ -785,7 +785,8 @@ func (r Root) generateOne(primary string) (string, []string) {
 	}
 	out.WriteString("}\n")
 
-	out.WriteString("$person-bio{$p{")
+	out.WriteString("$person-bio{")
+	out.WriteString("$p{")
 	out.WriteString(fmt.Sprintf("$primary-number{%d}", first.counter))
 	out.WriteString(WritePrimaryName(first))
 	birth := first.Events["birth"]
@@ -802,7 +803,8 @@ func (r Root) generateOne(primary string) (string, []string) {
 		out.WriteString("Died " + EventDatePlace(first, death))
 	}
 	out.WriteString(".")
-	out.WriteString("}")
+	out.WriteString("}") // end of paragraph
+
 	for i, partner := range first.Partners {
 		marriage := partner.Events["marriage"]
 		if marriage != nil {
