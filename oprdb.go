@@ -272,7 +272,9 @@ func makeImageID(refid string, imageNum string) string {
 
 func SPLinkHTML(refText string, refid string, imageNum string) *html.Node {
 	target := SPLink(makeImageID(refid, imageNum))
-	return tf.Append(tf.NewElement("a", "href", target), tf.NewText(refText))
+
+	// adding nofollow to prevent images from being indexed
+	return tf.Append(tf.NewElement("a", "rel", "nofollow", "href", target), tf.NewText(refText))
 }
 
 // converts a full opr id into something that
@@ -339,7 +341,8 @@ func OPRText(n *html.Node, refid, name, name2 string, link bool) error {
 		return nil
 	}
 
-	n.InsertBefore(tf.Append(tf.NewElement("a", "href", oprlink(parts)), tf.NewText(refText)), n.FirstChild)
+	// adding nofollow to prevent images from being indexed
+	n.InsertBefore(tf.Append(tf.NewElement("a", "rel", "nofollow", "href", oprlink(parts)), tf.NewText(refText)), n.FirstChild)
 	n.InsertBefore(tf.NewText(text), n.FirstChild)
 	return nil
 }
