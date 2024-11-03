@@ -20,7 +20,6 @@ partner {
     child  {
         name Archibald Galbreath
         baptism -date 17-jul-1678 -location campbeltown -ref arch1-baptism
-        body "Perhaps married $child-partner-name{Elizabeth Johns}, b. $date{22 Dec 1676}, daughter of John Johns and Elizabeth Flemyng of Glasgow."
     }
     child galbreath-john-1680-mitchell
     child  {
