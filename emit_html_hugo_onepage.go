@@ -180,7 +180,7 @@ func renderFuncs() map[string]tf.NodeFunc {
 			tf.Append(
 				tf.TransformElement(n, "tr"),
 				td,
-				tf.Append(tf.NewElement("td", "class", "width-200r"), tf.NewText(toRoman(r))),
+				tf.Append(tf.NewElement("td", "class", "text-end width-200r"), tf.NewText(toRoman(r))),
 				tf.Reparent(tf.NewElement("td", "class", "ps-3"), n),
 			)
 			return nil
