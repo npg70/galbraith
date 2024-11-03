@@ -786,7 +786,8 @@ func (r Root) generateOne(primary string) (string, []string) {
 	out.WriteString("}\n")
 
 	out.WriteString("$person-bio{")
-	out.WriteString("$p{")
+
+	//out.WriteString("$p{")
 	out.WriteString(fmt.Sprintf("$primary-number{%d}", first.counter))
 	out.WriteString(WritePrimaryName(first))
 	birth := first.Events["birth"]
@@ -801,45 +802,49 @@ func (r Root) generateOne(primary string) (string, []string) {
 	death := first.Events["death"]
 	if death != nil {
 		out.WriteString("Died " + EventDatePlace(first, death))
+		out.WriteString(".")
 	}
-	out.WriteString(".")
-	out.WriteString("}") // end of paragraph
+	//out.WriteString("}") // end of paragraph
 
 	for i, partner := range first.Partners {
 		marriage := partner.Events["marriage"]
-		if marriage != nil {
-			ordinal := ""
-			if len(first.Partners) > 1 {
-				ordinal = Ordinal(i + 1)
-			}
-			out.WriteString("$p{")
-			out.WriteString("He married " + ordinal + " " + EventDatePlace(first, marriage) + " to $partner-name{" + partner.FullName() + "}")
+		out.WriteString("$p{")
 
-			birth := partner.Events["birth"]
-			if birth != nil {
-				out.WriteString(", born " + EventDatePlace(partner, birth))
-			}
-			bapt := partner.Events["baptism"]
-			if bapt != nil {
-				out.WriteString(", baptized " + EventDatePlace(partner, bapt))
-			}
-			death := partner.Events["death"]
-			if death != nil {
-				out.WriteString(", died " + EventDatePlace(partner, death))
-			}
-			burial := partner.Events["burial"]
-			if burial != nil && burial.Name != "" {
-				out.WriteString(", and buried at " + burial.Name)
-				if burial.Ref != "" {
-					out.WriteString("$ref[" + burial.Ref + "]")
-				}
-			}
-			out.WriteString(".")
-			if len(partner.Body) > 0 {
-				out.WriteString(strings.Join(partner.Body, " "))
+		ordinal := ""
+		if len(first.Partners) > 1 {
+			ordinal = Ordinal(i + 1)
+		}
+		// is marriage known or not?
+		if marriage != nil {
+			out.WriteString("He married " + ordinal + " " + EventDatePlace(first, marriage) + " to $partner-name{" + partner.FullName() + "}")
+		} else {
+			out.WriteString("He married " + ordinal + " " + " $partner-name{" + partner.FullName() + "}")
+		}
+
+		birth := partner.Events["birth"]
+		if birth != nil {
+			out.WriteString(", born " + EventDatePlace(partner, birth))
+		}
+		bapt := partner.Events["baptism"]
+		if bapt != nil {
+			out.WriteString(", baptized " + EventDatePlace(partner, bapt))
+		}
+		death := partner.Events["death"]
+		if death != nil {
+			out.WriteString(", died " + EventDatePlace(partner, death))
+		}
+		burial := partner.Events["burial"]
+		if burial != nil && burial.Name != "" {
+			out.WriteString(", and buried at " + burial.Name)
+			if burial.Ref != "" {
+				out.WriteString("$ref[" + burial.Ref + "]")
 			}
 		}
-		out.WriteString("}\n")
+		out.WriteString(".")
+		for _, pb := range partner.Body {
+			out.WriteString(pb + " ")
+		}
+		out.WriteString("}")
 	}
 
 	if len(first.Todos) > 0 {
