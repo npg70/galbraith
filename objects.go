@@ -791,13 +791,18 @@ func (r Root) generateOne(primary string) (string, []string) {
 	out.WriteString(fmt.Sprintf("$primary-number{%d}", first.counter))
 	out.WriteString(WritePrimaryName(first))
 	birth := first.Events["birth"]
-	if birth != nil {
-		out.WriteString(" was born " + EventDatePlace(first, birth))
-	}
 	bapt := first.Events["baptism"]
-	if bapt != nil {
+	if birth != nil && bapt != nil {
+		out.WriteString(" was born " + EventDatePlace(first, birth))
+		out.WriteString(" and baptized " + EventDatePlace(first, bapt))
+	}
+	if birth == nil && bapt != nil {
 		out.WriteString(" was baptized " + EventDatePlace(first, bapt))
 	}
+	if birth != nil && bapt == nil {
+		out.WriteString(" was born " + EventDatePlace(first, birth))
+	}
+
 	out.WriteString(". ")
 	death := first.Events["death"]
 	if death != nil {
