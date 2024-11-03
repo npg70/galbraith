@@ -13,13 +13,13 @@ partner {
     child {
 		name Mary Galbreath 
 		baptism -date 25-dec-1709 -location Campbeltown -ref mary1-bapt
-		death -note "Assumed died in early childhood."
+		death -note "d.y."
 	}
     child galbreath-janet-1711
     child {
 		name James Galbreath
 		baptism -date 22-mar-1713 -location Campbeltown -ref james1-bapt
-		death -note "Assumed died in infancy."
+		death -note "d.y."
 	}
     child {
 		name Katherine Galbreath
@@ -28,7 +28,7 @@ partner {
     child {
 		name James Galbreath
         baptism -date 11-may-1716 -location Campbeltown -ref james2-bapt
-		death -note "Assumed died in infancy."
+		death -note "d.y."
 	}
     child galbreath-patrick-1718
     child {

@@ -491,7 +491,16 @@ func WriteChildBioInline(w io.StringWriter, parent *Person, child *Person, ignor
 	}
 	death := child.Events["death"]
 	if death != nil {
-		w.WriteString("; d.$ent[nbsp]" + EventDatePlaceCompact(parent, death, ""))
+		w.WriteString("; ")
+		// special case if child is assumed to have died infancy or
+		// died young.
+		txt := EventDatePlaceCompact(parent, death, "")
+		switch txt {
+		case "d.y.", "d.s.p.m.", "d.s.p.":
+			w.WriteString(txt)
+		default:
+			w.WriteString("d.$ent[nbsp]" + txt)
+		}
 	}
 	if len(child.Partners) == 1 {
 		// ; m. name
@@ -502,7 +511,7 @@ func WriteChildBioInline(w io.StringWriter, parent *Person, child *Person, ignor
 			w.WriteString(fmt.Sprintf("; m.(%d)$ent[nbsp]%s", i+1, WriteChildPartnerName(p)))
 		}
 	}
-	w.WriteString(".")
+	//w.WriteString(".")
 	for i, b := range child.Body {
 		child.Body[i] = strings.TrimSpace(b)
 	}
