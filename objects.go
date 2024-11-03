@@ -496,7 +496,8 @@ func WriteChildBioInline(w io.StringWriter, parent *Person, child *Person, ignor
 		// died young.
 		txt := EventDatePlaceCompact(parent, death, "")
 		switch txt {
-		case "d.y.", "d.s.p.m.", "d.s.p.":
+		case "dy", "dsp", "dspm", "d.y.", "d.s.p.", "d.s.p.m.":
+			// TBD: standardize
 			w.WriteString(txt)
 		default:
 			w.WriteString("d.$ent[nbsp]" + txt)
