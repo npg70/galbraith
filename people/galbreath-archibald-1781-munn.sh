@@ -5,9 +5,8 @@ birth -date 'about 1781'
 note {
     Birth dates are inferred from 1841 census, which are +/- 3 years.
     He does not appear in the 1851 census.
-    There are not records matching his death in the statutory records.
-    There is no evidence
-    he the same Archibald Galbreath born in South Knapdale in 1778.
+    There are no records matching his death in the statutory records.
+    There is no evidence he the same Archibald Galbreath born in South Knapdale in 1778.
 }
 
 external {
@@ -25,6 +24,10 @@ partner {
     child {
         name Betty Galbreath
         baptism -date 4-jun-1810 -location 'south knapdale' -ref betty1810-baptism
+        death -date 23-feb-1903 -location 'tarbert,argyll' -ref betty1810-death
+        partner {
+            name Neil Blue
+        }
     }
     child {
         name Ann Galbreath
@@ -42,6 +45,9 @@ partner {
 footnotes {
     betty1810-baptism  {
         $opr-ref[b-1810-533-000-0010-0090 "Betty Galbreath"]
+    }
+    betty1810-death {
+        $sp-ref-link[d-1903-535-00-0005 0002 "Elizabeth Galbraith"]
     } 
     ann1812-baptism {
         $opr-ref[b-1812-533-000-0010-0101 "Ann Galbreath"]
