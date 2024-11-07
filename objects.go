@@ -9,6 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
+
+	"github.com/npg70/ssg"
 )
 
 type Ref struct {
@@ -648,17 +650,6 @@ func WriteTitleLink(p *Person) string {
 	return out
 }
 
-// writeTitleBlock emits a block in the form of
-// Full Name b. YEAR m. LastName
-func WriteTitleBlock(p *Person) string {
-	out := "$front{"
-
-	out += "$title{" + WriteTitle(p) + "}"
-
-	out += "}"
-	return out
-}
-
 func (r Root) LoadAll(root string) {
 	first, err := r.Load(root)
 	if err != nil {
@@ -727,14 +718,13 @@ func (r Root) loadOne(primary string) []string {
 	return cid
 }
 
-func (r Root) generateOne(primary string) (string, []string) {
+func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceConfig, []string) {
 	first, err := r.Load(primary)
 	if err != nil {
 		panic(err)
 	}
 
 	out := &strings.Builder{}
-	out.WriteString(WriteTitleBlock(first))
 
 	out.WriteString(fmt.Sprintf("$person[id=%s generation=%d counter=%d]{",
 		primary, first.generation, first.counter))
@@ -962,5 +952,11 @@ func (r Root) generateOne(primary string) (string, []string) {
 			}
 		}
 	}
-	return out.String(), cid
+
+	page := make(ssg.ContentSourceConfig)
+	page["OutputFile"] = outputFile
+	page["TemplateName"] = "baseof.html"
+	page["title"] = WriteTitle(first)
+	page["Content"] = out.String()
+	return page, cid
 }

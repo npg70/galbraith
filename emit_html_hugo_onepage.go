@@ -37,6 +37,10 @@ func renderFuncs() map[string]tf.NodeFunc {
 			tf.TransformElement(n, "a", "rel", "noreferrer", "target", "_blank", "href", href)
 			return nil
 		},
+		"journal-link": func(n *html.Node) error {
+			tf.TransformElement(n, "a", "href", "/galbraith/journal/"+tf.GetArg(n, 0))
+			return nil
+		},
 		"tag-link": func(n *html.Node) error {
 			path := strings.Split(tf.GetArg(n, 0), "/")
 			tf.Replace(n, makeTagButton(path, n.FirstChild.Data))

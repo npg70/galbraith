@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"golang.org/x/net/html"
-
 	tf "github.com/client9/tagfunctions"
+	"github.com/npg70/ssg"
+	"golang.org/x/net/html"
 )
 
 // if person has any todos, make a tag
@@ -21,7 +21,9 @@ func todotag(db Root) {
 	}
 }
 
-func oprindex(db Root, rtype string) string {
+// input, output is content
+func oprindex(db Root, rtype string, outputFile string) ssg.ContentSourceConfig {
+
 	word := ""
 	switch rtype {
 	case "b":
@@ -77,10 +79,8 @@ func oprindex(db Root, rtype string) string {
 	}
 	sort.Strings(plist)
 
+	// generate content
 	out := strings.Builder{}
-
-	// TODO: wrap in meta tag?
-	out.WriteString("$title{OPR " + word + " Index}\n")
 	out.WriteString("$table{\n")
 	for _, pnum := range plist {
 		out.WriteString("$tr{\n")
@@ -109,9 +109,16 @@ func oprindex(db Root, rtype string) string {
 		}
 	}
 	out.WriteString("}\n") /* end of table tag */
-	return out.String()
+
+	page := make(ssg.ContentSourceConfig)
+	page["OutputFile"] = outputFile
+	page["TemplateName"] = "baseof.html"
+	page["title"] = "OPR " + word + " Index"
+	page["Content"] = out.String()
+	return page
 }
-func spindex(db Root, rtype string) string {
+
+func spindex(db Root, rtype string, outputFile string) ssg.ContentSourceConfig {
 	word := ""
 	switch rtype {
 	case "b":
@@ -204,5 +211,11 @@ func spindex(db Root, rtype string) string {
 		}
 	}
 	out.WriteString("}\n") // table
-	return out.String()
+
+	page := make(ssg.ContentSourceConfig)
+	page["OutputFile"] = outputFile
+	page["TemplateName"] = "baseof.html"
+	page["title"] = "Statutory " + word + " Index"
+	page["Content"] = out.String()
+	return page
 }

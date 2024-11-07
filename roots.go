@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"log"
-	"os"
 	"path/filepath"
 	"sort"
 	"strings"
@@ -11,6 +10,7 @@ import (
 	"golang.org/x/exp/maps"
 
 	"github.com/bep/gitmap"
+	"github.com/npg70/ssg"
 )
 
 // computes roots of the tree and makes indexes for it.
@@ -62,25 +62,8 @@ func computeRoots(db Root) []string {
 	return out
 }
 
-// content for index page
-func indexIndex() string {
-	b, err := os.ReadFile("indexes/_index.sh")
-	if err != nil {
-		log.Fatalf("Can't read indexes/_index.sh: %v", err)
-	}
-	return string(b)
-}
-
-func indexSources() string {
-	b, err := os.ReadFile("sources/_index.sh")
-	if err != nil {
-		log.Fatalf("Can't read roots/index.sh: %v", err)
-	}
-	return string(b)
-}
-
 // home page for tags
-func tagIndex(tmap map[string][]string) string {
+func tagIndex(tmap map[string][]string, outputFile string) ssg.ContentSource {
 	out := strings.Builder{}
 	out.WriteString(`
 $table{
@@ -155,27 +138,32 @@ $table{
 		out.WriteString("$tr{$td{$tag-link{" + tag + "}}$td{}}\n")
 	}
 	out.WriteString("}\n") // table end
-	return out.String()
+
+	page := make(ssg.ContentSourceConfig)
+	page["OutputFile"] = outputFile
+	page["TemplateName"] = "baseof.html"
+	page["title"] = "People Tags"
+	page["Content"] = out.String()
+	return page
 }
 
-func indexRoots2(db Root, page tagpage) string {
-	out := strings.Builder{}
+func indexRoots2(db Root, tpage tagpage, outputFile string) ssg.ContentSourceConfig {
+	fulltag := strings.Join(tpage.path, " / ")
 
-	out.WriteString("$h1{")
-	out.WriteString(strings.Join(page.path, " / "))
-	out.WriteString("}")
-	for _, kid := range page.tags {
-		out.WriteString(fmt.Sprintf("$tag-link[%s]{%s}", strings.Join(page.path, "/"), kid))
+	out := strings.Builder{}
+	out.WriteString("$h1{" + fulltag + "}")
+	for _, kid := range tpage.tags {
+		out.WriteString(fmt.Sprintf("$tag-link[%s]{%s}", strings.Join(tpage.path, "/"), kid))
 	}
 	out.WriteString("$hr{}\n")
-	for _, r := range page.uids {
+	for _, r := range tpage.uids {
 		p := db[r]
 		out.WriteString(fmt.Sprintf("$h5{$a[href=/galbraith/people/%s]{%s}}\n",
 			r, WriteTitle(p)))
 		if len(p.Tags) > 0 {
 			out.WriteString("$div[class='ms-3 mb-3']{")
 			for _, tag := range p.Tags {
-				out.WriteString(fmt.Sprintf("$tag-link[%s]{%s}", strings.Join(page.path, "/"), tag))
+				out.WriteString(fmt.Sprintf("$tag-link[%s]{%s}", strings.Join(tpage.path, "/"), tag))
 			}
 			out.WriteString("}\n")
 		}
@@ -183,7 +171,12 @@ func indexRoots2(db Root, page tagpage) string {
 			out.WriteString("$intro{" + p.Intro + "}\n")
 		}
 	}
-	return out.String()
+	page := make(ssg.ContentSourceConfig)
+	page["OutputFile"] = outputFile
+	page["TemplateName"] = "baseof.html"
+	page["title"] = "People Tag " + fulltag
+	page["Content"] = out.String()
+	return page
 }
 
 type tagpage struct {

@@ -3,22 +3,29 @@ package main
 import (
 	"flag"
 	"log"
-	"os"
 	"path/filepath"
-	"strings"
 
 	tf "github.com/client9/tagfunctions"
+	"github.com/npg70/ssg"
 )
 
 func init() {
 	// flag stuff
 }
 
+type siteConfig struct {
+	outputDir string
+}
+
+func (sconfig siteConfig) OutputDir() string {
+	return sconfig.outputDir
+}
+
 func main() {
-	outdir := ""
+	sc := siteConfig{}
 	rootsOnly := false
 	server := false
-	flag.StringVar(&outdir, "out", "", "out directory")
+	flag.StringVar(&sc.outputDir, "out", "", "out directory")
 	flag.BoolVar(&rootsOnly, "root", false, "run and display roots")
 	flag.BoolVar(&server, "serve", false, "run webserver")
 	flag.Parse()
@@ -28,67 +35,27 @@ func main() {
 	if rootsOnly {
 		return
 	}
-
 	// add meta tag.. if todos exist, add todo tag
 	todotag(db)
 
-	/* set up base template */
-	baset, err := os.ReadFile("baseof.html")
-	if err != nil {
-		log.Fatalf("can't find template: %s", err)
-	}
-	base, err := CreatePageTemplate(string(baset), nodeExecute())
-	if err != nil {
-		log.Fatalf("Unable to create template: %s", err)
-	}
+	pages := []ssg.ContentSource{}
+	pages = append(pages, oprindex(db, "b", "indexes/opr-birth-index/index.html"))
+	pages = append(pages, oprindex(db, "d", "indexes/opr-death-index/index.html"))
+	pages = append(pages, oprindex(db, "m", "indexes/opr-marriage-index/index.html"))
+	pages = append(pages, spindex(db, "b", "indexes/statutory-birth-index/index.html"))
+	pages = append(pages, spindex(db, "d", "indexes/statutory-death-index/index.html"))
+	pages = append(pages, spindex(db, "m", "indexes/statutory-marriage-index/index.html"))
 
-	// for each file in sources
-	// read it in,
-	suffix := ".sh"
-	sources, err := filepath.Glob("sources/*" + suffix)
-	if err != nil {
-		log.Fatalf("Glob failed")
-	}
-	for _, s := range sources {
-		raw, err := os.ReadFile(s)
-		if err != nil {
-			log.Fatalf("Unable to read %s", s)
-		}
-		outfile := strings.TrimSuffix(filepath.Base(s), suffix)
-		if err := writePage(string(raw), base, outdir, filepath.Join("sources", outfile)); err != nil {
-			log.Fatalf("Source generation failed: %s", err)
-		}
-	}
-	writePage(indexSources(), base, outdir, "sources")
-
-	writePage(indexIndex(), base, outdir, "indexes")
-
-	writePage(oprindex(db, "b"), base, outdir, "indexes/opr-birth-index")
-
-	writePage(oprindex(db, "d"), base, outdir, "indexes/opr-death-index")
-
-	writePage(oprindex(db, "m"), base, outdir, "indexes/opr-marriage-index")
-
-	writePage(spindex(db, "b"), base, outdir, "indexes/statutory-birth-index")
-
-	writePage(spindex(db, "d"), base, outdir, "indexes/statutory-death-index")
-
-	writePage(spindex(db, "m"), base, outdir, "indexes/statutory-marriage-index")
-
-	// TODO: can we simplify and reuse something already?
+	// TAGS ------------------
 	tmap := tagmap(db)
-	writePage(tagIndex(tmap), base, outdir, "tags")
-
-	pages := tagStart(db)
-	for _, tp := range pages {
+	pages = append(pages, tagIndex(tmap, "tags/index.html"))
+	tpages := tagStart(db)
+	for _, tp := range tpages {
 		tagpath := makeTagFile(tp.path)
-		if err := writePage(indexRoots2(db, tp), base, outdir, filepath.Join("tags", tagpath)); err != nil {
-			log.Fatalf("WritePage for tags failed")
-		}
+		pages = append(pages, indexRoots2(db, tp, filepath.Join("tags", tagpath, "index.html")))
 	}
 
-	// create basic markup to html func
-	// write out each person
+	// PEOPLE
 	count := 0
 	for _, rootid := range roots {
 		kidsq := []string{rootid}
@@ -97,15 +64,18 @@ func main() {
 		for len(kidsq) > 0 {
 			uid := kidsq[0]
 			kidsq = kidsq[1:]
-			doc, nextg := db.generateOne(uid)
+			page, nextg := db.generateOne(uid, filepath.Join("people", uid, "index.html"))
+			pages = append(pages, page)
 			kidsq = append(kidsq, nextg...)
 			count++
-			if err := writePage(doc, base, outdir, filepath.Join("people", uid)); err != nil {
-				log.Fatalf("Writepage for %s - %s", uid, err)
-			}
 		}
 	}
+
+	if err := Main2(sc, &pages); err != nil {
+		log.Fatalf("Main2 failed: %v", err)
+	}
+
 	if server {
-		tf.Serve(outdir, "galbraith")
+		tf.Serve(sc.OutputDir(), "galbraith")
 	}
 }
