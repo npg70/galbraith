@@ -1,8 +1,12 @@
 name James Harvey
-birth -date 'say 1768'
+birth -date 27-oct-1762
+baptism -date 31-oct-1762 -location campbeltown
+death -date 1847 -location washington,ohio,usa
+burial -location belpre,washington,ohio,usa
 
 external {
     familysearch KCRN-QHF
+    wikitree Harvey-4556
 }
 partner {
     name Catharine Mitchel
@@ -11,7 +15,7 @@ partner {
 
     child {
         name James Harvey
-        baptism -date 31-aug-1789 -location Campbeltown -ref james1789-baptism
+        baptism -date 31-aug-1789 -location Killean -ref james1789-baptism
     }
     child {
         name Catharine Harvey
@@ -67,7 +71,7 @@ partner {
     }
     child {
         name Margarate Harvey
-        baptism -date 13-apr-1813 -location kilean -ref margarate1813-baptism
+        baptism -date 13-apr-1813 -location killean -ref margarate1813-baptism
     }
 }
 footnotes {

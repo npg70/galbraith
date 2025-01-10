@@ -4,6 +4,7 @@ birth -date 3-may-1741
 baptism -date 10-may-1741 -location campbeltown -ref katharine1741-baptism
 external {
     familysearch 9M9D-F9R
+    wikitree Galbraith-1786
 }
 partner {
     name James Harvie
@@ -12,13 +13,7 @@ partner {
     body {
         He was the son of $child-link[harvey-james-1698-mitchell]{James Harvey} and Janet Mitchell.
     }
-    child {
-        name James Harvie
-        birth -date 27-oct-1762     
-        baptism -date 31-oct-1762 -location campbeltown
-        death -date 1847 -location washington,ohio,usa
-        burial -location belpre,washington,ohio,usa
-    }
+    child harvey-james-1762-mitchell
     child  {
         name Martha Harvie
         birth -date 15-nov-1764
