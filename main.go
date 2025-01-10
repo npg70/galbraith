@@ -4,6 +4,7 @@ import (
 	"flag"
 	"log"
 	"path/filepath"
+	"time"
 
 	tf "github.com/client9/tagfunctions"
 	"github.com/npg70/ssg"
@@ -71,10 +72,15 @@ func main() {
 		}
 	}
 
+	start := time.Now()
+
 	if err := Main2(sc, &pages); err != nil {
 		log.Fatalf("Main2 failed: %v", err)
 	}
 
+	t := time.Now()
+	elapsed := t.Sub(start)
+	log.Printf("%d pages in %s", len(pages), elapsed)
 	if server {
 		tf.Serve(sc.OutputDir(), "galbraith")
 	}
