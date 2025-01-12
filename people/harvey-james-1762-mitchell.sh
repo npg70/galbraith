@@ -7,15 +7,33 @@ burial -location belpre,washington,ohio,usa
 external {
     familysearch KCRN-QHF
     wikitree Harvey-4556
+    findagrave 35475982
 }
+body {
+
+$csvtable{
+Child,Immigration,Final
+James, 1817, OH
+Catherine, 1818, OH
+Martha,1850, IL and IA
+Agnes,1817, VA
+}
+}
+note {
+Not listed are two unconfirmed children: James, b ~1805, and Isabella b ~1808.  No sources have been found for them.
+}
+
 partner {
-    name Catharine Mitchel
+    name Catharine Mitchell
     birth -date 'say 1770'
     marriage -date 'about 1788'
 
     child {
         name James Harvey
         baptism -date 31-aug-1789 -location Killean -ref james1789-baptism
+        body {
+            Immigration in 1817.
+        }
     }
     child {
         name Catharine Harvey
@@ -24,19 +42,21 @@ partner {
             name Robert Breckenridge
             marriage -date 21-apr-1818 -location campbeltown
         }
+        body {
+            "Emigrated to Ohio Shortly after marriage in 1818, port of NY"
+        }
     }
     child {
         name Martha Harvey
         baptism -date 29-may-1796 -location killean -ref martha1796-baptism
-    }
-    child {
-        name Mary Harvey
-        baptism -date 'say 1799'
+        death -date 1879 -location 'Charles City,Floyd,Iowa,USA'
         partner {
-            name Daniel Shaw
+            name William Greenlees
+            marriage -date 08-jun-1813 -location 'Killean and Kilchenzie' 
+            death -date 1848 -location campbeltown
         }
         body {
-            UNCONFIRMED
+            immigrated in 1850, after husband died.
         }
     }
     child {
@@ -48,22 +68,15 @@ partner {
         }
     }
     child {
-        name James Harvey
-        baptism -date 1805
-        body {
-            UNCONFIRMED
+        name Mary Harvey
+        baptism -date 'About 1804' -location Killean
+        partner {
+            name Daniel Shaw
         }
     }
     child {
         name Elizabeth Harvey
         baptism -date 29-mar-1806 -location killean -ref elizabeth1806-baptism
-    }
-    child {
-        name Isabella Harvey
-        baptism -date 1808
-        body {
-            UNCONFIRMED
-        }
     }
     child {
         name Ann Harvey
@@ -105,4 +118,3 @@ footnotes {
         }
     }
 }
-

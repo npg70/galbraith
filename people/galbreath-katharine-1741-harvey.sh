@@ -9,26 +9,20 @@ external {
 partner {
     name James Harvie
     baptism -date oct-1735 -location campbeltown
-    marriage -date 1-dec-1761 -location campbeltown
+    marriage -date 1-dec-1761 -location campbeltown -ref galbreath-marriage
     body {
         He was the son of $child-link[harvey-james-1698-mitchell]{James Harvey} and Janet Mitchell.
     }
     child harvey-james-1762-mitchell
-    child  {
+    child {
         name Martha Harvie
         birth -date 15-nov-1764
         baptism -date 18-nov-1764 -location campbeltown
         body {
-            Married $child-link[clark-robert-1756-harvie]{Robert Clark}
+            She married $child-link[clark-robert-1756-harvie]{Robert Clark}, and immigrated in 1814 with their sons.
         }
         death -date 1821 -location washington,virgina,usa
         burial -location washington,virgina,usa -name 'Old Glade Spring Cemetery'
-        partner {
-            name Robert Clark
-            birth -date 1757
-            death -date 1821
-        }
-        body 'Immigrated in 1814 with sons.'
     }
     child  {
         name Janet Harvie
@@ -43,6 +37,7 @@ partner {
         name Archibald Harvey
         birth -date 26-jun-1770
         baptism -date 1-jul-1770 -location campbeltown
+        death -date 22-mar-1812
     }
     child {
         name John Harvie
@@ -59,11 +54,13 @@ partner {
         name Samuel Harvey
         birth -date 24-may-1775
         baptism -date 25-may-1775 -location campbeltown
+        death -date 10-sep-1811
     }
     child {
         name Robert Harvey
         birth -date 11-nov-1777
-        baptism -date 16-nov-1777 -location campbeltown    
+        baptism -date 16-nov-1777 -location campbeltown
+        death -date 24-apr-1796 -location campbeltown
     }
     child {
         name Katherine Harvie
@@ -73,18 +70,18 @@ partner {
             She married $child-link[galbreath-robert-1778-harvey]{Robert Galbreath}.
         }
     }
-    child {
-        name Andrew Harvey
-        birth -date 23-feb-1783
-        baptism -date 26-feb-1783 -location campbeltown -ref andrew1783-baptism
-    }
-    child {
-        name Agnes Harvey
-        birth -date 5-jun-1785
-        baptism -date 5-jun-1785 -location campbeltown -ref agnes1785-baptism
-    }
+    child harvey-andrew-1783-mcmurchy
+
+    child harvey-agnes-1785-campbell
+
 }
 footnotes {
+    galbreath-marriage {
+        $opr-ref-link[m-1761-507-000-0011-0462 "Katherine Galbraith" "James Harvie"]{
+            James Harvie and Katherine Galbreath both in this parish | Dec  1 [1761]
+        }
+        $opr-ref-link[m-1761-507-000-0010-0253 "Katherine Galbraith" "James Harvie"]
+    }
     katharine1741-baptism {
         $opr-ref-link[b-1741-507-000-0011-0236 "Katharine Galbreath"]{
             Katharine | Archd Galbreath + Martha White had a Daughter
@@ -96,18 +93,6 @@ footnotes {
         $opr-ref-link[b-1780-507-000-0020-0049 "Katherine Harvie"]{
             Katherine | Lawful Daur to James Harvie + Katherine Galbreath
             born 29th was baptd 30th July 1780.
-        }
-    }
-    andrew1783-baptism {
-        $opr-ref-link[b-1783-507-000-0020-0065 "Andrew Harvey"]{
-            Andrew | Lawful son to Jas. Harvey Farmer in Park & Kath-erine
-            Galbreath born 23rd & Baptd 26th Febry 1783.
-        }
-    }
-    agnes1785-baptism {
-        $opr-ref-link[b-1785-507-000-0020-0083 "Agnes Harvie"]{
-            Agnes | Lawful daugt to James Harvie Farmer in Skeb...
-            and Katherine Galbreath was born 5th & Bapt. the same day
         }
     }
 }

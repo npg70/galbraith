@@ -27,14 +27,8 @@ partner {
             name James Ross
         }
     }
-    child {
-        name Janet Clark
-        baptism -date 30-jun-1747 -location campbeltown
-        death -date 1827 -location campbeltown
-        partner {
-            name William Daniel McMurchy
-        }
-    }
+    child clark-janet-1747-mcmurchy
+
     child {
         name John Clark
         baptism -date 17-dec-1749 -location campbeltown
