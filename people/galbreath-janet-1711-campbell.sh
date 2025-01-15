@@ -1,6 +1,6 @@
 name Janet Galbreath
 tags Argyll:Campbeltown
-birth -date 'about 1711'
+birth -date 'about 1711' -ref janet1711-baptism
 partner {
     name Robert Campbell
     marriage -date 15-mar-1731 -location Campbeltown -ref campbell-marriage

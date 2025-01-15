@@ -8,6 +8,7 @@ external {
     familysearch KCRN-QHF
     wikitree Harvey-4556
     findagrave 35475982
+    ancestry tree/12079504/person/282245440366
 }
 body {
 
@@ -17,6 +18,7 @@ James, 1817, OH
 Catherine, 1818, OH
 Martha,1850, IL and IA
 Agnes,1817, VA
+Jean, Before 1821, IN
 }
 }
 note {
@@ -59,6 +61,8 @@ partner {
             immigrated in 1850, after husband died.
         }
     }
+    child harvey-jean-1798-culbertson
+
     child {
         name Agnes Harvey
         baptism -date 19-feb-1801 -location Killean -ref agnes1801-baptism
@@ -95,10 +99,16 @@ footnotes {
         }
     }
     catharine1794-baptism {
-        $opr-ref[b-1794-519-000-0010-0096 "Cathrine Harvy"]
+        $opr-ref-link[b-1794-519-000-0010-0096 "Cathrine Harvy"]{
+            Catherina Lawful daughter to James Harvey and
+            Catherine Mitchel in Bellevein was Baptized 17th April [1794]
+        }
     }
     martha1796-baptism {
-        $opr-ref[b-1796-519-000-0010-0116 "Martha Harvy"]
+        $opr-ref-link[b-1796-519-000-0010-0116 "Martha Harvy"]{
+            Martha Lawful Dau. to James Harvey & Catherine
+            Mitchel in Laigh[?] Balleveen Baptized 29th May [1796]
+        }
     }
     agnes1801-baptism {
         $opr-ref-link[b-1801-519-000-0010-0151 "Agnes Harvey"]{
@@ -107,10 +117,14 @@ footnotes {
         }
     }
     elizabeth1806-baptism {
-        $opr-ref[b-1806-519-000-0010-0196 "Elizabeth Harvey"]
+        $opr-ref-link[b-1806-519-000-0010-0196 "Elizabeth Harvey"]{
+            March | 29 | Eliz Lawful daughter to James Harvey Ballveen.
+        }
     }
     ann1809-baptism {
-        $opr-ref[b-1809-519-000-0010-0227 "Ann Harvey"]
+        $opr-ref-link[b-1809-519-000-0010-0227 "Ann Harvey"]{
+            June | 12 | Ann Lawful daughter to James Harvey in Ballevein
+        }
     }
     margarate1813-baptism {
         $opr-ref-link[b-1813-519-000-0010-0262 "Margarate Harvey"]{

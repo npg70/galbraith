@@ -2,24 +2,23 @@ name James Harvey
 external {
     familysearch 9M9D-X13
     wikitree Harvie-478
+    ancestry tree/12079504/person/282240706957
 }
 tags Argyll:Campbeltown
 
-birth -date 'about 1698'
+note {
+    While listed as "Harvey" here, all records used "Harvie"
+}
+
+baptism -date 29-may-1698 -location campbeltown -ref james1698-baptism
+
 partner {
     name Janet Mitchell
+    birth -date 'about 1705' -ref mitchell-birth
     marriage -date 24-apr-1723 -location campbeltown -ref mitchell-marriage
 
-    child {
-        name Agnes Nannie Harvey
-        baptism -date 16-may-1725 -location campbeltown
-        partner {
-            name Robert Culbertson
-            birth -date 2-dec-1722 -location campbeltown
-            death -date 20-aug-1799 -location campbeltown
-            marriage -date 07-feb-1748 -location campbeltown
-        }
-    }
+    child harvey-agnes-1725-culbertson
+
     child {
         name John Harvey
         baptism -date 07-feb-1727 -location campbeltown
@@ -57,7 +56,7 @@ partner {
     }
     child {
         name James Harvey
-        baptism -date oct-1735 -location campbeltown
+        baptism -date oct-1735 -location campbeltown -ref james1735-baptism
         body {
            He married $child-link[galbreath-katharine-1741-harvey]{Katherine Galbreath}
        }
@@ -87,7 +86,27 @@ partner {
     }
 }
 footnotes {
+
+    james1698-baptism {
+        $opr-ref-link[b-1698-507-000-0011-0077 "James Harvie"]{
+            James | Lawful son to John Harvie and Agnes Watersone
+            his lawful spouse Born May 29th names James
+        }
+    }
     mitchell-marriage {
-        TBD
+        $opr-ref-link[m-1723-507-000-0011-0433 "James Harvie" "Janet Mitchell"]{
+            James Harvie & Janet Mitchell Parishoners were married | April 24th 1723
+        }
+        $opr-ref[m-1723-507-000-0010-0085 "James Harvie" "Janet Mitchell"]
+    }
+    mitchell-birth {
+        The birth date of Janet Mitchell is based on the 1792 census which gives her age of 87.
+    }
+
+    james1735-baptism {
+        $opr-ref-link[b-1735-507-000-0011-0210 "James Harvie"]{
+        James | James Harvie & Janet Mitchell had a son baptized [blank]
+        Oct named James
+        }
     }
 }

@@ -5,6 +5,7 @@ baptism -date 10-may-1741 -location campbeltown -ref katharine1741-baptism
 external {
     familysearch 9M9D-F9R
     wikitree Galbraith-1786
+    ancestry tree/12079504/person/282258326809
 }
 partner {
     name James Harvie
@@ -24,15 +25,8 @@ partner {
         death -date 1821 -location washington,virgina,usa
         burial -location washington,virgina,usa -name 'Old Glade Spring Cemetery'
     }
-    child  {
-        name Janet Harvie
-        birth -date 20-jul-1767
-        baptism -date 21-jul-1767 -location campbeltown
-        partner {
-            name Alexander Paterson
-            marriage -date 17-feb-1792 -location campbeltown
-        }
-    }
+    child harvey-janet-1767-paterson
+
     child {
         name Archibald Harvey
         birth -date 26-jun-1770
