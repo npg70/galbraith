@@ -9,7 +9,7 @@ $ul{
 	$li{$source-link[kilkerran-graveyard-revisted]{Kilkerran Graveyard Revisited}}
 	$li{$source-link[kintyre-country-life]{Kintyre Country Life}}
 	$li{$source-link[kintyre-the-hidden-past]{Kintyre, The Hidden Past}}
-	$li{$source-link[saga-of-out-kintyre-kin]{Saga of our Kintyre Kin}}
+	$li{$source-link[saga-of-our-kintyre-kin]{Saga of our Kintyre Kin}}
 	$li{$source-link[distilleries-of-campbeltown]{The Distilleries of Campbeltown}}
 	$li{$source-link[campbeltown-journal-1851-1855]{Campbeltown Journal 1851-1855}}
 }
