@@ -11,6 +11,9 @@ partner {
     marriage -date 1820 -location 'Killean and Kilchenzie' -ref culbertson-marriage
     birth -date 1798
     death -date 1880
+    body {
+        He was the son of $child-link[culbertson-james-1759-white]{James Culbertson} and Janet White.
+    }
 }
 
 footnotes {

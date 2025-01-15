@@ -55,8 +55,11 @@ partner {
         baptism -date 03-jun-1796 -location campbeltown
    }
    child {
-        name James W Culbertson
+        name James Culbertson
         baptism -date 11-aug-1798 -location campbeltown
+        body {
+            He married $child-link[harvey-jean-1798-culbertson]{Jean Harvey}.
+        }
    }
    child {
         name Samuel Culbertson
@@ -64,15 +67,22 @@ partner {
    }
    child {
         name David Culbertson
-        baptism -date 22-dec-1803 -location campbeltown
+        birth -date 19-dec-1803
+        baptism -date 22-dec-1803 -location campbeltown -ref david1803-baptism
    }
 }
 footnotes {
     white-marriage {
         $opr-ref-link[m-1779-507-000-0020-0161 "James Culbertson" "Janet White"]{
-        James Culbertson in this parish & Janet White in the parish of
-        South End were contracted 22nd May 1779 & married.
-    }
+            James Culbertson in this parish & Janet White in the parish of
+            South End were contracted 22nd May 1779 & married.
+        }
        $opr-ref[m-1779-532-000-0010-0117 "James Culbertson" "Janet White"] 
+    }
+    david1803-baptism {
+        $opr-ref-link[b-1803-507-000-0040-0255 "David Culbertson"]{
+            David | Lawful son to James Culbertson Farmer in Skerbolingorrey
+            and Janet White born 19th Baptized 22 December 1803 Named David
+        }
     }
 }
