@@ -30,6 +30,7 @@ partner {
     }
     child {
         name John Galbreath
+        birth -date 7-jan-1784
         baptism -date 8-jan-1784 -location campbeltown -ref john1784-baptism
         death -date 25-may-1844
         partner {
@@ -110,7 +111,10 @@ footnotes {
         $opr-ref-link[b-1782-507-000-0020-0057 "James Galbreath"]
     }
     john1784-baptism {
-        $opr-ref-link[b-1784-507-000-0020-0071 "John Galbreath"]
-        Mother indexed as "Fleeming"
+        Mother indexed as "Fleeming":
+        $opr-ref-link[b-1784-507-000-0020-0071 "John Galbreath"]{
+            John Lawful son to Alexd. Galbreath Mercht in Campbeltown
+            & Agnes Fleeming was born 7th & Bapt 8th January [1784]
+        }
     }
 }

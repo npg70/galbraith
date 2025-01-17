@@ -75,6 +75,6 @@ footnotes {
         $opr-ref-link[m-1778-507-000-0020-0160 "Andrew Ralston" "Margaret Fleming"]{
         Andrew Ralston in parish Southend & Margt Fleming
         in this parish was contracted 23rd Jan 1778 & married.
-    }
+        }
     }
 }

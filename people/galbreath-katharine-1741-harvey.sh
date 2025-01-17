@@ -44,12 +44,8 @@ partner {
             marriage -date 1-apr-1798 -location "isle of man"
         }
     }
-    child {
-        name Samuel Harvey
-        birth -date 24-may-1775
-        baptism -date 25-may-1775 -location campbeltown
-        death -date 10-sep-1811
-    }
+    child harvey-samuel-1775-harvey-dunlop
+
     child {
         name Robert Harvey
         birth -date 11-nov-1777
