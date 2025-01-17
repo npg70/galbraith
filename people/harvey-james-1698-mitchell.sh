@@ -61,17 +61,9 @@ partner {
            He married $child-link[galbreath-katharine-1741-harvey]{Katherine Galbreath}
        }
     }
-    child {
-        name William Harvey
-        baptism -date may-1738 -location campbeltown
-        death -date 23-jun-1828 -location campbeltown
-        partner {
-            name Agnes Orr
-            baptism -date 20-nov-1745 -location campbeltown
-            death -date 17-jan-1820 -location campbeltown
-            marriage -date 12-feb-1765 -location campbeltown
-        }
-    }
+
+    child harvey-william-1738-orr
+
     child {
         name Mathew Harvey
         baptism -date 21-sep-1740 -location campbeltown
