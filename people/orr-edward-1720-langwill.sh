@@ -20,6 +20,9 @@ partner {
     child {
         name Agnes Orr
         baptism -date 20-nov-1745 -location campbeltown
+        body {
+            She married $child-link[harvey-william-1738-orr]{William Harvey}.
+        }
     }
     child {
         name Janet Orr

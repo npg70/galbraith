@@ -14,7 +14,10 @@ partner {
    baptism -date 20-nov-1745 -location campbeltown
    death -date 17-jan-1820 -location campbeltown
    marriage -date 12-feb-1765 -location campbeltown
+    body {
+        She was the daughter of $child-link[orr-edward-1720-langwill]{Edward Orr} and Isabell Langwill.
 
+    }
    child {
         name Janet Harvie
         birth -date 1767
