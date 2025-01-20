@@ -51,6 +51,9 @@ body {
 note {
     Possible the McIssacs who married two of the daughters are brothers.
 }
+note {
+    Little is known about Jean Harvey.  She's not in the 1792 Census, 1841 Census, 1851 Census, or Statutory records.
+}
 
 footnotes {
     james1768-baptism {

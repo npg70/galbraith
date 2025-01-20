@@ -67,7 +67,10 @@ footnotes {
         $opr-ref[b-1752-507-000-0010-0209 "James Galbraith"]
     }
     john1754-baptism {
-        $opr-ref[b-1754-507-000-0011-0293 "John Galbreath"]
+        $opr-ref-link[b-1754-507-000-0011-0293 "John Galbreath"]{
+            John | James Galbreath and Margt Anderson had
+            a son baptized 11th Dec named John [1754]
+        }
         $opr-ref[b-1754-507-000-0010-0220 "John Galbraith"]
     }
     ann1756-baptism {
@@ -82,7 +85,10 @@ footnotes {
         $opr-ref[b-1763-507-000-0010-0279 "Catharine Galbraith"]
     }
     william1765-baptism {
-        $opr-ref[b-1765-507-000-0011-0350 "William Galbreath"]
+        $opr-ref-link[b-1765-507-000-0011-0350 "William Galbreath"]{
+            William | James Galbreath and Margt Anderson had a son
+            born 27th & bapt 29th Dec named William [1765]
+        }
         $opr-ref[b-1765-507-000-0010-0301 "William Galbraith"]
     }
 }

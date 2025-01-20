@@ -25,11 +25,25 @@ partner {
         He was a farmer.
     }
    }
+   child {
+    name Francis Harvey
+    baptism -date 26-jun-1823 -location campbeltown -ref francis1823-baptism
+    partner {
+        name Mary Cumming
+
+    }
+    body {
+        Lighthouse guy.
+    }
+   }
 }
 
 footnotes {
     james1818-death {
         $sp-ref-link[d-1856-507-002-0020 0007 "James Harvey"]
+    }
+    francis1823-baptism {
+        $opr-ref[b-1823-507-000-0060-0072 "Francis Harvey"]
     }
 }
 

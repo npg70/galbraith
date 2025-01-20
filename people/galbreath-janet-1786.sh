@@ -13,6 +13,8 @@ note {
 }
 footnotes {
     janet1786-baptism {
-        $opr-ref-link[b-1786-507-000-0040-0064 "Janet Galbreath"]
+        $opr-ref-link[b-1786-507-000-0040-0064 "Janet Galbreath"]{
+            Janet | Lawful dau to John Galbreath & Marrion McLean Knockarly[?] born 9th [Jan 1786]
+        }
     }
 }

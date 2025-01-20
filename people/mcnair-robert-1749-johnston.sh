@@ -2,6 +2,8 @@ name Robert McNair
 tags Argyll:Campbeltown
 external {
     familysearch M1Y8-K5C
+    wikitree McNair-1081
+    ancestry tree/12079504/person/282623258590
 }
 
 birth -date 'about 1749'
@@ -13,18 +15,18 @@ partner {
     name Jean Johnston
     marriage -date 01-mar-1800 -location campbeltown
 
-    child {
-        name John McNair
-        birth -date 23-apr-1801
-        baptism -date 26-apr-1801 -location campbeltown
-    }
+    child mcnair-john-1801-stewart
+
     child {
         name Sarah McNair
         birth -date 07-may-1803
         baptism -date 07-may-1803 -location campbeltown
-        death -date 18-jul-1874 -location campbeltown
+        death -date 19-jul-1874 -location campbeltown
         partner {
             name William Mitchell
+            birth -date 14-jan-1799  -location campbeltown
+            death -date 16-jan-1877 -location campbeltown
+            marriage -date 27-jul-1824 -location campbeltown
         }
     }
     child {

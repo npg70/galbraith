@@ -39,7 +39,10 @@ partner {
 }
 footnotes {
     neill1788-baptism {
-        $opr-ref-link[b-1788-507-000-0040-0078 "Neill Galbreath"]
+        $opr-ref-link[b-1788-507-000-0040-0078 "Neill Galbreath"]{
+            $i{December 1788} Neill Lawful son to John Galbreath + Marron McLean
+            in Knockanly born [?] bapt 18
+        }
     }
     neill1788-death {
         $sp-ref-link[d-1863-507-00-0083 0028 "Neil Galbraith"]
