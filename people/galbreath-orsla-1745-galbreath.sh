@@ -10,6 +10,7 @@ note {
 partner {
     name Archibald Galbreath
     birth -date 'say 1745'
+    marriage -date 22-dec-1772 -location campbeltown -ref marriage
     child {
         name James Galbreath
         baptism -date 03-nov-1773 -location campbeltown -ref james1773-baptism
@@ -30,6 +31,11 @@ footnotes {
             Orsla | Patrick Galbreath & Jean Watson had a Daughter
             baptized 22nd Sept named Orsla
         }
+    }
+    marriage {
+        $opr-ref-link[m-1772-507-000-0020-0157 "Archibald Galbreath" "Orsla Galbreath"]{
+            $i{Dec 22} Archd Galbreath and Orsla Galbreath this parish
+       }
     }
     james1773-baptism {
         $opr-ref-link[b-1773-507-000-0011-0390 "James Galbreath"]{
