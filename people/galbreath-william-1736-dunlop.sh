@@ -8,7 +8,7 @@ external {
     wikitree Galbraith-2401
 }
 body {
-Census of 1792:
+Census of 1792, Campbeltown, 20 & 21 Back Street:
 $ul{
 $li{
 Rows 7-8: The head of household, William Galbreath and the assumed second wife.

@@ -15,11 +15,11 @@ partner {
 }
 footnotes {
     mary1759-baptism {
-        $opr-ref[b-1759-507-000-0011-0313 "Mary Galbreath"]{
+        $opr-ref-link[b-1759-507-000-0011-0313 "Mary Galbreath"]{
         Mary | James Galbreath and Mary Anderson had
         a daught baptized 23st January named Mary
         }
-        $opr-ref[b-1759-507-000-0010-0241 "Mary Galbraith"]{
+        $opr-ref-link[b-1759-507-000-0010-0241 "Mary Galbraith"]{
             $i{1759} Mary | James Galbraith + Mary Anderon bapt Mary $i{no date}
         }
         Unclear why Scotlands People has this indexed as 31 Dec 1758.
