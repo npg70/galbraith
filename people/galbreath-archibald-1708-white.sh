@@ -46,10 +46,10 @@ footnotes {
     $p{Transcription:}
     $blockquote{$pre{
 Erected by
-[John?] Galbreath [the?]
-[son of?] Archd Galbreath
-[tenant in?] Ardnacross 
-who died Sept 1789 __
+[John? Martha?] Galbreath in me-
+mory of Archd Galbreath
+tenant in Ardnacross 
+who died __ Sept 1789 __
 [illegible]
 [illegible]
 }}

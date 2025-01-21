@@ -1,7 +1,9 @@
 name James Galbreath
 baptism -date 20-aug-1713 -location campbeltown -ref james1713-baptism
+death -date 1768 -location campbeltown -ref james1713-burial
 external {
     familysearch G3PJ-D5Z
+    findagrave 114485210
 }
 tags Argyll:Campbeltown
 partner {
@@ -53,6 +55,9 @@ partner {
 footnotes {
     james1713-baptism {
         $opr-ref-link[b-1713-507-000-0011-0117 "James Galbreath"]
+    }
+    james1713-burial {
+        
     }
     mary1-bapt {
         $opr-ref[b-1740-507-000-0011-0230 "Mary Galbreath"]

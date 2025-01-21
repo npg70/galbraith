@@ -2,10 +2,14 @@ name John Galbreath
 tags Argyll:Campbeltown
 birth -date 29-may-1680 -location Kilkeddan
 baptism  -date 30-may-1680 -location Campbeltown -ref john1680-baptism
+death -date 9-feb-1748
+burial -name 'Gartnagrenach Graveyard' -ref john1680-burial
 external {
     familysearch L2PT-L1B
     wikitree Galbraith-1787
+    findagrave 160815745
 }
+
 partner {
 	name Mary Mitchell
 	marriage -date 30-may-1680 -location Campbeltown -ref marriage
@@ -61,6 +65,10 @@ partner {
 footnotes {
     john1680-baptism {
         $opr-ref-link[b-1680-507-000-0011-0037 "John Galbreath"]
+    }
+    john1680-burial {
+        Ralston Geneaology on $elink[http://www.ralstongenealogy.com/gartnagrenach.php]{Gartnagrenach Graveyard} and on 
+        $elink[https://www.findagrave.com/memorial/160815745/john-colbreath]{Find a Grave}
     }
     mary1-bapt { 
         $opr-ref-link[b-1709-507-000-0011-0106 "Mary Galbreath"]
