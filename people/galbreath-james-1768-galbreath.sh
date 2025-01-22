@@ -12,14 +12,18 @@ $p{
 Martha Galbreath and their youngest daughter Mary are recorded in the 1841 Census as being in Long Row, Campbeltown. Later records for either of them have not been found.
 }
 $p{
-From the baptism records of children, he was a farmer in Skebolin.
+From the baptism records of children, he was a farmer in Skerbolin.
 }
 $p{
-He won a prize for turnip growning in 1804.
+He won a prize for turnip growning in 1806.
 }
 
 $p{
-The parents of James may be $child-link[galbreath-william-1736-dunlop]{William Galbreath} and Mary Dunlop.   Martha's parents may be $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath} and Janet McNair.
+The parents of James may be $child-link[galbreath-william-1736-dunlop]{William Galbreath} and Mary Dunlop.  Unlikely as that family was listed as living in Campbeltown in 1792. After living in the city it's unlikely he's move out to the farm.
+}
+
+$p{
+Martha's parents may be $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath} and Janet McNair.
 }
 }
 partner {

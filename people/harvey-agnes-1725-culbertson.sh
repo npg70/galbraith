@@ -5,9 +5,6 @@ external {
     ancestry tree/12079504/person/282642876039
     wikitree Harvie-507
 }
-todo {
-    FindAGrave inscription for Kilkerran needs help.
-}
 note {
     No biographical details in marriage and baptism records.
 }

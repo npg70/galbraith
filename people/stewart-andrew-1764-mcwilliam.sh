@@ -12,6 +12,10 @@ partner {
         She was the daughter of $child-link[mcwilliam-donald-1742-ballantyne]{Donald McWilliam} and Katherine Ballantyne.
     }
 }
+todo {
+Kinfam: See Kennedy Section
+}
+
 body {
 $p{
     He was the son of Andrew Stewart and Barbara McVicar.

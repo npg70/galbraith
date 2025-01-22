@@ -8,6 +8,7 @@ external {
     wikitree Galbraith-1788
     findagrave 114485207
 }
+
 partner {
 	name Mary White
     marriage -date 1-apr-1733 -location campbeltown -ref white-marriage

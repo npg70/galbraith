@@ -7,8 +7,12 @@ baptism -date 28-apr-1719 -location campbeltown -ref david1719-baptism
 note {
     There are two people named David Galbreath, who both married a Langwill and both had their
     first child in 1743.  This David married $i{Jean} Langwill
-    and the other $child-link[galbreath-david-1718-langwill]{David Galbreath } married $i{Mary} Langwill.
+    and the other $child-link[galbreath-david-1718-langwill]{David Galbreath} married $i{Mary} Langwill.
 }
+note {
+    There are two Mary Galbreaths born in 1751.  This one, and the other $child-link[galbreath-mary-1751-park]{Mary Galbreath} who married James Park.
+}
+
 note {
     No information on children beyond baptism.
 }
@@ -54,7 +58,10 @@ footnotes {
         $opr-ref[b-1747-507-000-0011-0259 "William Galbreath"]
     }
     mary1751-baptism {
-        $opr-ref[b-1751-507-000-0011-0276 "Mary Galbreath"]
+        $opr-ref-link[b-1751-507-000-0011-0276 "Mary Galbreath"]{
+            Mary | David Galbreath and Jean Langwill had a 
+            Daughter baptized 30th Janry named Mary
+        }
     }
     john1753-baptism {
         $opr-ref-link[b-1753-507-000-0011-0285 "John Galbreath"]
