@@ -41,8 +41,9 @@ $ul{
 	$li{$source-link[trade-and-economic-development-in-eighteenth-century-campbeltown]{Trade and Economic Development in 18th Century Campbeltown} 1982 PHd thesis}
 }
 
-$h2{Census}
+$h2{Census and Land Records}
 
 $ul{
 	$li{$source-link[census-gigha-1827]{Isle of Gigha Census of 1827}}
+    $li{$source-link[kintyre-leases]{Kintyre Leases}}
 }
