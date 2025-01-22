@@ -13,6 +13,6 @@ require golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
 
 require (
 	github.com/client9/tagfunctions v0.0.0-20241101043239-861527e9c97d
-	github.com/npg70/ssg v0.0.0-20241106191639-d2d43a582a5c
+	github.com/npg70/ssg v0.0.0-20241115063409-35ce39c5d07b
 	gopkg.in/yaml.v3 v3.0.1
 )

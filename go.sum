@@ -4,6 +4,8 @@ github.com/client9/tagfunctions v0.0.0-20241101043239-861527e9c97d h1:bjt5ctC6/4
 github.com/client9/tagfunctions v0.0.0-20241101043239-861527e9c97d/go.mod h1:u6lmNENEdq6a/l60ogwor75DS1ivXLqpmg8ovmT0Zvs=
 github.com/npg70/ssg v0.0.0-20241106191639-d2d43a582a5c h1:IovbgQgNTM1fw3JAUbMhjFOhsTHo/bCsHOVXyRtD9XU=
 github.com/npg70/ssg v0.0.0-20241106191639-d2d43a582a5c/go.mod h1:LzD4G+eaqiEmG7zwif3HhzXOruDCkt+pSGz+oTMNSoo=
+github.com/npg70/ssg v0.0.0-20241115063409-35ce39c5d07b h1:JIYyv0ly4Zd+Cq7W4v5h27KOflTlU1CEuNeUSri9GnY=
+github.com/npg70/ssg v0.0.0-20241115063409-35ce39c5d07b/go.mod h1:LzD4G+eaqiEmG7zwif3HhzXOruDCkt+pSGz+oTMNSoo=
 golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842 h1:vr/HnozRka3pE4EsMEg1lgkXJkTFJCVUX+S/ZT6wYzM=
 golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842/go.mod h1:XtvwrStGgqGPLc4cjQfWqZHG1YFdYs6swckp8vpsjnc=
 golang.org/x/net v0.30.0 h1:AcW1SDZMkb8IpzCdQUaIq2sP4sZ4zw+55h6ynffypl4=

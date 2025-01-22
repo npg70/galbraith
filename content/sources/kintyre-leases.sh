@@ -6,10 +6,9 @@ $section{
 $h2{KL 182}
 
 $ul{
-$li{1775 - $b{Robert Culbertson} Tenant in Calliburn and $b{Andrew Harvey} Merchant in Campbeltown}
+$li{1775 - $b{Robert Culbertson} Tenant in Calliburn and $b{Andrew Harvey} Merchant in Campbeltown - possessed by "Neill McDonald Mac Nealls"}
 $li{1788 - $b{Robert Culbertson} Tenant in Kylypoll and $b{Andrew Harvey} Merchant in Campbeltown}
-$li{1800 - $b{James Galbreath} Tenant in Ardnacross}
-$li{1800 - The lands east of Skerbolin presently possesed by $b{James Harvey} as heir to $b{Andrew Harvey} his father.}
+$li{1800 - $b{James Galbreath} Tenant in Ardnacross for the lands east of Skerbolin presently possesed by $b{James Harvey} as heir to $b{Andrew Harvey} his father.}
 $li{1807 - $b{James Culbertson} tenant in West Skeroblingatty}
 }
 }
@@ -46,42 +45,7 @@ $li{$child-link[harvey-andrew-1783-mcmurchy]{Andrew Harvie} did immigrate to Ohi
 $li{TBD: list his older siblings immigration}
 $li{$child-link[galbreath-robert-1778-harvey]{Robert Galbreath}, the son of $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath}}
 $li{Robert appears to have sold the farm to his sister $child-link[galbreath-catharine-1788-greenlees]{Catherine Galbreath} and James Greenlees}
-$li{$child-link[stewart-duncan-1781-greenlees]{Duncan Stewart} started in Caliburn Campbeltown, then moved to Peninver until his death in 1848.}
+$li{$child-link[stewart-duncan-1781-greenlees]{Duncan Stewart} started in $elink[https://maps.app.goo.gl/vrr9ZAnBoTw8PyG5A]{Caliburn Campbeltown}, then moved to Peninver until his death in 1848.}
 $li{TBD: John Stewart not the son/father of below:}
 $li{TBD: $child-link[stewart-andrew-1791-mcwilliams]{Andrew Stewart}}
-}
-
-$section{
-$h2{Robert Galbreath x Katharine Harvie}
-
-$ul{
-$li{
-$child-link[galbreath-robert-1778-harvey]{Robert Galbreath} worked Peninver until 1819 and then immigrated to Ohio, USA.
-}
-$li{
-Katherine is definitely the daughter of James and Katharine below.
-}
-}
-}
-$section{
-$h2{James Harvie x Katherine Galbreath}
-
-$child-link[galbreath-katharine-1741-harvey]{Katherine Galbreath}
-
-$section{
-$h2{James Harvey x Catharine Mitchel}
-$ul{
-$li{$child-link[harvey-james-1768-mitchell]{James Harvey}, b. ~1770}
-$li{Worked the farm at Bellevein}
-$li{Children from 1789-1813, which mean Catharine was ~20 when married}
-}
-}
-
-$section{
-$h2{Andrew Harvey x Margaret Orr}
-
-$ul{
-$li{This $child-link[harvey-andrew-1749-orr]{Andrew Harvey} was a "merchant in Campbeltown" and a "maltman in town"}
-$li{Parents were Nathaniel Harvey and Janet Smith.}
-}
 }
