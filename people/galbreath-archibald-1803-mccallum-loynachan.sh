@@ -4,6 +4,7 @@ death -date 17-feb-1885 -location campbeltown -ref archibald1803-death
 tags Argyll:Campbeltown
 external {
     familysearch KC9G-P5D
+    ancestry tree/12079504/person/282447446917
 }
 note {
 Margaret Loynachan has been spelled "O Lynachan", "Olynchan", "Oloynachan", "Olinachan", "Lunachan", "Lynachan." In later documents, they gave up and just used "Lang."

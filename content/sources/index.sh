@@ -12,6 +12,7 @@ $ul{
 	$li{$source-link[saga-of-our-kintyre-kin]{Saga of our Kintyre Kin}}
 	$li{$source-link[distilleries-of-campbeltown]{The Distilleries of Campbeltown}}
 	$li{$source-link[campbeltown-journal-1851-1855]{Campbeltown Journal 1851-1855}}
+    $li{$source-link[argyle-settlement]{Argyle Settlement}}
 }
 
 $h2{Magazines}

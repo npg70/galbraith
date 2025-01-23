@@ -2,6 +2,8 @@ name Samuel Galbraith
 tags argyll:campbeltown immigrant:canada 'immigrant:british west indies'
 external {
     findagrave 122690973
+    ancestry tree/12079504/person/282567870198
+    familysearch GZSW-6YY
 }
 birth -date 17-nov-1850 -location campbeltown
 death -date 19-sep-1931 -location 'St. Boniface,Manitoba,Canada'
