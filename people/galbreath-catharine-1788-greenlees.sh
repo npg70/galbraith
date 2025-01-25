@@ -23,8 +23,8 @@ partner {
         name Janet Greenlees
         baptism -date 16-jan-1811 -location campbeltown -ref janet1811-baptism
         death -date 29-jan-1869 -location campbeltown -ref janet1811-death
-        partner {
-            name Samuel Mitchell
+        body {
+            She married $child-link[mitchell-samuel-1807-greenlees]{Samuel Mitchell}
         }
     }
     child {

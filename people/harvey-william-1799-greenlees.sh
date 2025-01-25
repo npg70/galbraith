@@ -28,7 +28,7 @@ partner {
     child {
         name Daniel G Harvery
         body {
-            Wrote about "The Agyle Settlement in History and Story"
+            Author of $source-link[argyle-settlement]{The Argyle Settlement in History and Story}.
         }
     }
 }

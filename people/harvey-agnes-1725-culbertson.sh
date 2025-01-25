@@ -24,7 +24,7 @@ John Culbertson, 30, 1762
 David Culbertson, 14, 1778
 }
 }
-baptism -date 16-may-1725 -location campbeltown
+baptism -date 16-may-1725 -location campbeltown -ref agnes1725-baptism
 partner {
    name Robert Culbertson
    birth -date 2-dec-1722 -location campbeltown
@@ -61,10 +61,15 @@ partner {
 }
 
 footnotes {
-
+    agnes1725-baptism {
+        $opr-ref-link[b-1725-507-000-0010-0116 "Agnes Harvie"]{
+            Agnes | James Harvie & Janet Mitchell had a lawfl child
+                bapt May 16 Agnes
+        }
+    }
     culbertson-marriage {
         Note: two other Galbraith marriages on the same page.
-        $opr-ref-link[m-1748-507-000-0011-0450 "Agnes Harvie" "Robert Culbertson"]{
+        $opr-ref-link[m-1748-507-000-0010-0450 "Agnes Harvie" "Robert Culbertson"]{
             Robert Culbertson & Agnes Harvie | Feb 7
         }
         $opr-ref[m-1748-507-000-0010-0187 "Robert Culbertson" "Agnes Harvie"]

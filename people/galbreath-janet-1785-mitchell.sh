@@ -15,10 +15,8 @@ partner {
     name William Mitchell
     marriage -date 21-jun-1803 -location campbeltown -ref marriage
     child mitchell-archibald-1805-smith-mcnair
-    child {
-        name Samuel Mitchell
-        baptism -date 14-May-1807 -location campbeltown
-    }
+
+    child mitchell-samuel-1807-greenlees
     child {
         name Hugh Mitchell
         baptism -date 13-Jun-1809  -location campbeltown

@@ -2,6 +2,7 @@ name James Harvey
 birth -date 'about 1751'
 external {
     familysearch GQMX-WCZ
+    findagrave 167539836
 }
 partner {
     name Jean McNair
