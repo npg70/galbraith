@@ -32,6 +32,7 @@ $ul{
 	$li{$source-link[kintyre-magazine-67]{Kintyre Magazine #67}, "Argyll's Forgotten Whisky Barons"}
 	$li{$source-link[kintyre-magazine-83]{Kintyre Magazine #83}, "Obit: Carol (Galbraith) Thomson"}
 	$li{$source-link[kintyre-magazine-90]{Kintyre Magazine #90}, "Letter 1849/1850, page 17, note 11"}
+    $li{$source-link[kintyre-magazine-92]{Kintyre Magazine #92}, "Editorial Miscelanny} (Followup to #90)}
 }
 
 $h2{Manuscripts}
