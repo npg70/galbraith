@@ -3,6 +3,10 @@ baptism -date 16-jan-1780 -location campbeltown -ref william1780-baptism
 external {
     familysearch KFJY-V29
 }
+body {
+    He was a farmer in Laggan.
+}
+
 tags Argyll:Campbeltown
 partner {
     name Jean Campbell
