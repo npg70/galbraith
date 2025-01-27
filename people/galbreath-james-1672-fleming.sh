@@ -5,8 +5,9 @@ tags Argyll:Campbeltown
 external {
     familysearch L4B3-KFQ
     wikitree Galbraith-1794
+    ancestry tree/12079504/person/282259424011
 }
-partner () {
+partner {
     name Mary Fleming
     marriage -date 8-dec-1696 -location campbeltown
     child galbreath-jenat-1698-langwill

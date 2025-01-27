@@ -4,6 +4,7 @@ tags Argyll:Campbeltown
 external {
     familysearch G3PJ-SDL
     wikitree Galbraith-1847
+    ancestry tree/12079504/person/282259770252
 }
 note {
 The daughter Mary is often confused with Margaret Galbreath, who married $child-link[mcnair-archibald-1722-galbraith]{Archibald McNair}.  No idea why.

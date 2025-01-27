@@ -3,6 +3,7 @@ baptism -date 3-apr-1659 -location campbeltown -ref birth
 external {
     familysearch GSS6-NPY
     wikitree Galbraith-1789
+    ancestry tree/12079504/person/-339237437
 }
 tags Argyll:Campbeltown
 note {
