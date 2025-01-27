@@ -30,15 +30,15 @@ partner {
 }
 footnotes {
     clark-marriage {
-        $opr-ref-link[m-1766-507-000-0011-0467 "John Galbraith" "Catharine Clerk"];
+        $opr-ref-link[m-1766-507-000-0011-0467 "John Galbraith" "Catharine Clerk"]
         $opr-ref-link[m-1766-507-000-0010-0300 "John Galbraith" "Catharine Clerk"]
     }
     jean1767-baptism {
-        $opr-ref[b-1767-507-000-0011-0358 "Jean Galbreath"];
+        $opr-ref[b-1767-507-000-0011-0358 "Jean Galbreath"]
         $opr-ref[b-1767-507-000-0010-0316 "Jean Galbraith"]
     }
     john1769-baptism {
-        $opr-ref[b-1769-507-000-0011-0371 "Peter Galbreath"];
+        $opr-ref[b-1769-507-000-0011-0371 "Peter Galbreath"]
         $opr-ref[b-1769-507-000-0010-0334 "Peter Galbraith"]
     }
     peter1772-baptism {
