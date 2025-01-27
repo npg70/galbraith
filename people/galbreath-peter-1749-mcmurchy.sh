@@ -7,7 +7,7 @@ external {
 body {
 Family is listed as living in Laggan in the Parish of Kilchousland according to the 1792 Census.
 
-He died before 1811.
+He died before 1810, based on marriage record of the first daughter $child-link[galbreath-mary-1785-ferguson]{Mary}.
 
 He was a farmer.
 }
