@@ -1,12 +1,16 @@
 name Archibald Galbreath
-birth -date 'about 1798'
+birth -date 'about 1791'
 tags Argyll:Campbeltown
 note {
     Parents are unknown, but that hasn't stopped The Internet from making lots of guesses, many being completely impossible.
 }
+note {
+    Latest is that he died in Dungannon, County Tyrone, Ireland in 1869 age 78.  The official Irish website seems to imply that's all information available.  BNA search turned up no newpaper notice of his death in Ireland.
+}
 
 external {
-    familysearch 9M9D-6TZ
+    familysearch GXM5-KT5
+    wikitree Galbraith-1866
 }
 partner {
     name Margaret McMillan
