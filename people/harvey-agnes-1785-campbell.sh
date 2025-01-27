@@ -6,6 +6,7 @@ death -date 16-feb-1876
 external {
     familysearch M1YZ-RXR
     wikitree Harvie-865
+    ancestry tree/12079504/person/282299027687
 }
 
 note {
@@ -22,7 +23,7 @@ partner {
     marriage -date 07-jun-1809 -location campbeltown -ref campbell-marriage
 
     child {
-        name Jame Campbell
+        name James Campbell
         baptism -date 10-jun-1812 -location campbeltown
     }
     child {
