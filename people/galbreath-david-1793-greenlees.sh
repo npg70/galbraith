@@ -17,7 +17,7 @@ partner {
     death -date 12-apr-1875 -location huron,ontario,canada 
     child {
         name David Galbreath
-        baptism -date 1-Apr-1819 -location campebeltown -ref david1819-baptism
+        baptism -date 1-Apr-1819 -location campbeltown -ref david1819-baptism
         death -date 26-Jan-1882 -location huron,ontario,canada
     }
     child {
