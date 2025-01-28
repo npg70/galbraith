@@ -1,12 +1,16 @@
 name Mary Galbreath	
 tags Argyll:Campbeltown
-baptism -date 28-Apr-1751 -location Campbeltown -ref mary1751-baptism
+baptism -date 28-apr-1751 -location campbeltown -ref mary1751-baptism
 death -date 03-apr-1825 -location campbeltown -ref mary1751-death
 todo {
     link to kilkerran
 }
+external {
+    findagrave 167549444
+}
+
 note {
-    There is another Mary Galbreath born in 1751, the daughter of $child-link[galbreath-david-1719-langwill]{DAvid Galbreath} and Jean Langwill.
+    There is another Mary Galbreath born in 1751, the daughter of $child-link[galbreath-david-1719-langwill]{David Galbreath} and Jean Langwill.
 }
 
 body {
@@ -29,7 +33,13 @@ Age,Year,Men,Women,Children
 
 partner {
     name Matthew Andrew
+    baptism -date 12-feb-1744 -location campbeltown -ref andrew-baptism
     marriage -date 15-nov-1771 -location campbeltown -ref andrew-marriage
+    death -date 'about 1776'
+
+    external {
+        familysearch M1T4-5WB
+    }
 
     child andrew-agnes-1772-greenlees
 
@@ -91,6 +101,13 @@ footnotes {
        From Kilkerran Cemetery:
 $blockquote{
 1815 Erected by DONALD McLACHLAN, Malster in Campbeltown in memory of his father in law J. PARK late merchant there who died 9 October 1806 aged 56 years also his mother in law MARY GALBREATH who died 3 April 1825 aged 71 years.}
+    }
+    andrew-baptism {
+        $opr-ref-link[b-1744-507-000-0011-0245 "Matthew Andrew"]{
+            Mathew | David Andrew + Agnas Gilkison has a son
+            bapt 19 Febry named Mathew
+        }
+        $opr-ref[b-1744-507-000-0010-0175 "Mathew Andrew"]
     }
     andrew-marriage {
         $opr-ref-link[m-1771-507-000-0011-0473 "Mary Galbreath" "Matthew Andrew"]{
