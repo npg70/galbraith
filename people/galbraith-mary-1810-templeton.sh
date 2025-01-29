@@ -1,4 +1,5 @@
 name Mary Galbreath
+gender female
 baptism -date 15-jul-1810 -location gigha -ref mary1810-baptism
 death -date 10-dec-1891 -location Chicago,Cook,Illinois,USA
 tags Argyll:Gigha Immigrant:USA:Illinois

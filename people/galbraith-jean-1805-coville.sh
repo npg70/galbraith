@@ -1,4 +1,5 @@
 name Jean Galbreath
+gender female
 baptism -date 7-apr-1805 -location campbeltown -ref jean1805-baptism
 death -date 3-Jun-1864 -location campbeltown -ref jean1805-death
 tags Argyll:Campbeltown

@@ -1,4 +1,5 @@
 name Margaret Mathieson McGreachy Galbraith
+gender female
 tags Argyll:Campbeltown illegitimate
 birth -date 29-apr-1913 -location campbeltown -ref margaret1913-birth
 body {

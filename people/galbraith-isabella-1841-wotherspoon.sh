@@ -1,8 +1,10 @@
 name Isabella Galbraith
+gender female
 baptism -date 12-may-1841 -location gigha -ref isabella1841-baptism
 death -date 04-apr-1924 -location gigha -ref isabella1841-death
 partner {
    name Hugh Wotherspoon
+   gender male
    marriage -date 1863 -location gigha -ref isabella1841-marriage
 }
 footnotes {

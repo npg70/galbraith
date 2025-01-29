@@ -1,7 +1,9 @@
 name Ellen Elizabeth Galbraith
+gender female
 birth -date 1897 -location Saddell -ref ellen1897-birth
 partner {
    name Peter MacKinven
+   gender male
    marriage -date 15-nov-1922 -location Saddell -ref ellen1897-marriage
 }
 footnotes {

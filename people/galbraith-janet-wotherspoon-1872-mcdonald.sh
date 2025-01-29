@@ -1,4 +1,5 @@
 name Janet Wotherspoon Galbraith
+gender female
 tags Argyll:Tyree
 external {
     familysearch 9MM8-32Q

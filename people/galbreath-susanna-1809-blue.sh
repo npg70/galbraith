@@ -1,4 +1,5 @@
 name Susanna Galbreath
+gender female
 tags 'argyll:killean and kilchenzie'
 external {
     familysearch K28L-RDH

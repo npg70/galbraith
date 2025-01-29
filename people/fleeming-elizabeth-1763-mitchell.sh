@@ -1,4 +1,5 @@
 name Elizabeth Fleeming
+gender female
 external {
     familysearch KZ4K-N9S
 }
@@ -7,6 +8,7 @@ baptism -date 08-jun-1763 -location campbeltown -ref elizabeth1763-baptism
 death -date 11-nov-1805 -location campbeltown
 partner {
     name Robert Mitchell
+    gender male
     marriage -date 01-apr-1785 -location campbeltown
     birth -date 'about 1750'
     death -date jun-1824

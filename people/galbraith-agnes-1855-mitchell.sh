@@ -1,4 +1,5 @@
 name Agnes Galbraith
+gender female
 tags Argyll:Campbeltown 'no children' glasgow
 birth -date 9-jun-1855 -location campbeltown -ref agnes1855-birth
 death -date 4-jan-1944 -location glasgow -ref agnes1855-death

@@ -1,4 +1,5 @@
 name Mary Galbreath
+gender female
 tags Argyll:Campbeltown immigrant:usa:virginia
 baptism -date 21-jan-1759 -location campbeltown -ref mary1759-baptism
 death -date 13-apr-1856 -location "virgina,usa"

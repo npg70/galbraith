@@ -1,4 +1,5 @@
 name Margaret Galbreath
+gender female
 tags Argyll:Campbeltown
 baptism -date 27-oct-1743 -location campbeltown -ref margaret1743-baptism
 external {

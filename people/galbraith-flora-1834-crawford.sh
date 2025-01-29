@@ -1,4 +1,5 @@
 name Flora Galbraith
+gender female
 tags Argyll:Southend Immigrant:USA:Utah
 baptism -date 21-oct-1834 -location southend -ref flora1834-baptism
 death -date  12-jun-1917 -location 'salt lake city,salt lake,utah,usa'

@@ -1,4 +1,5 @@
 name Euphemia Galbraith
+gender female
 birth -date 16-aug-1868 -location 'south knapdale' -ref birth
 tags 'Argyll:South Knapdale' illegitimate
 body {

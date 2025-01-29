@@ -1,4 +1,5 @@
 name Jane Galbraith
+gender female
 birth -date 19-jun-1890 -location Patrick,Lanark -ref jane1890-birth
 death -date 03-july-1914 -location glasgow  -ref jane1890-death
 body {

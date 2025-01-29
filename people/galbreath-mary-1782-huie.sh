@@ -1,4 +1,5 @@
 name Mary Galbreath
+gender female
 tags Argyll:Campbeltown
 external {
     familysearch M1TW-P3Y

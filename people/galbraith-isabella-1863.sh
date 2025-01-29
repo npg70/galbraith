@@ -1,4 +1,5 @@
 name Isabella Galbraith
+gender female
 birth -date 16-apr-1863 -location campbeltown -ref isabella1863
 tags illegitimate Argyll:campbeltown
 todo { look for marriage or death , and guess who duncan is}

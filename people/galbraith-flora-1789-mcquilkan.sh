@@ -1,4 +1,5 @@
 name Flora Galbraith
+gender female
 birth -date 'about 1789' -location gigha
 death -date 02-jan-1860 -location gigha -ref flora-death
 external {

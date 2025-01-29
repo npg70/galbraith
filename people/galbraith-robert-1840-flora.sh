@@ -1,4 +1,5 @@
 name Robert Galbraith
+gender male
 tags ayr:dalrymple Immigrant:USA:Illinois
 baptism -date 27-nov-1840 -location dalrymple -ref robert1840-baptism
 death -date 1875 -location 'Kankakee,Illinois,USA'

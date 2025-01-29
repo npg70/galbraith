@@ -1,4 +1,5 @@
 name Jean Galbreath
+gender female
 external {
     familysearch KCWQ-DGZ
 }

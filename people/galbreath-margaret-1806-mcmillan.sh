@@ -1,4 +1,5 @@
 name Margaret Galbreath
+gender female
 tags Argyll Immigrant:Canada:Ontario:Oxford
 birth -date 'about 1806' -location Argyll,Scotland
 death -date 12-mar-1896 -location harrington,oxford,ontario,canada

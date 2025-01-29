@@ -1,4 +1,5 @@
 name Helen Galbreath
+gender female
 tags Argyll:Gigha Argyll:Campbeltown
 birth -date 'about 1764' -location gigha
 death -date 9-feb-1855 -location campbeltown -ref death

@@ -1,4 +1,5 @@
 name Carol MacMichael Galbraith
+gender female
 external {
     familysearch G7BD-TRT
 }

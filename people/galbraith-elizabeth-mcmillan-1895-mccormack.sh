@@ -1,8 +1,10 @@
 name Elizabeth McMillan Galbraith
+gender female
 tags 'Argyll:Killean and Kilchenzie'
 birth -date 17-apr-1895 -location 'killean and kilchenzie' -ref elizabeth1895-birth
 partner {
     name John McCormack
+    gender male
     marriage -date 13-dec-1924 -location campbeltown -ref mccormack-marriage
 
     child {

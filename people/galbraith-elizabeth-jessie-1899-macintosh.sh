@@ -1,8 +1,10 @@
 name Elizabeth Jessie Galbraith
+gender female
 birth -date 12-feb-1899 -location Saddell -ref elizabeth1899-birth
 death -date 19-may-1964  -location glasgow -ref elizabeth1899-death
 partner {
     name Duncan MacIntosh
+    gender male
     marriage -date 09-mar-1928 -location saddell -ref macintosh-marriage
     birth -date 1899
     death -date 1980

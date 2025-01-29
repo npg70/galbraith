@@ -1,4 +1,5 @@
 name Margaret Galbreath
+gender female
 tags Argyll:Campbeltown
 external {
     familysearch KP3G-SLT

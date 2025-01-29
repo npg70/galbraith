@@ -1,4 +1,5 @@
 name Mary Galbraith
+gender female
 birth -date 'about 1845'
 death -date 5-Apr-1914 -location Paisley,Renfrew
 partner {

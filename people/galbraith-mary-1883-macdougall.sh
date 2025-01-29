@@ -1,4 +1,5 @@
 name Mary Galbraith
+gender female
 birth -date 21-jun-1883 -location Saddell -ref mary1883-birth
 death -date 03-feb-1973 -location campbeltown -ref mary1883-death
 partner {

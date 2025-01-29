@@ -1,4 +1,5 @@
 name Margaret Galbraith
+gender female
 tags Argyll:Campbeltown illegitimate
 birth -date 13-apr-1871 -location campbeltown -ref margaret1871-birth
 body {

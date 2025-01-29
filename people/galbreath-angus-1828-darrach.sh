@@ -1,4 +1,5 @@
 name Angus Galbreath
+gender male
 tags Argyll:Colonsay Immigrant:Canada:Ontario:Bruce
 external {
     familysearch LJ5K-MNJ

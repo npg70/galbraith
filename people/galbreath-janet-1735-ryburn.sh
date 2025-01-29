@@ -1,4 +1,5 @@
 name Janet Galbreath
+gender female
 baptism -date 27-apr-1735 -location campbeltown -ref janet1735-bapt
 tags Argyll:Campbeltown
 external {

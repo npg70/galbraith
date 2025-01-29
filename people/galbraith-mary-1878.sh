@@ -1,4 +1,5 @@
 name Mary Galbraith
+gender female
 tags argyll:gigha illegitimate
 birth -date 9-jan-1878 -location gigha -ref mary1878-birth
 

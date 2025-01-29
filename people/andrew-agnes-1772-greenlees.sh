@@ -1,6 +1,10 @@
 name Agnes Andrew
+gender female
 baptism -date 06-sep-1772 -location campbeltown
 death -date 21-may-1845 -ref agnes-death
+external {
+    ancestry tree/12079504/person/282647300843
+}
 
 body {
 Census 1841, Long Row, Campbeltown, Argyllshire, Scotland:$ref[census-1841]
@@ -22,7 +26,7 @@ partner {
 
     child {
         name Mathew Greenlees
-        baptism -date 14-Nov-1794 -location campbeltown
+        baptism -date 13-Nov-1794 -location campbeltown
     }
     child {
         name Margaret Greenlees

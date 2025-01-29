@@ -1,4 +1,5 @@
 name _____ Galbraith
+gender unknown
 birth -date 12-apr-1859 -location kilberry -ref birth
 tags illegitimate 'argyll:kilcalmonell and kilberry'
 body {

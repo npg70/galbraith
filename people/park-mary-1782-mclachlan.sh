@@ -1,4 +1,5 @@
-name Mary Park        
+name Mary Park
+gender female
 external {
     familysearch KC71-P7W
 }

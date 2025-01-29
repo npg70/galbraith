@@ -1,4 +1,5 @@
 name Catharine Galbreath
+gender female
 tags Argyll:Campbeltown
 birth -date 16-may-1788 -location peninver
 baptism -date 18-may-1788 -location campbeltown -ref catharine1788-baptism

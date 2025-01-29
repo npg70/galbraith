@@ -1,4 +1,5 @@
 name Margaret Galbraith
+gender female
 birth -date 'about 1853'
 death -date 21-mar-1919 -location campbeltown -ref margaret1853-death
 partner {

@@ -1,4 +1,5 @@
 name Mary Galbraith
+gender female
 tags Argyll:Colonsay 'Argyll:Saddell and Skipness'
 birth -date 'about 1827' -location colonsay
 

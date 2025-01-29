@@ -1,4 +1,5 @@
 name Agnes Galbraith
+gender female
 tags Argyll:Campbeltown illegitimate
 birth -date 2-feb-1870 -location campbeltown -ref agnes1870-birth
 body {

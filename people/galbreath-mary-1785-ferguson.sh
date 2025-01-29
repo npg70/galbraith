@@ -1,4 +1,5 @@
 name Mary Galbreath
+gender female
 baptism -date 21-Sep-1785 -location campbeltown -ref mary1785-baptism
 partner {
     name Andrew Ferguson

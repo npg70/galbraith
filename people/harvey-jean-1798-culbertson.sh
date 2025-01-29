@@ -1,4 +1,5 @@
 name Jean Harvey
+gender female
 birth -date "About 1798" -location Killean -ref jean-birth
 death -date 23-jul-1875 -location 'Jefferson,Indiana,USA'
 external {

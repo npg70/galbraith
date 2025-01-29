@@ -1,4 +1,5 @@
 name Margaret Galbraith
+gender female
 baptism -date 03-jan-1811 -location campbeltown -ref margaret1811-baptism
 death -date 10-may-1890 -location campbeltown -ref margaret1811-death
 tags Argyll:Campbeltown

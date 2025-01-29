@@ -1,4 +1,5 @@
 name Agnes Galbraith
+gender female
 tags Ayr:Dalrymple
 external {
     familysearch K4LB-FV2

@@ -1,4 +1,5 @@
 name Jeanie Crawford Galbraith
+gender female
 tags Argyll:Campbeltown illegitimate
 birth -date 25-dec-1906 -location campbeltown -ref birth
 

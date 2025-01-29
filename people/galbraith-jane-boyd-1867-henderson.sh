@@ -1,4 +1,5 @@
 name Jane Boyd Galbraith
+gender female
 external {
     familysearch M1TZ-C5J
 }

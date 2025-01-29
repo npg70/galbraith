@@ -1,4 +1,5 @@
 name Orsla Galbreath
+gender female
 baptism -date 22-sep-1745 -location campbeltown -ref orsla1745-baptism
 tags Argyll:Campbeltown "dead end"
 external {

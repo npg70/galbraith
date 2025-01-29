@@ -1,4 +1,5 @@
 name Isabella Galbraith
+gender female
 tags Argyll:Campbeltown 
 external {
     familysearch KC6D-5CN

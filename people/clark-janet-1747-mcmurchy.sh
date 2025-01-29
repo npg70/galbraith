@@ -1,4 +1,5 @@
 name Janet Clark
+gender female
 external {
     familysearch L7G2-5T6
     findagrave 211355669

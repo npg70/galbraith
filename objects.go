@@ -218,6 +218,28 @@ func (e ExternalSource) UnmarshalText(text []byte) error {
 	}
 }
 
+type GenderType int
+
+func (g GenderType) Pronoun() string {
+	switch g {
+	case Unset, Male:
+		return "He"
+	case Female:
+		return "She"
+	case Unknown:
+		return "He"
+	default:
+		panic("should never happen")
+	}
+}
+
+const (
+	Unset GenderType = iota
+	Male
+	Female
+	Unknown
+)
+
 type Person struct {
 	parent     *Person
 	generation int      // generation number 1,2,3..
@@ -229,6 +251,7 @@ type Person struct {
 
 	ID        string
 	Name      []string
+	Gender    GenderType
 	Events    map[string]*Event
 	Partners  []*Person
 	Children  []*Person
@@ -296,6 +319,18 @@ func (p *Person) UnmarshalText(text []byte) error {
 			log.Fatalf("Person function had 0 args: body = %q", string(text))
 		}
 		switch args[0] {
+		case "gender":
+			gtype := strings.ToLower(args[1])
+			switch gtype {
+			case "m", "male":
+				p.Gender = Male
+			case "f", "female":
+				p.Gender = Female
+			case "u", "unknown":
+				p.Gender = Unknown
+			default:
+				return fmt.Errorf("Got unknown gender: %s", gtype)
+			}
 		case "tags":
 			p.Tags = args[1:]
 		case "external":
@@ -820,10 +855,11 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 			ordinal = Ordinal(i + 1)
 		}
 		// is marriage known or not?
+		out.WriteString(first.Gender.Pronoun() + " married " + ordinal + " ")
 		if marriage != nil {
-			out.WriteString("He married " + ordinal + " " + EventDatePlace(first, marriage) + " to $partner-name{" + partner.FullName() + "}")
+			out.WriteString(EventDatePlace(first, marriage) + " to $partner-name{" + partner.FullName() + "}")
 		} else {
-			out.WriteString("He married " + ordinal + " " + " $partner-name{" + partner.FullName() + "}")
+			out.WriteString("$partner-name{" + partner.FullName() + "}")
 		}
 
 		birth := partner.Events["birth"]

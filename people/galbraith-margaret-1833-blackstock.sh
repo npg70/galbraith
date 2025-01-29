@@ -1,4 +1,5 @@
 name Margaret Galbraith
+gender female
 birth -date 1833
 death -date 24-may-1915 -location 'campbeltown' -ref marg1833-death
 partner {

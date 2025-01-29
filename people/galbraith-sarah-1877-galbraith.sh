@@ -1,4 +1,5 @@
 name Sarah Galbraith
+gender female
 birth -date 20-nov-1877 -location glassary -ref sarah1877-birth -note "born before parent's marriage"
 death -date 13-nov-1953 -location kelty,fife,scotland -ref sarah1877-death
 

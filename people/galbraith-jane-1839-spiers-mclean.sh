@@ -1,4 +1,5 @@
 name Jane Galbraith
+gender female
 tags Argyll:Campbeltown
 baptism -date 22-dec-1839 -location campbeltown -ref jane1839-baptism
 death -date 10-jul-1915 -location campbeltown -ref jane1839-death

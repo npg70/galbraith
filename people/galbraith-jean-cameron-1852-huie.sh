@@ -1,4 +1,5 @@
 name Jane Galbraith
+gender female
 baptism -date 6-dec-1852 -location campbeltown -ref jean-birth
 death -date 20-sep-1904 -location campbeltown -ref jean-death
 

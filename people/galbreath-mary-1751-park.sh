@@ -1,4 +1,5 @@
-name Mary Galbreath	
+name Mary Galbreath
+gender female
 tags Argyll:Campbeltown
 baptism -date 28-apr-1751 -location campbeltown -ref mary1751-baptism
 death -date 03-apr-1825 -location campbeltown -ref mary1751-death
@@ -7,6 +8,7 @@ todo {
 }
 external {
     findagrave 167549444
+    ancestry tree/12079504/person/282242565564
 }
 
 note {

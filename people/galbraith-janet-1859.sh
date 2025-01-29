@@ -1,4 +1,5 @@
 name Janet Galbraith
+gender female
 tags Argyll:Campbeltown illegitimate
 birth -date 17-sep-1859 -location campbeltown -ref janet1859
 body {

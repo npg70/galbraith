@@ -1,4 +1,5 @@
 name Rachel Galbreath
+gender female
 tags Argyll:Campbeltown
 baptism -date 29-aug-1765 -location campbeltown -ref rachel1765-baptism
 death -date 7-May-1850

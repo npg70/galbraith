@@ -1,4 +1,5 @@
 name Maria Robertson Galbraith
+gender female
 birth -date 11-aug-1909 -location campbeltown -ref maria1909-birth
 tags Argyll:Campbeltown illegitimate
 body {

@@ -1,4 +1,5 @@
 name Elizabeth Johnson Galbraith
+gender female
 tags Argyll:Campbeltown illegitimate
 birth -date 25-sep-1916 -location campbeltown -ref eliz1916
 body {

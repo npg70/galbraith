@@ -1,4 +1,5 @@
 name Rachel Galbraith
+gender female
 tags Argyll:Campbeltown
 birth -date 15-aug-1899 -location campbeltown -ref rachel1899-birth
 death -date 16-nov-1869 -location campbeltown -ref rachel1899-death

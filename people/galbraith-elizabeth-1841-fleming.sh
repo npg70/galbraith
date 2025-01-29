@@ -1,4 +1,5 @@
 name Elizabeth Galbraith
+gender female
 tags Argyll:Campbeltown
 birth -date 25-apr-1841
 baptism -date 10-may-1841 -location campbeltown -ref elizabeth1841-baptism
@@ -15,6 +16,7 @@ external {
 }
 partner {
     name James Nicol Fleming
+    gender male
     marriage -date 27-oct-1859 -location campbeltown 
     body {
         He was director at the City of Glasgow Bank, which collpased in 1878. He was convicted of fraud, served 8 months in prison, and died in Campbeltown in 1904.

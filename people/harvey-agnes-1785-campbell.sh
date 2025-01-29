@@ -1,4 +1,5 @@
 name Agnes Harvey
+gender female
 birth -date 5-jun-1785
 baptism -date 5-jun-1785 -location campbeltown -ref agnes1785-baptism
 death -date 16-feb-1876

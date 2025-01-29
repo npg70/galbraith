@@ -1,4 +1,5 @@
 name Callum Galbraith
+gender male
 note {
     Born as "Malcolm"
 }

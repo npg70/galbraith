@@ -1,4 +1,5 @@
 name Janet Harvie
+gender female
 external {
     familysearch M1Y6-BS4
     ancestry tree/12079504/person/282299027535

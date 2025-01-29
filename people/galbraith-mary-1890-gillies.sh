@@ -1,4 +1,5 @@
 name Mary Galbraith
+gender female
 external {
     familysearch GLH7-DNF
 }

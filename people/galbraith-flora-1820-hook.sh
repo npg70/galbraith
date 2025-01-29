@@ -1,4 +1,5 @@
 name Flora Galbraith
+gender female
 birth -date 'about 1820'
 death -date 22-feb-1862 -location midlothian,scotland -ref flora-death
 external {

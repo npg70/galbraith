@@ -1,4 +1,5 @@
 name Sarah Marion Galbraith
+gender female
 tags "Argyll:Killean and Kilchenzie" Argyll:Gigha
 external {
     familysearch LZZL-8FT

@@ -1,4 +1,5 @@
 name Jean Galbraith
+gender female
 tags Argyll:Campbeltown
 external {
     familysearch M1TZ-CLL

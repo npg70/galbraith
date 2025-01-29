@@ -1,4 +1,5 @@
 name Catherine Galbraith
+gender female
 tags Argyll:Campbeltown illegitimate
 birth -date 7-apr-1875 -location campbeltown -ref birth
 body {

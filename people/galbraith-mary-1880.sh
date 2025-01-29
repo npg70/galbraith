@@ -1,4 +1,5 @@
 name Mary Galbraith
+gender female
 tags Argyll:Campbeltown illegitimate
 birth -date 2-mar-1880 -location campbeltown -ref mary1880-birth
 body {

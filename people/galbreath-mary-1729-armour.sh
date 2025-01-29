@@ -1,4 +1,5 @@
 name Mary Galbreath
+gender female
 tags Argyll:Campbeltown 
 baptism -date 19-oct-1729 -location campbeltown -ref mary1729-baptism
 external {

@@ -1,4 +1,5 @@
 name Orsella Galbreath
+gender female
 baptism -date 24-nov-1805 -location campbeltown -ref orsella1805-baptism
 death -date 2-dec-1898 -location campbeltown -ref orsella1805-death
 partner {

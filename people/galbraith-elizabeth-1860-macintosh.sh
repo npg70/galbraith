@@ -1,8 +1,10 @@
 name Elizabeth Galbraith
+gender female
 birth -date 1-oct-1860 -location Saddell -ref elizabeth1860-birth
 death -date 18-feb-1919 -location saddell -ref elizabeth1860-death
 partner {
    name John MacIntosh
+   gender male
    marriage -date 13-dec-1882 -location saddell -ref macintosh-marriage
 }
 footnotes {

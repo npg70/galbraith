@@ -1,4 +1,5 @@
 name Janet Galbreath
+gender female
 tags Argyll:Campbeltown
 birth -date 'about 1711' -ref janet1711-baptism
 partner {

@@ -1,4 +1,5 @@
 name Mary Ann Galbraith
+gender female
 tags Argyll:Campbeltown illegitimate
 external {
     familysearch M1TW-5H3

@@ -1,4 +1,5 @@
 name Margaret Galbreath
+gender female
 tags Argyll:Campbeltown 'Immigrant:Canada:New Brunswick'
 birth -date 01-nov-1771
 baptism -date 02-nov-1771 -location campbeltown -ref marg-bapt

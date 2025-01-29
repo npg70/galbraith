@@ -1,4 +1,5 @@
 name Agnes Galbreath
+gender female
 baptism -date 3-aug-1828 -location campbeltown -ref agnes1828-baptism
 death -date 16-apr-1901 -location campbeltown -ref agnes1828-death
 burial -name 'Kilchousland Graveyard'

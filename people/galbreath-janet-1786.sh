@@ -1,4 +1,5 @@
 name Janet Galbreath
+gender female
 tags Argyll:Campbeltown
 external {
     familysearch G5H5-JWV

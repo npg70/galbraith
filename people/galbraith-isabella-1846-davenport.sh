@@ -1,4 +1,5 @@
 name Isabella Galbraith
+gender female
 birth -date 05-jan-1846
 baptism -date 01-feb-1846 -location gigha -ref isabella1846-baptism
 death -date 1911 -location 'Newcastle Upon Tyne, Northumberland, England'
@@ -10,6 +11,7 @@ todo {
 }
 partner {
     name James Davenport
+    gender male
     birth -date 1849 -location 'Macclesfield, Cheshire, England, United Kingdom'
     marriage -date 03-sep-1874  -location campbeltown -ref davenport-marriage
 }

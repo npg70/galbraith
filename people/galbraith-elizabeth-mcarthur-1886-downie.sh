@@ -1,7 +1,9 @@
 name Elizabeth McArthur Galbraith
+gender female
 birth -date 1886 -location campbeltown -ref elizabeth1886-birth
 partner {
     name William Adam Downie
+    gender male
     marriage -date 16-nov-1906 -location campbeltown -ref downie-marriage
 }
 footnotes {

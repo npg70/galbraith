@@ -1,4 +1,5 @@
 name Agnes Harvey
+gender female
 external {
     familysearch M1YZ-RWZ
     findagrave 158184603

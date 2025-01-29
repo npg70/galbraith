@@ -1,9 +1,11 @@
 name Elizabeth Galbraith
+gender female
 birth -date 7-nov-1840 -location Torisdale
 baptism -date 27-nov-1840 -location 'Saddell and Skipness' -ref elizabeth1840-baptism
 
 partner {
     name John Weir
+    gender male
     marriage -date 07-sep-1863 -location tarbert -ref weir-marriage
 }
 footnotes {

@@ -1,4 +1,5 @@
 name Mary Paterson Galbraith
+gender female
 tags Argyll:Campbeltown
 
 birth -date 02-jul-1903 -location campbeltown -ref mary1903-birth

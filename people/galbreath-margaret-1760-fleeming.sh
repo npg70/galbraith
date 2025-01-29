@@ -1,4 +1,5 @@
 name Margaret Galbreath
+gender female
 birth -date 'say 1760'
 tags Argyll:Campbeltown 'dead end'
 external {

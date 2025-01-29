@@ -1,4 +1,5 @@
 name Elizabeth Park
+gender female
 external {
     familysearch 9M96-BG5
 }

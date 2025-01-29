@@ -1,4 +1,5 @@
 name Martha Galbreath
+gender female
 tags Argyll:Campbeltown
 external {
     familysearch M1TD-G1D
