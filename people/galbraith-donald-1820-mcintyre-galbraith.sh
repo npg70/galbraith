@@ -1,4 +1,5 @@
 name Donald Galbraith
+gender male
 tags argyll:islay argyll:campbeltown
 external {
     familysearch M1TN-RQF
@@ -20,18 +21,18 @@ body {
 }
 partner {
     name Mary McIntyre
+    gender female
     birth -date 'about 1826' -location islay -note 'the daughter of Donald McIntyre'
     death -date 27-apr-1851 -location campbeltown -ref mcintyre-death
     marriage -date 27-mar-1850 -location campbeltown  -ref mcintyre-marriage1 -ref mcintyre-marriage2
 }
 partner {
     name Margaret McKillop Galbraith
+    gender female
+    parent galbraith-james-1792-fraser
     birth -date 2-oct-1821 -location cathcart,renfrewshire
     death -date 25-jan-1903 -location glasgow -ref galbraith1821-death
     marriage -date 7-jun-1855 -location glasgow -ref galbraith1821-marriage
-    body {
-        She was the daughter of $child-link[galbraith-james-1792-fraser]{James Galbraith} and Helen Fraser.
-    }
 
     child galbraith-john-alexander-1858-findlay
 

@@ -1,4 +1,5 @@
 name Edward Orr
+gender male
 tags Argyll:Campbeltown
 baptism -date 20-sep-1720
 death -date 18-oct-1796 
@@ -11,12 +12,11 @@ note {
 }
 partner {
     name Isabella Langwill
+    gender female
+    parent galbreath-jenat-1698-langwill
     birth -date 'about 1725'
     death -date 9-jan-1795
     marriage -date 17-mar-1744 -location campbeltown
-    body {
-        She was the daughter of $child-link[galbreath-jenat-1698-langwill]{Janet Galbraith} and Peter Langwill.
-    }
     child {
         name Agnes Orr
         baptism -date 20-nov-1745 -location campbeltown

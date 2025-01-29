@@ -10,11 +10,10 @@ external {
 }
 partner {
     name James Harvie
+    gender male
+    parent harvey-james-1698-mitchell
     baptism -date oct-1735 -location campbeltown
     marriage -date 1-dec-1761 -location campbeltown -ref galbreath-marriage
-    body {
-        He was the son of $child-link[harvey-james-1698-mitchell]{James Harvey} and Janet Mitchell.
-    }
     child harvey-james-1762-mitchell
     child {
         name Martha Harvie

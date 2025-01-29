@@ -220,6 +220,18 @@ func (e ExternalSource) UnmarshalText(text []byte) error {
 
 type GenderType int
 
+func (g GenderType) Child() string {
+	switch g {
+	case Unset, Male:
+		return "son"
+	case Female:
+		return "daughter"
+	case Unknown:
+		return "child"
+	default:
+		panic("should never happen")
+	}
+}
 func (g GenderType) Pronoun() string {
 	switch g {
 	case Unset, Male:
@@ -345,6 +357,21 @@ func (p *Person) UnmarshalText(text []byte) error {
 				return err
 			}
 			p.Footnotes = fn
+		case "parent":
+			// child personid reference
+			if len(args) == 2 && body == "" {
+				newp, err := p.root.Load(args[1])
+				if err != nil {
+					return err
+				}
+				p.parent = newp
+			} else {
+				newp := &Person{root: p.root}
+				if err := newp.UnmarshalText([]byte(body)); err != nil {
+					return err
+				}
+				p.parent = newp
+			}
 		case "child":
 			// child personid reference
 			if len(args) == 2 && body == "" {
@@ -866,7 +893,19 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 		} else {
 			out.WriteString("$partner-name{" + partner.FullName() + "}")
 		}
-
+		if partner.parent != nil {
+			if partner.parent.ID != "" {
+				out.WriteString(", the " + partner.Gender.Child() + " of $child-link[" + partner.parent.ID + "]{" + partner.parent.FullName() + "}")
+				if len(partner.parent.Partners) == 1 {
+					out.WriteString(" and " + partner.parent.Partners[0].FullName())
+				}
+			} else {
+				out.WriteString(", the " + partner.Gender.Child() + " of " + partner.parent.FullName())
+				if len(partner.parent.Partners) == 1 {
+					out.WriteString(" and " + partner.parent.Partners[0].FullName())
+				}
+			}
+		}
 		birth := partner.Events["birth"]
 		if birth != nil {
 			out.WriteString(", born " + EventDatePlace(partner, birth))

@@ -8,11 +8,10 @@ external {
 }
 partner {
     name James Armour
+    gender male
+    parent galbreath-mary-1729-armour
     baptism -date 28-apr-1751
     marriage -date 'about 1773' -location campbeltown -ref armour-marriage
-    body {
-        He was the son of William Armour and $child-link[galbreath-mary-1729-armour]{Mary Galbreath}.
-    }
     child {
         name Andrew Armour
         birth -date 13-mar-1774

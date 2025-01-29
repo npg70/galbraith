@@ -1,4 +1,5 @@
 name William Harvey
+gender male
 baptism -date may-1738 -location campbeltown
 death -date 23-jun-1828 -location campbeltown
 
@@ -11,13 +12,11 @@ external {
 
 partner {
    name Agnes Orr
+   gender female
+   parent orr-edward-1720-langwill
    baptism -date 20-nov-1745 -location campbeltown
    death -date 17-jan-1820 -location campbeltown
    marriage -date 12-feb-1765 -location campbeltown
-    body {
-        She was the daughter of $child-link[orr-edward-1720-langwill]{Edward Orr} and Isabell Langwill.
-
-    }
    child {
         name Janet Harvie
         birth -date 1767

@@ -1,4 +1,5 @@
 name Alexander Galbreath
+gender male
 tags Argyll:Campbeltown Immigrant:USA:Pennsylvania
 external {
     familysearch MYW9-L2B
@@ -10,12 +11,12 @@ death -date 1819 -location 'Delta, York, Pennsylvania, USA' -name 'Slate Ridge C
 
 partner {
     name Agnes Flemming
+    gender female
+    parent fleeming-john-1713-langwill
     marriage -date dec-1779 -location campbeltown
     baptism -date 5-dec-1760 -location campbeltown
     death -date apr-1829 -location 'york,pennsylvaia,usa'
-    body {
-        She was the daughter of $child-link[fleeming-john-1713-langwill]{John Fleeming} and Agnes Langwill.
-    }
+
     child {
         name John Galbreath
         baptism -date 25-may-1781 -location campbeltown -ref john1781-baptism

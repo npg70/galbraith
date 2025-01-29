@@ -1,19 +1,19 @@
 name Robert Galbreath
+gender male
 tags Argyll:Campbeltown Immigrant:USA:Ohio
 birth -location Peninver
 baptism -date 12-oct-1778 -location campbeltown -ref robert1778-baptism
 death -date 19-may-1847 -location neville,clermont,ohio,usa
-external () {
+external {
     familysearch LVX6-R5K
     wikitree Galbraith-1831
     findagrave 10458564
 }
-partner () {
+partner {
     name Katherine Harvie
+    gender female
+    parent galbreath-katharine-1741-harvey
     marriage -date 18-apr-1805 -location campbeltown -ref marriage
-    body {
-        She was the daughter of James Harvie and $child-link[galbreath-katharine-1741-harvey]{Katharine Galbreath}.
-    }
     birth -date 29-jul-1780
     baptism -date 30-Jul-1780 -location campbeltown
     death -date 21-jun-1847 -location Washington,Clermont,Ohio,USA

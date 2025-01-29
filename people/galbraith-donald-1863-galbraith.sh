@@ -1,4 +1,5 @@
 name Donald Galbraith
+gender male
 external {  
     familysearch MMMH-159
 }
@@ -7,12 +8,12 @@ birth -date 11-may-1863 -location greenock -ref donald1863-birth
 death -date 27-jun-1932 -location glasgow -ref donald1863-death
 partner {
     name Jane Galbraith
+    gender female
+    parent galbraith-donald-1833-mcdermid
+
     birth -date 19-Dec-1861 -location campbeltown
     marriage -date 27-sep-1881 -location campbeltown -ref jane-marriage
     death -date 1-nov-1914 -location glasgow -ref jane-death
-    body {
-        The daughter of $child-link[galbraith-donald-1833-mcdermid]{Donald Galbraith} and Isabella McDermid.
-    }
 
     child galbraith-jane-1890
 }

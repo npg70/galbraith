@@ -1,4 +1,5 @@
 name Archibald Galbraith
+gender male
 tags 'argyll:kilcalmonell and kilberry'
 external {
     familysearch LV7Y-5RK
@@ -7,10 +8,9 @@ birth -date 27-may-1861 -location kilberry -ref archibald1861-birth
 death -date 29-jan-1940 -location kilberry -ref archibald1861-death
 partner {
     name Helen Wotherspoon
+    gender female
+    parent galbraith-eugina-1838-wotherspoon
     birth -date 8-aug-1875 -location gigha
-    body {
-        She was the daughter of James Wotherspoon and $child-link[galbraith-eugina-1838-wotherspoon]{Eugenia Galbraith}.
-    }
     death -date 2-jun-1951 -location kilberry -ref wotherspoon-death
     marriage -date 26-aug-1897 -location 'kilcalmonell and kilberry' -ref wotherspoon-marriage
     child {

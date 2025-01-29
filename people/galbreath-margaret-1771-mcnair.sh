@@ -18,12 +18,11 @@ body {
 
 partner {
    name Nathaniel McNair
+   gender male
+   parent mcnair-archibald-1722-galbraith
    baptism -date 06-jan-1763 -location campbeltown
    death -date 13-sep-1857 -location 'New Mills,New Brunswick,Canada'
    marriage -date 24-apr-1802 -location campbeltown -ref mcnair-marriage
-   body {
-    He was the son of $child-link[mcnair-archibald-1722-galbraith]{Archibald McNair} and Janet Galbraith.
-    }
 }
 footnotes {
     marg-bapt {

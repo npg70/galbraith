@@ -1,4 +1,5 @@
 name Adam Galbreath
+gender male
 tags argyll:gigha
 external {
     familysearch KZLH-6VP
@@ -26,12 +27,11 @@ Malcolm, Galbraith, 7, 1820
 
 partner {
     name Flora Galbreath
+    gender female
+    parent galbreath-neil-1750-galbreath
     birth -date 'about 1773'
     marriage -date 07-dec-1796 -location gigha -ref flora-marriage
     death -date 27-nov-1856 -location gigha -ref flora-death
-    body {
-        She was the daughter of $child-link[galbreath-neil-1750-galbreath]{Neil Galbreath} and Catherine Galbreath.
-    }
     child galbreath-peter-1798-galbreath
     child {
         name Catharine Galbreath

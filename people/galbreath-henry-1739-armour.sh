@@ -1,4 +1,5 @@
 name Henry Galbreath
+gender male
 baptism -date apr-1739 -location campbeltown -ref henry1739-baptism
 death -date 15-jul-1789 -location campbeltown
 burial -name "Kilchousland Graveyard"
@@ -23,10 +24,9 @@ $blockquote{
 tags Argyll:Campbeltown
 partner {
     name Agnes Armour
-    body {
-        She was the daughter of $child-link[armour-james-1716-stewart]{James Armour}
-        and Florance Stewart.
-    }
+    gender female
+    parent armour-james-1716-stewart
+
     marriage -date 5-mar-1767 -location campbeltown -ref marriage
     baptism -date 5-jun-1752 -location campbeltown
     child galbreath-james-1768-harvey

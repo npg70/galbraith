@@ -1,4 +1,5 @@
 name Andrew Stewart
+gender male
 birth -date 1764 -location 'killean and kilchenzie' -note '. He was the son of Andrew Stewart and Barbara McVicar'
 
 external {
@@ -6,11 +7,11 @@ external {
 }
 partner {
     name Katherine McWilliam
+    gender female
+    parent mcwilliam-donald-1742-ballantyne
+
     marriage -date 29-dec-1788 -location 'killean and kilchenzie' -ref mcwilliam-marriage
     child stewart-andrew-1791-mcwilliams
-    body {
-        She was the daughter of $child-link[mcwilliam-donald-1742-ballantyne]{Donald McWilliam} and Katherine Ballantyne.
-    }
 }
 todo {
 Kinfam: See Kennedy Section

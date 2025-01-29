@@ -1,4 +1,5 @@
 name Andrew Ralston
+gender male
 tags Argyll:Campbeltown
 baptism -date 21-jan-1759 -location campbeltown
 external {
@@ -6,10 +7,9 @@ external {
 }
 partner {
     name Margaret Fleeming
+    gender female
+    parent fleeming-john-1713-langwill
     marriage -date 23-jan-1778 -location campbeltown -ref marriage
-    body {
-        She was the daughter of $child-link[fleeming-john-1713-langwill]{John Fleeming} and Agnes Langwill.
-    }
     child {
         name Robert Ralston
         baptism -date 28-dec-1778

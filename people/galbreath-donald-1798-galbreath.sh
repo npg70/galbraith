@@ -1,4 +1,5 @@
 name Donald Galbreath
+gender male
 tags argyll:gigha
 
 external {
@@ -22,12 +23,11 @@ note {
 }
 partner {
     name Catherine Galbreath
+    gender female
+    parent galbreath-murdoch-1770-douglas
     baptism -date feb-1799 -location 'kilcalmonell and kilberry' 
     death -date 23-nov-1878 -location tarbert,argyll -ref catharine1799-death
     marriage -date 15-jul-1826 -location 'kilcalmonell and kilberry' -ref catharine1799-marriage
-    body {
-        She was the daughter of $child-link[galbreath-murdoch-1770-douglas]{Murdoch Galbreath}.
-    }
 
     child {
         name Lachlain Galbraith

@@ -1,4 +1,5 @@
 name John Galbreath
+gender male
 tags Argyll:Campbeltown
 baptism -date 25-jul-1842 -location campbeltown -ref john1842-baptism
 death -date 26-may-1922 -location campbeltown -ref john1842-death
@@ -10,6 +11,7 @@ external {
 
 partner {
     name Agnes McAlpine
+    gender female
     birth -date "about 1841"
     marriage -date 13-oct-1865 -location campbeltown -ref mcalpine-marriage
     body {
@@ -43,12 +45,13 @@ partner {
 }
 partner {
     name Charlotte Wylie
+    gender female
     birth -date 12-oct-1849
     baptism -date 25-oct-1849 -location campbeltown
     death -date 1885 -location campbeltown -ref wylie-death
     marriage -date 26-mar-1877 -location campbeltown -ref wylie-marriage
     body {
-        Previously married to Dugald Paterson, who died in 1875. 
+        She was previously married to Dugald Paterson, who died in 1875. 
     }
     child galbraith-thomas-wylie-1878-mckinven
     child {
@@ -68,12 +71,11 @@ partner {
 }
 partner {
     name Isabella Galbraith
+    gender female
+    parent galbreath-neil-1801-blue
     birth -date 29-may-1843 -location campbeltown 
     marriage -date 5-jun-1885 -location campbeltown -ref galbraith-marriage
     death -date 1921 -location campbeltown
-    body {
-        She was the daughter of $child-link[galbreath-neil-1801-blue]{Neil Galbreath} (weaver) and Elizabeth Blue.
-    }
 }
 footnotes {
     john1842-baptism {

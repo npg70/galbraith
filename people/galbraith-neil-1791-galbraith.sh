@@ -1,4 +1,5 @@
 name Neil Galbraith
+gender male
 tags 'Argyll:Kilcalmonel and Kilberry'
 external {
     findagrave 101858057
@@ -15,8 +16,9 @@ TBD: They appear in the 1841 and 1851 Census of Campbeltown.  Neil's birth estia
 
 partner {
     name Margaret Galbraith
+    gender female
+    parent galbreath-lachlan-1778-mcphail
     baptism -date 08-oct-1808 
-    body {She was the  daughter of $child-link[galbreath-lachlan-1778-mcphail]{Lachland Galbreath} and Mary McPhail.}
 
     death -date 1865 -location middlesex,ontario,canada
     marriage -date 9-aug-1834 -location 'kilcalmonell and kilberry' -ref margaret1806-marriage

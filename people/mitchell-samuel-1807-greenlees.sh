@@ -1,4 +1,5 @@
 name Samuel Mitchell
+gender male
 todo {
     9 children
 }
@@ -14,12 +15,10 @@ death -date 23-feb-1885 -location campbeltown
 
 partner {
     name Janet Greenlees
+    gender female
+    partner galbreath-catharine-1788-greenlees
     birth -date 'about 1809'
     death -date 29-jan-1869 -location campbeltown
     marriage -date 05-aug-1830 -location campbeltown
-    body {
-        She was the daughter of $child-link[galbreath-catharine-1788-greenlees]{Catharine Galbreath} and James Greenlees, farmer.
-    }
-
 }
 

@@ -1,4 +1,5 @@
 name Malcolm Galbreath
+gender male
 tags Argyll:Gigha 'daughtered out'
 baptism -date 25-mar-1815 -location gigha -ref malcolm1815-baptism
 death -date 25-jun-1887 -location edinburgh -ref malcolm1815-death
@@ -11,13 +12,11 @@ body {
 
 partner {
     name Mary Galbreath
+    gender female
+    parent galbreath-donald-1782-smith
     birth -date 22-jun-1824 -location tarbert
-
     death -date 06-jun-1884 -location edinburgh -ref mary1824-death
     marriage -date 14-aug-1851 -location gigha -ref mary1824-marriage
-    body {
-           She was the daughter of $child-link[galbreath-donald-1782-smith]{Donald Galbreath} and Elizabeth Smith.
-    }
 
     child {
         name Sarah Galbraith

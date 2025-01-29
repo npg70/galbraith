@@ -1,4 +1,5 @@
 name Archibald Galbreath
+gender male
 tags Argyll:Campbeltown
 baptism -date 30-May-1708 -location Campbeltown -ref archibald1708-baptism
 death -date Sep-1789 -location Campbeltown -ref archibald1708-burial
@@ -11,6 +12,13 @@ external {
 
 partner {
 	name Mary White
+    gender female
+    parent {
+        name Samuel White
+        partner {
+            name Margaret Baird
+        }
+    }
     marriage -date 1-apr-1733 -location campbeltown -ref white-marriage
     child {
         name John Galbreath

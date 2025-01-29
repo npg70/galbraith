@@ -12,11 +12,12 @@ todo {
 }
 partner {
    name James Paterson
+   gender male
+   parent paterson-john-1764-fleeming
    marriage -date 31-jul-1828 -location campbeltown -ref paterson-marriage
 
    body {
-    He was the son of $child-link[paterson-john-1764-fleeming]{John Paterson} and Mary Fleeming. He worked as a distillery mashman.
-
+    He worked as a distillery mashman.
    }
 }
 footnotes {

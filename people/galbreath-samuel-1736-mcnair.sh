@@ -1,4 +1,5 @@
 name Samuel Galbreath
+gender male
 tags Argyll:Campbeltown
 birth -location Peninver
 baptism -date 4-feb-1736 -location campbeltown -ref samuel1736-baptism
@@ -26,11 +27,12 @@ Of particular note is the presence of Janet Galbreath, b. 1785. The baptism reco
 }
 partner {
     name Janet McNair
-    body {She was the daughter of $child-link[mcnair-robert-1718-galbraith]{Robert McNair} and Janet Galbraith.}
+    gender female
+    parent mcnair-robert-1718-galbraith
 
     baptism -date 12-oct-1755 -location campbeltown
     marriage -date "about 1774"
-    death -date 07-jul-1831 -location scotland
+    death -date 07-jul-1831
     child {
         name Archibald Galbreath
         baptism -date 14-sep-1777 -location campbeltown -ref archibald1777-baptism

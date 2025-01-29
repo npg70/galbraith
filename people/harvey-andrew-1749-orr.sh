@@ -1,4 +1,5 @@
 name Andrew Harvey
+gender male
 baptism -date 12-jul-1749 -location campbeltown
 external {
     familysearch KZV9-XWW
@@ -10,11 +11,10 @@ body {
 }
 partner {
     name Margaret Orr
+    gender female
+    parent orr-edward-1720-langwill
     marriage -date 'about 1777'
 
-    body {
-        She was the daughter of $child-link[orr-edward-1720-langwill]{Edward Orr} and Isabell Langwill.
-    }
     child harvey-peter-1785-watson
     child {
         name Andrew Harvey

@@ -1,4 +1,5 @@
 name James McNair
+gender male
 external {
     familysearch 9M9D-HZ6
     findagrave 170377115
@@ -12,6 +13,7 @@ body {
 
 partner {
     name Anne Johnston
+    gender female
     baptism -date 02-jul-1805 -location 'Killean and Kilchenzie'
     marriage -date 23-jan-1827 -location 'Killean and Kilchenzie'
     death -date 24-nov-1835
@@ -58,13 +60,12 @@ partner {
 }
 partner {
     name Susan Greenlees
+    gender female
+    parent galbreath-catharine-1788-greenlees
     birth -date 21-feb-1815
     baptism -date 22-feb-1815 -location campbeltown
     death -date 04-mar-1900 -location campbeltown
     marriage -date 19-dec-1837
-    body {
-        She was the daughter of $child-link[galbreath-catharine-1788-greenlees]{James Greenlees} and Catharine Galbraith.
-    }
 
     child {
         name Jean McNair
@@ -92,11 +93,13 @@ partner {
     }
     child {
         name Mary Colvill McNair
+        gender female
         birth -date 19-sep-1847
         baptism -date 22-oct-1847 -location campbeltown
         death -date 25-may-1884 -location campbeltown
         partner {
             name Andrew Smith
+            gender male
             baptism -date 13-jun-1838 -location campbeltown
             death -date 17-mar-1919 -location campbeltown
             marriage -date 26-apr-1865 -location campbeltown
