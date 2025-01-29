@@ -4,7 +4,7 @@ birth -date 'about 1710'
 external {  
     familysearch K4TQ-M69
 }
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown 'dead end'
 note {
     Names recorded under Galbreath, Galbraith, and Calbraith.
 }

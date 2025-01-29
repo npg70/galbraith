@@ -1,4 +1,5 @@
 name Samuel Galbreath
+gender male
 tags Argyll:Campbeltown 'No Children'
 baptism -date 14-jan-1827 -location campbeltown -ref samuel1827-baptism
 death -date 17-oct-1860 -location campbeltown -ref samuel1827-death
@@ -6,16 +7,20 @@ external {
     familysearch K82L-QRQ
 }
 body {
-    Samuel drowned six months after being married, while his was pregnant.
+    Samuel drowned six months after being married, while his wife was pregnant.
 }
 
 partner {
     name Margaret Beton
+    gender female
+    parent {
+        name John Beaton
+        partner {
+            name Janet Langwill
+        }
+    }
     birth -date "about 1829"
     marriage -date 8-apr-1860 -location campbeltown -ref beton-marriage
-    body {
-        daughter of John Beaton, sea man, and Janet Langwill
-    }
     child {
         name Samuel Galbraith
         birth -date 2-dec-1860 -location campbeltown -ref samuel1860-birth
