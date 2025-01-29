@@ -431,7 +431,8 @@ func (p *Person) UnmarshalText(text []byte) error {
 		case "intro":
 			p.Intro = strings.TrimSpace(body)
 		case "body":
-			p.Body = append(p.Body, strings.Join(args[1:], " "))
+			txt := strings.TrimSpace(strings.Join(args[1:], " "))
+			p.Body = append(p.Body, txt)
 			if body != "" {
 				p.Body = append(p.Body, body)
 			}
@@ -809,10 +810,15 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 
 	out.WriteString(fmt.Sprintf("$person[id=%s generation=%d counter=%d]{",
 		primary, first.generation, first.counter))
+
 	out.WriteString("$banner{")
 	out.WriteString("$headline{" + WriteTitle(first) + "}\n")
 	out.WriteString("}\n")
+
+	// all of person body text
 	out.WriteString("$person-body{")
+
+	// lineage, tags, externals
 	out.WriteString("$person-secondary{")
 
 	// get lineage from newest to oldest
@@ -827,7 +833,11 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 			break
 		}
 		lineage = append(lineage, fmt.Sprintf("$ancestor[counter=%d generation=%d mother=%q year=%q]{%s}\n",
-			p.parent.counter, p.generation, mother.FullName(), p.parent.BirthYearString(), WriteLineageNameLink(p.parent)))
+			p.parent.counter,
+			p.generation,
+			mother.FullName(),
+			p.parent.BirthYearString(),
+			WriteLineageNameLink(p.parent)))
 	}
 	out.WriteString("$lineage{")
 	// and reverse
@@ -856,7 +866,7 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 		}
 		out.WriteString("]\n")
 	}
-	out.WriteString("}\n")
+	out.WriteString("}\n") // end person-secondary
 
 	out.WriteString("$person-main{")
 
@@ -872,9 +882,11 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 
 	out.WriteString("$person-bio{")
 
-	//out.WriteString("$p{")
+	out.WriteString("$p{")
 	out.WriteString(fmt.Sprintf("$primary-number{%d}", first.counter))
 	out.WriteString(WritePrimaryName(first))
+
+	// Birth and Baptism
 	birth := first.Events["birth"]
 	bapt := first.Events["baptism"]
 	if birth != nil && bapt != nil {
@@ -887,15 +899,18 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 	if birth != nil && bapt == nil {
 		out.WriteString(" was born " + EventDatePlace(first, birth))
 	}
-
 	out.WriteString(". ")
+
+	// Death and Burial
 	death := first.Events["death"]
 	if death != nil {
-		out.WriteString("Died " + EventDatePlace(first, death))
-		out.WriteString(".")
+		out.WriteString(fmt.Sprintf("%s died %s. ",
+			first.Gender.Pronoun(),
+			EventDatePlace(first, death)))
 	}
-	//out.WriteString("}") // end of paragraph
+	out.WriteString("}") // end of paragraph
 
+	// SPOUSES
 	for i, partner := range first.Partners {
 		marriage := partner.Events["marriage"]
 		out.WriteString("$p{")
@@ -966,6 +981,7 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 		out.WriteString("}\n")
 	}
 
+	// TODO: this is prob not right
 	for _, p := range first.Body {
 		out.WriteString("$p{" + strings.TrimSpace(p) + "}\n")
 	}

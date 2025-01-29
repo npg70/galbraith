@@ -112,34 +112,38 @@ func LoadContent(config ssg.SiteConfig, out *[]ssg.ContentSource) error {
 }
 
 func render(content string) (string, error) {
-	tmp := renderFuncs()
-	tagexec := tf.ExecuteFunc(tmp)
 
-	toHTML := tf.RenderStringFunc(tf.RenderHTML)
-
-	p1 := tf.Paragrapher{}
-	p1.Tag = "p"
-
-	p2 := tf.Paragrapher{}
-	p2.Tag = "blockquote"
-
+	// Parse raw into nodes
 	p := tf.Tokenizer{}
 	n := p.Parse(strings.NewReader(content))
 
+	// Add footnotes
 	if err := footnoter(n); err != nil {
 		return "", fmt.Errorf("Footnoter failed: %s", err)
 	}
 
-	if err := p1.Execute(n); err != nil {
-		return "", fmt.Errorf("Paragrapher for $p failed: %w", err)
-	}
-
-	if err := p2.Execute(n); err != nil {
-		return "", fmt.Errorf("Paragrapher for $blockquote failed: %w", err)
-	}
+	// Convert custom nodes to HTML nodes
+	tmp := renderFuncs()
+	tagexec := tf.ExecuteFunc(tmp)
 	if err := tagexec(n); err != nil {
 		return "", fmt.Errorf("TagFunc failed: %w", err)
 	}
 
+	// Auto-split paragraphs
+	p1 := tf.Paragrapher{}
+	p1.Tag = "p"
+	if err := p1.Execute(n); err != nil {
+		return "", fmt.Errorf("Paragrapher for $p failed: %w", err)
+	}
+
+	// Auto-split blockquotes
+	p2 := tf.Paragrapher{}
+	p2.Tag = "blockquote"
+	if err := p2.Execute(n); err != nil {
+		return "", fmt.Errorf("Paragrapher for $blockquote failed: %w", err)
+	}
+
+	// Turn into HTML
+	toHTML := tf.RenderStringFunc(tf.RenderHTML)
 	return toHTML(n)
 }
