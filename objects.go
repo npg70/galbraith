@@ -388,11 +388,19 @@ func (p *Person) UnmarshalText(text []byte) error {
 				p.Children = append(p.Children, newp)
 			}
 		case "partner":
-			newp := &Person{root: p.root}
-			if err := newp.UnmarshalText([]byte(body)); err != nil {
-				return err
+			if len(args) == 2 && body == "" {
+				newp, err := p.root.Load(args[1])
+				if err != nil {
+					return err
+				}
+				p.Partners = append(p.Partners, newp)
+			} else {
+				newp := &Person{root: p.root}
+				if err := newp.UnmarshalText([]byte(body)); err != nil {
+					return err
+				}
+				p.Partners = append(p.Partners, newp)
 			}
-			p.Partners = append(p.Partners, newp)
 		case "name":
 			p.Name = args[1:]
 		case "birth", "baptism", "death", "burial", "marriage":
@@ -449,6 +457,10 @@ func (r Root) Load(id string) (*Person, error) {
 		ID:   id,
 	}
 
+	// set map BEFORE loading in data
+	// this prevents circular loops
+	r[id] = newp
+
 	sourcedir := "people"
 	filesuffix := ".sh"
 
@@ -474,7 +486,6 @@ func (r Root) Load(id string) (*Person, error) {
 		}
 		newp.Footnotes = f2
 	*/
-	r[id] = newp
 	return newp, nil
 }
 
@@ -689,7 +700,10 @@ func WriteChildrenIntro(w io.StringWriter, first *Person, partner *Person, commo
 }
 
 func WriteChildPartnerName(p *Person) string {
-	return "$child-partner-name{" + p.FullName() + "}"
+	if p.ID == "" {
+		return "$child-partner-name{" + p.FullName() + "}"
+	}
+	return "$child-link[" + p.ID + "]{" + p.FullName() + "}"
 }
 
 // plain text version
@@ -808,6 +822,10 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 			break
 		}
 		mother := FindMother(p)
+		if mother == nil {
+			log.Printf("Cant find mother for " + p.FullName())
+			break
+		}
 		lineage = append(lineage, fmt.Sprintf("$ancestor[counter=%d generation=%d mother=%q year=%q]{%s}\n",
 			p.parent.counter, p.generation, mother.FullName(), p.parent.BirthYearString(), WriteLineageNameLink(p.parent)))
 	}

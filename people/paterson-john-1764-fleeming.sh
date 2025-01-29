@@ -1,4 +1,5 @@
 name John Paterson
+gender male
 birth -date 'about 1764'
 external {
     familysearch M1Y7-3ST
@@ -22,6 +23,7 @@ Age,Name
 
 partner {
     name Mary Fleeming
+    gender female
     birth -date 'about 1768' -ref fleeming-birth
     marriage -date 'about 1787' -ref fleeming-marriage
     child {
@@ -68,11 +70,10 @@ partner {
     }
     child {
         name James Paterson
+        gender male
         birth -date 08-aug-1807 
         baptism -date 10-aug-1807 -location campbeltown
-        body {
-            He married $child-link[galbraith-isabella-1808-paterson]{Isabella Galbraith}.
-        }
+        partner galbraith-isabella-1808-paterson
     }
 }
 footnotes {

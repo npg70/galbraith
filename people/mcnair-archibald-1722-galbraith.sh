@@ -1,4 +1,5 @@
 name Archibald McNair
+gender male
 birth -date 'about 1722'
 tags Argyll:Campbeltown
 external {
@@ -11,6 +12,7 @@ Margaret is sometimes confused with $child-link[galbreath-mary-1729-armour]{Mary
 
 partner {
     name Margaret Galbraith
+    gender female
     birth -date 'say 1727' -ref margaret-birth
     marriage -date 06-dec-1747 -location campbeltown -ref marriage
 
@@ -77,11 +79,10 @@ partner {
     }
     child {
         name Nathaniel McNair Sr
+        gender female
         baptism -date 06-jan-1763 -location campbeltown
         death -date 13-sep-1857 -location 'New Mills,New Brunswick,Canada'
-        body {
-            Married $child-link[galbreath-margaret-1771-mcnair]{Margaret Galbreath}.
-        }
+        partner galbreath-margaret-1771-mcnair
     }
     child {
         name Elizabeth McNair
@@ -106,7 +107,6 @@ partner {
 footnotes {
     margaret-birth {
         Margaret had children over an 18 year period.  Assuming the last child happened when she was 40, gives us a birth year of 1728.  This implies she got married around age 20, which seems about right.  The married was dual registered, and indicates she was living in Saddell.
-
     }
     marriage {
         $opr-ref-link[m-1747-507-000-0011-0450 "Archibald McNair" "Margaret Galbraith"]{

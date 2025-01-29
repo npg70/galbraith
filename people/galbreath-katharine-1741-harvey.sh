@@ -19,8 +19,9 @@ partner {
         name Martha Harvie
         birth -date 15-nov-1764
         baptism -date 18-nov-1764 -location campbeltown
+        partner clark-robert-1756-harvie
         body {
-            She married $child-link[clark-robert-1756-harvie]{Robert Clark}, and immigrated in 1814 with their sons.
+            Immigrated in 1814 with their sons.
         }
         death -date 1821 -location washington,virgina,usa
         burial -location washington,virgina,usa -name 'Old Glade Spring Cemetery'
@@ -54,11 +55,10 @@ partner {
     }
     child {
         name Katherine Harvie
+        gender female
         birth -date 29-jul-1780
         baptism -date 30-jul-1780 -location campbeltown -ref katherine1780-baptism
-        body {
-            She married $child-link[galbreath-robert-1778-harvey]{Robert Galbreath}.
-        }
+        partner galbreath-robert-1778-harvey
     }
     child harvey-andrew-1783-mcmurchy
 

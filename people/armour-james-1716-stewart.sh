@@ -1,4 +1,5 @@
 name James Armour
+gender male
 birth -date 'about 1716'
 tags Argyll:Campbeltown
 death -date 10-nov-1796 -location campbeltown
@@ -9,6 +10,7 @@ external {
 
 partner {
     name Florance Stewart
+    gender female
     birth -date 'about 1715'
 
     child {
@@ -19,10 +21,9 @@ partner {
 
     child {
         name Agnes Armour
+        gender female
         baptism -date 05-jun-1752 -location Campbeltown
-        body {
-            Married $child-link[galbreath-henry-1739-armour]{Henry Galbreath}
-        }
+        partner galbreath-henry-1739-armour
     }
     child {
         name James Armour
@@ -37,4 +38,3 @@ partner {
         baptism -date 17-apr-1759 -location campbeltown
     }
 }
-

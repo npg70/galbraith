@@ -19,10 +19,9 @@ partner {
     marriage -date 17-mar-1744 -location campbeltown
     child {
         name Agnes Orr
+        gender female
         baptism -date 20-nov-1745 -location campbeltown
-        body {
-            She married $child-link[harvey-william-1738-orr]{William Harvey}.
-        }
+        partner harvey-william-1738-orr
     }
     child {
         name Janet Orr
@@ -34,10 +33,9 @@ partner {
     }
     child {
         name Margaret Orr
+        gender female
         baptism -date 31-mar-1754 -location campbeltown
-        body {
-            She married $child-link[harvey-andrew-1749-orr]{Andrew Harvey}.
-        }
+        partner harvey-andrew-1749-orr
     }
     child {
         name Mary Orr

@@ -1,4 +1,5 @@
 name James Culbertson
+gender male
 birth -date 06-dec-1759 -location campbeltown
 death -date sep-1821 -location Switzerland,Indiana,USA
 external {
@@ -23,6 +24,7 @@ William Culbertson, 1, 1791
 
 partner {
    name Janet White
+   gender female
    death -date 1834
    marriage -date 22-may-1779 -location campbeltown -ref white-marriage
 
@@ -56,10 +58,9 @@ partner {
    }
    child {
         name James Culbertson
+        gender male
         baptism -date 11-aug-1798 -location campbeltown
-        body {
-            He married $child-link[harvey-jean-1798-culbertson]{Jean Harvey}.
-        }
+        partner harvey-jean-1798-culbertson
    }
    child {
         name Samuel Culbertson

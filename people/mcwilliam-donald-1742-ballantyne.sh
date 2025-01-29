@@ -1,4 +1,5 @@
 name Donald McWilliam
+gender male
 birth -date 1742
 death -date 2-mar-1814 -location campbeltown
 
@@ -26,19 +27,18 @@ $csvtable{
 
 partner {
     name Katherine Ballantyne
+    gender female
     birth -date 1754
     death -date 1810
     marriage -date 20-mar-1768 -location campebeltown
 
     child {
         name Katherine McWilliam
+        gender female
         birth -date 10-aug-1770
         baptism -date 11-aug-1770 -location campbeltown
         death -date 1853 -location 'Bridge End, Peninver, Argyll, Scotland'
-
-        body {
-            She married $child-link[stewart-andrew-1764-mcwilliam]{Andrew Stewart}
-        }
+        partner stewart-andrew-1764-mcwilliam
     }
 }
 

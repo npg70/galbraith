@@ -1,4 +1,5 @@
 name James Galbraith
+gender male
 birth -date 'about 1792' -location 'kippen,stirling'
 death -date 'before 1861'
 external {
@@ -40,6 +41,7 @@ Helen,Brown,Grand-Daughter,Unmarried,3,1848,,Greenock Renfrewshire
 
 partner {
     name Helen Fraser
+    gender female
     birth -date 'about 1790'
     marriage -date 30-oct-1813 -location 'avondale,lanark'
 
@@ -50,11 +52,10 @@ partner {
     child galbraith-james-1818-kirkwood
     child {
         name Margaret McKillop Galbraith
+        gender female
         baptism -date 2-Oct-1821 -location 'Renfrewshire, Scotland'
-        body {
-            Married to $child-link[galbraith-donald-1820-mcintyre-galbraith]{Donald Galbraith}, Minister.
-        }
-       }
+        partner galbraith-donald-1820-mcintyre-galbraith
+    }
     child {
         name Isabella Galbraith
         baptism -date 10-aug-1823

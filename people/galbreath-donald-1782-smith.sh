@@ -1,5 +1,12 @@
 name Donald Galbreath
-baptism -date 1-feb-1782 -location campbeltown -ref donald1782-baptism -note "Son of Patrick Galbreath and Ann McLellan"
+gender male
+parent {
+    name Patrick Galbreath
+    partner {
+        name Ann McLellan
+    }
+}
+baptism -date 1-feb-1782 -location campbeltown -ref donald1782-baptism
 death -date 10-dec-1856 -location gigha -ref donald1782-death
 external {
     findagrave 115118817
@@ -44,6 +51,7 @@ Betsy,Galbraith,Sister,53,1828
 
 partner {
     name Elizabeth Smith
+    gender female
     birth -date 'about 1784' -ref smith-marriage
     death -date 07-apr-1859 -location gigha -ref smith-death
     marriage -date 'say 1810'
@@ -60,7 +68,6 @@ partner {
             name Duncan McDonald
             marriage -date 16-feb-1842 -location gigha -ref flora1812-marriage
         }
-            
     }
     child {
         name Archibald Galbreath
@@ -88,10 +95,9 @@ partner {
     }
     child {
         name Mary Galbreath
+        gender female
         baptism -date 22-jul-1824 -location gigha -ref mary1824-baptism
-        body {
-            Married $child-link[galbreath-malcolm-1815-galbreath]{Malcolm Galbreath}
-        }
+        partner galbreath-malcolm-1815-galbreath
     }
     child {
         name Ann Galbreath

@@ -1,4 +1,5 @@
 name Lachlan Galbreath
+gender male
 tags 'Argyll:Kilcalmonell and Kilberry'
 birth -date 'about 1778'
 death -date sep-1850
@@ -29,6 +30,7 @@ Duncan,Galbreith,5,1836
 }
 partner {
     name Mary McPhail
+    gender female
     birth -date 'about 1771'
     death -date 1863
     marriage -date 3-feb-1799 -location 'South Knapdale' -ref mcphail-marriage
@@ -50,9 +52,7 @@ partner {
     child {
         name Margaret Galbreath
         baptism -date 8-oct-1806 -location 'kilcalmonell and kilberry' -ref margaret1806-baptism
-        body {
-            Married $child-link[galbraith-neil-1791-galbraith]{Neil Galbraith}
-        }
+        partner galbraith-neil-1791-galbraith
     }
 
     child galbraith-john-1809-mcmillan

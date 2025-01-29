@@ -9,10 +9,14 @@ external {
 todo {
     8 children
 }
-body {
-$p{
-He was the son of WILLIAM STEWART/MARY MCCONNOCHY
+parent {
+    name William Stewart
+    partner {
+        name Mary McConnochy
+    }
 }
+
+body {
 $p{
 He was a farmer in Caliburn, Campbeltown and then later to Peninver.
 }

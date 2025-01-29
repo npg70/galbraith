@@ -12,11 +12,10 @@ partner {
 
    child {
         name Elizabeth McMurchy
+        gender female
         birth -date 27-jan-1786
         baptism -date 28-jan-1786 -location campbeltown -ref eliz-baptism
-        body {
-            She married $child-link[harvey-andrew-1783-mcmurchy]{Andrew Harvie}.
-        }
+        partner harvey-andrew-1783-mcmurchy
    }
 }
 footnotes {

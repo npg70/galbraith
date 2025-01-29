@@ -1,4 +1,5 @@
 name James Harvey
+gender male
 external {
     familysearch 9M9D-X13
     wikitree Harvie-478
@@ -14,6 +15,7 @@ baptism -date 29-may-1698 -location campbeltown -ref james1698-baptism
 
 partner {
     name Janet Mitchell
+    gender female
     birth -date 'about 1705' -ref mitchell-birth
     marriage -date 24-apr-1723 -location campbeltown -ref mitchell-marriage
 
@@ -56,10 +58,9 @@ partner {
     }
     child {
         name James Harvey
+        gender male
         baptism -date oct-1735 -location campbeltown -ref james1735-baptism
-        body {
-           He married $child-link[galbreath-katharine-1741-harvey]{Katherine Galbreath}
-       }
+        partner galbreath-katharine-1741-harvey
     }
 
     child harvey-william-1738-orr

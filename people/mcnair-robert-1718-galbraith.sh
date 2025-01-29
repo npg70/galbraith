@@ -1,4 +1,5 @@
 name Robert McNair
+gender male
 tags Argyll:Campbeltown
 external {
     familysearch KZQF-HBV
@@ -21,6 +22,7 @@ body {
 baptism -date 05-jan-1718 -location campbeltown
 partner {
     name Janet Galbraith
+    gender female
     marriage -date 01-jul-1744 -location campbeltown -ref janet-marriage
     child {
         name James McNair
@@ -50,10 +52,9 @@ partner {
     }
     child {
         name Janet McNair
+        gender female
         baptism -date 12-oct-1755 -location campbeltown -ref janet1755-baptism
-        body {
-            Married $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath}.
-        }
+        partner galbreath-samuel-1736-mcnair
     }
     child {
         name Jean McNair

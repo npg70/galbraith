@@ -8,6 +8,7 @@ external {
 }
 partner {
     name Peter Langwill
+    gender male
     marriage -date 25-Apr-1717 -location campbeltown -ref marriage
     child {
         name John Langwill
@@ -22,10 +23,9 @@ partner {
     } 
     child {
         name Isobell Langwill
+        gender female
         baptism -date 14-Feb-1725 -location campbeltown
-        body {
-            Married $child-link[orr-edward-1720-langwill]{Edward Orr}
-        }
+        partner orr-edward-1720-langwill
     }
     child {
         name John Langwill

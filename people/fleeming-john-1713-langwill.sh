@@ -1,4 +1,5 @@
 name John Fleeming
+gender male
 tags Argyll:Campbeltown
 external {
     familysearch GQ56-J5L
@@ -18,19 +19,17 @@ partner {
     }
     child {
         name Agnes Fleeming
+        gender female
         birth -date 'about 1761' -location campbeltown
-        body {
-            Married $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
-        }
+        partner galbreath-alexander-1753-flemming
     }
     child fleeming-elizabeth-1763-mitchell
 
     child {
         name Margaret Fleeming
+        gender female
         birth -date 'about 1765'
-        body {
-            Married $child-link[ralston-andrew-1758-fleeming]{Andrew Ralston}
-        }
+        partner ralston-andrew-1758-fleeming
     }
 }
 footnotes {

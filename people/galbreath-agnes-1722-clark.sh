@@ -9,6 +9,7 @@ external {
 }
 partner {
     name James Clark
+    gender male
     marriage -date 7-nov-1739 -location campbeltown
     death -date 1782
 
@@ -40,11 +41,10 @@ partner {
     }
     child {
         name Peter Patrick Clark
+        gender male
         baptism -date 22-mar-1752 -location campbeltown
         death -date 25-sep-1821 -location 'glade spring,washington,virginia,usa'
-        body {
-            Married $child-link[galbreath-mary-1759-clark]{Mary Galbraith}
-        }
+        partner galbreath-mary-1759-clark
     }
     child {
         name James Clark

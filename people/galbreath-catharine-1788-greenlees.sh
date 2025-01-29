@@ -16,17 +16,17 @@ todo {
 }
 partner {
     name James Greenlees
+    gender male
     baptism -date 6-jan-1782 -location campbeltown
     death -date 6-mar-1848 -location peninver
     marriage -date 5-apr-1810 -location campbeltown
 
     child {
         name Janet Greenlees
+        gender female
         baptism -date 16-jan-1811 -location campbeltown -ref janet1811-baptism
         death -date 29-jan-1869 -location campbeltown -ref janet1811-death
-        body {
-            She married $child-link[mitchell-samuel-1807-greenlees]{Samuel Mitchell}
-        }
+        partner mitchell-samuel-1807-greenlees
     }
     child {
         name Samuel Greenlees
@@ -38,12 +38,11 @@ partner {
     }
     child {
         name Susan Greenlees
+        gender female
         birth -date 21-feb-1815
         baptism -date 22-feb-1815 -location campbeltown
         death -date 4-mar-1900 -location campbeltown
-        body {
-            Married $child-link[mcnair-james-1807-johnston-greenlees]{James McNair}
-        }
+        partner mcnair-james-1807-johnston-greenlees
     }
     child {
         name James Greenlees

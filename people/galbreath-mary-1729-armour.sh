@@ -8,17 +8,20 @@ external {
 }
 partner {
     name William Armour
+    gender male
+    parent {
+        name John Armour
+        partner {
+            name Janet Clark
+        }
+    }
     marriage -date 30-apr-1750 -location campbeltown -ref marriage
     baptism -date 9-may-1731 -location campbeltown
-    body {
-        He was the son of John Armour and Janet Clark.
-    }
     child {
         name James Armour
+        gender male
         baptism -date 28-apr-1751 -location campbeltown
-        body {
-            married $child-link[galbreath-janet-1752-armour]{Janet Galbreath}
-        }
+        partner galbreath-janet-1752-armour
     }
     child {
         name William Armour
