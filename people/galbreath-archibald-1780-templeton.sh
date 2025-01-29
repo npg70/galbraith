@@ -1,4 +1,5 @@
 name Archibald Galbreath
+gender male
 tags Argyll:Campbeltown 'dead end'
 external {
     familysearch KCKB-P89
@@ -8,15 +9,21 @@ body {
 }
 partner {
     name Jackie Templeton
-    marriage -date 26-jun-1805 -location campbeltown -ref templeton-marriage
+    gender female
+    parent {
+        name Thomas Templeton
+        partner {
+            name Agnes/Ann Colville
+        }
+    }
     birth  -date 08-oct-1783
     baptism -date 12-oct-1783 -location campbeltown
-    body {
-        She was the daughter of Thomas Templeton and Anges/Ann Colville
-    }
+
+    marriage -date 26-jun-1805 -location campbeltown -ref templeton-marriage
 
     child {
         name Janet Galbreath
+        gender female
         birth -date 14-sep-1806
         baptism -date 17-sep-1806 -location Campbeltown -ref janet1806-baptism
     }
