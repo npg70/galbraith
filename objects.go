@@ -643,8 +643,13 @@ func WriteChild(w io.StringWriter, parent *Person, child *Person, birthOrder int
 
 func WriteChildrenIntro(w io.StringWriter, first *Person, partner *Person, common string, ctype string) {
 	w.WriteString("$children-intro{")
-	w.WriteString(fmt.Sprintf("%s of %s and %s (%s) %s",
-		ChildPlural(len(partner.Children)),
+	w.WriteString(ChildPlural(len(partner.Children)) + " of ")
+
+	// swap order if primary is female
+	if first.Gender == Female {
+		first, partner = partner, first
+	}
+	w.WriteString(fmt.Sprintf("%s and %s (%s) %s",
 		first.FirstName(),
 		partner.FirstName(),
 		partner.LastName(),
