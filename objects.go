@@ -572,9 +572,14 @@ func WriteChildBioInline(w io.StringWriter, parent *Person, child *Person, ignor
 		// died young.
 		txt := EventDatePlaceCompact(parent, death, "")
 		switch txt {
-		case "dy", "dsp", "dspm", "d.y.", "d.s.p.", "d.s.p.m.":
-			// TBD: standardize
-			w.WriteString(txt)
+		case "dy", "dsp", "dspm", "d.y.", "d.s.p.", "d.s.p.m.", "young", "died young":
+			// died in infancy or childhood implying
+			// didn't marry or have children
+			w.WriteString("d. young")
+
+			// TODO NOTES ON dying unmarried
+		case "d.um", "dum", "unm", "umn.":
+			w.WriteString("umarried")
 		default:
 			w.WriteString("d.$ent[nbsp]" + txt)
 		}
