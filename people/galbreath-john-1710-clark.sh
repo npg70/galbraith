@@ -1,4 +1,5 @@
 name John Galbreath
+gender male
 birth -date 'about 1710'
 external {  
     familysearch K4TQ-M69
@@ -7,23 +8,22 @@ tags Argyll:Campbeltown
 note {
     Names recorded under Galbreath, Galbraith, and Calbraith.
 }
-
+note {
+    Last child John is also listed as $child-link[galbreath-john-1755-mclean]{John Galbreath} who married Marion McLean.  However that conflicts with the Census of 1792 and generally problematic.
+}
 partner {
     name Isobell Clark
+    gender female
     marriage -date 3-dec-1732 -location campbeltown -ref marriage
     child {
         name Daniel Galbreath
         baptism -date 3-feb-1734 -location campbeltown -ref daniel1734
-        body {
-            Died young.
-        }
+        death -note dy
     }
     child {
         name James Galbreath
         baptism -date jan-1735 -location campbeltown -ref james1735
-        body {
-            Died young.
-        }
+        death -note dy
     }
     child {
         name Ann Galbreath
@@ -32,9 +32,7 @@ partner {
     child {
         name Mary Galbreath
         baptism -date 1-oct-1738 -location campbeltown -ref mary1738
-        body {
-            Died young.
-        }
+        death -note dy
     }
     child {
         name Jean Galbreath
@@ -43,9 +41,7 @@ partner {
     child {
         name Mary Galbreath
         baptism -date 15-sep-1743 -location campbeltown -ref mary1743
-        body {
-            Died young.
-        }
+        death -note dy
     }
     child {
         name William Galbreath
@@ -70,9 +66,7 @@ partner {
     child {
         name John Galbreath
         baptism -date 30-jan-1752 -location campbeltown -ref john1752
-        body {
-            Died young.
-        }
+        death -note dy
     }
     child {
         name Daniel Galbreath
@@ -86,7 +80,10 @@ partner {
         name Mary Galbreath
         baptism -date 1-aug-1755 -location campbeltown -ref mary1755
     }
-    child galbreath-john-1760-mclean
+    child {
+        name John Galbreath
+        baptism -date 2-may-1760 -location campbeltown -ref john1760-baptism
+    }
 }
 
 footnotes {
@@ -157,5 +154,9 @@ footnotes {
     mary1755 {
         $opr-ref[b-1755-507-000-0010-0223 "Mary Galbraith"]
         $opr-ref[b-1755-507-000-0011-0296 "Mary Galbreath"]
+    }
+    john1760-baptism {
+        $opr-ref-link[b-1760-507-000-0010-0249 "John Galbreath"]
+        $opr-ref-link[b-1760-507-000-0011-0319 "John Galbreath"]
     }
 }

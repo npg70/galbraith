@@ -1,6 +1,7 @@
 name John Galbreath
+gender male
 tags Argyll:Campbeltown
-baptism -date 2-may-1760 -location campbeltown -ref john1760-baptism
+birth -date 'about 1755'
 
 external {
     familysearch L8MT-MMN
@@ -10,7 +11,7 @@ note {
 }
 
 note {
-        Mary's father may connected to a John McLean.  In 1768 he was in dispute of lands "Totticlach" which seems similar to the places mentioned in the baptism of her last children.$ref[totticlach].  
+    Mary's father may connected to a John McLean.  In 1768 he was in dispute of lands "Totticlach" which seems similar to the places mentioned in the baptism of her last children.$ref[totticlach].  
 }
 note {
     Mary's parents may be Archibald McLean and More Paterson.  Listed a natural birth.$ref[mary-parents]
@@ -33,9 +34,9 @@ There were neighbors to the families of Ryburn, Orr/McKillop, and McGreachy.
 The baptisms mentioned "Knockanly" or so a lot.  This could be Knockhanty, a house/farm in Campbeltown.$ref[knock]
 }
 
-
 partner {
     name Marion McLean
+    gender female
     marriage -date 29-oct-1781 -location campbeltown -ref marriage
     child {
         name Mary Galbreath
@@ -57,10 +58,6 @@ partner {
     }
 }
 footnotes {
-    john1760-baptism {
-        $opr-ref-link[b-1760-507-000-0010-0249 "John Galbreath"]
-        $opr-ref-link[b-1760-507-000-0011-0319 "John Galbreath"]
-    }
     marriage {
         $opr-ref-link[m-1781-507-000-0050-0015 "John Galbreath" "More McLean"]{
         John Galbreath + More McLean of this parish married 29th
