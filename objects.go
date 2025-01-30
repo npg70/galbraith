@@ -276,6 +276,18 @@ type Person struct {
 	Tags      []string
 }
 
+// HasTag - simple test if a tag exists for the current person
+// Case insensitive
+func (p *Person) HasTag(s string) bool {
+	s = strings.ToLower(s)
+	for _, t := range p.Tags {
+		if s == strings.ToLower(t) {
+			return true
+		}
+	}
+	return false
+}
+
 func (p *Person) getRef(s string) int {
 	for i, val := range p.refs {
 		if s == val {
