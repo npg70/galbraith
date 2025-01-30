@@ -1,4 +1,5 @@
 name Neil Galbraith
+gender male
 tags 'Argyll:Lochgoilhead'
 
 birth -date 'about 1792'
@@ -12,6 +13,7 @@ note {
 
 partner {
     name Mary Law
+    gender female
     birth -date 'about 1799'
     marriage  -date 25-may-1821 -location kilmodan,argyll -ref law-marriage
 
@@ -55,13 +57,13 @@ partner {
 }
 partner {
     name Julia McNicol
+    gender female
     birth -date 'about 1803' -note 'the daughter of Archibald McNicol and Mary McVicer'
     death -date 05-apr-1878 -location 'St George,Edinburgh' -ref mcnicol-death
     marriage -date 11-nov-1845 -location 'St Cuthberts' -ref mcnicol-marriage
 }
 
 body {
-
 1827 Census of Gigha:$ref[census1827]
 $csvtable{
 First,Last,Age,Year
@@ -72,6 +74,9 @@ Archibald, Galbraith, 3, 1824
 Peter, Galbraith, 1, 1826
 Alexander, Law, 10, 1817
 }
+}
+
+body {
 1841 Census of West Side of Earl Gray Street, St Cuthbert's, Midlothian, Scotland:$ref[census1841]
 $csvtable{
 First,Last,Age,Year,Place
@@ -84,7 +89,9 @@ Neil,Galbraith,10,1831,Midlothian
 James,Galbraith,5,1836,Midlothian
 Hector,Galbraith,2,1839,Midlothian
 }
+}
 
+body {
 1851 Census of Waghers House Canal Basin, St Cuthbert's, Midlothian, Scotland:$ref[census1851]
 $csvtable{
 First,Last,Role,Age,Year,Place
@@ -94,7 +101,9 @@ James,Galbraith,Son,14,1837,St Cuthberts
 Hector,Galbraith,Son,12,1839,St Cuthberts
 Alexander,Galbraith,Son,9,1842,St Cuthberts
 }
+}
 
+body {
 1861 Census of Port Ropetoun, St Cuthbert's, St George, Midlothian, Scotland:$ref[census1861]
 $csvtable{
 First,Last,Role,Age,Year
@@ -103,6 +112,7 @@ Julia,Galbraith,Wife,58,1803
 Hector,Galbraith,Son,22,1839
 }
 }
+
 footnotes {
     census1827 {
         https://www.gigha.org.uk/viewItem.php?id=8932&parentId=8926&sectionTitle=About+Gigha

@@ -64,9 +64,7 @@ partner {
     child {
         name Robert McNair
         birth -date 05-mar-1760 -location campbeltown
-        body {
-            Died young.
-        }
+        death -note dy
     }
     child {
         name Nancy McNair

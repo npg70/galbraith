@@ -1,4 +1,5 @@
 name John Galbraith
+gender male
 tags Argyll:Campbeltown 'dead end'
 birth -date 'say 1730'
 external {
@@ -9,6 +10,7 @@ note {
 }
 partner {
     name Jean Clark
+    gender female
     marriage -date 30-sep-1758 -location campbeltown -ref clark-marriage
     child {
         name Peter Galbraith
@@ -25,15 +27,16 @@ partner {
 }
 footnotes {
     clark-marriage {
-        $opr-ref-link[m-1758-507-000-0010-0237 "John Galbraith" "Jean Clark"]; $opr-ref-link[m-1758-507-000-0011-0459 "John Galbraith" "Jean Clark"]
+        $opr-ref-link[m-1758-507-000-0010-0237 "John Galbraith" "Jean Clark"]
+        $opr-ref-link[m-1758-507-000-0011-0459 "John Galbraith" "Jean Clark"]
     }
 
     peter1766-baptism {
-        $opr-ref-link[b-1766-507-000-0011-0350 "Peter Galbreath"];
+        $opr-ref-link[b-1766-507-000-0011-0350 "Peter Galbreath"]
         $opr-ref[b-1766-507-000-0010-0301 "Peter Galbraith"], note mother indexed as "Jean Clerk"
     }
     matthew1768-baptism {
-        $opr-ref-link[b-1768-507-000-0011-0363 "Mathew Galbreath"];
+        $opr-ref-link[b-1768-507-000-0011-0363 "Mathew Galbreath"]
         $opr-ref[b-1768-507-000-0010-0324 "Matthew Galbraith"]
     }
     archibald1774-baptism {
