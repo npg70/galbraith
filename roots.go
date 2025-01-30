@@ -49,11 +49,19 @@ func computeRoots(db Root) []string {
 
 	out := []string{}
 	for k, v := range pmap {
-		if !v {
-			person, _ := db.Load(k)
-			person.Tags = append([]string{"root"}, person.Tags...)
-			out = append(out, k)
+		if v {
+			continue
 		}
+		person, _ := db.Load(k)
+
+		// right now, almost no one is a root and illegitimate.
+		// this may change but right now it's just noise
+		if person.HasTag("illegitimate") {
+			continue
+		}
+
+		person.Tags = append([]string{"root"}, person.Tags...)
+		out = append(out, k)
 	}
 
 	// make consistent
