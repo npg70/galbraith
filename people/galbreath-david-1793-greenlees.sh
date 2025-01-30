@@ -1,4 +1,5 @@
 name David Galbreath
+gender male
 birth -date "about 1793"
 death -date 13-jan-1873 -location huron,ontario,canada
 external {
@@ -11,7 +12,8 @@ body {
     Some or all of the family moved to Huron, Ontario, Canada.
 }
 partner {
-    name Mary Greenless
+    name Mary Greenlees
+    gender female
     birth -date 'about 1792'
     marriage -date 9-jul-1818 -location campbeltown -ref marriage
     death -date 12-apr-1875 -location huron,ontario,canada 
