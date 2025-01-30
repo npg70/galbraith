@@ -57,16 +57,28 @@ Alexander with his family emigrated and landed in Baltimore on 1st September 178
 }
 
 $blockquote{
-When in 1992 I went to York County in search of information about Hugh Henry Breckenridge whose family had settled in the same district only some thirty years before the Galbreaths I was most courteously conducted through the district by Joe Galbreath, sixth in line from the emigrant Alexander. While there was no memory of the Breckenridges I feel sure the settlement of two families from within five miles of Campbeltown in the same area within thirty years is more than a coincidence. This Galbreath family has been more assiduous than any I know in keeping up the family connection in the States. Periodical family reunions are celebrated and a family record which has reached the ninth generation from Alexander is carefully maintained.
+When in 1992 I went to York County in search of information about Hugh Henry Breckenridge whose family had settled in the same district only some thirty years before the Galbreaths.
 }
 
 $p{
 $elink[https://www.familysearch.org/tree/person/details/K4YK-T8D]{Hugh Henry Breckenridge} immigrated to Pennslyvana in 1753 at age 5.
 }
 
+$blockquote{I was most courteously conducted through the district by Joe Galbreath, sixth in line from the emigrant Alexander. While there was no memory of the Breckenridges I feel sure the settlement of two families from within five miles of Campbeltown in the same area within thirty years is more than a coincidence.
+}
+
 $p{
 TBD: Joe Galbreath
 }
+
+
+$blockquote{This Galbreath family has been more assiduous than any I know in keeping up the family connection in the States. Periodical family reunions are celebrated and a family record which has reached the ninth generation from Alexander is carefully maintained.
+}
+
+$p{
+Unfortunately, since the Covid Epidemic of 2022, the meetings and reunions of the Galbreath family have stopped.
+}
+
 
 $p{
 Nine generations were listed in "The Alexander Galbraith Family", published 1955, 1976, 1932.
@@ -109,9 +121,6 @@ $elink[https://www.familysearch.org/tree/person/details/G6TS-MSR]{William Wilson
 }
 $p{
 $elink[https://www.familysearch.org/tree/person/details/LCB4-CPC]{Ralph W Sloan}, b. 1918, d. 2010, married to Cornelia Halie Galbreath, also a sixth generation descendart of Alexander.
-}
-$p{
-Unfortunately, since the Covid Epidemic of 2022, the meetings and reunions of the Galbreath family have stopped.
 }
 
 $hr{}
