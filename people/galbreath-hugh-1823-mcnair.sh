@@ -1,4 +1,5 @@
 name Hugh Galbreath
+gender male
 baptism -date 13-may-1823 -location campbeltown -ref hugh1823-baptism
 death -date 30-sep-1901 -location campbeltown -ref hugh1823-death
 tags Argyll:Campbeltown
@@ -7,12 +8,16 @@ external {
 }
 partner {
     name Catherine McNair
-    death -date 22-nov-1904 -location campbeltown -ref mcnair-death
-    baptism -date 08-apr-1820 -location 'killean and kilchenzie'
-    marriage -date 12-jun-1849 -location campbeltown -ref mcnair-marriage
-    body {
-        She was the daughter of Hector McNair and Peggy McDougall.
+    gender female
+    parent {
+        name Hector McNair
+        partner {
+            name Peggy McDougall
+        }
     }
+    baptism -date 08-apr-1820 -location 'killean and kilchenzie'
+    death -date 22-nov-1904 -location campbeltown -ref mcnair-death
+    marriage -date 12-jun-1849 -location campbeltown -ref mcnair-marriage
     child galbraith-margaret-1853-mackinlay
     child galbraith-neil-1855-mccallum
     child galbraith-mary-1857-martin
