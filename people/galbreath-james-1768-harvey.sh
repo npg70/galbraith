@@ -49,6 +49,9 @@ body {
     He was a baker.
 }
 note {
+    Another baker was $child-link[galbreath-archibald-1780-templeton]{Archibald Galbreath} but no connection is known.
+}
+note {
     Possible the McIssacs who married two of the daughters are brothers.
 }
 note {

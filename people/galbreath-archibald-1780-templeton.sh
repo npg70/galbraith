@@ -7,6 +7,10 @@ external {
 body {
     He was a baker.
 }
+note {
+    Little is known about Archibald.  One other baker was $child-link[galbreath-james-1768-harvey]{James Galbreath}, but no connection is known.
+}
+
 partner {
     name Jackie Templeton
     gender female
