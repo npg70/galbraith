@@ -4,12 +4,32 @@ tags Argyll:Campbeltown
 external {
     familysearch KC9M-5ZQ
 }
+todo {
+    Need to move $child-link[galbreath-william-1780-campbell]{William G} to here.
+}
 body {
-Family is listed as living in Laggan in the Parish of Kilchousland according to the 1792 Census.
-
+    He was a farmer in Laggan.
+}
+note {
 He died before 1810, based on marriage record of the first daughter $child-link[galbreath-mary-1785-ferguson]{Mary}.
+}
 
-He was a farmer.
+body {
+Census of 1792, Laggan, Parish of Kilchousland:
+
+$csvtable{
+Age,Year,Men,Women,Children
+42,1750,Peter Galbreath,,
+35,1757,,Ann McMurchy,
+16,1776,,,Janet Galbreath
+13,1779,,,-John- Galbreath
+11,1781,,,William Galbreath
+10,1782,,,Robert Galbreath
+ 8,1784,,,Archibald Galbreath
+ 6,1786,,,Mary Galbreath
+ 4,1788,,,James Galbreath
+ 2,1790,,,Margaret Galbreath
+}
 }
 
 partner {
@@ -45,9 +65,11 @@ partner {
 
     child {
         name Orslay (Ursula) Galbreath
+        gender female
         baptism -date 23-Jun-1792 -location campbeltown -ref orslay1792-baptism
         partner {
             name William Hatton
+            gender male
         }
     }
     child {
@@ -56,19 +78,23 @@ partner {
     }
     child {
         name Jean Galbreath
-        baptism -date 04-Jun-1796 -location campebltown -ref jean1796-baptism
+        gender female
+        baptism -date 04-Jun-1796 -location campbeltown -ref jean1796-baptism
         death -date 23-Aug-1867 -location Girvan,Ayr -ref jean1796-death
         partner {
             name Anthony Campbell
+            gender male
             marriage -date 17-dec-1811 -location campebeltown -ref jean1796-marriage
         }
     }
     child {
         name Agnes Galbreath
+        gender female
         baptism -date 21-May-1798 -location campbeltown -ref agnes1798-baptism
         death -date 3-jan-1873 -location campbeltown -ref agnes1798-death
         partner {
             name Alexander Muir
+            gender male
             marriage -date 18-dec-1826 -location campbeltown -ref agnes1798-marriage
         }
     }
@@ -105,7 +131,11 @@ footnotes {
         Father recorded as "Patrick"  
     }
     jean1796-marriage {
-        $opr-ref-link[m-1811-507-000-0050-0097 "Jean Galbreath" "Anthony Campbell"]
+        $opr-ref-link[m-1811-507-000-0050-0097 "Jean Galbreath" "Anthony Campbell"]{
+            Anthony Campbell Sadler in Campbeltown Originally from Ayr and
+            Jean Galbreath daughter to the deceased Peter Galbraith late
+            farmer in Laggan  both of this Parish Married 17th Dec 1811
+        }
     }
     jean1796-death {
         $sp-ref-link[d-1867-594-00-0106 0036 "Jean Galbraith"]
