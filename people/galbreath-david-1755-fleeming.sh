@@ -36,15 +36,8 @@ partner {
     }
     child galbreath-david-1793-greenlees
 
-    child {
-        name Orcilla Galbreath
-        gender female
-        baptism -date 4-feb-1795 -location campbeltown -ref orcilla1795-baptism
-        partner {
-            name John Wylie
-            gender male
-        }
-    }
+    child galbreath-orsla-1795-wylie
+
     child {
         name Archibald Galbreath
         baptism -date 27-dec-1798 -location campbeltown -ref archibald1798-baptism
@@ -87,9 +80,6 @@ footnotes {
     }
     janet1790-baptism {
         $opr-ref-link[b-1790-507-000-0020-0126 "Janet Galbreath"]
-    }
-    orcilla1795-baptism {
-        $opr-ref-link[b-1795-507-000-0040-0123 "Orslay Galbreath"]
     }
     archibald1798-baptism {
         $opr-ref-link[b-1798-507-000-0040-0172 "Archibald Galbreath"]
