@@ -4,6 +4,10 @@ tags Argyll:Campbeltown
 external {
     familysearch M1Y6-GJN
 }
+todo {
+    8 children
+}
+
 baptism -date 29-aug-1788 -location campbeltown -ref mary1788-baptism
 death -date 07-aug-1877 -location campbeltown -ref mary1788-death
 partner {
