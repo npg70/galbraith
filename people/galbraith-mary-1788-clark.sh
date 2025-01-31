@@ -8,11 +8,15 @@ baptism -date 29-aug-1788 -location campbeltown -ref mary1788-baptism
 death -date 07-aug-1877 -location campbeltown -ref mary1788-death
 partner {
    name Robert Clark
+   gender male
+   parent {
+    name John Clark
+    partner {
+        name Mary Langwill
+    }
+   }
    marriage -date 22-may-1813 -location campbeltown -ref clark-marriage
    birth -date 30-aug-1764 -location campbeltown
-   body {
-    He was the son of John Clark and Mary Langwill.
-    }
 }
 footnotes {
     mary1788-baptism {
