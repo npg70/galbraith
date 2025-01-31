@@ -1,6 +1,7 @@
 name David Galbreath
+gender male
 baptism -date 12-feb-1755 -location campebeltown -ref david1755-baptism
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown Argyll:Ugadale
 external {
     familysearch K898-WXH
 }
@@ -9,6 +10,7 @@ He was a farmer in Ugadale and/or Ardnacross (from baptism records of children, 
 }
 partner {
     name Mary Fleeming
+    gender female
     marriage -date 1-dec-1781 -location campbeltown -ref marriage
     child {
         name Margaret Galbreath
@@ -32,15 +34,15 @@ partner {
         birth -date 23-dec-1790
         baptism -date 24-dec-1790 -location campbeltown -ref janet1790-baptism
     }
-    child {
-        name David Galbreath
-        baptism -date 27-aug-1793 -location campbeltown -ref david1793-baptism
-    }
+    child galbreath-david-1793-greenlees
+
     child {
         name Orcilla Galbreath
+        gender female
         baptism -date 4-feb-1795 -location campbeltown -ref orcilla1795-baptism
         partner {
             name John Wylie
+            gender male
         }
     }
     child {
@@ -85,9 +87,6 @@ footnotes {
     }
     janet1790-baptism {
         $opr-ref-link[b-1790-507-000-0020-0126 "Janet Galbreath"]
-    }
-    david1793-baptism {
-        $opr-ref-link[b-1793-507-000-0040-0109 "David Galbreath"]
     }
     orcilla1795-baptism {
         $opr-ref-link[b-1795-507-000-0040-0123 "Orslay Galbreath"]

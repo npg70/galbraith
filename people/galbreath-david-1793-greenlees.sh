@@ -1,19 +1,25 @@
 name David Galbreath
 gender male
-birth -date "about 1793"
+baptism -date 27-aug-1793 -location campbeltown -ref david1793-baptism
 death -date 13-jan-1873 -location huron,ontario,canada
 external {
     familysearch K83Z-PK8
     findagrave 217607595
 }
-tags Argyll:Campbeltown Immigrant:Canada:Ontario:Huron
-
+tags Argyll:Campbeltown Immigrant:Canada:Ontario:Huron Argyll:Ugadale
 body {
-    Some or all of the family moved to Huron, Ontario, Canada.
+    He was a farmer in Ugadale, and then some or all of the family moved to Huron, Ontario, Canada.
+}
+body {
+    David and the family is listed as a farm in Drumore, Campbeltown in the census of 1841.$ref[census1841]  The family is not listed in the Census of 1851.
+}
+note {
+    Not listed in the Census of 1792 (as expected).
 }
 partner {
     name Mary Greenlees
     gender female
+    parent greenlees-thomas-1754-greenlees
     birth -date 'about 1792'
     marriage -date 9-jul-1818 -location campbeltown -ref marriage
     death -date 12-apr-1875 -location huron,ontario,canada 
@@ -71,13 +77,19 @@ partner {
 }
 
 footnotes {
+    david1793-baptism {
+        $opr-ref-link[b-1793-507-000-0040-0109 "David Galbreath"]
+    }
     marriage {
         $opr-ref-link[m-1818-507-000-0050-0124 "David Galbreath" "Mary Greenlees"]{
-            David Galbreath Farmer Ugadale and Mary Greenlees daughter of Thomas Greenless Maltster Campbeltown, both of this parish married 9 July 1818
+            David Galbreath Farmer Ugadale and Mary Greenlees daughter of Thomas Greenlees Maltster Campbeltown, both of this parish married 9 July 1818
         }
     }
     david1819-baptism {
-        $opr-ref-link[b-1819-507-000-0040-0489 "David Galbreath"]
+        $opr-ref-link[b-1819-507-000-0040-0489 "David Galbreath"]{
+            David | Lawful son of David Galbreath Farmer Ugadale
+            & Mary Greenlees Born 20th March + Bapt 1st April 1819 David
+        }
     }
     helen1821-baptism {
         $opr-ref[b-1821-507-000-0060-0029 "Helen Galbreath"]
@@ -112,5 +124,8 @@ footnotes {
     isabella1842-baptism {
         $opr-ref[b-1842-507-000-0070-0219 "Isabella Galbreath"]
         Mother indexed as "Greenless"
+    }
+    census1841 {
+        https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016602134&expand=true&tab=this
     }
 }   
