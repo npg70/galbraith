@@ -7,7 +7,7 @@ external {
     familysearch MQS2-XVJ
 }
 note {
-    Her name is a variation of Ursale, and was spelled "Orcilla", "Orsla", "Orslay", and "Ursla"
+    Her name is a variation of the modern Ursula, and was spelled "Orcilla", "Orsla", "Orslay", and "Ursla".
 }
 todo {
     8 children, immigration
@@ -25,8 +25,7 @@ partner {
 }
 
 footnotes {
-
-    orslay1795-baptism {
+    orsla1795-baptism {
         $opr-ref-link[b-1795-507-000-0040-0123 "Orslay Galbreath"]{
             Orslay Lawful Dau to David Galbreath & Mary Fleeming on August 4
         }
