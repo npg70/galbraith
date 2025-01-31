@@ -11,10 +11,10 @@ note {
 }
 
 note {
-    Mary's father may connected to a John McLean.  In 1768 he was in dispute of lands "Totticlach" which seems similar to the places mentioned in the baptism of her last children.$ref[totticlach].  
+    Mary's father may connected to a John McLean.  In 1768 he was in dispute of lands "Totticlach" which seems similar to the places mentioned in the baptism of her last children.$ref[totticlach]
 }
 note {
-    Mary's parents may be Archibald McLean and More Paterson.  Listed a natural birth.$ref[mary-parents]
+Mary's parents may be Archibald McLean and More Paterson. Here the birth was listed as "natural" (i.e. parents were not married).$ref[mary-parents]
 }
 body {
 Census of 1792, Parish of Killchivan, Kilchuibnach:
