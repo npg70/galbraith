@@ -6,7 +6,10 @@ external {
     familysearch K898-WXH
 }
 body {
-He was a farmer in Ugadale and/or Ardnacross (from baptism records of children, and his daughter Mary's death record).
+    He was a farmer in Ugadale and/or Ardnacross (from baptism records of children, and his daughter Mary's death record).
+}
+note {
+    Not in Census of 1792
 }
 partner {
     name Mary Fleeming
@@ -33,6 +36,7 @@ partner {
         name Janet Galbreath
         birth -date 23-dec-1790
         baptism -date 24-dec-1790 -location campbeltown -ref janet1790-baptism
+        death -date 15-nov-1871 -location campbeltown -ref janet1790-death -note unmarried
     }
     child galbreath-david-1793-greenlees
 
@@ -80,6 +84,15 @@ footnotes {
     }
     janet1790-baptism {
         $opr-ref-link[b-1790-507-000-0020-0126 "Janet Galbreath"]
+    }
+    janet1790-death {
+        $sp-ref-link[d-1871-507-00-0143 0048 "Janet Galbraith"]{
+            Name: Janet Galbraith (single);
+            Date: 1871 November Fifthteenth;
+            Age: 83 years (~1788);
+            Father: Duncan $i{David} Galbraith Farmer (deceased);
+            Mother: Mary Galbraith M.S. Fleming;
+        }
     }
     archibald1798-baptism {
         $opr-ref-link[b-1798-507-000-0040-0172 "Archibald Galbreath"]
