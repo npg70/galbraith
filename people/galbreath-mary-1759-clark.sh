@@ -10,9 +10,13 @@ external {
 }
 partner {
    name Peter Clark
-   marriage -date 11-june-1784 -location campbeltown
+   parent galbreath-agnes-1722-clark
+   marriage -date 11-june-1784 -location campbeltown -ref clark-marriage
    baptism -date 17-mar-1752 -location campbeltown
    death -date 25-sep-1821 -location "Glade Spring,Washington,Virginia,USA"
+}
+todo {
+    9 children
 }
 footnotes {
     mary1759-baptism {
@@ -21,8 +25,14 @@ footnotes {
         a daught baptized 23st January named Mary
         }
         $opr-ref-link[b-1759-507-000-0010-0241 "Mary Galbraith"]{
-            $i{1759} Mary | James Galbraith + Mary Anderon bapt Mary $i{no date}
+            $i{1759} Mary | James Galbraith + Mary Anderson bapt Mary $i{no date}
         }
         Unclear why Scotlands People has this indexed as 31 Dec 1758.
+    }
+
+    clark-marriage {
+        $opr-ref-link[m-1784-507-000-0020-0167 "Mary Galbreath" "Peter Clark"]{
+            Peter Clark & Mary Galbreath both of this Parish were contracted 11th June & married
+        }
     }
 }

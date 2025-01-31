@@ -11,7 +11,10 @@ partner {
 }
 footnotes {
     mary1785-baptism {
-        $opr-ref-link[b-1785-507-000-0020-0085 "Mary Galbreath"]
+        $opr-ref-link[b-1785-507-000-0020-0085 "Mary Galbreath"]{
+                Mary | Lawful dau to Peter Galbraith Farmer in Laggan &
+                Agnes McMurchy was born 19th & Bapt 21 Sep
+         }   
     }
     ferguson-marriage {
         Indexed twice, first in Southend, then nine days later in Campbeltown:

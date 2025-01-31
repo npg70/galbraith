@@ -11,11 +11,19 @@ tags Argyll:Campbeltown
 partner {
     name Margaret Adam
     gender female
-    marriage -date "June 1738" -location campbeltown
+    parent {
+        name Archibald Adam
+        partner {
+            name Janet Lindsay
+        }
+    }
+    baptism -date 10-dec-1720 -location campbeltown    
+    marriage -date "June 1738" -location campbeltown -ref adam-marriage
     child {
         name Mary Galbreath
         gender female
         baptism -date 18-mar-1740 -location campbeltown -ref mary1-bapt
+        death -note dy
     } 
     child {
         name Archibald Galbreath
@@ -26,6 +34,7 @@ partner {
         name James Galbreath
         gender male
         baptism -date 15-jan-1746 -location campbeltown -ref james1746-bapt
+        death -note dy
     }
     child {
         name _____ Galbreath
@@ -41,6 +50,7 @@ partner {
          name Margaret Galbreath
          gender female
          baptism -date 15-apr-1752 -location campbeltown -ref margaret1752-baptism
+         death -note dy
      }
     child galbreath-david-1755-fleeming
     child {
@@ -52,6 +62,7 @@ partner {
         name Margaret Galbreath
         gender female
         baptism -date 31-may-1761 -location campbeltown -ref marg2-bapt
+        death -note dy
     }
     child {
         name Margaret Galbreath
@@ -72,6 +83,12 @@ footnotes {
     james1713-burial {
         
     }
+    adam-marriage {
+        Entry is between others June 10-20th.
+        $opr-ref-link[m-1738-507-000-0011-0445 "James Galbraith" "Margaret Adam"]{
+            James Galbraith + Margt Adams | $i{date is blank}
+        }
+    }   
     mary1-bapt {
         $opr-ref[b-1740-507-000-0011-0230 "Mary Galbreath"]
     }

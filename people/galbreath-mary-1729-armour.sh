@@ -50,11 +50,16 @@ partner {
 }
 footnotes { 
     mary1729-baptism {
-        $opr-ref-link[b-1729-507-000-0011-0182 "Mary Galbreath"]
+        $opr-ref-link[b-1729-507-000-0011-0182 "Mary Galbreath"]{
+            Mary | Wm Galbreath + Mary Kilpatrick had a 
+            Daut. baptized 19th Oct Named Mary
+        }
         $opr-ref[b-1729-507-000-0010-0136 "Mary Calbraith"]
     }
     marriage {
-        $opr-ref-link[m-1750-507-000-0011-0452 "Mary Calbraith" "William Armour"]
+        $opr-ref-link[m-1750-507-000-0011-0452 "Mary Calbraith" "William Armour"]{
+            Wm Armour + Mary Calbraith | May 1750
+        }
         $opr-ref[m-1750-507-000-0010-0210 "Mary Calbraith" "William Armour"]
     }
 }

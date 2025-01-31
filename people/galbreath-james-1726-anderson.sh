@@ -11,6 +11,7 @@ partner {
     child {
         name James Galbreath
         baptism -date 30-oct-1748 -location campbeltown -ref james1748-baptism
+        death -note dy
     }
     child {
         name Margaret Galbreath
@@ -19,6 +20,7 @@ partner {
     child {
         name James Galbreath
         baptism -date 26-jul-1752 -location campbeltown -ref james1752-baptism
+        death -note dy
     }
     child {
         name John Galbreath

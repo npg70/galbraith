@@ -10,6 +10,13 @@ external {
 partner {
     name James Clark
     gender male
+    parent {
+        name John Clark
+        partner {
+            name Margaret Fulton
+        }
+    }
+    baptism -date 18-jul-1712 -location campbeltown
     marriage -date 7-nov-1739 -location campbeltown
     death -date 1782
 
@@ -56,6 +63,7 @@ partner {
     }
     child {
         name William Clark
+        death -note dy
     }
     child {
         name Helen Clark

@@ -77,8 +77,9 @@ footnotes {
         $opr-ref[b-1735-507-000-0010-0152 "Janet Calbraith"]
     }
     ryburn-marriage {
-        $opr-ref-link[m-1761-507-000-0011-0461 "Janet Galbreath" "William Ryburn"];
-       $opr-ref-link[m-1761-507-000-0010-0251 "Janet Galbreath" "William Ryburn"] 
-
+        $opr-ref-link[m-1761-507-000-0011-0461 "Janet Galbreath" "William Ryburn"]
+        $opr-ref-link[m-1761-507-000-0010-0251 "Janet Galbreath" "William Ryburn"]{
+            June 16th | William Ryburn + Janet Galbrath both in ... [illegible]
+        }
     }
 }
