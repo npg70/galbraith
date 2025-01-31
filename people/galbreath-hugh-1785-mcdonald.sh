@@ -1,4 +1,5 @@
 name Hugh Galbreath
+gender male
 birth -date 'about 1785'
 tags Argyll:Campbeltown "Daughtered Out"
 external {
@@ -9,6 +10,7 @@ note {
 }
 partner {
     name Christina McDonald
+    gender female
     marriage -date 'about 1807'
     baptism -date 8-feb-1788 -location campbeltown 
     child {
@@ -46,7 +48,7 @@ partner {
     }
     child {
         name Donald Galbreath
-        baptism -date 15-Jul-1828 -location campbeltown -ref donary1828-baptism
+        baptism -date 15-Jul-1828 -location campbeltown -ref donald1828-baptism
         body { Present in 1841 Census, but then no other records (census or statutory) found}
     }
 }
