@@ -1,6 +1,6 @@
 name James Galbreath
 birth -date 'about 1768'
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown Argyll:Skerbolin
 external {
   familysearch KZ84-RRK
   ancestry tree/12079504/person/282258327103

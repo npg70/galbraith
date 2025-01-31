@@ -1,4 +1,5 @@
 name James Culbertson
+tags Argyll:Skerbolin Immigrant:USA:Indiana:Switzerland
 gender male
 birth -date 06-dec-1759 -location campbeltown
 death -date sep-1821 -location Switzerland,Indiana,USA

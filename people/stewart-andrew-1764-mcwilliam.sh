@@ -1,5 +1,7 @@
 name Andrew Stewart
 gender male
+tags Argyll:Skerbolin
+
 birth -date 1764 -location 'killean and kilchenzie' -note '. He was the son of Andrew Stewart and Barbara McVicar'
 
 external {
