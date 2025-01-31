@@ -1,53 +1,66 @@
 name James Galbreath
+gender male
 baptism -date 20-aug-1713 -location campbeltown -ref james1713-baptism
 death -date 1768 -location campbeltown -ref james1713-burial
 external {
     familysearch G3PJ-D5Z
     findagrave 114485210
+    ancestry tree/12079504/person/282298905010
 }
 tags Argyll:Campbeltown
 partner {
     name Margaret Adam
+    gender female
     marriage -date "June 1738" -location campbeltown
     child {
         name Mary Galbreath
+        gender female
         baptism -date 18-mar-1740 -location campbeltown -ref mary1-bapt
     } 
     child {
         name Archibald Galbreath
+        gender male
         baptism -date dec-1743 -location campbeltown -ref arch-bapt
     }
     child {
         name James Galbreath
+        gender male
         baptism -date 15-jan-1746 -location campbeltown -ref james1746-bapt
     }
     child {
         name _____ Galbreath
+        gender unknown
         baptism -date 13-jul-1748 -location campbeltown -ref unknown-bapt
 }
     child {
         name James Galbreath
+        gender male
         baptism -date 3-june-1750 -location campbeltown -ref james1750-bapt
     }
     child {
          name Margaret Galbreath
+         gender female
          baptism -date 15-apr-1752 -location campbeltown -ref margaret1752-baptism
      }
     child galbreath-david-1755-fleeming
     child {
         name Janet Galbreath
+        gender female
         baptism -date 4-feb-1757 -location campbeltown -ref janet-bapt
     }
     child {
         name Margaret Galbreath
+        gender female
         baptism -date 31-may-1761 -location campbeltown -ref marg2-bapt
     }
     child {
         name Margaret Galbreath
+        gender female
         baptism -date 17-oct-1762 -location campbeltown -ref marg3-bapt
     }
     child {
         name Mary Galbreath
+        gender female
         birth -date 25-nov-1765
         baptism -date 28-nov-1765 -location campbeltown -ref mary2-bapt
     }
