@@ -19,8 +19,11 @@ $blockquote{
 $blockquote{
 564.	Here lyes AGNES, MARGARET and ALEXANDER ARMOUR children of JAMES ARMOUR Maltster in Campbeltown and this is the place designed for FLORANCE his spouse and family
 }
-
 }
+note {
+    In the Census of 1792, the children, parentless, appear living in the household of $child-link[galbreath-william-1736-dunlop]{William Galbreath}
+}
+
 tags Argyll:Campbeltown
 partner {
     name Agnes Armour
@@ -44,17 +47,24 @@ partner {
     }
     child {
         name Alexander Galbreath
+        birth -date 04-oct-1788
         baptism -date 6-oct-1788 -location campbeltown -ref alex-bapt
     }
 }
 footnotes {
     henry1739-baptism {
-        $opr-ref-link[b-1739-507-000-0011-0227 "Henry Galbreath"]
+        $opr-ref-link[b-1739-507-000-0011-0227 "Henry Galbreath"]{
+            Henry | William Galbreath & Margt Kilpatrick had a son
+            baptized ___ April named Henry
+        }
         $opr-ref[b-1739-507-000-0010-0163 "Henry Galbreath"]
         $opr-ref[b-1739-507-000-0010-0163 "Henry Calbraith"]
     }
     marriage {
-        $opr-ref-link[m-1768-507-000-0011-0469 "Hendry Galbraith" "Agnes Armour"]
+        $opr-ref-link[m-1768-507-000-0011-0469 "Hendry Galbraith" "Agnes Armour"]{
+            Hendry Galbreath + Agnes Armour both in this parish. March 5th
+        }
+        The following is indentical (indexed twice?):
         $opr-ref-link[m-1768-507-000-0011-0471 "Hendry Galbraith" "Agnes Armour"]
     }
     mary-bapt {
@@ -65,7 +75,10 @@ footnotes {
         Father indexed as "Hendry"
     }
     alex-bapt {
-        $opr-ref[b-1788-507-000-0020-0108 "Alexander Galbreath"]
+        $opr-ref-link[b-1788-507-000-0020-0108 "Alexander Galbreath"]{
+            Alexander | Lawful son to Henry Galbreath Shoemaker in Town and
+            Agnes Armour was born 4th + Bapt 6th Oct
+        }
 
     }
 }
