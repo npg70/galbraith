@@ -1,6 +1,6 @@
 name Robert Galbreath
 gender male
-tags Argyll:Campbeltown Immigrant:USA:Ohio
+tags Argyll:Campbeltown Argyll:Peninver Immigrant:USA:Ohio
 birth -location Peninver
 baptism -date 12-oct-1778 -location campbeltown -ref robert1778-baptism
 death -date 19-may-1847 -location neville,clermont,ohio,usa

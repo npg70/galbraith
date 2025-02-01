@@ -1,6 +1,6 @@
 name Samuel Galbreath
 gender male
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown Argyll:Peninver
 birth -location Peninver
 baptism -date 4-feb-1736 -location campbeltown -ref samuel1736-baptism
 external {
@@ -36,10 +36,12 @@ partner {
     child {
         name Archibald Galbreath
         baptism -date 14-sep-1777 -location campbeltown -ref archibald1777-baptism
+        death -note dy
     }
     child {
         name Robert Galbreath
         baptism -date 14-sep-1777 -location campbeltown -ref robert1777-baptism
+        death -note dy
     } 
     child galbreath-robert-1778-harvey 
     child {
