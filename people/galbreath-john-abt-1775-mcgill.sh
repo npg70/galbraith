@@ -34,6 +34,7 @@ partner {
         name Alexander McDonald Galbreath
         baptism -date 25-jun-1811 -location 'killean and kilchenzie' -ref alexander1811-baptism
     }
+    child galbreath-john-1815-mctaggart
     child {
         name John Galbreath
         baptism -date 24-jan-1815 -location 'killean and kilchenzie' -ref john1815-baptism
@@ -68,9 +69,6 @@ footnotes {
     }
     alexander1811-baptism {
         $opr-ref[b-1811-519-000-0010-0246 "Alexander McDonald Galbreath"]
-    }
-    john1815-baptism {
-        $opr-ref[b-1815-519-000-0010-0277 "John Galbreath"]
     }
     rodger1816-baptism {
         $opr-ref[b-1816-519-000-0010-0287 "Rodger Galbreath"]
