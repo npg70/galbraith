@@ -8,6 +8,10 @@ external {
 note {
 There are two people named David Galbreath, who both married a Langwill and both had their first child in 1743. This David married $i{Mary} Langwill and the other $child-link[galbreath-david-1719-langwill]{David Galbreath} married $i{Jean} Langwill.
 }
+note {
+    There is another $child-link[galbreath-david-1720-baird]{David Galbreath} born about this time who married Martha Baird.
+}
+
 partner {
     name Mary Langwill
     marriage -date 'apr-1742' -location campbeltown -ref langwill-marriage
@@ -25,17 +29,32 @@ partner {
 
 footnotes {
     david1718-baptism {
+        $opr-ref-link[b-1718-507-000-0011-0135 "David Galbreath"]{
+             David | David Galbreath + Isobell Watson had a son bapt
+            2nd Oct named David    
+        }
         $opr-ref[b-1718-507-000-0010-0080 "David Calbreth"]
-        $opr-ref-link[b-1718-507-000-0011-0135 "David Galbreath"]
     }
     langwill-marriage {
-        $opr-ref[m-1742-507-000-0010-0166 "David Calbraith" "Mary Languill"]
-        $opr-ref[m-1742-507-000-0011-0447 "David Calbraith" "Mary Languill"]
+        The documents are unclear on the exact date but was in March or April of 1742.
+        $opr-ref-link[m-1741-507-000-0011-0447 "David Calbraith" "Mary Languill"]{
+            David Calbraith + Mary Languill | $i{date unclear}
+        }
+        $opr-ref-link[m-1741-507-000-0010-0166 "David Calbraith" "Mary Languill"]{
+            $i{date unclear} | David Calbraith + Mary Languill
+        }
+        Note the previous line lists the marriage of $child-link[galbreath-david-1718-langwill]{David Calbraith} and $i{Jean} Languill.
     }
     isobell1743-baptism {
-        $opr-ref[b-1743-507-000-0011-0242 "Isobell Galbreath"]
+        $opr-ref-link[b-1743-507-000-0011-0242 "Isobell Galbreath"]{
+            Isobell | David Galbreath + Mary Langwill had a
+            Daughter baptized ___ May named Isobell
+        }
     }
     mary1746-baptism {
-        $opr-ref[b-1746-507-000-0011-0257 "Mary Galbreath"]
-    }    
+        $opr-ref-link[b-1746-507-000-0011-0257 "Mary Galbreath"]{
+            Mary | David Galbreath + Mary Langwill had a
+            Daughter baptized 7th Sept named Mary
+        }
+    }
 }

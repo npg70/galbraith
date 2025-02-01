@@ -1,4 +1,5 @@
 name David Galbreath
+gender male
 birth -date 'about 1720'
 external {
     familysearch KC4Z-X5T
@@ -9,11 +10,15 @@ note {
 }
 partner {
     name Martha Baird
+    gender female
+    parent {    
+        name James Baird
+        partner {
+            name Katharine Harvey
+        }
+    }
     baptism -date 19-feb-1727 -location campbeltown
     marriage -date 30-nov-1744 -location campbeltown -ref marriage
-    body {
-        The daughter of James Baird and Katharine Harvey
-    }
     child {
         name Mary Galbreath
         baptism -date 4-dec-1746 -location campbeltown -ref mary1746-baptism
@@ -37,7 +42,9 @@ partner {
 }
 footnotes {
     marriage {
-        $opr-ref-link[m-1744-507-000-0011-0449 "David Calbraith" "Martha Baird"]
+        $opr-ref-link[m-1744-507-000-0011-0449 "David Calbraith" "Martha Baird"]{
+            David Calbraith + Martha Baird | $i{1745}
+        }
         $opr-ref[m-1745-507-000-0010-0179 "David Galbraith" "Martha Baird"]
     }
     mary1746-baptism {
