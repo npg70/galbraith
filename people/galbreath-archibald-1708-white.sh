@@ -1,6 +1,6 @@
 name Archibald Galbreath
 gender male
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown Argyll:Ardnacross
 baptism -date 30-May-1708 -location Campbeltown -ref archibald1708-baptism
 death -date Sep-1789 -location Campbeltown -ref archibald1708-burial
 burial -name "Kilchousland Graveyard" -ref archibald1708-burial
