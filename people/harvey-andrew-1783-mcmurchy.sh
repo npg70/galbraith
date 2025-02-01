@@ -1,4 +1,6 @@
 name Andrew Harvey
+gender male
+tags Argyll:Peninver
 external {
     familysearch M1TP-B45
     findagrave 274553791
@@ -11,6 +13,7 @@ baptism -date 26-feb-1783 -location campbeltown -ref andrew1783-baptism
 death -date 14-sep-1849 -location avondale,hamilton,ohio,usa
 partner {
     name Elizabeth McMurchy
+    gender female
     baptism -date 28-jan-1786 -location campbeltown
     marriage -date 6-apr-1809 -location campbeltown -ref mcmurchy-marriage
     body {
