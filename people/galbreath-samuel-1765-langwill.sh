@@ -1,4 +1,5 @@
 name Samuel Galbreath
+gender male
 birth -date 'say 1765'
 external {
     familysearch KZ3Z-DXW
@@ -6,10 +7,14 @@ external {
 }
 tags Argyll:Campbeltown
 body {
-Little is known about the origins of Samuel. Guessing his birth to be around 1765 would make first child born when he was 28 which seems reasonable. All children appear to have been born "in Town" and the marriage said the couple were "both of this parish."
+Little is known about the origins of Samuel. Guessing his birth to be around 1765 would make first child born when he was 28 which seems reasonable but could be off by +/- 10 years. All children appear to have been born "in Town" and the marriage said the couple were "both of this parish."
+}
+body {
+    He was a sawyer, as listed in the baptism and death records of his children.
 }
 partner {
     name Janet Langwill
+    gender female
     marriage -date 23-apr-1790 -location campbeltown -ref langwill-marriage
     child {
         name Archibald Galbreath

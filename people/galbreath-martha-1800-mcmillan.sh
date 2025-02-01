@@ -10,9 +10,10 @@ external {
 }
 partner {
     name Malcom McMillan
-    marriage -date 26-jan-1832 -location campbeltown
+    gender male
+    marriage -date 26-jan-1832 -location campbeltown -ref mcmillan-marriage
     body {
-        Inn keeper
+        He started as a ship carpenter, then as inn keeper.  Martha's father was a "sawyer" so perhaps they met that way.
     }
 }
 footnotes {
@@ -21,6 +22,12 @@ footnotes {
     }
     martha1800-death {
         $sp-ref-link[d-1871-507-00-0035 0012 "Martha Galbraith"]
+    }
+    mcmillan-marriage {
+        $opr-ref-link[m-1832-507-000-0060-0304 "Martha Galbreath" "Malcolm McMillan"]{
+            Malcolm McMillan Ship Carpenter and Martha Galbreath
+            both of this Parish were married 26th Janry 1832
+        }
     }
 }
 
