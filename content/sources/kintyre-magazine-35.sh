@@ -460,7 +460,7 @@ James Anderson friends are all in hope but
 his brother Robert is very fraill.
 }
 $p{
-James Anderson, b. 1743, and his older brother Robert, b. 1732, sons of $elink[https://www.familysearch.org/tree/person/details/M1YQ-JRF]{Allan Anderson} and Matha Anderson.
+James Anderson, b. 1743, and his older brother Robert, b. 1732, sons of $elink[https://www.familysearch.org/tree/person/details/M1YQ-JRF]{Allan Anderson} and Martha Anderson.
 }
 $blockquote{
 You need not doubt if your sister joins me in her love to you & familie.
