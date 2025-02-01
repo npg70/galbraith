@@ -1,4 +1,5 @@
 name Peter Galbreath
+gender male
 baptism -date 5-apr-1749 -location campbeltown -ref peter1749-baptism
 tags Argyll:Campbeltown
 external {
@@ -34,6 +35,14 @@ Age,Year,Men,Women,Children
 
 partner {
     name Agnes McMurchy
+    gender female
+    parent {
+        name Lachlin McMurchie
+        partner {
+            name Mary Templeton
+        }
+    }
+    baptism -date 11-sep-1752 -location campbeltown
     marriage -date 'about 1776'
 
     child {
@@ -101,7 +110,10 @@ partner {
 }
 footnotes {
     peter1749-baptism {
-        $opr-ref-link[b-1749-507-000-0011-0267 "Peter Galbreath"]
+        $opr-ref-link[b-1749-507-000-0011-0267 "Peter Galbreath"]{
+           Peter | David Galbreath and Mary Langwill had
+          a son baptized 5th April named Peter 
+        }
     }
     john1780-baptism {
         $opr-ref[b-1780-507-000-0020-0050 "John Galbreath"]
