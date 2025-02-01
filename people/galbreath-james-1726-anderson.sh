@@ -1,4 +1,5 @@
 name James Galbreath
+gender male
 baptism -date 2-oct-1726 -location campbeltown -ref james1726-baptism
 tags Argyll:Campbeltown
 external {
@@ -6,7 +7,15 @@ external {
 }
 partner {
     name Margaret Anderson
-    birth -date "about 1725"
+    gender female
+    parent {
+        name James Anderson
+        partner {
+            name Margaret Paterson
+        }
+    }
+    baptism -date 18-aug-1725 -location campebeltown -ref anderson-baptism
+
     marriage -date 10-jan-1748 -location campbeltown -ref anderson-marriage 
     child {
         name James Galbreath
@@ -55,6 +64,10 @@ footnotes {
     james1748-baptism {
         $opr-ref[b-1748-507-000-0011-0266 "James Galbreath"]
     }
+    anderson-baptism {
+        $opr-ref-link[b-1725-507-000-0011-0163 "Margaret Anderson"]
+    }
+
     anderson-marriage {
         $opr-ref-link[m-1748-507-000-0011-0450 "James Calbraith" "Margaret Anderson"]{
         1748 James Calbraith + Margt Anderson | Jan 10th
