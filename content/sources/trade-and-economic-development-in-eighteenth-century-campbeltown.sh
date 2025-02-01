@@ -46,26 +46,30 @@ Legal documents on ScotlandsPeople
 
 1771 Ryburn, David (Wills and testaments Reference CC2/3/11, Argyll Commissary Court) Image 403 Last image 434; ScotlandsPeople: Wow this guy owed money to veryone. Lists him as David Ryburn Jr.
 
-Page 403- lists Samuel Galbreath and Archibald Galbreath, no additional biographical details
-page 407 "William Galbreath maltster in Campbeltown"
-page 408 "Samuel Galbreath malster in Campbeltown"
-page 410 "The said Samuel Galbreath of Campbeltown", "the said Archibald Galbreath of Campbeltown"
-page 412 "Samuel and William Galbreath malsters"
-page 413 "The by John Galbraeath, sailor in Ligh?
-page 414: "Archibald Galbreath...", "Lachlan Galbreath in Gigha"
-Page 415: "More Galbreath"
-Page 416: "Flory Galbreath"
-Page 417: "Then by William Galbreath cooper...", "tehn by Archibald Galbreath ..."
-Page 420: "Then by Mary Galbreath..."
-Page 425: "Then by William Galbreath...", "then by Gabriel Galbreath..."
-Page 427: "The by James Galbreath...", "then by John Galbreath", then by "Archibald Galbreath" (end of page)
-page 428: "Mary Galbreath"
-Page 430: "Archibald Galbreath"
-Page 431: "Daneil Galbreath"
-Page 432: "Angus Galbreath"
-Page 433: "Sold to William Galbreath and Company" (2x), "sold to Samuel and William Galbreath"
-Page 434: something to with William Galbreath being a commisionerof Campbeltown
+$ul{
+$li{Page 403 lists Samuel Galbreath and Archibald Galbreath, no additional biographical details}
+$li{page 407 "William Galbreath maltster in Campbeltown"}
+$li{page 408 "Samuel Galbreath malster in Campbeltown"}
+$li{page 410 "The said Samuel Galbreath of Campbeltown", "the said Archibald Galbreath of Campbeltown"}
+$li{page 412 "Samuel and William Galbreath malsters"}
+$li{page 413 "Then by John Galbraeath, sailor in Ligh?}
+$li{page 414: "Archibald Galbreath...", "Lachlan Galbreath in Gigha"}
+$li{page 415: "More Galbreath"}
+$li{Page 416: "Flory Galbreath"}
+$li{Page 417: "Then by William Galbreath cooper...", "then by Archibald Galbreath ..."}
+$li{Page 420: "Then by Mary Galbreath..."}
+$li{Page 425: "Then by William Galbreath...", "then by Gabriel Galbreath..."}
+$li{Page 427: "Then by James Galbreath...", "then by John Galbreath", "then by Archibald Galbreath" (end of page)}
+$li{page 428: "Mary Galbreath"}
+$li{Page 430: "Archibald Galbreath"}
+$li{Page 431: "Daneil Galbreath"}
+$li{Page 432: "Angus Galbreath"}
+$li{Page 433: "Sold to William Galbreath and Company" (2x), "sold to Samuel and William Galbreath"}
+$li{Page 434: something to with William Galbreath being a commisioner of Campbeltown}
+}
+
 1772 Ryburn, David (Wills and testaments Reference CC2/3/11, Argyll Commissary Court) Image 441 Last image 442; ScotlandsPeople Not so interesting.
+
 }
 
 $section{
