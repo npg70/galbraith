@@ -136,7 +136,7 @@ $br{}$br{}
 1. James McNair was a farmer near Campbeltown. The McNairs and Galbraiths were intermarried.
 }
 $p{
-TBD
+The Galbraiths and McNairs did intermarry but no more so than other lowland families.  Some examples are:
 }
 $ul{
 $li{$child-link[mcnair-robert-1718-galbraith]{Robert McNair}, b. 1718 married in 1744 to Janet Galbraith, of unknown origin.
@@ -339,7 +339,7 @@ if you think of coming home your mother in Law will still pay your passages
 To Brother John
 $hr{}
 $h2{Letter 5}
-Knockrioch, Dated 1 Mar 1793, From $child-link[kerr-william-1767-mcneil}{William Kerr} To $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
+Knockrioch, Dated 1 Mar 1793, From $child-link[kerr-william-1767-mcneil]{William Kerr} To $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
 
 $blockquote{
 Mr. Pinkerton(6) still a widower and going about as usuall
@@ -422,7 +422,7 @@ $blockquote{
 My family consists of my old soon & Mary & Betty I wrote you last of the Death of James August Last
 }
 $p{
-TBD
+"Old Soon" is the first born John.  It appears he did not know his wife was pregnant with Margaret at the time, six months later.
 }
 
 $blockquote{
