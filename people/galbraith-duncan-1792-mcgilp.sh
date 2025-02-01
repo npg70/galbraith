@@ -1,4 +1,5 @@
 name Duncan Galbraith
+gender male
 external {
     familysearch K4XW-TFP
 }
@@ -10,6 +11,7 @@ note {
 }
 partner {
     name Christina McGilp
+    gender female
     marriage -date 2-jun-1823 -location 'north knapdale' -ref mcgilp-marriage
 
     child {
