@@ -4,6 +4,8 @@ baptism -date 2-oct-1726 -location campbeltown -ref james1726-baptism
 tags Argyll:Campbeltown
 external {
     familysearch KCQW-GZT
+    wikitree Galbreath-740
+    ancestry tree/12079504/person/282259776201
 }
 partner {
     name Margaret Anderson

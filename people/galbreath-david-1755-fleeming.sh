@@ -1,9 +1,11 @@
 name David Galbreath
 gender male
 baptism -date 12-feb-1755 -location campebeltown -ref david1755-baptism
+death -date 'before 1819'
 tags Argyll:Campbeltown Argyll:Ugadale Argyll:Ardnacross
 external {
     familysearch K898-WXH
+    ancestry tree/12079504/person/282648660129
 }
 body {
     He was a farmer in Ugadale and/or Ardnacross (from baptism records of children, and his daughter Mary's death record).
@@ -11,22 +13,28 @@ body {
 note {
     Not in Census of 1792
 }
+note {
+    David's death was between 1813 and 1819 based on marriage records of his daughters.
+}
 partner {
     name Mary Fleeming
     gender female
     marriage -date 1-dec-1781 -location campbeltown -ref marriage
     child {
         name Margaret Galbreath
+        gender female
         birth -date 1-nov-1782
         baptism -date 3-nov-1782 -location campbeltown -ref margaret1782-baptism
     }
     child {
         name John Galbraith
+        gender male
         birth -date 28-nov-1785
         baptism -date 29-nov-1785 -location campbeltown -ref john1785-baptism
     }
     child {
         name James Galbraith
+        gender male
         birth -date 30-dec-1786
         baptism -date 31-dec-1786 -location campbeltown -ref james1786-baptism
     }
@@ -34,6 +42,7 @@ partner {
 
     child {
         name Janet Galbreath
+        gender female
         birth -date 23-dec-1790
         baptism -date 24-dec-1790 -location campbeltown -ref janet1790-baptism
         death -date 15-nov-1871 -location campbeltown -ref janet1790-death -note unmarried
@@ -44,15 +53,18 @@ partner {
 
     child {
         name Archibald Galbreath
+        gender male
         baptism -date 27-dec-1798 -location campbeltown -ref archibald1798-baptism
     }
     child {
         name Alexander Galbreath
+        gender male
         birth -date 12-mar-1802
         baptism -date 16-mar-1802 -location campbeltown -ref alexander1802-baptism
     }
     child {
         name William Galbreath
+        gender male
         birth -date 23-jul-1804
         baptism -date 26-jul-1804 -location campbeltown -ref william1804-baptism
     }

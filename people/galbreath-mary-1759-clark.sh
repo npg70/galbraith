@@ -7,6 +7,8 @@ burial -location "Glade Spring,Washington,Virginia,USA" -name "Old Glade Spring 
 external {
    familysearch 9M98-PTF
    findagrave 41551747
+   wikitree Galbraith-2057
+   ancestry tree/12079504/person/282574311182
 }
 partner {
    name Peter Clark

@@ -5,6 +5,7 @@ death -date 13-jan-1873 -location huron,ontario,canada
 external {
     familysearch K83Z-PK8
     findagrave 217607595
+    ancestry tree/12079504/person/282649205528
 }
 tags Argyll:Campbeltown Immigrant:Canada:Ontario:Huron Argyll:Ugadale
 body {
@@ -24,7 +25,8 @@ partner {
     marriage -date 9-jul-1818 -location campbeltown -ref marriage
     death -date 12-apr-1875 -location huron,ontario,canada 
     child {
-        name David Galbreath
+        name David Galbraith
+        birth -date 20-mar-1819
         baptism -date 1-Apr-1819 -location campbeltown -ref david1819-baptism
         death -date 26-Jan-1882 -location huron,ontario,canada
     }
