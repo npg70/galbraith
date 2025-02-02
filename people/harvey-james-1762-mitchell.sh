@@ -1,4 +1,5 @@
 name James Harvey
+gender male
 birth -date 27-oct-1762
 baptism -date 31-oct-1762 -location campbeltown
 death -date 1847 -location washington,ohio,usa
@@ -27,11 +28,13 @@ Not listed are two unconfirmed children: James, b ~1805, and Isabella b ~1808.  
 
 partner {
     name Catharine Mitchell
+    gender female
     birth -date 'say 1770'
     marriage -date 'about 1788'
 
     child {
         name James Harvey
+        gender male
         baptism -date 31-aug-1789 -location Killean -ref james1789-baptism
         body {
             Immigration in 1817.
@@ -39,9 +42,11 @@ partner {
     }
     child {
         name Catharine Harvey
+        gender female
         baptism -date 17-apr-1794 -location Killean -ref catharine1794-baptism
         partner {
             name Robert Breckenridge
+            gender male
             marriage -date 21-apr-1818 -location campbeltown
         }
         body {
@@ -50,10 +55,12 @@ partner {
     }
     child {
         name Martha Harvey
+        gender female
         baptism -date 29-may-1796 -location killean -ref martha1796-baptism
         death -date 1879 -location 'Charles City,Floyd,Iowa,USA'
         partner {
             name William Greenlees
+            gender male
             marriage -date 08-jun-1813 -location 'Killean and Kilchenzie' 
             death -date 1848 -location campbeltown
         }
@@ -65,29 +72,36 @@ partner {
 
     child {
         name Agnes Harvey
+        gender female
         baptism -date 19-feb-1801 -location Killean -ref agnes1801-baptism
         partner {
             name William Fleeming
+            gender male
             marriage -date 06-dec-1819 -location Killean
         }
     }
     child {
         name Mary Harvey
+        gender female
         baptism -date 'About 1804' -location Killean
         partner {
+            gender male
             name Daniel Shaw
         }
     }
     child {
         name Elizabeth Harvey
+        gender female
         baptism -date 29-mar-1806 -location killean -ref elizabeth1806-baptism
     }
     child {
         name Ann Harvey
+        gender female
         baptism -date 12-jun-1809 -location killean -ref ann1809-baptism
     }
     child {
         name Margarate Harvey
+        gender female
         baptism -date 13-apr-1813 -location killean -ref margarate1813-baptism
     }
 }

@@ -1,4 +1,5 @@
 name John Fleeming
+gender male
 external {
     familysearch KH7S-T42
     findagrave 100209162
@@ -8,26 +9,31 @@ baptism -date 23-jan-1758 -location campbeltown -ref john1758-baptism
 death -date 05-feb-1854 -location 'barlow,washington,ohio,usa'
 partner {
    name Jean Colville
+   gender female
    baptism -date 15-nov-1772 -location campbeltown
    death -date 01-feb-1852 -location fleming,washington,ohio,usa
    marriage -date 20-dec-1790
 
    child {
       name James Fleming
+      gender male
       birth -date 09-dec-1791
       baptism -date 12-dec-1791 -location campbeltown -ref james1791-baptism
       death -date 24-may-1851 -location barlow,washington,ohio,usa
       partner {
         name Margaret Breckenridge
+        gender female
       } 
    }
    child {
       name Robert Fleming
+      gender male
       birth -date 11-aug-1793
       baptism -date 12-aug-1793 -location campbeltown -ref robert1793-baptism
       death -date 26-dec-1860 -location washington,ohio,usa
       partner {
         name Mary Dunlop
+        gender female
         marriage -date 27-jul-1819 -location campbeltown
     }
   }

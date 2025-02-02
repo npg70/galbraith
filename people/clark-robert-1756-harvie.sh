@@ -62,11 +62,13 @@ partner {
     }
     child {
         name John Clark
+        gender male
         birth -date 21-feb-1808
         baptism -date 24-feb-1808 -location campbeltown -ref john1808-baptism
         death -date 10-oct-1854 -location 'washington,virginia,usa'
         partner {
             name Isabella Breckenridge Clark
+            gender female
             birth -date 1813
             death -date 1883
         }
