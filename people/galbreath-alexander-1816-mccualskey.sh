@@ -11,6 +11,9 @@ external {
 note {
     FindAGrave page says Alexander was born in Lochgilphead without source, and  which makes no sense.
 }
+todo {
+    DNA match and direct male descendant on $elink[https://www.ancestry.com/profile/01543c3f-0001-0000-0000-000000000000?compareToTestId=3C22E008-8305-42DB-B065-DA41ACDCAA23]{Ancestry}
+}
 
 body {
     In the 1841 Census he is listed as a laborer on farm of the Brown family in  Machremore, Southend.$ref[census1841]
