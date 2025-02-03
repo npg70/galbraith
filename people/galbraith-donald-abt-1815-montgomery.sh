@@ -1,4 +1,5 @@
 name Donald Galbraith
+gender male
 birth -date 'about 1815'
 
 external {
@@ -37,6 +38,7 @@ Donald,Galbraith,-,-,1,1850,Southend,
 
 partner {
     name Janet Montgomery
+    gender female
     marriage -date 3-jun-1836 -location southend -ref marriage
     child {
         name Flora Galbraith
