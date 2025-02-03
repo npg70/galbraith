@@ -2,81 +2,103 @@
 title: Find Alexander Galbreath m. Ann McPherson in 1881
 ---
 
-$h2{Summary}
+$intro{
+While researching a different $child-link[galbreath-alexander-1816-mccualskey]{Alexander Galbreath} from Southend who moved to Washington, Ohio, I found a marriage for Alexander Galbraith m. Ann McPherson in 1881.  That's not the same Alexander.   But who is it?
+}
 
-Alexander Galbraith m. Ann McPherson in 1881.
-   Marriage says there were 21 and 18, but those are actually the
-   "minimum" ages (as discovered looking at others).
 
+$p{
+Solved! See $child-link[galbraith-alexander-1844-mcpherson]{Alexander Galbraith}
+}
+
+$p{
+The record for Alexander Galbraith m. Ann McPherson in 1881 has their ages as 21 and 18.  But as I found out much later these are the "minimum" ages.  This really sent me down the wrong path.
+}
+
+$p{
 This family has 2-3 children
-
+}
 $ul{
 $li{Daniel/Don Galbraith b. 1884, d. 1946, m. Goldie Mitchell b. 1892-1971}
 $li{Ethel may Galbraith b. 1890, d. 1966 in Parkersburg, VW., m. Blair Plate Sr.}
 $li{Maybe a un-named still-born infant in 1887.}
 }
+$p{
+The death cert of Don, says parents are from Scotland.
+}
 
-Death cert of Don, says parents are from Scotland.
-
+$p{
 1900 Census for Ethel shows her living with a McPherson family as a Niece.  Head of household is Thomas aged 60, born Aug 1840 in Scotland.  His wife Emily is listed as being born in ohio, along with the rest of their children. 
+}
 
+$p{
 This Thomas is $elink[https://www.familysearch.org/en/tree/person/details/LZXV-331]{Thomas McPherson} with spouse "Emily S. Plumly". He is from Southend, Argyll.
+}
 
+$p{
 Their children are also listed as moving to Belpre, Washington Ohio.  of note:
-
+}
 $ul{
 $li{A sister Ann, listed as being born in 1848}
 $li{A brother Alexander McPherson who... Married Margaret Galbraith.}
 }
 
+$p{
 In Ohio, a separate person needed to "sponsor" the application for marriage:
+}
 
 $ul{
 $li{In 1881, for Alexander Galbreath, the sponsor was... Alexander McPherson.}
 $li{In 1884, For Thomas McPherson, the sponsor was ... Alexander Galbraith.}
 }
-(Unable to find equiv for Alexander McPherson and Margaret Galbraith.)
 
+$p{
+Note: Unable to find equiv for Alexander McPherson and Margaret Galbraith.)
+}
+$p{
 Also:
+}
 $ul{
 $li{There is another $child-link[galbreath-alexander-1816-mccualskey]{Alexander Galbraith} m. Elisabeth McCualskey who immigrated to Belpre.}
 $li{In Southend, $child-link[galbraith-niel-abt-1801-mcpherson]{Niel Galbraith} m. Mary McPherson.}
 }
-
+$p{
 At this point:
+}
 $ul{
 $li{Ann, Thomas, and Alexander McPherson are siblings, and known.}
 $li{Alexander and Margaret Galbraith are siblings.}
 }
 
+$p{
 But who are Alexander and Margaret?  Guesing:
-
+}
 $ul{
 $li{From Southend}
 $li{Have a father named Donald (based on first son).}
 $li{Born 1840-1850}
 }
-
+$p{
 No Alexander matched, even expanding beyond these criterion nothing stood out. 
-
+}
+$p{
 However a Margaret did match.  She's the daughter of Donald Galbraith and Janet Montgomery, born 1846 in Southend.  My original notes said "No additional information after 1851 census. Perhaps immigrated?"  and it listed the details from the 1851 census.
-
+}
+$p{
 And lo.
-
+}
 $blockquote{$pre{
 Alexander	Galbraith	Son	-	6	1845	Southend	
 Margaret	Galbraith	-	-	4	1847	Southend
 }
 }
 
-So in summary:
-
-$child-link[galbraith-alexander-1844-mcpherson]{Alexander Galbraith}, b. abt 1844 in southend, the son of $child-link[galbraith-donald-abt-1815-montgomery]{Donald Galbraith} and Janet Montgomery.  He married Ann McPherson, b. abt 1848 in Southend, the daughter of $child-link[mcpherson-alexander-1810-mcconachy]{Alexander McPherson} and Helen McConachy.
-
+$p{
+In summary:  $child-link[galbraith-alexander-1844-mcpherson]{Alexander Galbraith}, b. abt 1844 in southend, the son of $child-link[galbraith-donald-abt-1815-montgomery]{Donald Galbraith} and Janet Montgomery.  He married Ann McPherson, b. abt 1848 in Southend, the daughter of $child-link[mcpherson-alexander-1810-mcconachy]{Alexander McPherson} and Helen McConachy.
+}
+$p{
 And similarly for $child-link[galbraith-margaret-1846-mcpherson]{Margaret Galbraith} and Alexander McPherson.
-
-Phew!
-
+}
 
 $hr{}
 
