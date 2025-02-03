@@ -3,7 +3,7 @@ gender male
 baptism -date 20-apr-1816 -location southend -ref alexander1816-baptism
 death -date 1898 -location Washington,Ohio,USA
 burial -name 'Rockland Cemetery' -location 'Belpre,Washington,Ohio,USA'
-tags Argyll:Southend Immigrant:USA:Ohio
+tags Argyll:Southend Immigrant:USA:Ohio:washington
 external {
     familysearch 9NN7-9JW
     findagrave 5024675
