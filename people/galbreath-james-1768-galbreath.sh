@@ -24,7 +24,7 @@ He won a prize for turnip growning in 1806.
 }
 
 $p{
-The parents of James may be $child-link[galbreath-william-1736-dunlop]{William Galbreath} and Mary Dunlop.  Unlikely as that family was listed as living in Campbeltown in 1792. After living in the city it's unlikely he's move out to the farm.
+The parents of James is sometimes listed as $child-link[galbreath-william-1736-dunlop]{William Galbreath} and Mary Dunlop.  This is unlikely as that family was listed as living in Campbeltown in 1792. After living in the city it's unlikely he's move out to the farm.
 }
 
 $p{
@@ -45,16 +45,7 @@ partner {
   	name Martha Galbreath
     baptism -date 16-dec-1807 -location campbeltown -ref martha1807-baptism
   }
-  child {
-  	name Catharine Galbreath
-    baptism -date 25-apr-1809 -location campbeltown -ref catharine1809-baptism
-    partner {
-    	name Hugh Templeton
-      body {
-      	maltster
-      }
-    }
-  }
+  child galbreath-catharine-1809-templeton
   child {
   	name Samuel Galbreath
     baptism -date 20-feb-1811 -location campbeltown -ref samuel1811-baptism
@@ -70,17 +61,11 @@ partner {
   child {
   	name Mary Galbreath
     baptism -date 19-jun-1816 -location campbeltown -ref mary1816-baptism
+    death -note dy
 	}
-  child {
-  	name Jean Galbreath
-    baptism -date 3-dec-1817 -location campbeltown -ref jean1817-baptism
-    partner {
-    	name Robert Kelly
-      body {
-      		Shipmaster
-      }
-    }
-	}
+
+  child galbreath-jean-1817-pickan-kelly
+
   child {
   	name Mary Galbreath
     baptism -date 13-mar-1821 -location campbeltown -ref mary1821-baptism
@@ -100,9 +85,6 @@ footnotes {
   martha1807-baptism {
   	$opr-ref-link[b-1807-507-000-0040-0312 "Martha Galbreath"]
   }
-  catharine1809-baptism {
-  	$opr-ref-link[b-1809-507-000-0040-0333 "Catharine Galbreath"]
-  }
   samuel1811-baptism {
   	$opr-ref-link[b-1811-507-000-0040-0365 "Samuel Galbreath"]
   }
@@ -114,9 +96,6 @@ footnotes {
   }
   mary1816-baptism {
   	$opr-ref-link[b-1816-507-000-0040-0446 "Mary Galbreath"]
-  }
-  jean1817-baptism {
-  	$opr-ref-link[b-1817-507-000-0040-0469 "Jean Galbreath"]
   }
   mary1821-baptism {
   	$opr-ref-link[b-1821-507-000-0060-0031 "Mary Galbreath"]
