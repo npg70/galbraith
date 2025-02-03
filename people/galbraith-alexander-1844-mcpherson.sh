@@ -3,7 +3,7 @@ gender male
 tags Argyll:Southend Immigrant:USA:Ohio:Washington
 birth -date 'about 1844' -location southend -ref alexander-birth
 external {
-    93YW-G3R
+    familysearch 93YW-G3R
 }
 note {
     Death perhaps before 1900, as daughter Ethel is listed with her Uncle.
