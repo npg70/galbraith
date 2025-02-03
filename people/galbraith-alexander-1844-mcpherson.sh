@@ -12,7 +12,7 @@ note {
 partner {
     name Anne McPherson
     gender female
-
+    parent mcpherson-alexander-1810-mcconachy
     child {
         name Don Galbraith
         gender male
