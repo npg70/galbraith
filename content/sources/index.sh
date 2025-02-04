@@ -28,7 +28,7 @@ $ul{
 	$li{$source-link[kintyre-magazine-35]{Kintyre Magazine #35}, "Letters to America"}
 	$li{$source-link[kintyre-magazine-50]{Kintyre Magazine #50}, "The Templetons of Kintyre"}
 	$li{$source-link[kintyre-magazine-55]{Kintyre Magazine #55}, "Ten Miles South of Campbeltown"}
-	$li{$source-link[kintyre-magazine-55]{Kintyre Magazine #59}, "Who were Sally and Maggie?"}
+	$li{$source-link[kintyre-magazine-59]{Kintyre Magazine #59}, "Who were Sally and Maggie?"}
 	$li{$source-link[kintyre-magazine-67]{Kintyre Magazine #67}, "Argyll's Forgotten Whisky Barons"}
 	$li{$source-link[kintyre-magazine-83]{Kintyre Magazine #83}, "Obit: Carol (Galbraith) Thomson"}
 	$li{$source-link[kintyre-magazine-90]{Kintyre Magazine #90}, "Letter 1849/1850, page 17, note 11"}
