@@ -1,5 +1,11 @@
 name Andrew Ralston
 gender male
+parent {
+    name Robert Ralston
+    partner {
+        name Margaret Brown
+    }
+}
 tags Argyll:Campbeltown Argyll:Southend
 baptism -date 21-jan-1759 -location campbeltown
 external {
@@ -19,7 +25,10 @@ Age,Year,Men,Women,Children
  1,1791,,,James Ralston
 }
 }
-
+note {
+    Additional details can be found in Saga of Kintyre Kin, 2nd ed, pg 83.
+    However no information on Margaret Fleeming.
+}
 partner {
     name Margaret Fleeming
     gender female
