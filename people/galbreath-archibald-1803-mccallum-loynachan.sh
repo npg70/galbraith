@@ -1,4 +1,5 @@
 name Archibald Galbreath
+gender female
 baptism -date 11-sep-1803 -location campbeltown -ref archibald1803-baptism
 death -date 17-feb-1885 -location campbeltown -ref archibald1803-death
 tags Argyll:Campbeltown Argyll:Ugadale
@@ -12,6 +13,11 @@ Margaret Loynachan has been spelled "O Lynachan", "Olynchan", "Oloynachan", "Oli
 
 partner {
     name Eugenia McCallum
+    gender female
+    death -date 'about 1838'
+    parent {
+        name John Maccallum
+    }
     marriage -date 28-Feb-1835 -location kilcalmonel -ref mccallum-marriage
     child {
 		name Martha Galbreath
@@ -22,6 +28,7 @@ partner {
 }
 partner {
     name Margaret Loynachan
+    gender female
     birth -date 20-apr-1818
     baptism -date 22-apr-1818 -location southend -ref loynachan-baptism -note "daughter of Niel O'Loynachan and Agness Brolachan"
     marriage -date 25-Aug-1839 -location southend -ref loynachan-marriage   
@@ -59,8 +66,41 @@ partner {
   } 
 }
 body {
-He started as farmer in Ugadale.  He later switch to being a flesher (butcher).
+He started as farmer in Ugadale.  He later switched to being a flesher (butcher).
 }
+body {
+$p{
+Census 1841, Ugadale, Campbeltown, Argyllshire, Scotland:$ref[census1841]
+}
+$csvtable{
+First,Last,Age,Year
+Archibald,Galbraith,30,1811
+Margaret,Galbraith,20,1821
+Martha,Galbraith,5,1836
+}
+$p{Note:}
+$ul{
+$li{ $child-link[galbraith-eugina-1838-wotherspoon]{Baby Eugina} is not listed since she was living with relatives(?) in Gigha}
+$li{5 other workers listed, McInnes, Wylie, McNair,Smith, Blue.  Uninvestigated.}
+}
+}
+
+body {
+$p{
+Census 1851, Saddel Street, Campbeltown, Cantyre, Argyllshire, Scotland:$ref[census1851]
+}
+$csvtable{
+First,Last,Role,Age,Year,Place,Job
+Archibald,Galbraith,Head,46,1805,Campbeltown,Farmer
+Margaret,Galbraith,Wife,30,1821,Campbeltown,-
+Martha,Galbraith,Daugher,14,1837,Campbeltown,-
+James,Galbraith,Son,9,1842,Campbeltown,Scholar
+Archibald,Galbraith,Son,7,1844,Campbeltown,Scholar
+Neil,Galbraith,Son,5,1846,Campbeltown,Scholar
+Samuel,Galbraith,Son,0,1851,Campbeltown,-
+}
+}
+
 body {
 $p{Census 1861, Harveys Lane, Campbeltown, Argyllshire, Scotland:$ref[census1861]}
 
@@ -84,11 +124,18 @@ footnotes {
     $sp-ref-link[d-1885-507-00-0043 0015 "Archibald Galbraith"]
   }
   mccallum-marriage {
-    $opr-ref-link[m-1835-516-000-0020-0248 "Archibald Galbraith" "Eugenia Macallum"]
+    $opr-ref-link[m-1835-516-000-0020-0248 "Archibald Galbraith" "Eugenia Macallum"]{
+    $i{28 February 1835} Which day were booked in order to 
+    marriage Eugenia Macallum daughter of John Macallum Tacksman of
+    Carrain[?] in this parish and Archibald Galbraith Tacksman of 
+    Skerbolin in the parish of Campbeltown.
+    }
     
     Cross-recorded at Campbeltown on 5 Mar 1835:
-  
-    $opr-ref-link[m-1835-507-000-0060-0322 "Archibald Galbreath" "Eugina McCallum"]
+    $opr-ref-link[m-1835-507-000-0060-0322 "Archibald Galbreath" "Eugina McCallum"]{
+        Archibald Galbreath farmer of this parish + Eugina McCallum
+        of Kilcalmonel were married 5 June
+    }
   }
   martha1835-baptism {
   	$opr-ref-link[b-1835-507-000-0070-0072 "Martha Galbreath"]
@@ -140,6 +187,12 @@ footnotes {
   	$sp-ref-link[d-1864-507-00-0049 0017 "John Galbraith"]
   }
 
+  census1841 {
+    https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016601402&expand=true&tab=this
+  }
+  census1851 {
+    https://www.findmypast.com/transcript?id=GBC%2F1851%2F0019255918&expand=true&tab=this
+  }
   census1861 {
     https://www.findmypast.com/transcript?id=GBC/1861/0022165688&expand=true
   }
