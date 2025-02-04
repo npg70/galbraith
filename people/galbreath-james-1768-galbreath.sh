@@ -24,7 +24,7 @@ He won a prize for turnip growning in 1806.
 }
 
 $p{
-The parents of James is sometimes listed as $child-link[galbreath-william-1736-dunlop]{William Galbreath} and Mary Dunlop.  This is unlikely as that family was listed as living in Campbeltown in 1792. After living in the city it's unlikely he's move out to the farm.
+The parents of James is sometimes listed as $child-link[galbreath-william-1736-dunlop]{William Galbreath} and Mary Dunlop.  This is unlikely as that family was listed as living in Campbeltown in 1792. After living in the city it's unlikely he'd move out to the farm.
 }
 
 $p{
