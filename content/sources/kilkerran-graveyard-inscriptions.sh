@@ -221,10 +221,13 @@ $blockquote{
 Erected by JOHN FLEEMING in memory of his father JAMES FLEEMING late tenant in Killownan who died 2 March 1785 aged 56 years and by JEAN FLEEMING in memory of her husband ARCHD McMURCHY who died 12 January 1828 aged 49 years, MARY their daughter died 14 March 1828 aged 11 years.
 }
 $p{
-$elink[https://www.familysearch.org/tree/person/details/9M98-J5C]{Jean Fleeming} is ok, but John and James TBD.
+James Fleeming would be 1729-1785. on $elink[https://www.findagrave.com/memorial/167550004/james-fleeming]{Find a Grave}.  Assuming marriage at 21... he would have children from 1750-1775.  Only two come up in Argyll:  James Fleeming / Isobell Wilson  and James Fleeing/ Janet Langwill.
 }
 $p{
-TBD: $child-link[fleming-john-1758-colville]{John Fleeming}/Colville has children born in Killownan.
+$elink[https://www.familysearch.org/tree/person/details/9M98-J5C]{Jean Fleeming} m. Archibald McMurchy b. 1778, d. 1828.  Married in 1808.  On $elink[https://www.findagrave.com/memorial/167271187/archibald-mcmurchy]{Find-a-Grave}
+}
+$p{
+TBD: $child-link[fleming-john-1758-colville]{John Fleeming}/Colville has children born in Killownan.  John b. 1758, children from 1791-1817 (!!).   Father is supposed John b. 1713.
 }
 }
 $section{
