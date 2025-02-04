@@ -9,7 +9,7 @@ Research on the Gigha branch of the family showed Malcolm Blue to be miller at A
 
 The $source-link[census-gigha-1827]{Gigha Census of 1827} has the following:
 $blockquote{
-$ppre{
+$pre{
 Ardelay Mill
 
 Elizabeth Galbraith, 64 (b. ~1763)
