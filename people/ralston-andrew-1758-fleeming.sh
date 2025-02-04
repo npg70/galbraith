@@ -1,10 +1,25 @@
 name Andrew Ralston
 gender male
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown Argyll:Southend
 baptism -date 21-jan-1759 -location campbeltown
 external {
     familysearch GMVS-NRG
 }
+body {
+Census of 1792, Knockstaplebeg, Killcolmkeil
+$csvtable{
+Age,Year,Men,Women,Children
+34,1758,Andrew Ralston,              ,
+28,1766,              , Peggy Fleming,
+12,1780,,,Robert Ralston
+10,1782,,,John Ralston
+ 8,1784,,,Isobell Ralston
+ 5,1787,,,Peggy Ralston
+ 3,1789,,,Janet Ralston
+ 1,1791,,,James Ralston
+}
+}
+
 partner {
     name Margaret Fleeming
     gender female
@@ -16,8 +31,10 @@ partner {
     }
     child {
         name John Ralston
+        gender male
         baptism -date 25-jun-1780 -location southend
         partner {
+            gender female
             name Agnes McNair
         }
     }
