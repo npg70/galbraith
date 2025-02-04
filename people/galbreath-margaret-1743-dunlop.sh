@@ -12,15 +12,18 @@ note {
 
 partner {
     name Alexander Dunlop
+    gender male
     marriage -date 3-may-1768 -location campbeltown -ref dunlop-marriage
     birth -date 13-sep-1841
 
     child {
         name Isabell Dunlop
+        gender female
         baptism -date 02-dec-1770 -location campbeltown
         death -date 18-nov-1833 -location campbeltown
         partner {
             name Mathew Clark
+            gender male
             birth -date 1746
             death -date 1839
             marriage -date 22-jun-1793 -location campbeltown
@@ -28,37 +31,44 @@ partner {
     }
     child {
         name Martha Dunlop
+        gender female
         baptism -date 22-sep-1772 -location campbeltown
         death -date 21-dec-1843 -location campbeltown
         partner {
             name John Johnston
+            gender male
             birth -date 1775
             death -date 1846
         }
     }
     child {
         name Margaret Dunlop
+        gender female
         birth -date 25-apr-1776
         baptism -date 28-apr-1776 -location campbeltown
         death -note young
     }
     child {
         name Agnes Dunlop
+        gender female
         birth -date 07-sep-1777
         baptism -date 07-sep-1777 -location campbeltown -ref agnes1777-baptism
     }
     child {
         name Mary Dunlop
+        gender female
         birth -date 29-sep-1780
         baptism -date 01-oct-1780 -location campbeltown -ref mary1780-baptism
     }
     child {
         name Margaret Dunlop
+        gender female
         birth -date 27-dec-1781 
         baptism -date 28-dec-1781 -location campbeltown -ref margaret1781-baptism
         death -date jul-1852 -location campbeltown
         partner {
             name Robert Ralston
+            gender male
             birth -date 1776
             death -date 1840
             marriage -date 26-feb-1802 -location campbeltown
@@ -67,15 +77,24 @@ partner {
     child dunlop-kate-1783-harvey-mcnair
     child {
         name Archibald Dunlop
+        gender male
         birth -date 12-jan-1784
         baptism -date 14-jan-1784 -location campbeltown -ref archibald1784-baptism
         death -note young
     }
     child {
         name Archibald Dunlop
+        gender male
         baptism -date 09-mar-1785 -location 'Killean and Kilchenzie' -ref archibald1785-baptism
         partner {
             name Mary Smith
+            gender female
+            parent {
+                name Robert Smith
+                partner {
+                    name Jean McNair
+                }
+            }
             birth -date 10-may-1797 -location campbeltown
             death -date 13-nov-1854
             body {
@@ -85,12 +104,14 @@ partner {
     }
     child {
         name Ann Dunlop
+        gender female
         birth -date 01-may-1786
         baptism -date 03-may-1786 -location campbeltown -ref ann1786-baptism
 
     }
     child {
         name Robert Dunlop
+        gender female
         baptism -date 31-may-1787 -location 'Killean and Kilchenzie'
     }
 }
