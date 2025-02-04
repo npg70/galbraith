@@ -1,5 +1,6 @@
 name Neill Galbraith
-tags Argyll:Campbeltown
+gender male
+tags Argyll:Campbeltown tags Dumbarton
 external {
     familysearch LZK5-23F
 }
@@ -8,22 +9,33 @@ baptism -date 15-jun-1845 -location campbeltown -ref neil1845-baptism
 death -date 3-dec-1909 -location dumbarton -ref neil1845-death
 partner {
     name Margaret Blue
+    gender female
+    parent {
+        name Alexander Blue
+        partner {
+            name Isabella Hall
+        }
+    }
     birth -date 22-sep-1847 -location campbeltown
     death -date 11-may-1898 -location dumbarton -ref blue-death
     marriage -date 3-jan-1871 -location campbeltown -ref blue-marriage
-    body {
-        The daughter of Alexander Blue and Isabella Hall.
-    }
     child galbraith-alexander-1876-collins    
 }
 partner {
     name Margaret McCall
+    gender female
+    parent {
+        name James McCall
+        partner {
+            name Matilda Kennedy/Black
+            body {
+                Widower of Peter Watt
+            }
+        }
+    }
     birth -date 'about 1857'
     marriage -date 28-jun-1901 -location bonhill,dumbarton -ref watt-marriage
     death -date 9-jun-1940 -location dunbarton -ref watt-death
-    body {
-    The daughter of James McCall and Matilda Kennedy (or Black), widower of Peter Watt.
-    }
 }
 footnotes {
     neil1845-baptism {
