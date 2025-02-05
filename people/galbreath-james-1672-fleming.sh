@@ -1,4 +1,5 @@
 name James Galbreath
+gender male
 baptism -date 25-aug-1672 -location campbeltown -ref baptism
 birth -location Ardnacross
 tags Argyll:Campbeltown Argyll:Ardnacross Argyll:Kilkeddan
@@ -9,22 +10,27 @@ external {
 }
 partner {
     name Mary Fleming
+    gender female
     marriage -date 8-dec-1696 -location campbeltown
     child galbreath-jenat-1698-langwill
     child galbreath-william-1701-kilpatrick
     child galbreath-mary-1704-ryburn
     child {
         name James Galbreath
+        gender male
         baptism -date 4-aug-1706 -location campbeltown -ref james1-bapt
+        death -note dy
     }
     child {
         name Margaret Galbreath
+        gender female
         baptism -date 14-aug-1711 -location campbeltown -ref marg-bapt
     }
     child galbreath-patrick-1713-shiddan
     child galbreath-james-1713-adam
     child {
         name Archibald Galbreath
+        gender male
         baptism -date 9-sep-1715 -location campbeltown -ref arch-bapt
     }
     child galbreath-david-1719-langwill
@@ -35,7 +41,10 @@ footnotes {
         $opr-ref-link[b-1672-507-000-0011-0015 "James Galbreath"]
     }
     james1-bapt {
-        $opr-ref-link[b-1706-507-000-0011-0099 "James Galbreath"]
+        $opr-ref-link[b-1706-507-000-0011-0099 "James Galbreath"]{
+            James | Lawful son to James Galbreath and Marion Fleeming
+            his lawful spouse Born August 4th Named James
+        }
     }
     marg-bapt {
         $opr-ref-link[b-1711-507-000-0011-0111 "Margaret Galbreath"]{ 
