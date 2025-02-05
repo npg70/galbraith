@@ -20,6 +20,9 @@ My notes also mention a James Ryburn as a potential spouse, but now can't find a
 }
 footnotes {
     janet1711-baptism {
-        $opr-ref-link[b-1711-507-000-0011-0111 "Janet Galbreath"]
+        $opr-ref-link[b-1711-507-000-0011-0111 "Janet Galbreath"]{
+            Janet | Lawful Daughter to John Galbreath and Mary Mitchell
+            his lawful spouse, Born October 14th Named Janet
+        }
     }
 }
