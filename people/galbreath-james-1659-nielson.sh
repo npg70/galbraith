@@ -5,7 +5,7 @@ external {
     wikitree Galbraith-1789
     ancestry tree/12079504/person/-339237437
 }
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown Argyll:Ardnacross Argyll:Kilkeddan
 note {
    Note gap 1680-1691, and that only sons were baptized.
 }

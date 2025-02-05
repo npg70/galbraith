@@ -10,6 +10,7 @@ note {
 }
 partner {
     name Archibald Galbreath
+    gender male
     birth -date 'say 1745'
     marriage -date 22-dec-1772 -location campbeltown -ref marriage
     child {
