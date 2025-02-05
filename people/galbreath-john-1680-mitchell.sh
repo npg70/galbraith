@@ -81,6 +81,13 @@ footnotes {
         Ralston Geneaology on $elink[http://www.ralstongenealogy.com/gartnagrenach.php]{Gartnagrenach Graveyard} and on 
         $elink[https://www.findagrave.com/memorial/160815745/john-colbreath]{Find a Grave}
     }
+    marriage {
+        Two records, but seems like identical page.
+        $opr-ref-link[m-1707-507-000-0011-0414 "John Calbraith" "Mary Mitchell"]{
+        $i{1707} John Calbreath + Mary Mitchell | March 16th
+    }
+        $opr-ref-link[m-1707-507-000-0011-0416 "John Calbreath" "Mary Mitchell"]
+    }
     mary1-bapt { 
         $opr-ref-link[b-1709-507-000-0011-0106 "Mary Galbreath"]{
             Mary | Lawful Daughter to John Galbreath and Mary Mitchell
