@@ -8,6 +8,13 @@ external {
 note {
     FamilySearch is a mess confusing two James.
 }
+note {
+The link between Martha and $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath} and Janet McNair is based on DNA and approximate age and location.
+}
+note {
+The parents of James is sometimes listed as $child-link[galbreath-william-1736-dunlop]{William Galbreath} and Mary Dunlop.  This is unlikely as that family was listed as living in Campbeltown in 1792. After living in the city it's unlikely he'd move out to the farm.
+}
+
 
 body {
 $p{
@@ -23,16 +30,11 @@ $p{
 He won a prize for turnip growning in 1806.
 }
 
-$p{
-The parents of James is sometimes listed as $child-link[galbreath-william-1736-dunlop]{William Galbreath} and Mary Dunlop.  This is unlikely as that family was listed as living in Campbeltown in 1792. After living in the city it's unlikely he'd move out to the farm.
-}
 
-$p{
-Martha's parents may be $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath} and Janet McNair.
-}
 }
 partner {
   name Martha Galbreath
+  parent galbreath-samuel-1736-mcnair
   marriage -date 20-mar-1800 -location campbeltown -ref galbreath-marriage  
   child {
   	name Janet Galbreath

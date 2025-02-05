@@ -29,30 +29,31 @@ partner {
     name Janet McNair
     gender female
     parent mcnair-robert-1718-galbraith
-
     baptism -date 12-oct-1755 -location campbeltown
     marriage -date "about 1774"
     death -date 07-jul-1831
     child {
         name Archibald Galbreath
+        gender male
         baptism -date 14-sep-1777 -location campbeltown -ref archibald1777-baptism
         death -note dy
     }
     child {
         name Robert Galbreath
+        gender male
         baptism -date 14-sep-1777 -location campbeltown -ref robert1777-baptism
         death -note dy
     } 
     child galbreath-robert-1778-harvey 
     child {
         name Martha Galbreath
+        gender female
+        partner galbreath-james-1768-galbreath
         baptism -date 27-jan-1781 -location campbeltown -ref martha1781-baptism
-        body {
-            May have married $child-link[galbreath-james-1768-galbreath]{James Galbreath}.
-        }
     }
     child {
         name Archibald Galbreath
+        gender male
         birth -date 8-jun-1783
         baptism -date 10-jun-1783 -location campbeltown -ref archibald1783-baptism
     }
@@ -60,15 +61,18 @@ partner {
     child galbreath-catharine-1788-greenlees
     child {
         name James Galbreath
+        gender male
         baptism -date 18-apr-1791 -location campbeltown -ref james1791-baptism
     }
     child {
         name Samuel Galbreath
+        gender male
         birth -date 5-nov-1793
         baptism -date 5-dec-1793 -location campbeltown -ref samuel1793-baptism
     }
     child {
         name John Galbreath
+        gender male
         birth -date 7-nov-1796
         baptism -date 9-nov-1796 -location campbeltown -ref john1796-baptism
     }
