@@ -1,7 +1,7 @@
 name Peter Galbreath
 gender male
 baptism -date 5-apr-1749 -location campbeltown -ref peter1749-baptism
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown Argyll:Laggan
 external {
     familysearch KC9M-5ZQ
 }
@@ -47,10 +47,12 @@ partner {
 
     child {
         name William Galbreath
+        gender male
         baptism -date 20-Jan-1778 -location campbeltown -ref william1778-baptism
     }
     child {
         name John Galbreath
+        gender male
         baptism -date 6-dec-1780 -location campbeltown -ref john1780-baptism
         body {
                TBD, crossed-out in 1792.. maybe died?
@@ -58,16 +60,19 @@ partner {
     }
     child {
         name Robert Galbreath
+        gender male
         baptism -date 16-sep-1781 -location campbeltown -ref robert1781-baptism
     }
     child {
         name Archibald Galbreath
+        gender male
         baptism -date 2-Nov-1783 -location campbeltown -ref archibald1783-baptism
     }
     child galbreath-mary-1785-ferguson
 
     child {
         name James Galbreath
+        gender male
         baptism -date 27-oct-1787 -location campbeltown -ref james1787-baptism
     }
     child galbreath-margaret-1790-hawthorn
@@ -83,6 +88,7 @@ partner {
     }
     child {
         name Martha Galbreath
+        gender female
         baptism -date 23-Jun-1792 -location campbeltown -ref martha1792-baptism
     }
     child {

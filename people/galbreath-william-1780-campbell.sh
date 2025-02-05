@@ -1,4 +1,5 @@
 name William Galbreath
+gender male
 baptism -date 16-jan-1780 -location campbeltown -ref william1780-baptism
 external {
     familysearch KFJY-V29
@@ -7,9 +8,10 @@ body {
     He was a farmer in Laggan.
 }
 
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown Argyll:Laggan
 partner {
     name Jean Campbell
+    gender female
     marriage -date 27-jun-1803 -location Campbeltown -ref marriage
     child galbraith-john-1804-watson
     child galbraith-isabella-1808-paterson
@@ -17,6 +19,7 @@ partner {
     child galbraith-peter-1811-armour
     child {
         name Robert Galbraith
+        gender male
         baptism -date 31-may-1811 -location Campbeltown -ref robert-bapt
     }
     child galbraith-william-1815-glass
