@@ -1,6 +1,6 @@
 name Agnes Galbreath
 gender female
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown Argyll:Kilkeddan
 birth -location Kilkeddan
 baptism -date 18-feb-1722 -location campbeltown -ref agnes1722-baptism
 death -date 1792
@@ -95,7 +95,10 @@ partner {
 }
 footnotes {
     agnes1722-baptism {
+        $opr-ref-link[b-1722-507-000-0011-0148 "Agnas Galbreath"]{
+            Agnas | James Galbreath + Mary Fleeming in Kilkeddan
+            had a Dau baptized 18th Febry named Agnas
+        }
         $opr-ref-link[b-1722-507-000-0010-0102 "Agnes Calbreath"]
-        $opr-ref-link[b-1722-507-000-0011-0148 "Agnas Galbreath"]
     }
 }

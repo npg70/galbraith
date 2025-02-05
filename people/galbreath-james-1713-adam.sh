@@ -18,7 +18,7 @@ partner {
         }
     }
     baptism -date 10-dec-1720 -location campbeltown    
-    marriage -date "June 1738" -location campbeltown -ref adam-marriage
+    marriage -date jun-1738 -location campbeltown -ref adam-marriage
     child {
         name Mary Galbreath
         gender female
@@ -78,10 +78,13 @@ partner {
 }
 footnotes {
     james1713-baptism {
-        $opr-ref-link[b-1713-507-000-0011-0117 "James Galbreath"]
+        $opr-ref-link[b-1713-507-000-0011-0117 "James Galbreath"]{
+           Patrick + James | Lawful Children to James Galbreath and
+          Mary Flemming his lawful spouse, Born 20th August Named Patrick and James 
+        }
     }
     james1713-burial {
-        
+        Find a Grave, database and images (https://www.findagrave.com/memorial/114485210/james-galbraith: accessed February 5, 2025), memorial page for James Galbraith (unknown–1768), Find a Grave Memorial ID 114485210, citing Kilchousland Graveyard, Argyll and Bute, Scotland; Maintained by Pixturmn (contributor 47729036).
     }
     adam-marriage {
         Entry is between others June 10-20th.

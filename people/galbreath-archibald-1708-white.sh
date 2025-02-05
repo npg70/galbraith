@@ -47,7 +47,10 @@ partner {
 }
 footnotes {
     archibald1708-baptism {
-        $opr-ref-link[b-1708-507-000-0011-0104 "Archibald Galbreath"]
+        $opr-ref-link[b-1708-507-000-0011-0104 "Archibald Galbreath"]{
+            Archd | Lawful son to John Galbreath and Mary Mitchel his
+            lawful spouse, Born May 30th Named Archd
+        }
         $opr-ref-link[b-1708-507-000-0010-0047 "Archibald Galbraith"]
     }
     archibald1708-burial {

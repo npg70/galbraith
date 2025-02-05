@@ -10,6 +10,7 @@ external {
 }
 partner {
     name Mary Fleming
+    birth -date 'say 1678' -ref fleming-birth
     gender female
     marriage -date 8-dec-1696 -location campbeltown
     child galbreath-jenat-1698-langwill
@@ -38,7 +39,13 @@ partner {
 }
 footnotes {
     baptism {
-        $opr-ref-link[b-1672-507-000-0011-0015 "James Galbreath"]
+        $opr-ref-link[b-1672-507-000-0011-0015 "James Galbreath"]{
+            James | Lawful son to James Galbreath and Mary Nielson his
+            spouse in Ardnacross, Born August 22nd Baptized 25th
+        }
+    }
+    fleming-birth {
+        Mary had children over 24 years, implying she would have been fairly young at marriage. Assuming she was 18 at marriage, gives her birth at 1678.
     }
     james1-bapt {
         $opr-ref-link[b-1706-507-000-0011-0099 "James Galbreath"]{

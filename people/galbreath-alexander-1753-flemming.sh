@@ -98,15 +98,21 @@ partner {
 }
 footnotes {
     alex1753-baptism {
-        $opr-ref-link[b-1753-507-000-0011-0286 "Alexander Galbreath"]
+        $opr-ref-link[b-1753-507-000-0011-0286 "Alexander Galbreath"]{
+            Alexander | John Galbreath and Agnes Langwill had a son
+            baptized 25th June named John
+        }
         $opr-ref-link[b-1753-507-000-0010-0213 "Alexander Galbraith"]
     }
     alex1753-burial {
         https://www.findagrave.com/memorial/52621095/alexander-galbreath
     }
     john1781-baptism  {
-        $opr-ref-link[b-1781-507-000-0020-0051 "John Galbreath"]
         Mother indexed as "Fleeming"
+        $opr-ref-link[b-1781-507-000-0020-0051 "John Galbreath"]{
+            John | Lawful son to Alexr Galbreath + Agnes Fleeming
+            born 22nd was baptd 25th Janr 1781
+        }
     }
     james1782-baptism {
         $opr-ref-link[b-1782-507-000-0020-0057 "James Galbreath"]
