@@ -78,41 +78,21 @@ partner {
     child galbreath-margaret-1790-hawthorn
 
     child {
-        name Orslay (Ursula) Galbreath
-        gender female
-        baptism -date 23-Jun-1792 -location campbeltown -ref orslay1792-baptism
-        partner {
-            name William Hatton
-            gender male
-        }
-    }
-    child {
         name Martha Galbreath
         gender female
+        birth -date 22-jun-1792
         baptism -date 23-Jun-1792 -location campbeltown -ref martha1792-baptism
-    }
-    child {
-        name Jean Galbreath
-        gender female
-        baptism -date 04-Jun-1796 -location campbeltown -ref jean1796-baptism
-        death -date 23-Aug-1867 -location Girvan,Ayr -ref jean1796-death
-        partner {
-            name Anthony Campbell
-            gender male
-            marriage -date 17-dec-1811 -location campebeltown -ref jean1796-marriage
+        body {
+            Twin to Ursula below.
         }
     }
-    child {
-        name Agnes Galbreath
-        gender female
-        baptism -date 21-May-1798 -location campbeltown -ref agnes1798-baptism
-        death -date 3-jan-1873 -location campbeltown -ref agnes1798-death
-        partner {
-            name Alexander Muir
-            gender male
-            marriage -date 18-dec-1826 -location campbeltown -ref agnes1798-marriage
-        }
-    }
+
+    child galbreath-ursula-1792-hatton
+
+    child galbreath-jean-1796-campbell
+
+    child galbreath-agnes-1798-muir
+
 }
 footnotes {
     peter1749-baptism {
@@ -137,34 +117,12 @@ footnotes {
     james1787-baptism {
         $opr-ref[b-1787-507-000-0020-0099 "James Galbreath"]
     }
-    orslay1792-baptism {
-        $opr-ref[b-1792-507-000-0020-0143 "Orslay Galbreath"]
-        Indexed as unknown gender.
-    }
     martha1792-baptism {
-        $opr-ref[b-1792-507-000-0020-0143 "Martha Galbreath"]
-    }
-    jean1796-baptism {
-        $opr-ref-link[b-1796-507-000-0040-0139 "Jean Galbreath"]
-        Father recorded as "Patrick"  
-    }
-    jean1796-marriage {
-        $opr-ref-link[m-1811-507-000-0050-0097 "Jean Galbreath" "Anthony Campbell"]{
-            Anthony Campbell Sadler in Campbeltown Originally from Ayr and
-            Jean Galbreath daughter to the deceased Peter Galbraith late
-            farmer in Laggan  both of this Parish Married 17th Dec 1811
+        $opr-ref-link[b-1792-507-000-0020-0143 "Martha Galbreath"]{
+            Martha & Orslay | Lawful Twain ($i{twin}) Children to 
+            Peter Galbreath & Agnes McMurchy in Lagan born 22nd baptized 23
+        
         }
-    }
-    jean1796-death {
-        $sp-ref-link[d-1867-594-00-0106 0036 "Jean Galbraith"]
-    }
-    agnes1798-baptism {
-        $opr-ref-link[b-1798-507-000-0040-0166 "Agnes Galbreath"]
-    }
-    agnes1798-death {
-        $sp-ref-link[d-1873-507-00-0009 0003 "Agnes Galbraith"]
-    }
-    agnes1798-marriage {
     }
 }
 
