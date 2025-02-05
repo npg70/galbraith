@@ -130,7 +130,12 @@ footnotes {
         }
     }
     arch2-bapt {
-        $opr-ref-link[b-1729-507-000-0011-0181 "Archibald Galbreath"]
-        $opr-ref-link[b-1729-507-000-0010-0135 "Archibald Galbreath"]
+        $opr-ref-link[b-1729-507-000-0011-0181 "Archibald Galbreath"]{
+            Archibald | John Galbreath + Katharine McCallum had a son
+            baptized July _____ named Archibald
+        }
+        $opr-ref-link[b-1729-507-000-0010-0135 "Archibald Galbreath"]{
+           NEED REDO 
+        }
     }
 }
