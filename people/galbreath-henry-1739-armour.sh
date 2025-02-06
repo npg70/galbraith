@@ -39,14 +39,17 @@ partner {
     child galbreath-william-1780-campbell
     child {
         name Mary Galbreath
+        gender female
         baptism -date 9-oct-1782 -location campbeltown -ref mary-bapt
     }
     child {
         name John Galbreath
+        gender male
         baptism -date 14-mar-1786 -location campbeltown -ref john-bapt
     }
     child {
         name Alexander Galbreath
+        gender male
         birth -date 04-oct-1788
         baptism -date 6-oct-1788 -location campbeltown -ref alex-bapt
     }
@@ -79,6 +82,5 @@ footnotes {
             Alexander | Lawful son to Henry Galbreath Shoemaker in Town and
             Agnes Armour was born 4th + Bapt 6th Oct
         }
-
     }
 }

@@ -21,34 +21,42 @@ partner {
     marriage -date 10-jan-1748 -location campbeltown -ref anderson-marriage 
     child {
         name James Galbreath
+        gender male
         baptism -date 30-oct-1748 -location campbeltown -ref james1748-baptism
         death -note dy
     }
     child {
         name Margaret Galbreath
+        gender female
         baptism -date 11-oct-1750 -location campbeltown -ref margaret1750-baptism
     }
     child {
         name James Galbreath
+        gender male
         baptism -date 26-jul-1752 -location campbeltown -ref james1752-baptism
         death -note dy
     }
     child {
         name John Galbreath
+        gender male
         baptism -date 11-dec-1754 -location campbeltown -ref john1754-baptism
     }    
     child {
         name Ann Galbreath
+        gender female
         baptism -date 12-mar-1756 -location campbeltown -ref ann1756-baptism
     }
     child galbreath-mary-1759-clark
 
     child {
         name James Galbreath
+        gender male
+        birth -date 03-may-1761
         baptism -date 3-may-1761 -location campbeltown -ref james1761-baptism
     }
     child {
         name Catharine Galbreath
+        gender female
         baptism -date 11-nov-1763 -location campbeltown -ref catharine1763-baptism
         partner {
             name John Milloy
@@ -56,12 +64,16 @@ partner {
     }
     child {
         name William Galbreath
+        gender male
         baptism -date 29-dec-1765 -location campbeltown -ref william1765-baptism
     }
 }
 footnotes {
     james1726-baptism {
-        $opr-ref-link[b-1726-507-000-0011-0168 "James Galbreath"]
+        $opr-ref-link[b-1726-507-000-0011-0168 "James Galbreath"]{
+            James | William Galbreath + Margt Killpatrick had a
+            son baptized 2nd Oct named James
+        }
     }
     james1748-baptism {
         $opr-ref[b-1748-507-000-0011-0266 "James Galbreath"]
@@ -91,11 +103,17 @@ footnotes {
         $opr-ref[b-1754-507-000-0010-0220 "John Galbraith"]
     }
     ann1756-baptism {
-        $opr-ref-link[b-1756-507-000-0011-0299 "Ann Galbreath"]
+        $opr-ref-link[b-1756-507-000-0011-0299 "Ann Galbreath"]{
+            Ann | James Galbreath and Margt Anderson had
+            a Dau baptized 13th Mar named Ann
+        }
         $opr-ref-link[b-1756-507-000-0010-0226 "Ann Galbraith"]
     }
     james1761-baptism {
-        $opr-ref[b-1761-507-000-0011-0325 "James Galbreath"]
+        $opr-ref-link[b-1761-507-000-0011-0325 "James Galbreath"]{
+            James | James Galbreath and Margt Anderson had
+            a son born & baptized 3rd May named James [1754]
+        }
     }
     catharine1763-baptism {
         $opr-ref[b-1763-507-000-0011-0337 "Katharine Galbreath"]

@@ -116,7 +116,10 @@ footnotes {
         $opr-ref-link[b-1757-507-000-0010-0231 "Janet Galbraith"]
     }
     marg2-bapt {
-        $opr-ref[b-1761-507-000-0011-0325 "Margaret Galbreath"]
+        $opr-ref-link[b-1761-507-000-0011-0325 "Margaret Galbreath"]{
+            Margaret | James Galbreath and Margt Adam had a Dau
+            born + baptized 31st May named Margaret
+        }
         $opr-ref[b-1761-507-000-0010-0259 "Margaret Galbraith"]
     }
     marg3-bapt {

@@ -26,12 +26,11 @@ partner {
 }
 footnotes {
     marg-bapt {
-        $opr-ref[b-1771-507-000-0030-0198 "Margaret Galbreath"]
-        $opr-ref[b-1771-507-000-0011-0380 "Margaret Galbreath"]{
+        $opr-ref-link[b-1771-507-000-0011-0380 "Margaret Galbreath"]{
         Margt | Henery Galbreath and Agnes Armour had a Daughter
         born 1st and baptized 2nd November named Margaret
         }
-        Father indexed as "Henery"
+        $opr-ref[b-1771-507-000-0030-0198 "Margaret Galbreath"]
     }
     mcnair-marriage {
         Indexed twice one in Campbeltown, one in Saddell: $opr-ref-link[m-1802-507-000-0050-0056 "Margaret Galbreath" "Nathanel McNair"]{
@@ -44,5 +43,4 @@ footnotes {
         of [???] and Margaret Galbreath of this Parish.
 }
     }
-
 }
