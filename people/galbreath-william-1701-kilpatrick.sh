@@ -48,7 +48,7 @@ partner {
         name Jean Galbreath
         baptism -date 2-jul-1733 -location campbeltown -ref jean1733-bapt
     }
-    child galbreath-janet-1735-ryburn
+    child galbreath-janet-1735
 
     child {
         name Ann Galbreath

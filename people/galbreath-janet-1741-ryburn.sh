@@ -1,19 +1,29 @@
 name Janet Galbreath
 gender female
-baptism -date 27-apr-1735 -location campbeltown -ref janet1735-bapt
+birth -date 1741
 tags Argyll:Campbeltown
 external {
    familysearch KHC3-LK7
 }
 note {
-    Often confused with a Janet Galbreath who marries James Harvie of Kippen.
-    This Janet is confirmed with inscription at Kilkerran Cemetery.
+    Janet gave birth to at least 12 children over 24 years!
 }
-todo {
-    Find Janet G and James Harvie.
-}
+
 note {
-   Last two children would have been born when Janet was 50 and 52, which seems unlikely. Possible this is the wrong Janet.
+     Often confused with a Janet Galbreath who marries James Harvie of Kippen.
+}
+body {
+    Confused with $child-link[galbreath-janet-1735]{Janet}, the daughter of $child-link[galbreath-william-1701-kilpatrick]{William Galbreath} and Margaret Kilpatrick.  Unlikely since the last child would have been born at age 52.
+}
+
+body {
+From Kilkerran Cemetery:
+$blockquote{
+978
+1823	Erected by JAMES RYBURN, shipmaster in Campbeltown, to the memory of WILLIAM RYBURN his father who died 15 June 1819 aged 81 and JANET GALBRAITH his mother who died 17 August 1793 aged 52.
+}
+
+Implies William b. 1738, and Janet, b. 1741, married at age 20.  However the last child was born at age 47... 
 }
 
 partner {
@@ -72,10 +82,6 @@ partner {
     }
 }
 footnotes {
-    janet1735-bapt {
-        $opr-ref[b-1735-507-000-0011-0209 "Janet Galbreath"]
-        $opr-ref[b-1735-507-000-0010-0152 "Janet Calbraith"]
-    }
     ryburn-marriage {
         $opr-ref-link[m-1761-507-000-0011-0461 "Janet Galbreath" "William Ryburn"]
         $opr-ref-link[m-1761-507-000-0010-0251 "Janet Galbreath" "William Ryburn"]{
