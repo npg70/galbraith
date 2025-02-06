@@ -59,10 +59,15 @@ partner {
 }
 footnotes {
     janet1698-baptism {
-        $opr-ref-link[b-1698-507-000-0011-0076 "Jenat Galbreath"]
+        $opr-ref-link[b-1698-507-000-0011-0076 "Jenat Galbreath"]{
+            Jenat | Lawful Daughter to James Galbreath and Mary Flemming
+            his lawful spouse, Born February 24th Named Jenat 
+        }
     }
     marriage {
-        $opr-ref-link[m-1717-507-000-0011-0424 "Janet Galbreath" "Peter Langwill"]
+        $opr-ref-link[m-1717-507-000-0011-0424 "Janet Galbreath" "Peter Langwill"]{
+        Peter Langwill + Janet Galbreath his lawful spouse, parishioners | Apryle 25th
+    }
     }
 }
 

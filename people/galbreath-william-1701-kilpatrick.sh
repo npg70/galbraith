@@ -62,7 +62,10 @@ partner {
 }
 footnotes {
     william1701-baptism {
-        $opr-ref-link[b-1701-507-000-0011-0086 "William Galbreath"]
+        $opr-ref-link[b-1701-507-000-0011-0086 "William Galbreath"]{
+            William | Lawful son to James Galbreath and Mary Fleeming
+            his lawful spouse, Born November 16th
+        }
     }
     margaret-baptism {
         $opr-ref-link[b-1704-507-000-0011-0096 "Margaret Kilpatric"]

@@ -55,7 +55,7 @@ footnotes {
         }
     }
     mary1742-baptism {
-        $opr-ref[b-1742-507-000-0011-0239 "Mary Galbreath"]{
+        $opr-ref-link[b-1742-507-000-0011-0239 "Mary Galbreath"]{
             Mary | Patrick Galbreath & Jean Watson had a Daughter
             baptized 14th Dec named Mary
         }   

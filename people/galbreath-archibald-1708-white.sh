@@ -67,7 +67,9 @@ who died __ Sept 1789 __
 }}
     }
     white-marriage {
-        $opr-ref-link[m-1733-507-000-0011-0442 "Archibald Calbraith" "Martha White"]
+        $opr-ref-link[m-1733-507-000-0011-0442 "Archibald Calbraith" "Martha White"]{
+            Archd Galbraith + Martha White | 1733 April 1
+        }
         $opr-ref-link[m-1733-507-000-0010-0101 "Archibald Calbraith" "Martha White"]
     }
     john1734-baptism {
