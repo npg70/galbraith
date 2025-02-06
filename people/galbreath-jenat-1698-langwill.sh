@@ -12,10 +12,13 @@ partner {
     marriage -date 25-Apr-1717 -location campbeltown -ref marriage
     child {
         name John Langwill
+        gender male
         baptism -date 6-apr-1718
+        death -note dy
     }
     child {
         name James Langwill
+        gender male
         baptism -date 19-mar-1720
         partner {
             name Isobell McMurchie
@@ -29,6 +32,7 @@ partner {
     }
     child {
         name John Langwill
+        gender male
         baptism -date 18-feb-1728
         partner {
             name Ann Wallace 
@@ -36,21 +40,25 @@ partner {
     }
     child {
         name Janet Langwill
+        gender female
         baptism -date 23-aug-1730
     }
     child {
         name Margaret Langwill
+        gender female
         baptism -date 21-jan-1733
     }
     child {
         name Martha Langwill
-        baptism -date 25-may-1735
+        gender female
+        baptism -date 25-may-1735 -location campbeltown -ref martha1735-baptism
         partner {
             name Edward Steward
         }
     }
     child {
         name Peter Langwill
+        gender male
         baptism -date 1-nov-1738
         partner {
             name Agnes McMillan
@@ -69,5 +77,12 @@ footnotes {
         Peter Langwill + Janet Galbreath his lawful spouse, parishioners | Apryle 25th
     }
     }
+    martha1735-baptism {
+        $opr-ref-link[b-1735-507-000-0011-0209 "Martha Langwill"]{
+        Martha | Peter Langwill + Janet Galbreath had a Dau 
+        baptized 25th May named Martha
+        }
+    }
+
 }
 
