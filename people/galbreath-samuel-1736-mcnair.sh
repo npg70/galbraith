@@ -6,6 +6,7 @@ baptism -date 4-feb-1736 -location campbeltown -ref samuel1736-baptism
 external {
     familysearch M1Y6-H41
     wikitree Galbraith-1830
+    ancestry tree/12079504/person/-339243951
 }
 
 body {

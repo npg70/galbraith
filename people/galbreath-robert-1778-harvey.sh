@@ -8,6 +8,7 @@ external {
     familysearch LVX6-R5K
     wikitree Galbraith-1831
     findagrave 10458564
+    ancestry tree/12079504/person/-339245204
 }
 partner {
     name Katherine Harvie

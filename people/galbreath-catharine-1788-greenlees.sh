@@ -7,6 +7,8 @@ death -date 21-apr-1878 -location moys
 external {
     familysearch KJZW-RSR
     findagrave 114485222
+    ancestry tree/12079504/person/282259752810
+    wikitree Galbreath-298
 }
 todo {
     Some duplicate children and out of order birth/baptisms on FamilySearch (and here)
@@ -30,10 +32,12 @@ partner {
     }
     child {
         name Samuel Greenlees
+        gender male
         birth -date 9-dec-1812
         baptism -date 14-dec-1812 -location campbeltown
         partner {
             name Agnes Greenlees
+            gender female
         }
     }
     child {
@@ -46,51 +50,59 @@ partner {
     }
     child {
         name James Greenlees
+        gender male
         birth -date 29-aug-1817
         baptism -date 31-aug-1817 -location campbeltown
         partner {
             name Flora Clark
+            gender female
         }
     }
     child {
         name Robert Greenlees
+        gender male
         birth -date 07-aug-1819
         baptism -date 11-aug-1819 -location campbeltown
-        body { Died young. }
+        death -note dy
     }
     child {
         name John Greenlees
+        gender male
         birth -date 06-jun-1822
         baptism -date 10-apr-1822 -location campbeltown
         death -date 22-jul-1892
         partner {
             name Jean Mitchell
+            gender female
         }
         body { TODO: fix birth and baptism on FamilySearch }
     }
     child {
         name Robert Greenlees
+        gender male
         birth -date 27-feb-1824
         baptism -date 29-feb-1824 -location campbeltown
         death -date jan-1879 -location england
         partner {
             name Margaret Greenlees
+            gender female
         }
     }
     child {
         name Catharine Greenlees
+        gender female
         baptism -date 08-aug-1826 -location campbeltown
-        body {
-            Died young.
-        }
+        death -note dy
     }
     child {
         name James Greenlees
+        gender male
         birth -date 08-aug-1826
         baptism -date 20-aug-1826 -location campbeltown
         death -date 11-mar-1881 -location campbeltown
         partner {
             name Flora Clark
+            gender female
         }
         body {
             Ugh duplicate
@@ -98,28 +110,34 @@ partner {
     }
     child {
         name Cathrine Greenlees
+        gender female
         birth -date 18-oct-1827
         baptism -date 28-oct-1827 -location campbeltown
         partner {
             name John Mitchell
+            gender male
         }
     }
     child {
         name Martha Greenlees
+        gender female
         birth -date 13-apr-1830
         baptism -date 18-apr-1830 -location campbeltown
         death -date 19-feb-1888 -location campbeltown
         partner {
             name Robert Weir
+            gender male
         }
     }
     child {
         name Archibald Greenlees
+        gender male
         birth -date 05-jan-1833
         baptism -date 08-jan-1833 -location campbeltown
         death -date 26-oct-1911 -location Middlesex,England
         partner {
             name Mary Greenlees
+            gender female
         }
     }
 }

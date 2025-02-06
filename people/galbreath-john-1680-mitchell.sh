@@ -8,6 +8,7 @@ external {
     familysearch L2PT-L1B
     wikitree Galbraith-1787
     findagrave 160815745
+    ancestry tree/12079504/person/-19661832
 }
 
 partner {

@@ -14,7 +14,9 @@ footnotes {
         }
      }
      marriage {
-        $opr-ref-link[m-1724-507-000-0011-0435 "Mary Calbreath" "Matthew Ryburn"]
+        $opr-ref-link[m-1724-507-000-0011-0435 "Mary Calbreath" "Matthew Ryburn"]{
+        Matthew Ryburn + Mary Galbreath both in this parish were married | April 30
+    }
         $opr-ref-link[m-1724-507-000-0010-0089 "Mary Calbreath" "Matthew Ryburn"]
      } 
 }

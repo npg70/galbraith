@@ -8,6 +8,7 @@ external {
     familysearch LZZ8-6K7
     wikitree Galbraith-1788
     findagrave 114485207
+    ancestry tree/12079504/person/-19663340
 }
 
 partner {
