@@ -16,7 +16,7 @@ note {
 
 footnotes {
     janet1735-bapt {
-        $opr-ref[b-1735-507-000-0011-0209 "Janet Galbreath"]{
+        $opr-ref-link[b-1735-507-000-0011-0209 "Janet Galbreath"]{
             Janet | William Galbreath + Margt Kilpatrick had a
             Daughter baptized 27th April named Janet
         }
