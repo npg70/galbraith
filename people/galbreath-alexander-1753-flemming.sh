@@ -20,9 +20,7 @@ partner {
     child {
         name John Galbreath
         baptism -date 25-may-1781 -location campbeltown -ref john1781-baptism
-        body {
-            Died in infancy.
-        }
+        death -note dy
     }
     child {
         name James Galbreath
