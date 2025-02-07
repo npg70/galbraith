@@ -65,10 +65,9 @@ partner {
 }
 footnotes {
     john1783-baptism {
-        $opr-ref-link[b-1783-507-000-xxx-0071 "John Harvie"]{
+        $opr-ref-link[b-1783-507-000-0020-0071 "John Harvie"]{
             John Lawful son to William Harvie Mercht in Campbeltown
             & Isabella Orr was born 27th & Bapt. 29 Dec [1783]
         }
     }
 }
-

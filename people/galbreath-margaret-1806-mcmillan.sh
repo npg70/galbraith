@@ -22,7 +22,7 @@ partner {
 
 footnotes {
     marriage {
-        $opr-ref-link[m-1832-519-000-0020-00227 "Peggy Galbreath" "Hugh McMillan"]{
+        $opr-ref-link[m-1832-519-000-0020-0227 "Peggy Galbreath" "Hugh McMillan"]{
             | June | 7 | Hugh McMillan and Peggy Galbreath at Goslenmean[?]
         }
     }

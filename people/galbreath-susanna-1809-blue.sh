@@ -45,10 +45,10 @@ footnotes {
     }
     blue-marriage {
         Registered twice.  First:
-        $opr-ref-link[m-1809-519-000-010-0225 "Susie Galbreath" "William Blue" ]{
+        $opr-ref-link[m-1809-519-000-0010-0225 "Susie Galbreath" "William Blue" ]{
         April 19 | Will.m Blue Campltn \\ Susie Galbreath Ross...[?]
         },
-        Second: $opr-ref-link[m-1809-507-000-000-0300 "Susan Galbreath" "William Blue" ]{
+        Second: $opr-ref-link[m-1809-507-000-0000-0300 "Susan Galbreath" "William Blue" ]{
             William Blue, Slater of this Parish and Susan Galbreath
             of Killean Parish were married 20 April 1831.
         }

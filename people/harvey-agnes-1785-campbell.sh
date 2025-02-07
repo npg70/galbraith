@@ -59,7 +59,7 @@ footnotes {
     }
 
     campbell-marriage {
-        $opr-ref-link[m-1809-507-000-0050-0087Z "Agnes Harvie" "Robert Campbell"]{
+        $opr-ref-link[m-1809-507-000-0050-0087 "Agnes Harvie" "Robert Campbell"]{
         Robert Campbell farmer Kilconell and Agnes Harvie Daughter to James
         Harvey farmer in Peninver, both of this parish, married 6th June 1809
     } 

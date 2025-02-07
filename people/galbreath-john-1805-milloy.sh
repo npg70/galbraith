@@ -39,7 +39,7 @@ partner {
 
 footnotes {
     john1805-baptism {
-        $opr-ref-link[b-1805-537-000-010-0029 "John Galbreath"]
+        $opr-ref-link[b-1805-537-000-0010-0029 "John Galbreath"]
     }
     john1805-death {
         $sp-ref-link[d-1875-537-00-0008 0003 "John Galbraith"]

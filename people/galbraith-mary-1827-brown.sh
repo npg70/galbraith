@@ -25,7 +25,7 @@ partner {
 }
 footnotes {
     brown-marriage {
-        $opr-ref-link[m-1850-537-000-020-0070 "Duncan Brown" "Mary Galbraith"]
+        $opr-ref-link[m-1850-537-000-0020-0070 "Duncan Brown" "Mary Galbraith"]
     }   
 }
 

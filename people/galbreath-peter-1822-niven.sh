@@ -52,7 +52,7 @@ partner {
 }
 footnotes {
     peter1822-baptism {
-        $opr-ref-link[b-1822-537-000-020-0007 "Peter Galbreath"]{
+        $opr-ref-link[b-1822-537-000-0020-0007 "Peter Galbreath"]{
         March 23 - Peter - lawful son of Donald Galbreath and Janet McLean at North Druimachro
         }
     }

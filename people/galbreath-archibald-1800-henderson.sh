@@ -104,7 +104,7 @@ footnotes {
         $sp-ref-link[d-1869-507-00-0081 0027 "Archibald Galbreath"]
     }   
     henderson-marriage {
-        $opr-ref-link[m-1831-507-000-0060-300 "Archibald Galbreath" "Ann Henderson"]
+        $opr-ref-link[m-1831-507-000-0060-0300 "Archibald Galbreath" "Ann Henderson"]
     }
     henderson-death {
         $sp-ref-link[d-1872-507-00-0104 0035 "Ann Galbraith"]{

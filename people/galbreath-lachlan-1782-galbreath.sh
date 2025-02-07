@@ -40,7 +40,7 @@ footnotes  {
     }
     }
     marriage {
-        $opr-ref-link[m-1815-516-000-010-0410 "Lachlan Galbreath" "Mary Galbreath"]
+        $opr-ref-link[m-1815-516-000-0010-0410 "Lachlan Galbreath" "Mary Galbreath"]
     }
 
     mary1820-birth {

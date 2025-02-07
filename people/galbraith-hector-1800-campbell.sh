@@ -76,36 +76,36 @@ footnotes {
         }
     }
     katherine1821-baptism {
-        $opr-ref[b-1821-516-000-020-0020 "Katherine Galbraith"]
+        $opr-ref[b-1821-516-000-0020-0020 "Katherine Galbraith"]
     }
     angus1826-baptism {
-        $opr-ref[b-1826-516-000-020-0302 "Angus Galbraith"]
+        $opr-ref[b-1826-516-000-0020-0302 "Angus Galbraith"]
     }
     mary1826-baptism {
-        $opr-ref[b-1826-516-000-020-302 "Mary Galbraith"]
+        $opr-ref[b-1826-516-000-0020-0302 "Mary Galbraith"]
     }
     dugald1828-baptism {
-        $opr-ref-link[b-1828-516-000-020-0312 "Dugald Galbraith"]
+        $opr-ref-link[b-1828-516-000-0020-0312 "Dugald Galbraith"]
     }
     dugald1828-death  {
         $sp-ref-link[d-1881-516-02-0002 0001 "Dugald Galbraith"]
     }
     robert1831-baptism {
-        $opr-ref-link[b-1831-516-000-020-0321 "Robert Galbraith"]
+        $opr-ref-link[b-1831-516-000-0020-0321 "Robert Galbraith"]
     }
     robert1831-death {
         $sp-ref-link[d-1896-573-00-0561 0187 "Robert Galbraith"]
     }
     john1833-baptism {
-        $opr-ref-link[b-1833-516-000-020-0333 "John Galbraith"]
+        $opr-ref-link[b-1833-516-000-0020-0333 "John Galbraith"]
     }
     hector1835-baptism {
-        $opr-ref[b-1835-516-000-020-0339 "Hecter Galbraith"]
+        $opr-ref[b-1835-516-000-0020-0339 "Hecter Galbraith"]
     }
     jean1837-baptism {
-        $opr-ref-link[b-1837-516-000-020-0346 "Jean Galbraith"]
+        $opr-ref-link[b-1837-516-000-0020-0346 "Jean Galbraith"]
     }
     archibald1840-baptism {
-        $opr-ref[b-1840-516-000-020-350 "Archibald Galbraith"]
+        $opr-ref[b-1840-516-000-0020-0350 "Archibald Galbraith"]
     }
 }

@@ -64,7 +64,7 @@ partner {
 
 footnotes {
     donald1831-baptism {
-        $opr-ref-link[b-1831-516-000-020-0328 "Donald Galbraith"]{
+        $opr-ref-link[b-1831-516-000-0020-0328 "Donald Galbraith"]{
             Donald lawful son to Archibald Galbraith and
             Mary MacLean in Crothshegan born in Nov 1831
             Registered the 14th March 1832.

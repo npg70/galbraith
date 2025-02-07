@@ -50,7 +50,7 @@ footnotes {
         $sp-ref-link[d-1874-507-00-0137 0046 "Janet Mitchell"]
     }
     marriage {
-        $opr-ref-link[m-1824-507-000-0060-263 "David Galbreath" "Janet Mitchell"]{
+        $opr-ref-link[m-1824-507-000-0060-0263 "David Galbreath" "Janet Mitchell"]{
             David Galbreath Laborer + Janet Mitchell both of this parish
             were married 5th October 1824
         }    

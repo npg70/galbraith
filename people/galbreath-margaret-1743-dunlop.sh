@@ -154,7 +154,7 @@ footnotes {
         }
     }
     ann1786-baptism {
-        $opr-ref-link[b-1786-507-000-000-0197 "Ann Dunlop"]{
+        $opr-ref-link[b-1786-507-000-0020-0089 "Ann Dunlop"]{
             Ann Lawful dau to Alexd Dunlop Merch in Campbeltown
             & Margt Galbraith was born 1st & Bapt 3rd May.
         }

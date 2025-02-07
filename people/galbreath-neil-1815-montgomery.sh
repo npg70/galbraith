@@ -48,7 +48,7 @@ footnotes {
         $sp-ref-link[d-1886-519-00-0002 0001 "Neil Galbraith"]
     }
     montgomery-marriage {
-        $opr-ref-link[m-1832-532-000-010-0155 "Niel Galbraith" "Catherine Montgomery"]{
+        $opr-ref-link[m-1832-532-000-0010-0155 "Niel Galbraith" "Catherine Montgomery"]{
             1832 Jan 28 | Niel Galbraith and Catherine Montgomery servants [illegible]
         }
     }
@@ -59,7 +59,7 @@ footnotes {
         $sp-ref-link[d-1900-644-09-0071 0024 "Mary Galbraith"]
     }
     jannet1854-birth {
-        $opr-ref-link[b-1853-519-000-020-0184 "Jannet Galbreath"]
+        $opr-ref-link[b-1853-519-000-0020-0184 "Jannet Galbreath"]
     }
 }
 

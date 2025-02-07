@@ -43,7 +43,7 @@ footnotes {
         }
     }
     watson-marriage {
-        $opr-ref-link[m-1737-507-000-0011-444 "Patrick Calbraith" "Jean Watson"]{
+        $opr-ref-link[m-1737-507-000-0011-0444 "Patrick Calbraith" "Jean Watson"]{
             $i{1737} | Patrick Calbraith & Jean Watson Saddell | Feb 13th
         }
         $opr-ref-link[m-1737-507-000-0010-0156 "Patrick Calbraith" "Jean Watson"]

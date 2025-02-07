@@ -6,7 +6,7 @@ external {
    familysearch KHC3-LK7
 }
 note {
-    Janet gave birth to at least 12 children over 24 years!
+    Janet gave birth to at least 12 children over 26 years!
 }
 
 note {
@@ -63,6 +63,7 @@ partner {
     child {
         name Ann Ryburn
         baptism -date 30-apr-1775 -location campbeltown
+        death -note dy
     }
     child {
         name Elisabeth Ryburn
@@ -71,6 +72,7 @@ partner {
     child {
         name Ann Ryburn
         baptism -date 20-sep-1778 -location campbeltown
+        death -note dy
     }
     child {
         name Martha Ryburn
