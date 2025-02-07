@@ -40,6 +40,8 @@ func main() {
 	todotag(db)
 
 	pages := []ssg.ContentSource{}
+	pages = append(pages, oprPageIndex(db, "indexes/opr-page-index/index.html"))
+
 	pages = append(pages, oprindex(db, "b", "indexes/opr-birth-index/index.html"))
 	pages = append(pages, oprindex(db, "d", "indexes/opr-death-index/index.html"))
 	pages = append(pages, oprindex(db, "m", "indexes/opr-marriage-index/index.html"))

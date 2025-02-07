@@ -264,6 +264,17 @@ func renderFuncs() map[string]tf.NodeFunc {
 			tf.TransformElement(n, "div")
 			return SPText(n, refid, "", person1, person2)
 		},
+		"opr-page": func(n *html.Node) error {
+
+			args := tf.ToArgs(n)
+			if len(args) != 1 || len(args[0]) == 0 {
+				return fmt.Errorf("%s: expected at least 1 args, got %v", n.Data, args)
+			}
+			refid := args[0]
+
+			tf.TransformElement(n, "div")
+			return OPRPage(n, refid)
+		},
 		"sp-ref-link": func(n *html.Node) error {
 			// sp-ref: arg0 = ID, arg1 = imgid, arg 2 = name, arg3 is optional name
 			args := tf.ToArgs(n)

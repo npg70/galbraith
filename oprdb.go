@@ -338,6 +338,27 @@ func oprlink(parts []string) string {
 	return base + "/opr-" + strings.Join(parts[2:], "-") + ".png"
 }
 
+// link to specific page
+func OPRPage(n *html.Node, refid string) error {
+	parts := strings.Split(refid, "-")
+	// args[0] --> type
+	// args[1] --> year, 4 digits
+	// args[2] --> parish 3 digits
+	// args[3] --> subparish
+	// args[4] --> volume
+	// args[5] --> page, 4 digits
+	if len(parts) != 6 {
+		return fmt.Errorf("%s: expected 6 parts but got %v", n.Data, parts)
+	}
+
+	//text := refid
+	refText := oprref(parts)
+
+	// adding nofollow to prevent images from being indexed
+	n.InsertBefore(tf.Append(tf.NewElement("a", "rel", "nofollow", "href", oprlink(parts)), tf.NewText(refText)), n.FirstChild)
+	//n.InsertBefore(tf.NewText(text), n.FirstChild)
+	return nil
+}
 func OPRText(n *html.Node, refid, name, name2 string, link bool) error {
 	parts := strings.Split(refid, "-")
 	// args[0] --> type

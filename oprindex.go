@@ -21,6 +21,55 @@ func todotag(db Root) {
 	}
 }
 
+func oprPageIndex(db Root, outputFile string) ssg.ContentSourceConfig {
+	tok := tf.Tokenizer{}
+	pages := map[string]string{}
+	for _, p := range db {
+		for _, fnote := range p.Footnotes {
+
+			// parse the markup
+			root := tok.Parse(strings.NewReader(fnote))
+
+			// get the "opr-ref-link"
+			footnotes := tf.Selector(root, func(n *html.Node) bool {
+				return n.Data == "opr-ref-link"
+			})
+
+			//
+			for _, fnote := range footnotes {
+				// format ID Name Spouse?
+				// ID is form of TYPE-YEAR-000-000-0000-000
+				args := tf.ToArgs(fnote)
+				val := args[0]
+				if len(val) != 24 {
+					log.Fatalf("Wrong size: %q", val)
+				}
+				pages[val[7:]] = val
+			}
+		}
+	}
+
+	// get keys, sort, print
+	keys := make([]string, 0, len(pages))
+	for k := range pages {
+		keys = append(keys, k)
+	}
+	sort.Strings(keys)
+
+	out := strings.Builder{}
+	out.WriteString("$ul{\n")
+	for _, val := range keys {
+		out.WriteString("$li{$opr-page[" + pages[val] + "]}\n")
+	}
+	out.WriteString("}\n")
+	page := make(ssg.ContentSourceConfig)
+	page["OutputFile"] = outputFile
+	page["TemplateName"] = "baseof.html"
+	page["title"] = "OPR Page Index"
+	page["Content"] = out.String()
+	return page
+}
+
 // input, output is content
 func oprindex(db Root, rtype string, outputFile string) ssg.ContentSourceConfig {
 
