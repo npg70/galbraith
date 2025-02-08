@@ -18,9 +18,9 @@ partner {
     name Agnes Flemming
     gender female
     parent fleeming-john-1713-langwill
-    marriage -date dec-1779 -location campbeltown
+    marriage -date 25-dec-1779 -location campbeltown -ref flemming-marriage
     baptism -date 5-dec-1760 -location campbeltown
-    death -date apr-1829 -location 'york,pennsylvaia,usa'
+    death -date apr-1829 -location 'york,pennsylvania,usa'
 
     child {
         name John Galbreath
@@ -75,6 +75,7 @@ partner {
         death -date 17-jan-1839
         partner {
             name Benjamin Payne
+            gender male
             marriage -date 1825
             birth -date 1781
             death -date 1870
@@ -82,10 +83,12 @@ partner {
     }
     child {
         name Alexander Galbreath
+        gender male
         birth -date 2-apr-1794 -location USA
         death -date 26-jul-1859
         partner {
             name Eliza Barclay Hammond
+            gender female
             marriage -date 28-apr-1825
             birth -date 01-feb-1806
             death -date 15-aug-1892
@@ -93,15 +96,18 @@ partner {
     }
     child {
         name Matthew Clark Galbreath
+        gender male
         birth -date 20-aug-1797 -location USA
         death -date 12-aug-1821 -location USA -note unmarried
     }
     child {
         name Isabella Galbreath
+        gender female
         birth -date 19-jan-1801 -location Pa,USA
         death -date 21-jan-1853 -location Belmont,Ohio,USA
         partner {
             name George M Theaker
+            gender male
             marriage -date 06-jul-1820
             birth -date 19-mar-1796
             death -date 29-sep-1880
@@ -119,8 +125,14 @@ footnotes {
     alex1753-burial {
         https://www.findagrave.com/memorial/52621095/alexander-galbreath
     }
+    flemming-marriage {
+        $opr-ref-link[m-1779-507-000-0020-0162 "Alexander Galbraeth" ""]{
+            Alexander Galbreath + Agnes Fleeming, both of this parish,
+            contracted 25th Dec 1779, married.
+        }
+        Listed as 28-Dec-1779 in the $i{The Alexander Galbreath Family} book.
+    }
     john1781-baptism  {
-        Mother indexed as "Fleeming"
         $opr-ref-link[b-1781-507-000-0020-0051 "John Galbreath"]{
             John | Lawful son to Alexr Galbreath + Agnes Fleeming
             born 22nd was baptd 25th Janr 1781
@@ -130,7 +142,6 @@ footnotes {
         $opr-ref-link[b-1782-507-000-0020-0057 "James Galbreath"]
     }
     john1784-baptism {
-        Mother indexed as "Fleeming":
         $opr-ref-link[b-1784-507-000-0020-0071 "John Galbreath"]{
             John Lawful son to Alexd. Galbreath Mercht in Campbeltown
             & Agnes Fleeming was born 7th & Bapt 8th January [1784]
