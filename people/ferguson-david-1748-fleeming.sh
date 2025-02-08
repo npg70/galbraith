@@ -1,4 +1,5 @@
 name David Ferguson
+gender male
 birth -date 'about 1749'
 death -date 25-feb-1813 -location campbeltown -ref david-death  
 
@@ -9,6 +10,7 @@ external {
 
 partner {
     name Margaret Fleeming
+    gender female
     marriage
     death -date 08-sep-1834 -ref margaret-death
 }
