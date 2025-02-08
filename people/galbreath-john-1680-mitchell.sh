@@ -13,7 +13,7 @@ external {
 
 partner {
 	name Mary Mitchell
-	marriage -date 30-may-1680 -location Campbeltown -ref marriage
+	marriage -date 16-mar-1707 -location Campbeltown -ref marriage
 	child galbreath-archibald-1708-white
     child {
 		name Mary Galbreath 

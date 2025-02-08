@@ -4,11 +4,16 @@ tags Argyll:Campbeltown Immigrant:USA:Pennsylvania
 external {
     familysearch MYW9-L2B
     findagrave 52621095
-    ancestry tree/165037717/person/272146062803
+    ancestry tree/12079504/person/282298137520
 }
 baptism -date 25-jun-1753 -location campbeltown -ref alex1753-baptism
 death -date 1819 -location 'Delta, York, Pennsylvania, USA' -name 'Slate Ridge Cemetery' -ref alex1753-burial
-
+note {
+    Ancestry Tree by user $elink[https://www.ancestry.com/profile/0774f420-0006-0000-0000-000000000000]{Alex Galbreath} for $elink[https://www.ancestry.com/family-tree/person/tree/165037717/person/272146062803/facts]{Alexander Galbreath}
+}
+note {
+    Ancestry Tree by user $elink[https://www.ancestry.com/profile/0624a656-0006-0000-0000-000000000000]{Gregory Walters} for $elink[https://www.ancestry.com/family-tree/person/tree/152497341/person/412069661054/facts]{Alexander Galbreath}
+}
 partner {
     name Agnes Flemming
     gender female
@@ -19,21 +24,25 @@ partner {
 
     child {
         name John Galbreath
+        gender male
         baptism -date 25-may-1781 -location campbeltown -ref john1781-baptism
         death -note dy
     }
     child {
         name James Galbreath
+        gender male
         baptism -date 19-may-1782 -location campbeltown -ref james1782-baptism
         death -date 23-jan-1811 -location usa -note unmarried
     }
     child {
         name John Galbreath
+        gender male
         birth -date 7-jan-1784
         baptism -date 8-jan-1784 -location campbeltown -ref john1784-baptism
         death -date 25-may-1844
         partner {
             name Hannah Morrison
+            gender female
             marriage -date 25-apr-1809
             birth -date 28-feb-1790
             death -date 17-oct-1881
@@ -41,23 +50,28 @@ partner {
     }
     child {
         name Janette Galbreath
-        birth -date 04-sep-1786
+        gender female
+        birth -date 04-sep-1786 -location USA
         partner {
             name William Edgar
+            gender male
         }
     }
     child {
         name Agnes Galbreath
+        gender female
         birth -date 20-feb-1789 -location USA
         death -date 9-mar-1839 
         partner {
             name Samuel P Morrison
+            gender male
             marriage -date 1810
         }
     }
     child {
         name Mary Galbreath
-        birth -date 30-jan-1792
+        gender female
+        birth -date 30-jan-1792 -location USA
         death -date 17-jan-1839
         partner {
             name Benjamin Payne

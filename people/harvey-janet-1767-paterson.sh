@@ -4,11 +4,16 @@ external {
     familysearch M1Y6-BS4
     ancestry tree/12079504/person/282299027535
 }
+note {
+    There is another Janet Harvie born in 1767 in Campbeltown, the daughter of $child-link[harvey-william-1738-orr]{William Harvie} and  Agnes Orr.
+}
+
 birth -date 20-jul-1767
 baptism -date 21-jul-1767 -location campbeltown -ref janet1767-baptism
 partner {
    name Alexander Paterson
-   marriage -date 17-feb-1792 -location campbeltown
+   gender male
+   marriage -date 17-feb-1792 -location campbeltown -ref paterson-marriage
 
    child {
         name Janet Paterson
@@ -46,8 +51,17 @@ partner {
 }
 footnotes {
     janet1767-baptism {
+        $opr-ref-link[b-1767-507-000-0011-0359 "Janet Harvie"]{
+            Janet | James Harvie and Katharine Galbreath had a
+            Daut. born 20th and bapt. 21st July named Janet
+        }
         $opr-ref[b-1767-507-000-0010-0317 "Janet Harvie"]
-        $opr-ref[b-1767-507-000-0011-0359 "Janet Harvie"]
+    }
+    paterson-marriage {
+        $opr-ref-link[m-1792-507-000-0020-0175 "Janet Harvey" "Alexander Paterson"]{
+            Alex. Paterson $s{of this Parish} + Janet Harvey both of this
+            Parish contracted 17th Febry 1792 + were married
+        }
     }
     janet1792-baptism {
         $opr-ref[b-1792-507-000-0040-0103 "Janet Paterson"]

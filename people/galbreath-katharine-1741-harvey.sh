@@ -1,12 +1,41 @@
 name Katharine Galbreath
 gender female
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown Argyll:Skerbolin
 birth -date 3-may-1741
 baptism -date 10-may-1741 -location campbeltown -ref katharine1741-baptism
 external {
     familysearch 9M9D-F9R
     wikitree Galbraith-1786
     ancestry tree/12079504/person/282258326809
+}
+body {
+The linkage between the Katherine who married James Harvie, and the Katherine the daughter of Archibald Galbreath and Mary White is circumstantial. However
+
+$ul{
+$li{ She would have to been 18-25 at marriage, given that she had children over a 23 year period}
+$li{ The Census of 1792 gives her approximate birth of 1742}
+$li{ Katherine Galbreath and James Harvie grew up on neighboring farms.}
+$li{ There are no other canidates in 1735-1745 in the OPR}
+}
+
+So this seems like a reasonable guess.
+}
+body {
+$p{
+Census of 1792, Skeroblinraid
+}
+$csvtable{
+Row,Age,Year,Men,Women,Children,Role
+1,87,1705,,Janet Mitchel,,Mother
+2,55,1737,James Harvie,,,Head
+3,50,1742,,Cathrin Galbreath,,Wife
+4,23,1769,,Janet Harvie,,Dau
+5,19,1773,John Harvie,,,Son
+6,15,1777,,,Robert Harvie,Son
+7,13,1779,,,Cathrin Harvie,Dau
+8,11,1781,,,Andrew Harvie,Son
+9, 7,1785,,,Agnes Harvie,Dau
+}
 }
 partner {
     name James Harvie

@@ -19,7 +19,7 @@ partner {
    marriage -date 12-feb-1765 -location campbeltown
    child {
         name Janet Harvie
-        birth -date 1767
+        baptism -date 19-jun-1767 -location campbeltown -ref janet1767-baptism
     }
    child harvey-william-1769-alexander
 
@@ -64,6 +64,10 @@ partner {
     }   
 }
 footnotes {
+    janet1767-baptism {
+        $opr-ref[b-1767-507-000-0011-0359 "Janet Harvie"]
+        $opr-ref[b-1767-507-000-0010-0316 "Janet Harvie"]
+    }
     john1783-baptism {
         $opr-ref-link[b-1783-507-000-0020-0071 "John Harvie"]{
             John Lawful son to William Harvie Mercht in Campbeltown

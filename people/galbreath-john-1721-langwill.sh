@@ -4,6 +4,7 @@ tags Argyll:Campbeltown
 baptism -date 9-dec-1721 -location Campbeltown -ref john1721-baptism
 external {
     familysearch LCF9-R1S
+    ancestry tree/12079504/person/143949
 }
 partner {
     name Agnes Langwill

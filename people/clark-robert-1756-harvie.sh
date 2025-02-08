@@ -11,7 +11,7 @@ partner {
     name Martha Harvie
     gender female
     parent galbreath-katharine-1741-harvey
-    marriage -date 27-aug-1790 -location campbeltown
+    marriage -date 27-aug-1790 -location campbeltown -ref marriage
 
     child {
         name James Clark
@@ -76,6 +76,12 @@ partner {
 }
 
 footnotes {
+    marriage {
+        $opr-ref-link[m-1790-507-000-0020-0173 "Martha Harvie" "Robert Clark"]{
+            Robert Clark of this parish + Martha Harvey of Bealachantue[?]
+            parish were contracted 27th Aug 1790 were married
+        }
+    }
     james1791-baptism {
         $opr-ref[b-1791-507-000-0020-0134 'James Clark']
     }
