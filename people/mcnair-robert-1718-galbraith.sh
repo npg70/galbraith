@@ -8,9 +8,15 @@ external {
 note {
 Indexed under McNair since I'm not sure who Janet is yet?
 }
+parent {
+    name Robert McNair
+    partner {
+        name Mary Picken
+    }
+}
 
 body {
-    He was the son of Robert McNair and Mary Picken.  Their line is described in $elink[https://archive.org/details/mcnairmcnearmcne1928mcna/page/46/mode/2up]{McNair, McNear, and McNeir genealogies : Supplement 1928}
+   Their line is described in $elink[https://archive.org/details/mcnairmcnearmcne1928mcna/page/46/mode/2up]{McNair, McNear, and McNeir genealogies : Supplement 1928}
 }
 body {
     He was a farmer in Smerby.
@@ -70,7 +76,9 @@ partner {
 }
 footnotes {
     janet-marriage {
-        $opr-ref-link[m-1744-507-000-0011-0448 "Janet Calbraith" "Robert McNair"]
+        $opr-ref-link[m-1744-507-000-0011-0448 "Janet Calbraith" "Robert McNair"]{
+            $i{1744} Robert McNair & Janet Calbraith | July 1st
+        }
         $opr-ref[m-1744-507-000-0010-0172 "Janet Calbraith" "Robert McNair"]
     }
     janet1755-baptism {
