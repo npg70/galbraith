@@ -1,4 +1,5 @@
 name John Galbraith
+gender male
 birth -date 'about 1761'
 tags 'Argyll:South Knapdale'
 external {
@@ -23,16 +24,19 @@ Archibald,Galbreath,35,1806
 }
 partner {
     name Catherine Crawford
+    gender female
     marriage -date 10-apr-1796 -location 'kilcalmonell and kilberry'
 
     child galbreath-archibald-1801-crawford
 
     child {
         name Angus Galbreath
+        gender male
         baptism -date 1-aug-1812 -location 'south knapdale' -ref angus1812-baptism
     }
     child {
         name Janet Galbreath
+        gender female
         baptism -date 15-jul-1814 -location 'south knapdale' -ref janet1814-baptism
     }
 

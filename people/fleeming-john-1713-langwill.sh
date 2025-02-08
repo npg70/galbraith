@@ -9,12 +9,14 @@ birth -date 'say 1713'
 
 partner {
     name Agnes Langwill
+    gender female
     marriage -date 02-oct-1756 -location campbeltown -ref langwill-marriage
 
     child fleming-john-1758-colville
 
     child {
         name Isobell Fleeming
+        gender female
         baptism -date 24-feb-1760 -location campbeltown -ref isobell1760-baptism
     }
     child {
