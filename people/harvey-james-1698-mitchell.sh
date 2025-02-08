@@ -85,6 +85,7 @@ footnotes {
             James | Lawful son to John Harvie and Agnes Watersone
             his lawful spouse Born May 29th names James
         }
+        $opr-ref[b-1698-507-000-0010-0023 "James Harvie"]
     }
     mitchell-marriage {
         $opr-ref-link[m-1723-507-000-0011-0433 "James Harvie" "Janet Mitchell"]{
@@ -101,5 +102,6 @@ footnotes {
         James | James Harvie & Janet Mitchell had a son baptized [blank]
         Oct named James
         }
+        $opr-ref[b-1735-507-000-0010-0153 "James Harvie"]
     }
 }
