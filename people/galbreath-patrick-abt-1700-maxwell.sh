@@ -17,7 +17,7 @@ partner {
 }
 footnotes {
     mary1727-baptism {
-        $opr-ref-link[b-1727-507-000-0011-0070 "Mary Galbreath"]
+        $opr-ref-link[b-1727-507-000-0011-0170 "Mary Galbreath"]
     }
     john1734-baptism {
         $opr-ref-link[b-1734-507-000-0011-0202 "John Galbreath"]
