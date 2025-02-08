@@ -1,8 +1,8 @@
 name Robert Galbreath
 gender male
 tags Argyll:Campbeltown Argyll:Peninver Immigrant:USA:Ohio
-birth -location Peninver
-baptism -date 12-oct-1778 -location campbeltown -ref robert1778-baptism
+birth -date 12-oct-1778
+baptism -date 15-oct-1778 -location campbeltown -ref robert1778-baptism
 death -date 19-may-1847 -location neville,clermont,ohio,usa
 external {
     familysearch LVX6-R5K
@@ -35,7 +35,8 @@ partner {
     }
     child {
         name Archibald Galbreath
-        baptism -date 31-jan-1814 -location campbeltown -ref archibald1814-baptism
+        birth -date 31-jan-1814
+        baptism -date 09-feb-1814 -location campbeltown -ref archibald1814-baptism
     }
     child galbreath-archibald-1815-rice
     child galbreath-john-1817-mcmath
@@ -50,7 +51,10 @@ partner {
 }
 footnotes {
     robert1778-baptism {
-        $opr-ref-link[b-1778-507-000-0020-0040 "Robert Galbreath"]
+        $opr-ref-link[b-1778-507-000-0020-0040 "Robert Galbreath"]{
+            Robert lawful son to Samuel Galbraeth + Janet McNair
+            born 12th was bapt 15th Oct 1778
+        }
     }
     marriage {
         $opr-ref-link[m-1805-507-000-0050-0069 "Robert Galbreath" "Catharine Harvey"]{
@@ -73,9 +77,15 @@ footnotes {
         }
     }
     robert1812-baptism {
-        $opr-ref-link[b-1812-507-000-0040-0380 "Robert Galbreath"]
+        $opr-ref-link[b-1812-507-000-0040-0380 "Robert Galbreath"]{
+            Robert | Lawful son to Robert Galbreath $s{Weaver} Farmer in Peninver and
+            Catharine Harvie born 25 bapt 26 Febry 1812 named Robert
+        }
     }
     archibald1814-baptism  {
-        $opr-ref-link[b-1814-507-000-0040-0409 "Archibald Galbreath"]
+        $opr-ref-link[b-1814-507-000-0040-0409 "Archibald Galbreath"]{
+            Archibald | Lawful son to Robert Galbreath Farmer in Peninver and
+            Catharine Harvie born 31 Janry baptized 9 Febry 1814 named Archibald
+        }
     }
 }
