@@ -143,7 +143,10 @@ partner {
 }
 footnotes {
     catharine1788-baptism {
-        $opr-ref-link[b-1788-507-000-0020-0104 "Catharine Galbreath"]
+        $opr-ref-link[b-1788-507-000-0020-0104 "Catharine Galbreath"]{
+            Catherine Lawful dau to Samuel Galbreath in Peninver +
+            Janet MacNair was born 16th + Bapt 18th May $i{1788}
+        }
     }
     janet1811-baptism {
         $opr-ref-link[b-1811-507-000-0040-0364 "Janet Greenlees"]{
