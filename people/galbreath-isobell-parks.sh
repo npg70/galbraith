@@ -2,6 +2,7 @@ name Isobell Galbreath
 gender female
 external {
     familysearch LKTM-BS2
+    wikitree Galbraith-2637
 }
 note {
     Often claimed to be the sister of $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}, daughter of $child-link[/galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill, all of Campbeltown.  This is impossible since it implies Isobell got married at age 12.
