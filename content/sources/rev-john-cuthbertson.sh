@@ -27,20 +27,66 @@ $elink[https://www.google.com/maps/place/Pequea,+PA+17309/@39.8881721,-76.377482
 }
 }
 
-$h2{Summary}
+$h2{People}
 
-$p{Robert Galbreath - $elink[https://www.familysearch.org/en/tree/person/details/GKDS-1CZ]{Possible match on FamilySearch}}
-$ul{
-$li{1751 bp. $elink[https://www.familysearch.org/en/tree/person/details/9QKW-2T2]{Hannah Galbreath} (Found empty entry, added baptism and father).}
+$p{
+Note: These are not the Galbraith from Donegal County,
+}
+
+$h3{Isabella and Jean Galbreath}
+
+$p{
+Likely sisters as they got married on the same day, and had a child baptized on the same day.
 }
 
 $p{
-$elink[https://www.familysearch.org/en/tree/person/details/L46D-9YK]{Robert Galbreath} (may be the same as previous)
+$child-link[galbreath-isobell-parks]{Isobel Galbreath}}
+}
+$ul{
+$li{1759 m. John Park, Revolutionary War veteran.}
+$li{1760 bp. William Park}
+$li{1762 bp. Agnes Park}
+$li{1764 bp. James Park}
+$li{1770 bp. Robert Park}
+$li{1772 bp. Margaret Park}
+}
+
+$p{
+$elink[https://www.familysearch.org/en/tree/person/details/MR5H-66X]{Jean Galbreath}
+}
+$ul{
+$li{1759 m. $elink[https://www.familysearch.org/en/tree/person/details/MR5H-66S]{Peter Wilson}}
+$li{1764 bp. Agnes Wilson}
+$li{1772 bp. Jean Wilson}
+$li{1773 bp. Elizabeth Wilson}
+}
+
+$h3{
+John Galbreath and Widow Galbreath.
+}
+$p{
+John is mentioned 3 three times between 1751-1752, with the last being 14 Feb 1792, and then never again. Then Widow Galbreath appears in late 1753 and is mentioned multiple times until 1768.  They both appear to be 7 miles from Rev's home base of Middle Octoraro.  Also 7 miles away is Isabella and Jean Galbreath (and their families).  In 1764, one stop mentioned the Widow and both families.  
+}
+$p{No probates found for John.}
+$p{Is John the father or brother of Isbella and Jean?}
+
+$h3{Ann Galbreath and Thomas Kennedy}
+
+$p{
+1768: $elink[https://www.familysearch.org/en/tree/person/details/MR53-8NR]{Ann Galbreath} married  T. Kennedy -- This FS entry is stub, but very likely a duplicate of $elink[https://www.familysearch.org/en/tree/person/details/GQM4-YR5]{Ann Kilbreath} and $elink[https://www.familysearch.org/en/tree/person/details/GMB1-86Q]{Ann}. See FindAGrave for $elink[https://www.findagrave.com/memorial/178523975/thomas_kennedy]{Thomas Kennedy} and $elink[https://www.findagrave.com/memorial/38999585/ann_kennedy]{Ann Kennedy}.
+}
+
+$h3{Robert Galbreath and Elizabeth Cumins}
+
+$p{
+$elink[https://www.familysearch.org/en/tree/person/details/L46D-9YK]{Robert Galbreath} (may as the Robert listed in Unknowns). 
 }
 $ul{
 $li{1756 m. $elink[https://www.familysearch.org/en/tree/person/details/L46D-RC4]{Elizabeth Camins/Cummings}}
 $li{1759 bp. $elink[https://www.familysearch.org/en/tree/person/details/KNWJ-RRD]{Samuel Galbreath}}
 }
+
+$h3{Unknowns}
 
 $p{
 Henry Galbreath - nothing found!
@@ -52,6 +98,11 @@ $li{1763 bp. Robert}
 $li{1765 bp. Margaret}
 }
 
+$p{Robert Galbreath - $elink[https://www.familysearch.org/en/tree/person/details/GKDS-1CZ]{Possible match on FamilySearch}}
+$ul{
+$li{1751 bp. $elink[https://www.familysearch.org/en/tree/person/details/9QKW-2T2]{Hannah Galbreath} (Found empty entry, added baptism and father).}
+}
+
 $p{
 William Galbreath:
 }
@@ -59,53 +110,17 @@ $ul{
 $li{1756 bp. James (adopted)}
 }
 
-$p{$elink[https://www.familysearch.org/en/tree/person/details/MR54-YMZ]{William Galbreath} (may be the same as previous)
+$p{$elink[https://www.familysearch.org/en/tree/person/details/MR54-YMZ]{William Galbreath} (may be the same as previous).  No activity on FamilySearch since 2012.
 }
 $ul{
 $li{1761 m. $elink[https://www.familysearch.org/en/tree/person/details/MR54-YMY]{Jean Lawry}}
 $li{1762 bp. Agnes}
 }
-
 $p{
-John Galbreath - only referenced
-}
-
-$p{
-James Galbreath - only referenced
+James Galbreath - only referenced once
 }
 $p{
-Mary Galbreath - only referenced
-}
-$p{
-Widow Calbreath - only reference and referred this way as "Widow."  No first name.
-}
-
-$p{
-John Park
-}
-$ul{
-$li{1759 m. $child-link[galbreath-isobell-parks]{Isobel Calbreath}}
-$li{1760 bp. William Park}
-$li{1762 bp. Agnes Park}
-$li{1764 bp. James Park}
-$li{1770 bp. Robert Park}
-$li{1772 bp. Margaret Park}
-}
-
-$p{$elink[https://www.familysearch.org/en/tree/person/details/MR5H-66S]{Peter Wilson}}
-}
-$ul{
-$li{1759 m. $elink[https://www.familysearch.org/en/tree/person/details/MR5H-66X]{Jean Galbreath}}
-$li{1764 bp. Agnes Wilson}
-$li{1772 bp. Jean Wilson}
-$li{1773 bp. Elizabeth Wilson}
-}
-
-and
-$ul{
-$li{
-1768: $elink[https://www.familysearch.org/en/tree/person/details/MR53-8NR]{Ann Galbreath} married  T. Kennedy -- This FS entry is stub, but very likely a duplicate of $elink[https://www.familysearch.org/en/tree/person/details/GQM4-YR5]{Ann Kilbreath} and $elink[https://www.familysearch.org/en/tree/person/details/GMB1-86Q]{Ann}.  See FindAGrave for $elink[https://www.findagrave.com/memorial/178523975/thomas_kennedy]{Thomas Kennedy} and $elink[https://www.findagrave.com/memorial/38999585/ann_kennedy]{Ann Kennedy}.
-}
+Mary Galbreath - only referenced once
 }
 
 $h2{Quotations}
@@ -115,15 +130,19 @@ $i{page 134}, 1751 Sep 8, Middle Octoraro Society: ‘Sabbath—Rode 7 miles to 
 }
 
 $blockquote{
-$i{page 135} 1751 Oct 9, Middle Octoraro Society: Rode 7 miles to Jo. Calbreath’s.
+$i{page 135} 1751 Oct 9, Middle Octoraro Society: Rode 7 miles to $b{Jo. Calbreath’s}.
 }
 
 $blockquote{
-$i{page 135} 1752 Feb 14, Middle Octoraro Society: Rode 8 miles to Sam Jacksons and Robert Loughheads—held session.”” (From Jo Calbreath’s.
+$i{page 135} 1752 Feb 14, Middle Octoraro Society: Rode 8 miles to Sam Jacksons and Robert Loughheads—held session.”” (From $b{Jo Calbreath’s}).
 }
 
 $blockquote{
-Mar 30, 1754: Rode 16 miles to and from Wm. Calbreath—preached psalm 126, examined 50 persons, and $b{baptized James adopted son to William Calbreath} — give all praise to God. (From Robert Lochhead’s.)
+$i{page 126} 1753 Dec 12, Licking Creek and Cove Society: Rode 4 miles to $b{Widow Calbreath’s}—conversed with Seceder, etc. (From James Wilson's)
+}
+
+$blockquote{
+$i{page 190}, 1754 May 30: Rode 16 miles to and from $b{Wm. Calbreath} — preached psalm 126, examined 50 persons, and $b{baptized James adopted son to William Calbreath} — give all praise to God. (From Robert Lochhead’s.)
 }
 
 $blockquote{
@@ -131,14 +150,18 @@ $i{page 139}, 1754 Oct 20, Middle Octoraro Society: Sabbath. Rode 6miles. (From 
 }
 
 $blockquote{
+$i{page 210}, 1756 Jan 28, Lower Chanceford Society: Rode 6 miles to $b{Widow Calbreath’s}, preached psalm 30: 4-10 and preached Job 13: 16 and baptized Samuel son to James Swan g.a. (From John Ross’s.)
+}
+
+$blockquote{
 $i{page 141}, 1756 Apr 6, Middle Octoraro Society: Rode 11 miles to J. Duncan’s after $b{marrying Robert Calbreath and Elizabeth Camin. (Cumings?)}
 }
 
 $blockquote{
-$i{page 141}, 1756 May 12, Middle Octoraro Society: Rode 4 miles to widow Calbreath’s in a heavy thunder gust etc.’” (From James Wilson’s.)
+$i{page 141}, 1756 May 12, Middle Octoraro Society: Rode 4 miles to $b{Widow Calbreath’s} in a heavy thunder gust etc.’” (From James Wilson’s.)
 }
 $blockquote{
-$i{page 143}, 1758 Feb 14, Middle Octoraro Society: Rode 8 miles to G. McGown, R. A’s and W. Calbreath’s.”
+$i{page 143}, 1758 Feb 14, Middle Octoraro Society: Rode 8 miles to G. McGown, R. A’s and $b{W. Calbreath’s}.
 }
 
 $blockquote{
@@ -153,7 +176,7 @@ $blockquote{
 $i{page 146}, 1759 Apr 22, Middle Octoraro Society: Sabbath—preached psalm 133. Lectured Micah 7: 3-1—visited and preached James 4:10 g.a. and baptized Sam, son  $b{baptized Sam, son to Robert Calbreath}
 }
 $blockquote{
-$i{page 148}, 1760 May 11, Middle Octoraro Society: Sabbath—preached 149: 7-L, lectured Habakkuk 2: 5-9 preached Romans 8:30 g.a. Baptized Wm. son to John Park and Thomas son to James Ramsay.” (At home.)
+$i{page 148}, 1760 May 11, Middle Octoraro Society: Sabbath—preached 149: 7-L, lectured Habakkuk 2: 5-9 preached Romans 8:30 g.a. $b{Baptized Wm. son to John Park} and Thomas son to James Ramsay. (At home.)
 }
 
 $blockquote{
@@ -161,27 +184,42 @@ $i{page 150}, 1761 Mar 27, Middle Octoraro Society: Rode 4 miles home after sess
 }
 
 $blockquote{
-$i{page 150}, 1761 June 8, Middle Octoraro Society: rode 36 miles to and from John Scotts; $b{married} Thomas Mitchel and Sarah Scott; also $b{Wm. Calbreath and Jean Lowry}.” (From home.)
+$i{page 150}, 1761 June 8, Middle Octoraro Society: rode 36 miles to and from John Scotts; $b{married} Thomas Mitchel and Sarah Scott; also $b{Wm. Calbreath and Jean Lowry}. (From home.)
+}
+$blockquote{
+$i{page 151}, 1761 Dec 2, Middle Octoraro Society: Rode 11 miles R. L’s. and $b{widow Galbreaths} — Thos. (From home.)
+}
+$blockquote{
+$i{page 188}, 1762 May 7, Octoraro Creek: Rode 16 miles to and from Robert Andrews; preached psalm 84: 7—lectured Hebrews 4: 9-12 and $b{baptized} Rebecca to Isaac Walker, $b{Jean to Peter Wilson}, and $b{Agnes daughter to John Park}. (From home.)
 }
 
 $blockquote{
-$i{page 188}, 1762 May 7, Octoraro Creek: Rode 16 miles to and from Robert Andrews; preached psalm 84: 7—lectured Hebrews 4: 9-12 and baptized Rebecca to Isaac Walker, Jean to Peter Wilson, and Agnes daughter to John Park. (From home.)
+$i{page 90}, 1762 Oct 12, Big Spring (near Newville): Preached psalm 69:13-16; lectured Mark 10:47—L and $b{baptized} Jesse son to Charles Kilgore and $b{Agnes daughter to Wm. Calbreath}. (At Charles Kilgore’s.)
 }
 
 $blockquote{
-1762 Oct 12, : Preached psalm 69:13-16; lectured Mark 10:47—L and $b{baptized} Jesse son to Charles Kilgore and $b{Agnes daughter to Wm. Calbreath}. (At Charles Kilgore’s.)
+$i{page 154}, 1763 Jun 6, Middle Octoraro Society: Rode 16 miles to $b{Widow Galbreath’s} and home. Preached psalm 119: 97—catechized 60 persons and baptized Joseph, son to John Walker.
 }
 
 $blockquote{
-1763 Sep 18: Sabbath—preached psalm 55: 20. Lectured Zechariah 14: 20-L and preached Isaiah 27: 9 and $b{baptized Robert son to Henry Calbreath}  —give all praise to God. (At David Dunwoody’s.)
+$i{page 75}, 1763 Sep 18, Marsh Creek Society (Rock Creek): Sabbath—preached psalm 55: 20. Lectured Zechariah 14: 20-L and preached Isaiah 27: 9 and $b{baptized Robert son to Henry Calbreath}  —give all praise to God. (At David Dunwoody’s.)
 }
                     
 $blockquote{
-$i{page 192}, 1764 Jun 5, Pequea Sociey: rode 24 miles Widow Calbreath’s—preached psalm 91: 5 catechized 43 and baptized James, son to John Park and Agnes, daughter to Peter Wilson. (From home.)
+$i{page 192}, 1764 Jun 5, Pequea Sociey: rode 24 miles $b{Widow Calbreath’s} — preached psalm 91:5 catechized 43 and $b{baptized James, son to John Park and Agnes, daughter to Peter Wilson}. (From home.)
 }
 
 $blockquote{
-1765 Oct 27: Sabbath preached psalm 86: 11-15; lectured John 14: 1-2, preached Hebrews 9-L, and $b{baptized} Francis, son to David Frazer; $b{Margaret to Henry Calbreath} and Sarah, daughter to John Hodge, g.a.—cold day. (At David Dunwoody’s.)
+$i{page 76}, 1765 Oct 27, Marsh Creek Society (Rock Creek): Sabbath preached psalm 86: 11-15; lectured John 14: 1-2, preached Hebrews 9-L, and $b{baptized} Francis, son to David Frazer; $b{Margaret to Henry Calbreath} and Sarah, daughter to John Hodge, g.a.—cold day. (At David Dunwoody’s.)
+}
+
+$blockquote{
+$i{page 100}, 1765 Nov 13, Shippensburg: rode 30 miles—Shipp. $b{W. Calb.}, J. Brown’s and
+Ch. Kilgore’s—preached Psalm 19: 12—-L and lectured Mark 10:46—-L and baptized Daniel son to J. C.
+}
+
+$blockquote{
+$i{page 121}, 1767 Aug 24, Rocky Spring Society: rode 3 miles to and from $b{W. Cal.} 25th.—preached psalm 119: 113; baptized Elizabeth daughter to James Anderson; catechized about 40 persons. (From James Mitchel’s. )
 }
 
 $blockquote{
@@ -189,27 +227,27 @@ $i{page 162}, 1768 Oct 31, Middle Octoraro Society: rode 14 miles to and from Ca
 }
 
 $blockquote{
-$i{Page 163}, 1768 Dec 22, Middle Octoraro Society: rode 3 miles after preaching psalm 4: 6-L; lectured Genesis 18: 16-19 and baptized Helen daughter to Alexander Ewing, o.a. praise God.’ (From $b{Widow Calbreath}’s—then 10 miles home on 23rd.)
+$i{page 163}, 1768 Dec 22, Middle Octoraro Society: rode 3 miles after preaching psalm 4: 6-L; lectured Genesis 18: 16-19 and baptized Helen daughter to Alexander Ewing, o.a. praise God.’ (From $b{Widow Calbreath}’s—then 10 miles home on 23rd.)
 }
 
 $blockquote{
-$i{Page 79}, 1770 May 20, Marsh Creek Society: Sabbath—preached 5: 1-4; lectured Isaiah 65: 1-9; preached 41: 10 and baptized Josiah to Alexander Ker, Robert to John Park and James to John Reddick; give all praise to God. Rode 8 miles to sisters.
+$i{page 79}, 1770 May 20, Marsh Creek Society: Sabbath—preached 5: 1-4; lectured Isaiah 65: 1-9; preached 41: 10 and $b{baptized} Josiah to Alexander Ker, $b{Robert to John Park} and James to John Reddick; give all praise to God. Rode 8 miles to sisters.
 }
 
 $blockquote{
-$i{Page 80-81}, 1772 Aug 31, Marsh Creek Society: Preached 85: 6—discoursed Acts 9:6; x x—baptized Janet and Robert (to T. Cochran and and his wife Margaret) and Margaret daughter to John Parks, g.a. rode 12 miles to T. Cross’; very tired.” (At David Dun woody’s.)
+$i{page 80-81}, 1772 Aug 31, Marsh Creek Society: Preached 85: 6—discoursed Acts 9:6; x x—$b{baptized} Janet and Robert (to T. Cochran and and his wife Margaret) and $b{Margaret daughter to John Parks}, g.a. rode 12 miles to T. Cross’; very tired.” (At David Dun woody’s.)
 }
 
 $blockquote{
-$i{Page 169}, 1773 Jun 2, Middle Octoraro Society: rode 10 miles home—preached. Exercised Ezra 36-25 and baptized Elizabeth, daughter to Peter Wilson, g.a. CCGA,
+$i{page 169}, 1773 Jun 2, Middle Octoraro Society: rode 10 miles home—preached. Exercised Ezra 36-25 and $b{baptized Elizabeth, daughter to Peter Wilson}, g.a. CCGA,
 }
 
 $blockquote{
-1779 Apr 16: rode 22 miles to Mary Calb. S. D. W. Wilson’s. (From home?)
+1779 Apr 16: rode 22 miles to $b{Mary Calb.} S. D. W. Wilson’s. (From home?)
 }
 
 $blockquote{
-$i{Page 178}, 1781 Jan 31, Middle Octoraro Society: rode 10 miles to James Galbreath’s, Robert’s Mills, home.
+$i{Page 178}, 1781 Jan 31, Middle Octoraro Society: rode 10 miles to $b{James Galbreath’s}, Robert’s Mills, home.
 }
 
 $blockquote{
