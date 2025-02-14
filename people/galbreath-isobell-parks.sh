@@ -4,8 +4,10 @@ external {
     familysearch LKTM-BS2
     wikitree Galbraith-2637
 }
+tags USA:Pennsylvania:Lancaster
+
 note {
-    Often claimed to be the sister of $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}, daughter of $child-link[/galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill, all of Campbeltown.  This is impossible since it implies Isobell got married at age 12.
+    Often claimed to be the sister of $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}, daughter of $child-link[/galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill, all of Campbeltown.  This is impossible since it implies Isobell got married at age 12.  Also we know Alexander was in correspondence with his mother in Scotland, implying they did not immigrate.
 }
 note {
     Sometimes confused with $elink[https://www.familysearch.org/en/tree/person/details/2DXJ-N71]{Isabella Welch} who married William Galbreath.
@@ -14,7 +16,7 @@ note {
     Probably has a sister Jean.  They got married on the same day, and had children baptized on the same day.
 }
 note {
-    Strong possibility they are daughters of $elink[https://www.familysearch.org/en/tree/person/details/K8Q2-QQK]{Robert Calbreath} and Jean Calbreath from Ayr.  Jean b. 1723, Isabell b. 1726.
+    Possible they are daughters of $elink[https://www.familysearch.org/en/tree/person/details/K8Q2-QQK]{Robert Calbreath} and Jean Calbreath from Ayr.  Jean b. 1723, Isabell b. 1726.  No immigration found however, and evidence their brother John stayed in Ayr.
 }
 
 note {

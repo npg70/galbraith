@@ -6,6 +6,10 @@ external {
     familysearch LCF9-R1S
     ancestry tree/12079504/person/143949
 }
+note {
+    Confused with $child-link[galbreath-john-1736-mary-ann]{John Galbreath}, b. 1736 in Pennslyvania.
+}
+
 partner {
     name Agnes Langwill
     gender female

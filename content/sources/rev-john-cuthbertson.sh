@@ -65,7 +65,7 @@ $h3{
 John Galbreath and Widow Galbreath.
 }
 $p{
-John is mentioned 3 three times between 1751-1752, with the last being 14 Feb 1792, and then never again. Then Widow Galbreath appears in late 1753 and is mentioned multiple times until 1768.  They both appear to be 7 miles from Rev's home base of Middle Octoraro.  Also 7 miles away is Isabella and Jean Galbreath (and their families).  In 1764, one stop mentioned the Widow and both families.  
+John is mentioned three times between 1751-1752, with the last being 14 Feb 1792, and then never again. Then Widow Galbreath appears in late 1753 and is mentioned multiple times until 1768.  They both appear to be 7 miles from Rev's home base of Middle Octoraro.  Also 7 miles away is Isabella and Jean Galbreath (and their families).  In 1764, one stop mentioned the Widow and both families.  
 }
 $p{No probates found for John.}
 $p{Is John the father or brother of Isbella and Jean?}
@@ -77,6 +77,10 @@ $p{
 }
 
 $h3{Robert Galbreath and Elizabeth Cumins}
+
+$p{
+Robert has some activity on the matching Family Search page, and appears to have descendants.
+}
 
 $p{
 $elink[https://www.familysearch.org/en/tree/person/details/L46D-9YK]{Robert Galbreath} (may as the Robert listed in Unknowns). 

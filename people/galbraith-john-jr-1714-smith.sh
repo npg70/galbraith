@@ -1,8 +1,8 @@
 name John Galbraith
 gender male
-tags USA:Pennslyvania:Lancaster Ireland 'Daughtered Out'
+tags USA:Pennsylvania:Lancaster Ireland 'Daughtered Out'
 birth -date 'about 1714'
-death -date 'about 1768' -ref john-death
+death -date 'about 1768' -location 'lancaster,pennsylvania,usa' -ref john-death
 note {
     FamilySearch for this line is mostly unusable.
 }
