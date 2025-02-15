@@ -7,7 +7,10 @@ external {
     ancestry tree/12079504/person/143949
 }
 note {
-    Confused with $child-link[galbreath-john-1736-mary-ann]{John Galbreath}, b. 1736 in Pennslyvania.
+    Confused with $child-link[galbreath-john-1736-mary-ann]{John Galbreath}, b. 1736 in Pennsylvania.
+}
+note {
+    Confused with $child-link[galbraith-john-1730-unknown]{John Galbreath}, of Aleghany, Pennsylvania, and unknown spouse.
 }
 
 partner {

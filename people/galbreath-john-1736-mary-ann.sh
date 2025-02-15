@@ -59,7 +59,12 @@ partner {
 
     child {
     name Mary Galbreath
+        birth -date 'about 1755'
         gender female
+        partner {
+            name _____ Campbell
+            gender male
+        }
     }
     child {
         name William Galbreath
@@ -93,16 +98,28 @@ partner {
         name Hannah Galbreath
         gender female
         birth -date 'about 1763'
+        partner {
+            name _____ Campbell
+            gender male
+        }
     }
     child {
         name "Mary Ann" Galbreath
         gender female
         birth -date 'about 1765'
+        partner {
+            name _____ Wilson
+            gender male
+        }
     }
     child {
         name Elizabeth Galbreath
         gender female
         birth -date 'about 1767'
+        partner {
+            name _____ Campbell
+            gender male
+        }
     }
     child {
         name John Galbreath
