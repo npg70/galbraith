@@ -14,37 +14,40 @@ parent {
 }
 
 note {
-    Often listed with death of 1800, or 18-aug-1800, which appears to be a misreading of the probate documents.
+    Often listed with death of 1800, which appears to be a misreading of the probate documents.
 }
 note {
-    Confused with $child-link[galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill of Campbeltown.
+    Often listed with a death of 18 Aug 1800, which is a confusion with $child-link[galbraith-john-1730-unknown]{John Galbraith} and Agnes of Aleghany, PA.
+}
+
+note {
+    Confused with $child-link[galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill of Campbeltown, Argyll, Scotland.
 }
 
 body {
 
 Probabte of John Galbreath$ref[probate] lists his wife and nine children.
 
-$blockquote{$pre{
+$blockquote{
 Will of John Galbreath 383
 
-I John Galbreath of Donegal Township and Westmoreland Country and State of Pennsylvania....
+I John Galbreath of Donegal Township and Westmoreland Country and State of Pennsylvania ...
 
 beloved wife Mary Ann Galbreath ...
 my oldest daughter Mary Campbell ...
 my oldest son William Galbraith ...
 my second son Andrew ...
-my second daughter Anne McCann mark or Agnes McDonal [ unclear what this means ]
-my third daughter Hannah Campbell
-my fourth daughter Many Ann Wilson (page 239)
-my fifth daughter Elizabeth Campbell
-my son John Galbraith
-my son James Galbraith
-appoint Robert Campbell and James Galbreath to be sole executors
+my second daughter Anne McCann mark or Agnes McDonald
+my third daughter Hannah Campbell ...
+my fourth daughter Many Ann Wilson (page 239) ...
+my fifth daughter Elizabeth Campbell ...
+my son John Galbraith ... 
+my son James Galbraith ... 
+appoint Robert Campbell and James Galbreath to be sole executors ...
 
 Recorded 13 April 1809
 Recorded 27 June 1809
-
-}}
+}
 
 
 }

@@ -24,12 +24,9 @@ partner {
     name James McNair
     baptism -date 13-jan-1790 -location campbeltown
     death -date 1853 -location 'Cincinnati, Hamilton, Ohio, USA'
-
+    parent mcnair-archibald-1753-mitchell
     marriage -date 21-apr-1817 -location killean -ref mcnair-marriage
 
-    body {
-        He was the son of Archibald McNair and Margaret Mitchell.
-    }
     child {
         name Alexander McNair
         birth -date 16-feb-1818

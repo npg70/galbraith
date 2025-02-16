@@ -47,15 +47,9 @@ partner {
             name Isobel Clark
         }
     }
-    child {
-        name Archibald McNair
-        baptism -date 19-nov-1753 -location campbeltown
-        death -date 03-aug-1827 -location 'Black Cape, New Richmond, Bonaventure, Quebec, Canada'
-        partner {
-            name  Margaret Jean Mitchell
-            marriage -date 02-jul-1784 -location campbeltown
-        }
-    }
+
+    child mcnair-archibald-1753-mitchell
+
     child {
         name Janet McNair
         gender female
