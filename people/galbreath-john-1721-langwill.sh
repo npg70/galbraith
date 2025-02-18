@@ -12,6 +12,9 @@ note {
 note {
     Confused with $child-link[galbraith-john-1730-unknown]{John Galbreath}, of Aleghany, Pennsylvania, and unknown spouse.
 }
+note {
+    Confused with $child-link[galbraith-alexander-1720-miller]{Alexander Galbraith}, of Bucks, Pennsylvania, and "Nancy Agnes" Miller, who had a son Alexander Galbraith
+}
 
 partner {
     name Agnes Langwill

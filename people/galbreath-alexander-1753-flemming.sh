@@ -1,6 +1,6 @@
 name Alexander Galbreath
 gender male
-tags Argyll:Campbeltown Immigrant:USA:Pennsylvania
+tags Argyll:Campbeltown Immigrant:USA:Pennsylvania USA:Pennsylvania:York
 external {
     familysearch MYW9-L2B
     findagrave 52621095
@@ -9,10 +9,20 @@ external {
 baptism -date 25-jun-1753 -location campbeltown -ref alex1753-baptism
 death -date 1819 -location 'Delta, York, Pennsylvania, USA' -name 'Slate Ridge Cemetery' -ref alex1753-burial
 note {
+    Confused with $child-link[galbraith-alexander-1720-miller]{Alexander Galbraith} and Agnes Miller of Bucks County, Pennsylvania.
+}
+note {
+    Confused with $child-link[galbraith-alexander-1749-lyle]{Alexander Galbraith} and Rosannah Lyle of Bucks County, Pennsylvania, USA
+}
+
+note {
     Ancestry Tree by user $elink[https://www.ancestry.com/profile/0774f420-0006-0000-0000-000000000000]{Alex Galbreath} for $elink[https://www.ancestry.com/family-tree/person/tree/165037717/person/272146062803/facts]{Alexander Galbreath}
 }
 note {
     Ancestry Tree by user $elink[https://www.ancestry.com/profile/0624a656-0006-0000-0000-000000000000]{Gregory Walters} for $elink[https://www.ancestry.com/family-tree/person/tree/152497341/person/412069661054/facts]{Alexander Galbreath}
+}
+body {
+    Immigration in 1785 (landed in Baltimore). Moved to York County, PA in 1796.
 }
 partner {
     name Agnes Flemming
