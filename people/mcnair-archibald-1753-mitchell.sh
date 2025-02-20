@@ -1,6 +1,6 @@
 name Archibald McNair
 gender male
-tags Argyll:Campbeltown Immigrant:Canada:Quebec
+tags Argyll:Campbeltown
 external {
     familysearch LJNB-3G4
     wikitree McNair-1083
@@ -9,12 +9,8 @@ external {
 note {
     Confused with $child-link[mcnair-archibald-1759-mitchell]{Archibald McNair} who married $i{Margaret} Mitchell.
 }
-body {
-    Immigrated to Quebec in 1821.
-}
 
 baptism -date 19-nov-1753 -location campbeltown -ref baptism
-death -date 03-aug-1827 -location 'Black Cape, New Richmond, Bonaventure, Quebec, Canada'
 partner {
    name Jean Mitchell
    marriage -date 02-jul-1784 -location campbeltown -ref mitchell-marriage
@@ -118,7 +114,7 @@ partner {
         name Mary McNair
         gender female
         birth -date 15-sep-1800
-        baptism -date 16-sep-1800 -location campebeltown
+        baptism -date 16-sep-1800 -location campbeltown
         death -date 21-nov-1863 -location campbeltown
         partner {
             name Robert Harvey
