@@ -21,6 +21,11 @@ $li{Formed A&A Galbraith, power loom company with his brother Archibald}
 
 partner {
     name Margaret Bogle Scott
+    gender female
+    parent {
+        name William Scott
+        gender male
+    }
     marriage -date 21-feb-1826 -location 'glasgow' -ref marriage
     birth -date 1806
     death -date 8-aug-1850
@@ -65,14 +70,25 @@ partner {
 
 footnotes {
     andrew1799-baptism {
-        $opr-ref-link[b-1799-507-000-0040-0180 "Andrew Galbreath"]
+        $opr-ref-link[b-1799-507-000-0040-0180 "Andrew Galbreath"]{
+            Andrew | Archibald Galbreath + Jean Corbet had a lawful
+            son born 6th Baptized the 18th the Childs name Andrew
+        }
     }
     andrew1799-death {
         $sp-ref-link[d-1885-559-03-0211 0071 "Andrew Galbraith"]
     }
     marriage {
-        $opr-ref[m-1826-644-001-0400-0397 "Andrew Galbraith" "Margaret Bogle/Scott"];
-        $opr-ref[m-1826-622-000-0160-0155 "Andrew Galbreath" "Margaret Bogle/Scott"]
+        $opr-ref-link[m-1826-644-001-0400-0397 "Andrew Galbraith" "Margaret Bogle/Scott"]{
+            Galbraith | Andrew Galbraith Manufacture in Glasgow residing in Barony +
+           Margaret Bogle Scott residing in Glasgow D. of the late William Scott, 
+          Merchant in Port Glasgow Married 21st February by M. James Marshall One
+         of the Ministers of Glasgow. 
+        }
+        $opr-ref-link[m-1826-622-000-0160-0155 "Andrew Galbreath" "Margaret Bogle/Scott"]{
+            Galbreath | 19 | Andrew Galbreath Manufacture in this Parish + 
+            Margaret Bogle Scott in the City of Glasgow.
+        }
     }
     janet1827-baptism {
         $opr-ref[b-1827-622-000-0080-0273 "Janet Galbreath"]
