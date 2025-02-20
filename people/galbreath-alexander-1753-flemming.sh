@@ -21,6 +21,9 @@ note {
 note {
     Ancestry Tree by user $elink[https://www.ancestry.com/profile/0624a656-0006-0000-0000-000000000000]{Gregory Walters} for $elink[https://www.ancestry.com/family-tree/person/tree/152497341/person/412069661054/facts]{Alexander Galbreath}
 }
+note {
+    The parents fo Agnes were originally listed as $child-link[fleeming-daniel-1721-johnstone]{Daniel Fleeming} and Isabel Johnstone.
+}
 body {
     Immigration in 1785 (landed in Baltimore). Moved to York County, PA in 1796.
 }
