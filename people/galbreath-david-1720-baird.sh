@@ -8,6 +8,12 @@ tags Argyll:Campbeltown 'Dead End'
 note {
     No additional information on anyone found.  Either moved out, or died out.
 }
+note { 
+    There is another $child-link[galbreath-david-1718-langwill]{David Galbreath}, b. 1718
+}
+note { 
+    There is another $child-link[galbreath-david-1719-langwill]{David Galbreath}, b. 1719
+}
 partner {
     name Martha Baird
     gender female
