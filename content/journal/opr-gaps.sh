@@ -61,3 +61,35 @@ $li{$child-link[galbreath-janet-1752-armour]{Janet Galbreath} and James Armour}
 $li{$child-link[harvey-andrew-1749-orr]{Andrew Harvey} and Margaret Orr}
 $li{$child-link[harvey-james-1751-mcnair]{James Harvey} and Jean McNair}
 }
+
+$hr{}
+$h2{Campbeltown Marriages, gap 1793}
+
+$p{
+Early marriages for Campbeltown town were recorded in the 0020 and 0050 Volumes.
+}
+$p{
+The 507-000-0050 Volume lists marriages from before 1781 ( $opr-page[m-1781-507-000-0050-0015] )
+until at least 1818 ( $opr-page[m-1818-507-000-0050-0124] ), on 131 pages.  Currently there are no known gaps.
+}
+
+$p{
+Volume 0020 lists marriages starting before 1777 ( $opr-page[m-1777-507-000-0020-0156] ).  The last entry is dated 23-Jan-1792 on $opr-page[m-1792-507-000-0020-0175].  The next page only says marriages and is blank.  After more blank pages there is a single entry for 1798.
+}
+
+$csvtable{
+Year,Galbraith Marriages
+1770,12
+1780,14
+1790,9
+1800,14
+1810,17
+}
+$p{
+The 0040 Volume is just births 1776-1819, 504 pages.
+}
+$p{
+The 0030 Volume covers nirths and marriages 1728-1776. Only 7 Galbraith births found so far.
+}
+
+
