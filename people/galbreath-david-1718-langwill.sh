@@ -1,4 +1,5 @@
 name David Galbreath
+gender male
 tags Argyll:Campbeltown
 baptism -date 2-oct-1718 -location campbeltown -ref david1718-baptism
 
@@ -14,14 +15,17 @@ note {
 
 partner {
     name Mary Langwill
+    gender female
     marriage -date 'apr-1742' -location campbeltown -ref langwill-marriage
 
     child {
         name Isobell Galbreath
+        gender female
         baptism -date 'may 1743' -location campbeltown -ref isobell1743-baptism
     }
     child {
         name Mary Galbreath
+        gender female
         baptism -date 7-sep-1746 -location campbeltown -ref mary1746-baptism
     }
     child galbreath-peter-1749-mcmurchy
