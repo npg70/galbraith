@@ -6,12 +6,14 @@ external {
     wikitree Galbraith-1784
 }
 note {
-Indexed under McNair since I'm not sure who Janet is yet?
+Indexed under McNair since the origins of Janet are not clear.
 }
 parent {
     name Robert McNair
+    gender male
     partner {
         name Mary Picken
+        gender female
     }
 }
 
@@ -32,6 +34,7 @@ partner {
     marriage -date 01-jul-1744 -location campbeltown -ref janet-marriage
     child {
         name James McNair
+        gender male
         baptism -date 16-nov-1746 -location campbeltown
         death -date 28-jun-1778 'monmouth,new jersey,usa'
         body {
@@ -41,10 +44,12 @@ partner {
     child mcnair-robert-1749-johnston
     child {
         name John McNair
+        gender male
         baptism -date 10-mar-1751 -location campbeltown
         death -date 1801
         partner {
             name Isobel Clark
+            gender female
         }
     }
 
@@ -58,10 +63,12 @@ partner {
     }
     child {
         name Jean McNair
+        gender female
         baptism -date 25-feb-1758 -location campbeltown
         death -date 07-jul-1831
         partner {
             name Robert Smith
+            gender male
             birth -date 07-dec-1749
             baptism -date 08-dec-1749 -location campbeltown
             death -date 21-jan-1829 -location campbeltown
