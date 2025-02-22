@@ -64,26 +64,12 @@ partner {
             gender female
         }
     }
-    child {
-        name Archibald McNair
-        gender male
-        birth -date 05-mar-1760 -location campbeltown
-        death -date 1824 -location 'Black Cape, New Richmond, Bonaventure, Quebec, Canada'
-        partner {
-            name Mary Beith
-            gender female
-        }
-    }
+    child mcnair-archibald-1759-mitchell
     child {
         name Robert McNair
         gender male
-        birth -date 05-mar-1760 -location campbeltown
+        baptism -date 05-mar-1760 -location campbeltown
         death -note dy
-    }
-    child {
-        name Nancy McNair
-        gender female
-        birth -date 1760 -location campbeltown
     }
     child {
         name Robert McNair

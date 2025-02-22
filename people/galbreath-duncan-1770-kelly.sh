@@ -1,4 +1,5 @@
 name Duncan Galbreath
+gender male
 birth -date "about 1770"
 tags "Argyll:Killean and Kilchenzie"
 external {
@@ -6,13 +7,12 @@ external {
 }
 partner {
     name Mary Kelly
+    gender female
     birth -date 'about 1769'
     marriage -date 26-mar-1794 -location 'killean and kilchenzie' -ref kelly-marriage
     death -date 25-nov-1866 -location 'killean and kilchenzie' -ref kelly-death
-    child {
-        name Margaret Galbreath
-        baptism -date 15-dec-1795 -location 'killean and kilchenzie' -ref margaret1795-baptism
-    }
+    child galbraith-margaret-1795-mcnair
+
     child {
         name Sarah Galbreath
         baptism -date 16-nov-1798 -location 'killean and kilchenzie' -ref sarah1798-baptism
@@ -51,9 +51,6 @@ footnotes {
     }
     kelly-death {
         $sp-ref-link[d-1866-519-00-0019 0007 "Mary Galbraith"]
-    }
-    margaret1795-baptism {
-        $opr-ref[b-1795-519-000-0010-0111 "Margaret Galbreath"]
     }
     sarah1798-baptism {
         $opr-ref[b-1798-519-000-0010-0131 "Sarah Galbreath"]

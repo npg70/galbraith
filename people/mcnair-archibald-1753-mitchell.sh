@@ -4,12 +4,14 @@ tags Argyll:Campbeltown
 external {
     familysearch LJNB-3G4
     wikitree McNair-1083
-    
+    ancestry tree/12079504/person/-339238061
 }
 note {
     Confused with $child-link[mcnair-archibald-1759-mitchell]{Archibald McNair} who married $i{Margaret} Mitchell.
 }
-
+body {
+    Farmer at Chisken/Shiken
+}
 baptism -date 19-nov-1753 -location campbeltown -ref baptism
 partner {
    name Jean Mitchell
@@ -26,6 +28,10 @@ partner {
         gender male
         baptism -date 17-jun-1785 -location campbeltown
         death -date 04-feb-1861 -location 'McDonough, Illinois,USA'
+        external {
+            findagrave 93815334
+            ancestry tree/12079504/person/282657231817
+        }
         partner {
             name Janet Smith
             gender female
@@ -63,7 +69,8 @@ partner {
     child {
         name Janet McNair
         gender female
-        baptism -date 08-jan-1793 -location campbeltown
+        birth -date 06-jan-1793
+        baptism -date 08-jan-1793 -location campbeltown -ref janet1793-baptism
         death -date 04-sep-1849 -location clermont,ohio,usa
         partner {
             name John Porter
@@ -78,21 +85,16 @@ partner {
     child {
         name John McNair
         gender male
-        baptism -date 11-dec-1794 -location campbeltown
-        death -date 1876 -location Andes,Delaware,New York,USA
-        partner {
-            name Mary McKenzie
-            gender female
-        }
+        baptism -date 11-dec-1794 -location campbeltown -ref john1794-baptism
         body {
-            May have married in Quebec in 1824
+            Confused with $child-link[mcnair-john-1793-mckenzie]{John McNair}, son of $child-link[mcnair-archibald-1759-mitchell]{Archibald McNair} and $i{Margaret} Mitchell.
         }
     }
     child {
         name Archibald McNair
         gender male
-        birth -date 23-nov-1796
-        baptism -date 25-nov-1796 -location campbeltown
+        birth -date 23-nov-1796 -location Chisken
+        baptism -date 25-nov-1796 -location campbeltown -ref archibald1796-baptism
         death -date 25-jul-1864 -location monroe,clermont,ohio,usa
         partner {
             name Mary Mitchell
@@ -142,5 +144,20 @@ footnotes {
             Archibald McNair & Jean Mitchell both of this parish were contracted
             2nd July & married
         }  
+    }
+    janet1793-baptism {
+        $opr-ref-link[b-1793-507-000-0040-0104 "Janet McNair"]{
+            Janet Lawful Dau to Archibald McNair + Jean Mitchell in Shisken born 6th bapt 8
+        }
+    }
+    john1794-baptism {  
+        $opr-ref-link[b-1794-507-000-0040-0121 "John McNair"]{
+            John Lawful son to Archd McNair and Jean Mitchell of Shiskon Bapt [???]
+        }
+    }
+    archibald1796-baptism {
+        $opr-ref-link[b-1796-507-000-0040-0144 "Archibald McNair"]{
+            Archibald Lawful son to Archd McNair + Jean Mitchel on Chisken born 23rd Bapt 25th
+        }
     }
 }

@@ -4,6 +4,7 @@ tags Argyll:Campbeltown
 external {
     familysearch KZQF-HBV
     wikitree Galbraith-1784
+    ancestry tree/12079504/person/-339239056
 }
 note {
 Indexed under McNair since the origins of Janet are not clear.
