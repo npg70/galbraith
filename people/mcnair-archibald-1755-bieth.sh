@@ -57,14 +57,11 @@ partner {
         baptism -date 19-dec-1792 -location 'killean and kilchenzie'  -ref margaret1792-baptism
    }
    child {
-        name Iver McNair
+        name Edward Iver McNair
         gender male
         baptism -date 10-nov-1796 -location 'killean and kilchenzie'  -ref iver1796-baptism
-        partner {
-            name Margaret Galbreath
-            gender female
-            marriage -date 12-jun-1827 -location 'killean and kilchenzie' 
-        }
+        death -date 23-feb-1861 -location campbeltown -ref iver1796-death
+        partner galbraith-margaret-1795-mcnair
    }
 }
 
@@ -89,5 +86,8 @@ footnotes {
     }
     iver1796-baptism {
         $opr-ref[b-1796-519-000-0010-0119 "Iver McNair"]
+    }
+    iver1796-death {
+        $sp-ref-link[d-1861-507-00-0025 0009 "Edward McNair"]
     }
 }
