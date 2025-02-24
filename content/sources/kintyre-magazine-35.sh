@@ -367,7 +367,7 @@ $li{$child-link[galbreath-david-1720-baird]{David Galbreath}, b. 1720, m. Martha
 }
 
 $ul{
-$li{$child-link[langwill-peter-1749]{Peter Langwill}, b. 1749 -- oops, he died before the letter was written.}
+$li{$strike{$child-link[langwill-peter-1749]{Peter Langwill}, b. 1749 -- oops, he died before the letter was written.}}
 $li{$child-link[galbreath-peter-1749-mcmurchy]{Peter Galbreath}, b. 1749, m. McMurchy}
 }
 
