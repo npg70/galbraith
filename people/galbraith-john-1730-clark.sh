@@ -8,6 +8,10 @@ external {
 note {
     There is another $child-link[galbraith-john-1741-clark]{John Galbraith} who married a Catherine Clark.
 }
+note {
+    Maybe $child-link[galbreath-peter-abt-1766-galbreath]{Peter Galbreath} m. Martha Galbreath is the same person?
+}
+
 partner {
     name Jean Clark
     gender female
