@@ -1,7 +1,10 @@
 name Archibald McNair
 gender male
 tags Argyll:Campbeltown Immigrant:Canada:Quebec
-
+external {
+    ancestry tree/12079504/person/282657358840
+    findagrave 220571221
+}
 birth -date 05-mar-1760
 death -date 03-aug-1827 -location 'black cape,quebec,canada'
 note {
@@ -48,9 +51,6 @@ Age, Year, Men, Women, Children, Role
 }
 }
 
-external {
-    findagrave 220571221
-}
 
 partner {
     name Margaret Mitchell
@@ -62,17 +62,8 @@ partner {
         gender male
         baptism -date 02-nov-1788 -location campbeltown
     }
-    child {
-        name Margaret McNair
-        gender female
-        baptism -date 25-oct-1790 -location campbeltown -ref margaret1790-baptism
-        death -date 15-apr-1884 -location 'New Richmond, Bonaventure, Quebec, Canada'
-        partner {
-            name John Jamieson
-            gender male
-            marriage -date 16-jun-1818  -location 'New Richmond, Bonaventure, Quebec, Canada'
-        }
-    }
+    child mcnair-margaret-1790-jamieson
+
     child {
         name Archibald McNair
         gender male
@@ -86,8 +77,5 @@ footnotes {
             Archd McNair & Marg Mitchell both of this parish contracted
             16th Aug & were married.
         }
-    }
-    margaret1790-baptism {
-        $opr-ref[b-1790-507-000-0020-0124 "Margaret MacNair"]
     }
 }

@@ -5,6 +5,10 @@ external {
 }
 tags 'Argyll:Killean and Kilchenzie'
 
+todo {
+    Other children according the Census.
+}
+
 baptism -date 15-dec-1795 -location 'killean and kilchenzie' -ref margaret1795-baptism
 death -date 26-nov-1885 -location campbeltown -ref margaret1795-death
 partner {
