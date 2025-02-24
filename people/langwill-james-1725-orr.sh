@@ -32,13 +32,7 @@ partner {
         gender male
         baptism -date 27-sep-1747 -location campbeltown -ref john1747-baptism
     }
-    child {
-        name Peter Langwill
-        gender male
-        baptism -date 05-apr-1749 -location campbeltown -ref peter1749-baptism
-        death -date 22-jul-1749 -location campbeltown
-        burial -name 'kilkerran cemetery'
-    }
+    child langwill-peter-1749
     child {
         name James Langwill
         gender male
@@ -76,12 +70,6 @@ partner {
 footnotes {
     john1747-baptism {
         $opr-ref[b-1747-507-000-0011-0261 "John Langwill"]
-    }
-    peter1749-baptism {
-        $opr-ref-link[b-1749-507-000-0011-0267 "Peter Langwill"]{
-            Peter | James Langwill and Janet Orr had a son
-            baptized 5th April named Peter
-        }
     }
     james1752-baptism {
         $opr-ref[b-1752-507-000-0011-0281 "James Langwill"]

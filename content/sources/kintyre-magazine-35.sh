@@ -355,6 +355,8 @@ $blockquote{
 David Galbreath still in L Knockh his son married Peter in Straths sister
 }
 $p{"L Knockh" is "Lower Knockinoch"?}
+$p{"Strat" was a another name for Laggan.}
+
 $p{
 David was an unusual name in Campbeltown, except around 1719, when three different Davids were born. Two married different Langwills, and had their first child about the same time.
 }
@@ -362,6 +364,11 @@ $ul{
 $li{$child-link[galbreath-david-1718-langwill]{David Galbreath}, b. 1718, m. Mary Langwill}
 $li{$child-link[galbreath-david-1719-langwill]{David Galbreath}, b. 1719, m. Jean Langwill}
 $li{$child-link[galbreath-david-1720-baird]{David Galbreath}, b. 1720, m. Martha Baird}
+}
+
+$ul{
+$li{$child-link[langwill-peter-1749]{Peter Langwill}, b. 1749 }
+$li{$child-link[galbreath-peter-1749-mcmurchy]{Peter Galbreath}, b. 1749, m. McMurchy}
 }
 
 $blockquote{
