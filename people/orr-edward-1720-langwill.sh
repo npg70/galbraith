@@ -10,6 +10,12 @@ external {
 note {
     Does not appear in Census of 1792.  Only three Orr listed.
 }
+body {
+Kilkerran:
+$blockquote{
+1100	In memory of EDWARD ORR, Merchant, Campbeltown, who died 18 October 1796 aged 76 and his wife ISABELLA LANGWILL died 9 January 1795 aged 70, also their grandsons JOHN died 2 February 1873 aged 79, WILLIAM died 31 May 1885 aged 80.
+}
+}
 partner {
     name Isabella Langwill
     gender female
