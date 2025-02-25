@@ -3,9 +3,10 @@ gender male
 tags USA:Pennsylvania:Bucks
 external {
     familysearch LCVT-R8H
+    wikitree Galbraith-350
 }
 note {
-    Confused with $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath} and Fleeming of Campbeltown, who immigrated to Peach Bottom, PA.
+    Confused with $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath} and Fleeming of Campbeltown, who immigrated to Peach Bottom, York, Pennsylvania.
 }
 
 partner {
