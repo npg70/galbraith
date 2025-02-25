@@ -14,7 +14,7 @@ note {
     $child-link[galbraith-alexander-1749-lyle]{Alexander Galbraith}.
 }
 note {
-    Confused with $elink[https://www.familysearch.org/en/tree/person/details/2DXJ-N71]{Isabella Welch} who married William Galbreath.
+    Confused with Isabella Welch, the spouse of $child-link[galbraith-william-1800-welch]{William Galbreath}
 }
 note {
     Probably has a sister Jean. They got married on the same day, and had children baptized on the same day.
