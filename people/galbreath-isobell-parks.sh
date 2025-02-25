@@ -3,6 +3,7 @@ gender female
 external {
     familysearch LKTM-BS2
     wikitree Galbraith-2637
+    ancestry tree/12079504/person/282657971700
 }
 tags USA:Pennsylvania:Lancaster
 
@@ -24,7 +25,7 @@ note {
 }
 
 note {
-    There are other children, but not listed in Rev. Cuthbertson references.  See FamilySearch for details.
+    There are other children, Arthur and Francis, but not listed in the Rev. Cuthbertson diaries, and no other sources linking them.
 }
 note {
     FamilySearch is a mess for Isobell and John Park/s.  In particular, the son Robert may be adopted from James Bratton and Isabell.  Some have made the assumption that Isabell is this Isabell Galbreath.  It's more likely they are two different people.
