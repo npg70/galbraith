@@ -3,6 +3,7 @@ gender female
 external {
    familysearch KLH1-6L9
    wikitree Galbreath-155
+   ancestry tree/12079504/person/282658043152
 }
 note {
     Confused with $child-link[galbreath-isobell-parks]{Isobell Galbreath} who married John Parks.

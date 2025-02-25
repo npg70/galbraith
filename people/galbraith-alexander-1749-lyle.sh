@@ -3,6 +3,7 @@ gender male
 external {
    familysearch KP4H-CMM
    wikitree Galbraith-349
+   ancestry tree/12079504/person/282658043559
 }
 note {
     Confused with $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath} and Fleeming of Campbeltown, who immigrated to Peach Bottom, York, Pennsylvania.
