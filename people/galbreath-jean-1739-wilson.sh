@@ -4,6 +4,8 @@ birth -date 'say 1739'
 tags USA:Pennsylvania:Lancaster
 external {
     familysearch MR5H-66X
+    ancestry tree/12079504/person/282658365162
+    wikitree Galbreath-823
 }
 note {
     Possible sister $child-link[galbreath-isobell-parks]{Isobell Galbreath}
