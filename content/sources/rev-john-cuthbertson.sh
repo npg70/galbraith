@@ -52,7 +52,7 @@ $li{1772 bp. Margaret Park}
 }
 
 $p{
-$elink[https://www.familysearch.org/en/tree/person/details/MR5H-66X]{Jean Galbreath}
+$child-link[galbreath-jean-1739-wilson]{Jean Galbreath}
 }
 $ul{
 $li{1759 m. $elink[https://www.familysearch.org/en/tree/person/details/MR5H-66S]{Peter Wilson}}

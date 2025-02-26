@@ -18,7 +18,7 @@ note {
     Confused with Isabella Welch, the spouse of $child-link[galbraith-william-1800-welch]{William Galbreath}
 }
 note {
-    Probably has a sister Jean. They got married on the same day, and had children baptized on the same day.
+    Possible sister $child-link[galbreath-jean-1739-wilson]{Jean Galbreath}. They got married on the same day, and had children baptized on the same day.
 }
 note {
     Possible they are daughters of $elink[https://www.familysearch.org/en/tree/person/details/K8Q2-QQK]{Robert Calbreath} and Jean Calbreath from Ayr.  Jean b. 1723, Isabell b. 1726.  No immigration found however, and evidence their brother John stayed in Ayr.
