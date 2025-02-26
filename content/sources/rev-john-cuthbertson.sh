@@ -57,6 +57,10 @@ $child-link[galbreath-jean-1739-wilson]{Jean Galbreath}
 $ul{
 $li{1759 m. $elink[https://www.familysearch.org/en/tree/person/details/MR5H-66S]{Peter Wilson}}
 $li{1764 bp. Agnes Wilson}
+$li{1766 bp. Mary Wilson}
+$li{1768 bp. John Wilson}
+$li{1770 bp. James Wilson}
+$li{1771 bp. Isobel Wilson}
 $li{1772 bp. Jean Wilson}
 $li{1773 bp. Elizabeth Wilson}
 }
@@ -221,9 +225,15 @@ $blockquote{
 $i{page 100}, 1765 Nov 13, Shippensburg: rode 30 miles—Shipp. $b{W. Calb.}, J. Brown’s and
 Ch. Kilgore’s—preached Psalm 19: 12—-L and lectured Mark 10:46—-L and baptized Daniel son to J. C.
 }
+$blockquote{
+$i{page 158}, 1766 Feb 25, Middle Octoraro Society:  rode 10 miles Ex. at J. Wilson’s John 15: 7-13 and $b{baptized Mary daughter to Peter Wil.}
+}
 
 $blockquote{
 $i{page 121}, 1767 Aug 24, Rocky Spring Society: rode 3 miles to and from $b{W. Cal.} 25th.—preached psalm 119: 113; baptized Elizabeth daughter to James Anderson; catechized about 40 persons. (From James Mitchel’s. )
+}
+$blockquote{
+$i{page 161}, 1768 Oct 31, Middle Octoraro Society: rode 3 miles to J. Wilson’s—married Alexander and Frances Ewins—preached psalm 1:1-5. Lectured Matthew 19: 16-23 and $b{baptized John to Pet. Wilson}.
 }
 
 $blockquote{
@@ -233,9 +243,16 @@ $i{page 162}, 1768 Oct 31, Middle Octoraro Society: rode 14 miles to and from Ca
 $blockquote{
 $i{page 163}, 1768 Dec 22, Middle Octoraro Society: rode 3 miles after preaching psalm 4: 6-L; lectured Genesis 18: 16-19 and baptized Helen daughter to Alexander Ewing, o.a. praise God.’ (From $b{Widow Calbreath}’s—then 10 miles home on 23rd.)
 }
+$blockquote{
+$i{page 92} 1770 Apr 18, Rode 4 miles preached psalm 34: 1-5 catechized 25, etc. $b{Baptized James, son to Peter Wilson}, conversed, etc.
+}
 
 $blockquote{
 $i{page 79}, 1770 May 20, Marsh Creek Society: Sabbath—preached 5: 1-4; lectured Isaiah 65: 1-9; preached 41: 10 and $b{baptized} Josiah to Alexander Ker, $b{Robert to John Park} and James to John Reddick; give all praise to God. Rode 8 miles to sisters.
+}
+
+$blockquote{
+$i{page 167}, 1771 Oct 20-31, Middle Octoraro Society: rode 20 miles to and from John Walkers; preached 18: 1—lectured Acts 2: 37-41; $b{baptized} Ann to him and $b{Isobel daughter to Peter Wilson}; bought 6 quarts timothy.
 }
 
 $blockquote{
