@@ -3,12 +3,16 @@ gender male
 tags USA:Pennsylvania:Lancaster Ireland 'Daughtered Out'
 birth -date 'about 1714'
 death -date 'about 1768' -location 'lancaster,pennsylvania,usa' -ref john-death
+external {
+    cgs 270171330280
+}
 note {
     FamilySearch for this line is mostly unusable.
 }
 
 partner {
     name Dorcas Smith
+    gender female
     birth -date 1717
     death -date 1770 -location 'Carlisle, Cumberland, Pennsylvania, USA'
     
