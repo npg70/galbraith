@@ -65,6 +65,14 @@ $li{1771 bp. Isobel Wilson}
 $li{1773 bp. Elizabeth Wilson}
 }
 
+$h3{William Galbraith}
+
+$p{$child-link[galbraith-william-1731-lowry-kerr]{William Galbreath}, grandson of James G- and Rebecca Chambers. 
+}
+$ul{
+$li{1761 m. $elink[https://www.familysearch.org/en/tree/person/details/MR54-YMY]{Jean Lawry}}
+$li{1762 bp. Agnes}
+}
 $h3{
 John Galbreath and Widow Galbreath.
 }
@@ -118,12 +126,6 @@ $ul{
 $li{1756 bp. James (adopted)}
 }
 
-$p{$child-link[galbraith-william-1731-lowry-kerr]{William Galbreath} (may be the same as previous).  No activity on FamilySearch since 2012.
-}
-$ul{
-$li{1761 m. $elink[https://www.familysearch.org/en/tree/person/details/MR54-YMY]{Jean Lawry}}
-$li{1762 bp. Agnes}
-}
 $p{
 James Galbreath - only referenced once
 }
