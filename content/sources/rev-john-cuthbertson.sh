@@ -56,12 +56,12 @@ $child-link[galbreath-jean-1739-wilson]{Jean Galbreath}
 }
 $ul{
 $li{1759 m. $elink[https://www.familysearch.org/en/tree/person/details/MR5H-66S]{Peter Wilson}}
+$li{1762 bp. Jean Wilson}
 $li{1764 bp. Agnes Wilson}
 $li{1766 bp. Mary Wilson}
 $li{1768 bp. John Wilson}
 $li{1770 bp. James Wilson}
 $li{1771 bp. Isobel Wilson}
-$li{1772 bp. Jean Wilson}
 $li{1773 bp. Elizabeth Wilson}
 }
 
