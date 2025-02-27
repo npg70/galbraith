@@ -11,7 +11,7 @@ note {
 birth -date 1747 -location Bucks,Pennsylvania,USA
 death -date 28-sep-1831 -location Greene,Tennessee,USA -ref death
 partner {
-   name James Dinwiddle
+   name James Dinwiddie
    birth -date 1740
    death -date 1807
    body {

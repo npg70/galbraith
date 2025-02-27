@@ -14,7 +14,7 @@ partner {
     name Nancy Agnes Miller
     gender female
 
-    child galbraith-isabel-1747-dinwiddle
+    child galbraith-isabel-1747-dinwiddie
 
     child galbraith-alexander-1749-lyle
 

@@ -11,7 +11,7 @@ note {
     Often claimed to be the sister of $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}, daughter of $child-link[/galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill, all of Campbeltown.  This is impossible since it implies Isobell got married at age 12.  Also we know Alexander was in correspondence with his mother in Scotland, implying they did not immigrate.
 }
 note {
-    Confused with $child-link[galbraith-isabel-1747-dinwiddle]{Isabel Galbraith}, b. 1847 in Bucks Co, PA, sister of a different 
+    Confused with $child-link[galbraith-isabel-1747-dinwiddie]{Isabel Galbraith}, b. 1847 in Bucks Co, PA, sister of a different 
     $child-link[galbraith-alexander-1749-lyle]{Alexander Galbraith}.
 }
 note {
