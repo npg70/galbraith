@@ -20,12 +20,9 @@ note {
 note {
     Possible sister $child-link[galbreath-jean-1739-wilson]{Jean Galbreath}. They got married on the same day, and had children baptized on the same day.
 }
-note {
-    Possible they are daughters of $elink[https://www.familysearch.org/en/tree/person/details/K8Q2-QQK]{Robert Calbreath} and Jean Calbreath from Ayr.  Jean b. 1723, Isabell b. 1726.  No immigration found however, and evidence their brother John stayed in Ayr.
-}
 
 note {
-    There are other children, Arthur and Francis, but not listed in the Rev. Cuthbertson diaries, and no other sources linking them.
+    There are other children, Arthur and Francis, but not listed in the Rev. Cuthbertson diaries, and no other sources link them to John and Isobell.
 }
 note {
     FamilySearch is a mess for Isobell and John Park/s.  In particular, the son Robert may be adopted from James Bratton and Isabell.  Some have made the assumption that Isabell is this Isabell Galbreath.  It's more likely they are two different people.
