@@ -40,6 +40,11 @@ partner {
         name William Parks
         gender male
         baptism -date 11-may-1760 -ref william-bapt
+        death -date 14-nov-1837 -location 'Westmoreland, Pennsylvania, USA'
+        partner {
+            name Margaret Larimer
+            gender female
+        }
     }
     child {
         name Agnes Parks
@@ -54,7 +59,14 @@ partner {
     child {
         name Robert Parks
         gender male
+        birth -date 14-aug-1769
         baptism -date 20-may-1770 -ref robert-bapt
+        death -date 19-aug-1858 -location 'Allegheny Township, Armstrong, Pennsylvania, USA'
+        partner {
+            name Jane Bratton
+            gender female
+            marriage -date 19-oct-1790 -location 'Cumberland, Lancaster, Pennsylvania, USA'
+        }
     }
     child {
         name Margaret Parks
