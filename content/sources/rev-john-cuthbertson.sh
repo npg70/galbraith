@@ -118,7 +118,7 @@ $ul{
 $li{1756 bp. James (adopted)}
 }
 
-$p{$elink[https://www.familysearch.org/en/tree/person/details/MR54-YMZ]{William Galbreath} (may be the same as previous).  No activity on FamilySearch since 2012.
+$p{$child-link[galbraith-william-1731-lowry-kerr]{William Galbreath} (may be the same as previous).  No activity on FamilySearch since 2012.
 }
 $ul{
 $li{1761 m. $elink[https://www.familysearch.org/en/tree/person/details/MR54-YMY]{Jean Lawry}}
