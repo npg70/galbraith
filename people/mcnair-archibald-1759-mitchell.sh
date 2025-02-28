@@ -84,10 +84,22 @@ partner {
         baptism -date 01-dec-1796 -location ayr -ref jean1796-baptism
     }
     child {
+        name Martha McNair
+        gender female
+        birth -date 1801 -location ayr
+        death -date 1882 -location 'Black Cape,New Richmond,Quebec,Canada'
+        partner {
+            name James Henderson
+            gender male
+            birth -date 25-jun-1804
+            death -date 01-dec-1875 -location 'Black Cape,New Richmond,Quebec,Canada'
+        }
+    }
+    child {
         name Agnes McNair
         gender female
         birth -date 1810 -location ayr
-        death -date 12-aug-1897 -location 'Black Cape,New Richmond, Quebec, Canada'
+        death -date 12-aug-1897 -location 'Black Cape,New Richmond,Quebec,Canada'
         partner {
             name William McCrae
             gender male
