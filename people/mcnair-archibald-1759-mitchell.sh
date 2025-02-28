@@ -44,10 +44,15 @@ Age, Year, Men, Women, Children, Role
 21, 1771,                , Ann McNair        , , Daughter 
 13, 1779,                ,                   , Donald Thomson, TBD
 30, 1762, Achibald McNair Junior,            , , Son
-11, 1781,                       ,            , Mary McNair, TBD
+11, 1781,                       ,            , Mary McNair, See below
 26, 1766,                       , Margaret Mitchell, , Spouse
  4, 1788,                       ,                  , James McNair, Grand son
  1, 1791,                       ,                  , Margaret McNair, Grand daughter
+}
+}
+body {
+$p{
+Mary McNair, age 11, born ~1781, is likely adopted, daughter of $child-link[mcnair-john-1750-galbreath]{John McNair} and Janet Galbreath. Her baptism is recorded, but not indexed in Scotlands People. Little is known about her parents.
 }
 }
 
@@ -55,6 +60,7 @@ Age, Year, Men, Women, Children, Role
 partner {
     name Margaret Mitchell
     gender female
+    birth -date 'about 1766'
     marriage -date 16-aug-1787 -location campbeltown -ref mitchell-marriage
 
     child {
