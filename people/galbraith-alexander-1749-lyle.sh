@@ -1,5 +1,6 @@
 name Alexander Galbraith
 gender male
+ydna yes
 external {
    familysearch KP4H-CMM
    wikitree Galbraith-349

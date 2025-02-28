@@ -3,6 +3,7 @@ tags Argyll:Campbeltown Ireland
 birth -date 29-sep-1833 
 baptism -date 2-oct-1833 -location Campbeltown -ref william1833-baptism
 death -date 28-may-1894 -location campbeltown -ref william1833-death
+ydna yes
 note {
     Larne, Ireland is almost exactly straight south from Campbeltown across the sea. (Google Maps: https://goo.gl/maps/7TCf3CzZ54MxdBq17)
 }

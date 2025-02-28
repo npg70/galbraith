@@ -5,6 +5,7 @@ external {
     familysearch KZ3Z-DXW
     findagrave 114485218
 }
+ydna yes
 tags Argyll:Campbeltown
 body {
 Little is known about the origins of Samuel. Guessing his birth to be around 1765 would make first child born when he was 28 which seems reasonable but could be off by +/- 10 years. All children appear to have been born "in Town" and the marriage said the couple were "both of this parish."

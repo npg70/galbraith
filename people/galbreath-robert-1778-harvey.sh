@@ -1,5 +1,6 @@
 name Robert Galbreath
 gender male
+ydna yes
 tags Argyll:Campbeltown Argyll:Peninver Immigrant:USA:Ohio
 birth -date 12-oct-1778
 baptism -date 15-oct-1778 -location campbeltown -ref robert1778-baptism

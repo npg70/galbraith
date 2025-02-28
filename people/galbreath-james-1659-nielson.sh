@@ -1,5 +1,6 @@
 name James Galbreath
 baptism -date 3-apr-1659 -location campbeltown -ref birth
+ydna yes
 external {
     familysearch GSS6-NPY
     wikitree Galbraith-1789

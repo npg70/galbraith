@@ -282,6 +282,7 @@ type Person struct {
 	Notes     []string
 	Todos     []string
 	Tags      []string
+	Ydna      string // format TBD
 }
 
 // HasTag - simple test if a tag exists for the current person
@@ -335,6 +336,16 @@ func (p *Person) BirthYearString() string {
 		return fmt.Sprintf("%s%d", about, e.Date.year)
 	}
 	return ""
+}
+
+func (p *Person) AllChildren() []*Person {
+	out := []*Person{}
+	for _, spouse := range p.Partners {
+		for _, kid := range spouse.Children {
+			out = append(out, kid)
+		}
+	}
+	return out
 }
 
 func (p *Person) UnmarshalText(text []byte) error {
@@ -460,6 +471,8 @@ func (p *Person) UnmarshalText(text []byte) error {
 			p.Notes = append(p.Notes, body)
 		case "todo":
 			p.Todos = append(p.Todos, body)
+		case "ydna":
+			p.Ydna = strings.TrimSpace(strings.Join(args[1:], " "))
 		default:
 			return fmt.Errorf("Unknown command %q", args[0])
 		}

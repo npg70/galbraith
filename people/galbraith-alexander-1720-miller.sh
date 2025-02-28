@@ -1,6 +1,8 @@
 name Alexander Galbraith
 gender male
+ydna yes
 tags USA:Pennsylvania:Bucks
+birth -date 'about 1720'
 external {
     familysearch LCVT-R8H
     wikitree Galbraith-350
@@ -29,16 +31,8 @@ partner {
             marriage -date 30-may-1779 -location bedford,virginia,usa
         }
     }
-    child {
-        name John Galbraith
-        gender male
-        birth -date 1752 -location Northhampton,Pennsylvania,USA
-        death -date 1814 -location 'Turkey Creek,Knox,Tenn,USA'
-        partner {
-            name Mary Martin
-            gender female
-        }
-    }
+    child galbraith-john-1752-martin
+
     child {
         name Margaret Galbraith
         gender female
@@ -57,16 +51,8 @@ partner {
         name James Galbraith
         gender male
     }
-    child {
-        name Samuel Gaston Galbraith
-        gender male
-        birth -date 16-sep-1763
-        death -date 1850 -location Campbell,Virgina,USA
-        partner {
-            name Mary Robison
-            gender female
-        }
-    }
+    child galbraith-samuel-gaston-1763-robison
+
     child {
         name Agnes Ann Galbraith
         gender female

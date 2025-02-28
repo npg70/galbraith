@@ -1,5 +1,6 @@
 name John Galbreath
 tags Argyll:Campbeltown Argyll:Kilkeddan
+ydna yes
 birth -date 29-may-1680 -location Kilkeddan
 baptism  -date 30-may-1680 -location Campbeltown -ref john1680-baptism
 death -date 9-feb-1748

@@ -1,5 +1,6 @@
 name Samuel Galbreath
 gender male
+ydna yes
 tags Argyll:Campbeltown Argyll:Peninver
 baptism -date 4-feb-1736 -location campbeltown -ref samuel1736-baptism
 external {
