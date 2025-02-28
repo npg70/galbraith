@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"log"
 	"path/filepath"
 	"time"
@@ -22,6 +23,48 @@ func (sconfig siteConfig) OutputDir() string {
 	return sconfig.outputDir
 }
 
+func getLines(db Root, roots []string) [][]*Person {
+	paths := [][]*Person{}
+	for _, rootid := range roots {
+		person := db[rootid]
+		if person.Ydna != "" {
+			paths = append(paths, []*Person{person})
+		}
+	}
+	output := getLine(paths)
+	return output
+}
+
+func getLine(paths [][]*Person) [][]*Person {
+	output := [][]*Person{}
+	for len(paths) > 0 {
+		next := [][]*Person{}
+		for _, p := range paths {
+			// get last person in path
+			person := p[len(p)-1]
+			endofpath := true
+			for _, kid := range person.AllChildren() {
+				if kid.Ydna != "" {
+					// copy existing path
+					// add this kid
+					// and to next queue
+					// mark that this path keeps going
+					line := make([]*Person, len(p))
+					copy(line, p)
+					line = append(p, kid)
+					next = append(next, line)
+					endofpath = false
+				}
+			}
+			if endofpath {
+				output = append(output, p)
+			}
+		}
+		paths = next
+	}
+	return output
+}
+
 func main() {
 	sc := siteConfig{}
 	rootsOnly := false
@@ -36,6 +79,25 @@ func main() {
 	if rootsOnly {
 		return
 	}
+
+	paths := [][]*Person{}
+	for _, rootid := range roots {
+		person := db[rootid]
+		if person.Ydna != "" {
+			paths = append(paths, []*Person{person})
+			log.Printf("YNDA ROOT: %s", person.FullName())
+		}
+	}
+	paths = getLines(db, roots)
+
+	for i, path := range paths {
+		for j, p := range path {
+			fmt.Printf("LINE %d - %d: %s\n", i+1, j+1, WriteTitle(p))
+		}
+		fmt.Printf("\n")
+	}
+	// log.Fatalf("DONE")
+
 	// add meta tag.. if todos exist, add todo tag
 	todotag(db)
 
