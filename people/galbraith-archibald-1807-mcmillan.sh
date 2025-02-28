@@ -1,4 +1,5 @@
 name Archibald Galbreath
+gender male
 tags 'argyll:killean and kilchenzie'
 baptism -date 22-apr-1807 -location 'killean and kilchenzie' -ref archibald1807-baptism
 death -date 16-jan-1891 -location 'killean and kilchenzie' -ref archibald1807-death
@@ -9,6 +10,7 @@ external {
 }
 partner {
     name Betty McMillan
+    gender female
     marriage -date 17-jun-1862 -location 'killean and kilchenzie' -ref mcmillan-marriage
     child galbraith-archibald-1865-robertson
 
