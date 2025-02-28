@@ -79,9 +79,19 @@ partner {
     child mcnair-john-1793-mckenzie
 
     child {
-        name Jean Mitchell
+        name Jean McNair
         gender female
         baptism -date 01-dec-1796 -location ayr -ref jean1796-baptism
+    }
+    child {
+        name Agnes McNair
+        gender female
+        birth -date 1810 -location ayr
+        death -date 12-aug-1897 -location 'Black Cape,New Richmond, Quebec, Canada'
+        partner {
+            name William McCrae
+            gender male
+        }
     }
 }
 footnotes {
