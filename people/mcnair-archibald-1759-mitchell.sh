@@ -100,6 +100,9 @@ partner {
         gender female
         birth -date 1810 -location ayr
         death -date 12-aug-1897 -location 'Black Cape,New Richmond,Quebec,Canada'
+        external {
+            findagrave 220570734
+        }
         partner {
             name William McCrae
             gender male
