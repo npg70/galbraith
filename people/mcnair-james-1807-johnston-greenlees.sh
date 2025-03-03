@@ -4,9 +4,10 @@ external {
     familysearch 9M9D-HZ6
     findagrave 170377115
     ancestry tree/12079504/person/282273117172
+    wikitree MacNair-38
 }
 birth -date 02-aug-1807
-baptism -date 04-aug-1807 -location campbeltown
+baptism -date 04-aug-1807 -location campbeltown -ref james1807-baptism
 death -date 24-feb-1885 -location campbeltown
 body {
     From the census records$ref[census-1841] $ref[census-1851] $ref[census-1861] $ref[census-1871] $ref[census-1881] he was a farmer in Low or South Smerby, Campbeltown on 50-100 acres and employing a few people.
@@ -174,6 +175,12 @@ partner {
 }
 
 footnotes {
+    james1807-baptism {
+        $opr-ref-link[b-1807-507-000-0040-0307 "James MacNair"]{
+            James | Lawful son to Robert MacNair Farmer Smerby and
+            Jean Johnston born 2nd & baptized the 4th August 1807 named James
+        }
+    }   
     census-1841 {
         https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016597507&expand=true&tab=this
     }
