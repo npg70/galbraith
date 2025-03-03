@@ -7,7 +7,7 @@ external {
     familysearch KFJB-HN8
     findagrave 167549463
     wikitree Galbreath-743
-    ancestry people/galbreath-henry-1739-armour
+    ancestry tree/12079504/person/282259776209
 }
 todo {
     fix inscription on findagrave

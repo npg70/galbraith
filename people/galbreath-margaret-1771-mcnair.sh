@@ -8,6 +8,7 @@ external {
     findagrave 42220658
     familysearch L2M9-JSL
     wikitree Galbraith-1994
+    ancestry tree/12079504/person/282298844670
 }
 note {
     There is extensive biographical information on her $elink[https://www.findagrave.com/memorial/42220658/margaret-mcnair]{Find-A-Grave} memorial.
@@ -41,6 +42,6 @@ footnotes {
         26 April | This day are booked with consent of parties
         in order for marriage. Nathaniel McNair of the Parish
         of [???] and Margaret Galbreath of this Parish.
-}
+    }
     }
 }
