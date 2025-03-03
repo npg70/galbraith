@@ -35,10 +35,7 @@ partner {
         gender female
         baptism -date 29-Sep-1811 -location campbeltown
         death -date 07-jul-1880 -location Nichollsville,clermont,oh,usa
-        partner {
-            name William McNair
-            gender male
-        }
+        partner mcnair-william-1807-mitchell
     }
     child {
         name James Mitchell

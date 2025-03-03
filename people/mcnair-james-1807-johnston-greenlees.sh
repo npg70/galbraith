@@ -3,6 +3,7 @@ gender male
 external {
     familysearch 9M9D-HZ6
     findagrave 170377115
+    ancestry tree/12079504/person/282273117172
 }
 birth -date 02-aug-1807
 baptism -date 04-aug-1807 -location campbeltown
@@ -32,7 +33,7 @@ partner {
         name Jean McNair
         birth -date 16-jan-1834
         baptism -date 10-feb-1834 -location campbeltown
-        death -date 04-nov-1909 -location 'Winnebag,Illnois,USA'
+        death -date 04-nov-1909 -location 'Winnebago,Illnois,USA'
         partner {
             name John Colville Smith
             marriage -date 1858
@@ -67,29 +68,47 @@ partner {
     death -date 04-mar-1900 -location campbeltown
     marriage -date 19-dec-1837
 
-    child {
-        name Jean McNair
-    }
-    child {
-        name Martha McNair
-    }
-    child {
-        name Ann McNair
-    }
-    child {
-        name James McNair
-    }
+    child mcnair-james-1838-ferguson
+
     child {
         name Catharine McNair
+        gender female
+        birth -date 9-oct-1840 
+        baptism -date 15-nov-1840 -location campbeltown
+        death -date 17-jul-1930 -location campbeltown
+        partner {
+            name Robert Clark
+            birth -date 1823
+            death -date 1897
+            marriage -date 21-mar-1861 -location campbeltown
+        }
     }
     child {
         name John McNair
+        gender male
+        birth -date 11-nov-1842
+        baptism -date 21-nov-1842 -location campbeltown
     }
     child {
         name Janet McNair
-    }
-    child {
-        name Hugh Mitchell?
+        gender female
+        birth -date 17-oct-1844
+        baptism -date 17-nov-1844 -location campbeltown
+        death -date 29-aug-1887 -location Winnebago,Illinois,USA
+        partner {
+            name Duncan Drain
+            gender male
+            birth -date 1848
+            death -date 1883
+            marriage -date 11-jul-1878 -location campbeltown
+        }
+        partner {
+            name William Greenlees
+            gender male
+            birth -date 1843
+            death -date 1917
+            marriage -date 22-jun-1885 -location Winnebago,Illinois,USA
+        }
     }
     child {
         name Mary Colvill McNair
@@ -97,25 +116,60 @@ partner {
         birth -date 19-sep-1847
         baptism -date 22-oct-1847 -location campbeltown
         death -date 25-may-1884 -location campbeltown
-        partner {
-            name Andrew Smith
-            gender male
-            baptism -date 13-jun-1838 -location campbeltown
-            death -date 17-mar-1919 -location campbeltown
-            marriage -date 26-apr-1865 -location campbeltown
+        body {
+            Needs research.
         }
     }
     child {
         name Samuel McNair
+        gender male
+        birth -date 25-jan-1849
+        baptism -date 11-feb-1849 -location campbeltown
+        death -date 19-dec-1927 -location campbeltown
+        partner {
+            name Isabella Stewart
+            gender female
+            birth -date 1849
+            death -date 1939
+            marriage -date 3-jul-1873 -location campbeltown
+        }
     }
     child {
         name Archibald McNair
+        gender male
+        birth -date 15-sep-1851
+        baptism -date 9-nov-1851 -location campbeltown
+        death -date 1-feb-1914
+        partner {
+            name Jane Ralston
+            gender female
+            birth -date 1856
+            death -date 1917
+            marriage -date 30-dec-1885 -location campbeltown
+        }
     }
     child {
         name Susan McNair
+        gender female
+        birth -date 19-feb-1854
+        baptism -date 16-apr-1854 -location campbeltown
+        death -date 15-feb-1937 -location campbeltown
+        partner {
+            name Thomas Mitchell
+            gender male
+            birth -date 1848
+            death -date 1906
+            marriage -date 3-jun-1875 -location campbeltown
+        }
     }
     child {
         name Sarah McNair
+        gender female
+        birth -date 6-jul-1856 -location campbeltown
+        death -date 13-jan-1925 -location campbeltown
+        partner {
+            name John McConachy
+        }
     }
 }
 

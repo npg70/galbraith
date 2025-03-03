@@ -93,21 +93,8 @@ partner {
             Confused with $child-link[mcnair-john-1793-mckenzie]{John McNair}, son of $child-link[mcnair-archibald-1759-mitchell]{Archibald McNair} and $i{Margaret} Mitchell.
         }
     }
-    child {
-        name Archibald McNair
-        gender male
-        birth -date 23-nov-1796 -location Chisken
-        baptism -date 25-nov-1796 -location campbeltown -ref archibald1796-baptism
-        death -date 25-jul-1864 -location monroe,clermont,ohio,usa
-        partner {
-            name Mary Mitchell
-            gender female
-            marriage -date 28-apr-1825 -location campbeltown
-            birth -date 20-sep-1799
-            baptism -date 23-sep-1799 -location campbeltown
-            death -date 16-sep-1864 -location nicholasville,clermont,ohio,usa
-        }
-    }
+
+    child mcnair-archibald-1796-mitchell
     child {
         name William McNair
         gender male
@@ -129,13 +116,8 @@ partner {
             death -date 21-feb-1838 -location campbeltown
         }
     }
-    child {
-        name William McNair
-        gender male
-        birth -date 01-oct-1807
-        baptism -date 02-oct-1807 -location campbeltown
-        death -date 13-jul-1885 -location nicholasville,clermont,ohio,usa
-    }
+    child mcnair-william-1807-mitchell
+
 }
 footnotes {
     baptism {
@@ -156,11 +138,6 @@ footnotes {
     john1794-baptism {  
         $opr-ref-link[b-1794-507-000-0040-0121 "John McNair"]{
             John Lawful son to Archd McNair and Jean Mitchell of Shiskon Bapt [???]
-        }
-    }
-    archibald1796-baptism {
-        $opr-ref-link[b-1796-507-000-0040-0144 "Archibald McNair"]{
-            Archibald Lawful son to Archd McNair + Jean Mitchel on Chisken born 23rd Bapt 25th
         }
     }
 }
