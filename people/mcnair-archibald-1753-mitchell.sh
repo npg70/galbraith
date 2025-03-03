@@ -59,7 +59,7 @@ partner {
         name James McNair
         gender male
         baptism -date 13-jan-1790 -location campbeltown
-        death -date 1853 -location cincinnati,hamiliton,ohio.usa
+        death -date 1853 -location cincinnati,hamiliton,ohio,usa
         partner dunlop-kate-1783-harvey-mcnair
     }
     child {
