@@ -46,7 +46,10 @@ partner {
         gender female
         birth -date 07-feb-1832
         baptism -date 14-feb-1832 -location campbeltown -ref margaret1832-baptism
-        death -date 17-sep-1868 -location campbeltown -note umn
+        death -date 17-sep-1868 -location campbeltown -note umn.
+        body {
+            Sometimes confused with $child-link[mitchell-margaret-1822-morrison]{Margaret Mitchell} who married John Morrison.
+        }
     }
     child mitchell-mathew-1833-sharp
     child {
