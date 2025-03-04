@@ -41,17 +41,11 @@ partner {
         birth -date 13-mar-1830
         baptism -date 22-mar-1830 -location campbeltown -ref jean1830-baptism
     }
-    child {
-        name Margaret Mitchell
-        gender female
-        birth -date 07-feb-1832
-        baptism -date 14-feb-1832 -location campbeltown -ref margaret1832-baptism
-        death -date 17-sep-1868 -location campbeltown -note umn.
-        body {
-            Sometimes confused with $child-link[mitchell-margaret-1822-morrison]{Margaret Mitchell} who married John Morrison.
-        }
-    }
+
+    child mitchell-margaret-1832
+
     child mitchell-mathew-1833-sharp
+
     child {
         name John Mitchell
         gender male
@@ -97,9 +91,6 @@ footnotes {
     }
     jean1830-baptism {
         $opr-ref[b-1830-507-000-0060-0200 "Jean Mitchell"]
-    }
-    margaret1832-baptism {
-        $opr-ref[b-1832-507-000-0060-0234 "Margaret Mitchell"]
     }
     john1836-baptism {
         $opr-ref[b-1836-507-000-0070-0076 "John Mitchell"]
