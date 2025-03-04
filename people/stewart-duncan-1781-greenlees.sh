@@ -39,6 +39,13 @@ partner {
     marriage -date 28-feb-1811 -location campbeltown -ref greenlees-marriage
     birth -date 1785
     death -date 1866 -location campbeltown
+
+    child {
+        name Mary Stewart
+        gender female   
+        birth -date 29-may-1816 -location campbeltown -ref mary-birth
+        partner mcnair-john-1801-stewart
+    }
 }
 
 footnotes {
@@ -65,6 +72,9 @@ footnotes {
     }
     duncan1781-death {
         Find a Grave, database and images (https://www.findagrave.com/memorial/158182855/duncan-stewart: accessed January 21, 2025), memorial page for Duncan Stewart (1780–Jun 1848), Find a Grave Memorial ID 158182855, citing Campbeltown Kilkerran Cemetery, Campbeltown, Argyll and Bute, Scotland; Maintained by LSP (contributor 46860931).
+    }
+    mary-birth {
+        $opr-ref[b-1816-507-000-0040-0445 "Mary Stewart"]
     }
 }
 

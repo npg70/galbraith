@@ -22,20 +22,8 @@ partner {
 
     child mcnair-john-1801-stewart
 
-    child {
-        name Sarah McNair
-        gender female
-        birth -date 07-may-1803
-        baptism -date 07-may-1803 -location campbeltown
-        death -date 19-jul-1874 -location campbeltown
-        partner {
-            name William Mitchell
-            gender male
-            birth -date 14-jan-1799  -location campbeltown
-            death -date 16-jan-1877 -location campbeltown
-            marriage -date 27-jul-1824 -location campbeltown
-        }
-    }
+    child mcnair-sarah-1803-mitchell
+
     child {
         name Robert McNair
         gender male

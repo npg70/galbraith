@@ -45,7 +45,8 @@ $li{$child-link[harvey-andrew-1783-mcmurchy]{Andrew Harvie} did immigrate to Ohi
 $li{TBD: list his older siblings immigration}
 $li{$child-link[galbreath-robert-1778-harvey]{Robert Galbreath}, the son of $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath}}
 $li{Robert appears to have sold the farm to his sister $child-link[galbreath-catharine-1788-greenlees]{Catherine Galbreath} and James Greenlees}
-$li{$child-link[stewart-duncan-1781-greenlees]{Duncan Stewart} started in $elink[https://maps.app.goo.gl/vrr9ZAnBoTw8PyG5A]{Caliburn Campbeltown}, then moved to Peninver until his death in 1848.}
+$li{$child-link[stewart-duncan-1781-greenlees]{Duncan Stewart} started in $elink[https://maps.app.goo.gl/vrr9ZAnBoTw8PyG5A]{Caliburn Campbeltown}, then moved to Peninver until his death in 1848. His daughter Mary married $child-link[mcnair-john-1801-stewart]{John McNair} in Smerby.
+}
 $li{TBD: John Stewart not the son/father of below:}
 $li{TBD: $child-link[stewart-andrew-1791-mcwilliams]{Andrew Stewart}}
 }
