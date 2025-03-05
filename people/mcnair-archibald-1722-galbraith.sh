@@ -5,6 +5,7 @@ tags Argyll:Campbeltown
 external {
     familysearch LV5G-R9S
     wikitree McNair-303
+    ancestry tree/12079504/person/282657386109
 }
 note {
     Margaret's origins is unknown.
@@ -66,6 +67,9 @@ partner {
         gender male
         baptism -date 05-mar-1760 -location campbeltown -ref robert1760-baptism
         death -note dy
+        body {
+            Twin with Archibald above.
+        }
     }
     child {
         name Robert McNair
@@ -87,18 +91,27 @@ partner {
         gender female
         birth -date 12-may-1765
         baptism -date 16-may-1765 -location campbeltown -ref eliz1765-baptism
+        body {
+            Twin.
+        }
     }
     child {
         name Janet McNair
         gender female
         birth -date 12-may-1765
         baptism -date 16-may-1765 -location campbeltown -ref janet1765-baptism
+        body {
+            Twin.
+        }
     }
     child {
         name Margaret McNair
         gender female
         birth -date 08-feb-1767
         baptism -date 08-feb-1767 -location campbeltown -ref margaret1767-baptism
+        body {
+            Perhaps married Alexander Dunlop.  Sometimes claimed to have married John McLarty which is definitely incorrect.
+        }
     }
     child {
         name Ann McNair
