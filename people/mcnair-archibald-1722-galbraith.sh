@@ -185,7 +185,7 @@ footnotes {
         }
     }
     nath1763-baptism {
-        $opr-ref-link[b-1763-508-000-0011-0333 "Nathaniel McNair"]{
+        $opr-ref-link[b-1763-507-000-0011-0333 "Nathaniel McNair"]{
             Nathl | Archd McNair and Margt [blank] had a son born 2nd
             and baptized 6th Janry named Nathaniel
         }
