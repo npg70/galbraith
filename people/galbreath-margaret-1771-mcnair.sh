@@ -108,8 +108,12 @@ partner {
         birth -date 25-jan-1815 
         baptism -date 29-jan-1815 -location campbeltown
         death -date 09-jun-1880 -location 'New Mills, New Brunswick, Canada'
-        body {
-            Spouse needs investigating
+        partner {
+            name Martha Archibald
+            gender female
+            birth -date 1825
+            death -date 23-apr-1900
+            marriage -date 02-apr-1846 -location 'Restigouche,New Brunswick,Canada'
         }
     }    
     child {
