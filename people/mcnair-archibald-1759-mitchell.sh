@@ -5,7 +5,7 @@ external {
     ancestry tree/12079504/person/282657358840
     findagrave 220571221
 }
-birth -date 05-mar-1760
+baptism -date 05-mar-1760 -location campbeltown -ref archibald1760-baptism
 death -date 03-aug-1827 -location 'black cape,quebec,canada'
 note {
     Maybe immigrated to Quebec in 1821
@@ -107,6 +107,13 @@ partner {
     }
 }
 footnotes {
+    archibald1760-baptism {
+        $opr-ref-link[b-1760-507-000-0011-0318 "Archibald McNair"]{
+            Archd and Robert | Arch McNair and Margt Galbreath had
+                Twins born 5th March named Archd + Robert
+        }
+        $opr-ref[b-1760-507-000-0010-0248 "Archibald McNair"]
+    }
     mitchell-marriage {
         $opr-ref-link[m-1787-507-000-0020-0170 "Archibald McNair" "Margaret Mitchell"]{
             Archd McNair & Marg Mitchell both of this parish contracted
