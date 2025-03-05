@@ -10,10 +10,10 @@ external {
     findagrave  123641931
 }
 body {
-    Immigration in 1842
+    He was a farmer in Lochsanish.
 }
 body {
-    He was a farmer in Lochsanish.
+    Immigration in 1842 to Clermont County, Ohio, USA.
 }
 note {
     Mary Mitchell is often confused with $child-link[mitchell-mary-1803-greenlees]{Mary Mitchell} who married Robert Greenlees.
