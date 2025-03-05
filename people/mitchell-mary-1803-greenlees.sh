@@ -7,7 +7,10 @@ external {
     findagrave 53401235
 }
 note {
-    Confused with $child-link[mcnair-archibald-1796-mitchell]{Mary Mitchell} who married Archibald McNair.
+    Historically confused with $child-link[mcnair-archibald-1796-mitchell]{Mary Mitchell}, b. 1802, m. Archibald McNair.
+}
+note {
+    Historically confused with $child-link[mitchell-mary-1799-sheddan]{Mary Mitchell}, b. 1799, m. James Sheddan.
 }
 partner {
     name Robert Greenlees

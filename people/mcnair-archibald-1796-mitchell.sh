@@ -13,10 +13,13 @@ body {
     Immigration in 1842
 }
 body {
-    He was a farm in Lochsanish.
+    He was a farmer in Lochsanish.
 }
 note {
     Mary Mitchell is often confused with $child-link[mitchell-mary-1803-greenlees]{Mary Mitchell} who married Robert Greenlees.
+}
+note {
+    Mary Mitchell has been historically confused with $child-link[mitchell-mary-1799-sheddan]{Mary Mitchell}, b. 1799, m. James Sheddan.
 }
 note {
     Possible additional children  Mary and Robert, born in Ohio.
@@ -26,9 +29,8 @@ partner {
    name Mary Mitchell
    gender female
    parent mitchell-john-1773-langwill 
-   birth -date 20-sep-1799
-   baptism -date 23-sep-1799 -location campbeltown
    marriage -date 28-apr-1825 -location campbeltown -ref mitchell-marriage
+   birth -date 10-Apr-1802 -location campbeltown
 
    child {
         name Archibald McNair

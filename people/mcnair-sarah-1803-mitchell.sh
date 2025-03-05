@@ -9,7 +9,7 @@ external {
 }
 birth -date 07-may-1803
 baptism -date 08-may-1803 -location campbeltown -ref sarah1803-baptism
-death -date 18-jul-1874 -location campbeltown
+death -date 18-jul-1874 -location campbeltown -ref sarah1803-death
 partner {
    name William Mitchell
    gender male
@@ -82,7 +82,10 @@ footnotes {
         Sarah | Lawful Daughter to Robert MacNair Tenant in Smerby and Jean 
         Johnston born 7th Baptized 8th May 1803 Named Sarah
         }
-    }      
+    }
+    sarah1803-death {
+        $sp-ref-link[d-1874-507-00-0107 0036 "Sarah McNair"]
+    }    
     robert1826-baptism {
         $opr-ref[b-1826-507-000-0060-0134 "Robert Mitchell"]
     }

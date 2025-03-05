@@ -16,7 +16,7 @@ note {
     Historically confused with $child-link[mitchell-mary-1803-greenlees]{Mary Mitchell}, b. 1803, m. Robert Greenlees.
 }
 note {
-    Historically confused with $child-link[mcnair-archibald-1796-mitchell]{Mary Mitchell}, b. 1799, m. Archibald McNair.
+    Historically confused with $child-link[mcnair-archibald-1796-mitchell]{Mary Mitchell}, b. 1802, m. Archibald McNair.
 }
 partner {
     name James Sheddan
