@@ -21,7 +21,16 @@ note {
 partner {
     name James Sheddan
     gender male
-    birth -date 1797
+    birth -date 15-sep-1797
+    baptism -date 18-sep-1797 -location campbeltown
+    parent {
+        name William Sheddan
+        gender male
+        partner {
+            name Janet Mitchell
+            gender female
+        }
+    }
     death -date 4-jul-1838 -location campbeltown
     marriage -date 16-nov-1830 -location campbeltown -ref sheddan-marriage
 }
