@@ -27,7 +27,7 @@ partner {
         death -date 19-may-1817 -location Anderson,Tenn,USa
         partner {
             name Elizabeth Hays
-            birth -date 1761 -location Virgina,USA
+            birth -date 1761 -location Virginia,USA
             marriage -date 30-may-1779 -location bedford,virginia,usa
         }
     }

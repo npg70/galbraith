@@ -35,7 +35,7 @@ partner {
         name Ethel May Galbraith
         gender female
         birth -date 1890
-        death -date 1966 -location 'Parkersburg, West Virgina, USA'
+        death -date 1966 -location 'Parkersburg, West Virginia, USA'
         partner {
             name Blair Plate
         }

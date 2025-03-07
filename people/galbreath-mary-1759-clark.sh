@@ -2,7 +2,7 @@ name Mary Galbreath
 gender female
 tags Argyll:Campbeltown immigrant:usa:virginia
 baptism -date 21-jan-1759 -location campbeltown -ref mary1759-baptism
-death -date 13-apr-1856 -location "virgina,usa"
+death -date 13-apr-1856 -location "virginia,usa"
 burial -location "Glade Spring,Washington,Virginia,USA" -name "Old Glade Spring Presbyterian Church Cemetery"
 external {
    familysearch 9M98-PTF

@@ -52,8 +52,8 @@ partner {
         body {
             Immigrated in 1814 with their sons.
         }
-        death -date 1821 -location washington,virgina,usa
-        burial -location washington,virgina,usa -name 'Old Glade Spring Cemetery'
+        death -date 1821 -location washington,virginia,usa
+        burial -location washington,virginia,usa -name 'Old Glade Spring Cemetery'
     }
     child harvey-janet-1767-paterson
 
