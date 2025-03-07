@@ -1,4 +1,5 @@
 name David Galbreath
+gender male
 birth -date 16-sep-1797
 baptism -date 19-sep-1797 -location campbeltown -ref david1797-baptism
 death -date 12-aug-1884 -location campbeltown -ref david1797-death
@@ -6,13 +7,16 @@ tags Argyll:Campbeltown
 ydna yes
 external {
     familysearch LZVY-GWN
+    ancestry tree/12079504/person/282660967056
 }
 body {
 He was a laborer, a fisherman, a potato buyer, and a sawyer (one who makes boards).
 }
 partner {
     name Janet Mitchell
-    birth -date 'about 1801'
+    gender female
+    parent mitchell-archibald-1770-greenlees
+    birth -date 1797
     death -date 4-oct-1874 -location campbeltown -ref mitchell-death
     marriage -date 5-oct-1824 -location campbeltown -ref marriage
 
@@ -22,20 +26,24 @@ partner {
     child galbraith-agnes-1828-carmichael
     child {
         name Janet Galbreath
+        gender female
         baptism -date 6-may-1830 -location campbeltown -ref janet1830-baptism
     }
     child {
         name David Galbreath
+        gender male
         baptism -date 29-jul-1832 -location campbeltown -ref david1832-baptism
     }
     child galbreath-william-1833-mcmurchy 
     child {
         name David Galbreath
+        gender male
         baptism -date 30-aug-1835 -location campbeltown -ref david1835-baptism
         death -date 5-feb-1906 -location campbeltown -ref david1835-death
     }
     child {
         name James Galbreath
+        gender male
         baptism -date 2-jun-1839 -location campbeltown -ref james1839-baptism
     }
     child galbreath-john-1842-mcalpine-wylie-galbraith
