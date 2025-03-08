@@ -1,15 +1,17 @@
  <script type="module">
+
     // FlexSearch is NOT available on window.FlexSearch
     // Access FlexSearch static methods via bundled export (static class methods of FlexSearch)
     import  FlexSearch from "/galbraith/flexsearch/dist/flexsearch.bundle.module.min.js";
 
     const index = FlexSearch.Document({
-        charset: "latin:extra",
-    lang: "en",
-    document: {
+     charset: "latin:extra",
+     lang: "en",
+     document: {
      id: "id",
+     tag: "tags",
      index: [{
-         field: "content",
+         field: "doc",
          tokenize: "strict",
          context: { 
             resolution: 5,
@@ -28,12 +30,31 @@
         }
         return response.json();
     })
-    .then(data => {
+    .then(docs => {
       console.time("index load")
-      data.forEach(element => {
+      docs.forEach(element => {
         index.add(element)
-        })
+      })
       console.timeEnd("index load") 
+      const form = document.getElementById('searchForm')
+      form.addEventListener('submit', function(event) {
+        // Prevent the default form submission behavior
+        event.preventDefault();
+        const query = event.target.q.value;
+        console.log("QUERRY: " + query)
+        const junk = index.search(query, {bool: "and", limit: 10, suggest:true})
+        results = document.getElementById("results");
+        var out = "";
+        if (!junk ) {
+          results.innerHTML("nope");
+          return
+        }
+        junk[0].result.forEach(idx => {
+          out += "<div>" + docs[idx].content + "</div>"
+          console.log(docs[idx].content)
+        });
+        results.innerHTML = out;
+      });
     })
     .catch(error => {
         console.error('There was a problem fetching the file:', error);

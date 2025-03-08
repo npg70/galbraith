@@ -93,7 +93,7 @@ func main() {
 
 	for i, path := range paths {
 		for j, p := range path {
-			fmt.Printf("LINE %d - %d: %s\n", i+1, j+1, WriteBio(p))
+			fmt.Printf("LINE %d - %d: %s\n", i+1, j+1, WriteBio(p, 1))
 		}
 		fmt.Printf("\n")
 	}

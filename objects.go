@@ -861,14 +861,28 @@ func WriteTitle(p *Person) string {
 	return out
 }
 
-// Write MiniBio
-func WriteBio(p *Person) string {
-	style := 1
+// write a string that can be full text indexed.
+func WriteFulltextDoc(p *Person) string {
+	out := p.FullName()
+	for _, spouse := range p.Partners {
+		out += " "
+		out += spouse.FullName()
+	}
+	return out
+}
+
+// Write MiniBio -- displayable to humans
+func WriteBio(p *Person, style int) string {
 	fn := p.FullName()
 	switch style {
+	case 0:
+		// just as is
 	case 1:
 		fn = strings.ToUpper(fn)
-
+	case 2:
+		fn = fmt.Sprintf("<a href='/galbraith/people/%s'>%s</a>", p.ID, p.FullName())
+	default:
+		panic("Unknown style")
 	}
 	out := fn
 	out += " " + WriteBirthDeath(p)
@@ -894,7 +908,12 @@ func WriteBio(p *Person) string {
 		}
 		fn = spouse.FullName()
 		switch style {
+		case 0:
+			// NOP
 		case 1:
+			fn = strings.ToUpper(fn)
+		case 2:
+			// TODO wrap in appropriate class
 			fn = strings.ToUpper(fn)
 		}
 		out += fn

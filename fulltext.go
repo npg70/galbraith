@@ -10,16 +10,21 @@ import (
 // that could be used to make a full text index
 
 type FtIndex struct {
-	Id      int    `json:"id"`
-	Page    string `json:"page"`
-	Context string `json:"content"`
+	Id      int      `json:"id"`      // sequential int
+	Doc     string   `json:"doc"`     // the doc to index
+	Tags    []string `json:"tags"`    // tags.. tbd
+	Content string   `json:"content"` // content to display
 }
 
 func fulltext(db Root) {
 	idx := 0
 	out := make([]FtIndex, 0, len(db))
-	for key, p := range db {
-		out = append(out, FtIndex{idx, key, WriteBio(p)})
+	for _, p := range db {
+		if p.Tags == nil {
+			// flexsearch blows up on nil
+			p.Tags = []string{}
+		}
+		out = append(out, FtIndex{idx, WriteFulltextDoc(p), p.Tags, WriteBio(p, 2)})
 		idx += 1
 	}
 
