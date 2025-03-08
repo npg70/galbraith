@@ -7,6 +7,7 @@ hugo/public:
 build: hugo/public
 	cp -rf hugo/static/* hugo/public/
 	go run . -out hugo/public
+	cp fulltext.json hugo/public/static/fulltext.json
 
 test:
 	go test .
@@ -19,6 +20,7 @@ clean:
 	go clean -i -r -cache -testcache
 	rm -f .git/index.lock
 	rm -rf hugo/public
+	rm -f fulltext.json
 
 lint:
 	golangci-lint run .

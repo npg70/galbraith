@@ -323,19 +323,49 @@ func (p *Person) LastName() string {
 	return p.Name[len(p.Name)-1]
 }
 
+func shortEventYear(e *Event) string {
+	if e == nil || e.Date.year == 0 {
+		return ""
+	}
+	about := ""
+	if e.Date.qualifier != DATE_EXACT {
+		about = "~"
+	}
+	return fmt.Sprintf("%s%d", about, e.Date.year)
+}
+
+// BirthYearString gets the birth year from the birth or baptism event
+// with qualifier (about/before/after, etc)
 func (p *Person) BirthYearString() string {
 	e := p.Events["birth"]
 	if e == nil || e.Date.year == 0 {
 		e = p.Events["baptism"]
 	}
-	if e != nil && e.Date.year != 0 {
-		about := ""
-		if e.Date.qualifier != DATE_EXACT {
-			about = "~"
-		}
-		return fmt.Sprintf("%s%d", about, e.Date.year)
+	return shortEventYear(e)
+}
+func (p *Person) DeathYearString() string {
+	return shortEventYear(p.Events["death"])
+}
+func (p *Person) MarriageYearString() string {
+	return shortEventYear(p.Events["marriage"])
+}
+
+func (p *Person) BirthLocation() string {
+	e := p.Events["birth"]
+	if e == nil || e.Location == "" {
+		e = p.Events["baptism"]
 	}
-	return ""
+	if e == nil {
+		return ""
+	}
+	return e.Location
+}
+func (p *Person) DeathLocation() string {
+	e := p.Events["death"]
+	if e == nil {
+		return ""
+	}
+	return e.Location
 }
 
 func (p *Person) AllChildren() []*Person {
@@ -748,6 +778,76 @@ func WriteChildPartnerName(p *Person) string {
 	return "$child-link[" + p.ID + "]{" + p.FullName() + "}"
 }
 
+func WriteBirthDeath(p *Person) string {
+	by := p.BirthYearString()
+	bl := TitleCompound(p.BirthLocation())
+	dy := p.DeathYearString()
+	dl := TitleCompound(p.DeathLocation())
+
+	switch {
+	case by == "" && bl == "" && dy == "" && dl == "":
+		{
+			// birth and death locations unknown
+			return ""
+		}
+	case by == "" && bl == "" && dy == "" && dl != "":
+		{
+			return "d. " + dl
+		}
+	case by == "" && bl == "" && dy != "" && dl == "":
+		{
+			return "d. " + dy
+		}
+	case by == "" && bl == "" && dy != "" && dl != "":
+		{
+			return "d. " + dy + " " + dl
+		}
+	case by != "" && bl != "" && dy == "" && dl == "":
+		{
+			return "b. " + by + " " + bl
+		}
+	case by != "" && bl == "" && dy == "" && dl == "":
+		{
+			return "b. " + by
+		}
+	case by != "" && bl != "" && dy == "" && dl == "":
+		{
+			return "b. " + by + " " + bl
+		}
+	case by != "" && bl != "" && dy != "" && dl == "":
+		{
+			return "b. " + by + " " + bl + "; d. " + dy
+		}
+	case by != "" && bl == "" && dy != "" && dl != "":
+		{
+			return "b. " + by + "; " + "d. " + dy + " " + dl
+		}
+	case by != "" && bl == "" && dy != "" && dl == "":
+		{
+			// SPECIAL CASE .. just birth and death date, no location
+			return by + "-" + dy
+			//return "b. " + by + "; d. " + dy
+		}
+	case by != "" && bl == dl && dy != "":
+		// Special case  same location, have birth and death years
+		{
+			return by + "-" + dy + " of " + bl
+		}
+	case by != "" && bl != dl && dy != "":
+		{
+			return "b. " + by + " " + bl + "; d. " + dy + " " + dl
+		}
+
+	case by != "" && bl != dl && dy == "":
+		{
+			return "b. " + by + " " + bl + "; d. " + dl
+		}
+	}
+	// if BY == DY
+	log.Fatalf("Unreachable - %q %q %q %q", by, bl, dy, dl)
+	return "FAIL"
+}
+
 // plain text version
 func WriteTitle(p *Person) string {
 	out := p.FullName()
@@ -757,6 +857,48 @@ func WriteTitle(p *Person) string {
 	}
 	for _, spouse := range p.Partners {
 		out += " m. " + spouse.FullName()
+	}
+	return out
+}
+
+// Write MiniBio
+func WriteBio(p *Person) string {
+	style := 1
+	fn := p.FullName()
+	switch style {
+	case 1:
+		fn = strings.ToUpper(fn)
+
+	}
+	out := fn
+	out += " " + WriteBirthDeath(p)
+	if len(p.Partners) == 0 {
+		return out
+	}
+	for _, spouse := range p.Partners {
+		out += ";"
+		out += " m. "
+		if m := spouse.Events["marriage"]; m != nil {
+			if ds := shortEventYear(m); ds != "" {
+				out += ds
+				if m.Location != "" {
+					out += " " + TitleCompound(m.Location)
+				}
+				out += " to "
+			} else {
+				if m.Location != "" {
+					out += " " + TitleCompound(m.Location)
+					out += " to "
+				}
+			}
+		}
+		fn = spouse.FullName()
+		switch style {
+		case 1:
+			fn = strings.ToUpper(fn)
+		}
+		out += fn
+		//out += WriteBirthDeath(spouse)
 	}
 	return out
 }

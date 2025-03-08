@@ -79,6 +79,7 @@ func main() {
 	if rootsOnly {
 		return
 	}
+	fulltext(db)
 
 	paths := [][]*Person{}
 	for _, rootid := range roots {
@@ -92,7 +93,7 @@ func main() {
 
 	for i, path := range paths {
 		for j, p := range path {
-			fmt.Printf("LINE %d - %d: %s\n", i+1, j+1, WriteTitle(p))
+			fmt.Printf("LINE %d - %d: %s\n", i+1, j+1, WriteBio(p))
 		}
 		fmt.Printf("\n")
 	}
