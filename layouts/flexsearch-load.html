@@ -1,0 +1,41 @@
+ <script type="module">
+    // FlexSearch is NOT available on window.FlexSearch
+    // Access FlexSearch static methods via bundled export (static class methods of FlexSearch)
+    import  FlexSearch from "/galbraith/flexsearch/dist/flexsearch.bundle.module.min.js";
+
+    const index = FlexSearch.Document({
+        charset: "latin:extra",
+    lang: "en",
+    document: {
+     id: "id",
+     index: [{
+         field: "content",
+         tokenize: "strict",
+         context: { 
+            resolution: 5,
+            depth: 3,
+            bidirectional: true
+        }
+     }]
+    }
+    });
+
+
+    fetch('/galbraith/fulltext.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(data => {
+      console.time("index load")
+      data.forEach(element => {
+        index.add(element)
+        })
+      console.timeEnd("index load") 
+    })
+    .catch(error => {
+        console.error('There was a problem fetching the file:', error);
+    });
+</script>
