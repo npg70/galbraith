@@ -22,6 +22,8 @@
     }
     </script>
     <link rel="stylesheet" type="text/css" href="/galbraith/styles.css">
+{{ block "header-extra" . }}
+{{ end }}
 </head>
 <body class="bg-white">
   <div style="max-width: 50rem;" class="bg-white mx-auto">
@@ -41,10 +43,11 @@
          </div>
        </div>
      </nav>
-
-     <div class="ps-2 pe-2">
-         {{ .Page.Content | render }}
-     </div>
-  </div><!-- main container -->
+<div class="ps-2 pe-2">
+{{ block "main" . }}
+{{ .Page.Content | render }}
+{{ end }}
+</div><!-- content wrapper -->
+</div><!-- main container -->
 </body>
 </html>
