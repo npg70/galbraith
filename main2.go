@@ -7,7 +7,6 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"text/template"
 
 	tf "github.com/client9/tagfunctions"
 	"github.com/npg70/ssg"
@@ -15,23 +14,7 @@ import (
 )
 
 func Main2(config siteConfig, pages *[]ssg.ContentSource) error {
-
-	//---------------------
-	templateGlob := filepath.Join(
-		".",
-		"layouts",
-		"*.html",
-	)
-	fmap := template.FuncMap{
-		"render": render,
-	}
-	log.Printf("Reading templates: %s", templateGlob)
-	tmpl, err := template.New("").Funcs(fmap).ParseGlob(templateGlob)
-	if err != nil {
-		return fmt.Errorf("Unable to read template glob %s: %v",
-			templateGlob, err)
-	}
-	//---------------------
+	tmpl, _ := templateMap("layouts")
 
 	if err := LoadContent(config, pages); err != nil {
 		return fmt.Errorf("Load content failed: %w", err)
