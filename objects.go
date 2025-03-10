@@ -880,7 +880,7 @@ func WriteBio(p *Person, style int) string {
 	case 1:
 		fn = strings.ToUpper(fn)
 	case 2:
-		fn = fmt.Sprintf("<a href='/galbraith/people/%s'>%s</a>", p.ID, p.FullName())
+		fn = fmt.Sprintf("<a class='fw-bold text-smallcaps' href='/galbraith/people/%s'>%s</a>", p.ID, p.FullName())
 	default:
 		panic("Unknown style")
 	}
@@ -913,8 +913,7 @@ func WriteBio(p *Person, style int) string {
 		case 1:
 			fn = strings.ToUpper(fn)
 		case 2:
-			// TODO wrap in appropriate class
-			fn = strings.ToUpper(fn)
+			fn = "<span class='fw-bold text-smallcaps'>" + fn + "</span>"
 		}
 		out += fn
 		//out += WriteBirthDeath(spouse)
