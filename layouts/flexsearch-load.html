@@ -35,55 +35,15 @@ function extractHashtags(input) {
     return { hashtags, query };
 }
 
-    // FlexSearch is NOT available on window.FlexSearch
-    // Access FlexSearch static methods via bundled export (static class methods of FlexSearch)
-    import  FlexSearch from "/galbraith/flexsearch/dist/flexsearch.bundle.module.min.js";
+function runSearch(docs, query) {
+   var qp  = extractHashtags(query)
 
-    const index = FlexSearch.Document({
-     charset: "latin:extra",
-     lang: "en",
-     document: {
-     id: "id",
-     tag: "tags",
-     index: [{
-         field: "doc",
-         tokenize: "strict",
-         context: { 
-            resolution: 5,
-            depth: 3,
-            bidirectional: true
-        }
-     }]
-    }
-    });
-
-    var qp
-    fetch('/galbraith/fulltext.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.json();
-    })
-    .then(docs => {
-      console.time("index load")
-      docs.forEach(element => {
-        index.add(element)
-      })
-      console.timeEnd("index load") 
-      const form = document.getElementById('searchForm')
-      form.addEventListener('submit', function(event) {
-        // Prevent the default form submission behavior
-        event.preventDefault();
-        const query = event.target.q.value;
-        qp  = extractHashtags(query)
-
-        console.log("Orig: " + query + ", Search: " + qp.query + ", Hashtags: " + qp.hashtags)
-        var junk;
-        var matches;
-        switch (true) {
-          case qp.query.length == 0:
-            // just tags
+   console.log("Orig: " + query + ", Search: " + qp.query + ", Hashtags: " + qp.hashtags)
+   var junk;
+   var matches;
+   switch (true) {
+      case qp.query.length == 0:
+         // just tags
             // flexsearch doesn't like empty search term
             junk = index.search({
                tag: qp.hashtags,
@@ -109,21 +69,21 @@ function extractHashtags(input) {
              suggest:true
           });
           break;
+    } // end switch
+    var results = document.getElementById("results");
+    var out = "";
+    if (!junk ) {
+       results.innerHTML("nope");
+       return
+    }
+    matches = junk[0].result;
+    if (junk.length > 1) {
+        for (let i = 1; i < junk.length; i++) {
+           matches = intersection(matches, junk[i].result);
         }
-        var results = document.getElementById("results");
-        var out = "";
-        if (!junk ) {
-          results.innerHTML("nope");
-          return
-        }
-        matches = junk[0].result;
-        if (junk.length > 1) {
-          for (let i = 1; i < junk.length; i++) {
-            matches = intersection(matches, junk[i].result);
-          }
-        }
-        //console.log(JSON.stringify(junk))
-        matches.forEach(idx => {
+     }
+     //console.log(JSON.stringify(junk))
+     matches.forEach(idx => {
           out += "<div class='mb-2'>" + docs[idx].content;
           out += "<div class='ms-4'>"
 
@@ -145,9 +105,70 @@ function extractHashtags(input) {
               out += " <span class='" + color + "'>#" + t + "</span>";
           });
           out += "</div></div>";
-        });
-        results.innerHTML = out;
+     });
+    results.innerHTML = out;
+}
+
+    // FlexSearch is NOT available on window.FlexSearch
+    // Access FlexSearch static methods via bundled export (static class methods of FlexSearch)
+    import  FlexSearch from "/galbraith/flexsearch/dist/flexsearch.bundle.module.min.js";
+
+    const index = FlexSearch.Document({
+     charset: "latin:extra",
+     lang: "en",
+     document: {
+     id: "id",
+     tag: "tags",
+     index: [{
+         field: "doc",
+         tokenize: "strict",
+         context: { 
+            resolution: 5,
+            depth: 3,
+            bidirectional: true
+        }
+     }]
+    }
+    });
+
+    fetch('/galbraith/fulltext.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+    })
+    .then(docs => {
+      console.time("index load")
+      docs.forEach(element => {
+        index.add(element)
+      })
+      console.timeEnd("index load") 
+
+      // index is loaded, assume that document has loaded by now as well
+      // attach to form
+      const form = document.getElementById('searchForm')
+      form.addEventListener('submit', function(event) {
+        // Prevent the default form submission behavior
+        event.preventDefault();
+        const query = event.target.q.value;
+        runSearch(docs, query);
+
+        // update state
+        // TODO: update title
+        const url = new URL(window.location.href);
+        url.searchParams.set('q', query);
+        const newUrl = url.toString();
+        history.pushState(null, '', newUrl); 
+        //location.href = newUrl;
       });
+
+      // check to see if we have query in URL
+      const url = new URL(window.location.href);
+      const query = url.searchParams.get('q')
+      if (query) {
+        runSearch(docs, query);
+      }
     })
     .catch(error => {
         console.error('There was a problem fetching the file:', error);
