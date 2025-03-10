@@ -1,4 +1,5 @@
 name Archibald Galbraith
+gender male
 tags veteran 'no children' 'argyll:KILLEAN AND KILCHENZIE'
 external {
     familysearch GHDN-S7R
@@ -7,7 +8,7 @@ birth -date 9-apr-1890 -location Killean -ref birth
 death -date 24-apr-1917 -location france -ref death
 
 body {
-   See also https://www.cwgc.org/find-records/find-war-dead/casualty-details/750566/archibald-galbraith/
+   See also record at $elink[https://www.cwgc.org/find-records/find-war-dead/casualty-details/750566/archibald-galbraith/]{CWGC}
 }
 
 footnotes {
