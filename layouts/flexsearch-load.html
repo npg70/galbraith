@@ -1,4 +1,39 @@
  <script type="module">
+  // thanks to chat GPT
+function intersection (a, b) {
+    const setA = new Set(a);
+    return b.filter(value => setA.has(value));
+}
+   /**
+    * Extracts words that start with '#' from a given string and returns them separately.
+    *
+    * @param {string} input - The input string containing words and hashtags.
+    * @returns {Object} - An object containing:
+    *                    - {string[]} hashtags: An array of words that start with '#'.
+    *                    - {string} cleanedString: The original string with hashtags removed.
+    */
+    /*
+function extractHashtags(input) {
+    const words = input.split(/\s+/);
+    const hashtags = words.filter(word => word.startsWith('#'));
+    const cleanedString = words.filter(word => !word.startsWith('#')).join(' ');
+    return { hashtags, cleanedString };
+}
+*/
+/**
+ * Extracts words that start with '#' from a given string and returns them separately.
+ *
+ * @param {string} input - The input string containing words and hashtags.
+ * @returns {Object} - An object containing:
+ *                    - {string[]} hashtags: An array of words that were hashtags but without the '#' and lower-cased
+ *                    - {string} query: The original string with hashtags removed.
+ */
+function extractHashtags(input) {
+    const words = input.split(/\s+/);
+    const hashtags = words.filter(word => word.startsWith('#')).map(word => word.slice(1).toLowerCase());
+    const query = words.filter(word => !word.startsWith('#')).join(' ');
+    return { hashtags, query };
+}
 
     // FlexSearch is NOT available on window.FlexSearch
     // Access FlexSearch static methods via bundled export (static class methods of FlexSearch)
@@ -22,7 +57,7 @@
     }
     });
 
-
+    var qp
     fetch('/galbraith/fulltext.json')
     .then(response => {
         if (!response.ok) {
@@ -41,17 +76,75 @@
         // Prevent the default form submission behavior
         event.preventDefault();
         const query = event.target.q.value;
-        console.log("QUERRY: " + query)
-        const junk = index.search(query, {bool: "and", limit: 10, suggest:true})
-        results = document.getElementById("results");
+        qp  = extractHashtags(query)
+
+        console.log("Orig: " + query + ", Search: " + qp.query + ", Hashtags: " + qp.hashtags)
+        var junk;
+        var matches;
+        switch (true) {
+          case qp.query.length == 0:
+            // just tags
+            // flexsearch doesn't like empty search term
+            junk = index.search({
+               tag: qp.hashtags,
+               bool: "and",
+               limit: 200,
+               suggest:true
+            });
+            break;
+         case qp.hashtags.length == 0 :
+          // doesn't like empty hashtag list
+          junk = index.search(qp.query, {
+             bool: "and",
+             limit: 200,
+             suggest:true
+          })
+          break;
+        default:
+          // search with tags
+          junk = index.search(qp.query, {
+             tag: qp.hashtags,
+             bool: "and",
+             limit: 500,
+             suggest:true
+          });
+          break;
+        }
+        var results = document.getElementById("results");
         var out = "";
         if (!junk ) {
           results.innerHTML("nope");
           return
         }
-        junk[0].result.forEach(idx => {
-          out += "<div>" + docs[idx].content + "</div>"
-          console.log(docs[idx].content)
+        matches = junk[0].result;
+        if (junk.length > 1) {
+          for (let i = 1; i < junk.length; i++) {
+            matches = intersection(matches, junk[i].result);
+          }
+        }
+        //console.log(JSON.stringify(junk))
+        matches.forEach(idx => {
+          out += "<div class='mb-2'>" + docs[idx].content;
+          out += "<div class='ms-4'>"
+
+          let visited = [];
+          let newtags = [];
+          docs[idx].tags.forEach(t => {
+            if (qp.hashtags.includes(t)) {
+              visited.push(t);
+            } else {
+              newtags.push(t);
+            }
+          });
+          visited.forEach(t => {
+              const color = "text-body-secondary";
+              out += " <span class='" + color + "'>#" + t + "</span>";
+          });
+          newtags.forEach(t => {
+              const color = "";
+              out += " <span class='" + color + "'>#" + t + "</span>";
+          });
+          out += "</div></div>";
         });
         results.innerHTML = out;
       });
