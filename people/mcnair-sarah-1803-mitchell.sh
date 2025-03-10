@@ -1,6 +1,6 @@
 name Sarah McNair
 gender female
-tags Argyll:Campebeltown
+tags Argyll:Campbeltown
 external {
     wikitree McNair-1211
     familysearch 9M9Z-PD4

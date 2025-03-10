@@ -1,6 +1,6 @@
 name Neill Galbraith
 gender male
-tags Argyll:Campbeltown tags Dumbarton
+tags Argyll:Campbeltown Dumbarton
 external {
     familysearch LZK5-23F
 }
