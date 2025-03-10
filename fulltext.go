@@ -61,8 +61,15 @@ func tagsAnd(tags []string) []string {
 	return out
 }
 
+// for now just remove them
+func tagsSpaces(tags []string) []string {
+	for i, e := range tags {
+		tags[i] = strings.ReplaceAll(e, " ", "")
+	}
+	return tags
+}
 func tagsNormalize(tags []string) []string {
-	return uniqueStrings(tagsAnd(tagsCompound(tags)))
+	return uniqueStrings(tagsSpaces(tagsAnd(tagsCompound(tags))))
 }
 
 func fulltext(db Root) {
