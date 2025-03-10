@@ -30,7 +30,7 @@ partner {
     gender female
     birth -date 1754
     death -date 1810
-    marriage -date 20-mar-1768 -location campebeltown
+    marriage -date 20-mar-1768 -location campbeltown
 
     child {
         name Katherine McWilliam

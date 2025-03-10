@@ -13,7 +13,7 @@ partner {
    name James Mitchell
    birth -date 'about 1740'
    gender male
-   marriage -date 30-jun-1767 -location campebeltown -ref mitchell-marriage
+   marriage -date 30-jun-1767 -location campbeltown -ref mitchell-marriage
 
     child {
         name Janet Mitchell

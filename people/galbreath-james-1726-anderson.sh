@@ -16,7 +16,7 @@ partner {
             name Margaret Paterson
         }
     }
-    baptism -date 18-aug-1725 -location campebeltown -ref anderson-baptism
+    baptism -date 18-aug-1725 -location campbeltown -ref anderson-baptism
 
     marriage -date 10-jan-1748 -location campbeltown -ref anderson-marriage 
     child {

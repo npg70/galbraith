@@ -16,7 +16,7 @@ partner {
     child {
         name Neill Galbreath
         baptism -date 28-Nov-1833 -location campbeltown -ref neil1833-baptism
-        death -date 22-July-1911 -location campebeltown -ref neil1833-death
+        death -date 22-July-1911 -location campbeltown -ref neil1833-death
         partner {
             name Catherine Thomson
         }

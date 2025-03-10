@@ -11,7 +11,7 @@ birth -date 29-oct-1888 -location campbeltown -ref daniel1888-birth
 death -date 17-dec-1942 -location campbeltown -ref daniel1888-death
 partner {
     name Maggie Sinclair McMichael
-    marriage -date 1923 -location campebeltown -ref mcmichael-marriage
+    marriage -date 1923 -location campbeltown -ref mcmichael-marriage
     birth -date 1898
     death -date 1968 
 

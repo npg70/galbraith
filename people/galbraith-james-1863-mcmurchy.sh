@@ -4,7 +4,7 @@ external {
     familysearch GZ9X-FND
 }
 birth -date 23-may-1863 -location Saddell -ref james1863-birth
-death -date 25-apr-1898 -location campebeltown -ref james1863-death
+death -date 25-apr-1898 -location campbeltown -ref james1863-death
 
 partner {
     name Mary McMurchy

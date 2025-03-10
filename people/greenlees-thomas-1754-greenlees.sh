@@ -77,14 +77,14 @@ partner {
     child {
         name Mary Greenlees
         gender female
-        baptism -date 13-jan-1790 -location campebeltown -ref mary1790-baptism
+        baptism -date 13-jan-1790 -location campbeltown -ref mary1790-baptism
         partner galbreath-david-1793-greenlees
 
     }
     child {
         name Margaret Greenlees
         gender female
-        baptism -date 25-sep-1791 -location campebeltown -ref mary1791-baptism
+        baptism -date 25-sep-1791 -location campbeltown -ref mary1791-baptism
         death -date 15-feb-1864 -location campbeltown -ref mary1791-death
     }
     child {

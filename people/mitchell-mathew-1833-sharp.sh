@@ -22,7 +22,7 @@ partner {
         }
     }
     birth -date 04-dec-1850 -location 'killean and kilchenzie'
-    marriage -date 07-feb-1871 -location campebeltown -ref jessie-marriage
+    marriage -date 07-feb-1871 -location campbeltown -ref jessie-marriage
     death -date 04-jan-1875 -location campbeltown
     child {
         name Catherine Dunlop Mitchell

@@ -1,6 +1,6 @@
 name David Galbreath
 gender male
-baptism -date 12-feb-1755 -location campebeltown -ref david1755-baptism
+baptism -date 12-feb-1755 -location campbeltown -ref david1755-baptism
 death -date 'before 1819'
 tags Argyll:Campbeltown Argyll:Ugadale Argyll:Ardnacross
 external {

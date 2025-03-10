@@ -26,7 +26,7 @@ partner {
             name Ann Brackenridge
         }
     }
-    baptism -date 10-dec-1704 -location campebeltown -ref margaret-baptism
+    baptism -date 10-dec-1704 -location campbeltown -ref margaret-baptism
     marriage -date 31-jul-1724 -location campbeltown -ref marriage
     child {
         name Mary Galbreath

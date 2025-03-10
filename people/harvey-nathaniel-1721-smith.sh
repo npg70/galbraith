@@ -50,6 +50,6 @@ partner {
     child {
         name Jeremiah Harvey
         birth -date 22-jan-1766
-        baptism -date 23-jan-1766 -location campebeltown
+        baptism -date 23-jan-1766 -location campbeltown
     }
 }

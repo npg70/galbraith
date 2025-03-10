@@ -5,7 +5,7 @@ death -date 3-sep-1944 -location campbeltown -ref william1866-death
 partner {
     name Jessie McLarty
     birth -date 'about 1869'
-    death -date 24-dec-1901 -location campebeltown -ref mclarty-death
+    death -date 24-dec-1901 -location campbeltown -ref mclarty-death
     marriage -date 18-dec-1893 -location campbeltown -ref mclarty-marriage
 
     child {

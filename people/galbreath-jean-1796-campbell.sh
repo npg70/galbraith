@@ -9,7 +9,7 @@ death -date 23-Aug-1867 -location Girvan,Ayr -ref jean1796-death
 partner {
     name Anthony Campbell
     gender male
-    marriage -date 17-dec-1811 -location campebeltown -ref jean1796-marriage
+    marriage -date 17-dec-1811 -location campbeltown -ref jean1796-marriage
 }
 
 footnotes {
