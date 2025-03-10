@@ -3,7 +3,11 @@ package main
 import (
 	"encoding/json"
 	"log"
+	"maps"
 	"os"
+	"slices"
+	"sort"
+	"strings"
 )
 
 // This creates a JSON array
@@ -16,15 +20,60 @@ type FtIndex struct {
 	Content string   `json:"content"` // content to display
 }
 
+func uniqueStrings(input []string) []string {
+	// Create a map to track unique strings.
+	uniqueMap := make(map[string]struct{})
+	// Iterate over the input slice and add unique strings to the map.
+	for _, str := range input {
+		uniqueMap[str] = struct{}{}
+	}
+	// Extract the keys from the map, which are the unique strings, and collect them into a slice.
+	out := slices.Collect(maps.Keys(uniqueMap))
+	if out == nil {
+		// we need a real slice for flexsearch
+		return []string{}
+	}
+
+	// sort for various reasons
+	sort.Strings(out)
+	return out
+}
+
+// #argyll:campbeltown ==> #argyll #campbeltown
+func tagsCompound(tags []string) []string {
+	out := []string{}
+	for _, e := range tags {
+		// takes 'compound tags' in the form of #foo:bar:ding
+		// and makes #foo #bar #ding
+		parts := strings.Split(strings.ToLower(e), ":")
+		out = append(out, parts...)
+	}
+	return out
+}
+
+// hand tags "#saddell and skipness" ==> #saddell #skipness
+func tagsAnd(tags []string) []string {
+	out := []string{}
+	for _, e := range tags {
+		parts := strings.Split(e, " and ")
+		out = append(out, parts...)
+	}
+	return out
+}
+
+func tagsNormalize(tags []string) []string {
+	return uniqueStrings(tagsAnd(tagsCompound(tags)))
+}
+
 func fulltext(db Root) {
 	idx := 0
 	out := make([]FtIndex, 0, len(db))
 	for _, p := range db {
-		if p.Tags == nil {
-			// flexsearch blows up on nil
-			p.Tags = []string{}
-		}
-		out = append(out, FtIndex{idx, WriteFulltextDoc(p), p.Tags, WriteBio(p, 2)})
+		out = append(out, FtIndex{
+			idx,
+			WriteFulltextDoc(p),
+			tagsNormalize(p.Tags),
+			WriteBio(p, 2)})
 		idx += 1
 	}
 
