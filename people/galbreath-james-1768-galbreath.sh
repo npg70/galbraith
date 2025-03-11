@@ -12,7 +12,7 @@ note {
 The link between Martha and $child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath} and Janet McNair is based on DNA and approximate age and location.
 }
 note {
-The parents of James is sometimes listed as $child-link[galbreath-william-1736-dunlop]{William Galbreath} and Mary Dunlop.  This is unlikely as that family was listed as living in Campbeltown in 1792. After living in the city it's unlikely he'd move out to the farm.
+The parents of James is sometimes listed as $child-link[galbreath-william-1742-dunlop]{William Galbreath} and Mary Dunlop. This is unlikely as that family was listed as living in Campbeltown in 1792. After living in the city it's unlikely he'd move out to the farm.
 }
 
 

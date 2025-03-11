@@ -1,5 +1,5 @@
 name William Galbreath
-birth -date 'about 1736' -ref william1736-birth
+birth -date 'about 1742' -ref william1742-birth
 death -date 'apr-1799'
 burial -name 'Kilkerran Cemetery'
 tags Argyll:Campbeltown
@@ -102,8 +102,8 @@ partner {
 }
 
 footnotes {
-    william1736-birth {
-        Based on the Census of 1792
+    william1742-birth {
+        Based on the Census of 1792, which shows him at age 50.
     }
     dunlop-marriage {
         $opr-ref-link[m-1760-507-000-0011-0460 "William Galbreath" "Margaret Dunlop"]{
