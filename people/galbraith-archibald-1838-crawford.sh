@@ -1,7 +1,7 @@
 name Archibald Galbraith
 baptism -date 14-nov-1838 -location 'Kilcalmonell and Kilberry' -ref archibald1838-baptism
 death -date 25-nov-1897 -location 'Kilmore and Kilbride' -ref archibald1838-death
-tags 'No Children'
+tags 'No Children' 'Argyll:Kilcalmonell and Kilberry'
 body {
 Census 1881, Scotland, Argyllshire, Kilmore + Kilbride:$ref[census1881]
 $csvtable{
