@@ -92,10 +92,11 @@ func fulltext(db Root) {
 	out := make([]FtIndex, 0, len(dbkeys))
 	for _, key := range dbkeys {
 		p := db[key]
+		p.Tags = tagsNormalize(p.Tags)
 		out = append(out, FtIndex{
 			idx,
 			WriteFulltextDoc(p),
-			tagsNormalize(p.Tags),
+			p.Tags,
 			WriteBio(p, 2)})
 		idx += 1
 	}
