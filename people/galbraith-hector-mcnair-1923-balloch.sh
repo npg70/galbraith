@@ -1,7 +1,8 @@
 name Hector McNair Galbraith
+gender male
 birth -date 19-mar-1923 -location southend -ref hector1923-birth
 death -date 20-jul-2001 -location campbeltown -ref hector1923-death
-
+tags argyll:campbeltown argyll:southend
 external {
     familysearch GZXY-V45
     findagrave 120960333
@@ -9,6 +10,7 @@ external {
 
 partner {
     name Mary Balloch
+    gender female
     marriage -date 1960 -location campbeltown -ref balloch-marriage
     birth -date 'about 1926'
     death -date 20-nov-1995 -ref balloch-death

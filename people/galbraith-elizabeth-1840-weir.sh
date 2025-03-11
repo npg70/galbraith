@@ -1,5 +1,6 @@
 name Elizabeth Galbraith
 gender female
+tags 'Argyll:Saddell and skipness'
 birth -date 7-nov-1840 -location Torisdale
 baptism -date 27-nov-1840 -location 'Saddell and Skipness' -ref elizabeth1840-baptism
 

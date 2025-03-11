@@ -1,5 +1,6 @@
 name Carol MacMichael Galbraith
 gender female
+tags argyll:campbeltown glasgow
 external {
     familysearch G7BD-TRT
 }

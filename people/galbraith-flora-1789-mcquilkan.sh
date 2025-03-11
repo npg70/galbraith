@@ -1,14 +1,20 @@
 name Flora Galbraith
 gender female
+tags argyll:gigha
+parent {
+    name John Galbraith
+    gender male
+    partner {
+        name Catherine McGougan
+        gender female
+    }
+}
 birth -date 'about 1789' -location gigha
 death -date 02-jan-1860 -location gigha -ref flora-death
 external {
     familysearch K897-J2V
 }
 body {
-
-    She was the daughter of John Galbraith and Catherine McGougan.
-   
     Listed in the 1827 Census of Gigha as being born in 1786.
 
     Listed in the 1841 Census as being born in 1791.$ref[census1841]

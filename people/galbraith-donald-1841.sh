@@ -1,4 +1,6 @@
 name Donald Galbraith
+gender male
+tags argyll:gigha
 birth -date 1841
 death -date 19-aug-1861 -location gigha -ref donald1841-death -note unmarried
 body {

@@ -1,5 +1,6 @@
 name Orslay (Ursula) Galbreath
 gender female
+tags argyll:campbeltown
 external {
     familysearch LZKZ-8X4
 }

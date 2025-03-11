@@ -1,5 +1,6 @@
 name Elizabeth Jessie Galbraith
 gender female
+tags argyll:saddell
 birth -date 12-feb-1899 -location Saddell -ref elizabeth1899-birth
 death -date 19-may-1964  -location glasgow -ref elizabeth1899-death
 partner {

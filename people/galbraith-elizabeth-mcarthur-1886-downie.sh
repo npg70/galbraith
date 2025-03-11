@@ -1,5 +1,6 @@
 name Elizabeth McArthur Galbraith
 gender female
+tags argyll:campbeltown
 birth -date 1886 -location campbeltown -ref elizabeth1886-birth
 partner {
     name William Adam Downie

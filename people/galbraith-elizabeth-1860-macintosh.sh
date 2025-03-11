@@ -1,5 +1,6 @@
 name Elizabeth Galbraith
 gender female
+tags 'Argyll:Saddell'
 birth -date 1-oct-1860 -location Saddell -ref elizabeth1860-birth
 death -date 18-feb-1919 -location saddell -ref elizabeth1860-death
 partner {

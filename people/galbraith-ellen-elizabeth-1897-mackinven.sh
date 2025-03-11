@@ -1,5 +1,6 @@
 name Ellen Elizabeth Galbraith
 gender female
+tags argyll:saddell
 birth -date 1897 -location Saddell -ref ellen1897-birth
 partner {
    name Peter MacKinven

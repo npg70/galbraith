@@ -1,5 +1,6 @@
 name Margaret Galbraith
 gender female
+tags argyll:campbeltown glasgow
 birth -date 30-apr-1853
 baptism -date 10-jul-1853 -location campbeltown -ref margaret1853-baptism
 death -date 12-aug-1897 -location glasgow -ref margaret1853-death

@@ -1,4 +1,6 @@
 name James Galbreath
+gender male
+tags ireland argyll:campbeltown
 birth -date 1780 -location ireland -note unconfirmed
 death -date 06-feb-1817 -location campbeltown
 external {
@@ -11,11 +13,12 @@ todo {
 
 partner {
     name Catherine McNeill
-
+    gender female
     child galbraith-margaret-1811-beaton
 
     child {
         name Charles Galbreath
+        gender male
         baptism -date 18-nov-1812
         death -date 1855
         partner {

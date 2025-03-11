@@ -1,4 +1,5 @@
 name Archibald Wotherspoon Galbraith
+tags argyll:kilberry
 external {
     familysearch GHHR-KF1
     findagrave 168657582

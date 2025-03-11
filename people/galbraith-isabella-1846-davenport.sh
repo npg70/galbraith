@@ -1,5 +1,6 @@
 name Isabella Galbraith
 gender female
+tags argyll:gigha
 birth -date 05-jan-1846
 baptism -date 01-feb-1846 -location gigha -ref isabella1846-baptism
 death -date 1911 -location 'Newcastle Upon Tyne, Northumberland, England'

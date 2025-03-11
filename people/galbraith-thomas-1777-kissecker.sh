@@ -1,5 +1,6 @@
 name Thomas Galbraith
 gender male
+tags usa:maryland:baltimore
 ydna yes
 birth -date 1777 -location 'Baltimore,Maryland,USA'
 death -date 1843 -location 'Pulaski,Virginia,USA'

@@ -1,9 +1,11 @@
 name Mary Galbraith
 gender female
+tags argyll:saddell
 birth -date 21-jun-1883 -location Saddell -ref mary1883-birth
 death -date 03-feb-1973 -location campbeltown -ref mary1883-death
 partner {
     name Neil MacDougall
+    gender male
     marriage -date 1909 -location saddell -ref macdougall-marriage
 }
 footnotes {

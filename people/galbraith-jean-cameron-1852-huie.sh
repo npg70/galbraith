@@ -1,10 +1,12 @@
 name Jane Galbraith
 gender female
+tags argyll:campbeltown
 baptism -date 6-dec-1852 -location campbeltown -ref jean-birth
 death -date 20-sep-1904 -location campbeltown -ref jean-death
 
 partner {
     name Alexander Huie
+    gender male
     death -date 1898
     marriage -date 14-mar-1882 -location campbeltown -ref huie-marriage
 

@@ -1,4 +1,5 @@
 name Mary Galbraith
+tags argyll:campbeltown
 gender female
 birth -date 22-may-1857 -location campbeltown -ref mary1857-birth
 death -date 14-aug-1942 -location campbeltown -ref mary1857-death

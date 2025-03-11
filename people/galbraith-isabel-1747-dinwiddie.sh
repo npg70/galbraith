@@ -1,5 +1,6 @@
 name Isabel Galbraith
 gender female
+tags usa:pennsylvania:bucks
 external {
    familysearch KLH1-6L9
    wikitree Galbreath-155

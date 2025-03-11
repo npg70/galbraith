@@ -1,5 +1,6 @@
 name Samuel Gaston Galbraith
 gender male
+tags usa:virginia
 ydna yes
 birth -date 16-sep-1763
 death -date 1850 -location Campbell,Virginia,USA

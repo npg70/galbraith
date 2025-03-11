@@ -1,6 +1,7 @@
 name Donald Galbraith
 baptism -date 31-mar-1798 -location gigha -ref donald1798-baptism
 death -date 10-jan-1879 -location gigha -ref donald1798-death
+tags argyll:gigha
 external {
     familysearch M1BH-MDH
 }

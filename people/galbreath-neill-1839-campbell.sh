@@ -1,30 +1,37 @@
 name Neill Galbreath
+gender male
+tags argyll:Campbeltown
 birth -date 'say 1739'
 external {
     familysearch GG82-X9K
 }
-note {
+todo {
     needs research. FamilySearch is a mess with many Neill merged into one.  Link is to Ann.
 }
 
 partner {
     name Ann Campbell
+    gender female
     marriage -date 'say 1764'
 
     child {
         name Duncan Galbraith
+        gender male
         baptism -date 07-jun-1765 -location campbeltown -ref duncan1765-baptism
     }
     child {
         name John Galbraith
+        gender male
         baptism -date 22-jan-1767 -location campbeltown -ref john1767-baptism
     }
     child {
         name Margaret Galbraith
+        gender female
         baptism -date 10-oct-1769 -location campbeltown -ref margaret1769-baptism
     }
     child {
         name Peter Galbreath
+        gender male
         baptism -date 23-dec-1773 -location campbeltown -ref peter1773-baptism
     }
 }

@@ -1,5 +1,6 @@
 name Agnes Galbreath
 gender female
+tags argyll:campbeltown
 external {
     familysearch KZJ9-7W7
 }
