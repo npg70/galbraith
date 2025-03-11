@@ -1,0 +1,13 @@
+{{ define "main" }}
+{{ template "flexsearch-load.html" . }}
+<form id="searchForm">
+<label for="search" class="form-label">Search</label>
+<input type="search" id="search" class="form-control" name="q" />
+<button class="btn btn-primary">Search</button>
+</form>
+<hr>
+<div id="results"></div>
+<hr>
+  {{ .Page.Content | render }}
+{{ end }}
+
