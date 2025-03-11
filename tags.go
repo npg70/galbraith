@@ -82,6 +82,24 @@ func makeTagFile(parts []string) string {
 }
 
 func makeTagButton(path []string, body string) *html.Node {
+
+	if len(path) == 1 && path[0] == "" {
+		path = nil
+	}
+	if len(path) == 0 && !strings.HasPrefix(body, "all") {
+		path = []string{body}
+	}
+	tag := body // TitleTag(body)
+
+	taglink := "/galbraith/tags?q=" + tagsQueryString(tagsNormalize(path))
+
+	return tf.Append(
+		tf.NewElement("a",
+			"class", "me-2",
+			"href", taglink),
+		tf.NewText("#"+tag))
+}
+func makeTagButtonOld(path []string, body string) *html.Node {
 	if len(path) == 1 && path[0] == "" {
 		path = nil
 	}
