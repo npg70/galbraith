@@ -12,7 +12,7 @@ partner {
     name Mary Fleming
     birth -date 'say 1678' -ref fleming-birth
     gender female
-    marriage -date 8-dec-1696 -location campbeltown
+    marriage -date 8-dec-1696 -location campbeltown -ref fleeming-marriage
     child galbreath-jenat-1698-langwill
     child galbreath-william-1701-kilpatrick
     child galbreath-mary-1704-ryburn
@@ -45,7 +45,12 @@ footnotes {
         }
     }
     fleming-birth {
-        Mary had children over 24 years, implying she would have been fairly young at marriage. Assuming she was 18 at marriage, gives her birth at 1678.
+        Mary had ten children over 24 years, implying she would have been fairly young at marriage. Assuming she was 18 at marriage, her birth would be at 1678.
+    }
+    fleeming-marriage {
+        $opr-ref-link[m-1696-507-000-0010-0019 "James Calbreth" "Marie Fleming"]{
+            James Calbreath Marie Fleming 8 Jun [? Dec ] 1696
+        }
     }
     james1-bapt {
         $opr-ref-link[b-1706-507-000-0011-0099 "James Galbreath"]{
