@@ -1,13 +1,12 @@
 name Andrew Harvey
 gender male
+tags argyll:campbeltown
 baptism -date 12-jul-1749 -location campbeltown
 external {
     familysearch KZV9-XWW
 }
 body {
     According to baptism of last child he was a Merchant and/or Maltman.
-
-    He was the son of Nathaniel Harvey and Janet Smith.
 }
 partner {
     name Margaret Orr
@@ -18,6 +17,7 @@ partner {
     child harvey-peter-1785-watson
     child {
         name Andrew Harvey
+        gender male
         baptism -date 11-jan-1789 -location campbeltown -ref andrew1789-baptism
     }
 }

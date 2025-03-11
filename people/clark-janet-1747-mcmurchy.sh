@@ -1,5 +1,6 @@
 name Janet Clark
 gender female
+tags Argyll:Campbeltown
 external {
     familysearch L7G2-5T6
     findagrave 211355669

@@ -1,6 +1,6 @@
 name Andrew Harvey
 gender male
-tags Argyll:Peninver
+tags Argyll:Campbeltown Argyll:Peninver immigrant:usa:ohio:hamilton
 external {
     familysearch M1TP-B45
     findagrave 274553791
@@ -21,14 +21,17 @@ partner {
     }
     child {
         name Janet Harvey
+        gender female
         birth -date 28-feb-1810
         baptism -date 28-feb-1810 -location campbeltown -ref janet1810-baptism
         death -date 01-apr-1893 -location 'Hanover,Jefferson,Indiana,USA'
         partner {
             name William McMurchy
+            gender male
         }
         partner {
             name Hugh Hamilton Young
+            gender male
         }
         body {
             Immigrated 17-Sep-1821 in Philadelphia.
@@ -36,70 +39,83 @@ partner {
     }
     child {
         name James Harvey
+        gender male
         birth -date 03-oct-1811
         baptism -date 09-oct-1811 -location campbeltown -ref james1811-baptism
         death -note 'died young'
     }
     child {
         name William Harvey
+        gender male
         birth -date 01-mar-1813
         baptism -date 02-mar-1813 -location campbeltown -ref william1813-baptism
         death -date 04-aug-1822
     }
     child {
         name Catherine Harvey
+        gender female
         birth -date 22-feb-1815
         baptism -date 01-mar-1815 -location campbeltown -ref catherine1815-baptism
         death -date 17-dec-1898 -location cincinnati,hamilton,ohio,usa
         partner {
             name Robert Young
+            gender male
             birth -date 1802
             death -date 1877
         }
     }
     child {
         name Elizabeth Harvey
+        gender female
         birth -date 05-mar-1817
         baptism -date 12-mar-1817 -location campbeltown -ref eliz1817-baptism
         death -date 31-jan-1818
     }
     child {
         name Elizabeth Harvey
+        gender female
         birth -date 10-jun-1820
         baptism -date 14-jun-1820 -location campbeltown -ref eliz1820-baptism
         death -date 04-sep-1858 -location 'Chalmers, McDonough, Illinois, USA'
         partner {
             name William Hunter
+            gender male
             birth -date 1816
             death -date 1889
         }
     }
     child {
         name James Harvey
+        gender male
         birth -date 04-aug-1822 -location 'Hamilton County, Ohio, USA'
         death -date 29-apr-1902 -location 'Bantam,Clermont,Ohio,USA'
     }
     child {
         name Martha Harvey
+        gender female
         birth -date 1824
         death -date 1825
     }
     child {
         name Andrew Harvey
+        gender male
         birth -date 8-Aug-1826 -location 'Cincinnati, Hamilton, Ohio, United States'
         death -date 11-May-1890 -location 'Cincinnati, Hamilton, Ohio, United States'
         partner {
             name Emma E. Brooks
+            gender female
             birth -date 1835
             death -date 1822
         }
     }
     child {
         name William Harvey
+        gender male
         birth -date 10-dec-1828 -location 'Avondale, Hamilton, Ohio, USA'
         death -date 24-oct-1897 -location 'Walnut Hills, Montgomery, USA'
         partner {
             name Sarah Jane Felicia Kemper
+            gender female
             birth -date 1837
             death -date 1914
         }

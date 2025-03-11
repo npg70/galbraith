@@ -1,5 +1,6 @@
 name Peter Harvey
 gender male
+tags argyll:campebeltown
 external {
     familysearch M1TL-M9S
 }
@@ -8,12 +9,16 @@ baptism -date 27-feb-1785 -location campbeltown -ref peter1785-baptism
 partner {
     name Janet Watson
     gender female
+    parent {
+        name William Watson
+        gender male
+        partner {
+            name Janet Orr
+            gender female
+        }
+    }
     baptism -date 07-mar-1787 -location campbeltown
     marriage -date 23-jan-1810 -location campbeltown
-    body {
-        She was the daughter of William Watson and Janet Orr.
-    }
-
     child {
         name Andrew Harvey
         gender male
@@ -55,6 +60,7 @@ partner {
     }
     child {
         name Janet Harvey
+        gender female
         birth -date 14-mar-1816 
         baptism -date 20-mar-1816 -location campbeltown 
     }

@@ -1,4 +1,6 @@
 name James Harvie
+gender male
+tags argyll:Campbeltown
 birth -date 29-sep-1772 -location campbeltown
 external {
     familysearch GZDH-Y8V
@@ -12,14 +14,17 @@ He was a baker.
 }
 partner {
    name Jean Tarbert
+   gender female
    marriage -date 1804
 
    child {
     name James Harvey
+    gender male
     birth -date 'about 1818'
     death -date 19-may-1856 -location campbeltown -ref james1818-death
     partner {
         name Mary
+        gender female
     }
     body {
         He was a farmer.
@@ -27,9 +32,11 @@ partner {
    }
    child {
     name Francis Harvey
+    gender male
     baptism -date 26-jun-1823 -location campbeltown -ref francis1823-baptism
     partner {
         name Mary Cumming
+        gender female
 
     }
     body {

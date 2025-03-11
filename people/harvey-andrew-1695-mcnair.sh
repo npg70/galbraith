@@ -1,4 +1,6 @@
 name Andrew Harvey
+gender male
+tags argyll:campbeltown
 baptism -date 19-may-1695 -location campbeltown
 external {
     familysearch K8JC-1PF
@@ -6,11 +8,13 @@ external {
 }
 partner {
     name Isobell McNair
+    gender female
     birth -date 'about 1698'
     marriage -date 30-may-1717 -location campbeltown
 
     child {
         name John Harvey
+        gender male
         baptism -date 04-jul-1719 -location campbeltown
         partner {
             name Ann Culbertson
@@ -25,28 +29,34 @@ partner {
 
     child {
         name James Harvey
+        gender male
         baptism -date 05-jan-1724 -location campbeltown
         death -note "y"
     }
     child {
         name Elizabeth Harvey
+        gender female
         baptism -date 30-jan-1726 -location campbeltown
         partner {
             name John Howie
+            gender male
             marriage -date 11-apr-1747 -location campbeltown
         }
     }
     child harvey-james-1728-alexander
     child {
         name Archibald Harvey
+        gender male
         baptism -date 11-apr-1730 -location campbeltown
     }
     child {
         name Andrew Harvey
+        gender male
         birth -date 02-aug-1732
         baptism -date 6-aug-1732 -location campbeltown
         partner {
             name Isabel Fulton
+            gender female
             baptism -date 04-jan-1737 -location campbeltown
             death -date 09-mar-1809
             marriage -date 05-jan-1760 -location campbeltown
@@ -57,6 +67,7 @@ partner {
     }
     child {
         name William Harvey
+        gender male
         baptism -date feb-1735 -location campbeltown
     }
 }

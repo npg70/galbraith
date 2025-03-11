@@ -1,9 +1,12 @@
 name William Harvey
+gender male
+tags 'Argyll:Campbeltown' immigrant:usa:illinois:boone
 birth -date 04-jan-1799 
 baptism -date 06-jan-1799 -location campbeltown
 death -date 22-jun-1872 -location caledonia,boone,illinois,usa
 partner {
     name Mary Greenlees
+    gender female
     birth -date 28-aug-1807
     baptism -date 30-aug-1807 -location campbeltown
     death -date 16-jul-1868 -location caledona,boone,illinois,usa
@@ -13,11 +16,13 @@ partner {
     }
     child {
         name Matthew Harvey
+        gender male
         birth -date 17-jan-1836 
         baptism -date 19-jan-1836 -location campbeltown
         death -date 11-sep-1901 -location rockford,winnebago,illinois,usa
         partner {
             name Jane Ralston
+            gender female
             baptism -date 3-feb-1848 -location campbeltown
             death -date 17-jan-1925 -location rockford,winnebago,illinois,usa
             body {
@@ -27,6 +32,7 @@ partner {
     }
     child {
         name Daniel G Harvery
+        gender male
         body {
             Author of $source-link[argyle-settlement]{The Argyle Settlement in History and Story}.
         }
