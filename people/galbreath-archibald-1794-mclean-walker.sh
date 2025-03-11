@@ -19,10 +19,8 @@ partner {
         name Allan Galbraith
         baptism -date 20-aug-1828 -location 'Kilcalmonell and Kilberry' -ref allan1828-baptism
     }
-    child {
-        name Donald Galbraith
-        baptism -date 31-oct-1831 -location 'Kilcalmonell and Kilberry' -ref donald1831-baptism
-    }
+
+    child galbraith-donald-1833-mcdermid
 }
 
 partner {
@@ -55,9 +53,6 @@ footnotes {
     }
     allan1828-baptism {
         $opr-ref[b-1828-516-000-0020-0311 "Allan Galbraith"]
-    }
-    donald1831-baptism {
-        $opr-ref[b-1831-516-000-0020-0328 "Donald Galbraith"]
     }
     walker-marriage {
         $opr-ref-link[m-1834-516-000-0020-0386 "Archibald Galbreath" "Margret Walker"]{
