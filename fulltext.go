@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"log"
 	"maps"
+	"net/url"
 	"os"
 	"slices"
 	"sort"
@@ -72,10 +73,25 @@ func tagsNormalize(tags []string) []string {
 	return uniqueStrings(tagsSpaces(tagsAnd(tagsCompound(tags))))
 }
 
+// given a list of tags, return an encoded string for
+// creating a raw URL
+func tagsQueryString(tags []string) string {
+	out := []string{}
+	for _, t := range tags {
+		out = append(out, "#"+t)
+	}
+	return url.QueryEscape(strings.Join(out, " "))
+}
+
 func fulltext(db Root) {
+	// get all keys, but put them into determinant order
+	dbkeys := slices.Collect(maps.Keys(db))
+	slices.Sort(dbkeys)
+
 	idx := 0
-	out := make([]FtIndex, 0, len(db))
-	for _, p := range db {
+	out := make([]FtIndex, 0, len(dbkeys))
+	for _, key := range dbkeys {
+		p := db[key]
 		out = append(out, FtIndex{
 			idx,
 			WriteFulltextDoc(p),

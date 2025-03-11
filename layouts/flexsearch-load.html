@@ -1,18 +1,18 @@
  <script type="module">
-  // thanks to chat GPT
+// thanks to chat GPT
 function intersection (a, b) {
     const setA = new Set(a);
     return b.filter(value => setA.has(value));
 }
-   /**
-    * Extracts words that start with '#' from a given string and returns them separately.
-    *
-    * @param {string} input - The input string containing words and hashtags.
-    * @returns {Object} - An object containing:
-    *                    - {string[]} hashtags: An array of words that start with '#'.
-    *                    - {string} cleanedString: The original string with hashtags removed.
-    */
-    /*
+/**
+ * Extracts words that start with '#' from a given string and returns them separately.
+ *
+ * @param {string} input - The input string containing words and hashtags.
+ * @returns {Object} - An object containing:
+ *                    - {string[]} hashtags: An array of words that start with '#'.
+ *                    - {string} cleanedString: The original string with hashtags removed.
+ */
+/*
 function extractHashtags(input) {
     const words = input.split(/\s+/);
     const hashtags = words.filter(word => word.startsWith('#'));
@@ -41,35 +41,45 @@ function runSearch(docs, query) {
    console.log("Orig: " + query + ", Search: " + qp.query + ", Hashtags: " + qp.hashtags)
    var junk;
    var matches;
+   const suggest = false;
+   const limit = 1000;
    switch (true) {
       case qp.query.length == 0:
          // just tags
-            // flexsearch doesn't like empty search term
-            junk = index.search({
-               tag: qp.hashtags,
-               bool: "and",
-               limit: 200,
-               suggest:true
-            });
-            break;
-         case qp.hashtags.length == 0 :
+         // flexsearch doesn't like empty search term
+         junk = index.search({
+             tag: {
+               "tags": qp.hashtags
+             },
+             limit: limit, 
+             suggest: suggest
+         });
+         break;
+         /*
+     case qp.hashtags.length == 0 :
           // doesn't like empty hashtag list
           junk = index.search(qp.query, {
-             bool: "and",
-             limit: 200,
-             suggest:true
+             index: "doc",
+             limit: limit,
+             suggest:suggest
           })
           break;
-        default:
+          */
+     default:
           // search with tags
           junk = index.search(qp.query, {
-             tag: qp.hashtags,
-             bool: "and",
-             limit: 500,
-             suggest:true
+             index: "doc",
+             tag: {
+                "tags": qp.hashtags,
+             },
+             limit: limit,
+             suggest: suggest
           });
           break;
     } // end switch
+
+    //console.log(JSON.stringify(junk))
+
     var results = document.getElementById("results");
     var out = "";
     if (!junk ) {
@@ -83,12 +93,32 @@ function runSearch(docs, query) {
         }
      }
      //console.log(JSON.stringify(junk))
+
+     // find all new tags
+     var newtags = new Set()
+     matches.forEach(idx => {
+          docs[idx].tags.forEach(t => {
+            if (!qp.hashtags.includes(t)) {
+              newtags.add(t)
+            }
+          })
+     })
+     var tags = [ ...newtags ].sort();
+     tags.forEach(t => {
+         out += " <a href='?q=" + encodeURIComponent(query + " #" + t)  + "'>#" + t + "</a>";
+     });
+     out += "<div>"
+    
+     out += "</div><hr>";
+     out += "<div>"
      matches.forEach(idx => {
           out += "<div class='mb-2'>" + docs[idx].content;
           out += "<div class='ms-4'>"
 
           let visited = [];
           let newtags = [];
+          // fyi -- docs have tags in sorted order
+          //  for visited and newtags will also be in sorted order
           docs[idx].tags.forEach(t => {
             if (qp.hashtags.includes(t)) {
               visited.push(t);
@@ -97,41 +127,52 @@ function runSearch(docs, query) {
             }
           });
           visited.forEach(t => {
+              // they tags are just greyed out, non-links
               const color = "text-body-secondary";
               out += " <span class='" + color + "'>#" + t + "</span>";
           });
           newtags.forEach(t => {
-              const color = "";
-              out += " <span class='" + color + "'>#" + t + "</span>";
+              // these tags are links
+              //const color = "";
+              out += " <a href='?q=" + encodeURIComponent(query + " #" + t)  + "'>#" + t + "</a>";
           });
           out += "</div></div>";
      });
+     out += "</div>";
     results.innerHTML = out;
 }
 
-    // FlexSearch is NOT available on window.FlexSearch
-    // Access FlexSearch static methods via bundled export (static class methods of FlexSearch)
-    import  FlexSearch from "/galbraith/flexsearch/dist/flexsearch.bundle.module.min.js";
+// FlexSearch is NOT available on window.FlexSearch
+// Access FlexSearch static methods via bundled export (static class methods of FlexSearch)
+// v0.7.31
+// v0.8-preview
+import FlexSearch from "/galbraith/flexsearch/v0.8-preview/dist/flexsearch.bundle.module.min.js";
+import EnglishEncoderPreset from "/galbraith/flexsearch/v0.8-preview/dist/module/lang/en.js";
 
-    const index = FlexSearch.Document({
-     charset: "latin:extra",
-     lang: "en",
+const encoder = new FlexSearch.Encoder(EnglishEncoderPreset);
+
+const index = new FlexSearch.Document({
      document: {
-     id: "id",
-     tag: "tags",
-     index: [{
+      id: "id",
+      tag: "tags",
+      index: [{
          field: "doc",
-         tokenize: "strict",
+         //tokenize: "strict",
+         encoder: encoder, 
+         /*
          context: { 
-            resolution: 5,
-            depth: 3,
+            resolution: 10,
+            depth: 2,
             bidirectional: true
-        }
-     }]
-    }
-    });
+        } */
+     }] // index
+    } // document
+});
+if (!index) {
+console.log("Hmm index is bogus");
+}
 
-    fetch('/galbraith/fulltext.json')
+fetch('/galbraith/fulltext.json')
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -151,7 +192,8 @@ function runSearch(docs, query) {
       form.addEventListener('submit', function(event) {
         // Prevent the default form submission behavior
         event.preventDefault();
-        const query = event.target.q.value;
+        var query = event.target.q.value;
+        query = query.trim()
         runSearch(docs, query);
 
         // update state
@@ -165,9 +207,12 @@ function runSearch(docs, query) {
 
       // check to see if we have query in URL
       const url = new URL(window.location.href);
-      const query = url.searchParams.get('q')
+      var query = url.searchParams.get('q')
       if (query) {
+        query = query.trim();
         runSearch(docs, query);
+        const searchbox =  document.getElementById('search')
+        searchbox.value = query
       }
     })
     .catch(error => {
