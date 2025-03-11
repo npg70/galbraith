@@ -79,7 +79,6 @@ func main() {
 	if rootsOnly {
 		return
 	}
-	fulltext(db)
 
 	paths := [][]*Person{}
 	for _, rootid := range roots {
@@ -102,6 +101,9 @@ func main() {
 	// add meta tag.. if todos exist, add todo tag
 	todotag(db)
 
+	// make full text index, do after all tags are created.
+	fulltext(db)
+
 	pages := []ssg.ContentSource{}
 	pages = append(pages, oprPageIndex(db, "indexes/opr-page-index/index.html"))
 
@@ -115,11 +117,13 @@ func main() {
 	// TAGS ------------------
 	tmap := tagmap(db)
 	pages = append(pages, tagIndex(tmap, "tags/index.html"))
-	tpages := tagStart(db)
-	for _, tp := range tpages {
-		tagpath := makeTagFile(tp.path)
-		pages = append(pages, indexRoots2(db, tp, filepath.Join("tags", tagpath, "index.html")))
-	}
+	/*
+		tpages := tagStart(db)
+		for _, tp := range tpages {
+			tagpath := makeTagFile(tp.path)
+			pages = append(pages, indexRoots2(db, tp, filepath.Join("tags", tagpath, "index.html")))
+		}
+	*/
 
 	// PEOPLE
 	count := 0
