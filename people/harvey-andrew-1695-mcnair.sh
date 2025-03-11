@@ -49,22 +49,9 @@ partner {
         gender male
         baptism -date 11-apr-1730 -location campbeltown
     }
-    child {
-        name Andrew Harvey
-        gender male
-        birth -date 02-aug-1732
-        baptism -date 6-aug-1732 -location campbeltown
-        partner {
-            name Isabel Fulton
-            gender female
-            baptism -date 04-jan-1737 -location campbeltown
-            death -date 09-mar-1809
-            marriage -date 05-jan-1760 -location campbeltown
-            body {
-                She was the daughter of John Fulton and Maraget Templeton
-            }
-        }
-    }
+
+    child harvey-andrew-1732-fulton
+
     child {
         name William Harvey
         gender male

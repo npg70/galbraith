@@ -1,6 +1,6 @@
 name John McNair
 gender male
-tags Argyll:Campbeltown 'end of line'
+tags Argyll:Campbeltown endofline argyll:smerby
 
 external {
     familysearch M1T6-PXV

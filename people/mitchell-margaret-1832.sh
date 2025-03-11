@@ -1,5 +1,6 @@
 name Margaret Mitchell
 gender female
+tags argyll:campbeltown
 external {
     findagrave 115909878
     familysearch 9M9S-RMN

@@ -1,5 +1,7 @@
 name Jean Mitchell
 gender female
+tags argyll:campbeltown immigrant:usa:ohio:cermont
+
 birth -date 22-feb-1806
 baptism -date 26-feb-1806 -location campbeltown -ref jean1806-baptism
 death -date 13-apr-1868 -location Monroe,Clermont,Ohio,USA

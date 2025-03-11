@@ -3,7 +3,7 @@ gender male
 birth -date 1742
 death -date 2-mar-1814 -location campbeltown
 
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown argyll:smerby
 
 external {
     familysearch M1T6-8QR

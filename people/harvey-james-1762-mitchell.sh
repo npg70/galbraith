@@ -1,5 +1,6 @@
 name James Harvey
 gender male
+tags argyll:campbeltown immigrant:usa:ohio:washington
 birth -date 27-oct-1762
 baptism -date 31-oct-1762 -location campbeltown
 death -date 1847 -location washington,ohio,usa

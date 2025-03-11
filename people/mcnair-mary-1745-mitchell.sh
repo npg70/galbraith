@@ -1,5 +1,6 @@
 name Mary McNair
 gender female
+tags argyll:campbeltown
 external {
     familysearch 9M9D-C1K
     ancestry tree/12079504/person/282660967358

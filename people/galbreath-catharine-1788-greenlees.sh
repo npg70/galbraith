@@ -1,6 +1,6 @@
 name Catharine Galbreath
 gender female
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown argyll:peninver argyll:smerby
 birth -date 16-may-1788 -location peninver
 baptism -date 18-may-1788 -location campbeltown -ref catharine1788-baptism
 death -date 21-apr-1878 -location moys

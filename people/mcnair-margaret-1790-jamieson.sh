@@ -1,5 +1,7 @@
 name Margaret McNair
 gender female
+tags argyll:campbeltown immigrant:canada:quebec
+
 baptism -date 25-oct-1790 -location campbeltown -ref margaret1790-baptism
 death -date 15-apr-1884 -location 'New Richmond, Bonaventure, Quebec, Canada'
 partner {

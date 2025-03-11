@@ -1,6 +1,6 @@
 name Archibald Mitchell
 gender male
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown argyll:smerby
 external {
     familysearch 9M98-ZG7
     ancestry tree/12079504/person/282660967247

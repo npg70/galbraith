@@ -1,5 +1,7 @@
 name Archibald Mitchell
 gender male
+tags argyll:campbeltown nochildren
+
 baptism -date 25-mar-1805 -location campbeltown
 death -date 26-sep-1882 -location campbeltown
 external {

@@ -1,5 +1,6 @@
 name James McNair
 gender male
+tags argyll:campbeltown argyll:smerby
 external {
     familysearch 9M9D-HZ6
     findagrave 170377115

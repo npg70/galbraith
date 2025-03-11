@@ -1,6 +1,6 @@
 name Robert McNair
 gender male
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown argyll:smerby
 external {
     familysearch KZQF-HBV
     wikitree Galbraith-1784

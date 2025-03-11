@@ -1,5 +1,6 @@
 name Jean McNair
 gender female
+tags ayr immigrant:canada
 baptism -date 01-dec-1796 -location ayr -ref jean1796-baptism
 external {
     familysearch KLFQ-7NX

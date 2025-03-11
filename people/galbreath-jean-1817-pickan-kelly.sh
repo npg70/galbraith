@@ -3,6 +3,8 @@ external {
     findagrave 114485211
     ancestry tree/12079504/person/282649352363
 }
+tags argyll:campbeltown argyll:smerby
+
 gender female
 birth -date 25-nov-1817
 baptism -date 3-dec-1817 -location campbeltown -ref jean1817-baptism

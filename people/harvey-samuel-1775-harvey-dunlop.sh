@@ -1,4 +1,7 @@
 name Samuel Harvey
+gender male
+tags argyll:Campbeltown
+
 birth -date 24-may-1775
 baptism -date 25-may-1775 -location campbeltown -ref samuel-baptism
 death -date 10-sep-1811 -location campbeltown
@@ -11,35 +14,39 @@ external {
 
 partner {
     name Elizabeth Harvey
+    gender female
+    parent harvey-andrew-1732-fulton
     birth -date 'about 1777'
     death -date 04-jun-1807 -location campbeltown
     marriage -date 22-mar-1800 -location campbeltown -ref harvey-marriage
-    body {
-        She was the daughter of Andrew Harvie and Isabel Fulton.
-    }
     child {
         name Robert Harvey
+        gender male
         birth -date 26-dec-1800
         baptism -date 27-dec-1800 -location campbeltown -ref robert1800-baptism
     }
     child {
         name Andrew Harvey
+        gender male
         birth -date 24-mar-1803
         baptism -date 27-mar-1803 -location campbeltown -ref andrew1803-baptism
     }
     child {
         name Catharine Harvey
+        gender female
         birth -date 07-jan-1805
         baptism -date 13-jan-1805 -location campbeltown -ref catharine1805-baptism
     }
     child {
         name Margaret Harvey
+        gender female
         birth -date 30-may-1807
         baptism -date 03-jun-1807 -location campbeltown -ref margaret1807-baptism
     }
 }
 partner {
     name Kate Dunlop
+    gender female
     marriage -date 22-oct-1808 -location campbeltown -ref dunlop-marriage
 
     body {

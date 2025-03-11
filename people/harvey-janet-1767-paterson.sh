@@ -1,4 +1,5 @@
 name Janet Harvie
+tags argyll:campbeltown
 gender female
 external {
     familysearch M1Y6-BS4
