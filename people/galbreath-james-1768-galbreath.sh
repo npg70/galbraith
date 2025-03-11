@@ -1,4 +1,5 @@
 name James Galbreath
+gender male
 birth -date 'about 1768'
 tags Argyll:Campbeltown Argyll:Skerbolin
 external {
@@ -29,15 +30,15 @@ From the baptism records of children, he was a farmer in Skerbolin.
 $p{
 He won a prize for turnip growning in 1806.
 }
-
-
 }
 partner {
   name Martha Galbreath
+  gender female
   parent galbreath-samuel-1736-mcnair
   marriage -date 20-mar-1800 -location campbeltown -ref galbreath-marriage  
   child {
   	name Janet Galbreath
+    gender female
     baptism -date 31-sep-1801 -location campbeltown -ref janet1801-baptism
   }
   child galbreath-archibald-1803-mccallum-loynachan
@@ -45,23 +46,28 @@ partner {
 
   child {
   	name Martha Galbreath
+    gender female
     baptism -date 16-dec-1807 -location campbeltown -ref martha1807-baptism
   }
   child galbreath-catharine-1809-templeton
   child {
   	name Samuel Galbreath
+    gender male
     baptism -date 20-feb-1811 -location campbeltown -ref samuel1811-baptism
   }
   child {
   	name John Galbreath
+    gender male
     baptism -date 5-jan-1813 -location campbeltown -ref john1813-baptism
   }
   child {
   	name James Galbreath
+    gender male
     baptism -date 15-dec-1814 -location campbeltown -ref james1814-baptism
   }
   child {
   	name Mary Galbreath
+    gender female
     baptism -date 19-jun-1816 -location campbeltown -ref mary1816-baptism
     death -note dy
 	}
@@ -70,6 +76,7 @@ partner {
 
   child {
   	name Mary Galbreath
+    gender female
     baptism -date 13-mar-1821 -location campbeltown -ref mary1821-baptism
   }
 }
