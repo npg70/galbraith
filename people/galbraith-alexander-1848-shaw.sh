@@ -18,7 +18,7 @@ partner {
     child {
         name James Shaw Galbraith
         birth -date 2-aug-1884 -location campbeltown -ref james1884-birth
-        death -date 13-jan-1919 -location 'Vancouver, British Columbia, Canada'
+        death -date 13-jan-1919 -location 'Vancouver, British Columbia, Canada' -note umn
     }
     child {
         name Alexander Galbraith
