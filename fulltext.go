@@ -83,6 +83,29 @@ func tagsQueryString(tags []string) string {
 	return url.QueryEscape(strings.Join(out, " "))
 }
 
+// add a tag for major family names
+func tagAddFamilyName(db Root) {
+	for _, p := range db {
+		name := strings.ToLower(p.FullName())
+		switch {
+		case strings.Contains(name, "galbreath") || strings.Contains(name, "galbraith"):
+			p.Tags = append(p.Tags, "galbraith")
+		case strings.Contains(name, "mcnair") || strings.Contains(name, "macnair"):
+			p.Tags = append(p.Tags, "mcnair")
+		case strings.Contains(name, "harvey") || strings.Contains(name, "harvie"):
+			p.Tags = append(p.Tags, "harvey")
+		case strings.Contains(name, "fleeming") || strings.Contains(name, "fleming") || strings.Contains(name, "flemming"):
+			p.Tags = append(p.Tags, "fleeming")
+		case strings.Contains(name, "mitchel"):
+			p.Tags = append(p.Tags, "mitchell")
+		case strings.Contains(name, "greenlee"):
+			p.Tags = append(p.Tags, "greenlees")
+		case strings.Contains(name, "armour"):
+			p.Tags = append(p.Tags, "armour")
+		}
+	}
+}
+
 func fulltext(db Root) {
 	// get all keys, but put them into determinant order
 	dbkeys := slices.Collect(maps.Keys(db))

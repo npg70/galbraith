@@ -101,6 +101,8 @@ func main() {
 	// add meta tag.. if todos exist, add todo tag
 	todotag(db)
 
+	tagAddFamilyName(db)
+
 	// make full text index, do after all tags are created.
 	fulltext(db)
 
