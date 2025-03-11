@@ -149,7 +149,7 @@ $table{
 
 	page := make(ssg.ContentSourceConfig)
 	page["OutputFile"] = outputFile
-	page["TemplateName"] = "baseof.html"
+	page["TemplateName"] = "tags/baseof.html"
 	page["title"] = "People Tags"
 	page["Content"] = out.String()
 	return page
@@ -181,7 +181,7 @@ func indexRoots2(db Root, tpage tagpage, outputFile string) ssg.ContentSourceCon
 	}
 	page := make(ssg.ContentSourceConfig)
 	page["OutputFile"] = outputFile
-	page["TemplateName"] = "baseof.html"
+	page["TemplateName"] = "tags/baseof.html"
 	page["title"] = "People Tag " + fulltag
 	page["Content"] = out.String()
 	return page
