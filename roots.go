@@ -76,6 +76,29 @@ func tagIndex(tmap map[string][]string, outputFile string) ssg.ContentSource {
 	out.WriteString(`
 $table{
 	$tr{
+		$th[colspan=2]{Major Families}
+	}
+	$tr{
+		$td{$tag-link{galbraith}
+		$td{...}
+	}
+	$tr{
+		$td{$tag-link{mcnair}
+		$td{...}
+	}
+	$tr{
+		$td{$tag-link{harvey}
+		$td{...}
+	}
+	$tr{
+		$td{$tag-link{mitchell}
+		$td{...}
+	}
+	$tr{
+		$td{$tag-link{greenlees}
+		$td{...}
+	}
+	$tr{
 		$th[colspan=2]{Tree Position}
 	}
 	$tr{
@@ -102,7 +125,7 @@ $table{
 		$td{People who served in the military}
 	}
 	$tr{
-		$td{$tag-link{no children}}
+		$td{$tag-link{nochildren}}
 		$td{Person or couple has no children}
 	}
 	$tr{
@@ -117,23 +140,27 @@ $table{
 		$td{Page has research to do, or need typographical or copy edits.}
 	}
 	$tr{
-		$td{$tag-link{daughtered out}}
+		$td{$tag-link{daughteredout}}
 		$td{No direct male decendants (open to better word or terminology here).}
 	}
 	$tr{
-		$td{$tag-link{end of line}}
+		$td{$tag-link{endofline}}
 		$td{No children, or all children had no children}
 	}
 	$tr{
-		$td{$tag-link{dead end}}
+		$td{$tag-link{deadend}}
 		$td{Families with no records after a time. Either immigranted or died-out without being recorded.}
 	}
-	$th[colspan=2]{Places}
+	$tr{
+		$th[colspan=2]{All Tags}
+	}
+	$tr{
+		$td{ }
 	`)
 
-	// now figure out place name tags
+	// dump everything else
 	tags := []string{}
-	special := "|all|daughtered out|dead end|illegitimate|immigrant|leaf|no children|root|todo|veteran|end of line|"
+	special := ""
 	for tname := range tmap {
 		tname = strings.ToLower(tname)
 		if strings.Contains(special, tname) {
@@ -142,10 +169,13 @@ $table{
 		tags = append(tags, tname)
 	}
 	sort.Strings(tags)
+	out.WriteString("$td{")
 	for _, tag := range tags {
-		out.WriteString("$tr{$td{$tag-link{" + tag + "}}$td{}}\n")
+		out.WriteString("$tag-link{" + tag + "} ")
 	}
-	out.WriteString("}\n") // table end
+	out.WriteString("}\n") // td
+	out.WriteString("}\n") // row
+	out.WriteString("}\n") // table
 
 	page := make(ssg.ContentSourceConfig)
 	page["OutputFile"] = outputFile
