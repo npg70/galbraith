@@ -8,9 +8,11 @@ body {
     He was a baker.
 }
 note {
-    Little is known about Archibald.  One other baker was $child-link[galbreath-james-1768-harvey]{James Galbreath}, but no connection is known.
+    Little is known about Archibald.  One other baker was $child-link[galbreath-james-1768-harvey]{James Galbreath}, but no connection is known.  It's possible Archibald and James were brothers.
 }
-
+note {
+    Jackie has twin sister Martha.  Otherwise little is known about her.  No records match under Templeton in the Statutory records.
+}
 partner {
     name Jackie Templeton
     gender female

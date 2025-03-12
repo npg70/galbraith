@@ -65,7 +65,7 @@ note {
     Possible the McIssacs who married two of the daughters are brothers.
 }
 note {
-    Little is known about Jean Harvey.  She's not in the 1792 Census, 1841 Census, 1851 Census, or Statutory records.  She is probably the sister of $child-link[harvey-john-1669-waterson/]{John Harvey}, the progenitor of the Campbeltown Harveys.
+    Little is known about Jean Harvey.  She's not in the 1792 Census, 1841 Census, 1851 Census, or Statutory records.  She did remarry in 1814 to William Harvey$ref[remarry], who may be the son of $child-link[harvey-andrew-1732-fulton]{Andrew Harvey}.
 }
 
 footnotes {
@@ -119,6 +119,12 @@ footnotes {
         Daughter of the late James Galbreath
         Baker both of this Parish were
         Married thirteenth June 1839
+        }
+    }
+    remarry {
+        $opr-ref-link[m-1814-507-000-0050-0109 "William Harvey" "Jean Harvie"]{
+           William Harvey Seaman Campbeltown & Jean Harvie relict of the deceased James Galbreath 
+           late Baker Campbeltown both of this Parish was married 14th Nov 1814.
         }
     }
 }

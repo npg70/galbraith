@@ -3,7 +3,7 @@ gender male
 external {
     familysearch 9M9D-X13
     wikitree Harvie-478
-    ancestry tree/12079504/person/282240706957
+    ancestry tree/12079504/person/282662616575
 }
 tags Argyll:Campbeltown
 
@@ -21,15 +21,7 @@ partner {
 
     child harvey-agnes-1725-culbertson
 
-    child {
-        name John Harvey
-        baptism -date 07-feb-1727 -location campbeltown
-        partner {
-            name Janet Harvey
-            birth -date 'about 1730'
-            marriage -date 04-jun-1749 -location campbeltown
-        }
-    }
+    child harvie-john-1727-harvie
     child {
         name Robert Harvey
         baptism -date 29-sep-1728 -location campbeltown

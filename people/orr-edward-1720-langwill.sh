@@ -45,21 +45,34 @@ partner {
     }
     child {
         name Mary Orr
+        gender female
+        baptism -date 1756  -location campbeltown
+        partner harvey-james-1753-orr
     }
     child {
         name Peter Orr
+        gender male
+        baptism -location campbeltown
     }
     child {
         name Martha Orr
+        gender female
+        baptism -location campbeltown
     }
     child {
         name Ann Orr
+        gender female
+        baptism -location campbeltown
     }
     child {
         name Isabell Orr
+        gender female
+        baptism -location campbeltown
     }
     child {
         name Edward Orr
+        gender male
+        baptism -location campbeltown
     }
 }
 footnotes {

@@ -2,8 +2,9 @@ name John Harvey
 gender male
 external {
     familysearch M1TP-B74
+    ancestry tree/12079504/person/282642876097
 }
-baptism -date 07-feb-1727 -location campbeltown -ref john1727-baptism
+baptism -date 08-feb-1727 -location campbeltown -ref john1727-baptism
 partner {
   name Janet Harvey
   gender female
@@ -24,26 +25,15 @@ partner {
      }
    }
    child {
-    name Mary Harvey
-    gender female
-    baptism -date jan-1752 -location campbeltown
-    death -note dy
-    }
-    child {
-        name James Harvey
-        gender male
-        baptism -date feb-1753 -location campbeltown
-        partner {
-            name Mary Orr
-            gender female
-            baptism -date 12-dec-1756 -location campbeltown
-            parent orr-edward-1720-langwill
-        }
-        body {
-            5 children
-        }
-    }
-    child {
+      name Mary Harvey
+      gender female
+      baptism -date jan-1752 -location campbeltown
+      death -note dy
+   }
+
+   child harvey-james-1753-orr
+
+   child {
        name Mary Harvey
        gender female
        baptism -date 23-mar-1755 -location campbeltown

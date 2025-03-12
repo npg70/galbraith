@@ -15,7 +15,7 @@ partner {
     child {
         name John Harvey
         gender male
-        baptism -date 04-jul-1719 -location campbeltown
+        baptism -date 04-jul-1719 -location campbeltown -ref john1719-baptism
         partner {
             name Ann Culbertson
             baptism -date 06-oct-1728 -location campbeltown
@@ -57,5 +57,13 @@ partner {
         gender male
         baptism -date feb-1735 -location campbeltown
     }
+}
+footnotes {
+    john1719-baptism {
+        $opr-ref-link[b-1719-507-000-0011-0138 "John Harvie"]{
+            John | Andrew Harvie & Isobell McNair had s son baptized 
+            4th July named John
+        }
+    }   
 }
 
