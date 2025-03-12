@@ -5,8 +5,8 @@ hugo/public:
 	mkdir -p hugo/public
 
 build: hugo/public
-	go run . -out hugo/public
 	cp -rf hugo/static/* hugo/public/
+	go run . -out hugo/public
 
 test:
 	go test .
@@ -19,7 +19,7 @@ clean:
 	go clean -i -r -cache -testcache
 	rm -f .git/index.lock
 	rm -rf hugo/public
-	rm -f fulltext.json
+	rm -f hugo/static/fulltext.json
 
 lint:
 	golangci-lint run .
