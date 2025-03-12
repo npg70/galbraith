@@ -5,8 +5,8 @@ hugo/public:
 	mkdir -p hugo/public
 
 build: hugo/public
-	cp -rf hugo/static/* hugo/public/
 	go run . -out hugo/public
+	cp -rf hugo/static/* hugo/public/
 
 test:
 	go test .
