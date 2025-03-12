@@ -22,15 +22,8 @@ partner {
     child harvey-agnes-1725-culbertson
 
     child harvie-john-1727-harvie
-    child {
-        name Robert Harvey
-        baptism -date 29-sep-1728 -location campbeltown
-        partner {
-            name Isobell Watson
-            birth -date 'about 1740'
-            marriage -date 01-dec-1753 -location campbeltown
-        }
-    }
+
+    child harvey-robert-1728-watson
     child {
         name Andrew Harvey
         baptism -date 15-nov-1730 -location campbeltown
