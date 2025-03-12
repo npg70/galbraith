@@ -1,4 +1,5 @@
 name James Galbreath
+gender male
 tags Argyll:Campbeltown
 external {
     familysearch KCC8-XDD
@@ -8,39 +9,48 @@ death -date 'before 1815' -ref blackney-marriage
 
 partner {
     name Jean Harvey
+    gender female
     marriage -date 1-jul-1794 -location campbeltown -ref marriage
     child {
         name Agnes Galbreath
+        gender female
         baptism -date 31-mar-1795 -location campbeltown -ref agnes1795-baptism
         partner {
             name William Blackney
+            gender male
             marriage -date 4-apr-1815 -location campbeltown -ref blackney-marriage
         }
     }
     child {
         name Andrew Galbreath
+        gender male
         baptism -date 6-oct-1796 -location campbeltown -ref andrew1796-baptism
     }
     child {
         name Margaret Galbreath
+        gender female
         baptism -date 12-sep-1798 -location campbeltown -ref margaret1798-baptism
         death -date 16-may-1877 -location campbeltown -ref margaret1798-death
         partner {
             name Archibald McIsaac
+            gender male
             marriage -date 13-nov-1820 -location campbeltown -ref margaret-marriage
         }
     }
     child galbraith-jean-1800-macisaac
     child {
         name Henrey Galbreath
+        gender male
         baptism -date 5-sep-1802 -location campbeltown -ref henry1802-baptism
     }
     child {
         name Florence Galbreath
+        gender female
         baptism -date 6-mar-1805 -location campbeltown -ref florence1805-baptism
         death -date 21-apr-1886 -location campbeltown -ref florence1805-death
         partner {
             name John McMurchy
+            gender male
             marriage -date 13-jun-1839 -location campbeltown -ref mcmurchy-marriage
         }
     }
@@ -55,7 +65,7 @@ note {
     Possible the McIssacs who married two of the daughters are brothers.
 }
 note {
-    Little is known about Jean Harvey.  She's not in the 1792 Census, 1841 Census, 1851 Census, or Statutory records.
+    Little is known about Jean Harvey.  She's not in the 1792 Census, 1841 Census, 1851 Census, or Statutory records.  She is probably the sister of $child-link[harvey-john-1669-waterson/]{John Harvey}, the progenitor of the Campbeltown Harveys.
 }
 
 footnotes {

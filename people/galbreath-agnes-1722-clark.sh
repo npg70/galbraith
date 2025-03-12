@@ -17,33 +17,39 @@ partner {
         }
     }
     baptism -date 18-jul-1712 -location campbeltown
-    marriage -date 7-nov-1739 -location campbeltown
+    marriage -date 7-nov-1739 -location campbeltown -ref clark-marriage
     death -date 1782
 
     child {
         name Mary Clark
+        gender female
         baptism -date 12-apr-1741 -location campbeltown
         death -date 15-dec-1795 -location 'Amity,Washington,Pennsylvania,USA'
         partner {
             name Aaron French
+            gender male
         }
     }
     child {
         name Margaret Clark
+        gender female
         baptism -date 4-jun-1743 -location campbeltown
         death -date 18-jul-1809 -location 'Martins Ferry, Belmont, Ohio, USA'
         partner {
             name James Ross
+            gender male
         }
     }
     child clark-janet-1747-mcmurchy
 
     child {
         name John Clark
+        gender male
         baptism -date 17-dec-1749 -location campbeltown
         death -date 1819 -location 'york,pennslyvania,usa'
         partner {
             name Margaret Breckenridge
+            gender female
         }
     }
     child {
@@ -55,42 +61,52 @@ partner {
     }
     child {
         name James Clark
+        gender male
         baptism -date 05-july-1754 -location campbeltown
         death -date 21-dec-1818 -location 'glade spring,washington,virginia,usa'
         partner {
             name Isabella Mary Breckenridge
+            gender female
         }
     }
     child {
         name William Clark
+        gender male
         death -note dy
     }
     child {
         name Helen Clark
+        gender female
     }
 
     child clark-robert-1756-harvie
 
     child {
         name Katherine Clark
+        gender female
     }
     child {
         name Alexander Clark
+        gender male
     }
     child {
         name Agnes Clark
+        gender female
     }
     child {
         name Jean Clark
+        gender female
     }
     child {
         name James Clark
+        gender male
     }
     child {
         name Gabriel Clark
     }
     child {
         name William Clark
+        gender male
     }
 }
 footnotes {
@@ -100,5 +116,11 @@ footnotes {
             had a Dau baptized 18th Febry named Agnas
         }
         $opr-ref-link[b-1722-507-000-0010-0102 "Agnes Calbreath"]
+    }
+    clark-marriage {
+        $opr-ref-link[m-1739-507-000-0011-0445 "Agnes Calbraith" "James Clark"]{
+            James Clark & Agnes Calbraith | Nov [day blank]
+        }
+        $opr-ref[m-1739-507-000-0010-0164 "Agnes Calbraith" "James Clark"]
     }
 }
