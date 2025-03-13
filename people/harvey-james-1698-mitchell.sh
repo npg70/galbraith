@@ -24,15 +24,9 @@ partner {
     child harvie-john-1727-harvie
 
     child harvey-robert-1728-watson
-    child {
-        name Andrew Harvey
-        baptism -date 15-nov-1730 -location campbeltown
-        partner {
-            name Jean Fulton
-            baptism -date 21-sep-1734 -location campbeltown
-            marriage -date 11-jun-1758
-        }
-    }
+
+    child harvey-andrew-1730-fulton
+
     child {
         name Archibald Harvey
         baptism -date 24-jun-1733 -location campbeltown

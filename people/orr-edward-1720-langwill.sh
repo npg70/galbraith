@@ -28,10 +28,13 @@ partner {
         gender female
         baptism -date 20-nov-1745 -location campbeltown
         partner harvey-william-1738-orr
+        body {
+            maybe in correct Agnes who married William
+        }
     }
     child {
         name Janet Orr
-        baptism -date aug-1747 -location campbeltown
+        baptism -date 23-aug-1747 -location campbeltown
     }
     child {
         name John Orr
@@ -46,33 +49,50 @@ partner {
     child {
         name Mary Orr
         gender female
-        baptism -date 1756  -location campbeltown
+        baptism -date 12-dec-1756  -location campbeltown
         partner harvey-james-1753-orr
     }
     child {
         name Peter Orr
         gender male
-        baptism -location campbeltown
+        baptism -date 07-apr-1759 -location campbeltown
     }
     child {
         name Martha Orr
         gender female
-        baptism -location campbeltown
+        birth -date 15-jul-1761
+        baptism -date 19-jul-1761 -location campbeltown
     }
     child {
         name Ann Orr
         gender female
-        baptism -location campbeltown
+        birth -date 21-mar-1764 
+        baptism -date 22-mar-1764 -location campbeltown
+        death -date 20-aug-1842 -location campbeltown
+        partner {
+            name Andrew Ralston
+            gender male
+            baptism -date 30-sep-1756 -location campbeltown
+            death -date 08-sep-1839 -location campbeltown
+            marriage -date 23-may-1783 -location campbeltown
+        }
+        body {
+            Andrew may have married before to Isobell Harvey on 24-dec-1779
+        }
     }
     child {
         name Isabell Orr
         gender female
-        baptism -location campbeltown
+        baptism -date 08-dec-1749 -location campbeltown
     }
     child {
         name Edward Orr
         gender male
-        baptism -location campbeltown
+        birth -date 10-mar-1767
+        baptism -date 12-mar-1767 -location campbeltown
+        body {
+            maybe married Isabella Johnston, 3 kids 1807-1809
+        }
     }
 }
 footnotes {
