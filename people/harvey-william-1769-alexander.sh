@@ -2,7 +2,7 @@ name William Harvey
 gender male
 tags Argyll:Campbeltown
 
-baptism -date 05-nov-1769 -location campbeltown  
+baptism -date 05-nov-1769 -location campbeltown -ref william1769-baptism
 death -date 1845
 external {
     familysearch K4BK-36S
@@ -75,6 +75,10 @@ partner {
     }
 }
 footnotes {
+    william1769-baptism {
+        $opr-ref[b-1769-507-000-0011-0372 "William Harvie"]
+        $opr-ref[b-1769-507-000-0010-0336 "William Harvey"]
+    }
     thomas1857-death {
         $sp-ref-link[d-1857-507-00-0139 0047 "Thomas Harvey"]
     }

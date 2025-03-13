@@ -40,6 +40,7 @@ partner {
         name Isobell Orr
         gender female
         baptism -date 08-dec-1749 -location campbeltown -ref isobell1749-baptism
+        partner harvey-william-1748-orr
     }
     child {
         name John Orr
@@ -73,17 +74,7 @@ partner {
         gender female
         birth -date 21-mar-1764 
         baptism -date 22-mar-1764 -location campbeltown -ref ann1764-baptism
-        death -date 20-aug-1842 -location campbeltown
-        partner {
-            name Andrew Ralston
-            gender male
-            baptism -date 30-sep-1756 -location campbeltown
-            death -date 08-sep-1839 -location campbeltown
-            marriage -date 23-may-1783 -location campbeltown
-        }
-        body {
-            Andrew may have married before to Isobell Harvey on 24-dec-1779
-        }
+        partner ralston-andrew-1756-harvie-orr
     }
     child {
         name Edward Orr

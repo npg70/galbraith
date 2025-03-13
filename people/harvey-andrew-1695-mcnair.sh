@@ -1,7 +1,7 @@
 name Andrew Harvey
 gender male
 tags argyll:campbeltown
-baptism -date 19-may-1695 -location campbeltown
+baptism -date 19-may-1695 -location campbeltown -ref andrew-baptism
 external {
     familysearch K8JC-1PF
     wikitree Harvie-512
@@ -59,6 +59,9 @@ partner {
     }
 }
 footnotes {
+    andrew-baptism {
+        $opr-ref-link[b-1695-507-000-0011-0068 "Andrew Harvie"]
+    }
     john1719-baptism {
         $opr-ref-link[b-1719-507-000-0011-0138 "John Harvie"]{
             John | Andrew Harvie & Isobell McNair had s son baptized 

@@ -17,7 +17,7 @@ partner {
     child {
         name Agnes Nancy Harvie
         gender female
-        baptism -date 09-oct-1692 -location campbeltown
+        baptism -date 09-oct-1692 -location campbeltown -ref agnes1692-baptism
         body {
             Record is confusing
         }
@@ -30,7 +30,7 @@ partner {
     child {
         name Lillias Harvie
         gender female
-        baptism -date 13-dec-1702 -location campbeltown
+        baptism -date 13-dec-1702 -location campbeltown -ref lili1702-baptism
     }
     child {
         name Catharine Harvie
@@ -39,6 +39,14 @@ partner {
     }
 }
 footnotes {
+    agnes1692-baptism {
+        $opr-ref[b-1692-507-000-0011-0061 "Agnes Harvie"]
+        $opr-ref[b-1692-507-000-0010-0013 "Nance Harvie"]
+    }
+    lili1702-baptism {
+        $opr-ref-link[b-1702-507-000-0011-0089 "Lillias Harvie"]
+        $opr-ref[b-1702-507-000-0010-0032 "Lillie Harvie"]
+    }
     cath1709-baptism {
         $opr-ref-link[b-1709-507-000-0011-0104 "Cathatine Harvie"]{
             Catharine | Lawful Daughter to John Harvie and Agnes Waterson
