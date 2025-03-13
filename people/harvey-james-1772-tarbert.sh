@@ -5,6 +5,7 @@ birth -date 29-sep-1772 -location campbeltown -ref james1772-baptism
 external {
     familysearch KZ4T-JBF
     wikitree Harvie-696
+    findagrave 167024000
 }
 note {
     Not in the Census of 1792
@@ -44,6 +45,7 @@ partner {
     name Francis Harvey
     gender male
     baptism -date 26-jun-1823 -location campbeltown -ref francis1823-baptism
+    death -date 16-dec-1905 -location Aberdeen -ref francis1823-death
     partner {
         name Mary Cumming
         gender female
@@ -72,6 +74,9 @@ footnotes {
     }
     francis1823-baptism {
         $opr-ref[b-1823-507-000-0060-0072 "Francis Harvey"]
+    }
+    francis1823-death {
+        $sp-ref-link[d-1905-168-02-1144 0382 "Francis Harvey"]
     }
 }
 
