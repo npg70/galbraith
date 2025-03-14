@@ -22,15 +22,20 @@ partner {
     birth -date 28-aug-1807
     baptism -date 30-aug-1807 -location campbeltown
     death -date 16-jul-1868 -location caledonia,boone,illinois,usa
-
-    marriage -date 03-jul-1827 -location campbeltown
-    body {
-         She was the daughter of John Greenlees and Anne Ferguson.
+    parent {
+        name John Greenlees
+        gender male
+        partner {
+            name Anne Ferguson
+            gender female
+        }
     }
+    marriage -date 03-jul-1827 -location campbeltown
     child {
         name William Harvey
         gender male
-        baptism -date 14-apr-1828 -location campbeltown
+        birth -date 14-apr-1828
+        baptism -date 20-apr-1828 -location campbeltown -ref william1828-baptism
         death -date 23-nov-1909 -location ' Rockford, Winnebago County, Illinois,usa'
         partner {
             name Elizabeth Harvie
@@ -39,10 +44,25 @@ partner {
         }
     }
     child {
+        name Elizabeth Harvey
+        gender female
+        baptism -date 22-nov-1829 -location campbeltown -ref elizabeth1829-baptism
+    }
+    child {
+        name Agnes Harvey
+        gender female
+        baptism -date 24-nov-1831 -location campbeltown -ref agnes1831-baptism
+    }
+    child {
+        name Mary Harvey
+        gender female
+        baptism -date 05-jan-1834 -location campbeltown -ref mary1834-baptism
+    }
+    child {
         name Matthew Harvey
         gender male
         birth -date 17-jan-1836 
-        baptism -date 19-jan-1836 -location campbeltown
+        baptism -date 19-jan-1836 -location campbeltown -ref matthew1836-baptism
         death -date 11-sep-1901 -location rockford,winnebago,illinois,usa
         partner {
             name Jane Ralston
@@ -77,6 +97,26 @@ partner {
 footnotes {
     william1799-baptism {
         $opr-ref[b-1799-507-000-0040-0178 "William Harvie"]
+    }
+    william1828-baptism {
+        $opr-ref-link[b-1828-507-000-0060-0161 "William Harvey"]{
+            
+        }
+    }
+    elizabeth1829-baptism {
+        $opr-ref[b-1829-507-000-0060-0192 "Elizabeth Harvey"]
+    }
+    agnes1831-baptism {
+        $opr-ref[b-1831-507-000-0060-0231 "Agnes Harvey"]
+    }
+    mary1834-baptism {
+        $opr-ref-link[b-1834-507-000-0070-0039 "Mary Harvey"]{
+        Mary | Lawful daughter of William Harvey Merchant and
+        Mary Greenlees was born ?? + Bapt 5 Janry 1834
+        }
+    }
+    matthew1836-baptism {
+        $opr-ref[b-1836-507-000-0070-0076 "Matthew Harvey"]
     }
     robert1837-baptism {
         $opr-ref-link[b-1837-507-000-0070-0112 "Robert Harvey"]{
