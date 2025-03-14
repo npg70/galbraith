@@ -6,6 +6,7 @@ baptism -date 05-nov-1769 -location campbeltown -ref william1769-baptism
 death -date 1845
 external {
     familysearch K4BK-36S
+    ancestry tree/12079504/person/282663064639
 }
 body {
     He was a weaver in Dalintober.
@@ -80,7 +81,7 @@ partner {
     child {
         name Agnes Harvey
         gender female
-        baptism -date 04-sep-1814 -location campbeltoen -ref agnes1814-baptism
+        baptism -date 04-sep-1814 -location campbeltown -ref agnes1814-baptism
     }
     child {
         name Susan Harvey

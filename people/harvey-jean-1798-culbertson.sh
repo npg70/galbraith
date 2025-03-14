@@ -11,9 +11,6 @@ external {
     ancestry tree/12079504/person/282643862863
     findagrave 39308446
 }
-todo {
-    Parent James Harvey of Ballevain.
-}
 partner {
     name James Culbertson
     gender male

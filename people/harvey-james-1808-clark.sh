@@ -24,9 +24,6 @@ partner {
     birth -date 04-jun-1809
     baptism -date 07-jun-1809 -location campbeltown
     death -date 31-aug-1833
-    body {
-        She was the daughter of Mathew Clark and Isabell Dunlop
-    }
     child {
         name Elizabeth Harvey
         gender female

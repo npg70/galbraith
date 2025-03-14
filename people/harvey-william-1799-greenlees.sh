@@ -5,6 +5,7 @@ external {
     familysearch K4RC-26Q
     wikitree Harvie-840
     findagrave 53401630
+    ancestry tree/12079504/person/282663072015
 }
 birth -date 04-jan-1799 
 baptism -date 06-jan-1799 -location campbeltown -ref william1799-baptism
@@ -20,7 +21,8 @@ partner {
     gender female
     birth -date 28-aug-1807
     baptism -date 30-aug-1807 -location campbeltown
-    death -date 16-jul-1868 -location caledona,boone,illinois,usa
+    death -date 16-jul-1868 -location caledonia,boone,illinois,usa
+
     marriage -date 03-jul-1827 -location campbeltown
     body {
          She was the daughter of John Greenlees and Anne Ferguson.
