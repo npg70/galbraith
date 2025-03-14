@@ -42,6 +42,7 @@ func ParishName(id1, id2 string) string {
 		"280":    "Elgin",
 		"282":    "St. Mary, Dundee",
 		"282/2":  "St. Mary, Dundee",
+		"282/4":  "Lochee, Dundee",
 		"301":    "Aberdeen",
 		"340":    "Banchory, Aberdeen",
 		"341":    "Comrie, Perth",
