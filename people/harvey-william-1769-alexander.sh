@@ -44,21 +44,8 @@ partner {
         birth -date 20-jan-1803
         baptism -date 26-jan-1803 -location campbeltown -ref agnes1803-baptism
     }
-    child {
-        name Thomas Harvey
-        gender male
-        birth -date 13-may-1805
-        baptism -date 14-may-1805 -location campbeltown
-        death -date 29-nov-1857 -location campbeltown -ref thomas1857-death
-        body {
-            He was a leatherworker or shoemaker.
-        }
-        partner {
-            name Ann Thomson
-            gender female
-            marriage -date 05-feb-1833 -location campbeltown
-        }
-    }
+    child harvey-thomas-1805-thomson
+
     child {
         name Jean Harvey
         gender female
@@ -130,9 +117,6 @@ footnotes {
             and Elizabeth Alexander. Born 16th
             baptized 17th August 1810. Janet + Jean
         }
-    }
-    thomas1857-death {
-        $sp-ref-link[d-1857-507-00-0139 0047 "Thomas Harvey"]
     }
     agnes1814-baptism {
         $opr-ref[b-1814-507-000-0040-0418 "Agnes Harvey"]
