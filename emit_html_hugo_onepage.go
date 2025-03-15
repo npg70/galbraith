@@ -257,7 +257,7 @@ func renderFuncs() map[string]tf.NodeFunc {
 				}
 				person2 = args[2]
 			default:
-				return fmt.Errorf("%s: unknown ID reference: %v", args)
+				return fmt.Errorf("%s: unknown ID reference: %v", n.Data, args)
 			}
 
 			person1 := args[1]
@@ -298,7 +298,7 @@ func renderFuncs() map[string]tf.NodeFunc {
 				}
 				person2 = args[3]
 			default:
-				return fmt.Errorf("%s: unknown ID reference: %v", args)
+				return fmt.Errorf("%s: unknown ID reference: %v", n.Data, args)
 			}
 			imgid := args[1]
 			person1 := args[2]
