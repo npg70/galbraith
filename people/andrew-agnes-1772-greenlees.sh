@@ -15,13 +15,14 @@ Agnes,Greenlees,Female,30,1811
 Agnes,Greenlees,Female,15,1826
 }
 
-Showing mother and daughter.  The youngest Agnes is unknown, perhaps a niece.
+Showing mother and daughter. The youngest Agnes is unknown, perhaps a niece.
 }
 
 partner {
     name William Greenlees
+    gender male
     marriage
-    birth -date 'about 1764'
+    birth -date "about 1764"
     death -date 30-may-1833 -ref agnes-death
 
     child {
@@ -31,7 +32,7 @@ partner {
     child {
         name Margaret Greenlees
         baptism -date 11-apr-1798 -location campbeltown
-        body { Died young. }
+        death -note dy
     }
     child {
         name William Greenlees
@@ -57,9 +58,7 @@ partner {
     child {
         name Margaret Greenlees
         baptism -date 15-jan-1813 -location campbeltown
-        body {
-            Died young.
-        }
+        death -note dy
     }
 }
 
