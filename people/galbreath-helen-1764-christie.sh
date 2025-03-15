@@ -13,9 +13,7 @@ Parents listed as Malcom Galbreath and Margaret Stewart.  In Gigha there is a re
 note {
     Gigha baptism records didn't start until 1794, so it's unlikely any documentation of her birth will be found.
 }
-todo {
-    TODO: many children.
-}
+todo children { many children.  }
 
 partner {
     name John Christie

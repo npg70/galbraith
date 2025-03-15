@@ -7,8 +7,8 @@ external {
     familysearch LZVY-RCL
     wikitree Galbraith-3406
 }
-todo {
-    descendants uninvestigated, discrepancy in Wikitree on "edward"
+todo wikitree {
+    discrepancy in Wikitree on "edward"
 }
 
 body {

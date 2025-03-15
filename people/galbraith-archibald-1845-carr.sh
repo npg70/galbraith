@@ -1,4 +1,5 @@
 name Archibald Galbreath
+gender male
 tags Argyll:Campbeltown
 baptism -date 6-oct-1845 -location campbeltown -ref archibald1845-baptism
 death -date 1916 -location 'Newton Abbot, Devon, England'
@@ -8,9 +9,10 @@ external {
 }
 partner {
     name Florence Eliza Carr
+    gender female
     marriage -date 1883 -location 'Chorlton, Lancashire, England'
 }
-todo {
+todo major {
    Body needs rewrite.  See orig https://github.com/npg70/galbreath-old/blob/main/people/galbreath-archibald-1845-carr.md
 }
 

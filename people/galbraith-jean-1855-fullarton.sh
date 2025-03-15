@@ -6,9 +6,7 @@ external {
 }
 baptism -date 5-aug-1855 -location campbeltown -ref jean1855-birth
 death -date 14-july-1942 -location campbeltown -ref jean1855-death
-todo {
-    add marriage, kids
-}
+todo children { add marriage, kids }
  partner {
     name Robert Fullarton
     birth -date 'about 1847'

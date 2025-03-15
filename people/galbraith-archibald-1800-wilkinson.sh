@@ -2,10 +2,10 @@ name Archibald Galbraith
 tags 'argyll:Killean and Kilchenzie' Argyll:Campbeltown
 baptism -date 29-oct-1800 -location 'killean and kilchenzie' -ref archibald1800-baptism
 death -date 13-feb-1855 -location campbeltown -ref archibald1800-death
-todo {
+todo census {
     cleanup census stuff
 }
-todo {
+todo children {
     a few sons were married but died young.  Children TBD.
 }
 note {

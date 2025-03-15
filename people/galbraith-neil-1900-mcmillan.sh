@@ -1,8 +1,10 @@
 name Neil Galbraith
+gender male
 birth -date 14-jul-1900 -location campbeltown -ref neil1900-birth
 death -date 24-jul-1974 -location campbeltown -ref neil1900-death
 partner {
     name Elizabeth McMillan
+    gender female
     marriage -date 1923 -location campbeltown -ref mcmillan-marriage
     birth -date 1897 -location campbeltown
     death -date 22-mar-1963 -location campbeltown -ref mcmillan-death
@@ -12,7 +14,6 @@ external {
     familysearch GD38-2VC
 }
 tags argyll:campbeltown 'argyll:saddell and skipness'
-todo { children unknown, uninvestigated }
 
 footnotes {
     neil1900-birth {

@@ -5,7 +5,7 @@ birth -date 'say 1739'
 external {
     familysearch GG82-X9K
 }
-todo {
+todo familysearch {
     needs research. FamilySearch is a mess with many Neill merged into one.  Link is to Ann.
 }
 

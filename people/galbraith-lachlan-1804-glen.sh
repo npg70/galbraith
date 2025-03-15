@@ -7,7 +7,7 @@ external {
     familysearch MDCL-FPH
     findagrave 110893267
 }
-todo {
+todo children {
     There are other children, but still sorting it out.   
 }
 body {

@@ -6,9 +6,7 @@ tags Argyll:Campbeltown
 external {
    familysearch KCRW-WZZ
 }
-todo {
-    body need rewrite, needs refernces, has raw URLs, etc.
-}
+todo major { body need rewrite, needs refernces, has raw URLs, etc.  }
 
 note {
     Parents and baptism are speculative.

@@ -7,14 +7,11 @@ external {
     familysearch K8KM-WHD
     findagrave 167549653
 }
-todo {  
-    kilkerran transcription... findagrave has bad copy
-}
-todo {
-    parents
-}
+todo findagrave {  kilkerran transcription... findagrave has bad copy }
+todo children { parents, children }
 partner {
     name Edward Beaton
+    gender male
     marriage -date 13-dec-1845 -location campbeltown
 
 }

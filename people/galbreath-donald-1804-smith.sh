@@ -5,7 +5,7 @@ tags Argyll:Gigha Argyll:Campbeltown
 external {
     familysearch KHMS-7WX
 }
-todo {
+todo census {
     Census needs transcribing. Generally not investigated.  Maybe other children, etc.
 }
 body {

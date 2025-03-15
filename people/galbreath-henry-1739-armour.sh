@@ -9,9 +9,7 @@ external {
     wikitree Galbreath-743
     ancestry tree/12079504/person/282259776209
 }
-todo {
-    fix inscription on findagrave
-}
+todo findagrave { fix inscription on findagrave }
 body {
 $blockquote{
 563.	Erected by JAMES GALBREATH baker, in memory of his father HENDRY GALBREATH Shoemaker in Campbeltown who died 15 July 1789 aged 46 years also FLORANCE and MARY his children and this is the place designed for AGNES ARMOUR his spouse and family.

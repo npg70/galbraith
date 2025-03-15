@@ -4,7 +4,7 @@ external {
     familysearch GL3B-36Y
     findagrave 179784140
 }
-todo {
+todo children  {
     Children uninvestigated, but appears a large number of children from both marriages.
 }
 birth -date 1-apr-1876 -location campbeltown -ref john1876-birth

@@ -1,29 +1,34 @@
 name Duncan Galbreath
+gender male
 tags 'argyll:Kilcalmonell and Kilberry' renfrew:greenock
 external {
     familysearch M1YL-6Q4
+}
+todo children {
+    Incomplete children
 }
 birth -date 30-Sep-1822
 baptism -date 25-apr-1825 -location 'Kilcalmonell and Kilberry' -ref duncan1822-baptism
 death -date 29-apr-1900 -location Greenock -ref duncan1822-death
 partner {   
     name Elizabeth Glen
+    gender female
     marriage -date 23-jul-1858 -location Greenock -ref glen-marriage
 
     child {
         name Mary Crawford Galbraith
+        gender female
         birth -date 1859 -location greenock -ref mary1859-birth
     }
     child {
         name Dugald Galbraith
+        gender male
         birth -date 20-dec-1861 -location glasgow -ref dugald1861-birth
     }
     child {
         name Archibald Galbraith
+        gender male
     }
-}
-todo {
-    Incomplete children
 }
 
 footnotes {

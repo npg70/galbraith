@@ -1,7 +1,7 @@
 name John Galbreath
 gender male
 tags Argyll:Campbeltown Immigrant:USA:Ohio
-todo {
+todo major {
     Stub
 }
 birth -date 12-apr-1817

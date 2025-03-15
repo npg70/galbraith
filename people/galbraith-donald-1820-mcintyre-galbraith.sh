@@ -12,7 +12,7 @@ death -date 22-mar-1863 -location clachan,Kilcalmonell -ref donald1820-death
 note {
     According to Donald's death records his parents were Lachlan Galbraith and Mary McArthur. But, TBD the father was listed as John Galbraith.
 }
-todo {
+todo census {
     shows up in 1861 census visiting $child-link[galbraith-angus-1827-smith]{Angus Galbraith}: https://www.findmypast.com/transcript?id=GBC/1861/0022346873&expand=true
 }
 

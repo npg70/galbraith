@@ -1,17 +1,19 @@
 name Patrick Galbreath
+gender male
 tags Argyll:Campbeltown
 baptism -date 20-aug-1713 -location campbeltown -ref patrick1713-baptism
 partner {
     name Martha Shiddan
+    gender female
     marriage -date 9-apr-1756 -location campbeltown -ref shiddan-marriage
     child {
         name Janet Galbreath
+        gender female
         baptism -date 25-dec-1756 -location campbeltown -ref janet-bapt
     }
 }
-todo {
-    See also $child-link[galbreath-patrick-1718]{Patrick Galbreath} m. Jean Watson.
-}
+confused-with galbreath-patrick-1718 { It's not clear who is who. }
+
 footnotes {
     patrick1713-baptism {
         $opr-ref-link[b-1713-507-000-0011-0117 "Patrick Galbreath"]{

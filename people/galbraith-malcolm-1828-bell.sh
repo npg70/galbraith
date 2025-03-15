@@ -1,4 +1,5 @@
 name Malcolm Galbraith
+gender male
 birth -date 29-apr-1828
 baptism -date 9-may-1828 -location 'Kilcalmonell and Kilberry' -ref malcolm1828-baptism
 death -date 8-mar-1908 -location dumbarton -ref malcolm1828-death
@@ -8,26 +9,30 @@ external {
     familysearch 273X-NLG
 }
 
-todo {
+todo census {
 transcribe 1861 Census: https://www.findmypast.com/transcript?id=GBC/1861/0022460171&expand=true
 }
 
 partner {
     name Catherine Bell
+    gender female
     birth -date 'about 1832'
     marriage -date 6-dec-1859 -location kilberry -ref bell-marriage
 
     child {
         name Neil Galbraith
+        gender male
         birth -date 21-nov-1860 -location Kilberry -ref neil1860-birth
         death -date 22-jan-1936 -location 'Rosneath,Dunbarton' -ref neil1860-death -note 'Cemetery Keeper, umd.'
     }
     child {
         name Mary Galbraith
+    gender female
         birth -date 19-may-1862 -location Kilberry -ref mary1862-birth
     }
     child {
         name Colin Galbraith
+        gender male
         birth -date 23-jul-1864 -location Kilberry -ref colin1864-birth
         body {
             moved to england, married to "Constance", at least one daughter
@@ -35,6 +40,7 @@ partner {
     }
     child {
         name Janet Galbraith
+    gender female
         birth -date 23-mar-1869 -location Kilberry -ref janet1869-birth
         partner {
             name Duncan Clark
@@ -43,6 +49,7 @@ partner {
     }
     child {
         name Betsy Galbraith
+    gender female
         birth -date 28-may-1871 -location Kilcalmonell -ref betsy1871-birth
     }
 }

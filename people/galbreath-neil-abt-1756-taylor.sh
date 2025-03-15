@@ -1,31 +1,34 @@
 name Neil Galbreath
+gender male
 birth -date 'about 1756'
 tags Argyll:Campbeltown
 external {
     familysearch K821-T1P
 }
-todo {
-    Marriage,death,grandchildren is not complete.
-}
 partner {
     name Grizzle Taylor
+    gender female
     marriage -date 9-mar-1781 -location campbeltown -ref taylor-marriage
 
     child {
         name Neil Galbraith
+        gender male
         baptism -date 'about 1790' -location campbeltown
         death -date 6-dec-1865 -location campbeltown -ref neil1790-death -note 'in poorhouse'
         partner {
             name Mary Harris
+            gender female
         }
     }
 
     child {
         name Katherine Galbreath
+        gender female
         baptism -date 14-mar-1794 -location campbeltown -ref kate1794-baptism
         death -date 14-may-1875 -location campbeltown -ref kate1794-death -note 'in poorhouse'
         partner {
             name John Cook
+            gender male
         }
     }
     child {
@@ -34,6 +37,7 @@ partner {
     }
     child {
         name Charles Galbreath
+        gender male
         baptism -date 1-mar-1801 -location campbeltown -ref charles1801-baptism
     }
 }

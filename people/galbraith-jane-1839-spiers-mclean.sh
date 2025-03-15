@@ -6,16 +6,18 @@ death -date 10-jul-1915 -location campbeltown -ref jane1839-death
 external {
     familysearch KHCW-4XP
 }
-todo {
+todo findagrave {
     stub - has inscription in kilkerran
 }
 
 partner {
     name Andrew Spiers
+    gender male
     marriage -date 16-jun-1863 -location campbeltown
 }
 partner {
     name John McLean
+    gender male
     marriage -date 06-dec-1871 -location campbeltown
 }
 footnotes {

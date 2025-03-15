@@ -6,7 +6,7 @@ death -date 2-may-1908 -location campbeltown -ref dugald1845-death
 external {
     familysearch 9MMY-QN3
 }
-todo {
+todo error {
     werid double registration for child david
 }
 partner {

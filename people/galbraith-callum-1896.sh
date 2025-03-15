@@ -13,8 +13,8 @@ birth -date 17-aug-1896 -location kilbery -ref malcolm1896-birth
 death -date 24-oct-1916 -location 'Cork Military Hositpial,Dublin,Ireland'
 burial -location 'dublin,ireland'
    
-todo {
-    has two legit findagrave markers
+todo major {
+    finish this up.  has two legit findagrave markers
 }
 body {
     https://www.cwgc.org/find-records/find-war-dead/casualty-details/900085/malcolm-galbraith/

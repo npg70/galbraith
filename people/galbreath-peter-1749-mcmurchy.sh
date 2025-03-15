@@ -5,7 +5,7 @@ tags Argyll:Campbeltown Argyll:Laggan
 external {
     familysearch KC9M-5ZQ
 }
-todo {
+todo major {
     Need to move $child-link[galbreath-william-1780-campbell]{William G} to here.
 }
 body {

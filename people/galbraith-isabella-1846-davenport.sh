@@ -7,7 +7,7 @@ death -date 1911 -location 'Newcastle Upon Tyne, Northumberland, England'
 external {
     familysearch 9M9D-KPL
 }
-todo {
+note {
     7 children
 }
 partner {

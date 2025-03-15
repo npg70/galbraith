@@ -1,9 +1,7 @@
 name Archibald Galbreath
 gender male
 tags Argyll:Campbeltown Immigrant:USA:Ohio
-todo {
-    Stub
-}
+todo major { Stub }
 birth -date 19-feb-1815 -location peninver
 baptism -date 22-feb-1815 -location campbeltown -ref archibald1815-baptism
 death -location 'Point Pleasant,Clermont,Ohio,USA'

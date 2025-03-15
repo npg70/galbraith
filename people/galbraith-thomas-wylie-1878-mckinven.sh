@@ -1,49 +1,56 @@
 name Thomas Wylie Galbraith
+gender male
 tags argyll:campbeltown Edinburgh
 birth -date 3-feb-1878 -location campbeltown -ref thomas1878-birth
 death -date 13-july-1950 -location Edinburgh -ref thomas1878-death
 external {
     familysearch L5D2-1PL
 }
-todo {
+note {
     Likely other children in Newington, Edinburgh
 }
-todo {
+todo major {
     Split out first son as veteran
 }
 partner {
     name Flora McKinven
+    gender female
     birth -date 'about 1881' -location campbeltown
     death -date 25-oct-1953 -location edinburgh
     marriage -date 1901 -location Campbeltown -ref mckinven-marriage
 
     child {
         name Thomas Wylie Galbraith
+        gender male
         birth -date 31-may-1901 -location campbeltown -ref thomas1901-birth
         death -date 1945 -location belgium 
     }
     child {
         name Archibald McKinven Galbraith
+        gender male
         birth -date 12-apr-1903 -location campbeltown -ref archibald1903-birth
         death -date 1976 -location 'Canon Gate and Portobello' -ref archibald1903-death
     }
     child {
         name Charlotte Wylie Galbraith
+        gender female
         birth -date 10-mar-1905 -location campbeltown -ref charlotte1905-birth
     }
     child {
         name Catherine Colquhoun Galbraith
+        gender female
         birth -date 7-apr-1907 -location campbeltown -ref catherine1907-birth
     }
     child {
         name John Galbraith
+        gender male
         birth -date 22-may-1914 -location campbeltown -ref john1914-birth
     }
     child {
         name Florence McKinven Galbraith
+        gender female
         birth -date 12-aug-1919 -location Edinburgh -ref florence1919-birth
     }
-
 }
 
 footnotes {

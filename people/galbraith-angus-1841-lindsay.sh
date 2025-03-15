@@ -1,36 +1,41 @@
 name Angus Galbreath
+gender male
 tags Argyll:Campbeltown
 baptism -date 5-Dec-1841 -location campbeltown -ref angus1841-baptism
 death -date 1876 -location 'mid calder, midlothian' -ref angus1841-death
-todo {
-    verify children, and death
-}
 partner {
    name Jane Lindsay
+   gender female
    marriage -date 1867 -location blythwood,glasgow -ref lindsay-marriage
 
    child {
       name Archibald Lindsay Galbraith
+      gender male
       birth -date 1868 -location anderston -ref archibald1868-birth
     }
    child {
       name Jane Lawrie Galbraith
+      gender female
       birth -date 1869 -location blythswood -ref jane1869-birth
    }
    child {
       name Angus Galbraith
+      gender male
       birth -date 1871 -location 'mid calder' -ref angus1871-birth
     }
    child {
       name Alexander Galbraith
+      gender male
       birth -date 1873 -location 'mid calder' -ref alexander1873-birth
    }
    child {
       name William Wilson Galbraith
+      gender male
       birth -date 1875 -location 'mid calder' -ref william1875-birth
    }
    child {
       name John Galbraith
+      gender male
       birth -date 1876 -location 'mid calder' -ref john1876-birth
    }
 }

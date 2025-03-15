@@ -1,36 +1,39 @@
 name John Galbraith
+gender male
 tags Argyll:Glassary
 external {
     familysearch M15Y-X2L
     findagrave 182029989
 }
-todo {
+todo census {
     transcribe census info (see footnotes)
-}
-todo {
-    research post-1855 children
 }
 baptism -date 8-apr-1826 -location glassary -ref john1826-baptism
 death -date 28-jun-1905 -location glassary -ref john1826-death
 partner {
     name Catherine McAlpin
+    gender female
     birth -date 1825
     marriage -date 5-feb-1850 -location glassary -ref mcalpin-marriage
     death -date 2-oct-1875 -location glassary -ref mcalpin-death
     child {
         name Mary Galbraith
+        gender female
         baptism -date 22-nov-1850 -location glassary -ref mary1850-baptism
     }
     child galbraith-donald-1852-cleaver-cameron
     child {
         name Isabella Galbraith
+        gender female
         baptism -date 4-nov-1854 -location glassary -ref isabella1854-baptism
     }
     child {
         name Catherine Galbraith
+        gender female
     }
     child {
         name Margaret Galbraith
+        gender female
     }
 }
 

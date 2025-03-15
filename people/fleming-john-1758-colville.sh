@@ -6,9 +6,7 @@ external {
     findagrave 100209162
     wikitree Fleming-7954
 }
-todo {
-    13 total children, baptized in Campbeltown and Southend
-}
+todo children { 13 total children, baptized in Campbeltown and Southend }
 
 baptism -date 23-jan-1758 -location campbeltown -ref john1758-baptism
 death -date 05-feb-1854 -location 'barlow,washington,ohio,usa'

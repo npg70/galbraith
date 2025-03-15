@@ -10,8 +10,8 @@ death -date 03-aug-1827 -location 'black cape,quebec,canada'
 note {
     Maybe immigrated to Quebec in 1821
 }
-todo {
-    An alternate birth date is 9 Nov 1761, however nothing is in the OPR that matches.
+note {
+An alternate birth date is 9 Nov 1761, however nothing matches in the OPRs.
 }
 confused-with mcnair-archibald-1753-mitchell
 confused-with mcnair-archibald-1755-bieth

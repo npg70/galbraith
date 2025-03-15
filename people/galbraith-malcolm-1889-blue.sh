@@ -1,8 +1,9 @@
 name Malcolm Galbraith
+gender male
 birth -date 14-jun-1889 -location campbeltown -ref malcolm1889-birth
 death -date 7-oct-1954 -location london
 tags Argyll:Campbeltown
-todo {I stopped halfway here}
+todo children {stopped halfway here}
 
 external {
    familysearch LTJ5-K76
@@ -10,7 +11,7 @@ external {
 }
 partner {
     name Susie Blue
-
+    gender female
     child {
         name Malcolm Galbraith
         birth -date 'about 1918'

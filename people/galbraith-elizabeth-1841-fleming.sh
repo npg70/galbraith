@@ -4,9 +4,7 @@ tags Argyll:Campbeltown
 birth -date 25-apr-1841
 baptism -date 10-may-1841 -location campbeltown -ref elizabeth1841-baptism
 death -date 10-jan-1931 -location campbeltown -ref elizabeth1841-death
-todo {
-    cleanup html
-}
+todo major { cleanup html, finish children }
 note {
     extensive notes on FindAGrave
 }
@@ -23,24 +21,31 @@ partner {
     }
     child {
         name John Galbraith Fleming
+        gender male
     }
     child {
         name Mary H Fleming
+        gender female
     }
     child {
         name Jane E Fleming
+        gender female
     }
     child {
         name Archibald N Fleming
+        gender male
     }
     child {
         name Elizabath L Fleming
+        gender female
     }
     child {
         name Margaret J Fleming
+        gender female
     }
     child {
         name Andrew Galbraith Fleming
+        gender male
     }
 }
 note {

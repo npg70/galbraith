@@ -17,7 +17,7 @@ partner {
    baptism -date 17-mar-1752 -location campbeltown
    death -date 25-sep-1821 -location "Glade Spring,Washington,Virginia,USA"
 }
-todo {
+todo major {
     9 children
 }
 footnotes {

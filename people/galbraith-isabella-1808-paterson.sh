@@ -7,9 +7,7 @@ external {
 }
 baptism -date 12-dec-1808 -location Campbeltown -ref isobell-baptism
 death -date 18-nov-1880 -location glasgow  -ref isobell-death
-todo {
-    stub.
-}
+todo children { Add children. }
 partner {
    name James Paterson
    gender male

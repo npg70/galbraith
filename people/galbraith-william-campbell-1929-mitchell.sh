@@ -19,11 +19,11 @@ partner {
         death -date 2021
     }
 }
-todo {
-    Too modern to get access to birth record on scotlands people.  Tombstone appears on FindAGrave.
+note {
+    Too modern to get access to birth record on ScotlandsPeople.
 }
-todo {
-    perhaps 2 other living children.
+note {
+    There are perhaps 2 other living children.
 }
 
 footnotes {

@@ -3,16 +3,13 @@ gender female
 tags Argyll:Campbeltown
 baptism -date 28-apr-1751 -location campbeltown -ref mary1751-baptism
 death -date 03-apr-1825 -location campbeltown -ref mary1751-death
-todo {
-    link to kilkerran
-}
 external {
     findagrave 167549444
     ancestry tree/12079504/person/282242565564
 }
 
-note {
-    There is another Mary Galbreath born in 1751, the daughter of $child-link[galbreath-david-1719-langwill]{David Galbreath} and Jean Langwill.
+confused-with {
+There is another Mary Galbreath born in 1751, the daughter of $child-link[galbreath-david-1719-langwill]{David Galbreath} and Jean Langwill.
 }
 
 body {

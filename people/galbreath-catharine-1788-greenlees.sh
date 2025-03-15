@@ -10,11 +10,8 @@ external {
     ancestry tree/12079504/person/282259752810
     wikitree Galbreath-298
 }
-todo {
+todo familysearch {
     Some duplicate children and out of order birth/baptisms on FamilySearch (and here)
-}
-todo {
-    Janet confusions
 }
 partner {
     name James Greenlees

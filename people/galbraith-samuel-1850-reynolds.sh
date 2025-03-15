@@ -8,8 +8,8 @@ external {
 birth -date 17-nov-1850 -location campbeltown
 death -date 19-sep-1931 -location 'St. Boniface,Manitoba,Canada'
 
-todo {
-    clean up familysearch. There are at least 3 listed that need merging/consolidating.   see Family Search G7VG-7ZK and GZSW-6YY
+todo familysearch {
+There are at least 3 listed that need merging/consolidating.   see Family Search G7VG-7ZK and GZSW-6YY
 }
 
 body {

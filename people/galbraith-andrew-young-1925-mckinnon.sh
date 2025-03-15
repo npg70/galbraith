@@ -1,15 +1,14 @@
 name Andrew Young Galbraith
+gender male
 birth -date 1925 -location southend -ref andrew1925-birth
 death -date 2007 -location campbeltown -ref andrew1925-death
 tags Argyll:Campbeltown Argyll:Southend
 external {
     familysearch GZXY-P24
 }
-todo {
-    children exist, but tbd
-}
 partner {
     name Mary McKinnon
+    gender female
     marriage -date 29-oct-1952 -location campbeltown -ref mckinnon-marriage
 }
 

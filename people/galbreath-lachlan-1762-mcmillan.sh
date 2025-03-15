@@ -1,26 +1,26 @@
 name Lachlan Galbreath
+gender male
 tags Argyll:Campbeltown 'Argyll:Gigha' 'Argyll:killean and kilchenzie'
 
 birth -date 'about 1762'
 external {
     familysearch K423-BVX
 }
-todo {
-    Familysearch has two parents for Flora
-}
-todo {
-    Mary/Margaret and her husband
+todo familysearch {
+    Familysearch has two parents for Flora.  Mary/Margt and her spouse need investigation.
 }
 partner {
     name Isabella McMillan
-
+    gender female
     child {
         name Flora Galbreath
+        gender female
         baptism -date 22-feb-1796 -location gigha -ref flora1796-baptism
         death -date 02-jan-1860 -location gigha
     }
     child {
         name Mary Margaret Galbreath
+        gender female
         baptism -date 24-mar-1799 -location gigha -ref mary1799-baptism
         death -date 06-may-1880 -location Campbeltown -ref mary1799-death
         partner {
@@ -30,25 +30,30 @@ partner {
     child galbreath-neil-1801-blue
     child {
         name Dugald Galbreath
+        gender male
         baptism -date 09-may-1809 -location killean -ref dougald1809-baptism
     }
     child {
         name Euphemia Effy Galbreath
+        gender female
         baptism -date 07-feb-1812 -location killean -ref effy1812-baptism
         death -date 27-dec-1867 -location campbeltown -ref effy1812-death
     }
     child {
         name Catherine Galbreath
+        gender female
         baptism -date 'about 1813' -location killean
         death -date 25-dec-1886 -location campbeltown -ref catherine-death
         
     }
     child {
         name Isabella Galbreath
+        gender female
         birth -date 'about 1818' -note 'could be as early as 1808'
         death -date 21-aug-1863 -location campbeltown -ref isabella-death
         partner {
             name Peter McCallum
+            gender male
             birth -date 'about 1822' -location campbeltown
             marriage -date 31-may-1847 -location campbeltown
         }

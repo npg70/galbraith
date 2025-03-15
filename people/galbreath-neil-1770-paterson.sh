@@ -1,48 +1,58 @@
 name Neil Galbreath
+gender male
 birth -date 'about 1770'
 
 external {
     familysearch 9M9Z-V9G
 }
 tags Argyll:Campbeltown
-todo {
+note {
     The last child Neil who perhaps married Mary Hamilton needs investigating.
 }
 
 partner {
     name Flora Paterson
+    gender female
     marriage -date 31-jul-1790 -location campbeltown -ref paterson-marriage
 
     child {
         name Margaret Galbreath
+        gender female
         baptism -date 5-may-1791 -location campbeltown -ref margaret1791-baptism
     }
     child {
         name Lachlan Galbreath
+        gender male
         baptism -date 14-may-1793 -location campbeltown -ref lachlan1793-baptism
     }
     child {
         name John Galbreath
+        gender male
         baptism -date 14-oct-1795 -location campbeltown -ref elizabeth1795-baptism
     }
     child {
         name Elizabeth Galbreath
+        gender female
         baptism -date 14-oct-1795 -location campbeltown -ref elizabeth1795-baptism
     }
     child {
         name Donald Galbreath
+        gender male
         baptism -date 2-feb-1804 -location campbeltown -ref donald1804-baptism
     }
     child {
         name Hugh Galbreath
+        gender male
         baptism -date 4-may-1807 -location campbeltown -ref hugh1807-baptism
     }
     child {
         name Catharine Galbreath
+        gender female
         baptism -date 30-jul-1809 -location campbeltown -ref catharine1809-baptism
     }
     child {
         name Neill Galbreath
+        gender male
         baptism -date 23-feb-1812 -location campbeltown -ref neill1812-baptism
     }
 }

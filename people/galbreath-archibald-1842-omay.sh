@@ -10,12 +10,10 @@ death -date 22-sep-1896 -location campbeltown -ref archibald1842-death
 body {
     His occupation was in the distilling industry.
 }
-todo {
-    Present in 1851 Census
-}
+todo census { Present in 1851 Census }
 
 partner {
-    name Agnes O'May
+    name Agnes "O'May"
     body { She was the daughter of William O'May and Margaret Milloy. }
     birth -date 'about 1845'
     marriage -date 8-dec-1869 -location campbeltown -ref omay-marriage

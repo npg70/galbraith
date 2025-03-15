@@ -1,17 +1,16 @@
 name Patrick Galbreath
+gender male
 tags Argyll:Campbeltown
 baptism -date 31-May-1718 -location Campbeltown -ref patrick1718-baptism
 external {
     familysearch KHSL-1X9
 }
-todo {
+note {
     Parents are speculative.  See also $child-link[galbreath-patrick-1713-shiddan]{Patrick Galbreath} b. 1713.
-}
-todo {
-    Orsla may have married Archibald Galbreath in 1772.
 }
 partner {
     name Jean Watson
+    gender female
     marriage -date 13-feb-1737 -location campbeltown -ref watson-marriage
     baptism -date 22-apr-1716 -location campbeltown
     body {
@@ -19,19 +18,23 @@ partner {
     }
     child {
         name John Galbreath
+        gender male
         baptism -date 13-apr-1740 -location campbeltown -ref john1740-baptism
     }
     child {
         name Mary Galbreath
+        gender female
         baptism -date 14-dec-1742 -location campbeltown -ref mary1742-baptism
     }
     child galbreath-orsla-1745-galbreath
     child {
         name James Galbreath
+        gender male
         baptism -date 20-dec-1747 -location campbeltown -ref james1747-baptism
     }
     child {
         name William Galbreath
+        gender male
         baptism -date 25-may-1750 -location campbeltown -ref william1750-baptism
     }
 }

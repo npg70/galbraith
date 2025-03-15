@@ -12,8 +12,9 @@ She was the daughter of a different $child-link[galbraith-alexander-1720-miller]
 }
 
 confused-with {
-    Often claimed to be the sister of $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}, daughter of $child-link[galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill, all of Campbeltown.  This is impossible since it implies Isobell got married at age 12. Also there letter from Alexander to his mother in Scotland, implying they did not immigrate.
+    Often claimed to be the sister of $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}, daughter of $child-link[galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill, all of Campbeltown.  This is impossible since it implies Isobell got married at age 12. Also there are letter from his mother in Scotland to from Alexander dated in the 1790s. 
 }
+
 confused-with {
 Confused with Isabella Welch, the spouse of $child-link[galbraith-william-1800-welch]{William Galbreath}.  This is likely due to a probate document for "Isabella Galbraith."
 }

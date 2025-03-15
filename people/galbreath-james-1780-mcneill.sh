@@ -7,9 +7,6 @@ external {
     familysearch KC3N-971
     findagrave 167549470
 }
-todo {
-    unexplored
-}
 
 partner {
     name Catherine McNeill
@@ -19,16 +16,17 @@ partner {
     child {
         name Charles Galbreath
         gender male
-        baptism -date 18-nov-1812
+        baptism -date 18-nov-1812 -location campbeltown -ref charles1812-baptism
         death -date 1855
         partner {
             name Elizabeth Dewey
+            gender female
             marriage -date 20-apr-1838 -location neilston,renfrew,scotland
         }
     }
 }
 footnotes {
-    $charles1812-baptism {
+    charles1812-baptism {
         $opr-ref[b-1812-507-000-0040-0391 "Charles Galbreath"]
     }
 }

@@ -1,7 +1,7 @@
 name Samuel Mitchell
 gender male
 tags argyll:campbeltown
-todo {
+todo children {
     9 children
 }
 

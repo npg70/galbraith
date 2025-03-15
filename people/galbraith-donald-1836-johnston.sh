@@ -1,10 +1,11 @@
 name Donald Galbraith
+gender male
 tags 'Argyll:South Knapdale' Renfrew:Greenock
 external {
     familysearch LZPC-82L
     ancestry tree/6883622/person/-25977889
 }
-todo {
+todo children {
     Many children
 }
 birth -date 3-may-1836
@@ -12,6 +13,7 @@ baptism -date 24-may-1836 -location 'South knapdale' -ref donald1836-baptism
 death -date 26-mar-1888 -location greenock -ref donald1836-death
 partner {
    name Ann Jane Johnston
+   gender female
    marriage -date 10-feb-1865 -location greenock -ref johnston-marriage
 }
 footnotes {

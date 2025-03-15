@@ -7,7 +7,7 @@ external {
   familysearch KD34-8ZY
   findagrave 115118723
 }
-todo {
+todo census {
     Add Census data showing her in Gigha.
 }
 partner {

@@ -6,8 +6,11 @@ external {
     ancestry tree/12079504/person/282662620795
     familysearch KC8Y-21K
 }
-todo {
-    No known grand-children?
+todo error {
+    Pull out James Harvey and Martha Orr references.
+}
+note {
+    Appears to be end of line with no known grand-children.
 }
 partner {
    name Mary Orr
