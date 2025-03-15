@@ -13,12 +13,8 @@ note {
 todo {
     An alternate birth date is 9 Nov 1761, however nothing is in the OPR that matches.
 }
-note {
-    Confused with $child-link[mcnair-archibald-1753-mitchell]{Archibald McNair}, b. 1753 who married $i{Jean} Mitchell
-}
-note {
-    Confused with $child-link[mcnair-archibald-1755-bieth]{Archibald McNair}, b. 1755 who married Mary Bieth
-}
+confused-with mcnair-archibald-1753-mitchell
+confused-with mcnair-archibald-1755-bieth
 
 body {
 $p{

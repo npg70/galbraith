@@ -8,43 +8,48 @@ external {
     familysearch KC3B-41M
     findagrave 161584624
 }
+confused-with galbreath-margaret-1806-mcmillan
+
+note {
+    There may be additional children born after 1854.
+}
 partner {
     name Donald Fisher
+    gender male
     marriage -date 28-nov-1842 -location 'ardrossan,ayr' -ref marriage
     child {
         name John Fisher
+        gender male
         baptism -date 22-dec-1844 -location campbeltown -ref john-fisher-birth
         death -date 16-mar-1911 -location cathcart,renfrew -ref john-fisher-death
     }
     child {
         name Donald Fisher
+        gender male
         baptism -date 4-sep-1846 -location campbeltown
         death -date 2-apr-1859
     }
     child {
         name May Fisher
+        gender female
         baptism -date 15-oct-1848 -location campbeltown
     }
     child {
         name Agnes Fisher
+        gender female
         baptism -date 22-sep-1850 -location campbeltown
     }
     child {
         name Margaret Fisher
+        gender female
         baptism -date 19-dec-1852 -location campbeltown
     }
     child {
         name Catherine Fisher
+        gender female
         baptism -date 29-oct-1854 -location campbeltown
         death -date 1929
     }
-}
-note {
-    Often confused with $child-link[galbreath-margaret-1806-mcmillan]{Margaret McMillan}, b. about 1906 m. Hugh McMillan
-}
-
-note {
-    There may be additional children born after 1854.
 }
 
 footnotes {

@@ -7,9 +7,7 @@ external {
    wikitree Galbraith-349
    ancestry tree/12079504/person/282658043559
 }
-note {
-    Confused with $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath} and Fleeming of Campbeltown, who immigrated to Peach Bottom, York, Pennsylvania.
-}
+confused-with galbreath-alexander-1753-flemming
 
 birth -date 1749 -location Bucks,Pennsylvania,USA
 death -date 1835 -location Wheat,Roane,Tennessee,USA

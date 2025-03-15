@@ -8,12 +8,9 @@ external {
 }
 baptism -date 25-jun-1753 -location campbeltown -ref alex1753-baptism
 death -date 1819 -location 'Delta, York, Pennsylvania, USA' -name 'Slate Ridge Cemetery' -ref alex1753-burial
-note {
-    Confused with $child-link[galbraith-alexander-1720-miller]{Alexander Galbraith} and Agnes Miller of Bucks County, Pennsylvania.
-}
-note {
-    Confused with $child-link[galbraith-alexander-1749-lyle]{Alexander Galbraith} and Rosannah Lyle of Bucks County, Pennsylvania, USA
-}
+
+confused-with galbraith-alexander-1720-miller
+confused-with galbraith-alexander-1749-lyle
 
 note {
     Ancestry Tree by user $elink[https://www.ancestry.com/profile/0774f420-0006-0000-0000-000000000000]{Alex Galbreath} for $elink[https://www.ancestry.com/family-tree/person/tree/165037717/person/272146062803/facts]{Alexander Galbreath}

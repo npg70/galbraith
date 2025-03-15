@@ -6,13 +6,9 @@ external {
     familysearch LCF9-R1S
     ancestry tree/12079504/person/143949
 }
-note {
-    Confused with $child-link[galbreath-john-1736-mary-ann]{John Galbreath}, b. 1736 in Pennsylvania.
-}
-note {
-    Confused with $child-link[galbraith-john-1730-unknown]{John Galbreath}, of Aleghany, Pennsylvania, and unknown spouse.
-}
-note {
+confused-with galbreath-john-1736-mary-ann
+confused-with galbraith-john-1730-unknown
+confused-with {
     Confused with $child-link[galbraith-alexander-1720-miller]{Alexander Galbraith}, of Bucks, Pennsylvania, and "Nancy Agnes" Miller, who had a son Alexander Galbraith
 }
 

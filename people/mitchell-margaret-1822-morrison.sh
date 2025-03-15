@@ -15,9 +15,7 @@ external {
 }
 birth -date 'about 1822'
 death -date 13-Mar-1860  -location Saddell
-note {
-    Sometimes confused with $child-link[mitchell-margaret-1832]{Margaret Mitchell}, the daughter of $child-link[mcnair-sarah-1803-mitchell]{Sarah McNair} and William Mitchell.
-}
+confused-with mitchell-margaret-1832
 partner {
     name John Morrison
     gender male

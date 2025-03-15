@@ -8,9 +8,6 @@ external {
 }
 confused-with  mcnair-archibald-1759-mitchell
 note {
-    Confused with $child-link[mcnair-archibald-1759-mitchell]{Archibald McNair} who married $i{Margaret} Mitchell.
-}
-note {
     Not in the 1792 Census.
 }
 body {

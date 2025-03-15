@@ -10,9 +10,7 @@ external {
     findagrave 166935743
     ancestry tree/12079504/person/282642876348
 }
-note {
-    Confused with $child-link[harvey-william-1748-orr]{William Harvey}, b. 1748 who married $i{Isobel} Orr.
-}
+confused-with harvey-william-1748-orr
 
 body {
     He was a lighthouse keeper on the Mull of Kintyre.

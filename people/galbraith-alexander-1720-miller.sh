@@ -8,9 +8,7 @@ external {
     wikitree Galbraith-350
     ancestry tree/12079504/person/282658043366
 }
-note {
-    Confused with $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath} and Fleeming of Campbeltown, who immigrated to Peach Bottom, York, Pennsylvania.
-}
+confused-with galbreath-alexander-1753-flemming
 
 partner {
     name Nancy Agnes Miller

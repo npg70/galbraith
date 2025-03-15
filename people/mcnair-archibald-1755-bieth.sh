@@ -9,12 +9,8 @@ note {
     Given marriage and baptisms of children, they were likely both from Killean. Birth records
     are unlikely to be found since record keeping started around 1762 in Killean.
 }
-note {
-    Confused with $child-link[mcnair-archibald-1753-mitchell]{Archibald McNair}, b. 1753, m. $i{Jean} Mitchell
-}
-note {
-    Confused with $child-link[mcnair-archibald-1759-mitchell]{Archibald McNair}, b. 1759, m. $i{Margaret} Mitchell
-}
+confused-with mcnair-archibald-1753-mitchell
+confused-with mcnair-archibald-1759-mitchell
 
 body {
     He was a sailor, according to his daughter Mary's death certificate.

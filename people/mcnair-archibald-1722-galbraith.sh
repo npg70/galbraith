@@ -10,9 +10,7 @@ external {
 note {
     Margaret's origins is unknown.
 }
-note {
-Margaret is sometimes confused with $child-link[galbreath-mary-1729-armour]{Mary Galbreath}, born 1729, daughter of $child-link[galbreath-william-1701-kilpatrick/]{William Galbreath} and Margaret Jean Kilpatrick, who married William Armour.
-}
+confused-with  galbreath-mary-1729-armour
 
 partner {
     name Margaret Galbraith

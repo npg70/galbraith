@@ -13,6 +13,8 @@ parent {
     }
 }
 
+confused-with galbreath-john-1721-langwill
+
 note {
     Often listed with death of 1800, which appears to be a misreading of the probate documents.
 }
@@ -20,9 +22,6 @@ note {
     Often listed with a death of 18 Aug 1800, which is a confusion with $child-link[galbraith-john-1730-unknown]{John Galbraith} and Agnes of Aleghany, PA.
 }
 
-note {
-    Confused with $child-link[galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill of Campbeltown, Argyll, Scotland.
-}
 
 body {
 

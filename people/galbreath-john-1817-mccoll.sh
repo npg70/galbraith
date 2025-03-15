@@ -4,10 +4,7 @@ external {
     findagrave 111121055
     familysearch LBYK-Y9V
 }
-todo {
-    list children
-}
-note {
+confused-with {
     Sometimes confused with John Galbreath who married Eliza McManus of Massachusetts
 }
 

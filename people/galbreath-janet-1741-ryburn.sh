@@ -9,11 +9,11 @@ note {
     Janet gave birth to at least 12 children over 26 years!
 }
 
-note {
+confused-with {
      Often confused with a Janet Galbreath who marries James Harvie of Kippen.
 }
-body {
-    Confused with $child-link[galbreath-janet-1735]{Janet}, the daughter of $child-link[galbreath-william-1701-kilpatrick]{William Galbreath} and Margaret Kilpatrick.  Unlikely since the last child would have been born at age 52.
+confused-with galbreath-janet-1735 {
+    Its unlikely they are the same,  since the last child would have been born at age 52.
 }
 
 body {

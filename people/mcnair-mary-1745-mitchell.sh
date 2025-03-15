@@ -7,7 +7,7 @@ external {
 }
 birth -date 'about 1745'
 
-note {
+confused-with {
 Mary has been confused with the daughter of $child-link[mcnair-archibald-1722-galbraith]{Archibald McNair} and Margaret Galbreath. That Mary was born in 1752.  It's unlikely she got married at age 15. 
 }
 partner {

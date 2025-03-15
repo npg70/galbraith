@@ -3,9 +3,8 @@ gender male
 external {
     familysearch GCN6-RK1
 }
-note {
-    Confused with $child-link[harvey-william-1738-orr]{William Harvey}, b. 1738, who married $i{Agnes} Orr.
-}
+confused-with harvey-william-1738-orr
+
 note {
     First two sons appear to be twins by date, however they are recorded
     separately in different books. ?

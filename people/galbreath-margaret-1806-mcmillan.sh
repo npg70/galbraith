@@ -10,9 +10,8 @@ external {
     familysearch L2MJ-N3M
 }
 
-note {
-    Often confused with $child-link[galbreath-margaret-1813-fisher]{Margaret Galbreath} b. 1813, m. Donald Fisher.
-}
+confused-with galbreath-margaret-1813-fisher
+
 partner {
     name Hugh Angus McMillan
     marriage -date 7-jun-1832 -location 'killean and kilchenzie' -ref marriage 

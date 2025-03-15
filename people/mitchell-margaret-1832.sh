@@ -10,9 +10,7 @@ external {
 birth -date 07-feb-1832
 baptism -date 14-feb-1832 -location campbeltown -ref margaret1832-baptism
 death -date 17-sep-1868 -location campbeltown -note umn. -ref margaret1832-death
-note {
-    Sometimes confused with $child-link[mitchell-margaret-1822-morrison]{Margaret Mitchell} who married John Morrison.
-}
+confused-with mitchell-margaret-1822-morrison
 
 footnotes {
     margaret1832-baptism {

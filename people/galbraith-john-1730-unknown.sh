@@ -13,12 +13,10 @@ note {
 note {
     Second wife Agnes is frequently listed as "Agnes Langwell" or "Nancy Agnes Langwell" with out sources.  Langwell may have been a guess to match with the John of Campbeltown below.
 }
-note {
-    Confused with $child-link[galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill of Campbeltown.  This John in 1795 listed 15 living children in his will, and none were named $child-link[galbreath-alexander-1753-flemming]{Alexander}
+confused-with galbreath-john-1721-langwill {
+     This John in 1795 listed 15 living children in his will, and none were named $child-link[galbreath-alexander-1753-flemming]{Alexander}
 }
-note {
-    Confused with $child-link[galbreath-john-1736-mary-ann]{John Galbreath}, b. 1736 of York, Pennsylvania.
-}
+confused-with galbreath-john-1736-mary-ann 
 body {
 Will and Probate:$ref[probate1]$ref[probate2]
 $blockquote{

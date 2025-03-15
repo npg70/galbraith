@@ -6,8 +6,8 @@ external {
    familysearch KHC3-LK7
 }
 
-note {
-    Confused with $child-link[galbreath-janet-1741-ryburn]{Janet Galbreath} who married William Ryburn.  If so Janet's would be giving birth to the last child at age 52.
+confused-with galbreath-janet-1741-ryburn { 
+    They must be different people, otherwise Janet would be giving birth to the last child at age 52.
 }
 
 note {

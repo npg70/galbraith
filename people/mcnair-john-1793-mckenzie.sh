@@ -5,8 +5,8 @@ tags Immigrant:Canada:Quebec
 external {
     findagrave 136365961
 }
-todo {
-    Everyone has him confused with a different John, son of $child-link[mcnair-archibald-1753-mitchell]{Archibald McNair} and Jean Mitchell.
+confused-with {
+Everyone has him confused with a different John, son of $child-link[mcnair-archibald-1753-mitchell]{Archibald McNair} and Jean Mitchell.
 }
 
 birth -date 'about 1793'

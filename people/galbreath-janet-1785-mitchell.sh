@@ -7,9 +7,7 @@ external {
     findagrave 176703650
     ancestry tree/12079504/person/282306452252
 }
-note {
-    Often confused with $child-link[galbreath-janet-1786]{Janet Galbreath}, daughter of John Galbreath and Marion McLean.
-}
+confused-with galbreath-janet-1786
 
 birth -date "abt 1785"
 death -date 23-Oct-1859 -location campbeltown -ref death
