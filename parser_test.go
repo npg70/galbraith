@@ -40,6 +40,41 @@ func TestParse(t *testing.T) {
 			args:  []string{"name", "first=John", "last=Brown"},
 		},
 		{
+			// check arg quotes
+			input: `func first 'second' "third"`,
+			args:  []string{"func", "first", "second", "third"},
+		},
+		{
+			// check to make sure flags are ok
+			input: "name -first 'john'",
+			args:  []string{"name", "-first", "john"},
+		},
+		{
+			// check arg quotes
+			input: `name first="mary ann" last="brown"`,
+			args:  []string{"name", "first=mary ann", "last=brown"},
+		},
+		{
+			// check arg quotes
+			input: `name -first "mary ann"`,
+			args:  []string{"name", "-first", "mary ann"},
+		},
+		{
+			// check arg quotes
+			input: `name -first 'mary ann'   `,
+			args:  []string{"name", "-first", "mary ann"},
+		},
+		{
+			// check arg quotes
+			input: `name first='mary ann' last='brown'`,
+			args:  []string{"name", "first=mary ann", "last=brown"},
+		},
+		{
+			// check arg quotes
+			input: `name "first"='mary ann' "last"='brown'`,
+			args:  []string{"name", "first=mary ann", "last=brown"},
+		},
+		{
 			input: "name John Brown {\napple {banana}}",
 			args:  []string{"name", "John", "Brown"},
 			body:  "\napple {banana}",

@@ -46,21 +46,42 @@ func NewScanner(in []byte) *Scanner {
 	}
 }
 func (s *Scanner) parseBareword() (string, error) {
+	out := ""
 	i := s.pos
 	for s.pos < len(s.s) {
 		b := s.s[s.pos]
 		switch {
 		case isSpace(b):
-			return string(s.s[i:s.pos]), nil
+			out += string(s.s[i:s.pos])
+			return out, nil
+		case isQuote1(b):
+			out += string(s.s[i:s.pos])
+			inner, err := s.parseQuote1()
+			if err != nil {
+				return out, err
+			}
+			i = s.pos
+			out += inner
+		case isQuote2(b):
+			out += string(s.s[i:s.pos])
+			inner, err := s.parseQuote2()
+			if err != nil {
+				return out, err
+			}
+			i = s.pos
+			out += inner
 		case b == '\n':
-			return string(s.s[i:s.pos]), nil
+			return out + string(s.s[i:s.pos]), nil
 		// TODO: backslash
 		default:
 			s.pos += 1
 		}
 	}
-	// bareword till EOF
-	return string(s.s[i:]), nil
+	if out == "" {
+		// bareword till EOF
+		return string(s.s[i:]), nil
+	}
+	return out, nil
 }
 func (s *Scanner) parseBackQuote() (string, error) {
 	s.pos += 1
@@ -118,6 +139,7 @@ func (s *Scanner) parseQuote2() (string, error) {
 	return "", fmt.Errorf("got EOF in single quote")
 }
 
+// TODO - handle escaped characters in particular braces
 func (s *Scanner) parseBrace() (string, error) {
 	// skip brace
 	s.pos += 1
@@ -142,6 +164,9 @@ func (s *Scanner) parseBrace() (string, error) {
 	return "", fmt.Errorf("got EOF in opening brace")
 }
 
+// Next returns the arguments and the body, along with an error if any.
+// foo bar { the body }
+// --> []string{"foo", "bar"}, "the body"
 func (s *Scanner) Next() ([]string, string, error) {
 	args := []string{}
 	body := ""
@@ -154,23 +179,9 @@ func (s *Scanner) Next() ([]string, string, error) {
 		switch {
 		case isSpace(b):
 			s.pos += 1
-		case isBareword(b):
+		case isBareword(b) || isQuote1(b) || isQuote2(b):
 			// no error here possible
 			arg, _ = s.parseBareword()
-			args = append(args, arg)
-		case isQuote1(b):
-			arg, err = s.parseQuote1()
-			// might not have matching end quote
-			if err != nil {
-				return args, body, err
-			}
-			args = append(args, arg)
-		case isQuote2(b):
-			arg, err = s.parseQuote2()
-			// might not have matching end quote
-			if err != nil {
-				return args, body, err
-			}
 			args = append(args, arg)
 		case isBackQuote(b):
 			arg, err = s.parseBackQuote()
