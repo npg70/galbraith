@@ -16,7 +16,7 @@ body {
     His death is recored by $elink[https://ww.cwgc.org/]{Commonwealth War Graves Commission} under  "$elink[https://www.cwgc.org/find-records/find-war-dead/casualty-details/900085/malcolm-galbraith/]{Malcolm Galbraith}", record 900085.
 }
 body {
-    Callum has two burial markers. The first is the millitary one in Dublin$ref[burial1], and the other family marker in Gigha$ref[burial2].
+    Callum has two burial markers. The first is the millitary one in Dublin$ref[burial1], and the other family marker is in Gigha$ref[burial2].
 }
 
 footnotes {
