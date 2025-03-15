@@ -7,18 +7,17 @@ external {
 }
 tags USA:Pennsylvania:Lancaster
 
-confused-with galbraith-isabel-1747-dinwiddie
+confused-with galbraith-isabel-1747-dinwiddie {
+She was the daughter of a different $child-link[galbraith-alexander-1720-miller]{Alexander Galbraith}.
+}
 
-note {
-    Often claimed to be the sister of $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}, daughter of $child-link[/galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill, all of Campbeltown.  This is impossible since it implies Isobell got married at age 12.  Also we know Alexander was in correspondence with his mother in Scotland, implying they did not immigrate.
+confused-with {
+    Often claimed to be the sister of $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}, daughter of $child-link[galbreath-john-1721-langwill]{John Galbreath} and Agnes Langwill, all of Campbeltown.  This is impossible since it implies Isobell got married at age 12. Also there letter from Alexander to his mother in Scotland, implying they did not immigrate.
 }
-note {
-    Confused with $child-link[galbraith-isabel-1747-dinwiddie]{Isabel Galbraith}, b. 1847 in Bucks Co, PA, sister of a different 
-    $child-link[galbraith-alexander-1749-lyle]{Alexander Galbraith}.
+confused-with {
+Confused with Isabella Welch, the spouse of $child-link[galbraith-william-1800-welch]{William Galbreath}.  This is likely due to a probate document for "Isabella Galbraith."
 }
-note {
-    Confused with Isabella Welch, the spouse of $child-link[galbraith-william-1800-welch]{William Galbreath}
-}
+
 note {
     Possible sister $child-link[galbreath-jean-1739-wilson]{Jean Galbreath}. They got married on the same day, and had children baptized on the same day.
 }
