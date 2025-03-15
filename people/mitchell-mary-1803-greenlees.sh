@@ -6,12 +6,11 @@ external {
     ancestry tree/12079504/person/282659540795
     findagrave 53401235
 }
-note {
-    Historically confused with $child-link[mcnair-archibald-1796-mitchell]{Mary Mitchell}, b. 1802, m. Archibald McNair.
-}
-note {
-    Historically confused with $child-link[mitchell-mary-1799-sheddan]{Mary Mitchell}, b. 1799, m. James Sheddan.
-}
+
+confused-with mitchell-mary-1802-mcnair
+
+confused-with mitchell-mary-1799-sheddan
+
 partner {
     name Robert Greenlees
     gender male

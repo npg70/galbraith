@@ -12,12 +12,9 @@ body {
     Mary was the daughter of Archibald Mitchell, founder of Springbank Distillery.
     James was a "hosier," maker of socks and things. No evidence of children.
 }
-note {
-    Historically confused with $child-link[mitchell-mary-1803-greenlees]{Mary Mitchell}, b. 1803, m. Robert Greenlees.
-}
-note {
-    Historically confused with $child-link[mcnair-archibald-1796-mitchell]{Mary Mitchell}, b. 1802, m. Archibald McNair.
-}
+
+confused-with mitchell-mary-1803-greenlees
+confused-with mcnair-archibald-1796-mitchell
 partner {
     name James Sheddan
     gender male

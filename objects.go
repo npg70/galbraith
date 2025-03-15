@@ -101,20 +101,21 @@ type Person struct {
 
 	root Root // not clear why I need this
 
-	ID        string
-	Name      []string
-	Gender    GenderType
-	Events    map[string]*Event
-	Partners  []*Person
-	Children  []*Person
-	Footnotes Footnotes
-	External  ExternalSource
-	Intro     string
-	Body      []string
-	Notes     []string
-	Todos     []string
-	Tags      []string
-	Ydna      string // format TBD
+	ID         string
+	Name       []string
+	Gender     GenderType
+	Events     map[string]*Event
+	Partners   []*Person
+	Children   []*Person
+	Footnotes  Footnotes
+	External   ExternalSource
+	Intro      string
+	Body       []string
+	Confusions []ConfusedWith
+	Notes      []string
+	Todos      []string
+	Tags       []string
+	Ydna       string // format TBD
 }
 
 // HasTag - simple test if a tag exists for the current person
@@ -333,6 +334,11 @@ func (p *Person) UnmarshalText(text []byte) error {
 			p.Notes = append(p.Notes, body)
 		case "todo":
 			p.Todos = append(p.Todos, body)
+		case "confused-with":
+			if len(args) != 2 {
+				return fmt.Errorf("confused-with takes a person id and optional body.  Got %q", args)
+			}
+			p.Confusions = append(p.Confusions, ConfusedWith{args[1], body})
 		case "ydna":
 			p.Ydna = strings.TrimSpace(strings.Join(args[1:], " "))
 		default:
@@ -713,6 +719,8 @@ func WriteBio(p *Person, style int) string {
 		fn = strings.ToUpper(fn)
 	case 2:
 		fn = fmt.Sprintf("<a class='fw-bold text-smallcaps' href='/galbraith/people/%s'>%s</a>", p.ID, p.FullName())
+	case 3:
+		fn = fmt.Sprintf("$child-link[%s]{%s}", p.ID, p.FullName())
 	default:
 		panic("Unknown style")
 	}
@@ -746,6 +754,8 @@ func WriteBio(p *Person, style int) string {
 			fn = strings.ToUpper(fn)
 		case 2:
 			fn = "<span class='fw-bold text-smallcaps'>" + fn + "</span>"
+		case 3:
+			fn = "$partner-name{" + fn + "}."
 		}
 		out += fn
 		//out += WriteBirthDeath(spouse)
@@ -998,6 +1008,15 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 		out.WriteString("}")
 	}
 
+	if len(first.Confusions) > 0 {
+		out.WriteString("$todos{\n")
+		for _, n := range first.Confusions {
+			out.WriteString("$todo{")
+			out.WriteString("Confused with " + WriteBio(r[n.Id], 3))
+			out.WriteString("}\n")
+		}
+		out.WriteString("}\n")
+	}
 	if len(first.Todos) > 0 {
 		out.WriteString("$todos{\n")
 		for _, n := range first.Todos {

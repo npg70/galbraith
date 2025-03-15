@@ -6,6 +6,7 @@ external {
     wikitree McNair-1083
     ancestry tree/12079504/person/-339238061
 }
+confused-with  mcnair-archibald-1759-mitchell
 note {
     Confused with $child-link[mcnair-archibald-1759-mitchell]{Archibald McNair} who married $i{Margaret} Mitchell.
 }

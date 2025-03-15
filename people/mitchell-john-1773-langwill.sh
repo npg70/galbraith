@@ -21,13 +21,8 @@ partner {
     death -date 20-feb-1820 -location campbeltown
     burial -name kilkerran
 
-    child {
-        name Mary Mitchell
-        gender female
-        birth -date 10-apr-1802
-        baptism -date 13-apr-1802 -location campbeltown -ref mary1802-baptism
-        partner mcnair-archibald-1796-mitchell
-    }
+    child mitchell-mary-1802-mcnair
+
     child {
         name John Mitchell
         gender male
@@ -75,12 +70,6 @@ JOHN MITCHELL In memory of his father JOHN MITCHELL, late farmer at Kilkivan, wh
 }
 
 footnotes {
-    mary1802-baptism {
-        $opr-ref-link[b-1802-507-000-0040-0227 "Mary Mitchell"]{
-            Mary | John Mitchell & Janet Langwill in Killivan had a lawful
-            Dau born 10th baptized 13th named Mary
-       }
-    }
     archibald1814-baptism {
         $opr-ref-link[b-1814-507-000-0040-0408 "Archibald Mitchell"]{
             Archibald | Lawful son to John Mitchell Farmer Killkivan and Janet
