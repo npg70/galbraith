@@ -112,8 +112,8 @@ type Person struct {
 	Intro      string
 	Body       []string
 	Confusions []ConfusedWith
+	Todos      []Todo
 	Notes      []string
-	Todos      []string
 	Tags       []string
 	Ydna       string // format TBD
 }
@@ -333,7 +333,14 @@ func (p *Person) UnmarshalText(text []byte) error {
 		case "note":
 			p.Notes = append(p.Notes, body)
 		case "todo":
-			p.Todos = append(p.Todos, body)
+			switch len(args) {
+			case 1:
+				p.Todos = append(p.Todos, Todo{"", body})
+			case 2:
+				p.Todos = append(p.Todos, Todo{args[1], body})
+			default:
+				return fmt.Errorf("todo must be [todo tag|todo tag {body} | todo {body}")
+			}
 		case "confused-with":
 			switch len(args) {
 			case 1:
@@ -1027,7 +1034,11 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 	if len(first.Todos) > 0 {
 		out.WriteString("$todos{\n")
 		for _, n := range first.Todos {
-			out.WriteString("$todo{" + n + "}\n")
+			tag := "general"
+			if n.Name != "" {
+				tag = n.Name
+			}
+			out.WriteString("$todo{[" + tag + "] " + n.Body + "}\n")
 		}
 		out.WriteString("}\n")
 	}

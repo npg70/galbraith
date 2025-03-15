@@ -16,7 +16,12 @@ import (
 func todotag(db Root) {
 	for _, p := range db {
 		if len(p.Todos) > 0 {
-			p.Tags = append(p.Tags, "TODO")
+			p.Tags = append(p.Tags, "todo")
+		}
+		for _, td := range p.Todos {
+			if td.Name != "" {
+				p.Tags = append(p.Tags, "todo_"+td.Name)
+			}
 		}
 	}
 }
