@@ -335,10 +335,14 @@ func (p *Person) UnmarshalText(text []byte) error {
 		case "todo":
 			p.Todos = append(p.Todos, body)
 		case "confused-with":
-			if len(args) != 2 {
+			switch len(args) {
+			case 1:
+				p.Confusions = append(p.Confusions, ConfusedWith{"", body})
+			case 2:
+				p.Confusions = append(p.Confusions, ConfusedWith{args[1], body})
+			default:
 				return fmt.Errorf("confused-with takes a person id and optional body.  Got %q", args)
 			}
-			p.Confusions = append(p.Confusions, ConfusedWith{args[1], body})
 		case "ydna":
 			p.Ydna = strings.TrimSpace(strings.Join(args[1:], " "))
 		default:
@@ -1012,7 +1016,10 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 		out.WriteString("$todos{\n")
 		for _, n := range first.Confusions {
 			out.WriteString("$todo{")
-			out.WriteString("Confused with " + WriteBio(r[n.Id], 3))
+			if n.Id != "" {
+				out.WriteString("Confused with " + WriteBio(r[n.Id], 3))
+			}
+			out.WriteString(n.Body)
 			out.WriteString("}\n")
 		}
 		out.WriteString("}\n")
