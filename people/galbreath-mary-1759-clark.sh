@@ -16,9 +16,95 @@ partner {
    marriage -date 11-june-1784 -location campbeltown -ref clark-marriage
    baptism -date 17-mar-1752 -location campbeltown
    death -date 25-sep-1821 -location "Glade Spring,Washington,Virginia,USA"
-}
-todo major {
-    9 children
+
+   child {
+    name Margaret Clark
+    gender female
+    birth -date 27-jul-1785 -location Washington,Virginia,USA
+    death -date 04-may-1858 -location Washington,Virginia,USA
+    partner {
+        name Basil Warren
+        gender male
+      }
+    }
+    child {
+        name John Clark
+        gender male
+        birth -date 10-may-1787 -location  'Mason, Virginia, USA'
+        death -date 13-dec-1826 -location 'glade spring,washington,virginia,usa'
+        partner {
+            name Eleanor Porterfield
+            gender female
+        }
+    }
+    child {
+        name James Clark
+        gender male
+        birth -date 30-dec-1789 -location Washington,Virginia,USA
+        death -date 30-dec-1847 -location 'glade spring,washington,virginia,usa'
+    }
+    child {
+        name Nancy Clark
+        gender female
+        birth -date 'about 1794'
+        death -date 'about 1827' -location Montgomery,Alabama,USA
+        partner {
+            name James Sansom
+            gender male
+        }
+    }
+    child {
+        name Robert Clark
+        gender male
+        birth -date 16-mar-1797 -location Washington,Virginia,USA
+        death -date 06-mar-1849 -location 'glade spring,washington,virginia,usa'
+        partner {
+            name Jane Berry
+            gender female
+        }
+    }
+    child {
+        name Mary Clark
+        gender female
+        birth -date 1799
+        death -date 1873
+    }
+    child {
+        name Ann Clark
+        gender female
+        birth -date 1801
+        death -date 20-dec-1862 -location 'Abingdon, Washington, Virginia,USA'
+        partner {
+            name James S Glenn
+            gender male
+        }
+    }
+    child {
+        name William Galbreath Clark
+        gender male
+        birth -date 27-may-1804 -location Washington,Virginia,USA
+        death -date 15-aug-1861 -location 'glade spring,washington,virginia,usa'
+    }
+    child {
+        name William F Clark
+        gender male
+        birth -date 1804
+        death -date 15-sep-1859 -location Washington,Virginia,USA
+        partner {
+            name Delila Caywood
+            gender female
+        }
+    }
+    child {
+        name Sarah Sally Clark
+        gender female
+        birth -date 27-jan-1808  -location Washington,Virginia,USA
+        death -date 30-sep-1888 -location Washington,Virginia,USA
+        partner {
+            name James Wilson Hope
+            gender male
+        }
+    }
 }
 footnotes {
     mary1759-baptism {

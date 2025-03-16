@@ -8,9 +8,12 @@ external {
     ancestry tree/12079504/person/282649205528
 }
 tags Argyll:Campbeltown Immigrant:Canada:Ontario:Huron Argyll:Ugadale
+
+todo wikitree { no entry for David. }
 body {
-    He was a farmer in Ugadale, and then some or all of the family moved to Huron, Ontario, Canada.
+He was a farmer in Ugadale during 1818-1836. Afterwards, he moved to Drumore before 1841 (perhaps lost his lease) and then some or all of the family moved to Huron, Ontario, Canada.
 }
+
 body {
     David and the family is listed as a farm in Drumore, Campbeltown in the census of 1841.$ref[census1841]  The family is not listed in the Census of 1851.
 }
@@ -26,53 +29,67 @@ partner {
     death -date 12-apr-1875 -location huron,ontario,canada 
     child {
         name David Galbraith
+        gender male
         birth -date 20-mar-1819
         baptism -date 1-Apr-1819 -location campbeltown -ref david1819-baptism
         death -date 26-Jan-1882 -location huron,ontario,canada
     }
     child {
         name Helen Galbreath
+        gender female
         baptism -date 8-jan-1821 -location campbeltown -ref helen1821-baptism
     }
     child {
         name Mary Galbreath
+        gender female
         baptism -date 27-Mar-1822 -location campbeltown -ref mary1822-baptism
     }
     child {
         name Thomas Galbreath
+        gender male
         baptism -date 12-Oct-1823 -location campbeltown -ref thomas1823-baptism
     }
     child {
         name Janet Galbreath
+        gender female
         baptism -date 27-Mar-1825 -location campbeltown -ref janet1825-baptism
     }
     child {
         name John Galbreath
+        gender male
         baptism -date 12-Apr-1827 -location campbeltown -ref john1827-baptism
     }
     child {
         name Hugh Galbreath
+        gender male
         baptism -date 5-Mar-1829 -location campbeltown -ref hugh1829-baptism
     }
     child {
         name Jane Galbreath
+        gender female
         baptism -date 6-Jul-1830 -location campbeltown -ref jane1830-baptism
     }
     child {
         name Margaret Galbreath
+        gender female
         baptism -date 14-Mar-1833 -location campbeltown -ref margaret1833-baptism
     }
     child {
         name James Galbreath
+        gender male
         baptism -date 25-Mar-1835 -location campbeltown -ref james1835-baptism
     }
     child {
         name Archibald Galbreath
+        gender male
+        birth -date 07-nov-1836
         baptism -date 15-Nov-1836 -location campbeltown -ref archibald1836-baptism
         death -date 28-aug-1908 -location huron,ontario,canada
     }
     child {
         name Isabella Galbreath
+        gender female
+        birth -date 02-feb-1842
         baptism -date 16-Feb-1842 -location campbeltown -ref isabella1842-baptism
         death -date 28-aug-1908 -location huron,ontario,canada
     }
@@ -121,11 +138,18 @@ footnotes {
         $opr-ref[b-1835-507-000-0070-0059 "James Galbreath"]
     }
     archibald1836-baptism {
-        $opr-ref[b-1836-507-000-0070-0090 "Archibald Galbreath"]
+        $opr-ref-link[b-1836-507-000-0070-0090 "Archibald Galbreath"]{
+            Archibald | Lawful son of David Galbreath Farmer Ugadale
+            and Mary Greenlees was born 7th and Bapt 15th Nov 1736
+        }
     }
     isabella1842-baptism {
-        $opr-ref[b-1842-507-000-0070-0219 "Isabella Galbreath"]
         Mother indexed as "Greenless"
+        $opr-ref-link[b-1842-507-000-0070-0219 "Isabella Galbreath"]{
+            Isabella | Lawful daughter of David Galbreath farmer
+            Drumore and Mary Greenless was born second
+            and Baptized 16th Febry 1842
+        }
     }
     census1841 {
         https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016602134&expand=true&tab=this
