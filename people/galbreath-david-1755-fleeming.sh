@@ -52,11 +52,8 @@ partner {
 
     child galbreath-orsla-1795-wylie
 
-    child {
-        name Archibald Galbreath
-        gender male
-        baptism -date 27-dec-1798 -location campbeltown -ref archibald1798-baptism
-    }
+    child galbreath-archibald-1798
+
     child {
         name Alexander Galbreath
         gender male
@@ -106,9 +103,6 @@ footnotes {
             Father: Duncan $i{David} Galbraith Farmer (deceased);
             Mother: Mary Galbraith M.S. Fleming;
         }
-    }
-    archibald1798-baptism {
-        $opr-ref-link[b-1798-507-000-0040-0172 "Archibald Galbreath"]
     }
     alexander1802-baptism {
         $opr-ref-link[b-1802-507-000-0040-0225 "Alexander Galbreath"]

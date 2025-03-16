@@ -1,6 +1,7 @@
 name Archibald Galbreath
 birth -date 'about 1791'
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown tags:Dalintober
+confused-with galbreath-archibald-1798
 note {
     Parents are unknown, but that hasn't stopped The Internet from making lots of guesses, many being completely impossible.
 }
