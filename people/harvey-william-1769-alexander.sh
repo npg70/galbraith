@@ -1,6 +1,6 @@
 name William Harvey
 gender male
-tags Argyll:Campbeltown tags Argyll:Dalintober
+tags Argyll:Campbeltown Argyll:Dalintober
 
 baptism -date 05-nov-1769 -location campbeltown -ref william1769-baptism
 death -date 1845
