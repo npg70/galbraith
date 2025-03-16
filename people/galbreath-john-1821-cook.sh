@@ -12,9 +12,17 @@ partner {
     marriage -date 1-sep-1840 -location campbeltown -ref cook-marriage
     birth -date 'about 1821'
     death -date 6-Nov-1888 -location saddell -ref cook-death
-    body {
-        The daughter of John Cook and Mary Taylor both of St Quivox and Newton-on-Ayr, Ayrshire, Scotland
-    }
+    parent {
+        name John Cook
+        gender male
+        partner {
+            name Mary Taylor
+            gender female
+        }
+        body {
+         from St Quivox and Newton-on-Ayr, Ayrshire,St Quivox and Newton-on-Ayr, Ayrshire
+     }
+ }
     child galbreath-neil-1841-stewart
     child {
         name Mary Galbreath
