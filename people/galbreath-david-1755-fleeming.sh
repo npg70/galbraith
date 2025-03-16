@@ -6,6 +6,7 @@ tags Argyll:Campbeltown Argyll:Ugadale Argyll:Ardnacross
 external {
     familysearch K898-WXH
     ancestry tree/12079504/person/282648660129
+    wikitree Galbraith-2336
 }
 body {
     He was a farmer in Ugadale and/or Ardnacross (from baptism records of children, and his daughter Mary's death record).

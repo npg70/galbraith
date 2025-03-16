@@ -3,6 +3,7 @@ gender female
 tags Argyll:Campbeltown
 external {
     familysearch M1Y6-GJN
+    wikitree Galbraith-2307
 }
 todo children { 8 children }
 

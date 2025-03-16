@@ -6,6 +6,7 @@ external {
     familysearch G3PJ-D5Z
     findagrave 114485210
     ancestry tree/12079504/person/282298905010
+    wikitree Galbraith-2337
 }
 tags Argyll:Campbeltown
 partner {
@@ -13,8 +14,10 @@ partner {
     gender female
     parent {
         name Archibald Adam
+        gender male
         partner {
             name Janet Lindsay
+            gender female
         }
     }
     baptism -date 10-dec-1720 -location campbeltown    

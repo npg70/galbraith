@@ -1,27 +1,38 @@
 name David Galbreath
+gender male
 birth -date 3-feb-1812 -location gigha -ref david1812-baptism
 death -date 19-Aug-1855
 burial -name 'Kilkerran Cemetery'
-tags Argyll:Campbeltown
+tags argyll:gigha Argyll:Campbeltown
 external {
    familysearch KCRW-WZZ
+   findagrave 167549681
 }
-todo major { body need rewrite, needs refernces, has raw URLs, etc.  }
+todo findagrave { inscription need to be added... link to alexander.}
 
 note {
     Parents and baptism are speculative.
 }
 note {
-    TBD: possible child in 1855 before father's death
+    There may be another child born between 1852-1855.
 }
 body {
-old notes:
+There is only one David listed in Gigha in the 1841 Census$ref[census-1841]. This has Alexander as the father age 60 (born ~1781), Marion age 20 (born ~1821), and another Alexander of age 5 (born ~1836).
 
-Maybe 1841 Census: South Drimcrow, Gigha https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016661129 has the only david in Gigha. Also has ALexander (father) at age 60 / ~1781, and Marion age 20 / ~ 1821, and some grandchild? Alex age 5 / 1836. Ages are all rounded to nearest 5 so who knows.
+The census of 1851 has the family living on Shore Street in Campbeltown.  He was a fisherman.$ref[census-1851]
+}
 
-He is present in the 1851 census5
+body {
+Kilkerran:
 
-Multiple Merrans died in the 1830, with birth in 1780s so this could be ok.
+$blockquote{
+310.	Inscribed stone
+Erected by CATHERINE GALBRAITH in memory of her husband DAVID GALBRAITH who died 19 Aug 1855 aged 38 years and of their family MARGARET died 26 Jul 1881 aged 31 years, ISABELLA died 21 Sep 1882 aged 33 years, ROBERT died 18 May 1885 aged 33 years also her uncle DUGALD HAXTON died 1 Dec 1872 aged 87 years, the above CATHERINE GALBRAITH died 5 Mar 1886 aged 68 years, ALEXANDER GALBRAITH Private 72 Highlanders died 4 Dec 1887 aged 42 years took part in the following engagements, Pliwarmotal, Cara …, Cabul, Kandahar and Tel-el-keber.
+}
+$blockquote{
+311.	Inscribed stone
+By GEORGE HAXTON in memory of CHRISTINA FERGUSON his spouse who died 9 Feb 1815 aged 54 years also two children died in infancy.
+}
 }
 
 partner {
@@ -29,21 +40,20 @@ partner {
     death -date 5-mar-1886
     burial -name 'Kilkerran Cemetery'
     marriage -date 3-sep-1844 -location campbeltown -ref mckinnon-marriage
-    child {
-        name Alexander Galbreath
-        baptism -date 15-jul-1845 -location campbeltown -ref alexander1845-baptism
-        death -date 4-Dec-1887 -location campbeltown -ref alexander1845-death -note "in poorhouse, umn"
-    }
+    child galbraith-alexander-1847
     child {
         name Isabella Galbreath
+        gender female
         baptism -date 15-nov-1847 -location campbeltown -ref isabella1847-baptism
         death -date 21-sep-1882 -location campbeltown -ref isabella1847-death -note "umn"
         body {
             some type of factory worker
         }
     }
+
     child {
         name Margaret Galbraith
+        gender female
         baptism -date 26-dec-1849 -location campbeltown -ref margaret1849-baptism
         death -date 26-jul-1881 -location campbeltown -ref margaret1849-death
         body {
@@ -52,6 +62,7 @@ partner {
     }
     child {
         name Robert Galbraith
+        gender female
         baptism -date 20-jun-1852 -location campbeltown -ref robert1852-baptism
         death -date 18-may-1885 -location campbeltown -ref robert1852-death -note "umn"
         body {
@@ -66,12 +77,6 @@ footnotes {
             of the late John McKinnon, seaman, both of this parish,
             were married 3 Sep 1844
         }
-    }
-    alexander1845-baptism {
-        $opr-ref[b-1845-507-000-0070-0287 "Alexander Galbreath"]
-    }
-    alexander1845-death {
-        $sp-ref-link[d-1887-507-00-0158 0053 "Alexander Galbraith"]
     }
     isabella1847-baptism {
         $opr-ref[b-1847-507-000-0070-0328 "Isabella Galbreath"]
@@ -90,6 +95,12 @@ footnotes {
     }
     robert1852-death {
         $sp-ref-link[d-1885-507-00-0091 0031 "Robert Galbraith"]
+    }
+    census-1841 {
+        https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016661129
+    }
+    census-1851 {
+        https://www.findmypast.com/transcript?id=GBC%2F1851%2F0019258715&expand=true&tab=this
     }
 }
 
