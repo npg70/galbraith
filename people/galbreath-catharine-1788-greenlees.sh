@@ -11,7 +11,7 @@ external {
     wikitree Galbreath-298
 }
 todo familysearch {
-    Some duplicate children and out of order birth/baptisms on FamilySearch (and here)
+    Fix the dual James Greenlees on FS
 }
 partner {
     name James Greenlees
@@ -35,6 +35,12 @@ partner {
         partner {
             name Agnes Greenlees
             gender female
+            marriage -date 09-dec-1840 -location campbeltown
+        }
+        partner {
+            name Isabella Ralston
+            gender female
+            marriage -date 06-feb-1861 -location campbeltown
         }
     }
     child {
@@ -49,7 +55,8 @@ partner {
         name James Greenlees
         gender male
         birth -date 29-aug-1817
-        baptism -date 31-aug-1817 -location campbeltown
+        baptism -date 31-aug-1817 -location campbeltown -ref james1817-baptism
+        death -date 11-mar-1881 -location campbeltown -ref james1817-death
         partner {
             name Flora Clark
             gender female
@@ -66,13 +73,12 @@ partner {
         name John Greenlees
         gender male
         birth -date 06-jun-1822
-        baptism -date 10-apr-1822 -location campbeltown
+        baptism -date 10-jun-1822 -location campbeltown -ref john1822-baptism
         death -date 22-jul-1892
         partner {
             name Jean Mitchell
             gender female
         }
-        body { TODO: fix birth and baptism on FamilySearch }
     }
     child {
         name Robert Greenlees
@@ -95,14 +101,10 @@ partner {
         name James Greenlees
         gender male
         birth -date 08-aug-1826
-        baptism -date 20-aug-1826 -location campbeltown
-        death -date 11-mar-1881 -location campbeltown
-        partner {
-            name Flora Clark
-            gender female
-        }
-        body {
-            Ugh duplicate
+        baptism -date 20-aug-1826 -location campbeltown -ref james1826-baptism
+
+        death -note dy
+        body { The baptism record has the child as "James" although this must be a recording error.  Regardless, this child is not in the census of 1841, and assumed died young.
         }
     }
     child {
@@ -154,5 +156,23 @@ footnotes {
     }
     janet1811-death {
         $sp-ref-link[d-1869-507-00-0017 0006 "Janet Greenlees"]
+    }
+    james1817-baptism {
+        $opr-ref-link[b-1817-507-000-0040-0466 "James Greenlees"]
+    }
+    james1817-death {
+        $sp-ref-link[d-1881-507-00-0044 0015 "James Greenlees"]{
+            James Greenlees, Farmer, Married to Flora Clark;
+            When: 1881 March Eleventh, Moy, Campbeltown;
+            Age: 63 (birth ~1818),
+            Father: James Greenlees, Farmer;
+            Mother: Catherine Galbraith;
+        }
+    }
+    john1822-baptism {
+        $opr-ref-link[b-1822-507-000-0060-0049 "John Greenlees"]
+    }
+    james1826-baptism {
+        $opr-ref-link[b-1826-507-000-0060-0129 "James Greenlees"]
     }
 }
