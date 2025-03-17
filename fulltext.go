@@ -40,14 +40,17 @@ func uniqueStrings(input []string) []string {
 	return out
 }
 
-// #argyll:campbeltown ==> #argyll #campbeltown
+// #argyll:campbeltown ==> #argyll #argyll_campbeltown
 func tagsCompound(tags []string) []string {
 	out := []string{}
 	for _, e := range tags {
 		// takes 'compound tags' in the form of #foo:bar:ding
-		// and makes #foo #bar #ding
+		// and makes #foo #foo_bar #foo_bar_ding
 		parts := strings.Split(strings.ToLower(e), ":")
-		out = append(out, parts...)
+		for i := 0; i < len(parts); i++ {
+			newtag := strings.Join(parts[0:i+1], "_")
+			out = append(out, newtag)
+		}
 	}
 	return out
 }
