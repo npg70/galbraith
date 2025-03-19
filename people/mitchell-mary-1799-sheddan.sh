@@ -5,6 +5,10 @@ external {
     findagrave 168819519
     ancestry tree/12079504/person/282660850481
 }
+todo major {
+    fix wikitree... with the three Mary Mitchells
+}
+
 birth -date 20-sep-1799
 baptism -date 23-sep-1799 -location campbeltown -ref mary1799-baptism
 death -date 8-jun-1868 -location campbeltown -ref mary1799-death

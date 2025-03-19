@@ -29,7 +29,7 @@ footnotes {
         Marriage is not recorded.
     }
     margaret1778-baptism {
-        $opr-ref[b-1778-507-000-0020-0039 "Margaret McNair"]
+        $opr-ref-link[b-1778-507-000-0020-0039 "Margaret McNair"]
     }
     mary1780-baptism {
         Not indexed on Scotlands People (2025), but on $opr-page[b-1780-507-000-0020-0049].

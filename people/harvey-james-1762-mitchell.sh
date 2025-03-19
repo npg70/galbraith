@@ -5,7 +5,9 @@ birth -date 27-oct-1762
 baptism -date 31-oct-1762 -location campbeltown
 death -date 1847 -location washington,ohio,usa
 burial -location belpre,washington,ohio,usa
-
+todo major {
+    Wikitree findagrave and familysearch are  missing parents, 
+}
 external {
     familysearch KCRN-QHF
     wikitree Harvey-4556

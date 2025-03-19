@@ -7,6 +7,10 @@ external {
     findagrave 176703650
     ancestry tree/12079504/person/282306452252
 }
+todo major {
+    update wikitree and make a "geneaology cheat sheet"
+}
+
 confused-with galbreath-janet-1786
 
 birth -date "abt 1785"

@@ -11,11 +11,15 @@ external {
     ancestry tree/12079504/person/282643862863
     findagrave 39308446
 }
+confused-with harvey-jean-1799-alexander
+todo major {
+    eveyone has parents wrong, e.g. $elink[https://www.ancestry.com/family-tree/person/tree/28530647/person/332213712902/facts]{Ancestry1} , $elink[https://www.ancestry.com/family-tree/person/tree/11408090/person/-470994854/facts]{Ancestry 2}
+}
 partner {
     name James Culbertson
     gender male
     parent culbertson-james-1759-white
-    marriage -date 1820 -location 'Killean and Kilchenzie' -ref culbertson-marriage
+    marriage -date 07-jun-1820 -location 'Killean and Kilchenzie' -ref culbertson-marriage
     birth -date 1798
     death -date 1880
 }
