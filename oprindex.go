@@ -212,7 +212,7 @@ func spindex(db Root, rtype string, outputFile string) ssg.ContentSourceConfig {
 				sv := args[1]
 				if fnote.Data == "sp-ref-link" {
 					if len(args) < 3 {
-						log.Fatalf("OOPS: %v", args)
+						log.Fatalf("sp-ref-link expected 3 args  ref-id page-id name: got %v", args)
 					}
 					sv = args[2]
 				}
