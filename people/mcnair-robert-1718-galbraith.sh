@@ -62,19 +62,7 @@ partner {
         baptism -date 12-oct-1755 -location campbeltown -ref janet1755-baptism
         partner galbreath-samuel-1736-mcnair
     }
-    child {
-        name Jean McNair
-        gender female
-        baptism -date 25-feb-1758 -location campbeltown
-        death -date 07-jul-1831
-        partner {
-            name Robert Smith
-            gender male
-            birth -date 07-dec-1749
-            baptism -date 08-dec-1749 -location campbeltown
-            death -date 21-jan-1829 -location campbeltown
-        }
-    }
+    child mcnair-jean-1758-smith
 }
 footnotes {
     janet-marriage {
