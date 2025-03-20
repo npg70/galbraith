@@ -1,7 +1,7 @@
 name William McNair
 gender male
 birth -date 01-oct-1807
-baptism -date 02-oct-1807 -location campbeltown
+baptism -date 02-oct-1807 -location campbeltown -ref william1807-baptism
 death -date 13-jul-1885 -location nicholsville,clermont,ohio,usa
 tags Argyll:Campbeltown Immigrant:USA:Ohio:Clermont USA:Ohio:Clermont
 body {
@@ -134,6 +134,9 @@ partner {
     }
 }
 footnotes {
+    william1807-baptism {
+        $opr-ref[b-1807-507-000-0040-0309 "William MacNair"]
+    }
     marriage  {
         $opr-ref-link[m-1830-507-000-0060-0297 "William McNair" "Mary Mitchell"]{
             William McNair, farmer Cheskan + Mary Mitchell, both

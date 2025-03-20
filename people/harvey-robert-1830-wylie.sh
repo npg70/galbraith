@@ -4,6 +4,7 @@ tags Argyll:Campbeltown
 external {
     familysearch M1YD-SMT
     findagrave 167874292
+    ancestry tree/12079504/person/282665270116
 }
 birth -date 21-apr-1830
 baptism -date 22-apr-1830 -location campbeltown

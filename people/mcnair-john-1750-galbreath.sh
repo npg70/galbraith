@@ -4,7 +4,7 @@ tags Argyll:Campbeltown
 birth -date 'say 1750'
 body {
 
-John and/or Janet may have died before 1792, as the daughter appears
+John and/or Janet may have died before 1792, as the daughter Mary appears
 in the household of $child-link[mcnair-archibald-1759-mitchell]{Archibald McNair} and Margaret Mitchell.
 }
 partner {
@@ -17,12 +17,8 @@ partner {
         gender female
         baptism -date 01-jul-1778 -location campbeltown -ref margaret1778-baptism
     }
-    child {
-        name Mary McNair
-        gender female
-        birth -date 8-july-1780
-        baptism -date 9-july-1780 -location campbeltown -ref mary1780-baptism
-    }
+    child mcnair-mary-1780-johnston
+
 }
 footnotes {
     marriage {
