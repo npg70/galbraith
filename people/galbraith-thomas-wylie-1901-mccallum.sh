@@ -31,6 +31,6 @@ footnotes {
         $sp-ref-link[b-1901-507-00-0116 0039 "Thomas Wylie Galbraith"]
     }
     mccallum-marriage {
-        $sp-ref-link[m-1924-685-04-0062 "Thomas Wylie Galbraith" "Margaret Low McCallum"]
+        $sp-ref-link[m-1924-685-04-0062 0031 "Thomas Wylie Galbraith" "Margaret Low McCallum"]
     }
 }

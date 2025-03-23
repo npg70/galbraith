@@ -16,7 +16,7 @@ partner {
     death -date 25-oct-1953 -location edinburgh
     marriage -date 1901 -location Campbeltown -ref mckinven-marriage
 
-    child galbraith-thomas-wylie-1945
+    child galbraith-thomas-wylie-1901-mccallum
 
     child {
         name Archibald McKinven Galbraith
