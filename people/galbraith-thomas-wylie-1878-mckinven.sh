@@ -9,9 +9,6 @@ external {
 note {
     Likely other children in Newington, Edinburgh
 }
-todo major {
-    Split out first son as veteran
-}
 partner {
     name Flora McKinven
     gender female
@@ -19,12 +16,8 @@ partner {
     death -date 25-oct-1953 -location edinburgh
     marriage -date 1901 -location Campbeltown -ref mckinven-marriage
 
-    child {
-        name Thomas Wylie Galbraith
-        gender male
-        birth -date 31-may-1901 -location campbeltown -ref thomas1901-birth
-        death -date 1945 -location belgium 
-    }
+    child galbraith-thomas-wylie-1945
+
     child {
         name Archibald McKinven Galbraith
         gender male
@@ -62,9 +55,6 @@ footnotes {
     }
     mckinven-marriage {
         $sp-ref-link[m-1901-507-00-0005 0003 "Thomas Galbraith" "Flora McKinven"]
-    }
-    thomas1901-birth {
-        $sp-ref-link[b-1901-507-00-0116 0039 "Thomas Wylie Galbraith"]
     }
     archibald1903-birth {
         $sp-ref[b-1903-507-00-0085 "Archibald McKinven Galbraith"]

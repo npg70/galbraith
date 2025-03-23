@@ -82,26 +82,7 @@ partner {
         baptism -date 14-jan-1784 -location campbeltown -ref archibald1784-baptism
         death -note young
     }
-    child {
-        name Archibald Dunlop
-        gender male
-        baptism -date 09-mar-1785 -location 'Killean and Kilchenzie' -ref archibald1785-baptism
-        partner {
-            name Mary Smith
-            gender female
-            parent {
-                name Robert Smith
-                partner {
-                    name Jean McNair
-                }
-            }
-            birth -date 10-may-1797 -location campbeltown
-            death -date 13-nov-1854
-            body {
-                She was the daughter of Robert Smith and Jean McNair
-            }
-        }
-    }
+    child dunlop-archibald-1785-smith
     child {
         name Ann Dunlop
         gender female
@@ -145,12 +126,6 @@ footnotes {
         $opr-ref-link[b-1784-507-000-0020-0071 "Archibald Dunlop"]{
             Archibald Lawful son to Alexd. Dunlop Merch in Campbeltown
             & Margaret Galbreath was born 12th & Bapt. 14th Janry. [1784] 
-        }
-    }
-    archibald1785-baptism {
-        $opr-ref-link[b-1785-519-000-0010-0034 "Archibald Dunlop"]{
-            Archd Lawful son to Alexd Dunlop and Mary Galbreath
-            at Ballevein born 9th March
         }
     }
     ann1786-baptism {

@@ -8,8 +8,6 @@ external {
    familysearch KCS1-QDW
    ancestry tree/12079504/person/282657231817
 }
-todo major { spouses?  where did they go?  Also death in ohio for everyone
-}
 body {
     He was a farmer at Chisken.
 }
