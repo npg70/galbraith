@@ -52,7 +52,7 @@ $li{page 407 "William Galbreath maltster in Campbeltown"}
 $li{page 408 "Samuel Galbreath malster in Campbeltown"}
 $li{page 410 "The said Samuel Galbreath of Campbeltown", "the said Archibald Galbreath of Campbeltown"}
 $li{page 412 "Samuel and William Galbreath malsters"}
-$li{page 413 "Then by John Galbraeath, sailor in Ligh?}
+$li{page 413 "Then by John Galbraeath, sailor in Ligh?"}
 $li{page 414: "Archibald Galbreath...", "Lachlan Galbreath in Gigha"}
 $li{page 415: "More Galbreath"}
 $li{Page 416: "Flory Galbreath"}
