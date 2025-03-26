@@ -18,7 +18,7 @@ Age,Year,Men,Women,Children,Role
 13,1778,,,Robert Galbreath,Son
 11,1781,,,Martha Galbreath,Dau
 9,1783,,,Archibald Galbreath,Dau
-7,1785,,,Janet Galbreath,Dau
+7,1785,,,$b{Janet Galbreath},Dau
 4,1788,,,Cathrin Galbreath,Dau
 1,1791,,,James Galbreath,Son
 }

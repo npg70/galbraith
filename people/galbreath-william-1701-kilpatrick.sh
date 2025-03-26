@@ -74,7 +74,7 @@ footnotes {
         $opr-ref-link[b-1703-507-000-0010-0040 "Jean Kilpatrick"]
     }
     marriage {
-        $opr-ref-link[m-1724-507-000-0011-0435 "William Galbreath" "Margaret Kilpatrick"]{
+        $opr-ref-link[m-1724-507-000-0011-0435 "William Calbreath" "Margaret Kilpatrick"]{
             William Calbreath & Margaret Kilpatrick both in this parish
             were married July 31
         }        

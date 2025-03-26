@@ -6,33 +6,18 @@ external {
     familysearch 9M96-2SR
     ancestry tree/12079504/person/282258326810
 }
-note {
-    Baptism records often list of the mother as "Mary", which is may be a  mis-transcription of "Marg" or "Margt".
-}
-
 partner {
     name Alexander Dunlop
     gender male
     marriage -date 3-may-1768 -location campbeltown -ref dunlop-marriage
-    birth -date 13-sep-1841
+    birth -date 13-sep-1741
 
-    child {
-        name Isabell Dunlop
-        gender female
-        baptism -date 02-dec-1770 -location campbeltown
-        death -date 18-nov-1833 -location campbeltown
-        partner {
-            name Mathew Clark
-            gender male
-            birth -date 1746
-            death -date 1839
-            marriage -date 22-jun-1793 -location campbeltown
-        }
-    }
+    child dunlop-isabell-1770-clark
+
     child {
         name Martha Dunlop
         gender female
-        baptism -date 22-sep-1772 -location campbeltown
+        baptism -date 22-sep-1772 -location campbeltown -ref martha1772-baptism
         death -date 21-dec-1843 -location campbeltown
         partner {
             name John Johnston
@@ -41,39 +26,24 @@ partner {
             death -date 1846
         }
     }
-    child {
-        name Margaret Dunlop
-        gender female
-        birth -date 25-apr-1776
-        baptism -date 28-apr-1776 -location campbeltown
-        death -note young
-    }
+
+    child dunlop-margaret-1776-hunter
     child {
         name Agnes Dunlop
         gender female
         birth -date 07-sep-1777
         baptism -date 07-sep-1777 -location campbeltown -ref agnes1777-baptism
+        death -date 1795
     }
     child {
         name Mary Dunlop
         gender female
         birth -date 29-sep-1780
         baptism -date 01-oct-1780 -location campbeltown -ref mary1780-baptism
+        death -date 1783
     }
-    child {
-        name Margaret Dunlop
-        gender female
-        birth -date 27-dec-1781 
-        baptism -date 28-dec-1781 -location campbeltown -ref margaret1781-baptism
-        death -date jul-1852 -location campbeltown
-        partner {
-            name Robert Ralston
-            gender male
-            birth -date 1776
-            death -date 1840
-            marriage -date 26-feb-1802 -location campbeltown
-        }
-    }
+    child dunlop-margaret-1781-ralston
+
     child dunlop-kate-1783-harvey-mcnair
     child {
         name Archibald Dunlop
@@ -88,12 +58,12 @@ partner {
         gender female
         birth -date 01-may-1786
         baptism -date 03-may-1786 -location campbeltown -ref ann1786-baptism
-
     }
     child {
         name Robert Dunlop
-        gender female
-        baptism -date 31-may-1787 -location 'Killean and Kilchenzie'
+        gender male
+        baptism -date 01-jun-1787 -location 'Killean and Kilchenzie' -ref robert1787-baptism
+        death -note dy
     }
 }
 
@@ -108,6 +78,9 @@ footnotes {
         }
         $opr-ref-link[m-1768-507-000-0011-0471 "Margaret Galbreath" "Alexander Dunlop"]
     }
+    martha1772-baptism {
+        $opr-ref-link[b-1772-507-000-0011-0385 "Martha Dunlop"]
+    }
     agnes1777-baptism {
         $opr-ref-link[b-1777-507-000-0020-0035 "Agnes Dunlop"]{
             Agnes | Lawful Daughter to Alexd Dunlop and Mary
@@ -115,11 +88,9 @@ footnotes {
         }
     }
     mary1780-baptism {
-        $opr-ref-link[b-1780-507-000-0020-0050 "Mary Dunlop"]
-    }
-    margaret1781-baptism {
-        $opr-ref-link[b-1781-507-000-0020-0056 "Margaret Dunlop"]{
-            Margaret Lawful dau to Alexander Dunlop & Margaret Gal-breath was born 27th & Bapt 28th Dec 1781
+        $opr-ref-link[b-1780-507-000-0020-0050 "Mary Dunlop"]{
+            Mary | Lawful Daur to Alexander Dunlop and Mary 
+            Galbreath born 29th Sept was bapt 1st Oct 1780
         }
     }
     archibald1784-baptism {
@@ -132,6 +103,12 @@ footnotes {
         $opr-ref-link[b-1786-507-000-0020-0089 "Ann Dunlop"]{
             Ann Lawful dau to Alexd Dunlop Merch in Campbeltown
             & Margt Galbraith was born 1st & Bapt 3rd May.
+        }
+    }
+    robert1787-baptism {
+        $opr-ref-link[b-1787-507-000-0010-0049 "Robert Dunlop"]{
+            Robt | Lawful son to Alexd Dunlop and Mary Galbreath
+            in Ballevein was Baptized June 1st
         }
     }
 }
