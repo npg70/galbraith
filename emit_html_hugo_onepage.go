@@ -46,20 +46,9 @@ func renderFuncs() map[string]tf.NodeFunc {
 			tf.Replace(n, makeTagButton(path, n.FirstChild.Data))
 			return nil
 		},
-		"title":  tf.MakeTag("h1"),
-		"intro":  tf.MakeTagClass("p", ""),
-		"nowrap": tf.MakeTagClass("span", "text-nowrap"),
-		"csvtable": tf.NewCsvTableHTML(func(tag string, row int, col int) string {
-			switch tag {
-			case "wrapper":
-				return "table-responsive"
-			case "table":
-				return "table table-borderless table-sm small ms-3"
-			case "th", "td":
-				return "text-body"
-			}
-			return ""
-		}),
+		"title":              tf.MakeTag("h1"),
+		"intro":              tf.MakeTagClass("p", ""),
+		"nowrap":             tf.MakeTagClass("span", "text-nowrap"),
 		"date":               tf.MakeTagClass("span", "text-nowrap"),
 		"child-list":         tf.MakeTagClass("table", "table-p0 mb-3"),
 		"gen":                tf.MakeTag("sup"),

@@ -100,6 +100,22 @@ func render(content string) (string, error) {
 	p := tf.Tokenizer{}
 	n := p.Parse(strings.NewReader(content))
 
+	// CSV Tables has a non-standard parsing
+	// do them first, so other stuff below works
+	formatter := func(tag string, row int, col int) string {
+		switch tag {
+		case "wrapper":
+			return "table-responsive"
+		case "table":
+			return "table table-borderless table-sm small ms-3"
+		case "th", "td":
+			return "text-body"
+		}
+		return ""
+	}
+	if err := tf.CsvTable(n, formatter); err != nil {
+		return "", fmt.Errorf("CSV Tabler failed: %s", err)
+	}
 	// Add footnotes
 	if err := footnoter(n); err != nil {
 		return "", fmt.Errorf("Footnoter failed: %s", err)
