@@ -48,7 +48,7 @@ func (t TemplateRouter) ExecuteTemplate(wr io.Writer, name string, data any) err
 	base, ok := t[dir]
 	if !ok {
 		for k, v := range t {
-			log.Printf("GOT %s %v", k, v)
+			log.Printf("GOT dir=%s --> template %s", k, v.Name())
 		}
 		return fmt.Errorf("Could not file with dir=%q file=%q", dir, file)
 	}
@@ -58,9 +58,9 @@ func (t TemplateRouter) ExecuteTemplate(wr io.Writer, name string, data any) err
 func templateMap(root string) (TemplateRouter, error) {
 	// init
 	out := make(TemplateRouter)
-	fmap := template.FuncMap{
-		"render": render,
-	}
+
+	// nothing!
+	fmap := template.FuncMap{}
 
 	//
 	dirs := getDirectories(root)
@@ -75,8 +75,9 @@ func templateMap(root string) (TemplateRouter, error) {
 			templateGlob := filepath.Join(root, current, "*.html")
 			log.Printf("Reading current=%q  templates: %q", current, templateGlob)
 			if _, err := t.ParseGlob(templateGlob); err != nil {
+				return out, err
 				// typically empty directory
-				log.Printf("GOT ZERO TEMPLATES")
+				//log.Printf("GOT ZERO TEMPLATES")
 			}
 		}
 		out[d] = t

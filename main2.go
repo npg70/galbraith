@@ -15,13 +15,27 @@ import (
 )
 
 func Main2(config siteConfig, pages *[]ssg.ContentSource) error {
-	tmpl, _ := templateMap("layouts")
+	tmpl, err := templateMap("layouts")
+	if err != nil {
+		return err
+	}
 
 	// load in everything
 	if err := LoadContent(config, pages); err != nil {
 		return fmt.Errorf("Load content failed: %w", err)
 	}
+
 	// TBD: do global site stuff
+	for _, p := range *pages {
+		np := p.(ssg.ContentSourceConfig)
+		source := np["Content"].([]byte)
+		content, err := render(source)
+		if err != nil {
+			return err
+		}
+		// needs to be a string for templates
+		np["Content"] = string(content)
+	}
 
 	// merge in content to templates
 	if err := ssg.Execute(config, tmpl, *pages); err != nil {
