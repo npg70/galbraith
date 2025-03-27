@@ -1,23 +1,27 @@
 name Archibald Galbraith
+gender male
 birth -date 'about 1781'
 external {
     familysearch K45Y-S92
 }
-tags 'Argyll:Kilcalmonell and Kilberry'
+tags 'Argyll:Kilcalmonell and Kilberry' Argyll:Clachan
 todo {
     redo census, references, raw urls
 }
 body {
-Mary is listed in the 1851 Census living in the household of Isabella Crawford (widow) as a "relative."3
+Mary is listed in the 1851 Census living in the household of Isabella Crawford (widow) as a "relative."
 
-He was a weaver.4
+He was a weaver.
 
-Archibald Age 60
-(wife unamed) Age 40
-George Age 20
-Donald Age 10
-Mary Age 15
-Archibald Age 5
+$csvtable{
+Name,Age
+Archibald, Age 60
+(wife unamed), Age 40
+George, Age 20
+Donald, Age 10
+Mary, Age 15
+Archibald, Age 5
+}
     Note: Duncan and Jean not listed. in 1851, four of the children turn up in Greenock https://www.findmypast.com/transcript?id=GBC/1851/0019098585
 
 Duncan
@@ -29,31 +33,37 @@ With George and Mary missing
 
 partner {
     name Mary Crawford
+    gender female
     birth -date 'about 1795' -location 'South Knapdale'
     marriage -date 21-nov-1818 -location Paisley -ref crawford-marriage
     child {
         name George Galbreath
+        gender male
         birth -date 14-May-1820 -location Clachan
         baptism -date 10-jun-1820 -location 'Kilcalmonell and Kilberry' -ref george1820-baptism
     }
     child galbraith-duncan-1822-glen
     child {
         name Jean Galbreath
+        gender female
         birth -date 26-Sep-1824
         baptism -date 25-apr-1825 -location 'Kilcalmonell and Kilberry' -ref jean1824-baptism
     }
     child {
         name Mary Galbraith
+        gender female
         birth -date 30-jan-1827 -location Clachan
         baptism -date 8-may-1829 -location 'Kilcalmonell and Kilberry' -ref mary1827-baptism
     }
     child {
         name Donald Galbraith
+        gender male
         birth -date 21-Mar-1829 -location Clachan
         baptism -date 8-may-1829 -location 'Kilcalmonell and Kilberry' -ref donald1829-baptism
     }
     child {
         name Archibald Galbreath
+        gender male
         birth -date 5-Sep-1836 -location Clachan
         baptism -date 6-dec-1836 -location 'Kilcalmonell and Kilberry' -ref archibald1836-baptism
     }
