@@ -15,7 +15,7 @@ external {
 partner {
     name James Nicol Fleming
     gender male
-    marriage -date 27-oct-1859 -location campbeltown 
+    marriage -date 27-oct-1859 -location campbeltown  -ref marriage
     body {
         He was director at the City of Glasgow Bank, which collpased in 1878. He was convicted of fraud, served 8 months in prison, and died in Campbeltown in 1904.
     }

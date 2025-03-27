@@ -21,7 +21,7 @@ The grave marker says four children died in infancy.  Of the 11 known children:
 $ul{
 $li{7 are accounted for by death or marriage}
 $li{2 are assumed died in infancy}
-$li{Which leaves Robert and Thomas}
+$li{Which leaves Robert and Thomas as the other two who died young.}
 }
 }
 
