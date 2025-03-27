@@ -460,17 +460,16 @@ func WriteChildBioInline(w io.StringWriter, parent *Person, child *Person, ignor
 	w.WriteString(WriteChildName(child.FullName()))
 	birth := child.Events["birth"]
 	bp := child.Events["baptism"]
-	if birth != nil && bp == nil {
+	switch {
+	case birth != nil && bp == nil:
 		// since this child doesn't have it's own page,
 		// the footnote is attached to the parent, not the child
 		w.WriteString(", b.$ent[nbsp]" + EventDatePlaceCompact(parent, birth, ignorePlace))
-	}
-	if birth == nil && bp != nil {
+	case birth == nil && bp != nil:
 		// since this child doesn't have it's own page,
 		// the footnote is attached to the parent, not the child
 		w.WriteString(", bp.$ent[nbsp]" + EventDatePlaceCompact(parent, bp, ignorePlace))
-	}
-	if birth != nil && bp != nil {
+	case birth != nil && bp != nil:
 		// both specified.. it gets complicated
 		// if both same location -- do something smart
 		// if both have date -- do something smart
