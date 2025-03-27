@@ -17,9 +17,13 @@ import (
 func Main2(config siteConfig, pages *[]ssg.ContentSource) error {
 	tmpl, _ := templateMap("layouts")
 
+	// load in everything
 	if err := LoadContent(config, pages); err != nil {
 		return fmt.Errorf("Load content failed: %w", err)
 	}
+	// TBD: do global site stuff
+
+	// merge in content to templates
 	if err := ssg.Execute(config, tmpl, *pages); err != nil {
 		return fmt.Errorf("ssg.Execute failed: %w", err)
 	}
@@ -94,7 +98,7 @@ func LoadContent(config ssg.SiteConfig, out *[]ssg.ContentSource) error {
 	return err
 }
 
-func render(content []byte) (string, error) {
+func render(content []byte) ([]byte, error) {
 
 	// Parse raw into nodes
 	p := tf.Tokenizer{}
@@ -114,32 +118,32 @@ func render(content []byte) (string, error) {
 		return ""
 	}
 	if err := tf.CsvTable(n, formatter); err != nil {
-		return "", fmt.Errorf("CSV Tabler failed: %s", err)
+		return nil, fmt.Errorf("CSV Tabler failed: %s", err)
 	}
 	// Add footnotes
 	if err := footnoter(n); err != nil {
-		return "", fmt.Errorf("Footnoter failed: %s", err)
+		return nil, fmt.Errorf("Footnoter failed: %s", err)
 	}
 
 	// Convert custom nodes to HTML nodes
 	tmp := renderFuncs()
 	tagexec := tf.ExecuteFunc(tmp)
 	if err := tagexec(n); err != nil {
-		return "", fmt.Errorf("TagFunc failed: %w", err)
+		return nil, fmt.Errorf("TagFunc failed: %w", err)
 	}
 
 	// Auto-split paragraphs
 	p1 := tf.Paragrapher{}
 	p1.Tag = "p"
 	if err := p1.Execute(n); err != nil {
-		return "", fmt.Errorf("Paragrapher for $p failed: %w", err)
+		return nil, fmt.Errorf("Paragrapher for $p failed: %w", err)
 	}
 
 	// Auto-split blockquotes
 	p2 := tf.Paragrapher{}
 	p2.Tag = "blockquote"
 	if err := p2.Execute(n); err != nil {
-		return "", fmt.Errorf("Paragrapher for $blockquote failed: %w", err)
+		return nil, fmt.Errorf("Paragrapher for $blockquote failed: %w", err)
 	}
 
 	// Turn into HTML
