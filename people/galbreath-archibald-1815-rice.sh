@@ -7,7 +7,7 @@ external {
 }
 birth -date 19-feb-1815 -location peninver
 baptism -date 22-feb-1815 -location campbeltown -ref archibald1815-baptism
-death -location -date 20-feb-1876 'Point Pleasant,Clermont,Ohio,USA'
+death -date 20-feb-1876 -location 'Point Pleasant,Clermont,Ohio,USA'
 partner {
     name Eliza Rice
     gender female
@@ -73,7 +73,7 @@ partner {
         gender male
         birth -date 16-jan-1865 -location 'point pleasant,clermont,ohio,usa'
 
-        death -date 11-nov-1934 -note umn
+        death -date 11-nov-1934 -note unm
     }
     child {
         name Anna Eliza Galbreath
