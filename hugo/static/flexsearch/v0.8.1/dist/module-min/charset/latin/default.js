@@ -1,0 +1,1 @@
+import{EncoderOptions}from"../../type.js";const options={normalize:function(a){return a.toLowerCase()}};export default options;

@@ -1,1 +1,0 @@
-import{EncoderOptions}from"../../type.js";import{soundex}from"./balance.js";import{matcher,replacer}from"./advanced.js";export const compact=[/(?!^)[aeoy]/g,""];const options={normalize:!0,dedupe:!0,mapper:soundex,replacer:replacer.concat(compact),matcher:matcher};export default options;

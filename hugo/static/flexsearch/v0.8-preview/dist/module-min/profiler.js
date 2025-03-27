@@ -1,1 +1,0 @@
-import{create_object}from"./common.js";const data=create_object();export default function tick(a){const b=data.profiler||(data.profiler={});b[a]||(b[a]=0),b[a]++}
