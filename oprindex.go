@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"log"
 	"sort"
@@ -61,7 +62,7 @@ func oprPageIndex(db Root, outputFile string) ssg.ContentSourceConfig {
 	}
 	sort.Strings(keys)
 
-	out := strings.Builder{}
+	out := bytes.Buffer{}
 	out.WriteString("$ul{\n")
 	for _, val := range keys {
 		out.WriteString("$li{$opr-page[" + pages[val] + "]}\n")
@@ -71,7 +72,7 @@ func oprPageIndex(db Root, outputFile string) ssg.ContentSourceConfig {
 	page["OutputFile"] = outputFile
 	page["TemplateName"] = "baseof.html"
 	page["title"] = "OPR Page Index"
-	page["Content"] = out.String()
+	page["Content"] = out.Bytes()
 	return page
 }
 
@@ -134,7 +135,7 @@ func oprindex(db Root, rtype string, outputFile string) ssg.ContentSourceConfig 
 	sort.Strings(plist)
 
 	// generate content
-	out := strings.Builder{}
+	out := bytes.Buffer{}
 	out.WriteString("$table{\n")
 	for _, pnum := range plist {
 		out.WriteString("$tr{\n")
@@ -168,7 +169,7 @@ func oprindex(db Root, rtype string, outputFile string) ssg.ContentSourceConfig 
 	page["OutputFile"] = outputFile
 	page["TemplateName"] = "baseof.html"
 	page["title"] = "OPR " + word + " Index"
-	page["Content"] = out.String()
+	page["Content"] = out.Bytes()
 	return page
 }
 
@@ -233,7 +234,7 @@ func spindex(db Root, rtype string, outputFile string) ssg.ContentSourceConfig {
 	}
 	sort.Strings(plist)
 
-	out := strings.Builder{}
+	out := bytes.Buffer{}
 	out.WriteString("$title{Statutory " + word + " Index}\n")
 
 	out.WriteString("$table{\n")
@@ -270,6 +271,6 @@ func spindex(db Root, rtype string, outputFile string) ssg.ContentSourceConfig {
 	page["OutputFile"] = outputFile
 	page["TemplateName"] = "baseof.html"
 	page["title"] = "Statutory " + word + " Index"
-	page["Content"] = out.String()
+	page["Content"] = out.Bytes()
 	return page
 }

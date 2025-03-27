@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"log"
 	"path/filepath"
@@ -72,7 +73,7 @@ func computeRoots(db Root) []string {
 
 // home page for tags
 func tagIndex(tmap map[string][]string, outputFile string) ssg.ContentSource {
-	out := strings.Builder{}
+	out := bytes.Buffer{}
 	out.WriteString(`
 $table{
 	$tr{
@@ -181,14 +182,14 @@ $table{
 	page["OutputFile"] = outputFile
 	page["TemplateName"] = "tags/baseof.html"
 	page["title"] = "People Tags"
-	page["Content"] = out.String()
+	page["Content"] = out.Bytes()
 	return page
 }
 
 func indexRoots2(db Root, tpage tagpage, outputFile string) ssg.ContentSourceConfig {
 	fulltag := strings.Join(tpage.path, " / ")
 
-	out := strings.Builder{}
+	out := bytes.Buffer{}
 	out.WriteString("$h1{" + fulltag + "}")
 	for _, kid := range tpage.tags {
 		out.WriteString(fmt.Sprintf("$tag-link[%s]{%s}", strings.Join(tpage.path, "/"), kid))
@@ -213,7 +214,7 @@ func indexRoots2(db Root, tpage tagpage, outputFile string) ssg.ContentSourceCon
 	page["OutputFile"] = outputFile
 	page["TemplateName"] = "tags/baseof.html"
 	page["title"] = "People Tag " + fulltag
-	page["Content"] = out.String()
+	page["Content"] = out.Bytes()
 	return page
 }
 

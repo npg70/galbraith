@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"fmt"
 	"io/fs"
 	"log"
@@ -59,14 +60,14 @@ func LoadContent(config ssg.SiteConfig, out *[]ssg.ContentSource) error {
 			return fmt.Errorf("reading page file %s failed: %w", path, err)
 		}
 
-		htype, head, body := cs.Split(string(raw))
+		htype, head, body := cs.Split(raw)
 		if htype != "yaml" {
 			// TBD on right behavior
 			log.Fatalf("Expected YAML sample: got %q", htype)
 		}
 
 		page := make(ssg.ContentSourceConfig)
-		if err := yaml.Unmarshal([]byte(head), &page); err != nil {
+		if err := yaml.Unmarshal(head, &page); err != nil {
 			log.Fatalf("Unable to un-yaml: %v", err)
 		}
 		if _, ok := page["TemplateName"]; !ok {
@@ -86,7 +87,6 @@ func LoadContent(config ssg.SiteConfig, out *[]ssg.ContentSource) error {
 			page["OutputFile"] = s
 		}
 		page["Content"] = body
-
 		*out = append(*out, page)
 		return nil
 	})
@@ -94,11 +94,11 @@ func LoadContent(config ssg.SiteConfig, out *[]ssg.ContentSource) error {
 	return err
 }
 
-func render(content string) (string, error) {
+func render(content []byte) (string, error) {
 
 	// Parse raw into nodes
 	p := tf.Tokenizer{}
-	n := p.Parse(strings.NewReader(content))
+	n := p.Parse(bytes.NewReader(content))
 
 	// CSV Tables has a non-standard parsing
 	// do them first, so other stuff below works

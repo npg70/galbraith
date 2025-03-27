@@ -1,6 +1,7 @@
 package main
 
 import (
+	"bytes"
 	"flag"
 	"fmt"
 	"io"
@@ -860,7 +861,7 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 		panic(err)
 	}
 
-	out := &strings.Builder{}
+	out := &bytes.Buffer{}
 
 	out.WriteString(fmt.Sprintf("$person[id=%s generation=%d counter=%d]{",
 		primary, first.generation, first.counter))
@@ -1141,6 +1142,6 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 	page["OutputFile"] = outputFile
 	page["TemplateName"] = "baseof.html"
 	page["title"] = WriteTitle(first)
-	page["Content"] = out.String()
+	page["Content"] = out.Bytes()
 	return page, cid
 }
