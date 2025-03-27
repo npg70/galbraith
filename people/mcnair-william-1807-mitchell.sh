@@ -33,6 +33,7 @@ James,McNair,Son,3,1848
 partner {
     name Mary Mitchell
     gender female
+    baptism -date 29-sep-1811 -location campbeltown
     death -date 07-jul-1880 -location Nichollsville,clermont,ohio,usa
     parent galbreath-janet-1785-mitchell
     marriage -date 19-aug-1830 -location campbeltown -ref marriage

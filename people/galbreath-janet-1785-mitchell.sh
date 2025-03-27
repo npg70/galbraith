@@ -10,6 +10,9 @@ external {
 todo major {
     update wikitree and make a "geneaology cheat sheet"
 }
+todo major {
+    William need investigating.  Farmer at Craigs.  See kilkerran.
+}
 
 confused-with galbreath-janet-1786
 
@@ -35,7 +38,8 @@ partner {
     child {
         name Mary Mitchell
         gender female
-        baptism -date 29-Sep-1811 -location campbeltown
+        birth -date 27-sep-1811
+        baptism -date 29-Sep-1811 -location campbeltown -ref mary1811-baptism
         death -date 07-jul-1880 -location Nichollsville,clermont,oh,usa
         partner mcnair-william-1807-mitchell
     }
@@ -67,5 +71,11 @@ footnotes {
     }
     marriage {
         $opr-ref-link[m-1803-507-000-0050-0060 "Janet Galbreath" "William Mitchell"]
+    }
+    mary1811-baptism {
+        $opr-ref-link[b-1811-507-000-0000-0375 "Mary Mitchell"]{
+            Mary | Lawful Daughter to William Mitchell farmer Craigs and
+            Janet Galbreath born 27th bapt 29 Sept 1811. Named Mary.    
+        }
     }
 }
