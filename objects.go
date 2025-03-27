@@ -415,16 +415,29 @@ func EventDatePlace(p *Person, e *Event) string {
 	return out
 }
 
-func EventDatePlaceCompact(p *Person, e *Event, ignorePlace string) string {
+func EventDatePlaceCompact(p *Person, e *Event, commonLocation string) string {
 	parts := []string{}
 	if e.Date.String() != "" {
 		parts = append(parts, "$date{"+e.Date.String()+"}")
 	}
-	if e.Location != "" && !strings.EqualFold(e.Location, ignorePlace) {
-		parts = append(parts, TitleCompound(e.Location))
+	normalizedLocation := TitleCompound(e.Location)
+	if e.Location != "" && normalizedLocation != commonLocation {
+		parts = append(parts, normalizedLocation)
 	}
-	if e.Note != "" {
-		parts = append(parts, e.Note)
+	// standardize common abbreviations
+	note := e.Note
+	switch note {
+	case "dy", "dsp", "dspm", "d.y.", "d.s.p.", "d.s.p.m.", "young", "died young":
+		// died in infancy or childhood implying
+		// didn't marry or have children
+		note = "young."
+
+		// TODO NOTES ON dying unmarried
+	case "d.um", "dum", "unm", "umn.":
+		note = "unmarried."
+	}
+	if note != "" {
+		parts = append(parts, note)
 	}
 	return strings.Join(parts, ", ") + makeFootnoteRef(p, e.Ref)
 }
@@ -483,18 +496,7 @@ func WriteChildBioInline(w io.StringWriter, parent *Person, child *Person, ignor
 		// special case if child is assumed to have died infancy or
 		// died young.
 		txt := EventDatePlaceCompact(parent, death, "")
-		switch txt {
-		case "dy", "dsp", "dspm", "d.y.", "d.s.p.", "d.s.p.m.", "young", "died young":
-			// died in infancy or childhood implying
-			// didn't marry or have children
-			w.WriteString("d. young")
-
-			// TODO NOTES ON dying unmarried
-		case "d.um", "dum", "unm", "umn.":
-			w.WriteString("umarried")
-		default:
-			w.WriteString("d.$ent[nbsp]" + txt)
-		}
+		w.WriteString(" d.$ent[nbsp]" + txt)
 	}
 	if len(child.Partners) == 1 {
 		// ; m. name
