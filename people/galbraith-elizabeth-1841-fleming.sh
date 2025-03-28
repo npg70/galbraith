@@ -14,9 +14,19 @@ external {
 partner {
     name James Nicol Fleming
     gender male
+    parent {
+        name John Fleming
+        gender male
+        partner {
+            name Jane Nicol
+            gender female
+        }
+    }
+    birth -date 16-sep-1832 -location glasgow
+    death -date 20-feb-1904 -location Edinburgh,Scotland -ref fleming-death
     marriage -date 27-oct-1859 -location campbeltown  -ref marriage
     body {
-        He was director at the City of Glasgow Bank, which collpased in 1878. He was convicted of fraud, served 8 months in prison, and died in Campbeltown in 1904.
+        He was director at the City of Glasgow Bank, which collpased in 1878. He was convicted of fraud, served 8 months in prison, and died in Edinburgh in 1904.
     }
     child {
         name John Galbraith Fleming
@@ -143,6 +153,9 @@ footnotes {
     }
     elizabeth1841-death {
         $sp-ref-link[d-1931-507-00-0005 0002 "Elizabeth Galbraith"]
+    }
+    fleming-death {
+        $sp-ref-link[d-1904-685-02-0087 0029 "James Nicol Fleming"]
     }
     marriage {
         $sp-ref-link[m-1859-507-00-0033 0017 "Elizabeth Galbraith" "I N Fleming"]{
