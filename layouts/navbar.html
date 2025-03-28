@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+  <symbol id="three-dots" viewBox="0 0 16 16">
+  <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+  </symbol>
+  <symbol id="check2" viewBox="0 0 16 16">
+  <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+  <symbol id="circle-half" viewBox="0 0 16 16">
+  <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+  </symbol>
+  <symbol id="sun-fill" viewBox="0 0 16 16">
+  <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+  </symbol>
+  <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+  <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+  <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+  </symbol>
+</svg>
+
+<style>
+/* must be done in CSS as width/heigh is not in bootstrap
+   also fill currentColor is a SVG thing
+*/
+.bi {
+    width: 1em;
+    height: 1em;
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+/* gradient -- really want this to be different in light and dark modes
+ */
+.bd-navbar {
+    padding: .75rem 0;
+    box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(255, 255, 255, 0.15)
+}
+
+/*
+.bd-navbar::after {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    display: block;
+    content: "";
+    background-image:linear-gradient(rgba(var(--bd-violet-rgb), 1), rgba(var(--bd-violet-rgb), 0.95))
+}
+*/
+@media (max-width: 991.98px) {
+    .bd-navbar .bd-navbar-toggle {
+        width:4.25rem
+    }
+}
+
+.bd-navbar .navbar-toggler {
+    padding: 0;
+    margin-right: -.5rem;
+    border:0
+}
+
+.bd-navbar .navbar-toggler:first-child {
+    margin-left:-.5rem
+}
+
+.bd-navbar .navbar-toggler .bi {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.bd-navbar .navbar-toggler:focus {
+    box-shadow:none
+}
+
+/* makes selected item stand out more */
+.bd-navbar .dropdown-menu .active {
+    font-weight: 600
+}
+
+/*  unclear why this is needd as it seems to work
+.bd-navbar .dropdown-menu .dropdown-item:active .bi {
+    color:inherit !important
+}
+*/
+/* if it's not active, it's not displayed
+   since we are mucking about in JS anyways, seems like
+   perhaps it's better there
+*/
+.bd-navbar .dropdown-menu .active .bi {
+   display:block !important
+}
+</style>
+<junk class="d-none">
+// fixed color of navbar background
+//.bd-navbar .navbar-brand {
+//    color: #000;
+//    transition:transform 0.2s ease-in-out
+//}
+
+// LINK COLORS
+.bd-navbar .navbar-toggler, .bd-navbar .nav-link {
+    padding-right: .25rem;
+    padding-left: .25rem;
+    //color:rgba(0, 0, 0, 0.85);
+}
+
+.bd-navbar .navbar-toggler:hover, .bd-navbar .navbar-toggler:focus, .bd-navbar .nav-link:hover, .bd-navbar .nav-link:focus {
+    //color:#aaa;
+}
+
+.bd-navbar .navbar-toggler.active, .bd-navbar .nav-link.active {
+    font-weight: 600;
+    color: blue;
+}
+
+.bd-navbar .navbar-nav-svg {
+    display: inline-block;
+    vertical-align:-.125rem
+}
+
+// offcanvas background
+.bd-navbar .offcanvas-lg {
+    // background-color: #fff; // added inline
+  //   border-left:0
+}
+
+@media (max-width: 991.98px) {
+    .bd-navbar .offcanvas-lg {
+        box-shadow:var(--bs-box-shadow-lg)
+    }
+}
+.bd-navbar .dropdown-toggle:focus:not(:focus-visible) {
+    outline:0
+}
+.bd-navbar .dropdown-menu {
+    --bs-dropdown-min-width: 12rem;
+    --bs-dropdown-padding-x: .25rem;
+    --bs-dropdown-padding-y: .25rem;
+    --bs-dropdown-link-hover-bg: rgba(var(--bd-violet-rgb), .1);
+    --bs-dropdown-link-active-bg: rgba(var(--bd-violet-rgb), 1);
+    --bs-dropdown-font-size: .875rem;
+    font-size: .875rem;
+    border-radius: .5rem;
+    box-shadow:var(--bs-box-shadow)
+}
+
+.bd-navbar .dropdown-menu li + li {
+    margin-top:.125rem
+}
+
+.bd-navbar .dropdown-menu .dropdown-item {
+    border-radius:.25rem
+}
+.bd-navbar .dropdown-menu .active {
+    font-weight:800  !important
+}
+.bd-navbar .dropdown-menu .dropdown-item:active .bi {
+    color:inherit !important
+}
+.bd-navbar .dropdown-menu .active .bi {
+    display:block !important
+}
+
+.bd-navbar .dropdown-menu-end {
+    --bs-dropdown-min-width: 8rem
+}
+</junk>
+<header class="font-sans navbar navbar-expand-lg bd-navbar sticky-top bg-body-secondary mb-4">
+  <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap" aria-label="Main navigation">
+
+    <div class="bd-navbar-toggle">
+      <button class="navbar-toggler p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdSidebar" aria-controls="bdSidebar" aria-label="Toggle docs navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi" fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+        <span class="d-none fs-6 pe-1">Browse</span>
+      </button>
+    </div>
+
+    <a class="navbar-brand p-0 me-0 me-lg-2" href="/galbraith/">Galbraith Research</a>
+
+    <div class="d-flex">
+      <div class="bd-search" id="docsearch" data-bd-docs-version="5.3"></div>
+      <button class="navbar-toggler d-flex d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-label="Toggle navigation">
+        <svg class="bi" aria-hidden="true"><use xlink:href="#three-dots"></use></svg>
+      </button>
+    </div>
+
+    <div class="offcanvas-lg body-bg offcanvas-end flex-grow-1" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel" data-bs-scroll="true">
+      <div class="offcanvas-header px-4 pb-0">
+        <h5 class="offcanvas-title" id="bdNavbarOffcanvasLabel">Galbraith Research</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdNavbar"></button>
+      </div>
+
+      <div class="offcanvas-body p-4 pt-0 p-lg-0">
+        <hr class="d-lg-none">
+        <ul class="navbar-nav flex-row flex-wrap bd-navbar-nav">
+          <li class="nav-item col-6 col-lg-auto">
+            <a class="nav-link" href="/galbraith/indexes/">Indexes</a>
+          </li>
+          <li class="nav-item col-6 col-lg-auto">
+            <a class="nav-link" href="/galbraith/tags/">Tags</a>
+          </li>
+          <li class="nav-item col-6 col-lg-auto">
+            <a class="nav-link" href="/galbraith/sources/">Sources</a>
+          </li>
+          <li class="nav-item col-6 col-lg-auto">
+            <a class="nav-link" href="/galbraith/journal/">Journal</a>
+          </li>
+        </ul>
+
+        <hr class="d-lg-none">
+
+        <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
+
+          <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
+            <div class="vr d-none d-lg-flex h-100 mx-lg-2 "></div>
+            <hr class="d-lg-none my-2 ">
+          </li>
+
+          <li class="nav-item dropdown">
+            <button class="btn btn-link nav-link py-2 px-0 px-lg-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              data-bs-display="static"
+              aria-label="Toggle theme (auto)">
+              <svg class="bi my-1 theme-icon-active"><use href="#circle-half"></use></svg>
+              <span class="d-lg-none ms-2" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-theme-text">
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                  <svg class="bi me-2 text-body"><use href="#sun-fill"></use></svg>
+                  Light
+                  <svg class="bi ms-auto d-none text-white"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                  <svg class="bi me-2 text-body"><use href="#moon-stars-fill"></use></svg>
+                  Dark
+                  <svg class="bi ms-auto d-none text-white"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+                  <svg class="bi me-2 text-body"><use href="#circle-half"></use></svg>
+                  Auto
+                  <svg class="bi ms-auto d-none text-white"><use href="#check2"></use></svg>
+                </button>
+              </li>
+            </ul> <!-- nav item dropdown for color-toggler -->
+
+          </li>
+        </ul> <!-- UL for Collapsed Navbar -->
+
+      </div> <!-- div collapse navbar -->
+    </div> <!-- div off canvas -->
+  </nav>
+</header>
