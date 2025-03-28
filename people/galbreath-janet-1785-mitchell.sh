@@ -8,9 +8,6 @@ external {
     ancestry tree/12079504/person/282306452252
 }
 todo major {
-    update wikitree and make a "geneaology cheat sheet"
-}
-todo major {
     William need investigating.  Farmer at Craigs.  See kilkerran.
 }
 
