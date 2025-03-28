@@ -9,6 +9,9 @@ tags Argyll:Campbeltown
 body {
     He was a distillery workman.
 }
+
+todo census { needs fixing }
+
 body {
 Census of 1851, Burn Side Street, Campbeltown, Cantyre, Argyllshire, Scotland:$ref[census1851]
 $csvtable{
