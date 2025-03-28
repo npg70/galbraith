@@ -10,7 +10,7 @@ note {
 }
 
 note {
-   Appears to have moved to Greenock between 1850-1855 
+   The family appears to have moved to Greenock between 1850-1855.
 }
 
 external {
@@ -25,7 +25,7 @@ partner {
         name John Galbraith
         birth -date 23-nov-1849 
         baptism -date 23-jan-1850 -location clackmannan -ref john1850-baptism
-        death -date 12-oct-1871 -location Hobkirk,Roxburgh -ref john1850-death -note umn
+        death -date 12-oct-1871 -location Hobkirk,Roxburgh -ref john1850-death -note unm
     }
     child {
         name Margaret Galbraith

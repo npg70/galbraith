@@ -1,4 +1,5 @@
 name Angus Galbraith
+gender male
 birth -date 'about 1794'
 death -date 14-jan-1836
 burial -name 'Kilkerran Cemetery' -ref burial1
@@ -13,15 +14,22 @@ external {
 
 partner {
     name Mary McLeod
+    gender female
     birth -date 'about 1802'
     marriage -date 13-may-1826 -location Kilcalmonell -ref mcleod-marriage
     death -date 11-dec-1862 -location campbeltown -ref mcleod-death
-    body {
-        Daughter of William McLeod and Jane Arburthnot
+    parent {
+        name William McLeod
+        gender male
+        partner {
+            name Jane Arburthnot
+            gender female
+        }
     }
     child galbraith-angus-1827-smith
     child {
         name Jane Galbraith
+        gender female
         birth -date 8-jun-1829
         baptism -date 8-jul-1829 -location kilcalmonell -ref jane1829-baptism
         death -date 12-mar-1891 -location campbeltown -ref jane1829-death -note unmarried
