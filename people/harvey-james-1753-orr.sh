@@ -7,7 +7,7 @@ external {
     familysearch KC8Y-21K
 }
 todo error {
-    Pull out James Harvey and Martha Orr references.
+    Pull out James Harvey and $i{Martha} Orr references.
 }
 note {
     Appears to be end of line with no known grand-children.
