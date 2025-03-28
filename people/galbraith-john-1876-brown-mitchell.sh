@@ -55,7 +55,7 @@ partner {
     death -date 22-feb-1950 -location campbeltown -ref mitchell-death
 
     body {
-        Previously married John McAllister and had two children.  He died in 1918.
+        She peviously married John McAllister and had two children before he died in 1918.
     }
 }
 
