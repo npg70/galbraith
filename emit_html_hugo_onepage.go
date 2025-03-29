@@ -109,9 +109,18 @@ func renderFuncs() map[string]tf.NodeFunc {
 			n.InsertBefore(tf.NewElement("a", "name", pid), n.FirstChild)
 			return nil
 		},
-		"person-body":      tf.MakeTag("div"),
-		"person-main":      tf.MakeTagClass("div", "print-hack"),
+		"person-body": tf.MakeTag("div"),
+		"person-main": tf.MakeTagClass("div", "print-hack"),
+
 		"person-secondary": tf.MakeTagClass("table", "small"),
+
+		"person-secondary-new": func(n *html.Node) error {
+			n.Parent.InsertBefore(tf.NewElement("hr"), n)
+			tf.Append(tf.TransformElement(n, "div"),
+				tf.Reparent(tf.NewElement("table", "class", "table-p0 small"), n))
+			return nil
+			//tf.MakeTagClass("table", "table table-borderless table-sm small width-100"),
+		},
 		"pagemeta": func(n *html.Node) error {
 			td := tf.Reparent(tf.NewElement("td"), n)
 			tf.Append(tf.TransformElement(n, "tr", "class", "pb-3"),
@@ -152,6 +161,9 @@ func renderFuncs() map[string]tf.NodeFunc {
 			td := tf.NewElement("td")
 			for _, tag := range args {
 				td.AppendChild(makeTagButton(nil, tag))
+				// add space so browser can insert breakpoints in table
+				// without it.. the table cell is one big solid chunk
+				td.AppendChild(tf.NewText(" "))
 			}
 
 			// make a row and replace
