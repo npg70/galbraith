@@ -18,7 +18,7 @@ note {
     James died before 1841.
 }
 body {
-Mary appears in the household of $child-link[mcnair-archibald-1759-mitchell]{Archibald McNair} and Margaret Mitchell.
+Mary appears in Census of 1792 living in the household of $child-link[mcnair-archibald-1759-mitchell]{Archibald McNair} and Margaret Mitchell.
 }
 partner {
     name James Johnston

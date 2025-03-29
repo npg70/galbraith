@@ -48,7 +48,7 @@ Age, Year, Men, Women, Children, Role
 }
 body {
 $p{
-Mary McNair, age 11, born ~1781, is likely adopted, daughter of $child-link[mcnair-john-1750-galbreath]{John McNair} and Janet Galbreath. Her baptism is recorded, but not indexed in Scotlands People. Little is known about her parents.
+$child-link[mcnair-mary-1780-johnston]{Mary McNair}, age 11, born ~1781, is likely adopted, daughter of $child-link[mcnair-john-1750-galbreath]{John McNair} and Janet Galbreath. Her baptism is recorded, but not indexed in Scotlands People. Little is known about her parents.
 }
 }
 
