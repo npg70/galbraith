@@ -126,8 +126,6 @@ func render(content []byte) ([]byte, error) {
 			return "table-responsive"
 		case "table":
 			return "table table-borderless table-sm small ms-3"
-		case "th", "td":
-			return "text-body"
 		}
 		return ""
 	}
