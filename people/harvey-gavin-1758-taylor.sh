@@ -1,4 +1,4 @@
-name Gavin Taylor
+name Gavin Harvey
 gender male
 tags argyll:campbeltown argyll:dalintober
 

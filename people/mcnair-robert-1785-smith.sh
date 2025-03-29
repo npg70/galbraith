@@ -1,6 +1,6 @@
 name Robert McNair
 gender male
-tags argyll:campbeltown immigrant:usa:illinois endofline
+tags argyll:campbeltown immigrant:usa:illinois endofline argyll:chisken
 baptism -date 17-jun-1785 -location campbeltown -ref robert1785-baptism
 death -date 04-feb-1861 -location 'McDonough, Illinois,USA'
 external {

@@ -3,7 +3,7 @@ gender male
 birth -date 01-oct-1807
 baptism -date 02-oct-1807 -location campbeltown -ref william1807-baptism
 death -date 13-jul-1885 -location nicholsville,clermont,ohio,usa
-tags Argyll:Campbeltown Immigrant:USA:Ohio:Clermont USA:Ohio:Clermont
+tags Argyll:Campbeltown argyll:chisken Immigrant:USA:Ohio:Clermont USA:Ohio:Clermont
 body {
     He was a farmer at Chisken.
 }
@@ -13,9 +13,21 @@ external {
     findagrave 95675830
 }
 body {
-    Immigration in 1854
+    Immigration in 1854.
 }
 body {
+
+Census of 1841, Chiskan, Campbeltown, Argyllshire, Scotland:$ref[census-1841]
+$csvtable{
+First,Last,Age,Year
+William,McNair,30,1811
+Marey,McNair,25,1816
+Janet,McNair,9,1832
+Archibald,McNair,8,1833
+William,McNair,3,1838
+Jean,McNair,1,1840
+}
+
 Census of 1851, Chiskan, Campbeltown, Kintyre, Argyllshire, Scotland:$ref[census-1851]
 $csvtable{
 First,Last,Role,Age,Year
@@ -144,7 +156,9 @@ footnotes {
             of this parish, were married 19th Aug 1830
         }
    }
-
+    census-1841 {
+        $elink[https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016603264&expand=true&tab=this]{FindMyPast}
+    }
    census-1851 {
         $elink[https://www.findmypast.com/transcript?id=GBC%2F1851%2F0019262217&expand=true&tab=this]{FindMyPast}
     }

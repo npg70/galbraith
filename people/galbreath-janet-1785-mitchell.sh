@@ -60,6 +60,12 @@ partner {
         gender female
         baptism -date 10-Jan-1821 -location campbeltown
     }
+    child {
+        name Martha Mitchell
+        gender female
+        birth -date 1825
+        death -date 1873 -note unm
+    }
 }
 
 footnotes {

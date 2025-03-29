@@ -1,6 +1,6 @@
 name Archibald McNair
 gender male
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown argyll:chisken
 external {
     familysearch LJNB-3G4
     wikitree McNair-1083
@@ -11,7 +11,7 @@ note {
     Not in the 1792 Census.
 }
 body {
-    Farmer at Chisken/Shiken
+    He was a farmer at Chisken/Shisken.
 }
 baptism -date 19-nov-1753 -location campbeltown -ref baptism
 partner {
@@ -46,21 +46,7 @@ partner {
         baptism -date 29-may-1791 -location campbeltown -ref hugh1791-baptism
         death -date 10-dec-1811 -location campbeltown
     }
-    child {
-        name Janet McNair
-        gender female
-        birth -date 06-jan-1793
-        baptism -date 08-jan-1793 -location campbeltown -ref janet1793-baptism
-        death -date 04-sep-1849 -location clermont,ohio,usa
-        partner {
-            name John Porter
-            gender male
-        }
-        partner {
-            name Jame McMurchy
-            gender male
-        }
-    }
+    child mcnair-janet-1793-porter-mcmurchy
 
     child {
         name John McNair
@@ -106,11 +92,6 @@ footnotes {
     }
     hugh1791-baptism {
         $opr-ref[b-1791-507-000-0020-0131 "Hugh McNair"]
-    }
-    janet1793-baptism {
-        $opr-ref-link[b-1793-507-000-0040-0104 "Janet McNair"]{
-            Janet Lawful Dau to Archibald McNair + Jean Mitchell in Shisken born 6th bapt 8
-        }
     }
     john1794-baptism {  
         $opr-ref-link[b-1794-507-000-0040-0121 "John McNair"]{
