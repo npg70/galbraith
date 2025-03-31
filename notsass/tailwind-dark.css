@@ -1,0 +1,56 @@
+{{- /*
+Tailscale Dark Theme
+
+Based on Bootstrap 5.3.3 and Tailscale Color Palette.
+    
+*/}}
+{{- $gray050 := "#fafafa" }}
+{{- $gray100 := "#f5f5f5" }}
+{{- $gray200 := "#e5e5e5" }}
+{{- $gray300 := "#d4d4d4" }}
+{{- $gray400 := "#a3a3a3" }}
+{{- $gray500 := "#737373" }}
+{{- $gray600 := "#525252" }}
+{{- $gray700 := "#404040" }}
+{{- $gray800 := "#262626" }}
+{{- $gray900 := "#171717" }}
+{{- $gray950 := "#0a0a0a" -}}
+:root {
+    --bs-table-color: inherit;
+}
+
+[data-bs-theme=dark] {
+  color-scheme: dark;
+  --bs-gray: {{ $gray500 }};      {{- /* was gray600 */}}
+  --bs-gray-dark: {{ $gray700 }}; {{- /* was gray800 */}}
+  --bs-gray-050: {{ $gray050 }};
+  --bs-gray-100: {{ $gray100 }};
+  --bs-gray-200: {{ $gray200 }};
+  --bs-gray-300: {{ $gray300 }};
+  --bs-gray-400: {{ $gray400 }};
+  --bs-gray-500: {{ $gray500 }};
+  --bs-gray-600: {{ $gray600 }};
+  --bs-gray-700: {{ $gray700 }};
+  --bs-gray-800: {{ $gray800 }};
+  --bs-gray-900: {{ $gray900 }};
+  --bs-body-color: {{ $gray200 }}; {{- /* was gray300 */}}
+  --bs-body-color-rgb: {{ rgb $gray200 }};
+  --bs-body-bg: {{ $gray900 }};
+  --bs-body-bg-rgb: {{ rgb $gray900 }};
+  --bs-secondary-color: {{ $gray300 }};
+  --bs-secondary-color-rgb: {{ rgb $gray300 }};
+  --bs-secondary-bg: {{ $gray800 }};
+  --bs-secondary-bg-rgb: {{ rgb $gray800 }};
+  --bs-tertiary-color: {{ $gray300 }};
+  --bs-tertiary-color-rgb: {{ rgb $gray300 }};
+  --bs-tertiary-bg: {{ $gray600 }};  {{- /* was "gray 850" */}}
+  --bs-tertiary-bg-rgb: {{ rgb $gray600 }};
+  --bs-emphasis-color: #fff;
+  --bs-emphasis-color-rgb: 255, 255, 255;
+  --bs-heading-color: inherit;
+  --bs-link-color: #6ea8fe;
+  --bs-link-hover-color: #8bb9fe;
+  --bs-link-color-rgb: 110, 168, 254;
+  --bs-link-hover-color-rgb: 139, 185, 254;
+}
+
