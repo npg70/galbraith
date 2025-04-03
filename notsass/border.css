@@ -40,53 +40,43 @@
 }
 
 .border-primary {
-  border-opacity: 1;
-  border-color: rgba(var(primary-rgb), var(border-opacity)) !important;
+  border-color: var(primary) !important;
 }
 
 .border-secondary {
-  border-opacity: 1;
-  border-color: rgba(var(secondary-rgb), var(border-opacity)) !important;
+  border-color: var(secondary) !important;
 }
 
 .border-success {
-  border-opacity: 1;
-  border-color: rgba(var(success-rgb), var(border-opacity)) !important;
+  border-color: var(success) !important;
 }
 
 .border-info {
-  border-opacity: 1;
-  border-color: rgba(var(info-rgb), var(border-opacity)) !important;
+  border-color: var(info) !important;
 }
 
 .border-warning {
-  border-opacity: 1;
-  border-color: rgba(var(warning-rgb), var(border-opacity)) !important;
+  border-color: var(warning) !important;
 }
 
 .border-danger {
-  border-opacity: 1;
-  border-color: rgba(var(danger-rgb), var(border-opacity)) !important;
+  border-color: var(danger) !important;
 }
 
 .border-light {
-  border-opacity: 1;
-  border-color: rgba(var(light-rgb), var(border-opacity)) !important;
+  border-color: var(light) !important;
 }
 
 .border-dark {
-  border-opacity: 1;
-  border-color: rgba(var(dark-rgb), var(border-opacity)) !important;
+  border-color: var(dark) !important;
 }
 
 .border-black {
-  border-opacity: 1;
-  border-color: rgba(var(black-rgb), var(border-opacity)) !important;
+  border-color: var(black) !important;
 }
 
 .border-white {
-  border-opacity: 1;
-  border-color: rgba(var(white-rgb), var(border-opacity)) !important;
+  border-color: var(white) !important;
 }
 
 .border-primary-subtle {

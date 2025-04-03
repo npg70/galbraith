@@ -34,23 +34,14 @@ Based on Bootstrap 5.3.3 and Tailscale Color Palette.
   --bs-gray-800: {{ $gray800 }};
   --bs-gray-900: {{ $gray900 }};
   --bs-body-color: {{ $gray200 }}; {{- /* was gray300 */}}
-  --bs-body-color-rgb: {{ rgb $gray200 }};
   --bs-body-bg: {{ $gray900 }};
-  --bs-body-bg-rgb: {{ rgb $gray900 }};
   --bs-secondary-color: {{ $gray300 }};
-  --bs-secondary-color-rgb: {{ rgb $gray300 }};
   --bs-secondary-bg: {{ $gray800 }};
-  --bs-secondary-bg-rgb: {{ rgb $gray800 }};
   --bs-tertiary-color: {{ $gray300 }};
-  --bs-tertiary-color-rgb: {{ rgb $gray300 }};
   --bs-tertiary-bg: {{ $gray600 }};  {{- /* was "gray 850" */}}
-  --bs-tertiary-bg-rgb: {{ rgb $gray600 }};
   --bs-emphasis-color: #fff;
-  --bs-emphasis-color-rgb: 255, 255, 255;
   --bs-heading-color: inherit;
   --bs-link-color: #6ea8fe;
   --bs-link-hover-color: #8bb9fe;
-  --bs-link-color-rgb: 110, 168, 254;
-  --bs-link-hover-color-rgb: 139, 185, 254;
 }
 
