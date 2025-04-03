@@ -41,13 +41,13 @@ html {
 }
 
 body {
-    font-family: {{ var "body-font-family" }};
-    font-size:   {{ var "body-font-size" }};
-    font-weight: {{ var "body-font-weight" }};
-    line-height: {{ var "body-line-height" }};
-    color: {{ var "body-color" }};
-    background-color: {{ var "body-bg" }};
-    text-align: {{ var "body-text-align" }};
+    font-family: var(body-font-family);
+    font-size:   var(body-font-size);
+    font-weight: var(body-font-weight);
+    line-height: var(body-line-height);
+    color: var(body-color);
+    background-color: var(body-bg);
+    text-align: var(body-text-align);
 }
 
 hr {
@@ -70,11 +70,11 @@ code,
 kbd,
 samp,
 pre {
-	font-family: {{ var "code-font-family" }};
-	font-size: {{ var "code-font-size" }};
+	font-family: var(code-font-family);
+	font-size: var(code-font-size);
 }
 small, .small {
-    font-size: {{ var "small-font-size" }};
+    font-size: var(small-font-size);
 }
 sub,
 sup {

@@ -11,9 +11,9 @@
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
-  color: {{ var "table-color" }};
-  background-color: {{ var "table-background-color" }};
-  border-bottom-width: {{ var "border-width" }};
+  color: var(table-color);
+  background-color: var(table-background-color);
+  border-bottom-width: var(border-width);
 }
 .table > tbody {
   vertical-align: inherit;
@@ -34,10 +34,10 @@
   -webkit-overflow-scrolling: touch;
 }
 .table-bordered > :not(caption) > * {
-  border-width: {{ var "border-width" }} 0;
+  border-width: var(border-width) 0;
 }
 .table-bordered > :not(caption) > * > * {
-  border-width: 0 {{ var "border-width" }};
+  border-width: 0 var(border-width);
 }
 
 .table-borderless > :not(caption) > * > * {
