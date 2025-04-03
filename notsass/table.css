@@ -1,0 +1,48 @@
+{{- default "root" `
+    table-color: var(body-color);
+    table-background-color: var(body-bg);
+    `
+-}}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  vertical-align: top;
+}
+.table > :not(caption) > * > * {
+  padding: 0.5rem 0.5rem;
+  color: {{ var "table-color" }};
+  background-color: {{ var "table-background-color" }};
+  border-bottom-width: {{ var "border-width" }};
+}
+.table > tbody {
+  vertical-align: inherit;
+}
+.table > thead {
+    vertical-align: bottom;
+}
+
+.caption-top {
+  caption-side: top;
+}
+
+.table-sm > :not(caption) > * > * {
+  padding: 0.25rem 0.25rem;
+}
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.table-bordered > :not(caption) > * {
+  border-width: {{ var "border-width" }} 0;
+}
+.table-bordered > :not(caption) > * > * {
+  border-width: 0 {{ var "border-width" }};
+}
+
+.table-borderless > :not(caption) > * > * {
+  border-bottom-width: 0;
+}
+.table-borderless > :not(:first-child) {
+  border-top-width: 0;
+}

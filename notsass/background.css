@@ -1,0 +1,127 @@
+
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: var(primary) !important;
+}
+
+.bg-secondary {
+  --bs-bg-opacity: 1;
+  background-color: var(secondary) !important;
+}
+
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: var(success) !important;
+}
+
+.bg-info {
+  --bs-bg-opacity: 1;
+  background-color: var(info-rgb) !important;
+}
+
+.bg-warning {
+  --bs-bg-opacity: 1;
+  background-color: var(warning) !important;
+}
+
+.bg-danger {
+  --bs-bg-opacity: 1;
+  background-color: var(danger) !important;
+}
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: var(light) !important;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: var(dark) !important;
+}
+
+.bg-black {
+  --bs-bg-opacity: 1;
+  background-color: var(black) !important;
+}
+
+.bg-white {
+  --bs-bg-opacity: 1;
+  background-color: var(white) !important;
+}
+
+.bg-body {
+  --bs-bg-opacity: 1;
+  background-color: var(body-bg) !important;
+}
+
+.bg-transparent {
+  --bs-bg-opacity: 1;
+  background-color: transparent !important;
+}
+
+.bg-body-secondary {
+  --bs-bg-opacity: 1;
+  background-color: var(secondary-bg) !important;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: var(tertiary-bg) !important;
+}
+
+.bg-opacity-10 {
+  --bs-bg-opacity: 0.1;
+}
+
+.bg-opacity-25 {
+  --bs-bg-opacity: 0.25;
+}
+
+.bg-opacity-50 {
+  --bs-bg-opacity: 0.5;
+}
+
+.bg-opacity-75 {
+  --bs-bg-opacity: 0.75;
+}
+
+.bg-opacity-100 {
+  --bs-bg-opacity: 1;
+}
+
+.bg-primary-subtle {
+  background-color: var(primary-bg-subtle) !important;
+}
+
+.bg-secondary-subtle {
+  background-color: var(secondary-bg-subtle) !important;
+}
+
+.bg-success-subtle {
+  background-color: var(success-bg-subtle) !important;
+}
+
+.bg-info-subtle {
+  background-color: var(info-bg-subtle) !important;
+}
+
+.bg-warning-subtle {
+  background-color: var(warning-bg-subtle) !important;
+}
+
+.bg-danger-subtle {
+  background-color: var(danger-bg-subtle) !important;
+}
+
+.bg-light-subtle {
+  background-color: var(light-bg-subtle) !important;
+}
+
+.bg-dark-subtle {
+  background-color: var(dark-bg-subtle) !important;
+}
+
+.bg-gradient {
+  background-image: var(gradient) !important;
+}
+

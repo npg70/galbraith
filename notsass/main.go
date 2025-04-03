@@ -2,8 +2,9 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"log"
-	"os"
+	"strings"
 	"text/template"
 )
 
@@ -13,14 +14,33 @@ func init() {
 	flag.StringVar(&inputFile, "input", "", "input css template file name")
 }
 
+type Globals struct {
+	Namespace string
+	Prefix    string
+	Resources map[string]map[string]string
+	Params    map[string]string
+}
+
 func main() {
 	flag.Parse()
 	if inputFile == "" {
 		flag.PrintDefaults()
 		return
 	}
+
+	g := Globals{}
+	defaults := make(map[string]map[string]string)
+	g.Resources = defaults
+	g.Namespace = "ng"
+	g.Prefix = namespaceToPrefix(g.Namespace)
+	vars := make(map[string]map[string]string)
+	vars["root"] = make(map[string]string)
+
 	funcMap := template.FuncMap{
-		"rgb": hexToRGB,
+		"rgb":     hexToRGB,
+		"def":     MakeCssDefine(namespaceToPrefix(g.Namespace)),
+		"var":     MakeCssVar(namespaceToPrefix(g.Namespace)),
+		"default": DefaultFunc(defaults),
 	}
 
 	tmpl := template.New(inputFile).Funcs(funcMap)
@@ -30,9 +50,24 @@ func main() {
 		log.Fatalf("parseglob: %s", err)
 	}
 
+	head := strings.Builder{}
+	body := strings.Builder{}
 	// Run the template to verify the output.
-	err = tmpl.Execute(os.Stdout, nil)
+	err = tmpl.Execute(&body, &g)
 	if err != nil {
-		log.Fatalf("execution: %s", err)
+		log.Fatalf("body execution: %s", err)
 	}
+	log.Printf("Got %d themes", len(g.Resources))
+
+	headTemplate := tmpl.Lookup("head.css")
+	err = headTemplate.Execute(&head, &g)
+	if err != nil {
+		log.Fatalf("head execution: %s", err)
+	}
+
+	// convert raw `var(foo)` into `var(--foo)` or `var(--prefix-foo)`
+	fileout := addPrefixToVar(g.Namespace,
+		head.String()+body.String())
+
+	fmt.Println(fileout)
 }
