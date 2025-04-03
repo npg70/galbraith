@@ -64,6 +64,15 @@ func ParseRules(rules string) (map[string]string, error) {
 	return out, nil
 }
 
+func MergeThemes(vals map[string]map[string]string, defaults map[string]map[string]string) {
+	for theme, _ := range defaults {
+		if _, ok := vals[theme]; !ok {
+			vals[theme] = make(map[string]string)
+		}
+		MergeDefaults(vals[theme], defaults[theme])
+	}
+}
+
 // Mutates input
 func MergeDefaults(vals map[string]string, defaults map[string]string) {
 	for k, v := range defaults {
