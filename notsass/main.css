@@ -3,6 +3,7 @@
 {{ template "background.css" . }}
 {{ template "text.css" . }}
 {{ template "link.css" . }}
+{{ template "border.css" . }}
 {{ template "table.css" . }}
 {{ template "heading.css" . }}
 {{ template "spacing.css" . }}
