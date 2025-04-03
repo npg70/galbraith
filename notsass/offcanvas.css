@@ -173,7 +173,7 @@
   }
 }
 @media (max-width: 991.98px) and (prefers-reduced-motion: reduce) {
-  .offcanvas-lg {"
+  .offcanvas-lg {
     transition: none;
   }
 }
