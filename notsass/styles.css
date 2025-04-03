@@ -1,60 +1,36 @@
 {{ template "main.css" . }}
 
-:root {
-    --ng-body-font-size: 1.2rem;
-    --ng-border-width: 1px;
-    --ng-border-radius: 0.375rem;
+{{- property "root" `
+  body-font-size: 1.2rem;
+  body-font-family: "Source Serif", sans;
+  link-decoration: none;
+  link-hover-decoration: underline;
+`
+}}
 
-    --ng-link-decoration: none;
-    --ng-link-hover-decoration: underline;
+{{ template "source-serif.css" . }}
 
-    /* make text black
-     * was #212529, rgb(33, 37, 41)
-     */
-/*
-    --bs-emphasis-color: #000;
-    --bs-emphasis-color-rgb: 0, 0, 0;
-    --bs-body-color: #000000;
-    --bs-body-color-rgb: 0,0,0;
+/* TBD if I want this? */
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
 
-    --bs-link-color: rgb(43,103,211);
-    --bs-link-color-rgb: 43,103,211;
-    --bs-link-hover-color: rgb(43,103,211);
-    --bs-link-hover-color-rgb: 43,103,211;
-    */
+blockquote {
+    line-spacing: 1.0;
+    font-size: 90%;
+
+    margin-top: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+
+    page-break-inside: avoid;
 }
-@font-face{
-    font-family: 'Source Serif';
-    font-display: normal;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('/galbraith/fonts/SourceSerif4-Regular.otf.woff2') format('woff2');
-}
-@font-face{
-    font-family: 'Source Serif';
-    font-weight: bold;
-    font-display: normal;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('/galbraith/fonts/SourceSerif4-Semibold.otf.woff2') format('woff2');
-}
-@font-face{
-    font-family: 'Source Serif';
-    font-weight: normal;
-    font-display: normal;
-    font-style: italic;
-    font-stretch: normal;
-    src: url('/galbraith/fonts/SourceSerif4-It.otf.woff2') format('woff2');
-}
-/* not currently used */
-@font-face{
-    font-family: 'Source Serif Subhead';
-    font-weight: 500;
-    font-display: normal;
-    font-style: normal;
-    font-stretch: normal;
-    src: url('/galbraith/fonts/SourceSerif4Subhead-Semibold.otf.woff2') format('woff2');
+
+/* Should be better way, and as a bootstrap default */
+td, th {
+    vertical-align: top;
 }
 
 /* set font to 100% (or inherit?)
@@ -64,17 +40,10 @@
  */
 .fs-100p { font-size: inherit; }
 
-/* Should be better way, and as a bootstrap default */
-td, th {
-    vertical-align: top;
-}
 
 /* why do I have this? */
 .w-100n {
   width: 100%;
-}
-.border-bottom {
-  border-bottom: 1px solid  #dee2e6 !important;
 }
 
 .font-monospace {
@@ -83,20 +52,6 @@ td, th {
 .font-sans {
   font-family: var(font-family-system-sans-serif) !important;
 }
-
-body {
-    font-size: var(body-font-size);
-    font-family: "Source Serif", sans;
-    font-synthesis: none;
-
-    /* Turn on ligatures,etc */
-    font-feature-settings: "kern" 1, "liga" 1;
-    text-rendering: optimizeLegibility;
-   
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
 /* should be font-smallcaps */
 .text-smallcaps {
     font-variant-caps: small-caps;
@@ -126,27 +81,6 @@ body {
     page-break-inside: avoid;
 }
 
-small, .small {
-  font-size: 0.8125em;
-}
-
-p {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
-
-blockquote {
-    line-spacing: 1.0;
-    font-size: 90%;
-
-    margin-top: 0.5em;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-bottom: 0.5em;
-
-    page-break-inside: avoid;
-}
-
 .white-space-pre {
     white-space: pre;
 }
@@ -155,16 +89,6 @@ blockquote {
 }
 .white-space-pre-line {
     white-space: pre-line;
-}
-
-/* unclear how much is needed */
-sup {
-    position: relative;
-    vertical-align: baseline;
-    font-size: 100%;
-    font-variant-position: super;
-    top: 0;
-    line-height: 0;
 }
 
 .width-100r {
@@ -190,7 +114,6 @@ ul.todos li {
     margin-left: 0;
     padding-left: 2rem;
 }
-
 ul.notes {
     list-style-type: "\2799";
     list-style-position: outside;
