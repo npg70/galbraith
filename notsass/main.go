@@ -29,18 +29,21 @@ func main() {
 	}
 
 	g := Globals{}
+
 	defaults := make(map[string]map[string]string)
-	g.Resources = defaults
+	properties := make(map[string]map[string]string)
+
 	g.Namespace = "ng"
 	g.Prefix = namespaceToPrefix(g.Namespace)
 	vars := make(map[string]map[string]string)
 	vars["root"] = make(map[string]string)
 
 	funcMap := template.FuncMap{
-		"rgb":     hexToRGB,
-		"def":     MakeCssDefine(namespaceToPrefix(g.Namespace)),
-		"var":     MakeCssVar(namespaceToPrefix(g.Namespace)),
-		"default": DefaultFunc(defaults),
+		"rgb":      hexToRGB,
+		"def":      MakeCssDefine(namespaceToPrefix(g.Namespace)),
+		"var":      MakeCssVar(namespaceToPrefix(g.Namespace)),
+		"default":  DefaultFunc(defaults),
+		"property": DefaultFunc(properties),
 	}
 
 	tmpl := template.New(inputFile).Funcs(funcMap)
@@ -57,7 +60,11 @@ func main() {
 	if err != nil {
 		log.Fatalf("body execution: %s", err)
 	}
-	log.Printf("Got %d themes", len(g.Resources))
+
+	// at this point we have loaded all the defaults
+	// and all the overrides.  Merge them.
+	MergeThemes(properties, defaults)
+	g.Resources = properties
 
 	headTemplate := tmpl.Lookup("head.css")
 	err = headTemplate.Execute(&head, &g)
