@@ -1,0 +1,50 @@
+@font-face{
+    font-family: 'Source Serif';
+    font-display: normal;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/galbraith/fonts/SourceSerif4-Regular.otf.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'Source Serif';
+    font-weight: bold;
+    font-display: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/galbraith/fonts/SourceSerif4-Semibold.otf.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'Source Serif';
+    font-weight: normal;
+    font-display: normal;
+    font-style: italic;
+    font-stretch: normal;
+    src: url('/galbraith/fonts/SourceSerif4-It.otf.woff2') format('woff2');
+}
+/* not currently used */
+/*
+@font-face{
+    font-family: 'Source Serif Subhead';
+    font-weight: 500;
+    font-display: normal;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('/galbraith/fonts/SourceSerif4Subhead-Semibold.otf.woff2') format('woff2');
+}
+*/
+
+body {
+    font-synthesis: none;
+    font-feature-settings: "kern" 1, "liga" 1;
+    text-rendering: optimizeLegibility;
+}
+/* unclear how much is needed */
+sup {
+    position: relative;
+    vertical-align: baseline;
+    font-size: 100%;
+    font-variant-position: super;
+    top: 0;
+    line-height: 0;
+}
