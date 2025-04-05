@@ -4,6 +4,7 @@ import (
 	"flag"
 	"fmt"
 	"log"
+	"regexp"
 	"strings"
 	"text/template"
 )
@@ -19,6 +20,12 @@ type Globals struct {
 	Prefix    string
 	Resources map[string]map[string]string
 	Params    map[string]string
+	Arg       any
+}
+
+func (g *Globals) WithArg(v any) *Globals {
+	g.Arg = v
+	return g
 }
 
 func main() {
@@ -46,7 +53,7 @@ func main() {
 		"property": DefaultFunc(properties),
 	}
 
-	tmpl := template.New(inputFile).Funcs(funcMap)
+	tmpl := template.New(inputFile).Funcs(funcMap).Funcs(FuncMapMath)
 
 	tmpl, err := tmpl.ParseGlob("*.css")
 	if err != nil {
@@ -74,7 +81,10 @@ func main() {
 
 	// convert raw `var(foo)` into `var(--foo)` or `var(--prefix-foo)`
 	fileout := addPrefixToVar(g.Namespace,
-		head.String()+body.String())
+		head.String()+"\n"+body.String())
 
-	fmt.Println(fileout)
+	// strip out repeated newlines (from golang templates)
+	var newlinesRun = regexp.MustCompile("\n\n+")
+	fileout = newlinesRun.ReplaceAllString(fileout, "\n")
+	fmt.Println(strings.TrimSpace(fileout))
 }
