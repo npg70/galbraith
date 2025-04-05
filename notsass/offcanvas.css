@@ -1,4 +1,4 @@
-{{- default "root" `
+{{ default "root" `
     offcanvas-zindex: 1045;
     offcanvas-width: 400px;
     offcanvas-height: 30vh;
@@ -9,24 +9,25 @@
     offcanvas-title-line-height: 1.5;
     offcanvas-box-shadow: var(box-shadow-sm);
     `
--}}
-{{- default "light" `
+}}
+{{ default "light" `
     offcanvas-color: var(body-color);
     offcanvas-bg: var(body-bg);
     offcanvas-border-color: var(border-color);
    `
--}}
+}}
+{{ default "dark" `
+    offcanvas-color: var(body-color);
+    offcanvas-bg: var(body-bg);
+    offcanvas-border-color: var(border-color);
+   `
+}}
 
-{{- default "dark" `
-    offcanvas-color: var(body-color);
-    offcanvas-bg: var(body-bg);
-    offcanvas-border-color: var(border-color);
-   `
--}}
+
 .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {
 }
 
-{{- define "offcanvas-base.css" }}
+{{ define "offcanvas-base.css" }}
     position: fixed;
     bottom: 0;
     z-index: var(offcanvas-zindex);
@@ -40,21 +41,21 @@
     outline: 0;
     transition: var(offcanvas-transition);
 {{ end }}
-{{- define "offcanvas-start.css" }}
+{{ define "offcanvas-start.css" }}
     top: 0;
     left: 0;
     width: var(offcanvas-width);
     border-right: var(offcanvas-border-width) solid var(offcanvas-border-color);
     transform: translateX(-100%);
 {{ end }}
-{{- define "offcanvas-end.css" }}
+{{ define "offcanvas-end.css" }}
     top: 0;
     right: 0;
     width: var(offcanvas-width);
     border-left: var(offcanvas-border-width) solid var(offcanvas-border-color);
     transform: translateX(100%);
 {{ end }}
-{{- define "offcanvas-top.css" }}
+{{ define "offcanvas-top.css" }}
     top: 0;
     right: 0;
     left: 0;
@@ -63,7 +64,7 @@
     border-bottom: var(offcanvas-border-width) solid var(offcanvas-border-color);
     transform: translateY(-100%);
 {{ end }}
-{{- define "offcanvas-bottom.css" }}
+{{ define "offcanvas-bottom.css" }}
     right: 0;
     left: 0;
     height: var(offcanvas-height);
@@ -71,6 +72,8 @@
     border-top: var(offcanvas-border-width) solid var(offcanvas-border-color);
     transform: translateY(100%);
 {{ end }}
+
+
 @media (max-width: 575.98px) {
   .offcanvas-sm {
       {{ template "offcanvas-base.css" . }}
