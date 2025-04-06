@@ -34,7 +34,7 @@
 	box-sizing: border-box;
 }
 
-html {
+body {
     margin: 0;
     tab-size: {{ $TabSize }};
     -webkit-text-size-adjust: 100%;
@@ -110,4 +110,15 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
