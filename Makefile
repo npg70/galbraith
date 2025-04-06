@@ -4,17 +4,17 @@ combined: serve
 hugo/public:
 	mkdir -p hugo/public
 
-build: hugo/public hugo/static/darker.css
+build: hugo/public
+	cd notsass && make
 	cp -rf hugo/static/* hugo/public/
 	go run . -out hugo/public
 
 test:
 	go test .
 
-hugo/static/darker.css: notsass/tailwind-dark.css
-	cd notsass && go run . -input 'tailwind-dark.css' > ../hugo/static/darker.css
 
-serve: hugo/public hugo/static/darker.css
+serve: 
+	cd notsass && make
 	cp -rf hugo/static/* hugo/public/
 	go run . -out hugo/public -serve
 
