@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"regexp"
 	"strings"
 )
@@ -121,7 +120,6 @@ func DefaultFunc(defaults map[string]map[string]string) func(string, string) (st
 		}
 		// add or overwrite existing values
 		for k, v := range lines {
-			log.Printf("%s %s=%s", name, k, v)
 			orig[k] = v
 		}
 		return "", nil
