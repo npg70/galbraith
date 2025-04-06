@@ -15,4 +15,6 @@
 {{ template "btn-close.css" . }}
 {{ template "nav.css" . }}
 {{ template "navbar.css" . }}
+{{/* sticky needs to come after navbar */}}
+{{ template "sticky.css" . }}
 
