@@ -1,11 +1,10 @@
-{{- default "root" `
-    heading-font-weight: 500;
-    heading-line-height: 1.4;
-`
--}}
-{{- default "light" `
-    heading-color: inherit;
-`}}
+{{ Root
+    "heading-font-weight" "500"
+    "heading-line-height" "1.4"
+}}
+{{ Theme "light" 
+    "heading-color" "inherit"
+}}
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;

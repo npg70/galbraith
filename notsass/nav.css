@@ -1,19 +1,18 @@
-{{- default "root" `
-  nav-link-padding-x: 1rem;
-  nav-link-padding-y: 0.5rem;
-  nav-link-font-weight: ;
-`
+{{ Root
+  "nav-link-padding-x" "1rem"
+  "nav-link-padding-y" "0.5rem"
+  "nav-link-font-weight" "" 
 }}
-{{- default "light" `
-  nav-link-color: var(link-color);
-  nav-link-hover-color: var(link-hover-color);
-  nav-link-disabled-color: var(secondary-color);
-`}}
-{{- default "dark" `
-  nav-link-color: var(link-color);
-  nav-link-hover-color: var(link-hover-color);
-  nav-link-disabled-color: var(secondary-color);
-`}}
+{{ Theme "light"
+  "nav-link-color" "var(link-color)"
+  "nav-link-hover-color" "var(link-hover-color)"
+  "nav-link-disabled-color" "var(secondary-color)"
+}}
+{{ Theme "dark"
+  "nav-link-color" "var(link-color)"
+  "nav-link-hover-color" "var(link-hover-color)"
+  "nav-link-disabled-color" "var(secondary-color)"
+}}
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -51,18 +50,16 @@
   cursor: default;
 }
 
-{{- default "root" `
-  nav-tabs-border-width: var(border-width);
-  nav-tabs-border-radius: var(border-radius);
-`
+{{ Root
+  "nav-tabs-border-width" "var(border-width)"
+  "nav-tabs-border-radius" "var(border-radius)"
 }}
-{{- default "light" `
-  nav-tabs-border-color: var(border-color);
-  nav-tabs-link-hover-border-color: var(secondary-bg) var(secondary-bg) var(border-color);
-  nav-tabs-link-active-color: var(emphasis-color);
-  nav-tabs-link-active-bg: var(body-bg);
-  nav-tabs-link-active-border-color: var(border-color) var(border-color) var(body-bg);
-`
+{{ Theme "light"
+  "nav-tabs-border-color" "var(border-color)"
+  "nav-tabs-link-hover-border-color" "var(secondary-bg) var(secondary-bg) var(border-color)"
+  "nav-tabs-link-active-color" "var(emphasis-color)"
+  "nav-tabs-link-active-bg" "var(body-bg)"
+  "nav-tabs-link-active-border-color" "var(border-color) var(border-color) var(body-bg)"
 }}
 
 .nav-tabs {

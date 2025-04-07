@@ -1,11 +1,10 @@
 {{ template "main.css" . }}
-
-{{- property "root" `
-  body-font-size: 1.2rem;
-  body-font-family: "Source Serif", sans;
-  link-decoration: none;
-  link-hover-decoration: underline;
-`
+{{ template "m3-dark.css" . }}
+{{ Root
+   "body-font-size" "1.2rem"
+   "body-font-family" `"Source Serif", sans`
+   "link-decoration" "none"
+   "link-hover-decoration" "underline"
 }}
 
 {{ template "source-serif.css" . }}

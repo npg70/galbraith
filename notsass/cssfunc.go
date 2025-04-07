@@ -37,8 +37,26 @@ func namespaceToPrefix(namespace string) string {
 	return prefix
 }
 
-func ParseRules(rules string) (map[string]string, error) {
-	out := make(map[string]string)
+func MergeThemes(vals map[string]map[string]string, defaults map[string]map[string]string) {
+	for theme, _ := range defaults {
+		if _, ok := vals[theme]; !ok {
+			vals[theme] = make(map[string]string)
+		}
+		MergeDefaults(vals[theme], defaults[theme])
+	}
+}
+
+// Mutates input
+func MergeDefaults(vals map[string]string, defaults map[string]string) {
+	for k, v := range defaults {
+		if _, ok := vals[k]; !ok {
+			vals[k] = v
+		}
+	}
+}
+
+func ParseRules(rules string) (map[string]any, error) {
+	out := make(map[string]any)
 	lines := strings.Split(rules, "\n")
 	for _, line := range lines {
 		// remove leading and trailing whitespace
@@ -63,65 +81,90 @@ func ParseRules(rules string) (map[string]string, error) {
 	return out, nil
 }
 
-func MergeThemes(vals map[string]map[string]string, defaults map[string]map[string]string) {
-	for theme, _ := range defaults {
-		if _, ok := vals[theme]; !ok {
-			vals[theme] = make(map[string]string)
-		}
-		MergeDefaults(vals[theme], defaults[theme])
+// Options
+//
+//	returns the backing map[string]any allowing full use of
+//	golang template functions (iteration, index)
+//
+// Options val:string
+//
+//	Evaluates val as a "properties file", over-writing any values
+//
+// Options (map[string]any)
+//
+//	copies the map, over-writing any values
+//
+// Options key1:string val1:any ...
+//
+// Options "theme" | Options
+func OptionFunc(omap MapAny) func(...any) (any, error) {
+	return func(args ...any) (any, error) {
+		return omap.fromArgs(args...)
 	}
 }
 
-// Mutates input
-func MergeDefaults(vals map[string]string, defaults map[string]string) {
-	for k, v := range defaults {
-		if _, ok := vals[k]; !ok {
-			vals[k] = v
+// OptionTheme is a map of "themes" to MapAnys
+// A theme is just a collection of related items.
+//
+// If a theme does not exist, a new MapAny is created.
+func OptionThemeFunc(omap MapAny) func(...any) (any, error) {
+	return func(args ...any) (any, error) {
+		if len(args) == 0 {
+			return omap, nil
 		}
+		theme, ok := args[0].(string)
+		if !ok {
+			return nil, fmt.Errorf("expected string name for theme, got %v", args[0])
+		}
+		val, ok := omap[theme]
+		if !ok {
+			val = make(MapAny)
+			omap[theme] = val
+		}
+		return val.(MapAny).fromArgs(args[1:]...)
 	}
 }
 
-func MakeSetVars(vars map[string]string) func(string) error {
-	return func(rules string) error {
-		rulemap, err := ParseRules(rules)
-		if err != nil {
-			return err
-		}
-		// OVER-WRITE
-		for k, v := range rulemap {
-			vars[k] = v
-		}
-		return nil
-	}
+type MapAny map[string]any
 
-}
-func MakeDefaultVar(vars map[string]string) func(string) error {
-	return func(rules string) error {
-		defaults, err := ParseRules(rules)
-		if err != nil {
-			return err
-		}
-		// ADD IF MISSING
-		MergeDefaults(vars, defaults)
-		return nil
+func (m MapAny) fromArgs(args ...any) (any, error) {
+	if len(args) == 0 {
+		return m, nil
 	}
-}
-
-func DefaultFunc(defaults map[string]map[string]string) func(string, string) (string, error) {
-	// TODO change sig to "rules ...string" and process each separately
-	return func(name string, rules string) (string, error) {
-		if defaults[name] == nil {
-			defaults[name] = make(map[string]string)
+	if len(args) == 1 {
+		switch v := args[0].(type) {
+		case string:
+			dict, err := ParseRules(v)
+			if err != nil {
+				return "", err
+			}
+			for k, prop := range dict {
+				m[k] = prop
+			}
+			return "", nil
+		case MapAny:
+			for k, prop := range v {
+				m[k] = prop
+			}
+			return "", nil
+		case map[string]any:
+			for k, prop := range v {
+				m[k] = prop
+			}
+			return "", nil
+		default:
+			return "", fmt.Errorf("Expected a string or dict, got %v", v)
 		}
-		orig := defaults[name]
-		lines, err := ParseRules(rules)
-		if err != nil {
-			return "", err
-		}
-		// add or overwrite existing values
-		for k, v := range lines {
-			orig[k] = v
-		}
-		return "", nil
 	}
+	if len(args)%2 != 0 {
+		return "", fmt.Errorf("expected 0,1 or even number of args, got %d", len(args))
+	}
+	for i := 0; i < len(args); i += 2 {
+		key, ok := args[i].(string)
+		if !ok {
+			return "", fmt.Errorf("expected string for key %v at pos %d", args[i], i)
+		}
+		m[key] = args[i+1]
+	}
+	return "", nil
 }

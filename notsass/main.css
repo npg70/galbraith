@@ -1,3 +1,4 @@
+{{ template "options.css" . }}
 {{ template "color.css" . }}
 {{ template "reset.css" . }}
 {{ template "background.css" . }}
@@ -7,7 +8,14 @@
 {{ template "table.css" . }}
 {{ template "heading.css" . }}
 {{ template "size.css" . }}
-{{ template "bootstrap-grid.css" . }}
+{{ template "grid.css" . }}
+{{/* template "grid-sm.css" .  */}}
+{{/* template "grid-md.css" .    */}}
+{{ template "grid-lg.css" . }}
+{{/* template "grid-xl.css" .  */}}
+{{/* template "grid-xxl.css" . */}}
+{{/* template "grid-all.css" . */}}
+{{/* template "bootstrap-grid.css" . */}}
 {{ template "vr.css" . }}
 {{ template "offcanvas.css" . }}
 {{ template "dropdown.css" . }}

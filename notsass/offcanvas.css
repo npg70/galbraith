@@ -1,4 +1,4 @@
-{{ default "root" `
+{{ Root `
     offcanvas-zindex: 1045;
     offcanvas-width: 400px;
     offcanvas-height: 30vh;
@@ -10,13 +10,13 @@
     offcanvas-box-shadow: var(box-shadow-sm);
     `
 }}
-{{ default "light" `
+{{ Theme "light" `
     offcanvas-color: var(body-color);
     offcanvas-bg: var(body-bg);
     offcanvas-border-color: var(border-color);
    `
 }}
-{{ default "dark" `
+{{ Theme "dark" `
     offcanvas-color: var(body-color);
     offcanvas-bg: var(body-bg);
     offcanvas-border-color: var(border-color);

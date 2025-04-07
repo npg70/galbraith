@@ -1,8 +1,7 @@
-{{- default "root" `
-    table-color: var(body-color);
-    table-background-color: var(body-bg);
-    `
--}}
+{{ Root
+    "table-color" "var(body-color)"
+    "table-background-color" "var(body-bg)"
+}}
 
 .table {
   width: 100%;

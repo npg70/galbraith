@@ -1,11 +1,10 @@
-{{ default "root" `
-  breakpoint-xs: 0;
-  breakpoint-sm: 576px;
-  breakpoint-md: 768px;
-  breakpoint-lg: 992px; 
-  breakpoint-xl: 1200px;
-  breakpoint-xxl: 1400px;
-  `
+{{ Root
+  "breakpoint-xs"  Config.BreakpointXSmall
+  "breakpoint-sm"  Config.BreakpointSmall
+  "breakpoint-md"  Config.BreakpointMedium
+  "breakpoint-lg"  Config.BreakpointLarge
+  "breakpoint-xl"  Config.BreakpointXLarge
+  "breakpoint-xxl" Config.BreakpointXXLarge
 }}
 {{/* 
    iPhone SE 2020: 375 x 667
@@ -68,8 +67,16 @@
 .g-{{ $p }}4, .gy-{{ $p }}4 { --bs-gutter-y: 1.5rem; }
 .g-{{ $p }}5, .gx-{{ $p }}5 { --bs-gutter-x: 3rem; }
 .g-{{ $p }}5, .gy-{{ $p }}5 { --bs-gutter-y: 3rem; }
-.d-{{ $p }}inline { display: inline !important; }
+.float-{{ $p }}start { float: left !important; }
+.float-{{ $p }}end { float: right !important; }
+.float-{{ $p }}none { float: none !important; }
+.object-fit-{{ $p }}contain { object-fit: contain !important; }
+.object-fit-{{ $p }}cover { object-fit: cover !important; }
+.object-fit-{{ $p }}fill { object-fit: fill !important; }
+.object-fit-{{ $p }}scale { object-fit: scale-down !important; }
+.object-fit-{{ $p }}none { object-fit: none !important; }
 .d-{{ $p }}inline-block { display: inline-block !important; }
+.d-{{ $p }}inline { display: inline !important; }
 .d-{{ $p }}block { display: block !important; }
 .d-{{ $p }}grid { display: grid !important; }
 .d-{{ $p }}inline-grid { display: inline-grid !important; }
@@ -79,6 +86,18 @@
 .d-{{ $p }}flex { display: flex !important; }
 .d-{{ $p }}inline-flex { display: inline-flex !important; }
 .d-{{ $p }}none { display: none !important; }
+.flex-{{ $p }}fill { flex: 1 1 auto !important; }
+.flex-{{ $p }}row { flex-direction: row !important; }
+.flex-{{ $p }}column { flex-direction: column !important; }
+.flex-{{ $p }}row-reverse { flex-direction: row-reverse !important; }
+.flex-{{ $p }}column-reverse { flex-direction: column-reverse !important; }
+.flex-{{ $p }}grow-0 { flex-grow: 0 !important; }
+.flex-{{ $p }}grow-1 { flex-grow: 1 !important; }
+.flex-{{ $p }}shrink-0 { flex-shrink: 0 !important; }
+.flex-{{ $p }}shrink-1 { flex-shrink: 1 !important; }
+.flex-{{ $p }}wrap { flex-wrap: wrap !important; }
+.flex-{{ $p }}nowrap { flex-wrap: nowrap !important; }
+.flex-{{ $p }}wrap-reverse { flex-wrap: wrap-reverse !important; }
 .justify-content-{{ $p }}start { justify-content: flex-start !important; }
 .justify-content-{{ $p }}end { justify-content: flex-end !important; }
 .justify-content-{{ $p }}center { justify-content: center !important; }
@@ -201,6 +220,12 @@
 .ps-{{ $p }}3 { padding-left: 1rem !important; }
 .ps-{{ $p }}4 { padding-left: 1.5rem !important; }
 .ps-{{ $p }}5 { padding-left: 3rem !important; }
+{{/* TBD: .gap- */}}
+{{/* TBD: .rowgap- */}}
+{{/* TBD: .column-gap- */}}
+.text-{{ $p }}start { text-align: left !important; }
+.text-{{ $p }}end { text-align: right !important; }
+.text-{{ $p }}center { text-align: center !important; }
 {{ end }}
 
 {{ template "grid" (.WithArg "") }}
@@ -220,27 +245,27 @@
   margin-left: auto;
 }
 
-@media (min-width: var(breakpoint-sm)) {
+@media (min-width: {{ Config.BreakpointSmall }}) {
   .container-sm, .container {
     max-width: 540px; /* 18 each, 540/12 = 45 */
   }
 }
-@media (min-width: var(breakpoint-md)) {
+@media (min-width: {{ Config.BreakpointMedium }}) {
   .container-md, .container-sm, .container {
     max-width: 720px; /* 24, 720/12 = 60 */
   }
 }
-@media (min-width: var(breakpoint-lg)) {
+@media (min-width: {{ Config.BreakpointLarge }}) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px; /* margin 16, 960/12 = 80 */
   }
 }
-@media (min-width: var(breakpoint-xl)) {
+@media (min-width: {{ Config.BreakpointXLarge }}) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px; /* 30, 1140/12 = 95  */
   }
 }
-@media (min-width: var(breakpoint-xxl)) {
+@media (min-width: {{ Config.BreakpointXXLarge }}) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;  /* 40px each side, 1320/12 = 110 */
   }
@@ -264,15 +289,3 @@
   margin-top: var(--bs-gutter-y);
 }
 
-.flex-fill { flex: 1 1 auto !important; }
-.flex-row { flex-direction: row !important; }
-.flex-column { flex-direction: column !important; }
-.flex-row-reverse { flex-direction: row-reverse !important; }
-.flex-column-reverse { flex-direction: column-reverse !important; }
-.flex-grow-0 { flex-grow: 0 !important; }
-.flex-grow-1 { flex-grow: 1 !important; }
-.flex-shrink-0 { flex-shrink: 0 !important; }
-.flex-shrink-1 { flex-shrink: 1 !important; }
-.flex-wrap { flex-wrap: wrap !important; }
-.flex-nowrap { flex-wrap: nowrap !important; }
-.flex-wrap-reverse { flex-wrap: wrap-reverse !important; }

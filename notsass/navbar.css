@@ -1,4 +1,4 @@
-{{- default "root" `
+{{ Root `
     navbar-padding-x: 0;
     navbar-padding-y: 0.5rem;
     navbar-brand-padding-y: 0.3125rem;
@@ -13,8 +13,8 @@
     navbar-toggler-focus-width: 0.25rem;
     navbar-toggler-transition: box-shadow 0.15s ease-in-out;
     `
--}}
-{{- default "light" `
+}}
+{{ Theme "light" `
     navbar-color: color-mix(in srgb, var(emphasis-color) 65%, transparent);
     navbar-hover-color: color-mix(in srgb, var(emphasis-color) 80%, transparent);
     navbar-disabled-color: color-mix(in srgb, var(emphasis-color) 30%, transparent);
@@ -27,7 +27,7 @@
     navbar-nav-link-disabled-color: var(navbar-disabled-color);
     `
 }}
-{{- default "dark" `
+{{ Theme "dark" `
     navbar-color: rgb(255 255 255 / 55%);
     navbar-hover-color: color-mix(in srgb, var(emphasis-color) 75%, transparent);
     navbar-disabled-color: rgb(255 255 255 / 25%);
@@ -40,7 +40,7 @@
     navbar-nav-link-hover-color: var(navbar-hover-color);
     navbar-nav-link-disabled-color: var(navbar-disabled-color);
 `
--}}
+}}
 
 .navbar {
   position: relative;

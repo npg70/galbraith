@@ -1,17 +1,17 @@
-{{- with .Resources.root }}
+{{- with Root }}
 :root {
 {{ range $k, $v := . }}{{- printf "  %s%s: %s;\n" $.Prefix $k $v }}{{ end -}}
 }
 {{ end }}
-{{ with .Resources.light -}}
-:root,
-[data-bs-theme="light"] {
+
+{{ with Theme "light" }}
+:root,[data-bs-theme="light"] {
     {{ range $k, $v := . }}{{- printf "  %s%s: %s;\n" $.Prefix $k $v }}{{ end -}}
 }
 {{ end }}
-{{ with .Resources }}
+{{ with Theme }}
   {{- range $theme, $map :=  . }}
-    {{- if (not (or (eq $theme "root") (eq $theme "light"))) }}
+    {{- if (not (eq $theme "light")) }}
 [data-bs-theme="{{ $theme }}"] {
     color-scheme: {{ $theme }};
 {{ range $k,$v := $map }}{{ printf "  %s%s: %s;\n" $.Prefix $k $v }}{{ end -}}

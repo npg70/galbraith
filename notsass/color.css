@@ -1,4 +1,4 @@
-{{- default "root" `
+{{ Root `
   blue: #0d6efd;
   indigo: #6610f2;
   purple: #6f42c1;
@@ -23,8 +23,8 @@
   gray-800: #343a40;
   gray-900: #212529;
   `
--}}
-{{- default "light" `
+}}
+{{ Theme "light" `
   body-color: #212529;
   body-bg: #fff;
   border-color: #dee2e6;
@@ -73,8 +73,8 @@
   light-border-subtle: #e9ecef;
   dark-border-subtle: #adb5bd;
   `
--}}
-{{- default "dark" `
+}}
+{{ Theme "dark" `
   body-color: #dee2e6;
   body-bg: #212529;
   border-color: #495057;
@@ -111,5 +111,5 @@
   danger-border-subtle: #842029;
   light-border-subtle: #495057;
   dark-border-subtle: #343a40;
-`            
+`
 }}

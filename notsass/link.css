@@ -1,17 +1,14 @@
-{{- default "root" `
-  link-decoration: underline;
-  link-hover-decoration: underline;
-`
+{{ Root
+  "link-decoration" "underline"
+  "link-hover-decoration" "underline"
 }}
-{{- default "light" `
-  link-color: #0d6efd;
-  link-hover-color: #0a58ca;
-`
+{{ Theme "light" 
+  "link-color" "#0d6efd"
+  "link-hover-color" "#0a58ca"
 }}
-{{- default "dark" `
-  link-color: #6ea8fe;
-  link-hover-color: #8bb9fe;
-`
+{{ Theme "dark" 
+  "link-color" "#6ea8fe"
+  "link-hover-color" "#8bb9fe"
 }}
 
 a {

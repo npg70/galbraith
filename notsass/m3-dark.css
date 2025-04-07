@@ -1,60 +1,95 @@
-{{- /*
+{{/*
 Material M3 Dark Theme
 
 Based on Bootstrap 5.3.3 and Google's Material Design M3
     
 */}}
-{{- $gray050 := "#fafafa" }}
-{{- $gray100 := "#f5f5f5" }}
-{{- $gray200 := "#e5e5e5" }}
-{{- $gray300 := "#d4d4d4" }}
-{{- $gray400 := "#a3a3a3" }}
-{{- $gray500 := "#737373" }}
-{{- $gray600 := "#525252" }}
-{{- $gray700 := "#404040" }}
-{{- $gray800 := "#262626" }}
-{{- $gray900 := "#171717" }}
-{{- $gray950 := "#0a0a0a" -}}
+{{ Root
+   "gray050" "#fafafa"
+   "gray100" "#f5f5f5"
+   "gray200" "#e5e5e5"
+   "gray300" "#d4d4d4"
+   "gray400" "#a3a3a3"
+   "gray500" "#737373"
+   "gray600" "#525252"
+   "gray700" "#404040"
+   "gray800" "#262626"
+   "gray900" "#171717"
+   "gray950" "#0a0a0a"
+   "gray"      "var(gray500)" 
+   "gray-dark" "var(gray700)"
+}}
 
-{{- $Surface := "#141218" -}}
-{{- $OnSurface := "#e6e0e9" -}}
-{{- $SurfaceVariant := "#49454f" -}}
-{{- $OnSurfaceVariant := "#cac4d0" -}}
-{{- $SurfaceContainer := "#211f26" }}
-{{- $SurfaceContainerLow := "#1d1b20" -}}
-{{- $SurfaceContainerLowest := "#0f0d13" -}}
-{{- $SurfaceContainerHigh := "#2b2930" -}}
-{{- $SurfaceContainerHighest := "#36343b" -}}
-{{- $Outline := "#938f99" -}}
-{{- $OutlineVariant := "#49454f" -}}
+{{ $M3LightSurface                  := "#FEF7FF" }}
+{{ $M3LightOnSurface                := "#1D1B20" }}
+{{ $M3LightSurfaceVariant           := "#E7E0EC" }}
+{{ $M3LightOnSurfaceVariant         := "#49454F" }}
+{{ $M3LightSurfaceContainerHighest  := "#E6E0E9" }}
+{{ $M3LightSurfaceContainerHigh     := "#ECE6F0" }}
+{{ $M3LightSurfaceContainer         := "#F3EDF7" }}
+{{ $M3LightSurfaceContainerLow      := "#F7F2FA" }}
+{{ $M3LightSurfaceContainerLowest   := "#FFFFFF" }}
+{{ $M3LightPrimary                  := "#6750A4" }}
+{{ $M3LightOnPrimary                := "#FFFFFF" }}
+{{ $M3LightPrimaryContainer         := "#EADDFF" }}
+{{ $M3LightOnPrimaryContainer       := "#4F378B" }}
+{{ $M3LightSecondary                := "#625B71" }}
+{{ $M3LightOnSecondary              := "#FFFFFF" }}
+{{ $M3LightSecondaryContainer       := "#E8DEF8" }}
+{{ $M3LightOnSecondaryContainer     := "#4A4458" }}
+
+{{ $M3DarkSurface                 := "#141218" }}
+{{ $M3DarkOnSurface               := "#e6e0e9" }}
+{{ $M3DarkSurfaceVariant          := "#49454f" }}
+{{ $M3DarkOnSurfaceVariant        := "#cac4d0" }}
+{{ $M3DarkSurfaceContainer        := "#211f26" }}
+{{ $M3DarkPrimary                 := "#D0BCFF" }}
+{{ $M3DarkOnPrimary               := "#381E72" }}
+{{ $M3DarkSecondary               := "#CCC2DC" }}
+{{ $M3DarkOnSecondary             := "#332D41" }}
+{{ $M3DarkSecondaryContainer      := "#4A4458" }}
+{{ $M3DarkOnSecondaryContainer    := "#E8DEF8" }}
+{{ $M3DarkSurfaceContainerLow     := "#1d1b20" }}
+{{ $M3DarkSurfaceContainerLowest  := "#0f0d13" }}
+{{ $M3DarkSurfaceContainerHigh    := "#2b2930" }}
+{{ $M3DarkSurfaceContainerHighest := "#36343b" }}
+{{ $Outline                 := "#938f99" }}
+{{ $OutlineVariant          := "#49454f" }}
 
 :root {
     --bs-table-color: inherit;
 }
+{{ Theme "light"
+   "body-bg"          $M3LightSurfaceContainerLowest
+   "body-color"       $M3LightOnSurface
+   "secondary-bg"     $M3LightSurfaceContainer
+   "secondary-color"  $M3LightOnSurface
+   "link-color"       $M3LightPrimary
+   "navbar-color"     $M3LightOnSurfaceVariant
+   "offcanvas-bg"     $M3LightSurfaceContainerLowest
+   "offcanvas-color"  $M3LightOnSurfaceVariant
+   "dropdown-bg"      $M3LightSurfaceContainer
+   "dropdown-link-hover-bg"  (printf "color-mix(in srgb, %s 8%%, transparent)" $M3LightOnSurface)
 
-[data-bs-theme=dark] {
-  color-scheme: dark;
-  --bs-gray: {{ $gray500 }};      {{- /* was gray600 */}}
-  --bs-gray-dark: {{ $gray700 }}; {{- /* was gray800 */}}
-  --bs-gray-050: {{ $gray050 }};
-  --bs-gray-100: {{ $gray100 }};
-  --bs-gray-200: {{ $gray200 }};
-  --bs-gray-300: {{ $gray300 }};
-  --bs-gray-400: {{ $gray400 }};
-  --bs-gray-500: {{ $gray500 }};
-  --bs-gray-600: {{ $gray600 }};
-  --bs-gray-700: {{ $gray700 }};
-  --bs-gray-800: {{ $gray800 }};
-  --bs-gray-900: {{ $gray900 }};
-  --bs-body-color: {{ $OnSurface }}; {{- /* was gray300 */}}
-  --bs-body-bg: {{ $Surface }};
-  --bs-secondary-color: {{ $OnSurface }};
-  --bs-secondary-bg: {{ $SurfaceContainer }};
-  --bs-tertiary-color: {{ $gray300 }};
-  --bs-tertiary-bg: {{ $gray600 }};  {{- /* was "gray 850" */}}
-  --bs-emphasis-color: #fff;
-  --bs-heading-color: inherit;
-  --bs-link-color: #6ea8fe;
-  --bs-link-hover-color: #8bb9fe;
-}
-
+   "dropdown-link-active-color"     $M3LightOnSurface
+   "dropdown-link-active-bg"        $M3LightSecondaryContainer
+}}
+{{ Theme "dark"
+   "body-bg"          $M3DarkSurface
+   "body-color"       $M3DarkOnSurface
+   "secondary-bg"     $M3DarkSurfaceContainer
+   "secondary-color"  $M3DarkOnSurface
+   "tertiary-color"   "var(gray300)"
+   "tertiary-bg"      "var(gray600)"
+   "link-color"       $M3DarkPrimary
+   "navbar-color"     $M3DarkOnSurface
+   "emphasis-color"   "#fff"
+   "heading-color"    "inherit"
+   "link-hover-color" "#8bb9fe"
+   "offcanvas-bg"     $M3DarkSurfaceContainer
+   "offcanvas-color"  $M3DarkOnSurfaceVariant
+   "dropdown-bg"      $M3DarkSurfaceContainer 
+   "dropdown-link-hover-bg"  (printf "color-mix(in srgb, %s 8%%, transparent)" $M3DarkOnSurface)
+   "dropdown-link-active-color" $M3DarkOnSurface
+   "dropdown-link-active-bg"    $M3DarkSecondaryContainer
+}}

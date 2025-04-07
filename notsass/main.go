@@ -18,8 +18,9 @@ func init() {
 type Globals struct {
 	Namespace string
 	Prefix    string
-	Resources map[string]map[string]string
-	Params    map[string]string
+	Themes    MapAny
+	Root      MapAny
+	Config    MapAny
 	Arg       any
 }
 
@@ -37,20 +38,23 @@ func main() {
 
 	g := Globals{}
 
-	defaults := make(map[string]map[string]string)
-	properties := make(map[string]map[string]string)
-
+	themes := make(MapAny)
+	root := make(MapAny)
+	config := make(MapAny)
 	g.Namespace = "ng"
 	g.Prefix = namespaceToPrefix(g.Namespace)
-	vars := make(map[string]map[string]string)
-	vars["root"] = make(map[string]string)
+	g.Config = config
+	g.Themes = themes
+	g.Root = root
 
 	funcMap := template.FuncMap{
-		"rgb":      hexToRGB,
-		"def":      MakeCssDefine(namespaceToPrefix(g.Namespace)),
-		"var":      MakeCssVar(namespaceToPrefix(g.Namespace)),
-		"default":  DefaultFunc(defaults),
-		"property": DefaultFunc(properties),
+		"rgb":        hexToRGB,
+		"def":        MakeCssDefine(namespaceToPrefix(g.Namespace)),
+		"var":        MakeCssVar(namespaceToPrefix(g.Namespace)),
+		"Theme":      OptionThemeFunc(themes),
+		"Config":     OptionFunc(config),
+		"Root":       OptionFunc(root),
+		"Properties": ParseRules,
 	}
 
 	tmpl := template.New(inputFile).Funcs(funcMap).Funcs(FuncMapMath)
@@ -68,11 +72,6 @@ func main() {
 		log.Fatalf("body execution: %s", err)
 	}
 
-	// at this point we have loaded all the defaults
-	// and all the overrides.  Merge them.
-	MergeThemes(properties, defaults)
-	g.Resources = properties
-
 	headTemplate := tmpl.Lookup("head.css")
 	err = headTemplate.Execute(&head, &g)
 	if err != nil {
@@ -86,5 +85,11 @@ func main() {
 	// strip out repeated newlines (from golang templates)
 	var newlinesRun = regexp.MustCompile("\n\n+")
 	fileout = newlinesRun.ReplaceAllString(fileout, "\n")
+
+	// replace tabs with spaces
+	fileout = strings.ReplaceAll(fileout, "\t", " ")
+	// more than 2 spaces get turned into 1
+	var spaceRun = regexp.MustCompile("  +")
+	fileout = spaceRun.ReplaceAllString(fileout, " ")
 	fmt.Println(strings.TrimSpace(fileout))
 }
