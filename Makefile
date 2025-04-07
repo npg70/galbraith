@@ -13,7 +13,7 @@ test:
 	go test .
 
 
-serve: 
+serve: hugo/public
 	cd notsass && make
 	cp -rf hugo/static/* hugo/public/
 	go run . -out hugo/public -serve
