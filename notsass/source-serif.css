@@ -37,7 +37,7 @@
 body {
     font-synthesis: none;
     font-feature-settings: "kern" 1, "liga" 1;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizelegibility;
 }
 /* unclear how much is needed */
 sup {
