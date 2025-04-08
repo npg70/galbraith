@@ -27,27 +27,22 @@
 {{/* Local variables, scoped to file.  one per line. */}}
 {{ $TabSize := 4 }}
 
-*,
-::before,
-::after {
-	box-sizing: border-box;
+*,::before,::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  tab-size: {{ $TabSize }};
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0;
-    tab-size: {{ $TabSize }};
-    -webkit-text-size-adjust: 100%;
-}
-
-body {
-    font-family: var(--$body-font-family);
-    font-size:   var(--$body-font-size);
-    font-weight: var(--$body-font-weight);
-    line-height: var(--$body-line-height);
-    color: var(--$body-color);
-    background-color: var(--$body-bg);
-    text-align: var(--$body-text-align);
-
+  font-family: var(--$body-font-family);
+  font-size:   var(--$body-font-size);
+  font-weight: var(--$body-font-weight);
+  line-height: var(--$body-line-height);
+  color: var(--$body-color);
+  background-color: var(--$body-bg);
+  text-align: var(--$body-text-align);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -59,63 +54,32 @@ hr {
   border-top: var(--$border-width) solid;
   opacity: 0.25;
 }
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-b,
-strong {
-	font-weight: bolder;
-}
-code,
-kbd,
-samp,
-pre {
+p { margin-top: 0; margin-bottom: 1rem; }
+b, strong { font-weight: bolder; }
+code, kbd, samp, pre {
 	font-family: var(--$code-font-family);
 	font-size: var(--$code-font-size);
 }
-small, .small {
-    font-size: var(--$small-font-size);
-}
-sub,
-sup {
+small, .small { font-size: var(--$small-font-size); }
+sub, sup {
 	font-size: 75%;
 	line-height: 0;
 	position: relative;
 	vertical-align: baseline;
 }
-sub {
-	bottom: -0.25em;
-}
-sup {
-	top: -0.5em;
-}
+sub { bottom: -0.25em; }
+sup { top: -0.5em; }
 
-ol,
-ul {
-  padding-left: 2rem;
-}
-
-ol,
-ul,
-dl {
+ol, ul { padding-left: 2rem; }
+ol, ul, dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-
-ol ol,
-ul ul,
-ol ul,
-ul ol {
+ol ol, ul ul, ol ul, ul ol {
   margin-bottom: 0;
 }
 
-input,
-button,
-select,
-optgroup,
-textarea {
+input, button, select, optgroup, textarea {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
