@@ -73,17 +73,17 @@
 {{ end }}
 
 {{ if Config.EnableBreakpointSmall }}
-@media (max-width: 575.98px) {
+@media (width < {{ Config.BreakpointSmall }}) {
   .offcanvas-sm {
       {{ template "offcanvas-base.css" . }}
   }
 }
-@media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {
+@media (width < {{ Config.BreakpointSmall }}) and (prefers-reduced-motion: reduce) {
   .offcanvas-sm {
     transition: none;
   }
 }
-@media (max-width: 575.98px) {
+@media (width < {{ Config.BreakpointSmall }}) {
   .offcanvas-sm.offcanvas-start {
       {{ template "offcanvas-start.css" . }}
   }
@@ -103,10 +103,10 @@
     visibility: visible;
   }
 }
-@media (min-width: 576px) {
+@media (width >= {{ Config.BreakpointSmall }}) {
   .offcanvas-sm {
-      {{ def "offcanvas-height" "auto" }};
-      {{ def "offcanvas-border-width" "0" }};
+    --$offcanvas-height: auto;
+    --$offcanvas-border-width: 0;
     background-color: transparent !important;
   }
   .offcanvas-sm .offcanvas-header {
@@ -122,17 +122,17 @@
 }
 {{ end }}
 {{ if Config.EnableBreakpointMedium }}
-@media (max-width: 767.98px) {
+@media (width < {{ Config.BreakpointMedium }}) {
   .offcanvas-md {
       {{ template "offcanvas-base.css" . }}
   }
 }
-@media (max-width: 767.98px) and (prefers-reduced-motion: reduce) {
+@media (width < {{ Config.BreakpointMedium }}) and (prefers-reduced-motion: reduce) {
   .offcanvas-md {
     transition: none;
   }
 }
-@media (max-width: 767.98px) {
+@media (width < {{ Config.BreakpointMedium }}) {
   .offcanvas-md.offcanvas-start {
       {{ template "offcanvas-start.css" . }}
   }
@@ -152,10 +152,10 @@
     visibility: visible;
   }
 }
-@media (min-width: 768px) {
+@media (width >= {{ Config.BreakpointMedium }}) {
   .offcanvas-md {
-      {{ def "offcanvas-height" "auto" }};
-      {{ def "offcanvas-border-width" "0" }};
+    --$offcanvas-height: auto;
+    --$offcanvas-border-width: 0;
     background-color: transparent !important;
   }
   .offcanvas-md .offcanvas-header {
@@ -172,17 +172,17 @@
 {{ end }}
 
 {{ if Config.EnableBreakpointLarge }}
-@media (max-width: 991.98px) {
+@media (width < {{ Config.BreakpointLarge }}) {
   .offcanvas-lg {
       {{ template "offcanvas-base.css" . }}
   }
 }
-@media (max-width: 991.98px) and (prefers-reduced-motion: reduce) {
+@media (width < {{ Config.BreakpointLarge }}) and (prefers-reduced-motion: reduce) {
   .offcanvas-lg {
     transition: none;
   }
 }
-@media (max-width: 991.98px) {
+@media (width < {{ Config.BreakpointLarge }}) {
   .offcanvas-lg.offcanvas-start {
       {{ template "offcanvas-start.css" . }}
   }
@@ -202,10 +202,10 @@
     visibility: visible;
   }
 }
-@media (min-width: 992px) {
+@media (width >= {{ Config.BreakpointLarge }}) {
   .offcanvas-lg {
-      {{ def "offcanvas-height" "auto" }};
-      {{ def "offcanvas-border-width" "0" }};
+    --$offcanvas-height: auto;
+    --$offcanvas-border-width: 0;
     background-color: transparent !important;
   }
   .offcanvas-lg .offcanvas-header {
@@ -223,17 +223,17 @@
 
 
 {{ if Config.EnableBreakpointXLarge }}
-@media (max-width: 1199.98px) {
+@media (width < {{ Config.BreakpointXLarge }}) {
   .offcanvas-xl {
       {{ template "offcanvas-base.css" . }}
   }
 }
-@media (max-width: 1199.98px) and (prefers-reduced-motion: reduce) {
+@media (width < {{ Config.BreakpointXLarge }}) and (prefers-reduced-motion: reduce) {
   .offcanvas-xl {
     transition: none;
   }
 }
-@media (max-width: 1199.98px) {
+@media (width < {{ Config.BreakpointXLarge }}) {
   .offcanvas-xl.offcanvas-start {
       {{ template "offcanvas-start.css" . }}
   }
@@ -253,10 +253,10 @@
     visibility: visible;
   }
 }
-@media (min-width: 1200px) {
+@media (width >= {{ Config.BreakpointXLarge }}) {
   .offcanvas-xl {
-      {{ def "offcanvas-height" "auto" }};
-      {{ def "offcanvas-border-width" "0" }};
+    --$offcanvas-height: auto;
+    --$offcanvas-border-width:0;
     background-color: transparent !important;
   }
   .offcanvas-xl .offcanvas-header {
@@ -273,17 +273,17 @@
 {{ end }}
 
 {{ if Config.EnableBreakpointXXLarge }}
-@media (max-width: 1399.98px) {
+@media (width < {{ Config.BreakpointXXLarge }}) {
   .offcanvas-xxl {
       {{ template "offcanvas-base.css" . }}
   }
 }
-@media (max-width: 1399.98px) and (prefers-reduced-motion: reduce) {
+@media (width < {{ Config.BreakpointXXLarge }}) and (prefers-reduced-motion: reduce) {
   .offcanvas-xxl {
     transition: none;
   }
 }
-@media (max-width: 1399.98px) {
+@media (width < {{ Config.BreakpointXXLarge }}) {
   .offcanvas-xxl.offcanvas-start {
       {{ template "offcanvas-start.css" . }}
   }
@@ -303,10 +303,10 @@
     visibility: visible;
   }
 }
-@media (min-width: 1400px) {
+@media (width >= {{ Config.BreakpointXXL }}) {
   .offcanvas-xxl {
-      {{ def "offcanvas-height" "auto" }};
-      {{ def "offcanvas-border-width" "0" }};
+    --$offcanvas-height: auto;
+    --$offcanvas-border-width: 0;
     background-color: transparent !important;
   }
   .offcanvas-xxl .offcanvas-header {
