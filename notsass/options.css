@@ -1,8 +1,40 @@
-{{ Config
-  "BreakpointXSmall"   "0px"
-  "BreakpointSmall"    "576px"
-  "BreakpointMedium"   "768px"
-  "BreakpointLarge"    "992px"
-  "BreakpointXLarge"   "1200px"
-  "BreakpointXXLarge"  "1400px"
-}}
+{{ Config `
+
+# Breakpoints
+#
+#
+BreakpointXSmall: 0px
+BreakpointSmall: 576px
+BreakpointMedium: 768px
+BreakpointLarge: 992px
+BreakpointXLarge: 1200px
+BreakpointXXLarge: 1400px
+
+# EnableBorder - enabled various fixed (not responsive) border utilities
+EnableBorder: true
+
+# EnableHeadDisplay - a lightweight font for large banners
+#  Optional
+#
+EnableHeadingDisplay: false
+
+# EnableDropdown
+#  a drop-down component used in menu-like things
+EnableDropdown: true
+
+# EnableOffcanvas
+#
+#
+EnableOffcanvas: true
+
+# EnableNav
+#
+#
+EnableNav: true
+
+# Enable Navbar
+#
+#
+EnableNavbar: true
+`}}
+

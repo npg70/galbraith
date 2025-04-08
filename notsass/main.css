@@ -6,7 +6,8 @@
 {{ template "link.css" . }}
 {{ template "border.css" . }}
 {{ template "table.css" . }}
-{{ template "heading.css" . }}
+{{ if Config.EnableHeading }}{{ template "heading.css" . }}{{ end }}
+{{ if Config.EnableHeadingDisplay }}{{ template "heading-display.css" . }}{{ end }}
 {{ template "size.css" . }}
 {{ template "grid.css" . }}
 {{/* template "grid-sm.css" .  */}}
@@ -17,12 +18,12 @@
 {{/* template "grid-all.css" . */}}
 {{/* template "bootstrap-grid.css" . */}}
 {{ template "vr.css" . }}
-{{ template "offcanvas.css" . }}
-{{ template "dropdown.css" . }}
+{{ if Config.EnableOffcanvas }}{{ template "offcanvas.css" . }}{{ end }}
+{{ if Config.EnableDropdown }}{{ template "dropdown.css" . }}{{ end }}
 {{ template "btn.css" . }}
 {{ template "btn-close.css" . }}
-{{ template "nav.css" . }}
-{{ template "navbar.css" . }}
+{{ if Config.EnableNav }}{{ template "nav.css" . }}{{ end }}
+{{ if Config.EnableNavbar }}{{ template "navbar.css" . }}{{ end }}
 {{/* sticky needs to come after navbar */}}
 {{ template "sticky.css" . }}
 
