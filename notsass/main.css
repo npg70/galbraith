@@ -1,4 +1,3 @@
-{{ template "options.css" . }}
 {{ template "color.css" . }}
 {{ template "reset.css" . }}
 {{ template "background.css" . }}
@@ -10,13 +9,11 @@
 {{ if Config.EnableHeadingDisplay }}{{ template "heading-display.css" . }}{{ end }}
 {{ template "size.css" . }}
 {{ template "grid.css" . }}
-{{/* template "grid-sm.css" .  */}}
-{{/* template "grid-md.css" .    */}}
-{{ template "grid-lg.css" . }}
-{{/* template "grid-xl.css" .  */}}
-{{/* template "grid-xxl.css" . */}}
-{{/* template "grid-all.css" . */}}
-{{/* template "bootstrap-grid.css" . */}}
+{{ if Config.EnableBreakpointSmall }}{{ template "grid-sm.css" .  }}{{ end }}
+{{ if Config.EnableBreakpointMedium }}{{ template "grid-md.css" . }}{{ end }}
+{{ if Config.EnableBreakpointLarge }}{{ template "grid-lg.css" . }}{{ end }}
+{{ if Config.EnableBreakpointXLarge }}{{ template "grid-xl.css" . }} {{ end }}
+{{ if Config.EnableBreakpointXXLarge }}{{ template "grid-xxl.css" . }}{{ end }}
 {{ template "vr.css" . }}
 {{ if Config.EnableOffcanvas }}{{ template "offcanvas.css" . }}{{ end }}
 {{ if Config.EnableDropdown }}{{ template "dropdown.css" . }}{{ end }}

@@ -73,7 +73,7 @@
     transform: translateY(100%);
 {{ end }}
 
-
+{{ if Config.EnableBreakpointSmall }}
 @media (max-width: 575.98px) {
   .offcanvas-sm {
       {{ template "offcanvas-base.css" . }}
@@ -121,7 +121,8 @@
     background-color: transparent !important;
   }
 }
-
+{{ end }}
+{{ if Config.EnableBreakpointMedium }}
 @media (max-width: 767.98px) {
   .offcanvas-md {
       {{ template "offcanvas-base.css" . }}
@@ -169,7 +170,9 @@
     background-color: transparent !important;
   }
 }
+{{ end }}
 
+{{ if Config.EnableBreakpointLarge }}
 @media (max-width: 991.98px) {
   .offcanvas-lg {
       {{ template "offcanvas-base.css" . }}
@@ -217,7 +220,10 @@
     background-color: transparent !important;
   }
 }
+{{ end }}
 
+
+{{ if Config.EnableBreakpointXLarge }}
 @media (max-width: 1199.98px) {
   .offcanvas-xl {
       {{ template "offcanvas-base.css" . }}
@@ -265,7 +271,9 @@
     background-color: transparent !important;
   }
 }
+{{ end }}
 
+{{ if Config.EnableBreakpointXXLarge }}
 @media (max-width: 1399.98px) {
   .offcanvas-xxl {
       {{ template "offcanvas-base.css" . }}
@@ -313,6 +321,7 @@
     background-color: transparent !important;
   }
 }
+{{ end }}
 
 .offcanvas {
     {{ template "offcanvas-base.css" . }}

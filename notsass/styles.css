@@ -1,8 +1,17 @@
+{{ template "options.css" . }}
+{{ Config `
+# turn off most of the grid
+EnableBreakpointSmall: false
+EnableBreakpointMedium: false
+EnableBreakpointLarge: true
+EnableBreakpointXLarge: false
+EnableBreakpointXXLarge: false
+`}}
 {{ template "main.css" . }}
 {{ template "m3-dark.css" . }}
 {{ Root
    "body-font-size" "1.2rem"
-   "body-font-family" `"Source Serif", sans`
+   "body-font-family" `"source serif", sans`
    "link-decoration" "none"
    "link-hover-decoration" "underline"
 }}
@@ -16,7 +25,7 @@ p {
 }
 
 blockquote {
-    line-spacing: 1.0;
+    line-height: 1.25;
     font-size: 90%;
 
     margin-top: 0.5em;

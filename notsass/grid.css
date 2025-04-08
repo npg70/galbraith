@@ -244,7 +244,11 @@
   margin-right: auto;
   margin-left: auto;
 }
-
+{{/*
+    Always defining these rules even if a breakpoint is disabled.  They
+    provide a way of defining a max-width
+    e.g. class="container-fluid container-xl"
+*/}}
 @media (min-width: {{ Config.BreakpointSmall }}) {
   .container-sm, .container {
     max-width: 540px; /* 18 each, 540/12 = 45 */

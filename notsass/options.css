@@ -1,6 +1,6 @@
 {{ Config `
 
-# Breakpoints
+# Breakpoints.  
 #
 #
 BreakpointXSmall: 0px
@@ -9,6 +9,13 @@ BreakpointMedium: 768px
 BreakpointLarge: 992px
 BreakpointXLarge: 1200px
 BreakpointXXLarge: 1400px
+
+EnableBreakpointXSmall: true
+EnableBreakpointSmall: true
+EnableBreakpointMedium: true
+EnableBreakpointLarge: true
+EnableBreakpointXLarge: true
+EnableBreakpointXXLarge: true
 
 # EnableBorder - enabled various fixed (not responsive) border utilities
 EnableBorder: true

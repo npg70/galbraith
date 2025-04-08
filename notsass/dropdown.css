@@ -106,8 +106,8 @@
   right: 0;
   left: auto;
 }
-
-@media (min-width: 576px) {
+{{ if Config.EnableBreakpointSmall }}
+@media (min-width: {{ Config.BreakpointSmall }}) {
   .dropdown-menu-sm-start {
     position: start;
   }
@@ -123,7 +123,9 @@
     left: auto;
   }
 }
-@media (min-width: 768px) {
+{{ end }}
+{{ if Config.EnableBreakpointMedium }}
+@media (min-width: {{ Config.BreakpointMedium }}) {
   .dropdown-menu-md-start {
     position: start;
   }
@@ -139,7 +141,9 @@
     left: auto;
   }
 }
-@media (min-width: 992px) {
+{{ end }}
+{{ if Config.EnableBreakpointLarge }}
+@media (min-width: {{ Config.BreakpointLarge }}) {
   .dropdown-menu-lg-start {
     position: start;
   }
@@ -155,7 +159,9 @@
     left: auto;
   }
 }
-@media (min-width: 1200px) {
+{{ end }}
+{{ if Config.EnableBreakpointXLarge }}
+@media (min-width: {{ Config.BreakpointXLarge }}) {
   .dropdown-menu-xl-start {
     position: start;
   }
@@ -171,7 +177,9 @@
     left: auto;
   }
 }
-@media (min-width: 1400px) {
+{{ end }}
+{{ if Config.EnableBreakPointXXLarge }}
+@media (min-width: {{ Config.BreakpointXXLarge }}) {
   .dropdown-menu-xxl-start {
     position: start;
   }
@@ -187,6 +195,7 @@
     left: auto;
   }
 }
+{{ end }}
 .dropup .dropdown-menu[data-bs-popper] {
   top: auto;
   bottom: 100%;
