@@ -1,4 +1,7 @@
-
+{{/*
+ *  Removed border-opacity utilities since they can directly specified with border-color and alpha
+ *  Plus they are problematic since CSS doesn't can't directly set border opacity directly.
+ */}}
 .border {
   border: var(border-width) var(border-style) var(border-color) !important;
 }
@@ -129,24 +132,4 @@
 
 .border-5 {
   border-width: 5px !important;
-}
-
-.border-opacity-10 {
-  border-opacity: 0.1;
-}
-
-.border-opacity-25 {
-  border-opacity: 0.25;
-}
-
-.border-opacity-50 {
-  border-opacity: 0.5;
-}
-
-.border-opacity-75 {
-  border-opacity: 0.75;
-}
-
-.border-opacity-100 {
-  border-opacity: 1;
 }
