@@ -15,10 +15,9 @@
 {{ end }}
 </head>
 <body>
-<!-- <div style="max-width: 50rem;" class="bg-white mx-auto"> -->
 <div class="container-fluid px-0">
 {{ template "navbar.html" . }}
-<div class="container-xxl px-2">
+<div class="container-xxl px-lg-4">
 {{ block "main" . }}
 {{ .Page.Content }}
 {{ end }}
