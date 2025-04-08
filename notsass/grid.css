@@ -1,10 +1,10 @@
 {{ Root
-  "breakpoint-xs"  Config.BreakpointXSmall
-  "breakpoint-sm"  Config.BreakpointSmall
-  "breakpoint-md"  Config.BreakpointMedium
-  "breakpoint-lg"  Config.BreakpointLarge
-  "breakpoint-xl"  Config.BreakpointXLarge
-  "breakpoint-xxl" Config.BreakpointXXLarge
+  "--$breakpoint-xs"  Config.BreakpointXSmall
+  "--$breakpoint-sm"  Config.BreakpointSmall
+  "--$breakpoint-md"  Config.BreakpointMedium
+  "--$breakpoint-lg"  Config.BreakpointLarge
+  "--$breakpoint-xl"  Config.BreakpointXLarge
+  "--$breakpoint-xxl" Config.BreakpointXXLarge
 }}
 {{/* 
    iPhone SE 2020: 375 x 667

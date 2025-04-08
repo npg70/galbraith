@@ -1,46 +1,46 @@
 {{ Root
-  "dropdown-zindex" "1000"
-  "dropdown-min-width" "10rem"
-  "dropdown-padding-x" "0"
-  "dropdown-padding-y" "0.5rem"
-  "dropdown-spacer" "0.125rem"
-  "dropdown-font-size" "1rem"
-  "dropdown-border-radius" "var(border-radius)"
-  "dropdown-border-width" "var(border-width)"
-  "dropdown-inner-border-radius" "calc(var(border-radius) - var(border-width))"
-  "dropdown-divider-margin-y" "0.5rem"
-  "dropdown-box-shadow" "var(box-shadow)"
-  "dropdown-item-padding-x" "1rem"
-  "dropdown-item-padding-y" "0.25rem"
-  "dropdown-header-padding-x" "1rem"
-  "dropdown-header-padding-y" "0.5rem"
+  "--$dropdown-zindex" "1000"
+  "--$dropdown-min-width" "10rem"
+  "--$dropdown-padding-x" "0"
+  "--$dropdown-padding-y" "0.5rem"
+  "--$dropdown-spacer" "0.125rem"
+  "--$dropdown-font-size" "1rem"
+  "--$dropdown-border-radius" "var(--$border-radius)"
+  "--$dropdown-border-width" "var(--$border-width)"
+  "--$dropdown-inner-border-radius" "calc(var(--$border-radius) - var(--$border-width))"
+  "--$dropdown-divider-margin-y" "0.5rem"
+  "--$dropdown-box-shadow" "var(--$box-shadow)"
+  "--$dropdown-item-padding-x" "1rem"
+  "--$dropdown-item-padding-y" "0.25rem"
+  "--$dropdown-header-padding-x" "1rem"
+  "--$dropdown-header-padding-y" "0.5rem"
 }}
 {{ Theme "light" 
-  "dropdown-color" "var(body-color)"
-  "dropdown-bg" "var(body-bg)"
-  "dropdown-border-color" "var(border-color-translucent)"
-  "dropdown-divider-bg" "var(border-color-translucent)"
-  "dropdown-link-color" "var(body-color)"
-  "dropdown-link-hover-color" "var(body-color)"
-  "dropdown-link-hover-bg" "var(tertiary-bg)"
-  "dropdown-link-active-color" "#fff"
-  "dropdown-link-active-bg" "#0d6efd"
-  "dropdown-link-disabled-color" "var(tertiary-color)"
-  "dropdown-header-color" "#6c757d"
+  "--$dropdown-color" "var(--$body-color)"
+  "--$dropdown-bg" "var(--$body-bg)"
+  "--$dropdown-border-color" "var(--$border-color-translucent)"
+  "--$dropdown-divider-bg" "var(--$border-color-translucent)"
+  "--$dropdown-link-color" "var(--$body-color)"
+  "--$dropdown-link-hover-color" "var(--$body-color)"
+  "--$dropdown-link-hover-bg" "var(--$tertiary-bg)"
+  "--$dropdown-link-active-color" "#fff"
+  "--$dropdown-link-active-bg" "#0d6efd"
+  "--$dropdown-link-disabled-color" "var(--$tertiary-color)"
+  "--$dropdown-header-color" "#6c757d"
 }}
 {{ Theme "dark"
-   "dropdown-color" "#dee2e6"
-   "dropdown-bg" "#343a40"
-   "dropdown-border-color" "var(border-color-translucent)"
-   "dropdown-box-shadow" ""
-   "dropdown-link-color" "#dee2e6"
-   "dropdown-link-hover-color" "#fff"
-   "dropdown-divider-bg" "var(border-color-translucent)"
-   "dropdown-link-hover-bg" "rgba(255, 255, 255, 0.15)"
-   "dropdown-link-active-color" "#fff"
-   "dropdown-link-active-bg" "#0d6efd"
-   "dropdown-link-disabled-color" "#adb5bd"
-   "dropdown-header-color" "#adb5bd"
+   "--$dropdown-color" "#dee2e6"
+   "--$dropdown-bg" "#343a40"
+   "--$dropdown-border-color" "var(--$border-color-translucent)"
+   "--$dropdown-box-shadow" ""
+   "--$dropdown-link-color" "#dee2e6"
+   "--$dropdown-link-hover-color" "#fff"
+   "--$dropdown-divider-bg" "var(--$border-color-translucent)"
+   "--$dropdown-link-hover-bg" "rgba(255, 255, 255, 0.15)"
+   "--$dropdown-link-active-color" "#fff"
+   "--$dropdown-link-active-bg" "#0d6efd"
+   "--$dropdown-link-disabled-color" "#adb5bd"
+   "--$dropdown-header-color" "#adb5bd"
 }}
 
 .dropup,
@@ -71,24 +71,24 @@
 
 .dropdown-menu {
   position: absolute;
-  z-index: var(dropdown-zindex);
+  z-index: var(--$dropdown-zindex);
   display: none;
-  min-width: var(dropdown-min-width);
-  padding: var(dropdown-padding-y) var(dropdown-padding-x);
+  min-width: var(--$dropdown-min-width);
+  padding: var(--$dropdown-padding-y) var(--$dropdown-padding-x);
   margin: 0;
-  font-size: var(dropdown-font-size);
-  color: var(dropdown-color);
+  font-size: var(--$dropdown-font-size);
+  color: var(--$dropdown-color);
   text-align: left;
   list-style: none;
-  background-color: var(dropdown-bg);
+  background-color: var(--$dropdown-bg);
   background-clip: padding-box;
-  border: var(dropdown-border-width) solid var(dropdown-border-color);
-  border-radius: var(dropdown-border-radius);
+  border: var(--$dropdown-border-width) solid var(--$dropdown-border-color);
+  border-radius: var(--$dropdown-border-radius);
 }
 .dropdown-menu[data-bs-popper] {
   top: 100%;
   left: 0;
-  margin-top: var(dropdown-spacer);
+  margin-top: var(--$dropdown-spacer);
 }
 
 .dropdown-menu-start {
@@ -200,7 +200,7 @@
   top: auto;
   bottom: 100%;
   margin-top: 0;
-  margin-bottom: var(dropdown-spacer);
+  margin-bottom: var(--$dropdown-spacer);
 }
 .dropup .dropdown-toggle::after {
   display: inline-block;
@@ -221,7 +221,7 @@
   right: auto;
   left: 100%;
   margin-top: 0;
-  margin-left: var(dropdown-spacer);
+  margin-left: var(--$dropdown-spacer);
 }
 .dropend .dropdown-toggle::after {
   display: inline-block;
@@ -245,7 +245,7 @@
   right: 100%;
   left: auto;
   margin-top: 0;
-  margin-right: var(dropdown-spacer);
+  margin-right: var(--$dropdown-spacer);
 }
 .dropstart .dropdown-toggle::after {
   display: inline-block;
@@ -274,37 +274,37 @@
 
 .dropdown-divider {
   height: 0;
-  margin: var(dropdown-divider-margin-y) 0;
+  margin: var(--$dropdown-divider-margin-y) 0;
   overflow: hidden;
-  border-top: 1px solid var(dropdown-divider-bg);
+  border-top: 1px solid var(--$dropdown-divider-bg);
   opacity: 1;
 }
 
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: var(dropdown-item-padding-y) var(dropdown-item-padding-x);
+  padding: var(--$dropdown-item-padding-y) var(--$dropdown-item-padding-x);
   clear: both;
   font-weight: 400;
-  color: var(dropdown-link-color);
+  color: var(--$dropdown-link-color);
   text-align: inherit;
   text-decoration: none;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
-  border-radius: var(dropdown-item-border-radius, 0);
+  border-radius: var(--$dropdown-item-border-radius, 0);
 }
 .dropdown-item:hover, .dropdown-item:focus {
-  color: var(dropdown-link-hover-color);
-  background-color: var(dropdown-link-hover-bg);
+  color: var(--$dropdown-link-hover-color);
+  background-color: var(--$dropdown-link-hover-bg);
 }
 .dropdown-item.active, .dropdown-item:active {
-  color: var(dropdown-link-active-color);
+  color: var(--$dropdown-link-active-color);
   text-decoration: none;
-  background-color: var(dropdown-link-active-bg);
+  background-color: var(--$dropdown-link-active-bg);
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
-  color: var(dropdown-link-disabled-color);
+  color: var(--$dropdown-link-disabled-color);
   pointer-events: none;
   background-color: transparent;
 }
@@ -315,15 +315,15 @@
 
 .dropdown-header {
   display: block;
-  padding: var(dropdown-header-padding-y) var(dropdown-header-padding-x);
+  padding: var(--$dropdown-header-padding-y) var(--$dropdown-header-padding-x);
   margin-bottom: 0;
   font-size: 0.875rem;
-  color: var(dropdown-header-color);
+  color: var(--$dropdown-header-color);
   white-space: nowrap;
 }
 
 .dropdown-item-text {
   display: block;
-  padding: var(dropdown-item-padding-y) var(dropdown-item-padding-x);
-  color: var(dropdown-link-color);
+  padding: var(--$dropdown-item-padding-y) var(--$dropdown-item-padding-x);
+  color: var(--$dropdown-link-color);
 }

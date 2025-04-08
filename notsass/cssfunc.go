@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"regexp"
 	"strconv"
 	"strings"
 )
@@ -19,12 +18,12 @@ func MakeCssVar(prefix string) func(string) string {
 	}
 }
 
-var varStart = regexp.MustCompile("var" + regexp.QuoteMeta("(") + " *([^-])")
-
-// Given an embedded "var(foo)", expand to
-func addPrefixToVar(namespace string, s string) string {
-	prefix := namespaceToPrefix(namespace)
-	return varStart.ReplaceAllString(s, "var("+prefix+"$1")
+func addPrefixToDollar(namespace string, s string) string {
+	if namespace != "" {
+		// change "xx" to "xx-"
+		namespace = namespace + "-"
+	}
+	return strings.ReplaceAll(s, "--$", "--"+namespace)
 }
 
 // converts a namespace to a css custome var prefix

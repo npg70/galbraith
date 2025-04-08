@@ -1,28 +1,27 @@
 {{ Root `
-    offcanvas-zindex: 1045;
-    offcanvas-width: 400px;
-    offcanvas-height: 30vh;
-    offcanvas-padding-x: 1rem;
-    offcanvas-padding-y: 1rem;
-    offcanvas-border-width: var(border-width);
-    offcanvas-transition: transform 0.3s ease-in-out;
-    offcanvas-title-line-height: 1.5;
-    offcanvas-box-shadow: var(box-shadow-sm);
+    --$offcanvas-zindex: 1045;
+    --$offcanvas-width: 400px;
+    --$offcanvas-height: 30vh;
+    --$offcanvas-padding-x: 1rem;
+    --$offcanvas-padding-y: 1rem;
+    --$offcanvas-border-width: var(--$border-width);
+    --$offcanvas-transition: transform 0.3s ease-in-out;
+    --$offcanvas-title-line-height: 1.5;
+    --$offcanvas-box-shadow: var(--$box-shadow-sm);
     `
 }}
 {{ Theme "light" `
-    offcanvas-color: var(body-color);
-    offcanvas-bg: var(body-bg);
-    offcanvas-border-color: var(border-color);
+    --$offcanvas-color: var(--$body-color);
+    --$offcanvas-bg: var(--$body-bg);
+    --$offcanvas-border-color: var(--$border-color);
    `
 }}
 {{ Theme "dark" `
-    offcanvas-color: var(body-color);
-    offcanvas-bg: var(body-bg);
-    offcanvas-border-color: var(border-color);
+    --$offcanvas-color: var(--$body-color);
+    --$offcanvas-bg: var(--$body-bg);
+    --$offcanvas-border-color: var(--$border-color);
    `
 }}
-
 
 .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {
 }
@@ -30,46 +29,46 @@
 {{ define "offcanvas-base.css" }}
     position: fixed;
     bottom: 0;
-    z-index: var(offcanvas-zindex);
+    z-index: var(--$offcanvas-zindex);
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    color: var(offcanvas-color);
+    color: var(--$offcanvas-color);
     visibility: hidden;
-    background-color: var(offcanvas-bg);
+    background-color: var(--$offcanvas-bg);
     background-clip: padding-box;
     outline: 0;
-    transition: var(offcanvas-transition);
+    transition: var(--$offcanvas-transition);
 {{ end }}
 {{ define "offcanvas-start.css" }}
     top: 0;
     left: 0;
-    width: var(offcanvas-width);
-    border-right: var(offcanvas-border-width) solid var(offcanvas-border-color);
+    width: var(--$offcanvas-width);
+    border-right: var(--$offcanvas-border-width) solid var(--$offcanvas-border-color);
     transform: translateX(-100%);
 {{ end }}
 {{ define "offcanvas-end.css" }}
     top: 0;
     right: 0;
-    width: var(offcanvas-width);
-    border-left: var(offcanvas-border-width) solid var(offcanvas-border-color);
+    width: var(--$offcanvas-width);
+    border-left: var(--$offcanvas-border-width) solid var(--$offcanvas-border-color);
     transform: translateX(100%);
 {{ end }}
 {{ define "offcanvas-top.css" }}
     top: 0;
     right: 0;
     left: 0;
-    height: var(offcanvas-height);
+    height: var(--$offcanvas-height);
     max-height: 100%;
-    border-bottom: var(offcanvas-border-width) solid var(offcanvas-border-color);
+    border-bottom: var(--$offcanvas-border-width) solid var(--$offcanvas-border-color);
     transform: translateY(-100%);
 {{ end }}
 {{ define "offcanvas-bottom.css" }}
     right: 0;
     left: 0;
-    height: var(offcanvas-height);
+    height: var(--$offcanvas-height);
     max-height: 100%;
-    border-top: var(offcanvas-border-width) solid var(offcanvas-border-color);
+    border-top: var(--$offcanvas-border-width) solid var(--$offcanvas-border-color);
     transform: translateY(100%);
 {{ end }}
 
@@ -368,19 +367,19 @@
 .offcanvas-header {
   display: flex;
   align-items: center;
-  padding: var(offcanvas-padding-y) var(offcanvas-padding-x);
+  padding: var(--$offcanvas-padding-y) var(--$offcanvas-padding-x);
 }
 .offcanvas-header .btn-close {
-  padding: calc(var(offcanvas-padding-y) * 0.5) calc(var(offcanvas-padding-x) * 0.5);
-  margin: calc(-0.5 * var(offcanvas-padding-y)) calc(-0.5 * var(offcanvas-padding-x)) calc(-0.5 * var(offcanvas-padding-y)) auto;
+  padding: calc(var(--$offcanvas-padding-y) * 0.5) calc(var(--$offcanvas-padding-x) * 0.5);
+  margin: calc(-0.5 * var(--$offcanvas-padding-y)) calc(-0.5 * var(--$offcanvas-padding-x)) calc(-0.5 * var(--$offcanvas-padding-y)) auto;
 }
 .offcanvas-title {
   margin-bottom: 0;
-  line-height: var(offcanvas-title-line-height);
+  line-height: var(--$offcanvas-title-line-height);
 }
 .offcanvas-body {
   flex-grow: 1;
-  padding: var(offcanvas-padding-y) var(offcanvas-padding-x);
+  padding: var(--$offcanvas-padding-y) var(--$offcanvas-padding-x);
   overflow-y: auto;
 }
 

@@ -9,14 +9,14 @@ EnableBreakpointXXLarge: false
 `}}
 {{ template "main.css" . }}
 {{ template "m3-dark.css" . }}
+{{ template "source-serif.css" . }}
 {{ Root
-   "body-font-size" "1.2rem"
-   "body-font-family" `"source serif", sans`
-   "link-decoration" "none"
-   "link-hover-decoration" "underline"
+   "--$body-font-size" "1.2rem"
+   "--$body-font-family" `"Source Serif", sans`
+   "--$link-decoration" "none"
+   "--$link-hover-decoration" "underline"
 }}
 
-{{ template "source-serif.css" . }}
 
 /* TBD if I want this? */
 p {
@@ -55,10 +55,10 @@ td, th {
 }
 
 .font-monospace {
-  font-family: var(font-family-system-monospace) !important;
+  font-family: var(--$font-family-system-monospace) !important;
 }
 .font-sans {
-  font-family: var(font-family-system-sans-serif) !important;
+  font-family: var(--$font-family-system-sans-serif) !important;
 }
 /* should be font-smallcaps */
 .text-smallcaps {

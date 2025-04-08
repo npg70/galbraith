@@ -1,17 +1,17 @@
 {{ Root
-    "heading-font-weight" "500"
-    "heading-line-height" "1.4"
+    "--$heading-font-weight" 500
+    "--$heading-line-height" 1.4
 }}
 {{ Theme "light" 
-    "heading-color" "inherit"
+    "--$heading-color" "inherit"
 }}
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-weight: var(header-font-weight);
-  line-height: var(heading-line-height);
-  color: var(heading-color);
+  font-weight: var(--$header-font-weight);
+  line-height: var(--$heading-line-height);
+  color: var(--$heading-color);
 }
 
 h1, .h1 {

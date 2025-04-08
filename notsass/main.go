@@ -78,9 +78,10 @@ func main() {
 		log.Fatalf("head execution: %s", err)
 	}
 
-	// convert raw `var(foo)` into `var(--foo)` or `var(--prefix-foo)`
-	fileout := addPrefixToVar(g.Namespace,
-		head.String()+"\n"+body.String())
+	fileout := head.String() + "\n" + body.String()
+
+	// convert "--$" ==> "--" or "--foo-"
+	fileout = addPrefixToDollar(g.Namespace, fileout)
 
 	// strip out repeated newlines (from golang templates)
 	var newlinesRun = regexp.MustCompile("\n\n+")
