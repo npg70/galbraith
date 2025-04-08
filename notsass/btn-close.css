@@ -43,6 +43,6 @@
 }
 
 .btn-close-white {
-  btn-close-filter: invert(1) grayscale(100%) brightness(200%);
+  --$btn-close-filter: invert(1) grayscale(100%) brightness(200%);
 }
 
