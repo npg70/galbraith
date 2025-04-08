@@ -2,47 +2,47 @@
         Removed all opacity 
 */}}
 .bg-primary {
-  background-color: var(primary) !important;
+  background-color: var(--$primary) !important;
 }
 
 .bg-secondary {
-  background-color: var(secondary) !important;
+  background-color: var(--$secondary) !important;
 }
 
 .bg-success {
-  background-color: var(success) !important;
+  background-color: var(--$success) !important;
 }
 
 .bg-info {
-  background-color: var(info-rgb) !important;
+  background-color: var(--$info-rgb) !important;
 }
 
 .bg-warning {
-  background-color: var(warning) !important;
+  background-color: var(--$warning) !important;
 }
 
 .bg-danger {
-  background-color: var(danger) !important;
+  background-color: var(--$danger) !important;
 }
 
 .bg-light {
-  background-color: var(light) !important;
+  background-color: var(--$light) !important;
 }
 
 .bg-dark {
-  background-color: var(dark) !important;
+  background-color: var(--$dark) !important;
 }
 
 .bg-black {
-  background-color: var(black) !important;
+  background-color: var(--$black) !important;
 }
 
 .bg-white {
-  background-color: var(white) !important;
+  background-color: var(--$white) !important;
 }
 
 .bg-body {
-  background-color: var(body-bg) !important;
+  background-color: var(--$body-bg) !important;
 }
 
 .bg-transparent {
@@ -50,45 +50,45 @@
 }
 
 .bg-body-secondary {
-  background-color: var(secondary-bg) !important;
+  background-color: var(--$secondary-bg) !important;
 }
 
 .bg-body-tertiary {
-  background-color: var(tertiary-bg) !important;
+  background-color: var(--$tertiary-bg) !important;
 }
 
 .bg-primary-subtle {
-  background-color: var(primary-bg-subtle) !important;
+  background-color: var(--$primary-bg-subtle) !important;
 }
 
 .bg-secondary-subtle {
-  background-color: var(secondary-bg-subtle) !important;
+  background-color: var(--$secondary-bg-subtle) !important;
 }
 
 .bg-success-subtle {
-  background-color: var(success-bg-subtle) !important;
+  background-color: var(--$success-bg-subtle) !important;
 }
 
 .bg-info-subtle {
-  background-color: var(info-bg-subtle) !important;
+  background-color: var(--$info-bg-subtle) !important;
 }
 
 .bg-warning-subtle {
-  background-color: var(warning-bg-subtle) !important;
+  background-color: var(--$warning-bg-subtle) !important;
 }
 
 .bg-danger-subtle {
-  background-color: var(danger-bg-subtle) !important;
+  background-color: var(--$danger-bg-subtle) !important;
 }
 
 .bg-light-subtle {
-  background-color: var(light-bg-subtle) !important;
+  background-color: var(--$light-bg-subtle) !important;
 }
 
 .bg-dark-subtle {
-  background-color: var(dark-bg-subtle) !important;
+  background-color: var(--$dark-bg-subtle) !important;
 }
 
 .bg-gradient {
-  background-image: var(gradient) !important;
+  background-image: var(--$gradient) !important;
 }
