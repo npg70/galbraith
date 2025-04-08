@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"regexp"
+	"strconv"
 	"strings"
 )
 
@@ -76,6 +77,42 @@ func ParseRules(rules string) (map[string]any, error) {
 		}
 		key = strings.TrimSpace(key)
 		value = strings.TrimSpace(value)
+
+		if len(value) == 0 {
+			out[key] = ""
+			continue
+		}
+
+		// is it a bool?
+		lvalue := strings.ToLower(value)
+		switch lvalue {
+		case "on", "true":
+			out[key] = true
+			continue
+		case "off", "false":
+			out[key] = false
+			continue
+		}
+
+		// is it an int?
+		if ival, err := strconv.ParseInt(value, 10, 64); err == nil {
+			out[key] = ival
+			continue
+		}
+
+		// is it a float?
+		if fval, err := strconv.ParseFloat(value, 64); err == nil {
+			out[key] = fval
+			continue
+		}
+
+		// is it a quoted string?
+		if sval, err := strconv.Unquote(value); err == nil {
+			out[key] = sval
+			continue
+		}
+
+		// default: it's a string
 		out[key] = value
 	}
 	return out, nil
