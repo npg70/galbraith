@@ -26,8 +26,8 @@
   bottom: 0;
   z-index: 1020;
 }
-
-@media (min-width: 576px) {
+{{ if Config.EnableBreakpointSmall }}
+@media (width >= {{ Config.BreakpointSmall }}) {
   .sticky-sm-top {
     position: sticky;
     top: 0;
@@ -39,7 +39,9 @@
     z-index: 1020;
   }
 }
-@media (min-width: 768px) {
+{{ end }}
+{{ if Config.EnableBreakpointMedium }}
+@media (width >= {{ Config.BreakpointMedium }}) {
   .sticky-md-top {
     position: sticky;
     top: 0;
@@ -51,7 +53,9 @@
     z-index: 1020;
   }
 }
-@media (min-width: 992px) {
+{{ end }}
+{{ if Config.EnableBreakpointLarge }}
+@media (width >= {{ Config.BreakpointLarge }}) {
   .sticky-lg-top {
     position: sticky;
     top: 0;
@@ -63,7 +67,9 @@
     z-index: 1020;
   }
 }
-@media (min-width: 1200px) {
+{{ end }}
+{{ if Config.EnableBreakpointXLarge }}
+@media (width >= {{ Config.BreakpointXLarge }}) {
   .sticky-xl-top {
     position: sticky;
     top: 0;
@@ -75,7 +81,9 @@
     z-index: 1020;
   }
 }
-@media (min-width: 1400px) {
+{{ end }}
+{{ if Config.EnableBreakpointXXLarge }}
+@media (width >= {{ Config.BreakpointXXLarge }}) {
   .sticky-xxl-top {
     position: sticky;
     top: 0;
@@ -87,3 +95,4 @@
     z-index: 1020;
   }
 }
+{{ end }}
