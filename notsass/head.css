@@ -1,12 +1,12 @@
 {{- with Root }}
 :root {
-{{ range $k, $v := . }}{{- printf "  %s%s: %s;\n" $.Prefix $k $v }}{{ end -}}
+{{ range $k, $v := . }}{{- printf "  %s%s: %v;\n" $.Prefix $k $v }}{{ end -}}
 }
 {{ end }}
 
 {{ with Theme "light" }}
 :root,[data-bs-theme="light"] {
-    {{ range $k, $v := . }}{{- printf "  %s%s: %s;\n" $.Prefix $k $v }}{{ end -}}
+    {{ range $k, $v := . }}{{- printf "  %s%s: %v;\n" $.Prefix $k $v }}{{ end -}}
 }
 {{ end }}
 {{ with Theme }}
@@ -14,7 +14,7 @@
     {{- if (not (eq $theme "light")) }}
 [data-bs-theme="{{ $theme }}"] {
     color-scheme: {{ $theme }};
-{{ range $k,$v := $map }}{{ printf "  %s%s: %s;\n" $.Prefix $k $v }}{{ end -}}
+{{ range $k,$v := $map }}{{ printf "  %s%s: %v;\n" $.Prefix $k $v }}{{ end -}}
 }
     {{- end }}
   {{- end }}
