@@ -84,13 +84,11 @@ func main() {
 	fileout = addPrefixToDollar(g.Namespace, fileout)
 
 	// strip out repeated newlines (from golang templates)
-	var newlinesRun = regexp.MustCompile("\n\n+")
+	var newlinesRun = regexp.MustCompile("\n[ \t]*\n+")
 	fileout = newlinesRun.ReplaceAllString(fileout, "\n")
 
 	// replace tabs with spaces
-	fileout = strings.ReplaceAll(fileout, "\t", " ")
-	// more than 2 spaces get turned into 1
-	var spaceRun = regexp.MustCompile("  +")
+	var spaceRun = regexp.MustCompile("[ \t]+")
 	fileout = spaceRun.ReplaceAllString(fileout, " ")
 	fmt.Println(strings.TrimSpace(fileout))
 }
