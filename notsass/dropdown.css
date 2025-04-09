@@ -49,7 +49,7 @@
 .dropstart,
 .dropup-center,
 .dropdown-center {
-  --bs-position: relative;
+  position: relative;
 }
 
 .dropdown-toggle {
@@ -70,7 +70,7 @@
 }
 
 .dropdown-menu {
-  --bs-position: absolute;
+  position: absolute;
   z-index: var(--$dropdown-zindex);
   display: none;
   min-width: var(--$dropdown-min-width);
@@ -107,7 +107,7 @@
   left: auto;
 }
 {{ if Config.EnableBreakpointSmall }}
-@media (min-width: {{ Config.BreakpointSmall }}) {
+@media (width >= {{ Config.BreakpointSmall }}) {
   .dropdown-menu-sm-start {
     --bs-position: start;
   }
@@ -125,7 +125,7 @@
 }
 {{ end }}
 {{ if Config.EnableBreakpointMedium }}
-@media (min-width: {{ Config.BreakpointMedium }}) {
+@media (width >= {{ Config.BreakpointMedium }}) {
   .dropdown-menu-md-start {
     --bs-position: start;
   }
@@ -143,7 +143,7 @@
 }
 {{ end }}
 {{ if Config.EnableBreakpointLarge }}
-@media (min-width: {{ Config.BreakpointLarge }}) {
+@media (width >= {{ Config.BreakpointLarge }}) {
   .dropdown-menu-lg-start {
     --bs-position: start;
   }
@@ -161,7 +161,7 @@
 }
 {{ end }}
 {{ if Config.EnableBreakpointXLarge }}
-@media (min-width: {{ Config.BreakpointXLarge }}) {
+@media (width >= {{ Config.BreakpointXLarge }}) {
   .dropdown-menu-xl-start {
     --bs-position: start;
   }
@@ -179,7 +179,7 @@
 }
 {{ end }}
 {{ if Config.EnableBreakPointXXLarge }}
-@media (min-width: {{ Config.BreakpointXXLarge }}) {
+@media (width >= {{ Config.BreakpointXXLarge }}) {
   .dropdown-menu-xxl-start {
     --bs-position: start;
   }
