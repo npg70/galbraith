@@ -20,7 +20,12 @@ EnableBreakpointXXLarge: true
 # EnableBorder - enabled various fixed (not responsive) border utilities
 EnableBorder: true
 
-# EnableHeadDisplay - a lightweight font for large banners
+# EnableHeading
+#
+#
+EnableHeading: true
+
+# EnableHeadingDisplay - a lightweight font for large banners
 #  Optional
 #
 EnableHeadingDisplay: false
