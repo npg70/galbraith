@@ -2,147 +2,40 @@
        Removed anything to do with "text opacity"
 */}}
 @layer utilities {
-.text-decoration-none {
-  text-decoration: none;
-}
-
-.text-decoration-underline {
-  text-decoration: underline;
-}
-
-.text-decoration-line-through {
-  text-decoration: line-through;
-}
-
-.text-lowercase {
-  text-transform: lowercase;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
-}
-
-.text-capitalize {
-  text-transform: capitalize;
-}
-
-.text-wrap {
-  white-space: normal;
-}
-
-.text-nowrap {
-  white-space: nowrap;
-}
-
-/* rtl:begin:remove */
-.text-break {
-  word-wrap: break-word;
-  word-break: break-word;
-}
-
-/* rtl:end:remove */
-.text-primary {
-  color: var(--$primary);
-}
-
-.text-secondary {
-  color: var(--$secondary);
-}
-
-.text-success {
-  color: var(--$success);
-}
-
-.text-info {
-  color: var(--$info);
-}
-
-.text-warning {
-  color: var(--$warning);
-}
-
-.text-danger {
-  color: var(--$danger);
-}
-
-.text-light {
-  color: var(--$light);
-}
-
-.text-dark {
-  color: var(--$dark);
-}
-
-.text-black {
-  color: var(--$black);
-}
-
-.text-white {
-  color: var(--$white);
-}
-
-.text-body {
-  color: var(--$body-color);
-}
-
-.text-muted {
-  color: var(--$secondary-color);
-}
-
-.text-black-50 {
-  color: rgb(0 0 0 / 50%);
-}
-
-.text-white-50 {
-  color: rgb(255 255 255 / 50%);
-}
-
-.text-body-secondary {
-  color: var(--$secondary-color);
-}
-
-.text-body-tertiary {
-  color: var(--$tertiary-color);
-}
-
-.text-body-emphasis {
-  color: var(--$emphasis-color);
-}
-
-.text-reset {
-  color: inherit;
-}
-
-.text-primary-emphasis {
-  color: var(--$primary-text-emphasis);
-}
-
-.text-secondary-emphasis {
-  color: var(--$secondary-text-emphasis);
-}
-
-.text-success-emphasis {
-  color: var(--$success-text-emphasis);
-}
-
-.text-info-emphasis {
-  color: var(--$info-text-emphasis);
-}
-
-.text-warning-emphasis {
-  color: var(--$warning-text-emphasis);
-}
-
-.text-danger-emphasis {
-  color: var(--$danger-text-emphasis);
-}
-
-.text-light-emphasis {
-  color: var(--$light-text-emphasis);
-}
-
-.text-dark-emphasis {
-  color: var(--$dark-text-emphasis);
-}
+.text-decoration-none { text-decoration: none; }
+.text-decoration-underline { text-decoration: underline; }
+.text-decoration-line-through { text-decoration: line-through; }
+.text-lowercase { text-transform: lowercase; }
+.text-uppercase { text-transform: uppercase; }
+.text-capitalize { text-transform: capitalize; }
+.text-wrap { white-space: normal; }
+.text-nowrap { white-space: nowrap; }
+.text-break { word-wrap: break-word; word-break: break-word; }
+.text-primary { color: var(--$primary); }
+.text-secondary { color: var(--$secondary); }
+.text-success { color: var(--$success); }
+.text-info { color: var(--$info); }
+.text-warning { color: var(--$warning); }
+.text-danger { color: var(--$danger); }
+.text-light { color: var(--$light); }
+.text-dark { color: var(--$dark); }
+.text-black { color: var(--$black); }
+.text-white { color: var(--$white); }
+.text-body { color: var(--$body-color); }
+.text-muted { color: var(--$secondary-color); }
+.text-black-50 { color: rgb(0 0 0 / 50%); }
+.text-white-50 { color: rgb(255 255 255 / 50%); }
+.text-body-secondary { color: var(--$secondary-color); }
+.text-body-tertiary { color: var(--$tertiary-color); }
+.text-body-emphasis { color: var(--$emphasis-color); }
+.text-reset { color: inherit; }
+.text-primary-emphasis { color: var(--$primary-text-emphasis); }
+.text-secondary-emphasis { color: var(--$secondary-text-emphasis); }
+.text-success-emphasis { color: var(--$success-text-emphasis); }
+.text-info-emphasis { color: var(--$info-text-emphasis); }
+.text-warning-emphasis { color: var(--$warning-text-emphasis); }
+.text-danger-emphasis { color: var(--$danger-text-emphasis); }
+.text-light-emphasis { color: var(--$light-text-emphasis); }
+.text-dark-emphasis { color: var(--$dark-text-emphasis); }
 }
 
