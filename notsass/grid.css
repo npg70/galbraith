@@ -239,27 +239,27 @@
     provide a way of defining a max-width
     e.g. class="container-fluid container-xl"
 */}}
-@media (min-width: {{ Config.BreakpointSmall }}) {
+@media (width >= {{ Config.BreakpointSmall }}) {
   .container-sm, .container {
     max-width: 540px; /* 18 each, 540/12 = 45 */
   }
 }
-@media (min-width: {{ Config.BreakpointMedium }}) {
+@media (width >= {{ Config.BreakpointMedium }}) {
   .container-md, .container-sm, .container {
     max-width: 720px; /* 24, 720/12 = 60 */
   }
 }
-@media (min-width: {{ Config.BreakpointLarge }}) {
+@media (width >= {{ Config.BreakpointLarge }}) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px; /* margin 16, 960/12 = 80 */
   }
 }
-@media (min-width: {{ Config.BreakpointXLarge }}) {
+@media (width >= {{ Config.BreakpointXLarge }}) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px; /* 30, 1140/12 = 95  */
   }
 }
-@media (min-width: {{ Config.BreakpointXXLarge }}) {
+@media (width >= {{ Config.BreakpointXXLarge }}) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;  /* 40px each side, 1320/12 = 110 */
   }

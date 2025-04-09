@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'Source Serif';
-    font-display: normal;
+    font-display: auto;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -9,7 +9,7 @@
 @font-face{
     font-family: 'Source Serif';
     font-weight: bold;
-    font-display: normal;
+    font-display: auto;
     font-style: normal;
     font-stretch: normal;
     src: url('/galbraith/fonts/SourceSerif4-Semibold.otf.woff2') format('woff2');
@@ -17,7 +17,7 @@
 @font-face{
     font-family: 'Source Serif';
     font-weight: normal;
-    font-display: normal;
+    font-display: auto;
     font-style: italic;
     font-stretch: normal;
     src: url('/galbraith/fonts/SourceSerif4-It.otf.woff2') format('woff2');
@@ -27,7 +27,7 @@
 @font-face{
     font-family: 'Source Serif Subhead';
     font-weight: 500;
-    font-display: normal;
+    font-display: auto;
     font-style: normal;
     font-stretch: normal;
     src: url('/galbraith/fonts/SourceSerif4Subhead-Semibold.otf.woff2') format('woff2');

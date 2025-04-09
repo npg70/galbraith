@@ -7,7 +7,7 @@
   --$btn-line-height: 1.5;
   --$btn-border-width: var(--$border-width);
   --$btn-border-radius: var(--$border-radius);
-  --$btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+  --$btn-box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 1px rgb(0 0 0 / 7.5%);
   --$btn-disabled-opacity: 0.65;
   --$btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--$btn-focus-shadow-rgb), .5);
 `
@@ -97,7 +97,7 @@
   --$btn-active-color: #fff;
   --$btn-active-bg: #0a58ca;
   --$btn-active-border-color: #0a53be;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #fff;
   --$btn-disabled-bg: #0d6efd;
   --$btn-disabled-border-color: #0d6efd;
@@ -114,7 +114,7 @@
   --$btn-active-color: #fff;
   --$btn-active-bg: #565e64;
   --$btn-active-border-color: #51585e;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #fff;
   --$btn-disabled-bg: #6c757d;
   --$btn-disabled-border-color: #6c757d;
@@ -131,7 +131,7 @@
   --$btn-active-color: #fff;
   --$btn-active-bg: #146c43;
   --$btn-active-border-color: #13653f;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #fff;
   --$btn-disabled-bg: #198754;
   --$btn-disabled-border-color: #198754;
@@ -148,7 +148,7 @@
   --$btn-active-color: #000;
   --$btn-active-bg: #3dd5f3;
   --$btn-active-border-color: #25cff2;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #000;
   --$btn-disabled-bg: #0dcaf0;
   --$btn-disabled-border-color: #0dcaf0;
@@ -165,7 +165,7 @@
   --$btn-active-color: #000;
   --$btn-active-bg: #ffcd39;
   --$btn-active-border-color: #ffc720;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #000;
   --$btn-disabled-bg: #ffc107;
   --$btn-disabled-border-color: #ffc107;
@@ -182,7 +182,7 @@
   --$btn-active-color: #fff;
   --$btn-active-bg: #b02a37;
   --$btn-active-border-color: #a52834;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #fff;
   --$btn-disabled-bg: #dc3545;
   --$btn-disabled-border-color: #dc3545;
@@ -199,7 +199,7 @@
   --$btn-active-color: #000;
   --$btn-active-bg: #c6c7c8;
   --$btn-active-border-color: #babbbc;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #000;
   --$btn-disabled-bg: #f8f9fa;
   --$btn-disabled-border-color: #f8f9fa;
@@ -216,7 +216,7 @@
   --$btn-active-color: #fff;
   --$btn-active-bg: #4d5154;
   --$btn-active-border-color: #373b3e;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #fff;
   --$btn-disabled-bg: #212529;
   --$btn-disabled-border-color: #212529;
@@ -232,11 +232,11 @@
   --$btn-active-color: #fff;
   --$btn-active-bg: #0d6efd;
   --$btn-active-border-color: #0d6efd;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #0d6efd;
   --$btn-disabled-bg: transparent;
   --$btn-disabled-border-color: #0d6efd;
-  gradient: none;
+  --$gradient: none;
 }
 
 .btn-outline-secondary {
@@ -249,11 +249,11 @@
   --$btn-active-color: #fff;
   --$btn-active-bg: #6c757d;
   --$btn-active-border-color: #6c757d;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #6c757d;
   --$btn-disabled-bg: transparent;
   --$btn-disabled-border-color: #6c757d;
-  gradient: none;
+  --$gradient: none;
 }
 
 .btn-outline-success {
@@ -266,11 +266,11 @@
   --$btn-active-color: #fff;
   --$btn-active-bg: #198754;
   --$btn-active-border-color: #198754;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #198754;
   --$btn-disabled-bg: transparent;
   --$btn-disabled-border-color: #198754;
-  gradient: none;
+  --$gradient: none;
 }
 
 .btn-outline-info {
@@ -283,11 +283,11 @@
   --$btn-active-color: #000;
   --$btn-active-bg: #0dcaf0;
   --$btn-active-border-color: #0dcaf0;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #0dcaf0;
   --$btn-disabled-bg: transparent;
   --$btn-disabled-border-color: #0dcaf0;
-  gradient: none;
+  --$gradient: none;
 }
 
 .btn-outline-warning {
@@ -300,11 +300,11 @@
   --$btn-active-color: #000;
   --$btn-active-bg: #ffc107;
   --$btn-active-border-color: #ffc107;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #ffc107;
   --$btn-disabled-bg: transparent;
   --$btn-disabled-border-color: #ffc107;
-  gradient: none;
+  --$gradient: none;
 }
 
 .btn-outline-danger {
@@ -317,11 +317,11 @@
   --$btn-active-color: #fff;
   --$btn-active-bg: #dc3545;
   --$btn-active-border-color: #dc3545;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #dc3545;
   --$btn-disabled-bg: transparent;
   --$btn-disabled-border-color: #dc3545;
-  gradient: none;
+  --$gradient: none;
 }
 
 .btn-outline-light {
@@ -334,11 +334,11 @@
   --$btn-active-color: #000;
   --$btn-active-bg: #f8f9fa;
   --$btn-active-border-color: #f8f9fa;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #f8f9fa;
   --$btn-disabled-bg: transparent;
   --$btn-disabled-border-color: #f8f9fa;
-  gradient: none;
+  --$gradient: none;
 }
 
 .btn-outline-dark {
@@ -351,11 +351,11 @@
   --$btn-active-color: #fff;
   --$btn-active-bg: #212529;
   --$btn-active-border-color: #212529;
-  --$btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --$btn-active-shadow: inset 0 3px 5px rgb(0 0 0 / 12.5%);
   --$btn-disabled-color: #212529;
   --$btn-disabled-bg: transparent;
   --$btn-disabled-border-color: #212529;
-  gradient: none;
+  --$gradient: none;
 }
 
 .btn-link {

@@ -89,11 +89,11 @@
 }
 
 .text-black-50 {
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: rgb(0 0 0 / 50%) !important;
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgb(255 255 255 / 50%) !important;
 }
 
 .text-body-secondary {

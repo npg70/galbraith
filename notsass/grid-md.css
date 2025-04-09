@@ -1,3 +1,3 @@
-@media (min-width: {{ Config.BreakpointMedium }}) {
+@media (width >= {{ Config.BreakpointMedium }}) {
 {{ template "grid" (.WithArg "md-") }}
 }

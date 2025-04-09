@@ -41,7 +41,6 @@
     --$navbar-nav-link-disabled-color: var(--$navbar-disabled-color);
 `
 }}
-
 .navbar {
   position: relative;
   display: flex;
@@ -159,7 +158,8 @@
   overflow-y: auto;
 }
 
-@media (min-width: 576px) {
+{{ if Config.EnableBreakpointSmall }}
+@media (width >= {{ Config.BreakpointSmall }}) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -206,7 +206,10 @@
     overflow-y: visible;
   }
 }
-@media (min-width: 768px) {
+{{ end }}
+
+{{ if Config.EnableBreakpointMedium }}
+@media (width >= {{ Config.BreakpointMedium }}) {
   .navbar-expand-md {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -253,7 +256,9 @@
     overflow-y: visible;
   }
 }
-@media (min-width: 992px) {
+{{ end }}
+{{ if Config.EnableBreakpointLarge }}
+@media (width >= {{ Config.BreakpointLarge }}) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -300,7 +305,9 @@
     overflow-y: visible;
   }
 }
-@media (min-width: 1200px) {
+{{ end }}
+{{ if Config.EnableBreakpointXLarge }}
+@media (width >= {{ Config.BreakpointXLarge }}) {
   .navbar-expand-xl {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -347,7 +354,9 @@
     overflow-y: visible;
   }
 }
-@media (min-width: 1400px) {
+{{ end }}
+{{ if Config.EnableBreakpointXXLarge }}
+@media (width >= {{ Config.BreakpointXXLarge }}) {
   .navbar-expand-xxl {
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -394,6 +403,8 @@
     overflow-y: visible;
   }
 }
+{{ end }}
+
 .navbar-expand {
   flex-wrap: nowrap;
   justify-content: flex-start;
