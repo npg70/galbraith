@@ -20,31 +20,6 @@
 {{ range $i := (sub $cols 1)}}{{ $j := mul $m (add $i 1 )}}
 {{ printf ".offset-%s%d { margin-left: %.3g%%; }" $p $j (mul 100.0 (div $j 12.0)) }}
 {{ end }}
-{{/*
-.col-{{ $p }}1 { flex: 0 0 auto; width: 8.33333333%; }
-.col-{{ $p }}2 { flex: 0 0 auto; width: 16.66666667%; }
-.col-{{ $p }}3 { flex: 0 0 auto; width: 25%; }
-.col-{{ $p }}4 { flex: 0 0 auto; width: 33.33333333%; }
-.col-{{ $p }}5 { flex: 0 0 auto; width: 41.66666667%; }
-.col-{{ $p }}6 { flex: 0 0 auto; width: 50%; }
-.col-{{ $p }}7 { flex: 0 0 auto; width: 58.33333333%; }
-.col-{{ $p }}8 { flex: 0 0 auto; width: 66.66666667%; }
-.col-{{ $p }}9 { flex: 0 0 auto; width: 75%; }
-.col-{{ $p }}10 { flex: 0 0 auto; width: 83.33333333%; }
-.col-{{ $p }}11 { flex: 0 0 auto; width: 91.66666667%; }
-.col-{{ $p }}12 { flex: 0 0 auto; width: 100%; }
-.offset-{{ $p }}1 { margin-left: 8.33333333%; }
-.offset-{{ $p }}2 { margin-left: 16.66666667%; }
-.offset-{{ $p }}3 { margin-left: 25%; }
-.offset-{{ $p }}4 { margin-left: 33.33333333%; }
-.offset-{{ $p }}5 { margin-left: 41.66666667%; }
-.offset-{{ $p }}6 { margin-left: 50%; }
-.offset-{{ $p }}7 { margin-left: 58.33333333%; }
-.offset-{{ $p }}8 { margin-left: 66.66666667%; }
-.offset-{{ $p }}9 { margin-left: 75%; }
-.offset-{{ $p }}10 { margin-left: 83.33333333%; }
-.offset-{{ $p }}11 { margin-left: 91.66666667%; }
-*/}}
 .g-{{ $p }}0, .gx-{{ $p }}0 { --bs-gutter-x: 0; }
 .g-{{ $p }}0, .gy-{{ $p }}0 { --bs-gutter-y: 0; }
 .g-{{ $p }}1, .gx-{{ $p }}1 { --bs-gutter-x: 0.25rem; }
