@@ -10,7 +10,7 @@
   "--$link-color" "#6ea8fe"
   "--$link-hover-color" "#8bb9fe"
 }}
-
+@layer base {
 a {
   color: var(--$link-color);
   text-decoration: var(--$link-decoration);
@@ -24,4 +24,5 @@ a:hover {
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
+}
 }

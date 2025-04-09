@@ -2,134 +2,137 @@
  *  Removed border-opacity utilities since they can directly specified with border-color and alpha
  *  Plus they are problematic since CSS doesn't can't directly set border opacity directly.
  */}}
+@layer utilities {
+
 .border {
-  border: var(border-width) var(border-style) var(border-color) !important;
+  border: var(border-width) var(border-style) var(border-color);
 }
 
 .border-0 {
-  border: 0 !important;
+  border: 0;
 }
 
 .border-top {
-  border-top: var(border-width) var(border-style) var(border-color) !important;
+  border-top: var(border-width) var(border-style) var(border-color);
 }
 
 .border-top-0 {
-  border-top: 0 !important;
+  border-top: 0;
 }
 
 .border-end {
-  border-right: var(border-width) var(border-style) var(border-color) !important;
+  border-right: var(border-width) var(border-style) var(border-color);
 }
 
 .border-end-0 {
-  border-right: 0 !important;
+  border-right: 0;
 }
 
 .border-bottom {
-  border-bottom: var(border-width) var(border-style) var(border-color) !important;
+  border-bottom: var(border-width) var(border-style) var(border-color);
 }
 
 .border-bottom-0 {
-  border-bottom: 0 !important;
+  border-bottom: 0;
 }
 
 .border-start {
-  border-left: var(border-width) var(border-style) var(border-color) !important;
+  border-left: var(border-width) var(border-style) var(border-color);
 }
 
 .border-start-0 {
-  border-left: 0 !important;
+  border-left: 0;
 }
 
 .border-primary {
-  border-color: var(primary) !important;
+  border-color: var(primary);
 }
 
 .border-secondary {
-  border-color: var(secondary) !important;
+  border-color: var(secondary);
 }
 
 .border-success {
-  border-color: var(success) !important;
+  border-color: var(success);
 }
 
 .border-info {
-  border-color: var(info) !important;
+  border-color: var(info);
 }
 
 .border-warning {
-  border-color: var(warning) !important;
+  border-color: var(warning);
 }
 
 .border-danger {
-  border-color: var(danger) !important;
+  border-color: var(danger);
 }
 
 .border-light {
-  border-color: var(light) !important;
+  border-color: var(light);
 }
 
 .border-dark {
-  border-color: var(dark) !important;
+  border-color: var(dark);
 }
 
 .border-black {
-  border-color: var(black) !important;
+  border-color: var(black);
 }
 
 .border-white {
-  border-color: var(white) !important;
+  border-color: var(white);
 }
 
 .border-primary-subtle {
-  border-color: var(primary-border-subtle) !important;
+  border-color: var(primary-border-subtle);
 }
 
 .border-secondary-subtle {
-  border-color: var(secondary-border-subtle) !important;
+  border-color: var(secondary-border-subtle);
 }
 
 .border-success-subtle {
-  border-color: var(success-border-subtle) !important;
+  border-color: var(success-border-subtle);
 }
 
 .border-info-subtle {
-  border-color: var(info-border-subtle) !important;
+  border-color: var(info-border-subtle);
 }
 
 .border-warning-subtle {
-  border-color: var(warning-border-subtle) !important;
+  border-color: var(warning-border-subtle);
 }
 
 .border-danger-subtle {
-  border-color: var(danger-border-subtle) !important;
+  border-color: var(danger-border-subtle);
 }
 
 .border-light-subtle {
-  border-color: var(light-border-subtle) !important;
+  border-color: var(light-border-subtle);
 }
 
 .border-dark-subtle {
-  border-color: var(dark-border-subtle) !important;
+  border-color: var(dark-border-subtle);
 }
 
 .border-1 {
-  border-width: 1px !important;
+  border-width: 1px;
 }
 
 .border-2 {
-  border-width: 2px !important;
+  border-width: 2px;
 }
 
 .border-3 {
-  border-width: 3px !important;
+  border-width: 3px;
 }
 
 .border-4 {
-  border-width: 4px !important;
+  border-width: 4px;
 }
 
 .border-5 {
-  border-width: 5px !important;
+  border-width: 5px;
+}
 }

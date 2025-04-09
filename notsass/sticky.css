@@ -1,4 +1,4 @@
-
+@layer utilities {
 .fixed-top {
   position: fixed;
   top: 0;
@@ -96,3 +96,4 @@
   }
 }
 {{ end }}
+}

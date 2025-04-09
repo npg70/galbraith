@@ -2,7 +2,7 @@
     "--$table-color" "var(--$body-color)"
     "--$table-background-color" "var(--$body-bg)"
 }}
-
+@layer base {
 .table {
   width: 100%;
   margin-bottom: 1rem;
@@ -44,4 +44,5 @@
 }
 .table-borderless > :not(:first-child) {
   border-top-width: 0;
+}
 }

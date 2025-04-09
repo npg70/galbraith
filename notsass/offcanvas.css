@@ -23,6 +23,7 @@
    `
 }}
 
+@layer components {
 .offcanvas, .offcanvas-xxl, .offcanvas-xl, .offcanvas-lg, .offcanvas-md, .offcanvas-sm {
 }
 
@@ -430,4 +431,5 @@
     -webkit-mask-position: -200% 0%;
     mask-position: -200% 0%;
   }
+}
 }

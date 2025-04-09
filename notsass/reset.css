@@ -27,6 +27,8 @@
 {{/* Local variables, scoped to file.  one per line. */}}
 {{ $TabSize := 4 }}
 
+@layer base {
+
 *,::before,::after { box-sizing: border-box; }
 
 body {
@@ -85,3 +87,5 @@ input, button, select, optgroup, textarea {
   font-size: inherit;
   line-height: inherit;
 }
+}
+

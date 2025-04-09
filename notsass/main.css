@@ -1,3 +1,4 @@
+@layer base, components, utilities;
 {{ template "color.css" . }}
 {{ template "reset.css" . }}
 {{ template "background.css" . }}
@@ -5,6 +6,7 @@
 {{ template "link.css" . }}
 {{ template "border.css" . }}
 {{ template "table.css" . }}
+{{ template "vr.css" . }}
 {{ if Config.EnableHeading }}{{ template "heading.css" . }}{{ end }}
 {{ if Config.EnableHeadingDisplay }}{{ template "heading-display.css" . }}{{ end }}
 {{ template "size.css" . }}
@@ -14,7 +16,6 @@
 {{ if Config.EnableBreakpointLarge }}{{ template "grid-lg.css" . }}{{ end }}
 {{ if Config.EnableBreakpointXLarge }}{{ template "grid-xl.css" . }} {{ end }}
 {{ if Config.EnableBreakpointXXLarge }}{{ template "grid-xxl.css" . }}{{ end }}
-{{ template "vr.css" . }}
 {{ if Config.EnableOffcanvas }}{{ template "offcanvas.css" . }}{{ end }}
 {{ if Config.EnableDropdown }}{{ template "dropdown.css" . }}{{ end }}
 {{ template "btn.css" . }}

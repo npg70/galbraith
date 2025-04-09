@@ -43,6 +43,8 @@
    "--$dropdown-header-color" "#adb5bd"
 }}
 
+@layer components {
+
 .dropup,
 .dropend,
 .dropdown,
@@ -327,3 +329,5 @@
   padding: var(--$dropdown-item-padding-y) var(--$dropdown-item-padding-x);
   color: var(--$dropdown-link-color);
 }
+}
+

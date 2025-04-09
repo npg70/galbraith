@@ -20,6 +20,7 @@
   `
 }}
 
+@layer components {
 .btn {
   --$display: inline-block;
   --$padding: var(--$btn-padding-y) var(--$btn-padding-x);
@@ -392,5 +393,6 @@
   --$btn-padding-x: 0.5rem;
   --$btn-font-size: 0.875rem;
   --$btn-border-radius: var(--$border-radius-sm);
+}
 }
 

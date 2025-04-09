@@ -13,6 +13,7 @@
   "--$nav-link-hover-color" "var(--$link-hover-color)"
   "--$nav-link-disabled-color" "var(--$secondary-color)"
 }}
+@layer components {
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -85,4 +86,5 @@
   margin-top: calc(-1 * var(--$nav-tabs-border-width));
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
 }

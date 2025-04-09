@@ -1,4 +1,4 @@
-
+@layer base {
 .vr {
   display: inline-block;
   align-self: stretch;
@@ -6,4 +6,5 @@
   min-height: 1em;
   background-color: currentcolor;
   opacity: 0.25;
+}
 }
