@@ -8,7 +8,7 @@ EnableBreakpointXLarge: false
 EnableBreakpointXXLarge: false
 `}}
 {{ template "main.css" . }}
-{{ template "m3-dark.css" . }}
+{{ template "material-design-m3.css" . }}
 {{ template "source-serif.css" . }}
 {{ Root
    "--$body-font-size" "1.2rem"
