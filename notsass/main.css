@@ -17,6 +17,7 @@
 {{ if Config.EnableBreakpointXLarge }}{{ template "grid-xl.css" . }} {{ end }}
 {{ if Config.EnableBreakpointXXLarge }}{{ template "grid-xxl.css" . }}{{ end }}
 {{ if Config.EnableOffcanvas }}{{ template "offcanvas.css" . }}{{ end }}
+{{ if Config.EnablePlaceholder }}{{ template "placeholder.css" . }}{{ end }}
 {{ if Config.EnableDropdown }}{{ template "dropdown.css" . }}{{ end }}
 {{ template "btn.css" . }}
 {{ template "btn-close.css" . }}
