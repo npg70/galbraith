@@ -25,7 +25,7 @@
   `
 }}
 {{ Theme "light" `
-  --$body-color: #212529;
+  --$body-color: var(--$gray900);
   --$body-bg: #fff;
   --$border-color: #dee2e6;
   --$border-color-translucent: rgb(0 0 0 / 17.5%);
@@ -44,7 +44,7 @@
   --$warning: #ffc107;
   --$danger: #dc3545;
   --$light: #f8f9fa;
-  --$dark: #212529;
+  --$dark: var(--$gray-900);
 
   --$primary-text-emphasis: #052c65;
   --$secondary-text-emphasis: #2b2f32;
