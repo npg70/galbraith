@@ -1,5 +1,7 @@
 {{/*
-       Removed anything to do with "text opacity"
+     -  Removed anything to do with "text opacity"
+     -  Removes -light and -dark utils
+     -  Remove -subtle utils
 */}}
 @layer utilities {
 .text-decoration-none { text-decoration: none; }

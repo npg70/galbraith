@@ -14,11 +14,5 @@
 .bg-transparent { background-color: transparent; }
 .bg-body-secondary { background-color: var(--$secondary-bg); }
 .bg-body-tertiary { background-color: var(--$tertiary-bg); }
-.bg-primary-subtle { background-color: var(--$primary-bg-subtle); }
-.bg-secondary-subtle { background-color: var(--$secondary-bg-subtle); }
-.bg-success-subtle { background-color: var(--$success-bg-subtle); }
-.bg-info-subtle { background-color: var(--$info-bg-subtle); }
-.bg-warning-subtle { background-color: var(--$warning-bg-subtle); }
-.bg-danger-subtle { background-color: var(--$danger-bg-subtle); }
 .bg-gradient { background-image: var(--$gradient); }
 }

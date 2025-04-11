@@ -51,16 +51,18 @@
   cursor: default;
 }
 
-{{ Root
-  "--$nav-tabs-border-width" "var(--$border-width)"
-  "--$nav-tabs-border-radius" "var(--$border-radius)"
+{{ Root `
+  --$nav-tabs-border-width: var(--$border-width);
+  --$nav-tabs-border-radius: var(--$border-radius);
+  `
 }}
-{{ Theme "light"
-  "--$nav-tabs-border-color" "var(--$border-color)"
-  "--$nav-tabs-link-hover-border-color" "var(--$secondary-bg) var(--$secondary-bg) var(--$border-color)"
-  "--$nav-tabs-link-active-color" "var(--$emphasis-color)"
-  "--$nav-tabs-link-active-bg" "var(--$body-bg)"
-  "--$nav-tabs-link-active-border-color" "var(--$border-color) var(--$border-color) var(--$body-bg)"
+{{ Theme "light" `
+  --$nav-tabs-border-color: var(--$border-color);
+  --$nav-tabs-link-hover-border-color: var(--$secondary-bg) var(--$secondary-bg) var(--$border-color);
+  --$nav-tabs-link-active-color: var(--$emphasis-color);
+  --$nav-tabs-link-active-bg: var(--$body-bg);
+  --$nav-tabs-link-active-border-color: var(--$border-color) var(--$border-color) var(--$body-bg);
+  `
 }}
 
 .nav-tabs {

@@ -21,12 +21,6 @@
 .border-danger { border-color: var(--$danger); }
 .border-black { border-color: var(--$black); }
 .border-white { border-color: var(--$white); }
-.border-primary-subtle { border-color: var(--$primary-border-subtle); }
-.border-secondary-subtle { border-color: var(--$secondary-border-subtle); }
-.border-success-subtle { border-color: var(--$success-border-subtle); }
-.border-info-subtle { border-color: var(--$info-border-subtle); }
-.border-warning-subtle { border-color: var(--$warning-border-subtle); }
-.border-danger-subtle { border-color: var(--$danger-border-subtle); }
 .border-1 { border-width: 1px; }
 .border-2 { border-width: 2px; }
 .border-3 { border-width: 3px; }
