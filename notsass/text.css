@@ -17,8 +17,6 @@
 .text-info { color: var(--$info); }
 .text-warning { color: var(--$warning); }
 .text-danger { color: var(--$danger); }
-.text-light { color: var(--$light); }
-.text-dark { color: var(--$dark); }
 .text-black { color: var(--$black); }
 .text-white { color: var(--$white); }
 .text-body { color: var(--$body-color); }
@@ -35,7 +33,5 @@
 .text-info-emphasis { color: var(--$info-text-emphasis); }
 .text-warning-emphasis { color: var(--$warning-text-emphasis); }
 .text-danger-emphasis { color: var(--$danger-text-emphasis); }
-.text-light-emphasis { color: var(--$light-text-emphasis); }
-.text-dark-emphasis { color: var(--$dark-text-emphasis); }
 }
 

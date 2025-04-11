@@ -8,8 +8,6 @@
 .bg-info { background-color: var(--$info-rgb); }
 .bg-warning { background-color: var(--$warning); }
 .bg-danger { background-color: var(--$danger); }
-.bg-light { background-color: var(--$light); }
-.bg-dark { background-color: var(--$dark); }
 .bg-black { background-color: var(--$black); }
 .bg-white { background-color: var(--$white); }
 .bg-body { background-color: var(--$body-bg); }
@@ -22,7 +20,5 @@
 .bg-info-subtle { background-color: var(--$info-bg-subtle); }
 .bg-warning-subtle { background-color: var(--$warning-bg-subtle); }
 .bg-danger-subtle { background-color: var(--$danger-bg-subtle); }
-.bg-light-subtle { background-color: var(--$light-bg-subtle); }
-.bg-dark-subtle { background-color: var(--$dark-bg-subtle); }
 .bg-gradient { background-image: var(--$gradient); }
 }
