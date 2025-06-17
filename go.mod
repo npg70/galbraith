@@ -1,20 +1,12 @@
-module gene2
+module github.com/npg70/galbraith
 
-go 1.23.0
-
-toolchain go1.24.1
-
-require golang.org/x/net v0.37.0
+go 1.24.3
 
 require (
-	github.com/bep/gitmap v1.6.0
-	golang.org/x/text v0.23.0
-)
-
-require golang.org/x/exp v0.0.0-20240506185415-9bf2ced13842
-
-require (
-	github.com/client9/tagfunctions v0.0.0-20250327012640-af04c4bf51e4
-	github.com/npg70/ssg v0.0.0-20250327003959-5913e548fcea
+	github.com/bep/gitmap v1.7.0
+	github.com/client9/ssg v0.0.0-20250617170123-f3870cb362b8
+	github.com/client9/tagfunctions v0.0.0-20250522042215-2a09292e1fe5
+	golang.org/x/net v0.41.0
+	golang.org/x/text v0.26.0
 	gopkg.in/yaml.v3 v3.0.1
 )

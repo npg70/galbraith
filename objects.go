@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/npg70/ssg"
+	"github.com/client9/ssg"
 )
 
 type Ref struct {

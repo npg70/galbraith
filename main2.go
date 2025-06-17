@@ -3,112 +3,61 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"io/fs"
-	"log"
-	"os"
-	"path/filepath"
-	"strings"
+	"io"
 
 	tf "github.com/client9/tagfunctions"
-	"github.com/npg70/ssg"
+	"github.com/client9/ssg"
 	"gopkg.in/yaml.v3"
 )
 
-func Main2(config siteConfig, pages *[]ssg.ContentSource) error {
-	tmpl, err := templateMap("layouts")
+// split input source into metadata and content
+func SplitYaml(src []byte) ([]byte,[]byte) {
+	return ssg.Splitter(ssg.HeadYaml, src)
+}
+
+// parse metadata as Yaml
+func ParseYaml(s []byte) (ssg.ContentSourceConfig, error) {
+	meta := ssg.ContentSourceConfig{}
+	if err := yaml.Unmarshal(s, &meta); err != nil {
+		return nil, fmt.Errorf("Unable to un-yaml: %v", err)
+	}
+	return meta, nil
+}
+
+func Main2(config ssg.SiteConfig, pages *[]ssg.ContentSourceConfig) error {
+	// create page assembly templates
+	pageTemplate, err := ssg.NewPageRender(config.TemplateDir, nil)
 	if err != nil {
-		return err
+		return fmt.Errorf("Page Template failed: %v", err)
 	}
 
-	// load in everything
-	if err := LoadContent(config, pages); err != nil {
-		return fmt.Errorf("Load content failed: %w", err)
+	conf := ssg.SiteConfig{
+		InputExt: ".sh",
+		OutputExt: ".html",
+		IndexSource : "index.sh",
+	 	IndexDest: "index.html",
+		Split: SplitYaml,
+		Metaparser: ParseYaml,
+		Pipeline: []ssg.Renderer{
+			TagRender,
+			pageTemplate,
+		},
 	}
 
-	// TBD: do global site stuff
-	for _, p := range *pages {
-		np := p.(ssg.ContentSourceConfig)
-		source := np["Content"].([]byte)
-		content, err := render(source)
-		if err != nil {
-			return err
-		}
-		// needs to be a string for templates
-		np["Content"] = string(content)
+	// do it
+	err = ssg.Main2(conf, pages)
+	if err != nil {
+		return fmt.Errorf("Main failed: %s", err)
 	}
-
-	// merge in content to templates
-	if err := ssg.Execute(config, tmpl, *pages); err != nil {
-		return fmt.Errorf("ssg.Execute failed: %w", err)
-	}
-
 	return nil
 }
 
-func LoadContent(config ssg.SiteConfig, out *[]ssg.ContentSource) error {
-	cs := ssg.ContentSplitter{}
-	cs.Register(ssg.HeadYaml)
-
-	// for each file in sources
-	// read it in,
-	suffix := ".sh"
-	contentDir := "content"
-	err := filepath.WalkDir(contentDir, func(path string, d fs.DirEntry, err error) error {
-		//log.Printf("WalkDir: got %s", path)
-		// not sure how this works
-		if err != nil {
-			return err
-		}
-
-		// dont look at linux/mac dot dirs
-		if d.IsDir() {
-			if strings.HasPrefix(d.Name(), ".") {
-				return filepath.SkipDir
-			}
-			return nil
-		}
-
-		if !strings.HasSuffix(path, suffix) {
-			return nil
-		}
-
-		log.Printf("reading page file %s", path)
-		raw, err := os.ReadFile(path)
-		if err != nil {
-			return fmt.Errorf("reading page file %s failed: %w", path, err)
-		}
-
-		htype, head, body := cs.Split(raw)
-		if htype != "yaml" {
-			// TBD on right behavior
-			log.Fatalf("Expected YAML sample: got %q", htype)
-		}
-
-		page := make(ssg.ContentSourceConfig)
-		if err := yaml.Unmarshal(head, &page); err != nil {
-			log.Fatalf("Unable to un-yaml: %v", err)
-		}
-		if _, ok := page["TemplateName"]; !ok {
-			page["TemplateName"] = "baseof.html"
-		}
-		// have: content/foo/bar/page.sh
-		// want: foo/bar/page/index.html
-		if _, ok := page["OutputFile"]; !ok {
-			s := path[len(contentDir)+1:]
-			s = strings.TrimSuffix(s, filepath.Ext(s))
-			if d.Name() == "index.sh" {
-				s += ".html"
-			} else {
-				s = filepath.Join(s, "index.html")
-			}
-			log.Printf("Setting outfile to %s", s)
-			page["OutputFile"] = s
-		}
-		page["Content"] = body
-		*out = append(*out, page)
-		return nil
-	})
-
+func TagRender(wr io.Writer, src []byte, data any) error {
+	out, err := render(src)
+	if err != nil {
+		return err
+	}
+	_, err = wr.Write(out)
 	return err
 }
 

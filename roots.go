@@ -4,14 +4,14 @@ import (
 	"bytes"
 	"fmt"
 	"log"
+	"maps"
 	"path/filepath"
 	"sort"
+	"slices"
 	"strings"
 
-	"golang.org/x/exp/maps"
-
 	"github.com/bep/gitmap"
-	"github.com/npg70/ssg"
+	"github.com/client9/ssg"
 )
 
 // computes roots of the tree and makes indexes for it.
@@ -72,7 +72,7 @@ func computeRoots(db Root) []string {
 }
 
 // home page for tags
-func tagIndex(tmap map[string][]string, outputFile string) ssg.ContentSource {
+func tagIndex(tmap map[string][]string, outputFile string) ssg.ContentSourceConfig {
 	out := bytes.Buffer{}
 	out.WriteString(`
 $table{
@@ -252,8 +252,7 @@ func tagmap2(db Root, page tagpage, depth int) []tagpage {
 			}
 		}
 	}
-	children := maps.Keys(tmap)
-	sort.Strings(children)
+	children := slices.Sorted(maps.Keys(tmap))
 	page.tags = children
 	result := []tagpage{page}
 

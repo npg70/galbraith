@@ -8,7 +8,5 @@
 *.so
 *.dylib
 *.swp
-# HUGO GENERATED STUFF
 
-hugo/.hugo_build.lock
-hugo/public
+public

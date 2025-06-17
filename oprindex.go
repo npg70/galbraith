@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	tf "github.com/client9/tagfunctions"
-	"github.com/npg70/ssg"
+	"github.com/client9/ssg"
 	"golang.org/x/net/html"
 )
 

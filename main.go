@@ -8,19 +8,11 @@ import (
 	"time"
 
 	tf "github.com/client9/tagfunctions"
-	"github.com/npg70/ssg"
+	"github.com/client9/ssg"
 )
 
 func init() {
 	// flag stuff
-}
-
-type siteConfig struct {
-	outputDir string
-}
-
-func (sconfig siteConfig) OutputDir() string {
-	return sconfig.outputDir
 }
 
 func getLines(db Root, roots []string) [][]*Person {
@@ -66,10 +58,12 @@ func getLine(paths [][]*Person) [][]*Person {
 }
 
 func main() {
-	sc := siteConfig{}
+	sc := ssg.SiteConfig{
+		TemplateDir: "layouts",
+	}
 	rootsOnly := false
 	server := false
-	flag.StringVar(&sc.outputDir, "out", "", "out directory")
+	flag.StringVar(&sc.OutputDir, "out", "public", "out directory")
 	flag.BoolVar(&rootsOnly, "root", false, "run and display roots")
 	flag.BoolVar(&server, "serve", false, "run webserver")
 	flag.Parse()
@@ -106,7 +100,7 @@ func main() {
 	// make full text index, do after all tags are created.
 	fulltext(db)
 
-	pages := []ssg.ContentSource{}
+	pages := []ssg.ContentSourceConfig{}
 	pages = append(pages, oprPageIndex(db, "indexes/opr-page-index/index.html"))
 
 	pages = append(pages, oprindex(db, "b", "indexes/opr-birth-index/index.html"))
@@ -153,6 +147,7 @@ func main() {
 	elapsed := t.Sub(start)
 	log.Printf("%d pages in %s", len(pages), elapsed)
 	if server {
-		tf.Serve(sc.OutputDir(), "galbraith")
+		log.Printf("Home %q", sc.OutputDir)
+		tf.Serve(sc.OutputDir, "galbraith")
 	}
 }
