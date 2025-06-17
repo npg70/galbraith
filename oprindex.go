@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	tf "github.com/client9/tagfunctions"
 	"github.com/client9/ssg"
+	tf "github.com/client9/tagfunctions"
 	"golang.org/x/net/html"
 )
 

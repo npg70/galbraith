@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	tf "github.com/client9/tagfunctions"
 	"github.com/client9/ssg"
+	tf "github.com/client9/tagfunctions"
 )
 
 func init() {

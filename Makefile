@@ -24,6 +24,8 @@ clean:
 	rm -f static/fulltext.json
 
 lint:
+	go mod tidy
+	gofmt -w -s *.go
 	golangci-lint run .
 
 env:

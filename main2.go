@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"io"
 
-	tf "github.com/client9/tagfunctions"
 	"github.com/client9/ssg"
+	tf "github.com/client9/tagfunctions"
 	"gopkg.in/yaml.v3"
 )
 
 // split input source into metadata and content
-func SplitYaml(src []byte) ([]byte,[]byte) {
+func SplitYaml(src []byte) ([]byte, []byte) {
 	return ssg.Splitter(ssg.HeadYaml, src)
 }
 
@@ -32,12 +32,12 @@ func Main2(config ssg.SiteConfig, pages *[]ssg.ContentSourceConfig) error {
 	}
 
 	conf := ssg.SiteConfig{
-		InputExt: ".sh",
-		OutputExt: ".html",
-		IndexSource : "index.sh",
-	 	IndexDest: "index.html",
-		Split: SplitYaml,
-		Metaparser: ParseYaml,
+		InputExt:    ".sh",
+		OutputExt:   ".html",
+		IndexSource: "index.sh",
+		IndexDest:   "index.html",
+		Split:       SplitYaml,
+		Metaparser:  ParseYaml,
 		Pipeline: []ssg.Renderer{
 			TagRender,
 			pageTemplate,

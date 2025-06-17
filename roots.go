@@ -6,8 +6,8 @@ import (
 	"log"
 	"maps"
 	"path/filepath"
-	"sort"
 	"slices"
+	"sort"
 	"strings"
 
 	"github.com/bep/gitmap"
