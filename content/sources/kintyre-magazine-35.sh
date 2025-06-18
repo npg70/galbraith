@@ -117,10 +117,10 @@ $blockquote{
 I am particularly indebted to the late Wm. W. Galbreath Jr of Lynchburg, Virginia, a nuclear scientist, for originally making the correspondence available to me and to Mr Ralph W. Sloan of Westminster, Maryland, the present archivist of' the American Galbreaths.
 }
 $p{
-$elink[https://www.familysearch.org/tree/person/details/G6TS-MSR]{William Wilson Galbreath, Jr}, b. 1919 in Ohio, and died 15 Sep 1983.  He is the six[check] generation from Alexander Galbreath.  He worked on the Manhattan Project.  It's unclear what happened to the letter.
+$elink[https://www.familysearch.org/tree/person/details/G6TS-MSR]{William Wilson Galbreath, Jr}, b. 1919 in Ohio, and died 15 Sep 1983. He is six[check] generations from Alexander Galbreath. He worked on the Manhattan Project. It's unclear what happened to the letter.
 }
 $p{
-$elink[https://www.familysearch.org/tree/person/details/LCB4-CPC]{Ralph W Sloan}, b. 1918, d. 2010, married to Cornelia Halie Galbreath, also a sixth generation descendart of Alexander.
+$elink[https://www.familysearch.org/tree/person/details/LCB4-CPC]{Ralph W Sloan}, b. 1918, d. 2010, married to Cornelia Halie Galbreath, also a sixth generation descendant of Alexander.
 }
 
 $hr{}
@@ -167,7 +167,7 @@ $br{}$br{}
 5. John Paterson was married to Mary Fleming. The new baby James in 1830 took to do with the estate of his aunt Margaret Fleming, widow of David Ferguson, Smith in Campbeltown.
 }
 $p{
-$child-link[paterson-john-1764-fleeming]{John Paterson} married Mary Fleeming about 1785 (no marriage record has found).  They had nine children the first being baptized as "John" being born on 13 Nov 1787.  The Census of 1792 lists the family living at 86 Shore street, with "John" now being "James."  This child died young.  There was another John bp. in 1796 and the last child born in 1807, James Paterson, went on to marry $child-link[galbraith-isabella-1808-paterson]{Isabella Galbraith}.
+$child-link[paterson-john-1764-fleeming]{John Paterson} married Mary Fleeming about 1785 (no marriage record has found). They had nine children the first being baptized as "John" being born on 13 Nov 1787. The Census of 1792 lists the family living at 86 Shore Street, with "John" now being "James." This child died young. There was another John bp. in 1796 and the last child born in 1807, James Paterson, went on to marry $child-link[galbraith-isabella-1808-paterson]{Isabella Galbraith}.
 }
 $p{ 
 $child-link[ferguson-david-1748-fleeming]{David Ferguson} was born in 1749 and died in 1813. Margaret died in 1834 (not 1830), and the estate was settled by the above James Paterson ("Margaret Ferguson", 31/12/1834, Dunoon Sheriff Court, SC51/32/4).
