@@ -44,6 +44,14 @@ Here occurs a blank in the register from the above date ($i{19 Feb 1705})
 , till 24th March 1706
 }
 
+$h2{Campbeltown Marriages, gap 1762}
+
+$opr-page[m-1763-507-000-0011-0463] -  Gap 4 July 1762 to 13 Aug 1762
+
+$blockquote{
+(Here occurs a blank in the Register from 4th July 1762 till 13th August 1762.)
+}
+
 $h2{Campbeltown Marriages, gap 1773-1778}
 
 $ul{
