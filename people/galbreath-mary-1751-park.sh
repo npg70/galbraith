@@ -44,7 +44,8 @@ partner {
 
     child {
         name Elisabeth Andrew
-        baptism -date 18-jan-1775 -location campbeltown
+	birth -date 18-jan-1775
+        baptism -date 18-jan-1775 -location campbeltown -ref elisabeth1775-baptism
     }
 }
 
@@ -56,25 +57,28 @@ partner {
     marriage -date 'about 1776'
 
     child {
-        name James/John Park
-        baptism -date 10-jul-1777 -location campbeltown
+        name John Park
+        birth -date 10-jul-1777
+        baptism -date 10-jul-1777 -location campbeltown -ref john1777-baptism
     }
     child {
         name Robert Park
-        baptism -date 04-jul-1779 -location campbeltown
-        body {
-            Died young.
-        }
+	birth -date 03-jul-1779
+        baptism -date 04-jul-1779 -location campbeltown -ref robert1779-baptism
+	death -note dy
     }
 
     child park-mary-1782-mclachlan
 
     child {
         name James Park 
-        baptism -date 29-aug-1784 -location campbeltown
+	birth -date 27-aug-1784
+        baptism -date 29-aug-1784 -location campbeltown -ref james1784-baptism
         death -date 1793
     }
+
     child park-elizabeth-1786-reid 
+
     child {
         name Margaret Park
         birth -date 02-oct-1790
@@ -118,6 +122,34 @@ $blockquote{
         $opr-ref-link[m-1771-507-000-0010-0343 "Mary Galbreathson" "Matthew Andrew"]{
         Nov 1th Matthew Andrew and Mary Galbreath in this parish
     }
+    }
+    elisabeth1775-baptism {
+	$opr-ref-link[b-1775-507-000-0020-0016 "Elisabeth Andrew"]
+	$blockquote{
+		Elisabeth | Daughter to Matthew Andrew and Mary Galbreath
+		Borth January 18th Bapt the same day.
+	}
+    }
+    john1777-baptism {
+	$opr-ref-link[b-1777-507-000-0020-0033 "John Park"]
+	$blockquote{
+		John | Lawful son to James Park and Mary Galbreath Born 10th
+		July Baptized the same day.
+        }
+    }
+    robert1779-baptism {
+	$opr-ref-link[b-1779-507-000-0020-0044 "Robert Park"]
+	$blockquote{
+		Robert | Lawful son to James Park & Mary Galbreath,
+		born 3rd Bapt 4th July 1779.
+        }
+    }
+    james1784-baptism {
+	$opr-ref-link[b-1784-507-000-0020-0076 "James Park"]
+	$blockquote{
+		James | Lawful son to James Park Mercht in Campbeltown
+		& Mary Galbreath was born 27th & Bapt 29th Aug
+	}
     }
     marg1790-baptism {
         $opr-ref-link[b-1790-507-000-0020-0123 "Margaret Park"]{
