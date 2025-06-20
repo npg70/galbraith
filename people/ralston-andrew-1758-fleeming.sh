@@ -44,23 +44,7 @@ partner {
 		marriage -date 1900
 	}
     }
-    child {
-        name John Ralston
-        gender male
-        external {
-		wikitree Ralston-1440
-                findagrave 182316108
-        }
-        baptism -date 25-jun-1780 -location southend -ref john1780-baptism
-        partner {
-            name Agnes McNair
-            gender female
-	    marriage -date 1807
-        }
-	body {
-		could use investigation
-	}
-    }
+    child ralston-john-1780-mcnair 
     child {
         name Isobell Ralston
 	gender female
@@ -156,12 +140,6 @@ footnotes {
        $blockquote{
 	Dec 28 Robert lawful son of Andrew Ralston Knockstapplebeg
        }
-    }
-    john1780-baptism {
-	$opr-ref-link[b-1780-532-000-0010-0033  "John Ralston"]
-	$blockquote{
-		June 25 $s{James} John lawfl son of Andrew Ralston in Knockstapplebeg
-        }
     }
     margaret1785-baptism {
 	$opr-ref-link[b-1785-532-000-0010-0036 "Margaret Ralston"]
