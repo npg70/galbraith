@@ -96,6 +96,10 @@ $table{
 		$td{...}
 	}
 	$tr{
+		$td{$tag-link{langwill}
+		$td{...}
+	}
+	$tr{
 		$td{$tag-link{mcnair}
 		$td{...}
 	}
