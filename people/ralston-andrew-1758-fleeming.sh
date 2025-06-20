@@ -1,6 +1,8 @@
 name Andrew Ralston
 gender male
 tags Ralston Argyll:Campbeltown Argyll:Southend
+confused-with ralston-andrew-1756-harvie-orr
+confused-with ralston-andrew-1762-ralston
 parent {
     name Robert Ralston
     partner {

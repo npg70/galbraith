@@ -31,13 +31,13 @@ $blockquote{
 On Mary Mitchell's death John senior married Katherine McCallum who gave him one son, Archibald.
 }
 
-Almost.  No evidence of marriage, however an John Galbreath and Katherine McCallum are recorded as the parents of "natural birth" (i.e. illegitimate) of Archibald Galbreath.
+Almost. No evidence of marriage, however an John Galbreath and Katherine McCallum are recorded as the parents of "natural birth" (i.e. illegitimate) of Archibald Galbreath.
 
 $blockquote{
 There is something of a mystery about Agnes Langwill. The Lowland church register gives her name as Agnes four times but in one of the letters hereinafter produced she signs herself Janet Langwill. This discrepancy was noticed as long ago as 1895 when the late Mr $child-link[armour-archibald-dunlop-1863-stuart-smith]{Archibald Dunlop Armour} was in touch with the family. Like him, I can provide no explanation.
 }
 $p{
-The correspondence with $child-link[armour-archibald-dunlop-1863-stuart-smith]{Archibald Dunlop Armour} has not been published. He was the Grandson of $child-link[armour-robert-1787-porter]{Robert Armour}, the illicit still maker in Campbeltown.  He was also the founder of the Campbeltown Picture House.
+The correspondence with $child-link[armour-archibald-dunlop-1863-stuart-smith]{Archibald Dunlop Armour} has not been published. He was the Grandson of $child-link[armour-robert-1787-porter]{Robert Armour}, the illicit still maker in Campbeltown. He was also the founder of the Campbeltown Picture House.
 }
 $p{
 The mystery of Agnes Langwill versus Janet Langwill is more than just her name. She was also supposedly dead. More details below.
@@ -78,7 +78,6 @@ $blockquote{This Galbreath family has been more assiduous than any I know in kee
 $p{
 Unfortunately, since the Covid Epidemic of 2022, the meetings and reunions of the Galbreath family have stopped.
 }
-
 
 $p{
 Nine generations were listed in "The Alexander Galbraith Family", published 1955, 1976, 1932.
@@ -289,7 +288,9 @@ $blockquote{
 
 $p{
 $child-link[ralston-andrew-1758-fleeming]{Andrew Ralson}.
-TBD - there are two Andrew Ralston in south end...
+
+FYI  -There is another $child-link[ralston-andrew-1762-ralston]{Andrew Ralson} in Southend.
+
 }
 
 
@@ -357,6 +358,13 @@ David Galbreath still in L Knockh his son married Peter in Straths sister
 $p{"L Knockh" is "Lower Knockinoch"?}
 $p{"Strat" was a another name for Laggan.}
 
+$p{By luck, found the following record}
+$blockquote{
+$i{1718} John | Peter Langwill & Janet Galbreath in Strath had a son born 6th April named John
+}
+
+TBD: See $child-link[galbreath-jenat-1698-langwill]{Janet Galbreath} and Peter Langwill.
+
 $p{
 David was an unusual name in Campbeltown, except around 1719, when three different Davids were born. Two married different Langwills, and had their first child about the same time.
 }
@@ -381,7 +389,7 @@ Someone's mother died on 11 March 1792.
 $hr{}
 $h2{Letter 6}
 $p{
-Dated: After Feb 1793, From $child-link[fleming-john-1858-colville]{John Fleeming} to $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
+Dated: After Feb 1793, From $child-link[fleming-john-1758-colville]{John Fleeming} to $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreath}
 }
 
 $blockquote{
@@ -429,7 +437,7 @@ $blockquote{
 My family consists of my old soon & Mary & Betty I wrote you last of the Death of James August Last
 }
 $p{
-"Old Soon" is the first born John.  It appears he did not know his wife was pregnant with Margaret at the time, six months later.
+"Old Soon" is the first born John. $child-link[park-mary-1782-mclachlan]{Mary Park} went on to marry Donald McLachlan, and $child-link[park-elizabeth-1786-reid]{Elizabeth Park} to Hugh Reid. It appears he did not know his wife was pregnant with Margaret at the time, six months later.
 }
 
 $blockquote{
