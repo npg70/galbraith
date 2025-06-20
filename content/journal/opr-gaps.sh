@@ -25,6 +25,9 @@ $blockquote{
 There occurs some vacant places in the original.
 }
 
+$h2{Campbeltown Births: Missing names in 1740}
+
+$opr-page[b-1740-507-000-0011-0395] -- baptism is recorded... minus the child's nae.
 
 $h2{Campbeltown Births: A 3 month gap 1748-1749:}
 
