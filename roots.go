@@ -80,11 +80,15 @@ $table{
 		$th[colspan=2]{Major Families}
 	}
 	$tr{
+		$td{$tag-link{fleeming}
+		$td{...}
+	}
+	$tr{
 		$td{$tag-link{galbraith}
 		$td{...}
 	}
 	$tr{
-		$td{$tag-link{mcnair}
+		$td{$tag-link{greenlees}
 		$td{...}
 	}
 	$tr{
@@ -92,11 +96,15 @@ $table{
 		$td{...}
 	}
 	$tr{
+		$td{$tag-link{mcnair}
+		$td{...}
+	}
+	$tr{
 		$td{$tag-link{mitchell}
 		$td{...}
 	}
 	$tr{
-		$td{$tag-link{greenlees}
+		$td{$tag-link{ralston}
 		$td{...}
 	}
 	$tr{
