@@ -14,7 +14,7 @@ ISBN 0-9542228-1-4
 $h2{Register of Testaments, CC2/3/8 Page 354}
 $blockquote{
 Neil Galbraith at Kllchamaig 354
-Testament dative given up by Donald Campbell tacksman ofK.ilchamaig executor
+Testament dative given up by Donald Campbell tacksman of K.ilchamaig executor
 dative qua creditor.
 Died in February 1733. Parish: K.ilcalmonell.
 Testament confirmed: 29 Jun 1733.
@@ -24,10 +24,10 @@ Testament confirmed: 29 Jun 1733.
 $h2{Register of Testaments, CC2/3/1 Page 352}
 
 $blockquote{
-Patrick Galbraith tenant in Upper Ugadale in Klntyre Testament dative given up by John Galbreath, merchant in Campbeltown, his son,
-executor dative qua nearest in kin. .
+Patrick Galbraith tenant in Upper Ugadale in Kintyre Testament dative given up by John Galbreath, merchant in Campbeltown, his son,
+executor dative qua nearest in kin.
 Parish: [Saddell].
-Testament confinned: 17 Nov 1766.
+Testament confirmed: 17 Nov 1766.
 }
 (book page 161)
 
@@ -38,8 +38,8 @@ David Ryburn late merchant in Campbeltown
 Testament ad omissa given up by James Greenlees, James Reid and William and
 Samuel Galbreath, merchants in Campbeltown as executors dative qua creditors in
 respect of a dccreet cognitionis causa in the Sheriff Court against Mary Thom as
-John and Robert Ryburn, children oftbe defunct 449 ' '
-Parish: Campbcltown.
+John and Robert Ryburn, children oftbe defunct 449
+Parish: Campbeltown
 Testament confirmed: 16 Jan 1773.
 }
 (book page 164)
@@ -50,7 +50,8 @@ $blockquote{
 Robert Harvie late merchant in Campbeltown Testament dative given up by Amy, Isabell and Margaret Harvie, his daughters,
 and Thomas Johnston and Andrew Ralston, merchants in Campbeltown, spouses
 of Amy and Isabell, executors dative qua nearest in kin.
-Died in 1780. Parish: Campbeltown.
+Died in 1780.
+Parish: Campbeltown.
 Testament confinned: 9 Mar 178 l.
 }
 
@@ -68,7 +69,7 @@ Testament confirmed: 31 Mar 1791.
 $h2{Register of Testaments, CC2/3/13 Page 38}
 
 $blockquote{
-James Harvey late tenant in Park and Janet Mitchell bis wife Testament dative given up by James Harvey, tenant in Peninver, son of the
+James Harvey late tenant in Park and Janet Mitchell his wife Testament dative given up by James Harvey, tenant in Peninver, son of the
 defunct and executor dative qua nearest in kin.
 Parish: Campbeltown.
 Testament confinned: 19 Apr 1803.
@@ -155,7 +156,7 @@ Testament dative given up by James Harvey, farmer in Ballevain, executor dative
 qua nearest in kin.
 }
 
-Died 8 April 1816. Parish: Campbcltown.
+Died 8 April 1816. Parish: Campbeltown.
 
 Testament confinned: 25 Oct 1816.
 
