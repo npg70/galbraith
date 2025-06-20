@@ -1,6 +1,6 @@
 name Agnes Andrew
 gender female
-baptism -date 06-sep-1772 -location campbeltown
+baptism -date 06-sep-1772 -location campbeltown -ref agnes1772-baptism
 death -date 21-may-1845 -ref agnes-death
 external {
     ancestry tree/12079504/person/282647300843
@@ -63,6 +63,19 @@ partner {
 }
 
 footnotes {
+    agnes1772-baptism {
+	$opr-ref-link[b-1772-507-000-0011-0384 "Agnes Andrew"]
+	$blockquote{
+		Agnes | Matthew Andrew and Mary Galbreath Daur on 6th
+		September named Agnes
+
+	}
+	$opr-ref-link[b-1772-507-000-0020-0003 "Agnes Andrew"]
+	$blockquote{
+		Agnes | Daughter to Matthew Andrew and Mary Galbreath
+		Born Sept 6th
+	}
+    }
     agnes-death {
         From Kilkerran Cemetery:
         $blockquote{
