@@ -1,5 +1,6 @@
 name John Ralston
 gender male
+tags Ralston Argyll:Southend
 baptism -date 25-jun-1780 -location southend -ref john1780-baptism
 
 external {

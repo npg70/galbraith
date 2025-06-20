@@ -1,5 +1,6 @@
 name Andrew Ralston
 gender male
+tags Argyll:campbeltown Ralston
 external {
     findagrave 119627892
     ancestry tree/12079504/person/282662723051

@@ -1,12 +1,12 @@
 name Andrew Ralston
 gender male
+tags Ralston Argyll:Campbeltown Argyll:Southend
 parent {
     name Robert Ralston
     partner {
         name Margaret Brown
     }
 }
-tags Argyll:Campbeltown Argyll:Southend
 baptism -date 21-jan-1759 -location campbeltown
 external {
     familysearch GMVS-NRG
