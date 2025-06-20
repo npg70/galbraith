@@ -167,7 +167,7 @@ $br{}$br{}
 5. John Paterson was married to Mary Fleming. The new baby James in 1830 took to do with the estate of his aunt Margaret Fleming, widow of David Ferguson, Smith in Campbeltown.
 }
 $p{
-$child-link[paterson-john-1764-fleeming]{John Paterson} married Mary Fleeming about 1785 (no marriage record has found). They had nine children the first being baptized as "John" being born on 13 Nov 1787. The Census of 1792 lists the family living at 86 Shore Street, with "John" now being "James." This child died young. There was another John bp. in 1796 and the last child born in 1807, James Paterson, went on to marry $child-link[galbraith-isabella-1808-paterson]{Isabella Galbraith}.
+John Paterson married $child-link[fleeming-mary-1765-paterson]{Mary Fleeming} about 1785 (no marriage record has found). They had nine children the first being baptized as "John" being born on 13 Nov 1787. The Census of 1792 lists the family living at 86 Shore Street, with "John" now being "James." This child died young. There was another John bp. in 1796 and the last child born in 1807, James Paterson, went on to marry $child-link[galbraith-isabella-1808-paterson]{Isabella Galbraith}.
 }
 $p{ 
 $child-link[ferguson-david-1748-fleeming]{David Ferguson} was born in 1749 and died in 1813. Margaret died in 1834 (not 1830), and the estate was settled by the above James Paterson ("Margaret Ferguson", 31/12/1834, Dunoon Sheriff Court, SC51/32/4).

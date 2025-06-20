@@ -11,7 +11,7 @@ todo children { Add children. }
 partner {
    name James Paterson
    gender male
-   parent paterson-john-1764-fleeming
+   parent fleeming-mary-1765-paterson
    marriage -date 31-jul-1828 -location campbeltown -ref paterson-marriage
 
    body {
