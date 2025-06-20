@@ -106,6 +106,9 @@ footnotes {
             Katharine | Archd Galbreath + Martha White had a Daughter
             baptized 3rd May named Katharne
         }
+
+	The next document is highly damaged
+	$opr-ref-link[b-1741-507-000-0010-0168 "Catharine Calbraith"]
     }
 
     katherine1780-baptism {
