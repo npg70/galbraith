@@ -163,7 +163,7 @@ Testament confinned: 25 Oct 1816.
 
 $hr{}
 
-$h2{1785 No. 12: Disposition and Testamentary Settlement: James Fleeming farmer in Klllounan}
+$h2{1785 No. 12: Disposition and Testamentary Settlement: James Fleeming farmer in Killounan}
 
 $blockquote{
 Assigned the tack which he held of one half of the lands of Laigh Killounan equally to his
