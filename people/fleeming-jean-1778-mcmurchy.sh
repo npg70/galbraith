@@ -1,5 +1,6 @@
 name Jean Fleeming
 gender female
+tags fleeming Argyll:Campbeltown
 birth -date 22-feb-1778
 baptism -date 26-feb-1778 -location campbeltown -ref jean1778-baptism
 

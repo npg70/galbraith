@@ -1,5 +1,6 @@
 name William Fleeming
 gender male
+tags fleeming Argyll:Killean
 baptism -date 29-oct-1738 -location campbeltown -ref william1738-baptism
 death -date 20-jan-1814 -location Ballivain,Killean
 

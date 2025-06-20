@@ -1,5 +1,7 @@
 name Katharine Dunlop
 gender female
+tags immigrant:usa:ohio:hamilton
+
 birth -date 11-jan-1783
 baptism -date 15-jan-1783 -location campbeltown -ref kate1783-baptism
 death -date 23-may-1881 -location 'Cincinnati, Hamilton, Ohio, USA'

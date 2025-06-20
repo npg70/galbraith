@@ -1,5 +1,6 @@
 name Mary Fleeming
 gender female 
+tags fleeming
 birth -date 09-oct-1765
 baptism -date 10-oct-1765 -location campbeltown -ref mary1765-baptism
 external {

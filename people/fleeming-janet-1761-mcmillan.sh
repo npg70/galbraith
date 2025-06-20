@@ -1,5 +1,7 @@
 name Janet Fleeming
 gender female
+tags fleeming
+
 birth -date 'say 1761'
 external {
 	familysearch 9M94-5XN

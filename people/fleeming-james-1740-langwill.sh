@@ -1,6 +1,6 @@
 name James Fleeming
 gender male
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown fleeming
 external {
     familysearch 9M9D-QL7
 }

@@ -1,6 +1,6 @@
 name John Fleeming
 gender male
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown fleeming
 external {
     familysearch GQ56-J5L
     wikitree Fleeming-67

@@ -1,5 +1,7 @@
 name John Fleeming
 gender male
+tags fleeming Argyll:Killean
+
 external {
 	familysearch M1T1-9RD
 }

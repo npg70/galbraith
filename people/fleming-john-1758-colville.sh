@@ -1,5 +1,5 @@
 name John Fleeming
-tags Argyll:Campbeltown Argyll:Southend Immigrant:USA:Ohio:Washington
+tags Argyll:Campbeltown Argyll:Southend Immigrant:USA:Ohio:Washington fleeming
 gender male
 external {
     familysearch KH7S-T42
