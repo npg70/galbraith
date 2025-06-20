@@ -7,7 +7,7 @@ external {
 birth -date 07-jun-1763
 baptism -date 08-jun-1763 -location campbeltown -ref elizabeth1763-baptism
 death -date 11-nov-1805 -location campbeltown
-body {
+note {
     Not in the Census of 1792.
 }
 body {
@@ -23,6 +23,20 @@ partner {
     marriage -date 01-apr-1785 -location campbeltown -ref mitchell-marriage
     birth -date 'about 1750'
     death -date jun-1824
+
+	child {
+		name Elizabeth Mitchell
+		gender female
+		birth -date 06-jul-1800
+		baptism -date 09-jul-1800 -location campbeltown -ref elizabeth1800-baptism
+		death -date 29-apr-1837
+		partner {
+			name Peter Paterson
+			gender male
+			birth -date 'about 1790'
+			death -date 11-nov-1878 -location glasgow
+		}
+	}
 }
 footnotes {
     elizabeth1763-baptism {
@@ -37,4 +51,11 @@ footnotes {
             Robert Mitchell & Eliza Fleeming both of this Parish contracted 1st April & married
         }
     }
+	elizabeth1800-baptism {
+		$opr-ref-link[b-1800-507-000-0040-0204 "Elizabeth Mitchel"]
+		$blockquote{
+			Elizabeth | Robert Mitchel & Elizabeth Fleeming in Town
+			had a Lawfull Daur Born 6th Bapt 9th [July 1900] named Elizabeth.
+		}
+	}
 }
