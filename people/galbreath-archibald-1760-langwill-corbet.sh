@@ -1,7 +1,8 @@
 name Archibald Galbreath
+gender male
 baptism -date 12-oct-1760 -location campbeltown -ref archibald1760-baptism
 death -date 28-apr-1846 -location campbeltown -ref archibald1760-death
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown Galbraith
 external {
     familysearch M1YM-NN8
     findagrave 204250177
@@ -44,13 +45,12 @@ William,Galbreath,Son,Unmarried,60,1801,Campbeltown,General merchant
 
 partner {
     name Martha Langwill
+    gender female
+    parent langwill-robert-1730-mcmurchy
     marriage -date 14-Sep-1787 -location campbeltown -ref langwill-marriage
     birth -date 09-may-1768 -location campbeltown
     baptism -date 12-May-1768 -location campbeltown
     death -date 1789
-    body {
-        She was the daughter of Robert Langwill and Ann McMurchy.
-    }
     burial -name 'Kilkerran Cemetery'
     child {
         name William Galbreath
@@ -60,12 +60,11 @@ partner {
 
 partner {
     name Jean Corbet
+    gender female
     marriage -date 'about 1791'
     baptism -date 25-sep-1770 -location campbeltown -ref corbet-birth
     death -date 2-aug-1861 -location campbeltown -ref corbet-death
-    body {
-        She was the daughter of Daniel Corbett, Blacksmith and Agnes Armour.
-    }
+    parent corbet-daniel-1743-armour
     child {
         name Martha Galbreath
         baptism -date 19-mar-1792 -location campbeltown -ref martha1792-baptism

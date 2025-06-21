@@ -1,5 +1,7 @@
 name James Langwill
 gender male
+tags Argyll:Campbeltown Langwill
+
 parent {
     name John Langwill
     gender male

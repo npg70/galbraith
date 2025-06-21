@@ -41,11 +41,6 @@ partner {
 			marriage -date 20-feb-1800 -location campbeltown
 		}
 	}
-	child {
-		name James Ralston
-		gender male
-		baptism -date 12-jan-1789 -location southend
-	}
 }
 partner {
     name Ann Orr

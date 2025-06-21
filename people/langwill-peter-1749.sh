@@ -1,5 +1,7 @@
 name Peter Langwill
 gender male
+tags langwill Argyll:campbeltown Argyll:Laggan
+
 baptism -date 05-apr-1749 -location campbeltown -ref peter1749-baptism
 death -date 22-jun-1789 -location campbeltown
 burial -name 'kilkerran cemetery'
@@ -11,6 +13,9 @@ body {
 
 $blockquote{
 662.	Erected in memory of PETER LANGWILL late farmer in straw who died 22 June 1789 aged 39 years.
+}
+$p{
+Assuming "in Straw" is actually "in Strat" (Laggan).
 }
 }
 

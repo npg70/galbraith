@@ -6,6 +6,10 @@ external {
     familysearch LQRH-NLV
     wikitree Galbraith-1800
 }
+body {
+	oops... merge with $child-link[langwill-peter-1693-xx]{Peter Langwill}
+}
+
 partner {
     name Peter Langwill
     gender male

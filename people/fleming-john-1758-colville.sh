@@ -21,7 +21,7 @@ partner {
    baptism -date 15-nov-1772 -location campbeltown
    death -date 01-feb-1852 -location fleming,washington,ohio,usa
    marriage -date 20-dec-1790
-
+   parent colville-robert-1748-fleeming
    child {
       name James Fleming
       gender male

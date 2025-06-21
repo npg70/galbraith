@@ -186,7 +186,7 @@ $br{}$br{}
 }
 
 $p{
-$child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbraith}, the son of $child-link[/galbreath-william-1736-dunlop]{William Galbraith} and Margaret Dunlop,  married Robert Langwill's daughter Martha in 1787. He subsequently married Jean Corbet.
+$child-link[galbreath-archibald-1760-langwill-corbet]{Archibald Galbraith}, the son of $child-link[/galbreath-william-1736-dunlop]{William Galbraith} and Margaret Dunlop,  married the daughter of $child-link[langwill-robert-1730-mcmurchy]{Robert Langwill} in 1787. He subsequently married Jean Corbet, the daughter of a blacksmith $child-link[corbet-daniel-1743-armour]{Daniel Corbet} and Agnes Armour.
 }
 
 $p{
@@ -229,7 +229,7 @@ $blockquote{
  Wm Ferguson's old Dr married in winter last to a Jas. Greenlees a skipper. 
 }
 $p{
-$elink[https://www.familysearch.org/tree/person/details/G3G4-YFG]{Isabell Ferguson} m. $elink[https://www.familysearch.org/tree/person/details/G3G4-WDX]{James Greenlees}
+$child-link[greelees-james-1768-ferguson]{James Greenlees} and Isabell Ferguson.
 }
 
 $blockquote{
@@ -270,7 +270,7 @@ $blockquote{
 }
 $p{
 "J. Fleeming" is Alexander's brother-in-law (the brother of his spouse Agnes Fleeming):
-$child-link[fleming-john-1758-colville]{John Fleeming}, son of $child-link[fleeming-john-1713-langwill]{John Fleeming} and Agnes Langwill, born 1758.   And $elink[https://www.familysearch.org/tree/person/details/M1TZ-QBN]{Jean Colvill}, the daughter of Robert Colvill and Agnes Fleeming.  They married on 20 Dec 1790, and had 13 or 14 children before immigrating to Washington County in Ohio, USA.
+$child-link[fleming-john-1758-colville]{John Fleeming}, son of $child-link[fleeming-john-1713-langwill]{John Fleeming} and Agnes Langwill, born 1758.   And $elink[https://www.familysearch.org/tree/person/details/M1TZ-QBN]{Jean Colvill}, the daughter of $child-link[colville-robert-1748-fleeming]{Robert Colvill} and Agnes Fleeming.  They married on 20 Dec 1790, and had 13 or 14 children before immigrating to Washington County in Ohio, USA.
 }
 
 $blockquote{
@@ -287,16 +287,7 @@ $blockquote{
 }
 
 $p{
-$child-link[ralston-andrew-1758-fleeming]{Andrew Ralson}.
-
-FYI  -There is another $child-link[ralston-andrew-1762-ralston]{Andrew Ralson} in Southend.
-
-}
-
-
-
-$p{
-As mentioned, Margaret Fleeming as a sister to Mary and Agnes. 
+$child-link[ralston-andrew-1758-fleeming]{Andrew Ralson} married Margaret Fleeming, a sister to Mary and Agnes, in 1778.  (Note: there is another $child-link[ralston-andrew-1762-ralston]{Andrew Ralson} in Southend.)
 }
 
 $hr{}
@@ -325,8 +316,9 @@ $blockquote{
 (2)The late Mr $child-link[armour-archibald-dunlop-1863-stuart-smith]{
 Archibald D. Armour} in correspondence with the family in 1906 was anxious to distance himself from these ongoings. He writes: "The gossip about Andrew Armour, son to Wm. Armour farmer in Trodigal is very interresting as revealed by the baptismal records [which record] the birth to this same Andrew Armour and the daughter of Ann Armour, and her husband's name not given but the daughter's name Helen, of a son David, called a natural son, born March 7th 1792. The family of Armours in Trodigal are of the same race [as us] but we have been in the town long before the date here mentioned."
 }
+
 $p{
-As mentioned $elink[https://www.familysearch.org/tree/person/details/M1Y4-X5B]{David Armour}, was baptized as a "natural son" on 7 Mar 1792.  His parents are listed as $elink[https://www.familysearch.org/tree/person/details/M1Y4-XRV]{Andrew Armour} and $elink[https://www.familysearch.org/tree/person/details/M1T4-X6D]{Helen Armour}. Helen appears to be the daughter of Robert Armour and Ann Clark, baptized 5 Aug 1774.  No other records have been found.
+As mentioned $elink[https://www.familysearch.org/tree/person/details/M1Y4-X5B]{David Armour}, was baptized as a "natural son" on 7 Mar 1792.  His parents are listed as $child-link[armour-andrew-1764]{Andrew Armour} and $elink[https://www.familysearch.org/tree/person/details/M1T4-X6D]{Helen Armour}. Helen appears to be the daughter of Robert Armour and Ann Clark, baptized 5 Aug 1774.  No other records have been found.
 }
 
 $hr{}
