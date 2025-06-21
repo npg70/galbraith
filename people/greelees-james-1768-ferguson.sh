@@ -7,6 +7,8 @@ external {
 baptism -date 20-nov-1768 -location campbeltown
 todo {
 Isabella on https://www.familysearch.org/en/tree/person/details/G3G4-YFG  has alternate https://www.familysearch.org/en/tree/person/details/K8PH-XG9
+
+The later has Robert Colville age 44 marrying Isabell Ferguson age 18... hmmm
 }
 
 body {
@@ -25,8 +27,8 @@ $blockquote{
 partner {
 	name Isabell Ferguson
 	gender female
-	birth -date 'say 1770'
-	death -date 1804
+	birth -date 'about 1770'
+	death -date 12-mar-1804 -location campbeltown
 
 	child {
 		name John Greenlees
@@ -37,6 +39,7 @@ partner {
 		name Jean Greenlees
 		gender female
 		baptism -date 14-oct-1793 -location campbeltown -ref jean1793-baptism
+		death -date 22-sep-1794 -location campbeltown
 	}
 	child {
 		name Mary Greenlees
@@ -47,6 +50,7 @@ partner {
 		name Jean Greenlees
 		gender female
 		baptism -date 17-jan-1798 -location campbeltown -ref jean1798-baptism
+		death -date 22-sep-1798 -location campbeltown 
 	}
 	child {
 		name William Greenlees
@@ -57,6 +61,7 @@ partner {
 		name James Greenlees
 		gender female
 		baptism -date 14-oct-1801 -location campbeltown -ref james1801-baptism
+		death -date 01-aug-1802 -location campbeltown
 	}
 }
 footnotes {
