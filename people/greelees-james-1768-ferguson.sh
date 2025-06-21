@@ -5,6 +5,9 @@ external {
 	familysearch G3G4-WDX
 }
 baptism -date 20-nov-1768 -location campbeltown
+todo {
+Isabella on https://www.familysearch.org/en/tree/person/details/G3G4-YFG  has alternate https://www.familysearch.org/en/tree/person/details/K8PH-XG9
+}
 
 body {
 From Kilkerran:
