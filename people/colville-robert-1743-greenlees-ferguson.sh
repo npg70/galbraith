@@ -6,6 +6,7 @@ external {
 	familysearch K8WX-HM1
 	findagrave 114485192
 }
+confused-with colville-robert-1748-fleeming
 
 baptism -date 26-jun-1743 -location campbeltown
 death -date 09-april-1807 -location campbeltown
@@ -94,13 +95,7 @@ partner {
 		birth -date 03-dec-1785
 		baptism -date 04-dec-1785 -location campbeltown -ref marg1785-baptism
 		death -date 09-nov-1865 -location campbeltown
-		partner {
-			name John Galbreath
-			gender male
-			body {
-				unknown!
-			}
-		}
+		partner galbreath-john-1785-colville
 	}
 }
 

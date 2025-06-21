@@ -5,6 +5,8 @@ external {
 	familysearch G3SL-J8R
 	wikitree Colville-590
 }
+confused-with colville-robert-1743-greenlees-ferguson
+
 baptism -date 18-oct-1748 -location campbeltown
 
 todo {

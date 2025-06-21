@@ -27,17 +27,12 @@ partner {
         birth -date 1-nov-1782
         baptism -date 3-nov-1782 -location campbeltown -ref margaret1782-baptism
     }
+    child galbreath-john-1785-colville
     child {
-        name John Galbraith
-        gender male
-        birth -date 28-nov-1785
-        baptism -date 29-nov-1785 -location campbeltown -ref john1785-baptism
-    }
-    child {
-        name James Galbraith
-        gender male
-        birth -date 30-dec-1786
-        baptism -date 31-dec-1786 -location campbeltown -ref james1786-baptism
+	name James Galbreath
+	gender male
+	birth -date 30-dec-1786
+	baptism -date 31-dec-1786 -location campbeltown -ref james1786-baptism
     }
     child galbraith-mary-1788-clark
 
