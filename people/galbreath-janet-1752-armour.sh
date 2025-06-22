@@ -1,10 +1,13 @@
 name Janet Galbreath
 gender female
-tags Argyll:Campbeltown
+tags Galbraith Argyll:Campbeltown Argyll:Trodigal
 baptism -date 26-nov-1752 -location campbeltown -ref janet1752-baptism
 external {
     familysearch KC84-7D1
     wikitree Galbraith-1880
+}
+body {
+	James was a farmer in Trodigal.
 }
 partner {
     name James Armour

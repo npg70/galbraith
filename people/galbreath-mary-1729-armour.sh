@@ -1,11 +1,15 @@
 name Mary Galbreath
 gender female
-tags Argyll:Campbeltown 
+tags Galbraith Argyll:Campbeltown Argyll:Trodigal
 baptism -date 19-oct-1729 -location campbeltown -ref mary1729-baptism
 external {
     wikitree Galbraith-1881
     familysearch GF24-VMS
 }
+body {
+	William was a farmer in Trodigal.
+}
+
 partner {
     name William Armour
     gender male
@@ -25,28 +29,27 @@ partner {
     }
     child {
         name William Armour
+	gender male	
         baptism -date 18-dec-1753 -location campbeltown
     }
     child {
         name John Armour
+	gender male
         baptism -date 11-apr-1753 -location campbeltown
     }
     child {
         name John Armour
+	gender male
         baptism -date 25-nov-1756 -location campbeltown
     }
-    child {
-        name Alexander Armour
-        baptism -date 01-nov-1758 -location campbeltown
-    }
+    child armour-alexander-1758-love
+
     child {
         name John Armour
+	gender male
         baptism -date 31-oct-1760 -location campbeltown
     }
-    child {
-        name Andrew Armour
-        baptism -date 26-Jul-1764 -location campbeltown
-    }
+    child armour-andrew-1764-thomson
 }
 footnotes { 
     mary1729-baptism {

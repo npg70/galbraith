@@ -318,7 +318,7 @@ Archibald D. Armour} in correspondence with the family in 1906 was anxious to di
 }
 
 $p{
-As mentioned $elink[https://www.familysearch.org/tree/person/details/M1Y4-X5B]{David Armour}, was baptized as a "natural son" on 7 Mar 1792.  His parents are listed as $child-link[armour-andrew-1764]{Andrew Armour} and $elink[https://www.familysearch.org/tree/person/details/M1T4-X6D]{Helen Armour}. Helen appears to be the daughter of Robert Armour and Ann Clark, baptized 5 Aug 1774.  No other records have been found.
+As mentioned $elink[https://www.familysearch.org/tree/person/details/M1Y4-X5B]{David Armour}, was baptized as a "natural son" on 7 Mar 1792.  His parents are listed as $child-link[armour-andrew-1764-thomson]{Andrew Armour} and $child-link[armour-helen-1774]{Helen Armour}, who appears to be the daughter of Robert Armour and Ann Clark, baptized 5 Aug 1774. 
 }
 
 $hr{}
