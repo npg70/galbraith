@@ -4,7 +4,7 @@ birth -date 'about 1716'
 tags Argyll:Campbeltown
 death -date 10-nov-1796 -location campbeltown
 external {
-    familysearch L41Z-P3C
+    familysearch M1Y7-KKG
     wikitree Armour-1002
 }
 
