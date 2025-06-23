@@ -885,7 +885,7 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 		}
 		mother := FindMother(p)
 		if mother == nil {
-			log.Printf("Cant find mother for " + p.FullName())
+			log.Printf("Cant find mother for %s", p.FullName())
 			break
 		}
 		lineage = append(lineage, fmt.Sprintf("$ancestor[counter=%d generation=%d mother=%q year=%q]{%s}\n",
