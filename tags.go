@@ -72,15 +72,6 @@ func inLabelPath(path []string, label string) bool {
 	return false
 }
 
-// given a list of tags, return the file name
-func makeTagFile(parts []string) string {
-	tagpath := strings.Join(parts, "/")
-	tagpath = strings.ToLower(tagpath)
-	tagpath = strings.ReplaceAll(tagpath, " ", "-")
-	tagpath = strings.ReplaceAll(tagpath, ":", "-")
-	return tagpath
-}
-
 func makeTagButton(path []string, body string) *html.Node {
 
 	if len(path) == 1 && path[0] == "" {
@@ -98,33 +89,4 @@ func makeTagButton(path []string, body string) *html.Node {
 			"class", "me-2",
 			"href", taglink),
 		tf.NewText("#"+tag))
-}
-func makeTagButtonOld(path []string, body string) *html.Node {
-	if len(path) == 1 && path[0] == "" {
-		path = nil
-	}
-	if len(path) == 0 && !strings.HasPrefix(body, "all") {
-		path = []string{"all"}
-	}
-	tag := TitleTag(body)
-	tagname := strings.ToLower(body)
-	tagname = strings.ReplaceAll(tagname, " ", "-")
-	tagname = strings.ReplaceAll(tagname, ":", "-")
-
-	taglink := "/galbraith/tags/" + strings.Join(path, "/")
-	taglink = taglink + "/" + tagname + "/"
-	taglink = strings.ReplaceAll(taglink, ":", "-")
-
-	tag = strings.ReplaceAll(tag, " and ", " ")
-	parts := strings.Fields(tag)
-	for i := 0; i < len(parts); i++ {
-		parts[i] = Title(parts[i])
-	}
-	tag = "#" + strings.Join(parts, "")
-
-	return tf.Append(
-		tf.NewElement("a",
-			"class", "font-sans text-color me-2",
-			"href", taglink),
-		tf.NewText(tag))
 }
