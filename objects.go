@@ -205,9 +205,7 @@ func (p *Person) DeathLocation() string {
 func (p *Person) AllChildren() []*Person {
 	out := []*Person{}
 	for _, spouse := range p.Partners {
-		for _, kid := range spouse.Children {
-			out = append(out, kid)
-		}
+		out = append(out, spouse.Children...)
 	}
 	return out
 }
@@ -864,8 +862,8 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 
 	out := &bytes.Buffer{}
 
-	out.WriteString(fmt.Sprintf("$person[id=%s generation=%d counter=%d]{",
-		primary, first.generation, first.counter))
+	fmt.Fprintf(out, "$person[id=%s generation=%d counter=%d]{",
+		primary, first.generation, first.counter)
 
 	out.WriteString("$banner{")
 	out.WriteString("$headline{" + WriteTitle(first) + "}\n")
@@ -918,7 +916,7 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 	if len(first.Tags) > 0 {
 		out.WriteString("$tags[")
 		for _, tag := range first.Tags {
-			out.WriteString(fmt.Sprintf("%q ", tag))
+			fmt.Fprintf(out, "%q ", tag)
 		}
 		out.WriteString("]\n")
 	}
@@ -939,7 +937,7 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 	out.WriteString("$person-bio{")
 
 	out.WriteString("$p{")
-	out.WriteString(fmt.Sprintf("$primary-number{%d}", first.counter))
+	fmt.Fprintf(out, "$primary-number{%d}", first.counter)
 	out.WriteString(WritePrimaryName(first))
 
 	// Birth and Baptism
@@ -960,9 +958,9 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 	// Death and Burial
 	death := first.Events["death"]
 	if death != nil {
-		out.WriteString(fmt.Sprintf("%s died %s. ",
+		fmt.Fprintf(out, "%s died %s. ",
 			first.Gender.Pronoun(),
-			EventDatePlace(first, death)))
+			EventDatePlace(first, death))
 	}
 	out.WriteString("}") // end of paragraph
 
