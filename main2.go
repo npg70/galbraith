@@ -18,7 +18,7 @@ func SplitYaml(src []byte) ([]byte, []byte) {
 func ParseYaml(s []byte) (ssg.ContentSourceConfig, error) {
 	meta := ssg.ContentSourceConfig{}
 	if err := yaml.Unmarshal(s, &meta); err != nil {
-		return nil, fmt.Errorf("Unable to un-yaml: %v", err)
+		return nil, fmt.Errorf("unable to un-yaml: %v", err)
 	}
 	return meta, nil
 }
@@ -27,7 +27,7 @@ func Main2(config ssg.SiteConfig, pages *[]ssg.ContentSourceConfig) error {
 	// create page assembly templates
 	pageTemplate, err := ssg.NewPageRender(config.TemplateDir, nil)
 	if err != nil {
-		return fmt.Errorf("Page Template failed: %v", err)
+		return fmt.Errorf("page Template failed: %v", err)
 	}
 
 	conf := ssg.SiteConfig{
@@ -46,7 +46,7 @@ func Main2(config ssg.SiteConfig, pages *[]ssg.ContentSourceConfig) error {
 	// do it
 	err = ssg.Main2(conf, pages)
 	if err != nil {
-		return fmt.Errorf("Main failed: %s", err)
+		return fmt.Errorf("main failed: %s", err)
 	}
 	return nil
 }
@@ -73,32 +73,32 @@ func render(wr io.Writer, src io.Reader) error {
 		return ""
 	}
 	if err := tf.CsvTable(n, formatter); err != nil {
-		return fmt.Errorf("CSV Tabler failed: %s", err)
+		return fmt.Errorf("csv Tabler failed: %s", err)
 	}
 	// Add footnotes
 	if err := footnoter(n); err != nil {
-		return fmt.Errorf("Footnoter failed: %s", err)
+		return fmt.Errorf("footnoter failed: %s", err)
 	}
 
 	// Convert custom nodes to HTML nodes
 	tmp := renderFuncs()
 	tagexec := tf.ExecuteFunc(tmp)
 	if err := tagexec(n); err != nil {
-		return fmt.Errorf("TagFunc failed: %w", err)
+		return fmt.Errorf("tagfunc failed: %w", err)
 	}
 
 	// Auto-split paragraphs
 	p1 := tf.Paragrapher{}
 	p1.Tag = "p"
 	if err := p1.Execute(n); err != nil {
-		return fmt.Errorf("Paragrapher for $p failed: %w", err)
+		return fmt.Errorf("paragrapher for $p failed: %w", err)
 	}
 
 	// Auto-split blockquotes
 	p2 := tf.Paragrapher{}
 	p2.Tag = "blockquote"
 	if err := p2.Execute(n); err != nil {
-		return fmt.Errorf("Paragrapher for $blockquote failed: %w", err)
+		return fmt.Errorf("paragrapher for $blockquote failed: %w", err)
 	}
 
 	return tf.RenderHTML(wr, n)

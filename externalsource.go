@@ -37,7 +37,7 @@ func (e ExternalSource) UnmarshalText(text []byte) error {
 			return err
 		}
 		if len(args) != 2 {
-			return fmt.Errorf("Expected two args, got %v", args)
+			return fmt.Errorf("expected two args, got %v", args)
 		}
 		id := strings.ToLower(args[0])
 		switch id {

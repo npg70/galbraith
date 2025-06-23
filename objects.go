@@ -87,7 +87,7 @@ func (n Footnotes) UnmarshalText(text []byte) error {
 			return err
 		}
 		if len(args) != 1 {
-			return fmt.Errorf("Inside Ref.%s expected one arg, got %v", args[0], args)
+			return fmt.Errorf("inside Ref.%s expected one arg, got %v", args[0], args)
 		}
 		n[args[0]] = body
 	}
@@ -236,7 +236,7 @@ func (p *Person) UnmarshalText(text []byte) error {
 			case "u", "unknown":
 				p.Gender = Unknown
 			default:
-				return fmt.Errorf("Got unknown gender: %s", gtype)
+				return fmt.Errorf("got unknown gender: %s", gtype)
 			}
 		case "tags":
 			p.Tags = args[1:]

@@ -108,7 +108,7 @@ func (d *Date) UnmarshalText(text []byte) error {
 	}
 	// not a year.. has to be a day
 	if val < 1 || val > 31 {
-		return fmt.Errorf("First argument should be a day number but got %d", val)
+		return fmt.Errorf("first argument should be a day number but got %d", val)
 	}
 	d.day = int(val)
 	parts = parts[1:]
@@ -126,7 +126,7 @@ func (d *Date) UnmarshalText(text []byte) error {
 		parts = parts[1:]
 	} else {
 		if val < 1 || val > 31 {
-			return fmt.Errorf("Got month number of %d", val)
+			return fmt.Errorf("got month number of %d", val)
 		}
 		d.month = int(val)
 		parts = parts[1:]
@@ -135,10 +135,10 @@ func (d *Date) UnmarshalText(text []byte) error {
 	// got day and month.. get year
 	val, err = strconv.ParseInt(parts[0], 10, 32)
 	if err != nil {
-		return fmt.Errorf("Expected year number got %q", parts[0])
+		return fmt.Errorf("expected year number got %q", parts[0])
 	}
 	if val < 1000 || val > 3000 {
-		return fmt.Errorf("Expected 4-digit year number got %q", parts[0])
+		return fmt.Errorf("expected 4-digit year number got %q", parts[0])
 	}
 	d.year = int(val)
 	return nil

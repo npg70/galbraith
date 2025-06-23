@@ -497,7 +497,7 @@ func LoadOPRBaptisms() (OPRBaptismDB, error) {
 	r := csv.NewReader(fo)
 	_, err := r.Read()
 	if err != nil {
-		return nil, fmt.Errorf("Unable to read header: %s", err)
+		return nil, fmt.Errorf("unable to read header: %s", err)
 	}
 	db := make(OPRBaptismDB)
 	for {

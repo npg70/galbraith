@@ -26,7 +26,7 @@ func (e *Event) UnmarshalText(text []byte) error {
 			return err
 		}
 		if len(args) != 2 {
-			return fmt.Errorf("Inside Event.%s expected two args, got %v", args[0], args)
+			return fmt.Errorf("inside Event.%s expected two args, got %v", args[0], args)
 		}
 		log.Printf("EVENT: args %q", args)
 		switch args[0] {
