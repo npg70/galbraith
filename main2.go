@@ -1,7 +1,6 @@
 package main
 
 import (
-	"bytes"
 	"fmt"
 	"io"
 
@@ -52,20 +51,15 @@ func Main2(config ssg.SiteConfig, pages *[]ssg.ContentSourceConfig) error {
 	return nil
 }
 
-func TagRender(wr io.Writer, src []byte, data any) error {
-	out, err := render(src)
-	if err != nil {
-		return err
-	}
-	_, err = wr.Write(out)
-	return err
+func TagRender(wr io.Writer, src io.Reader, data any) error {
+	return render(wr, src)
 }
 
-func render(content []byte) ([]byte, error) {
+func render(wr io.Writer, src io.Reader) error {
 
 	// Parse raw into nodes
 	p := tf.Tokenizer{}
-	n := p.Parse(bytes.NewReader(content))
+	n := p.Parse(src)
 
 	// CSV Tables has a non-standard parsing
 	// do them first, so other stuff below works
@@ -79,35 +73,33 @@ func render(content []byte) ([]byte, error) {
 		return ""
 	}
 	if err := tf.CsvTable(n, formatter); err != nil {
-		return nil, fmt.Errorf("CSV Tabler failed: %s", err)
+		return fmt.Errorf("CSV Tabler failed: %s", err)
 	}
 	// Add footnotes
 	if err := footnoter(n); err != nil {
-		return nil, fmt.Errorf("Footnoter failed: %s", err)
+		return fmt.Errorf("Footnoter failed: %s", err)
 	}
 
 	// Convert custom nodes to HTML nodes
 	tmp := renderFuncs()
 	tagexec := tf.ExecuteFunc(tmp)
 	if err := tagexec(n); err != nil {
-		return nil, fmt.Errorf("TagFunc failed: %w", err)
+		return fmt.Errorf("TagFunc failed: %w", err)
 	}
 
 	// Auto-split paragraphs
 	p1 := tf.Paragrapher{}
 	p1.Tag = "p"
 	if err := p1.Execute(n); err != nil {
-		return nil, fmt.Errorf("Paragrapher for $p failed: %w", err)
+		return fmt.Errorf("Paragrapher for $p failed: %w", err)
 	}
 
 	// Auto-split blockquotes
 	p2 := tf.Paragrapher{}
 	p2.Tag = "blockquote"
 	if err := p2.Execute(n); err != nil {
-		return nil, fmt.Errorf("Paragrapher for $blockquote failed: %w", err)
+		return fmt.Errorf("Paragrapher for $blockquote failed: %w", err)
 	}
 
-	// Turn into HTML
-	toHTML := tf.RenderStringFunc(tf.RenderHTML)
-	return toHTML(n)
+	return tf.RenderHTML(wr, n)
 }
