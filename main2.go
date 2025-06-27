@@ -17,19 +17,19 @@ func ParseMeta(s []byte) (ssg.ContentSourceConfig, error) {
 	return meta, nil
 }
 
-func Main2(config ssg.SiteConfig, pages *[]ssg.ContentSourceConfig) error {
+func Main2(config ssg.SiteConfig, outputDir string, pages *[]ssg.ContentSourceConfig) error {
 
 	conf := ssg.SiteConfig{
 		InputExt:    ".sh",
 		OutputExt:   ".html",
 		IndexSource: "index.sh",
 		IndexDest:   "index.html",
-		Split:       ssg.SplitMetaEmail,
-		Metaparser:  ParseMeta,
+		MetaSplit:    ssg.MetaSplitEmail,
+		MetaParser:   ParseMeta,
 		Pipeline: []ssg.Renderer{
 			TagRender,
 			ssg.Must(ssg.NewPageRender("layouts", nil)),
-			ssg.WriteOutput("public"),
+			ssg.WriteOutput(outputDir),
 		},
 	}
 

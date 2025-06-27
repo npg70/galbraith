@@ -58,12 +58,11 @@ func getLine(paths [][]*Person) [][]*Person {
 }
 
 func main() {
-	sc := ssg.SiteConfig{
-		TemplateDir: "layouts",
-	}
+	sc := ssg.SiteConfig{}
+	outputDir := ""
 	rootsOnly := false
 	server := false
-	flag.StringVar(&sc.OutputDir, "out", "public", "out directory")
+	flag.StringVar(&outputDir, "out", "public", "out directory")
 	flag.BoolVar(&rootsOnly, "root", false, "run and display roots")
 	flag.BoolVar(&server, "serve", false, "run webserver")
 	flag.Parse()
@@ -90,7 +89,6 @@ func main() {
 		}
 		fmt.Printf("\n")
 	}
-	// log.Fatalf("DONE")
 
 	// add meta tag.. if todos exist, add todo tag
 	todotag(db)
@@ -139,7 +137,7 @@ func main() {
 
 	start := time.Now()
 
-	if err := Main2(sc, &pages); err != nil {
+	if err := Main2(sc, outputDir, &pages); err != nil {
 		log.Fatalf("Main2 failed: %v", err)
 	}
 
@@ -147,7 +145,7 @@ func main() {
 	elapsed := t.Sub(start)
 	log.Printf("%d pages in %s", len(pages), elapsed)
 	if server {
-		log.Printf("Home %q", sc.OutputDir)
-		tf.Serve(sc.OutputDir, "galbraith")
+		log.Printf("Home %q", outputDir)
+		tf.Serve(outputDir, "galbraith")
 	}
 }
