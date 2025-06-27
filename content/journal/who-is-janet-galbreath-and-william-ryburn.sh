@@ -1,6 +1,5 @@
----
 title: Who is Janet Galbreath who married William Ryburn
----
+
 
 $h2{We know some things!}
 
@@ -34,4 +33,3 @@ Unlikely. Last child would have been born at age 52.
 
 James: born 1778-1785
 Not found in Statutory Records for Death
-

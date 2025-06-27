@@ -1,6 +1,5 @@
----
 name: Early Campbeltown Wills
----
+
 
 $h2{Patrick Galbreath, 17-Nov-1766}
 

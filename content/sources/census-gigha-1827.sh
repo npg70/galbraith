@@ -1,6 +1,5 @@
----
 title: Isle of Gigha Census 1827
----
+
 
 $h2{Garbhacha.}
 $ppre{
@@ -674,4 +673,3 @@ Mary Rennie, 7
 Catharine Rennie, 4
 Charles Rennie, 2
 }
-

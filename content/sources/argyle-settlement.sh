@@ -1,6 +1,5 @@
----
 name: Argyle Settlement
----
+
 
 The Argyle settlement in history and story
 
@@ -21,5 +20,3 @@ It was in 1836 that Father and his family came from Argyleshire, Scotland, to Am
 $blockquote{
 The family at this time consisted of Father and Mother and six children, the eldest, sister Martha, being about thirteen years old, then Elizabeth, George, Charles, Jeanette (myself) , about three, and John, about one year old. Mother had also brought with her to the new country a servant girl, Christina Galbraith, who had been with her all her married life in Scotland.
 }
-
-

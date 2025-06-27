@@ -6,19 +6,18 @@ import (
 
 	"github.com/client9/ssg"
 	tf "github.com/client9/tagfunctions"
-	"gopkg.in/yaml.v3"
 )
 
 // split input source into metadata and content
-func SplitYaml(src []byte) ([]byte, []byte) {
-	return ssg.Splitter(ssg.HeadYaml, src)
+func SplitMeta(src []byte) ([]byte, []byte) {
+	return ssg.Splitter(ssg.HeadEmail, src)
 }
 
 // parse metadata as Yaml
-func ParseYaml(s []byte) (ssg.ContentSourceConfig, error) {
+func ParseMeta(s []byte) (ssg.ContentSourceConfig, error) {
 	meta := ssg.ContentSourceConfig{}
-	if err := yaml.Unmarshal(s, &meta); err != nil {
-		return nil, fmt.Errorf("unable to un-yaml: %v", err)
+	if err := ssg.EmailUnmarshal(s, meta); err != nil {
+		return nil, fmt.Errorf("unable to parse metadata: %v", err)
 	}
 	return meta, nil
 }
@@ -35,11 +34,12 @@ func Main2(config ssg.SiteConfig, pages *[]ssg.ContentSourceConfig) error {
 		OutputExt:   ".html",
 		IndexSource: "index.sh",
 		IndexDest:   "index.html",
-		Split:       SplitYaml,
-		Metaparser:  ParseYaml,
+		Split:       SplitMeta,
+		Metaparser:  ParseMeta,
 		Pipeline: []ssg.Renderer{
 			TagRender,
 			pageTemplate,
+			ssg.WriteOutput("public"),
 		},
 	}
 

@@ -1,7 +1,7 @@
----
-title: Kintyre Families
 biblio-author: Angus Martin
----
+title: Kintyre Families
+
+
 $p{
 Notes from as of yet unpublished book.
 }
@@ -612,4 +612,3 @@ $h2{Young}
 $blockquote{
 daughter Margaret Y- married $child-link[galbraith-john-mccorkindale-1886-young]{John Galbraith}, Polliwilline, in 1917.
 }
-

@@ -1,10 +1,10 @@
----
-title: "Trade and Economic Development in Eighteenth-Century Campbeltown"
-biblio-year: "1982"
-biblio-author: "Susan L MacDonald"
-biblio-note:  "Thesis for PhD U of Edinburgh, 1982"
-biblio-url: "https://era.ed.ac.uk/handle/1842/19071"
----
+biblio-author: Susan L MacDonald
+biblio-note: "Thesis for PhD U of Edinburgh, 1982"
+biblio-url: https://era.ed.ac.uk/handle/1842/19071
+biblio-year: 1982
+title: Trade and Economic Development in Eighteenth-Century Campbeltown
+
+
 $section{
 $h2{Page 46}
 
@@ -144,4 +144,3 @@ $blockquote{
 James, a shipmaster, was a member of the Relief congregation, 1767.
 }
 }
-

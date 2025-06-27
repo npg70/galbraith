@@ -1,6 +1,5 @@
----
-title: Kintyre Magazine #50
----
+title: Kintyre Magazine
+
 
 $h2{Page 20}
 
@@ -22,4 +21,3 @@ Thomas [Templeton] (1801-1881)... married Mary Galbraith.
 }
 
 $child-link[galbraith-mary-1810-templeton]{Mary Galbraith}, b. 1810 in Gigha, the daughter of John Galbreath and Merran/Sarah Galbreath.
-

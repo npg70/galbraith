@@ -1,9 +1,9 @@
----
-title: An Historical and Genealogical Tour of Killerran Graveyard
-biblio-year: 2006
-biblio-publisher: Kintyre Civic Society
 biblio-author: Angus Martin
----
+biblio-publisher: Kintyre Civic Society
+biblio-year: 2006
+title: An Historical and Genealogical Tour of Killerran Graveyard
+
+
 Galbraith: [24](#page-24), [36](#page-36)
 
 $section{
@@ -34,4 +34,3 @@ though since hs father was an 'incomer' and his mother apparently from Carradale
 $p{
 $child-link[galbraith-martha-1867-mcbain]{Martha Galbraith}, daughter of a $child-link[galbreath-neil-1841-stewart]{Neil Galbraith} and Martha Stewart, born 1867 in Saddell.
 }
-

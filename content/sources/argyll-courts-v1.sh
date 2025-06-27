@@ -1,6 +1,5 @@
----
 title: Argyll Courts V1
----
+
 
 $pre{
 Bigwood, Frank.
@@ -180,5 +179,3 @@ education. Written 22 Jan 1785.
 }
 
 (book page 221)
-
-

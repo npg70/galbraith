@@ -1,6 +1,5 @@
----
 title: Argyll Statutory Records
----
+
 
 $csvtable{
 District,Number,Recorded,Count,Notes
@@ -37,4 +36,3 @@ South End,,17,17,
 Tarbert,,46,44,2 NPE not counted
 Tyree,551,2,2,
 }
-

@@ -1,6 +1,5 @@
----
 title: Who is James Galbreath who Marrried Martha Galbreath?
----
+
 
 What we know:
 
@@ -79,5 +78,3 @@ James, b. 1782 $child-link[galbreath-alexander-1753-flemming]{Alexander Galbreat
 }
 
 This James died unmarried in the USA.
-
-

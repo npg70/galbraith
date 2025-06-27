@@ -1,6 +1,5 @@
----
 title: Find Alexander Galbreath m. Ann McPherson in 1881
----
+
 
 $intro{
 While researching a different $child-link[galbreath-alexander-1816-mccualskey]{Alexander Galbreath} from Southend who moved to Washington, Ohio, I found a marriage for Alexander Galbraith m. Ann McPherson in 1881.  That's not the same Alexander.   But who is it?
@@ -232,5 +231,3 @@ Does she have brother named Alexander?
 No.
 
 Yes!  He's not in the OPR but is in the family's Census of 1851, born about 1845.
-
-

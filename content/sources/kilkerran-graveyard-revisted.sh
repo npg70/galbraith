@@ -1,9 +1,8 @@
----
-title: Kilkerran Graveyard Revisited
 biblio-author: "Martin, Angus"
-biblio-year: 2011
 biblio-publisher: Grimsay Press
----
+biblio-year: 2011
+title: Kilkerran Graveyard Revisited
+
 
 $section{
 $h2{Page 19}
@@ -40,4 +39,3 @@ $p{
 Agnes Galbraith, daughter of $child-link[galbreath-neil-1841-stewart]{Niel Galbraith} and Martha Stewart, born 23 Jan 1863, Saddell.
 }
 }
-

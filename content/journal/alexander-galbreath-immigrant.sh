@@ -1,6 +1,5 @@
----
 title: Who is Alexander Galbreath Immigrant
----
+
 
 $h2{The Many Theories of Alexander Galbreath}
 
@@ -39,4 +38,3 @@ appoint Robert Campbell and James Galbreath to be sole executors
 
 Signed 13 April 1809
 Record 27 June 1809
-

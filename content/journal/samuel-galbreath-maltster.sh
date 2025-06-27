@@ -1,6 +1,5 @@
----
-title: Samuel Galbreath, Malster
----
+title: "Samuel Galbreath, Malster"
+
 
 Samuel is an unsual name.
 

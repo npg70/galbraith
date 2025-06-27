@@ -1,6 +1,5 @@
----
 title: Rev John Cuthbertson Baptisms and Marriages
----
+
 
 $p{
 Fields, Helen S, $i{Register of Marriages and Baptism Performed by Rev. John Cuthbertson Covenanter Minister  1751-1791 With Index To Locations and Persons Visited}, Washington D.C., 1934.

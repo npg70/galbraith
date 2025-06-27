@@ -1,6 +1,5 @@
----
 title: The Blues of North Kintyre
----
+
 
 $blockquote{
 Research on the Gigha branch of the family showed Malcolm Blue to be miller at Ardelay in 1795. In 1827 Ardelay was occupied by $b{Elizabeth Galbraith}, a widow of 64 years. She engaged Donald Blue from Killean as miller. In an old record he gave his age as 40 years at that time. He subsequently married Barbra Smith, daughter of a nearby farmer. In 1847 his mother died at Ardelay aged 84 years to be followed by himself shortly afterwards. His wife died early in 1849 but it is probable they had a family as a Donald Blue signed the call to a Mr. Duncan Black to come as parish minister after the death of the Rev. Dr. James Curdie. The old document was dated 24 December 1868.

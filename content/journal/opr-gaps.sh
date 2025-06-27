@@ -1,6 +1,5 @@
----
 title: OPR Gaps
----
+
 
 $h2{Campbeltown births, 1686-1686}
 
@@ -102,5 +101,3 @@ The 0040 Volume is just births 1776-1819, 504 pages.
 $p{
 The 0030 Volume covers nirths and marriages 1728-1776. Only 7 Galbraith births found so far.
 }
-
-

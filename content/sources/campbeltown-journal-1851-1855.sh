@@ -1,9 +1,9 @@
----
-title: "Birth, Marriages & Deaths as reported in The Campbeltown Journal Newspaper 1851-1855"
 biblio-author: Stuart Farrell
 biblio-publisher: Scottish Geneaological Society
 biblio-year: 2019
----
+title: "Birth, Marriages & Deaths as reported in The Campbeltown Journal Newspaper 1851-1855"
+
+
 $h2{Birth}
 
 $blockquote{
@@ -34,4 +34,3 @@ $blockquote{
 $b{Galbraith} At Dunoon on the 7th inst. Archibald Robert, eldest son of Mr. Archibald Galbraith, 175 St. Vincent Street, Glasgow. (12 Aug 1854)
 }
 $p{$b{Unknown.}}
-

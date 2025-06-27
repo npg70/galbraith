@@ -1,6 +1,5 @@
----
 title: Kintyre Magazine 35
----
+
 
 $elink[http://www.ralstongenealogy.com/number35kintmag.htm]{Letters to America}, by A I B Stewart
 
@@ -475,4 +474,3 @@ You need not doubt if your sister joins me in her love to you & familie.
 $p{
 "Your sister" is $child-link[galbreath-mary-1751-park]{Mary Galbreath}, John Park's wife and Alexander Galbreath's sister.
 }
-

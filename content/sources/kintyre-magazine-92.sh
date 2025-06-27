@@ -1,6 +1,5 @@
----
 title: Kintyre Magazine 92
----
+
 
 $blockquote{
 ARCHIBALD GALBREATH. Back to 'From Brecklate to Illinois' (No. 90), the letter written by John Ralston in 1859. He mentioned William Fleming and his business partner, Archibald Galbreath, 'that was farmer in Skerrling'. I speculated (p 17, note 11) that 'Skerrling' could be a form of Skeroblin, but opined that there was 'no record of a Galbreath/Galbraith tenant there'. By a careless oversight, I had failed to notice that a James Galbreath, tenant in Ardnacross, got the lease of 'East Skeroblingorry' in 1800.

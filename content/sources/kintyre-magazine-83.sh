@@ -1,6 +1,5 @@
----
-title: "Obituaries: Carol Thomas (nee Galbraith)"
----
+title: Obituaries: Carol Thomas (nee Galbraith)
+
 
 $blockquote{
 Carol Thomson (nee Galbraith). The death, on 13 November 2017, of Charlotte MacMichael Galbraith, at the age of 87, removed the last of that quartet of post-war Kintyre female Mòd Gold Medal-winners in a six-year period.

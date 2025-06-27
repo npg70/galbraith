@@ -1,9 +1,9 @@
----
-title: Family Names in the Glen of Antrim
-biblio-year: 2021
-biblio-isbn: 978-1-913993-03-0
 biblio-author: Brian S Turner
----
+biblio-isbn: 978-1-913993-03-0
+biblio-year: 2021
+title: Family Names in the Glen of Antrim
+
+
 $blockquote{
 This publication explores the historical and social significance of the family names of a distinct region in the north-east of Ireland -- the Glens of Antrim. The area has both a strong local identity and a significant relationship with south-west Argyll...}
 

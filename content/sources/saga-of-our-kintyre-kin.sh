@@ -1,6 +1,5 @@
----
-title: Saga of our Kintyre Kin, 2nd Ed
----
+title: "Saga of our Kintyre Kin, 2nd Ed"
+
 
 $h1{Saga of our Kintyre Kin, 2nd}
 
@@ -20,5 +19,3 @@ $child-link[galbreath-catharine-1788-greenlees]{Catharine Galbreath} and James G
 Has some information on the Peninver farms.
 }
 $hr{}
-
-

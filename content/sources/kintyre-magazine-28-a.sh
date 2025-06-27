@@ -1,11 +1,11 @@
----
-title: Kintyre Magazine #28
 biblio-author: A. Logan Mitchell
-biblio-title: James Nicol Fleming of Keil
+biblio-content-url: http://www.ralstongenealogy.com/number28kintmag.htm
 biblio-publisher: The Kintyre Antiquarian & Natural History Society
 biblio-publisher-url: https://www.kintyreantiquarians.uk
-biblio-content-url: http://www.ralstongenealogy.com/number28kintmag.htm
----
+biblio-title: James Nicol Fleming of Keil
+title: Kintyre Magazine
+
+
 $h2{James Nicol Fleming of Keil}
 
 $child-link[galbraith-elizabeth-1841-fleming]{Elizabeth Galbraith}
@@ -28,4 +28,3 @@ of their youngest daughter, Miss Margaret Isobel Fleming -- Daisy --
 in December 1846. With her passing ended her family's residence in
 North Park, extending over a century or so.
 }
-

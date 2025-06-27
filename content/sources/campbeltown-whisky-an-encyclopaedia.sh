@@ -1,10 +1,9 @@
----
-title: "Campbeltown Whisky: An Encyclopaedia"
 biblio-author: "Martin, Angus"
-biblio-year: 2020
 biblio-isbn: 978-1-84530-166-8
 biblio-publisher: Grimsay Press
----
+biblio-year: 2020
+title: Campbeltown Whisky: An Encyclopaedia
+
 
 $section{
 $h2{Page 34}
@@ -137,4 +136,3 @@ According to the OPR of Gigha, Donald Smith was the son of Donald Smith and Isoo
 $p{
 TODO: check death records, check familysearch, check all other family members}
 }
-
