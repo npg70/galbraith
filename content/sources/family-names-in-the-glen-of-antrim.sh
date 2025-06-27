@@ -1,6 +1,6 @@
-biblio-author: Brian S Turner
-biblio-isbn: 978-1-913993-03-0
-biblio-year: 2021
+biblio.author: Brian S Turner
+biblio.isbn: 978-1-913993-03-0
+biblio.year: 2021
 title: Family Names in the Glen of Antrim
 
 

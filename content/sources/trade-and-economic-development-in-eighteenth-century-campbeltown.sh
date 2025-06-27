@@ -1,8 +1,9 @@
-biblio-author: Susan L MacDonald
-biblio-note: "Thesis for PhD U of Edinburgh, 1982"
-biblio-url: https://era.ed.ac.uk/handle/1842/19071
-biblio-year: 1982
 title: Trade and Economic Development in Eighteenth-Century Campbeltown
+
+biblio.author: Susan L MacDonald
+biblio.note: "Thesis for PhD U of Edinburgh, 1982"
+biblio.url: https://era.ed.ac.uk/handle/1842/19071
+biblio.year: 1982
 
 
 $section{

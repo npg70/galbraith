@@ -1,6 +1,6 @@
-biblio-author: Angus Martin
-biblio-publisher: Kintyre Civic Society
-biblio-year: 2006
+biblio.author: Angus Martin
+biblio.publisher: Kintyre Civic Society
+biblio.year: 2006
 title: An Historical and Genealogical Tour of Killerran Graveyard
 
 

@@ -1,8 +1,8 @@
-biblio-author: Kieth Sanger
-biblio-content-url: http://www.ralstongenealogy.com/number28kintmag.htm
-biblio-publisher: The Kintyre Antiquarian & Natural History Society
-biblio-publisher-url: https://www.kintyreantiquarians.uk
-biblio-title: The McShannons of Kintyre: Harpers to Tacksmen
+biblio.author: Kieth Sanger
+biblio.content_url: http://www.ralstongenealogy.com/number28kintmag.htm
+biblio.publisher: The Kintyre Antiquarian & Natural History Society
+biblio.publisher_url: https://www.kintyreantiquarians.uk
+biblio.title: The McShannons of Kintyre: Harpers to Tacksmen
 title: Kintyre Magazine
 
 

@@ -1,6 +1,6 @@
-biblio-author: Robert Haydock
-biblio-title: Argyll's Forgotten Whisky Barons
-biblio-url: http://www.ralstongenealogy.com/number67kintmag.htm
+biblio.author: Robert Haydock
+biblio.title: Argyll's Forgotten Whisky Barons
+biblio.url: http://www.ralstongenealogy.com/number67kintmag.htm
 title: Kintyre Magazine #67
 
 

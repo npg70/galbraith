@@ -1,4 +1,4 @@
-biblio-author: Angus Martin
+biblio.author: Angus Martin
 title: Kintyre Families
 
 

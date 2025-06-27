@@ -1,7 +1,7 @@
-biblio-author: Elizabeth Marrison
-biblio-date: 2004
-biblio-name: Ten Miles South of Campbeltown
-biblio-url: http://www.ralstongenealogy.com/number55kintmag.htm
+biblio.author: Elizabeth Marrison
+biblio.date: 2004
+biblio.name: Ten Miles South of Campbeltown
+biblio.url: http://www.ralstongenealogy.com/number55kintmag.htm
 title: Kintyre Magazine
 
 

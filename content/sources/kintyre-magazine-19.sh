@@ -1,9 +1,9 @@
-biblio-author: Efric Wotherspoon
-biblio-content-url: http://www.ralstongenealogy.com/number19kintmag.htm
-biblio-issn: ISSN 0140-0762
-biblio-publisher: KINTYRE ANTIQUARIAN & NATURAL HISTORY SOCIETY
-biblio-publisher-url: https://www.kintyreantiquarians.uk
-biblio-title: One Hundred & Eleven Years Ago
+biblio.author: Efric Wotherspoon
+biblio.content_url: http://www.ralstongenealogy.com/number19kintmag.htm
+biblio.issn: ISSN 0140-0762
+biblio.publisher: KINTYRE ANTIQUARIAN & NATURAL HISTORY SOCIETY
+biblio.publisher_url: https://www.kintyreantiquarians.uk
+biblio.title: One Hundred & Eleven Years Ago
 title: Kintyre Magazine
 
 

@@ -1,7 +1,7 @@
-biblio-author: "Stirk, David"
-biblio-isbn: 1-903238-84-6
-biblio-publisher: The Angel's Share
-biblio-year: 2005
+biblio.author: "Stirk, David"
+biblio.isbn: 1-903238-84-6
+biblio.publisher: The Angel's Share
+biblio.year: 2005
 title: The Distilleries of Campbeltown
 
 

@@ -1,8 +1,8 @@
-biblio-author: "Margin, Angus"
-biblio-edition: Second Edition
-biblio-publisher: The Grimsay Press
-biblio-title: "Kintyre, The Hidden Past"
-biblio-year: 2014
+biblio.author: "Margin, Angus"
+biblio.edition: Second Edition
+biblio.publisher: The Grimsay Press
+biblio.title: "Kintyre, The Hidden Past"
+biblio.year: 2014
 title: "Kintyre, The Hidden Past"
 
 

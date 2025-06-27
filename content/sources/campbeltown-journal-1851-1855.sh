@@ -1,6 +1,6 @@
-biblio-author: Stuart Farrell
-biblio-publisher: Scottish Geneaological Society
-biblio-year: 2019
+biblio.author: Stuart Farrell
+biblio.publisher: Scottish Geneaological Society
+biblio.year: 2019
 title: "Birth, Marriages & Deaths as reported in The Campbeltown Journal Newspaper 1851-1855"
 
 

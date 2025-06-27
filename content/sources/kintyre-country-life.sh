@@ -1,6 +1,6 @@
-biblio-author: "Martin, Angus"
-biblio-publisher: John Donald Publishers Ltd
-biblio-year: 1987
+biblio.author: "Martin, Angus"
+biblio.publisher: John Donald Publishers Ltd
+biblio.year: 1987
 title: Kintyre Country Life
 
 

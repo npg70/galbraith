@@ -1,6 +1,6 @@
-biblio-author: "Martin, Angus"
-biblio-publisher: Grimsay Press
-biblio-year: 2011
+biblio.author: "Martin, Angus"
+biblio.publisher: Grimsay Press
+biblio.year: 2011
 title: Kilkerran Graveyard Revisited
 
 
