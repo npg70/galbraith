@@ -8,15 +8,6 @@ import (
 	tf "github.com/client9/tagfunctions"
 )
 
-// parse metadata
-func ParseMeta(s []byte) (ssg.ContentSourceConfig, error) {
-	meta := ssg.ContentSourceConfig{}
-	if err := ssg.EmailUnmarshal(s, meta); err != nil {
-		return nil, fmt.Errorf("unable to parse metadata: %v", err)
-	}
-	return meta, nil
-}
-
 func Main2(config ssg.SiteConfig, outputDir string, pages *[]ssg.ContentSourceConfig) error {
 
 	conf := ssg.SiteConfig{
@@ -25,7 +16,7 @@ func Main2(config ssg.SiteConfig, outputDir string, pages *[]ssg.ContentSourceCo
 		IndexSource: "index.sh",
 		IndexDest:   "index.html",
 		MetaSplit:    ssg.MetaSplitEmail,
-		MetaParser:   ParseMeta,
+		MetaParser:   ssg.MetaParseEmail,
 		Pipeline: []ssg.Renderer{
 			TagRender,
 			ssg.Must(ssg.NewPageRender("layouts", nil)),
