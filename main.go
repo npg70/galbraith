@@ -113,7 +113,7 @@ func main() {
 	// TAGS ------------------
 	tmap := tagmap(db)
 	pages = append(pages, tagIndex(tmap, "tags/index.html"))
-	/*
+	/*  replaced with fulltext search
 		tpages := tagStart(db)
 		for _, tp := range tpages {
 			tagpath := makeTagFile(tp.path)
