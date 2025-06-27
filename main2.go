@@ -52,11 +52,6 @@ func Main2(config ssg.SiteConfig, pages *[]ssg.ContentSourceConfig) error {
 }
 
 func TagRender(wr io.Writer, src io.Reader, data any) error {
-	return render(wr, src)
-}
-
-func render(wr io.Writer, src io.Reader) error {
-
 	// Parse raw into nodes
 	p := tf.Tokenizer{}
 	n := p.Parse(src)
