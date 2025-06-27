@@ -4,7 +4,7 @@ go 1.24.3
 
 require (
 	github.com/bep/gitmap v1.7.0
-	github.com/client9/ssg v0.0.0-20250627005651-83bdd47dbb88
+	github.com/client9/ssg v0.0.0-20250627220923-e9744b9740fe
 	github.com/client9/tagfunctions v0.0.0-20250623210613-3abf864c7703
 	golang.org/x/net v0.41.0
 	golang.org/x/text v0.26.0

@@ -8,11 +8,6 @@ import (
 	tf "github.com/client9/tagfunctions"
 )
 
-// split input source into metadata and content
-func SplitMeta(src []byte) ([]byte, []byte) {
-	return ssg.Splitter(ssg.HeadEmail, src)
-}
-
 // parse metadata
 func ParseMeta(s []byte) (ssg.ContentSourceConfig, error) {
 	meta := ssg.ContentSourceConfig{}
@@ -23,29 +18,22 @@ func ParseMeta(s []byte) (ssg.ContentSourceConfig, error) {
 }
 
 func Main2(config ssg.SiteConfig, pages *[]ssg.ContentSourceConfig) error {
-	// create page assembly templates
-	pageTemplate, err := ssg.NewPageRender(config.TemplateDir, nil)
-	if err != nil {
-		return fmt.Errorf("page Template failed: %v", err)
-	}
 
 	conf := ssg.SiteConfig{
 		InputExt:    ".sh",
 		OutputExt:   ".html",
 		IndexSource: "index.sh",
 		IndexDest:   "index.html",
-		Split:       SplitMeta,
+		Split:       ssg.SplitMetaEmail,
 		Metaparser:  ParseMeta,
 		Pipeline: []ssg.Renderer{
 			TagRender,
-			pageTemplate,
+			ssg.Must(ssg.NewPageRender("layouts", nil)),
 			ssg.WriteOutput("public"),
 		},
 	}
 
-	// do it
-	err = ssg.Main2(conf, pages)
-	if err != nil {
+	if err := ssg.Main2(conf, pages); err != nil {
 		return fmt.Errorf("main failed: %s", err)
 	}
 	return nil
