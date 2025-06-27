@@ -13,7 +13,7 @@ func SplitMeta(src []byte) ([]byte, []byte) {
 	return ssg.Splitter(ssg.HeadEmail, src)
 }
 
-// parse metadata as Yaml
+// parse metadata
 func ParseMeta(s []byte) (ssg.ContentSourceConfig, error) {
 	meta := ssg.ContentSourceConfig{}
 	if err := ssg.EmailUnmarshal(s, meta); err != nil {
