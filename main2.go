@@ -15,8 +15,8 @@ func Main2(config ssg.SiteConfig, outputDir string, pages *[]ssg.ContentSourceCo
 		OutputExt:   ".html",
 		IndexSource: "index.sh",
 		IndexDest:   "index.html",
-		MetaSplit:    ssg.MetaSplitEmail,
-		MetaParser:   ssg.MetaParseEmail,
+		MetaSplit:   ssg.MetaSplitEmail,
+		MetaParser:  ssg.MetaParseEmail,
 		Pipeline: []ssg.Renderer{
 			TagRender,
 			ssg.Must(ssg.NewPageRender("layouts", nil)),

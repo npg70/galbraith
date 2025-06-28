@@ -8,7 +8,6 @@ import (
 	"time"
 
 	"github.com/client9/ssg"
-	tf "github.com/client9/tagfunctions"
 )
 
 func init() {
@@ -112,11 +111,11 @@ func main() {
 	tmap := tagmap(db)
 	pages = append(pages, tagIndex(tmap, "tags/index.html"))
 	/*  replaced with fulltext search
-		tpages := tagStart(db)
-		for _, tp := range tpages {
-			tagpath := makeTagFile(tp.path)
-			pages = append(pages, indexRoots2(db, tp, filepath.Join("tags", tagpath, "index.html")))
-		}
+	tpages := tagStart(db)
+	for _, tp := range tpages {
+		tagpath := makeTagFile(tp.path)
+		pages = append(pages, indexRoots2(db, tp, filepath.Join("tags", tagpath, "index.html")))
+	}
 	*/
 
 	// PEOPLE
@@ -144,8 +143,4 @@ func main() {
 	t := time.Now()
 	elapsed := t.Sub(start)
 	log.Printf("%d pages in %s", len(pages), elapsed)
-	if server {
-		log.Printf("Home %q", outputDir)
-		tf.Serve(outputDir, "galbraith")
-	}
 }

@@ -1,15 +1,7 @@
 github.com/bep/gitmap v1.7.0 h1:jvPnRQv5RG6IDPrwoDiwAhTE/DmdEkOW4poFeUYmjI8=
 github.com/bep/gitmap v1.7.0/go.mod h1:n+3W1f/rot2hynsqEGxGMErPRgT41n9CkGuzPvz9cIw=
-github.com/client9/ssg v0.0.0-20250627005651-83bdd47dbb88 h1:wW4wuiOv7uJZ3ehk+xxFlO3qdCxQazLj2DuTcDYvSsI=
-github.com/client9/ssg v0.0.0-20250627005651-83bdd47dbb88/go.mod h1:UEuRp8D4V5PNgQwl2jfiYtSdnWswVRWnX16nX54jcTY=
-github.com/client9/ssg v0.0.0-20250627220923-e9744b9740fe h1:9+oXSs+K6fqsoDbM144/AhukHB2ER4wp/6pIZhvZP0I=
-github.com/client9/ssg v0.0.0-20250627220923-e9744b9740fe/go.mod h1:UEuRp8D4V5PNgQwl2jfiYtSdnWswVRWnX16nX54jcTY=
-github.com/client9/ssg v0.0.0-20250627223716-f004f7911f4a h1:mon6U0Pnn64IvTuK3os2Q/qrfW6T1D/426TL6mumW48=
-github.com/client9/ssg v0.0.0-20250627223716-f004f7911f4a/go.mod h1:UEuRp8D4V5PNgQwl2jfiYtSdnWswVRWnX16nX54jcTY=
-github.com/client9/ssg v0.0.0-20250627224713-feada9807c95 h1:L0Zil2U46RFKJInOKCEv0PS48KTJsqnPo6ngyfapJIQ=
-github.com/client9/ssg v0.0.0-20250627224713-feada9807c95/go.mod h1:UEuRp8D4V5PNgQwl2jfiYtSdnWswVRWnX16nX54jcTY=
-github.com/client9/ssg v0.0.0-20250627225320-46e46919c4c1 h1:vwV/R15UAD3+BeJLKB/vTqKWSXXfdBA7CCNVaf5xvBA=
-github.com/client9/ssg v0.0.0-20250627225320-46e46919c4c1/go.mod h1:UEuRp8D4V5PNgQwl2jfiYtSdnWswVRWnX16nX54jcTY=
+github.com/client9/ssg v0.0.0-20250627231738-173ae81c3e74 h1:iLxzAAn53aGGJqRNcCJ+OQeNNDFjd83BUR5Ke27Jfds=
+github.com/client9/ssg v0.0.0-20250627231738-173ae81c3e74/go.mod h1:LTTFnuKrTUzzgSaer9mqcT2GZ1Xs8ERmwEzJ8O9q4j4=
 github.com/client9/tagfunctions v0.0.0-20250623210613-3abf864c7703 h1:i6dDqtwcdUQCKP1o5fP3903q5dVB4H08S8y8f5vlfZU=
 github.com/client9/tagfunctions v0.0.0-20250623210613-3abf864c7703/go.mod h1:u6lmNENEdq6a/l60ogwor75DS1ivXLqpmg8ovmT0Zvs=
 golang.org/x/net v0.41.0 h1:vBTly1HeNPEn3wtREYfy4GZ/NECgw2Cnl+nK6Nz3uvw=
