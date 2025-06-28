@@ -60,10 +60,8 @@ func main() {
 	sc := ssg.SiteConfig{}
 	outputDir := ""
 	rootsOnly := false
-	server := false
 	flag.StringVar(&outputDir, "out", "public", "out directory")
 	flag.BoolVar(&rootsOnly, "root", false, "run and display roots")
-	flag.BoolVar(&server, "serve", false, "run webserver")
 	flag.Parse()
 
 	db := make(Root)
