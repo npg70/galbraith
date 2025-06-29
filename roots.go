@@ -7,7 +7,6 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/bep/gitmap"
 	"github.com/client9/ssg"
 )
 
@@ -28,9 +27,6 @@ func computeRoots(db Root) []string {
 	for _, f := range files {
 		uid := strings.TrimSuffix(filepath.Base(f), ".sh")
 		nextg := db.loadOne(uid)
-		if ginfo, ok := repo.Files[f]; ok {
-			db[uid].lastUpdate = ginfo.CommitDate
-		}
 
 		// if no children this is a leaf node
 		if len(nextg) == 0 {
