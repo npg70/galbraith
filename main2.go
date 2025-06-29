@@ -11,22 +11,30 @@ import (
 func Main2(config ssg.SiteConfig, outputDir string, pages *[]ssg.ContentSourceConfig) error {
 
 	conf := ssg.SiteConfig{
-		InputExt:    ".sh",
-		OutputExt:   ".html",
-		IndexSource: "index.sh",
-		IndexDest:   "index.html",
-		MetaSplit:   ssg.MetaSplitEmail,
-		MetaParser:  ssg.MetaParseEmail(),
+		ContentDir:   "content",
+		BaseTemplate: "baseof.html",
+		InputExt:     ".sh",
+		OutputExt:    ".html",
+		IndexSource:  "index.sh",
+		IndexDest:    "index.html",
+		MetaSplit:    ssg.MetaSplitEmail,
+		MetaParser:   ssg.MetaParseEmail(),
 		Pipeline: []ssg.Renderer{
 			TagRender,
 			ssg.Must(ssg.NewPageRender("layouts", nil)),
 			ssg.WriteOutput(outputDir),
 		},
 	}
+	// load in page-based content
+	if err := ssg.LoadContent(conf, pages); err != nil {
+		return fmt.Errorf("load content failed: %s", err)
+	}
 
+	// render content
 	if err := ssg.Main2(conf, pages); err != nil {
 		return fmt.Errorf("main failed: %s", err)
 	}
+
 	return nil
 }
 
