@@ -13,12 +13,6 @@ import (
 // computes roots of the tree and makes indexes for it.
 
 func computeRoots(db Root) []string {
-	opt := gitmap.Options{}
-	repo, err := gitmap.Map(opt)
-	if err != nil {
-		log.Fatal(err)
-	}
-
 	pmap := make(map[string]bool)
 	files, err := filepath.Glob("./people/*.sh")
 	if err != nil {
