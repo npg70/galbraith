@@ -9,7 +9,6 @@ import (
 	"os"
 	"path/filepath"
 	"strings"
-	"time"
 
 	"github.com/client9/ssg"
 )
@@ -98,7 +97,6 @@ type Person struct {
 	generation int      // generation number 1,2,3..
 	counter    int      // entry counter 1...
 	refs       []string // footnote coutner per person
-	lastUpdate time.Time
 
 	root Root // not clear why I need this
 
@@ -221,7 +219,7 @@ func (p *Person) UnmarshalText(text []byte) error {
 			return err
 		}
 		if len(args) == 0 {
-			log.Fatalf("Person function had 0 args: body = %q", string(text))
+			return fmt.Errorf("Person function had 0 args: body = %q", string(text))
 		}
 		switch args[0] {
 		case "gender":
@@ -383,7 +381,7 @@ func (r Root) Load(id string) (*Person, error) {
 	if !strings.HasSuffix(id, filesuffix) {
 		fname += filesuffix
 	}
-	log.Printf("reading %q\n", fname)
+	//log.Printf("reading %q\n", fname)
 	bstring, err := os.ReadFile(fname)
 	if err != nil {
 		return nil, err
