@@ -8,7 +8,7 @@ external {
 baptism -date 05-mar-1760 -location campbeltown -ref archibald1760-baptism
 death -date 03-aug-1827 -location 'black cape,quebec,canada'
 note {
-    Maybe immigrated to Quebec in 1821
+    Immigrated to Quebec, Canada in 1821, like his bother $child-link[mcnair-nathan-1763-galbreath]{Nathaniel}.
 }
 note {
 An alternate birth date is 9 Nov 1761, however nothing matches in the OPRs.
@@ -17,6 +17,12 @@ confused-with mcnair-archibald-1753-mitchell
 confused-with mcnair-archibald-1755-bieth
 
 body {
+    $p{
+    Whyte, Donald. $i{A Dictionary of Scottish Emigrants to Canada Before Confederation}, Volume 2. The Ontario Genealogical Society, Toronto 1995
+}
+$blockquote{
+    $b{7442 McNair, Archibald}, ca 1763-3 Aug 1827. From Campbeltown, ARL. bro/o Nathaniel M (i 8810). To New Richmond Twp, Bonaventure Co, QUE, 1821. $b{DMC 30 Oct 1987.}
+}
 $p{
 Archibald was present on 28-Sep-1824 at the marriage of his son John, according to the records.  In addition, a witness was a "John Jamieson" which was the spouse of his daughter Margaret (who married in 1818).
 }
@@ -51,7 +57,6 @@ $p{
 $child-link[mcnair-mary-1780-johnston]{Mary McNair}, age 11, born ~1781, is likely adopted, daughter of $child-link[mcnair-john-1750-galbreath]{John McNair} and Janet Galbreath. Her baptism is recorded, but not indexed in Scotlands People. Little is known about her parents.
 }
 }
-
 
 partner {
     name Margaret Mitchell

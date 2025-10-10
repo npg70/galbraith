@@ -76,14 +76,8 @@ partner {
         baptism -date 11-nov-1761 -location campbeltown -ref robert1761-baptism
         death -date 1824 -location 'Black Cape,Bonaventure, Quebec, Canada'
     }
-    child {
-        name Nathaniel McNair Sr
-        gender male
-        birth -date 02-jan-1763
-        baptism -date 06-jan-1763 -location campbeltown -ref nath1763-baptism
-        death -date 13-sep-1857 -location 'New Mills,New Brunswick,Canada'
-        partner galbreath-margaret-1771-mcnair
-    }
+    child mcnair-nathan-1763-galbreath
+
     child {
         name Elizabeth McNair
         gender female
@@ -180,12 +174,6 @@ footnotes {
         $opr-ref-link[b-1761-507-000-0011-0327 "Robert McNair"]{
             Robert | Archd McNair + Margt Galbreath had a son
             born the 9th + bapt the 11th Nov  named Robert
-        }
-    }
-    nath1763-baptism {
-        $opr-ref-link[b-1763-507-000-0011-0333 "Nathaniel McNair"]{
-            Nathl | Archd McNair and Margt [blank] had a son born 2nd
-            and baptized 6th Janry named Nathaniel
         }
     }
     eliz1765-baptism {
