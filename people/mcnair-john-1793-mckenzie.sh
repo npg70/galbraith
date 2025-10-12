@@ -4,7 +4,10 @@ tags Immigrant:Canada:Quebec
 
 external {
     findagrave 136365961
+    familysearch LXM4-F8J
+    ancestry tree/12079504/person/282657384996
 }
+
 confused-with {
 Everyone has him confused with a different John, son of $child-link[mcnair-archibald-1753-mitchell]{Archibald McNair} and Jean Mitchell.
 }

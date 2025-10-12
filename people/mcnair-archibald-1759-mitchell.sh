@@ -71,29 +71,19 @@ partner {
     }
     child mcnair-margaret-1790-jamieson
 
-    child {
-        name Archibald McNair
-        gender male
-        baptism -date 26-mar-1792 -location campbeltown
-    }
+    child mcnair-archibald-1792-mckenzie
 
     child mcnair-john-1793-mckenzie
 
     child mcnair-jean-1796-mcrae
 
-    child {
-        name Martha McNair
-        gender female
-        birth -date 1801 -location ayr
-        death -date 1882 -location 'Black Cape,New Richmond,Quebec,Canada'
-        partner {
-            name James Henderson
-            gender male
-            birth -date 25-jun-1804
-            death -date 01-dec-1875 -location 'Black Cape,New Richmond,Quebec,Canada'
-        }
-    }
-    child {
+    child mcnair-martha-1801-henderson
+
+    child mcnair-peter-1805-jamieson
+
+    child mcnair-anne-1809-jamieson
+
+   child {
         name Agnes McNair
         gender female
         birth -date 1810 -location ayr
