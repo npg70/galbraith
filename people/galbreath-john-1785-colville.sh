@@ -35,7 +35,10 @@ partner {
 
 footnotes {
     john1785-baptism {
-        $opr-ref-link[b-1785-507-000-0020-0086 "John Galbraith"]
+        $opr-ref-link[b-1785-507-000-0020-0086 "John Galbraith"]{
+            John | Lawful son to David Galbreath Farmer in Ardnacrosh
+            & Mary Fleeming was born 28th & bapt 29th Nov
+        }
     }
     marriage {
 	$opr-ref-link[m-1809-507-000-0020-0086 "John Galbreath" "Margaret Colvill"]{

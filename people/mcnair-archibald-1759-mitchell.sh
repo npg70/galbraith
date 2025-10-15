@@ -67,7 +67,8 @@ partner {
     child {
         name James McNair
         gender male
-        baptism -date 02-nov-1788 -location campbeltown
+        birth -date 30-oct-1788
+        baptism -date 02-nov-1788 -location campbeltown -ref james1788-baptism
     }
     child mcnair-margaret-1790-jamieson
 
@@ -83,19 +84,8 @@ partner {
 
     child mcnair-anne-1809-jamieson
 
-   child {
-        name Agnes McNair
-        gender female
-        birth -date 1810 -location ayr
-        death -date 12-aug-1897 -location 'Black Cape,New Richmond,Quebec,Canada'
-        external {
-            findagrave 220570734
-        }
-        partner {
-            name William McCrae
-            gender male
-        }
-    }
+    child mcnair-agnes-1810-mccrae
+
 }
 footnotes {
     archibald1760-baptism {
@@ -110,5 +100,11 @@ footnotes {
             Archd McNair & Marg Mitchell both of this parish contracted
             16th Aug & were married.
         }
+    }
+    james1788-baptism {
+            $opr-ref-link[b-1788-507-000-0020-0108 "James McNair"]{
+               James | Lawful Son to Archd MacNair in Kildonnell + Margt Mitchell
+               was born 30th Oct + Bapt 2nd Nov.
+            }
     }
 }

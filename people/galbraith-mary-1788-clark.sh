@@ -23,7 +23,10 @@ partner {
 }
 footnotes {
     mary1788-baptism {
-        $opr-ref-link[b-1788-507-000-0020-0107 "Mary Galbreath"]
+        $opr-ref-link[b-1788-507-000-0020-0107 "Mary Galbreath"]{
+            Mary | Lawful dau to David Galbreath in Ardnacross &
+                Mary Fleeming was born 24th + Bapt 29th Augst
+        }
     }
     mary1788-death {
         $sp-ref-link[d-1877-507-00-0141 0047 "Mary Galbraith"]

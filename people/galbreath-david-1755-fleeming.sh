@@ -9,7 +9,7 @@ external {
     wikitree Galbraith-2336
 }
 body {
-    He was a farmer in Ugadale and/or Ardnacross (from baptism records of children, and his daughter Mary's death record).
+    He was a farmer in Ardnacross, Knockanrioch, and Ugadale (from baptism records of children, and his daughter Mary's death record).
 }
 note {
     Not in Census of 1792
@@ -43,12 +43,18 @@ partner {
         baptism -date 24-dec-1790 -location campbeltown -ref janet1790-baptism
         death -date 15-nov-1871 -location campbeltown -ref janet1790-death -note unmarried
     }
+
     child galbreath-david-1793-greenlees
 
     child galbreath-orsla-1795-wylie
 
     child galbreath-archibald-1798
 
+    child {
+            name Elizabeth Galbreath
+            gender female
+            baptism -date 16-aug-1800 -location saddell -ref elizabeth1800-baptism
+        }
     child {
         name Alexander Galbreath
         gender male
@@ -71,24 +77,30 @@ footnotes {
         }
     }
     david1755-baptism {
-        $opr-ref[b-1755-507-000-0011-0294 "David Galbreath"]
+        $opr-ref-link[b-1755-507-000-0011-0294 "David Galbreath"]{
+            David | James Galbreath and Margaret Adam had a son
+            baptized 12th Febry named David
+        }
         $opr-ref[b-1755-507-000-0010-0221 "David Galbraith"]
     }
     margaret1782-baptism {  
-        $opr-ref-link[b-1782-507-000-0020-0062 "Margaret Galbreath"]
-    }
-    john1785-baptism {
-        $opr-ref-link[b-1785-507-000-0020-0086 "John Galbraith"]
+        $opr-ref-link[b-1782-507-000-0020-0062 "Margaret Galbreath"]{
+            Margaret | Lawful dau to David Galbreath Farmer in Ardnacrosh 
+            and Mary Fleeming born 1st and Bapt 3rd Nov.
+        }
     }
     james1786-baptism {
         $opr-ref-link[b-1786-507-000-0020-0094 "James Galbraith"]{
             James | Lawful son to $s{Samuel} David Galbraith in Ardnacross + 
             Mary Fleeming was born 30th + Bapt 31st Dec.
         }
-        Due to cross-out,the father is indexed as "David or Samuel Galbraith".
+        Due to the cross-out, the father is indexed as "David or Samuel Galbraith".
     }
     janet1790-baptism {
-        $opr-ref-link[b-1790-507-000-0020-0126 "Janet Galbreath"]
+        $opr-ref-link[b-1790-507-000-0020-0126 "Janet Galbreath"]{
+            Janet | Lawfuld dau to David Galbreath Farmer in Ardnacross +
+            Mary Fleeming was born 23rd & Bapt 24 Dec
+        }
     }
     janet1790-death {
         $sp-ref-link[d-1871-507-00-0143 0048 "Janet Galbraith"]{
@@ -99,10 +111,25 @@ footnotes {
             Mother: Mary Galbraith M.S. Fleming;
         }
     }
+    elizabeth1800-baptism {
+        $opr-ref-link[b-1800-531-000-0010-0044 "Elizabeth Galbreath"]{
+            1800 Aug 16th | David Galbreath | Knockanrioch | Elizabeth
+        }
+    }
     alexander1802-baptism {
-        $opr-ref-link[b-1802-507-000-0040-0225 "Alexander Galbreath"]
+        Baptism recorded in both Campbeltown and Saddell parishes:$br{}
+        $opr-ref-link[b-1802-507-000-0040-0225 "Alexander Galbreath"]{
+            Alexander | David Galbreath + Mary Fleeming Knockanrioch had a 
+            son born 12th Baptized 16th named Alexander.
+        }
+        $opr-ref-link[b-1802-531-000-0010-0045 "Alexnader Galbreath"]{
+            March 15th | David Galbreath Knockanrioch Alexr
+        }
     }
     william1804-baptism {
-        $opr-ref-link[b-1804-507-000-0040-0265 "William Galbreath"]
+        $opr-ref-link[b-1804-507-000-0040-0265 "William Galbreath"]{
+            William | Lawful Son to David Galbreath Farmer in (illegible, maybe Ugadale)
+            Mary Fleeming born 23rd bapt 26th July ...
+        }
     }
 }

@@ -97,7 +97,10 @@ partner {
 
 footnotes {
     david1793-baptism {
-        $opr-ref-link[b-1793-507-000-0040-0109 "David Galbreath"]
+        $opr-ref-link[b-1793-507-000-0040-0109 "David Galbreath"]{
+            David | Lawful son to David Galbreath & Mary Fleeming in
+            Ardnacross 27th Aug 1793
+        }
     }
     marriage {
         $opr-ref-link[m-1818-507-000-0050-0124 "David Galbreath" "Mary Greenlees"]{
