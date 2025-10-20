@@ -56,13 +56,6 @@ partner {
         birth -date 13-oct-1809
         baptism -date 15-oct-1809
         death -date 26-feb-1889 -location 'New Mills, New Brunswick, Canada'
-    }
-    child {
-        name Mary McNair
-        gender female
-        birth -date 16-may-1811
-        baptism -date 17-may-1811 -location campbeltown
-        death -date 26-feb-1889 -location 'New Mills, New Brunswick, Canada'
         partner {
             name Elizabeth Kelso
             gender female
@@ -70,6 +63,12 @@ partner {
             death -date 1872
             marriage -date 06-apr-1836 -location 'Addington,New Brunswick,Canada'
         }
+    }
+    child {
+        name Mary McNair
+        gender female
+        birth -date 16-may-1811
+        baptism -date 17-may-1811 -location campbeltown
     }
     child {
         name James McNair

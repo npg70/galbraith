@@ -52,8 +52,9 @@ $h2{Census and Land Records}
 
 $ul{
    $li{$source-link[census-gigha-1827]{Isle of Gigha Census of 1827}}
-    $li{$source-link[kintyre-leases]{Kintyre Leases}}
+   $li{$source-link[kintyre-leases]{Kintyre Leases}}
    $li{$source-link[argyll-hearth-tax-1694]{Argyll Hearth Tax 1694}}
+   $li{$source-link[census-canada-new-brunswick-restigouche-colborne-1851]{Canada, New Brunswick, Restigouche, Colborne 1851}}
 }
 
 $h2{Misc}
