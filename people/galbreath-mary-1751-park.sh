@@ -44,7 +44,7 @@ partner {
 
     child {
         name Elisabeth Andrew
-	birth -date 18-jan-1775
+	    birth -date 18-jan-1775
         baptism -date 18-jan-1775 -location campbeltown -ref elisabeth1775-baptism
     }
 }
@@ -63,16 +63,16 @@ partner {
     }
     child {
         name Robert Park
-	birth -date 03-jul-1779
+	    birth -date 03-jul-1779
         baptism -date 04-jul-1779 -location campbeltown -ref robert1779-baptism
-	death -note dy
+	    death -note dy
     }
 
     child park-mary-1782-mclachlan
 
     child {
         name James Park 
-	birth -date 27-aug-1784
+	    birth -date 27-aug-1784
         baptism -date 29-aug-1784 -location campbeltown -ref james1784-baptism
         death -date 1793
     }
@@ -120,8 +120,8 @@ $blockquote{
             Nov 27th Matthew Andrew & Mary Galbreath in this Parish both
         }
         $opr-ref-link[m-1771-507-000-0010-0343 "Mary Galbreathson" "Matthew Andrew"]{
-        Nov 1th Matthew Andrew and Mary Galbreath in this parish
-    }
+            Nov 1th Matthew Andrew and Mary Galbreath in this parish
+        }
     }
     elisabeth1775-baptism {
 	$opr-ref-link[b-1775-507-000-0020-0016 "Elisabeth Andrew"]

@@ -13,6 +13,10 @@ note {
 
 baptism -date 29-may-1698 -location campbeltown -ref james1698-baptism
 
+body {
+    A Testament was recorded in 1803, which appears to be resolving old debts.  Unfortunately, the actually date of death is blank.
+}
+
 partner {
     name Janet Mitchell
     gender female

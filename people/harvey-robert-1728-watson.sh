@@ -5,8 +5,9 @@ external {
     ancestry tree/12079504/person/282642876143
 }
 baptism -date 29-sep-1728 -location campbeltown
+death -date 1780
 body {
-    The daughers Janet and Isobell got married on the same day.
+    The daughters Janet and Isobell got married on the same day.
 }
 
 partner {
@@ -31,6 +32,14 @@ partner {
         name Agnes Harvie
         gender female
         baptism -date 21-dec-1756 -location campbeltown -ref agnes1756-baptism
+        partner {
+                name Thomas Johnston
+                gender male
+                marriage -date 10-oct-1778 -location campbeltown
+            }
+        body {
+            Also know as "Amy."  Not in Census of 1792.
+        }
     }
     child {
         name Isobell Harvie

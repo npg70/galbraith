@@ -11,7 +11,7 @@ partner {
 	name John McMillan
 	gender male
 
-	marriage -date 01-aug-1778 -location campbeltown
+	marriage -date 01-aug-1778 -location campbeltown -ref marriage
 
 	child {
 		name James McMillan
@@ -25,3 +25,11 @@ partner {
 	}
 }
 
+footnotes {
+    marriage {
+        $opr-ref-link[m-1778-507-000-0020-0160 "Janet Fleeming" "John McMillan"]{
+            John McMillan and Janet Fleeming, both of this parish,
+                were contracted 1st Aug 1778, married.
+        }
+    }
+}

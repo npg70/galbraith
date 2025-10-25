@@ -6,7 +6,7 @@ baptism -date 31-oct-1762 -location campbeltown
 death -date 1847 -location washington,ohio,usa
 burial -location belpre,washington,ohio,usa
 todo major {
-    Wikitree findagrave and familysearch are  missing parents, 
+    Wikitree findagrave and familysearch are missing parents.
 }
 external {
     familysearch KCRN-QHF
@@ -25,6 +25,7 @@ Agnes,1817, VA
 Jean, Before 1821, IN
 }
 }
+
 note {
 Not listed are two unconfirmed children: James, b ~1805, and Isabella b ~1808.  No sources have been found for them.
 }

@@ -4,7 +4,8 @@ tags Argyll:Campbeltown fleeming
 external {
     familysearch 9M9D-QL7
 }
-birth -date 'say 1740'
+birth -date 'about 1726'
+death -date 02-mar-1785 -location campbeltown
 
 confused-with fleeming-john-1703-kirkland
 confused-with fleeming-john-1713-langwill
@@ -23,14 +24,24 @@ $li{"Mary, spouse of John Paterson, cooper in Campbeltown"}
 $li{"Jean youngest daughter .. until she reached the age 18"}
 }
 
+He died two months later.
+
+From Kilkerran:
+
+$blockquote{
+907	Erected by JOHN FLEEMING in memory of his father JAMES FLEEMING late tenant in Killownan who died 2 March 1785 aged 56 years and by JEAN FLEEMING in memory of her husband ARCHD McMURCHY who died 12 January 1828 aged 49 years, MARY their daughter died 14 March 1828 aged 11 years.
+}
+
+
 $h3{What we know}
 
 $ul{
+$li{James was born about 1726, and died in 1785.}
 $li{James Fleeming married Janet Langwill in 1761.}
 $li{Janet was alive in 1785}
 $li{Child: Agnes, Mary, Jean all match}
+$li{$child-link[fleeming-jean-1778-mcmurchy]{Jean} is in the census of 1792, at age 12, living in Killowan, with John Fleeming and Jean Colville}
 $li{$child-link[fleeming-john-1703-kirkland]{John Fleeming} who married Jean Kirkland is someone else.}
-$li{Jean is in the census of 1792, living with John Fleeming and Jean Colville, of age 12, which matched everything}
 }
 
 $h3{Very Likely}
@@ -67,7 +78,7 @@ partner {
     child {
         name Agnes Fleeming
         gender female
-	birth -date 29-oct-1762
+	    birth -date 29-oct-1762
         baptism -date 31-oct-1762 -location campbeltown -ref agnes1762-baptism
         partner galbreath-alexander-1753-flemming
     }
@@ -81,20 +92,22 @@ partner {
 
     child fleeming-mary-1765-paterson
 
+    child fleming-john-1758-colville
+
     child {
-	name James Fleeming
-	gender male
-	baptism -date 17-oct-1769 -location campbeltown -ref james1769-baptism
-	body {
-		TBD
-	}
+	    name James Fleeming
+	    gender male
+	    baptism -date 17-oct-1769 -location campbeltown -ref james1769-baptism
+	    body {
+		  TBD
+	    }
     }
 
     child {
-	name Elizabeth Fleeming
-	gender female
-	birth -date 21-mar-1775
-	baptism -date 23-mar-1775 -location campbeltown -ref eliza1775-baptism
+	    name Elizabeth Fleeming
+	    gender female
+	    birth -date 21-mar-1775
+	    baptism -date 23-mar-1775 -location campbeltown -ref eliza1775-baptism
 	body {
 		assumed died young.
 	}

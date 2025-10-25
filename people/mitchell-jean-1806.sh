@@ -11,7 +11,7 @@ external {
     ancestry tree/12079504/person/282659884087
 }
 body {
-
+Her sister Mary died around 1841, widowing $child-link[mcnair-archibald-1796-mitchell]{Archibald McNair} and their children.  Jean became the effective step-mother, and immigrated with the family in 1842 to Clermont County, Ohio, USA.
 }
 footnotes {
     jean1806-baptism {

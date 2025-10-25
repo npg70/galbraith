@@ -10,10 +10,27 @@ external {
     findagrave  123641931
 }
 body {
-    He was a farmer in Lochsanish.
+
+He was a farmer in Lochsanish.
+
+Immigration in 1842 on British Barque "Gleaner" arrived at New York on 5 July 1842, 33 days from Campbeltown, Scotland:$ref[gleaner]
+
+$csvtable{
+#, First, Last, Age, Year, Gender, Role
+81, Arch, McNair, 43, 1799, M, farmer
+82, Jean, Mitchell, 36, 1806, F, sister-in-law
+83, Arch, McNair, 13, 1829, M, son
+84, Hugh, McNair, 10, 1832, M, son
+85, Jn, McNair, 8, 1834,  M, son
+86, Jean, McNair, 6, 1836, F, daughter
+87, Robt, McNair, 4, 1838, M, son
+88, James, McNair, 2 1/2, 1840, M, son
 }
-body {
-    Immigration in 1842 to Clermont County, Ohio, USA.
+
+Mary appears to have died after the last child James was born in 1841 and before landing in New York in 1842.  In her place, her sister $child-link[mitchell-jean-1806]{Jean} is listed on the ship's manifesto.
+
+After landing, they moved to Clermont County, Ohio.
+
 }
 note {
     Mary Mitchell is often confused with $child-link[mitchell-mary-1803-greenlees]{Mary Mitchell} who married Robert Greenlees.
@@ -22,7 +39,7 @@ note {
     Mary Mitchell has been historically confused with $child-link[mitchell-mary-1799-sheddan]{Mary Mitchell}, b. 1799, m. James Sheddan.
 }
 note {
-    Possible additional children  Mary and Robert, born in Ohio.
+    Possible additional children  Mary and Robert, born in Ohio. (impossible).
 }
 
 partner {
@@ -31,6 +48,7 @@ partner {
    parent mitchell-john-1773-langwill 
    marriage -date 28-apr-1825 -location campbeltown -ref mitchell-marriage
    birth -date 10-Apr-1802 -location campbeltown
+   death -date 'about 1841'
 
    child {
         name Archibald McNair
@@ -119,4 +137,7 @@ footnotes {
     james1841-baptism {
         $opr-ref[b-1841-507-000-0070-0193 "James McNair"]
     }
+    gleaner {
+        $elink[http://www.ralstongenealogy.com/glnrlist#mcsporan]{Ralston Geneaology}
+    }   
 }

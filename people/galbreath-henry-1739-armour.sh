@@ -19,7 +19,7 @@ $blockquote{
 }
 }
 note {
-    In the Census of 1792, the children, parentless, appear living in the household of $child-link[galbreath-william-1736-dunlop]{William Galbreath}
+    In the Census of 1792, the children, parentless, appear living in the household of $child-link[galbreath-william-1742-dunlop]{William Galbreath}
 }
 
 tags Argyll:Campbeltown

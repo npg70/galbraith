@@ -3,7 +3,7 @@ title: Canada Census of 1851 - New Brunswick, Restigouche, Colborne
 
 $csvtable{
 House, Name, Gender, Relationship, Age, Race, Occupation, Entry, Health
-56, Nathaniel Mc Nair , M, H, 88 (~1763), Scotish, Farmer, 1821, Infirm
+56, $child-link[mcnair-nathan-1763-galbreath]{Nathaniel Mc Nair} , M, H, 88 (~1763), Scotish, Farmer, 1821, Infirm
 56, Margaret Gilbreath, F, W, 70 (~1781), Scotish, -, 1821, -
 56, Jannet Mc Nair    , F, D, 27 (~1824), -, -, Birth, Partial Insanity
 ,,,,,,,,

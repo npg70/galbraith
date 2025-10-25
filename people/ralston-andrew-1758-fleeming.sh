@@ -35,100 +35,112 @@ note {
 partner {
     name Margaret Fleeming
     gender female
-    parent fleeming-john-1713-langwill
+    parent fleeming-james-1740-langwill
     marriage -date 23-jan-1778 -location campbeltown -ref marriage
+
     child {
         name Robert Ralston
         baptism -date 28-dec-1778 -location southend -ref robert1778-baptism
         partner {
-		name Nancy Ferguson
-		gender female
-		marriage -date 1900
-	}
+		    name Nancy Ferguson
+		    gender female
+		    marriage -date 1900
+	    }
     }
+
     child ralston-john-1780-mcnair 
+
     child {
         name Isobell Ralston
-	gender female
-	baptism -date 'about 1782' -location southend
-	body {
-		Not recorded.  Possibely adopted from Andrew Ralston/Ann Orr.  They had a daughter Isabell b. 1784 in Campbeltown.
-	}
+	    gender female
+	    baptism -date 'about 1782' -location southend
+	    body {
+		    Not recorded.  Possibely adopted from Andrew Ralston/Ann Orr.  They had a daughter Isabell b. 1784 in Campbeltown.
+	    }
     }
+
     child {
         name Margaret Ralston
-	gender female
+    	gender female
         baptism -date 02-mar-1785 -location southend -ref margaret1785-baptism
         death -date 1868
         partner {
             name William Brown
-	    gender male
+	        gender male
         }
     }
+
     child {
         name Janet Ralston
-	gender female
+    	gender female
         baptism -date 07-jan-1787 -location southend -ref janet1787-baptism
         death -date 15-aug-1873 -location cincinnati,hamilton,ohio,usa
         partner {
             name John McDonald
-	    gender male
+	        gender male
             marriage -date 8-mar-1816 -location southend
         } 
     }
+
     child {
         name James Ralston
         gender male
-	baptism -date 09-feb-1789 -location southend -ref james1789-baptism
+    	baptism -date 09-feb-1789 -location southend -ref james1789-baptism
         death -date 1866 -location 'madison,iowa,usa'
         partner {
             name Martha Ann Gordon
-	    gender female
+	        gender female
         }
         partner {
             name Eliza Mathers
             gender female
         }
     }
+
     child {
-	name Helen Ralston
-	gender female
+    	name Helen Ralston
+	    gender female
         baptism -date 20-nov-1790 -location southend -ref helen1790-baptism
-	death -note dy
+	    death -note dy
     }
+
     child {
-	name Elisabeth Ralston
-	gender female
-	baptism -date 16-feb-1793 -location southend -ref elisabeth1793-baptism
+    	name Elisabeth Ralston
+    	gender female
+    	baptism -date 16-feb-1793 -location southend -ref elisabeth1793-baptism
     }
+    
     child {
-	name Andrew Ralston
-	gender male
-	baptism -date 04-may-1797 -location southend -ref andrew1797-baptism
+	    name Andrew Ralston
+	    gender male
+	    baptism -date 04-may-1797 -location southend -ref andrew1797-baptism
     }
+
     child {
-	name Mary Ralston
-	gender female
-	baptism -date 10-feb-1799 -location southend -ref mary1799-baptism
+    	name Mary Ralston
+    	gender female
+    	baptism -date 10-feb-1799 -location southend -ref mary1799-baptism
         death -date 1866 -location cincinnati,hamiliton,ohio,usa
         partner {
             name John Armour
-	    gender male
+	        gender male
             marriage -date jun-1829 -location campbeltown
         }
     }
+
     child {
         name Helen Ralston
-	gender female
+        gender female
         baptism -date 16-feb-1803 -location southend -ref helen1803-baptism
         death -date 20-sep-1892 -location newberry,essex,massachusetts,usa
         partner {
             name Duncan McNaughton
-	    gender male
+	        gender male
             marriage -date 2-may-1829 -location southend
         }
     }
 }
+
 footnotes {
     marriage {
         $opr-ref-link[m-1778-507-000-0020-0160 "Andrew Ralston" "Margaret Fleming"]{

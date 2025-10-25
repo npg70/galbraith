@@ -2,16 +2,18 @@ name Margaret Galbreath
 gender female
 tags Argyll:Campbeltown
 baptism -date 27-oct-1743 -location campbeltown -ref margaret1743-baptism
+death -date 1788
 external {
     familysearch 9M96-2SR
     ancestry tree/12079504/person/282258326810
+    findagrave 114485228
 }
 partner {
     name Alexander Dunlop
     gender male
     marriage -date 3-may-1768 -location campbeltown -ref dunlop-marriage
     birth -date 13-sep-1741
-
+    death -date 05-mar-1816
     child dunlop-isabell-1770-clark
 
     child {

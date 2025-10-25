@@ -4,6 +4,7 @@ tags fleeming Argyll:Killean
 
 external {
 	familysearch M1T1-9RD
+    wikitree Fleeming-67
 }
 
 note {

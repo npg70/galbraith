@@ -7,14 +7,82 @@ external {
     wikitree Fleming-7954
     billiongraves John-Fleming/28386202
 }
+baptism -date 23-jan-1758 -location campbeltown -ref john1758-baptism
+death -date 05-feb-1854 -location 'barlow,washington,ohio,usa'
+
+todo major {
+    parents are wrong
+}
+
 note {
 	Marriage appears to be not recorded?
 }
 note {
 	Entire family immigrated in 1821.
 }
-baptism -date 23-jan-1758 -location campbeltown -ref john1758-baptism
-death -date 05-feb-1854 -location 'barlow,washington,ohio,usa'
+
+body {
+Census of 1792, Parish of Kilkerran, Killeonan
+
+$csvtable{
+Age, Year, Men, Women, Children
+21,  1771, John Fleeming,              ,
+19,  1773,              , Jean Colvill ,
+1/4, 1792,              ,              , James Fleeming
+12 , 1780,              ,              , Jean Fleeming
+}
+
+Yes, the age for the son James was given as "1/4", which matches the baptism record.
+
+
+1821 Immigration, landed 17 Sep 1821 at Philadelphia from Liverpool, UK.$ref[immigration1] $ref[immigration2]
+
+$csvtable{
+Name, Age, Year, Note
+John Fleming, 52, 1769,
+Jean Fleming, 48, 1773, Jean Colville
+James Fleming, 29, 1792, Son
+John Fleming, 23, 1798, Son but born in 1795? 
+James Fleming, 21, 1800, Listed as James/Male but is actually Janet
+Agnes Fleming, 19, 1802, Daughter
+Mary Fleming, 17, 1804, Daughter
+Jean Fleming, 15, 1806, Daughter
+Wm Fleming, 11, 1810, William - Son
+David Fleming, 9, 1812, Son
+Isabella Fleming, 4, 1817, Daughter
+Wm Fleming, 12, 1809, ???
+Robt Fleming, 27, 1794, Son
+Mary Fleming, 25, 1796, Mary Dunlop spouse of above
+Archibald Fleming, 2, 1819, Son of above
+}
+
+Census of 1850, Barlow, Ohio, USA:
+$pre{
+Barlow, Ohio
+
+JOHN FLEMING
+Home in 1850 Barlow, Washington, Ohio, USA
+Occupation: Farmer
+Industry: Agriculture
+John Fleming 82 (1768) Scotland
+Jane Fleming 78 (1772) Scotland
+John Fleming 54 (1796) Scotland
+}
+
+Find-A-Grave
+$pre{
+JOHN FLEMING
+a native of
+ARGYLE SHIRE SCOTLAND
+DIED
+FEB 5, 1854
+in his 86th 
+year of age
+}
+
+implies 1768
+}
+
 partner {
    name Jean Colville
    gender female
@@ -22,127 +90,139 @@ partner {
    death -date 01-feb-1852 -location fleming,washington,ohio,usa
    marriage -date 20-dec-1790
    parent colville-robert-1748-fleeming
-   child {
-      name James Fleming
-      gender male
-      birth -date 09-dec-1791
-      baptism -date 12-dec-1791 -location campbeltown -ref james1791-baptism
-      death -date 24-may-1851 -location barlow,washington,ohio,usa
-      partner {
-        name Margaret Breckenridge
-        gender female
-      } 
-   }
-   child {
-      name Robert Fleming
-      gender male
-      birth -date 11-aug-1793
-      baptism -date 12-aug-1793 -location campbeltown -ref robert1793-baptism
-      death -date 26-dec-1860 -location washington,ohio,usa
-      partner {
-        name Mary Dunlop
-        gender female
-        marriage -date 27-jul-1819 -location campbeltown
-    }
-   }
-   child {
-	name John Fleeming
-	gender male
-	birth -date 28-nov-1795
-	baptism -date 30-nov-1795 -location campbeltown -ref john1795-baptism
-	death -date 07-oct-1860 -location washington,ohio,usa
-   }
-   child {
-	name Margaret Fleeming
-	gender female
-	baptism -date 19-oct-1797 -location campbeltown
-	death -date 29-mar-1876 -location washington,ohio,usa
-	partner {
-		name John McKay
-		gender male
-	}
-   }
-   child {
-	name Janet Fleeming
-	gender female
-	baptism -date 14-dec-1799 -location campbeltown -ref janet1799-baptism
-	partner {
-		name George Turner
-		gender male
-		marriage -date 22-mar-1822 -location washington,ohio,usa
-	}
 
-   }
    child {
-	name Agnes Fleeming
-	gender female
-	birth -date 03-mar-1802
-	baptism -date 06-mar-1802 -location campbeltown -ref agnes1802-baptism 
-	partner {
-		name John Breckenridge
-		gender male
-		marriage -date 06-dec-1822 -location washington,ohio,usa
-	}
-   }
-   child {
-	name Mary Fleeming
-	gender female
-	baptism -date 15-feb-1804 -location campbeltown	
-	death -date 14-nov-1822 -location washington,ohio,usa
-	partner {
-		name James Harvey
-		gender male
-		marriage -date 22-dec-1825 -location washington,ohio,usa
-	}
-   }
-   child {
-	name Jean Fleeming
-        gender female
-	baptism -date 25-apr-1806 -location campbeltown
-	death -date 19-dec-1865 -location washington,ohio,usa
-	partner {
-		name Edward Breckenridge
-		gender male
-		marriage -date 02-feb-1832 -location washington,ohio,usa
-	}
-   }
-   child {
-	name William Fleeming
-	gender male
-	baptism -date 12-jul-1809 -location campbeltown
-   }
-   child {
-	name David Fergus Fleeming
+        name James Fleming
         gender male
-	birth -date 18-sep-1811
+        birth -date 09-dec-1791
+        baptism -date 12-dec-1791 -location campbeltown -ref james1791-baptism
+        death -date 24-may-1851 -location barlow,washington,ohio,usa
+        partner {
+            name Margaret Breckenridge
+            gender female
+        }  
+   }
+
+   child {
+        name Robert Fleming
+        gender male
+        birth -date 11-aug-1793
+        baptism -date 12-aug-1793 -location campbeltown -ref robert1793-baptism
+        death -date 26-dec-1860 -location washington,ohio,usa
+        partner {
+            name Mary Dunlop
+            gender female
+            marriage -date 27-jul-1819 -location campbeltown
+        }
+   }
+
+   child {
+	    name John Fleeming
+	    gender male
+	    birth -date 28-nov-1795
+	    baptism -date 30-nov-1795 -location campbeltown -ref john1795-baptism
+	    death -date 07-oct-1860 -location washington,ohio,usa
+   }
+    
+   child {
+	    name Margaret Fleeming
+	    gender female
+	    baptism -date 19-oct-1797 -location campbeltown
+	    death -date 29-mar-1876 -location washington,ohio,usa
+	    partner {
+	    	name John McKay
+		    gender male
+	    }
+   }
+
+   child {
+	    name Janet Fleeming
+	    gender female
+	    baptism -date 14-dec-1799 -location campbeltown -ref janet1799-baptism
+	    partner {
+		    name George Turner
+		    gender male
+		    marriage -date 22-mar-1822 -location washington,ohio,usa
+	    }
+   }
+
+   child {
+	    name Agnes Fleeming
+	    gender female
+	    birth -date 03-mar-1802
+	    baptism -date 06-mar-1802 -location campbeltown -ref agnes1802-baptism 
+	    partner {
+		    name John Breckenridge
+		    gender male
+		    marriage -date 06-dec-1822 -location washington,ohio,usa
+	    }
+   }
+
+   child {
+	    name Mary Fleeming
+	    gender female
+	    baptism -date 15-feb-1804 -location campbeltown	
+	    death -date 14-nov-1822 -location washington,ohio,usa
+	    partner {
+		    name James Harvey
+		    gender male
+		    marriage -date 22-dec-1825 -location washington,ohio,usa
+	    }
+   }
+
+   child {
+	    name Jean Fleeming
+        gender female
+	    baptism -date 25-apr-1806 -location campbeltown
+	    death -date 19-dec-1865 -location washington,ohio,usa
+	    partner {
+		    name Edward Breckenridge
+		    gender male
+		    marriage -date 02-feb-1832 -location washington,ohio,usa
+	    }
+   }
+
+   child {
+	    name William Fleeming
+	    gender male
+	    baptism -date 12-jul-1809 -location campbeltown
+   }
+
+   child {
+	    name David Fergus Fleeming
+        gender male
+	    birth -date 18-sep-1811
         baptism -date 24-sep-1811 -location campbeltown -ref david1811-baptism
-	death -date 23-jun-1898 -location washington,ohio,usa
-	partner {
-		name Sophia Bell
-		gender female
-		marriage -date 06-jun-1833 -location washington,ohio,usa
-	}
+	    death -date 23-jun-1898 -location washington,ohio,usa
+	    partner {
+		    name Sophia Bell
+		    gender female
+		    marriage -date 06-jun-1833 -location washington,ohio,usa
+	    }
    }
+    
    child {
-	name Isabell Fleeming
-	gender female
-	birth -date 13-feb-1814
-	baptism -date 17-feb-1814 -location campbeltown -ref isabell1814-baptism
-	death -note dy
+	    name Isabell Fleeming
+	    gender female
+	    birth -date 13-feb-1814
+	    baptism -date 17-feb-1814 -location campbeltown -ref isabell1814-baptism
+	    death -note dy
    }
+
    child {
-	name Isabell Fleeming
-	gender female
-	baptism -date 19-feb-1817 -location campbeltown -ref isabell1817-baptism
-	death -date  08-nov-1894 -location washington,ohio,usa
-	partner {
-		name Samuel Harvey
-		gender male
-		marriage -date 14-feb-1839 -location washington,ohio,usa
-	}
+	    name Isabell Fleeming
+	    gender female
+	    baptism -date 19-feb-1817 -location campbeltown -ref isabell1817-baptism
+	    death -date  08-nov-1894 -location washington,ohio,usa
+	    partner {
+		    name Samuel Harvey
+		    gender male
+		    marriage -date 14-feb-1839 -location washington,ohio,usa
+	    }
    }
 
 }
+
 footnotes {
     john1758-baptism {
         $opr-ref-link[b-1758-507-000-0011-0308 "John Fleeming"]
@@ -209,5 +289,12 @@ footnotes {
 		and Jean Colvill born 14th baptized 19th Febry 1817. Named Isabell	
 
 	}
-	}	
+	}
+
+    immigration1 {
+            Passenger List on $elink[https://www.ancestry.com/search/collections/8769/records/10431672]{Ancestry}
+    }
+    immigration2 {
+        index on $elink[https://www.familysearch.org/ark:/61903/3:1:33SQ-G5JH-9HSH?view=index&cc=1921756&lang=en&groupId=]{FamilySearch}
+    }
 }

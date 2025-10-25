@@ -42,6 +42,7 @@ partner {
     gender male
     parent harvey-james-1698-mitchell
     baptism -date oct-1735 -location campbeltown
+    death -date 08-apr-1816
     marriage -date 1-dec-1761 -location campbeltown -ref galbreath-marriage
     child harvey-james-1762-mitchell
     child {
