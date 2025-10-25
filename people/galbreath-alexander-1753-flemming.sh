@@ -27,7 +27,7 @@ body {
 partner {
     name Agnes Flemming
     gender female
-    parent fleeming-john-1713-langwill
+    parent fleeming-james-1740-wilson-langwill
     marriage -date 25-dec-1779 -location campbeltown -ref flemming-marriage
     baptism -date 5-dec-1760 -location campbeltown
     death -date apr-1829 -location 'york,pennsylvania,usa'

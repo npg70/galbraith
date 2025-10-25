@@ -46,8 +46,8 @@ Testament confirmed: 16 Jan 1773.
 $h2{Register of Testaments, CC2/3/ll Page 14}
 
 $blockquote{
-Robert Harvie late merchant in Campbeltown Testament dative given up by Amy, Isabell and Margaret Harvie, his daughters,
-and Thomas Johnston and Andrew Ralston, merchants in Campbeltown, spouses
+$child-link[harvey-robert-1728-watson]{Robert Harvie} late merchant in Campbeltown Testament dative given up by Amy, Isabell and Margaret Harvie, his daughters,
+and Thomas Johnston and $child-link[ralston-andrew-1756-harvie-orr]{Andrew Ralston}, merchants in Campbeltown, spouses
 of Amy and Isabell, executors dative qua nearest in kin.
 Died in 1780.
 Parish: Campbeltown.
@@ -68,7 +68,8 @@ Testament confirmed: 31 Mar 1791.
 $h2{Register of Testaments, CC2/3/13 Page 38}
 
 $blockquote{
-James Harvey late tenant in Park and Janet Mitchell his wife Testament dative given up by James Harvey, tenant in Peninver, son of the
+$child-link[harvey-james-1698-mitchell]{James Harvey} late tenant in Park and Janet Mitchell his wife 
+Testament dative given up by $child-link[galbreath-katharine-1741-harvey]{James Harvey}, tenant in Peninver, son of the
 defunct and executor dative qua nearest in kin.
 Parish: Campbeltown.
 Testament confinned: 19 Apr 1803.
@@ -80,8 +81,8 @@ Testament confinned: 19 Apr 1803.
 $h2{Register of Testaments, CC2/3/13 Page 100}
 
 $blockquote{
-William Harvey late keeper of the lighthouse at the Moil of Kintyre
-Testament dative given up by James Harvey his son and executor dative qua
+$child-link[harvey-william-1738-orr]{William Harvey} late keeper of the lighthouse at the Moil of Kintyre
+Testament dative given up by $child-link[harvey-james-1772-tarbert]{James Harvey} his son and executor dative qua
 nearest in kin.
 Parish: [Southend].
 Testament confirmed: 13 Mar 1805.
@@ -102,8 +103,8 @@ Testament confirmed: 23 Sep 1807.
 $h2{Register of Testaments, CC2/3/13 Page 168}
 
 $blockquote{
-Samuel Galbreath late tenant in Peninver
-Testament dative given up by Robert Galbreath, tenant in Peninver, eldest son and executor dative qua nearest in kin to the defunct
+$child-link[galbreath-samuel-1736-mcnair]{Samuel Galbreath} late tenant in Peninver
+Testament dative given up by $child-link[galbreath-robert-1778-harvey]{Robert Galbreath}, tenant in Peninver, eldest son and executor dative qua nearest in kin to the defunct
 Parish: [Campbeltown].
 Testament confirmed: 16 Feb 1808.
 }
@@ -114,9 +115,9 @@ $h2{Register of Testaments, CC2/3/14 Page 1}
 
 $blockquote{
 Archibald Harvey cooper in Campbeltown
-Testament dative given up by James Harvey, fanner in Peninver, executor dative
+Testament dative given up by James Harvey, farmer in Peninver, executor dative
 qua a-editor.
-Parish: Campbcltown.
+Parish: Campbeltown.
 Testament confirmed: 12 Sep 1812.
 }
 
@@ -140,7 +141,7 @@ Testament confinned: 12 Aug 1814.
 $h2{Register of Testaments, CC2/3/14 Page 121}
 
 $blockquote{
-Alexander Dunlop farmer in Ballevain Testament testamentar an inventory given up by Archibald Dunlop in Ballevain,
+$child-link[galbreath-margaret-1743-dunlop]{Alexander Dunlop} farmer in Ballevain Testament testamentar an inventory given up by $child-link[dunlop-archibald-1785-smith]{Archibald Dunlop} in Ballevain,
 lawful son and executor testamentar.
 Died 5 March 1816. Parish: [Kilchenzie].
 Testament confirmed: 18 Oct 1816.
@@ -148,32 +149,27 @@ Testament confirmed: 18 Oct 1816.
 
 $h2{Register of Testaments, CC2/3/14 page 128 }
 
-$h3{James Harvie sometime farmer in Peninver}
-
 $blockquote{
-Testament dative given up by James Harvey, farmer in Ballevain, executor dative
-qua nearest in kin.
+$child-link[galbreath-katharine-1741-harvey]{James Harvie} sometime farmer in Peninver.
+Testament dative given up by $child-link[harvey-james-1762-mitchell]{James Harvey}, farmer in Ballevain, executor dative
+qua nearest in kin.  Died 8 April 1816. Parish: Campbeltown.  Testament confinned: 25 Oct 1816.
 }
-
-Died 8 April 1816. Parish: Campbeltown.
-
-Testament confinned: 25 Oct 1816.
-
 (book page 205)
 
 $hr{}
 
-$h2{1785 No. 12: Disposition and Testamentary Settlement: James Fleeming farmer in Killounan}
+$h2{1785 No. 12: Disposition and Testamentary Settlement}
 
 $blockquote{
+$child-link[fleeming-james-1740-wilson-langwill]{James Fleeming} farmer in Killounan.
 Assigned the tack which he held of one half of the lands of Laigh Killounan equally to his
 spouse, Janet Langwill, and his only son, John Fleeming, his pew in the Relief Church to his
 son, and to both of them equally his other heritable subjects, his stock of cattle, sheep and
 horses and his household furniture. He debarred the rest of his children apart from the legacies
-of £10 each which he left to his daughters: Isobell, the eldest, in America, Janet, spouse of
-John McMillan, shipmaster in Campbeltown, Margaret, spouse of Andrew Ralston in
-Knockstaple, $b{Agnes, spouse of Alexander Galbraith, tailor in Campbeltown} and Mary, spouse
-of John Paterson, cooper in Campbeltown. To his youngest daughter Jean he gave £30 over
+of £10 each which he left to his daughters: Isobell, the eldest, in America, $child-link[fleeming-janet-1761-mcmillan]{Janet}, spouse of
+John McMillan, shipmaster in Campbeltown, Margaret, spouse of $child-link[ralston-andrew-1758-fleeming]{Andrew Ralston} in
+Knockstaple, Agnes, spouse of $child-link[galbreath-alexander-1753-flemming]{Alexander Galbraith}, tailor in Campbeltown and $child-link[fleeming-mary-1765-paterson]{Mary}, spouse
+of John Paterson, cooper in Campbeltown. To his youngest daughter $child-link[fleeming-jean-1778-mcmurchy]{Jean} he gave £30 over
 three years (or until she married or reached the age of 18), in addition to clothing, board and
 education. Written 22 Jan 1785.
 }

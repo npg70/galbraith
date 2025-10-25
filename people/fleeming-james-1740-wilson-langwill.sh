@@ -7,8 +7,7 @@ external {
 birth -date 'about 1726'
 death -date 02-mar-1785 -location campbeltown
 
-confused-with fleeming-john-1703-kirkland
-confused-with fleeming-john-1713-langwill
+confused-with fleeming-john-1713-kirkland-langwill
 
 body {
 $ul{
@@ -62,18 +61,34 @@ $li{John's burial on find-a-grave, gives a birth of 1768}
 $h3{Still unknown}
 
 $ul{
-$li{ Child John, Isobel and Janet have missed records, or indicate birth before 1761.
-}
+    $li{ Child John is missing records }
 }
 
 }
+
+partner {
+    name Isobell Wilson
+    gender female
+
+    marriage -date 10-feb-1754 -location campbeltown -ref wilson-marriage
+
+    child {
+        name James Fleeming
+        gender male
+        baptism -date 14-jan-1755 -location campbeltown -ref james1755-baptism
+    }
+    child {
+        name Isobell Fleeming
+        gender female
+        baptism -date 14-apr-1756 -location campbeltown -ref isobell1756-baptism
+    }
+    child fleeming-janet-1758-mcmillan
+}
+
 partner {
     name Janet Langwill
     gender female
     marriage -date 09-jun-1761 -location campbeltown -ref langwill-marriage
-
-
-    child fleeming-janet-1761-mcmillan
 
     child {
         name Agnes Fleeming
@@ -118,6 +133,24 @@ partner {
 
 }
 footnotes {
+    wilson-marriage {
+        $opr-ref-link[m-1754-507-000-0011-0456 "James Fleeming" "Isobell Wilson"]{
+            James Fleeming & Isobell Wilson | Febry 10th [1754]
+        }
+    }
+    james1755-baptism {
+        $opr-ref-link[b-1755-507-000-0011-0294 "James Fleeming"]{
+            James | James Fleeming and Isobell Wilson had a son
+            bapt 14th January named James 
+        } 
+    }
+    isobell1756-baptism {
+        $opr-ref-link[b-1756-507-000-0011-0300 "Isobell Fleeming"]{
+            Isobell | James Fleeming and Isobell Wilson had  a Daughter
+            baptized 15th April named Isobell
+        }
+        $opr-ref[b-1756-507-000-0010-0227 "Isobell Fleeming"]
+    }
     langwill-marriage {
         $opr-ref-link[m-1761-507-000-0011-0461 "John Fleming" "Janet Langville"]
         $blockquote{

@@ -269,7 +269,7 @@ $blockquote{
 }
 $p{
 "J. Fleeming" is Alexander's brother-in-law (the brother of his spouse Agnes Fleeming):
-$child-link[fleming-john-1758-colville]{John Fleeming}, son of $child-link[fleeming-john-1713-langwill]{John Fleeming} and Agnes Langwill, born 1758.   And $elink[https://www.familysearch.org/tree/person/details/M1TZ-QBN]{Jean Colvill}, the daughter of $child-link[colville-robert-1748-fleeming]{Robert Colvill} and Agnes Fleeming.  They married on 20 Dec 1790, and had 13 or 14 children before immigrating to Washington County in Ohio, USA.
+$child-link[fleming-john-1758-colville]{John Fleeming}, son of $child-link[fleeming-john-1713-kirkland-langwill]{John Fleeming} and Agnes Langwill, born 1758.   And $elink[https://www.familysearch.org/tree/person/details/M1TZ-QBN]{Jean Colvill}, the daughter of $child-link[colville-robert-1748-fleeming]{Robert Colvill} and Agnes Fleeming.  They married on 20 Dec 1790, and had 13 or 14 children before immigrating to Washington County in Ohio, USA.
 }
 
 $blockquote{

@@ -35,7 +35,7 @@ note {
 partner {
     name Margaret Fleeming
     gender female
-    parent fleeming-james-1740-langwill
+    parent fleeming-james-1740-wilson-langwill
     marriage -date 23-jan-1778 -location campbeltown -ref marriage
 
     child {

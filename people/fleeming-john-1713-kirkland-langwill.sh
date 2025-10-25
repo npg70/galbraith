@@ -11,7 +11,7 @@ note {
 	Since spouse Jean Kirkland is from Killean, I assume John is from the Killean Fleeming family
 }
 
-confused-with fleeming-john-1713-langwill
+confused-with fleeming-james-1740-wilson-langwill
 
 note {
 	Scotlands People has another record for Matthew Fleeming dated 12-Nov-1742 from the Highland 10 book.  The original document is highly damaged, but, the record for Matthew is not present, the data is probably 1740 or 1741, and not 1742.  Also the recorded baptism of 12-Nov-1742 is exactly 2 years from the other Matthew (in Vol. 11).
@@ -77,6 +77,27 @@ partner {
 	}
 }
 
+partner {
+    name Agnes Langwill
+    gender female
+    marriage -date 02-oct-1756 -location campbeltown -ref langwill-marriage
+
+    child {
+            name John Fleming
+            gender male
+            baptism -date 23-jan-1758 -location campbeltown -ref john1758-baptism
+    }
+
+
+    child {
+        name Isobell Fleeming
+        gender female
+        baptism -date 24-feb-1760 -location campbeltown -ref isobell1760-baptism
+
+    }
+
+    child fleeming-elizabeth-1763-mitchell
+}
 
 footnotes {
 	kirkland-marriage {
@@ -134,4 +155,26 @@ footnotes {
 		}
 		$opr-ref[b-01754-507-000-0010-0218 "Margaret Fleeming"]
 	}
+
+ langwill-marriage {
+        $opr-ref-link[m-1756-507-000-0011-0458 "John Fleeming" "Agnes Languil"]
+        $blockquote{
+            John Fleeming + Agnes Languill | Oct 2nd [1756]
+        }
+    }
+
+    john1758-baptism {
+        $opr-ref-link[b-1758-507-000-0011-0308 "John Fleeming"]
+        $blockquote{
+            John Flemming and Agnes Langwill had
+            a son baptized 23rd January named John
+        }
+    }
+    isobell1760-baptism {
+        $opr-ref-link[b-1760-507-000-0011-0318 "Isobell Fleeming"]
+        $blockquote{
+            Isobell | John Fleeming and Agnes Langwill had a Daught.
+            baptized 24th Febry named Isobell
+        }
+    }
 }
