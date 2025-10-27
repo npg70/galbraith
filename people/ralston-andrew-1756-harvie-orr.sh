@@ -16,7 +16,7 @@ parent {
         gender female
     }
 }
-baptism -date 30-sep-1756 -location campbeltown
+baptism -date 30-sep-1756 -location campbeltown -ref andrew1756-baptism
 death -date 08-sep-1839 -location campbeltown
 
 partner {
@@ -163,6 +163,13 @@ partner {
 }
 	
 footnotes {
+    andrew1756-baptism {
+        $opr-ref-link[b-1756-507-000-0011-0302 "Andrew Ralston"]{
+            Andrew | David Ralston + Margaret Hendrie had a son
+            baptized 30th September named Andrew
+        }
+        $opr-ref[b-1756-507-000-0010-0229 "Andrew Ralston"]
+    }
     harvie-marriage {
         $opr-ref-link[m-1779-507-000-0020-0162 "Anderw Ralston" "Isobel Harvie"]{
         Andrew Ralson and Isobel Harvie both of this parish were contracted 25th Dec 1779 & married.

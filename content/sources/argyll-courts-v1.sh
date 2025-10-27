@@ -92,7 +92,7 @@ Testament confirmed: 13 Mar 1805.
 $h2{Register of Testaments, CC2/3/13 Page 156}
 
 $blockquote{
-David Ralston late merchant In Campbeltown Testament dative given up by Andrew Ralston, merchant in Campbeltown, eldest
+David Ralston late merchant In Campbeltown Testament dative given up by $child-link[ralston-andrew-1756-harvie-orr]{Andrew Ralston}, merchant in Campbeltown, eldest
 son and executor dative qua nearest in kin to the defunct
 Parish: Campbeltown.
 Testament confirmed: 23 Sep 1807.
@@ -115,13 +115,15 @@ $h2{Register of Testaments, CC2/3/14 Page 1}
 
 $blockquote{
 Archibald Harvey cooper in Campbeltown
-Testament dative given up by James Harvey, farmer in Peninver, executor dative
+Testament dative given up by $child-link[galbreath-katharine-1741-harvey]{James Harvey}, farmer in Peninver, executor dative
 qua a-editor.
 Parish: Campbeltown.
 Testament confirmed: 12 Sep 1812.
 }
 
-(book page 200)
+(book page 200).
+
+Appears Archibald had no next of kin, and so the court appointed executor was named.
 
 $h2{Register of Testaments, CC2/3/14 Page 42}
 
