@@ -1,6 +1,6 @@
 name Katharine Galbreath
 gender female
-tags Argyll:Campbeltown Argyll:Skerbolin
+tags galbraith harvey Argyll:Campbeltown Argyll:Skerbolin
 birth -date 3-may-1741
 baptism -date 10-may-1741 -location campbeltown -ref katharine1741-baptism
 external {
@@ -9,7 +9,7 @@ external {
     ancestry tree/12079504/person/282258326809
 }
 body {
-The linkage between the Katherine who married James Harvie, and the Katherine the daughter of Archibald Galbreath and Mary White is circumstantial. However
+The linkage between the Katherine who married James Harvie, and the Katherine the daughter of Archibald Galbreath and Mary White is circumstantial. However:
 
 $ul{
 $li{ She would have to been 18-25 at marriage, given that she had children over a 23 year period}
@@ -61,7 +61,7 @@ partner {
     child {
         name Archibald Harvey
         birth -date 26-jun-1770
-        baptism -date 1-jul-1770 -location campbeltown
+        baptism -date 1-jul-1770 -location campbeltown -ref archibald1770-baptism
         death -date 22-mar-1812
     }
     child {
@@ -112,6 +112,14 @@ footnotes {
 	$opr-ref-link[b-1741-507-000-0010-0168 "Catharine Calbraith"]
     }
 
+    archibald1770-baptism {
+        $opr-ref-link[b-1770-507-000-0011-0375 "Archibald Harvie"]{
+            Archd | James Harvie + Katharine Galbreath had a son
+            born 26th June Baptized 1st July named Archibd
+        }
+        $opr-ref[b-1770-507-000-0010-0341 "Archibald Harvey"]
+
+    }
     katherine1780-baptism {
         $opr-ref-link[b-1780-507-000-0020-0049 "Katherine Harvie"]{
             Katherine | Lawful Daur to James Harvie + Katherine Galbreath

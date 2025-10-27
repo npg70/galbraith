@@ -47,7 +47,7 @@ partner {
     child {
         name Archibald Harvey
         gender male
-        baptism -date 11-apr-1730 -location campbeltown
+        baptism -date 11-apr-1730 -location campbeltown -ref archibald1730-baptism
     }
 
     child harvey-andrew-1732-fulton
@@ -67,6 +67,11 @@ footnotes {
             John | Andrew Harvie & Isobell McNair had s son baptized 
             4th July named John
         }
-    }   
+   }
+   archibald1730-baptism {
+        $opr-ref-link[b-1730-507-000-0011-0183 "Archibald Harvie"]{
+            Archibd | Andw Harvie + Isobell McNair had a son
+            baptized 11th April name Archiabld
+        }
+    }
 }
-

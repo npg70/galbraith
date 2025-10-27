@@ -31,14 +31,8 @@ partner {
 
     child harvey-andrew-1730-fulton
 
-    child {
-        name Archibald Harvey
-        baptism -date 24-jun-1733 -location campbeltown
-        partner {
-            name Mary Finlay
-            baptism -date 04-feb-1739 -location campbeltown
-        }
-    }
+    child harvey-archibald-1733-finlay
+
     child {
         name James Harvey
         gender male

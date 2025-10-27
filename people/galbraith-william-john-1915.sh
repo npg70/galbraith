@@ -2,6 +2,7 @@ name William John Galbraith
 tags Argyll:Campbeltown veteran 'no children'
 external {
     familysearch GL7X-NVF
+    wikitree Galbraith-3617
 }
 birth -date 19-mar-1915 -location campbeltown -ref william1915-birth
 death -date 11-Jul-1944 -location 'Assam, India'  -ref william1915-death

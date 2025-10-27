@@ -2,6 +2,8 @@ name James Harvey
 gender male
 tags argyll:campbeltown
 birth -date 'about 1751'
+death -date 'mar-1816' -location campbeltown
+
 external {
     familysearch GQMX-WCZ
     findagrave 167539836
@@ -10,6 +12,7 @@ partner {
     name Jean McNair
     gender female
     birth -date "about 1756"
+    death -date 'dec-1839' -location campbeltown
     marriage -date "about 1776"
 
     child {
@@ -55,7 +58,8 @@ partner {
     child {
         name Robert Harvey
         gender male
-        death -date 1767
+        birth -date 1786
+        death -date 02-jan-1767 -location campbeltown -ref robert1786-death
         partner {
             name Jane MacFarlane
             gender female
@@ -67,7 +71,7 @@ partner {
             marriage -date 1830
         }
         body {
-            He was a doctor.
+            He was a doctor/surgeon.
         }
     }
     child {
@@ -92,6 +96,7 @@ partner {
         name Jean Harvey
         gender female
         baptism -date 22-nov-1795 -location campbeltown
+        death -date 18-mar-1877 -location kelvin,glasgow -ref jean1795-death
     }
     child {
         name Thomas Harvey
@@ -100,8 +105,21 @@ partner {
         baptism -date 18-jun-1798 -location campbeltown
     }
 }
+note {
+        In Census of 1792, on 3 Main Street.
+}
+
 body {
     He was a shoe maker.
+
+
+From Kilkerran:
+
+$blockquote{
+1021.1	In memory of JAMES HARVEY, Campbeltown, who died March 1816 aged 65 years and JEAN McNAIR his wife who died December 1839 aged 63 years also their daughter JEAN HARVEY who died 18 March 1877 aged 81 years.
+}
+
+His daughter Jean's death record claims he was a "general merchant."
 }
 footnotes {
     jean1788-baptism {
@@ -109,5 +127,11 @@ footnotes {
             Jean | Lawful dau. to James Harvie Shoemaker in Town
             + Jean Mac Nair was born 16th + bapt 19th March [1788]
         }
+    }
+    robert1786-death {
+        $sp-ref-link[d-1867-507-00-0003 0001 "Robert Harvey"], lists father as a shoemaker.
+    }   
+    jean1795-death {
+        $sp-ref-link[d-1877-644-09-0259 0087 "Jean Harvey"]
     }
 }
