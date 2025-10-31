@@ -60,14 +60,8 @@ partner {
             name Edward Steward
         }
     }
-    child {
-        name Peter Langwill
-        gender male
-        baptism -date 1-nov-1738
-        partner {
-            name Agnes McMillan
-        }
-    }
+    child langwill-peter-1738-mcmillan
+
 }
 footnotes {
     janet1698-baptism {
