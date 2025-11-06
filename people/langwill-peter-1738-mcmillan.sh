@@ -47,7 +47,7 @@ partner {
             See references.
         }
     }
-    child langwill-archibald-1772-watson
+    child langwill-archibald-1772-mcfarlane-watson
 
     child langwill-martha-1775-gilkinson
 
