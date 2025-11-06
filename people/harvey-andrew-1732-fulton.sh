@@ -4,6 +4,7 @@ tags argyll:campbeltown
 external {
     familysearch G3Q3-W6M
 }
+confused-with harvey-andrew-1730-fulton
 birth -date 02-aug-1732
 baptism -date 6-aug-1732 -location campbeltown -ref andrew1732-baptism
 partner {

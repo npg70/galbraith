@@ -6,6 +6,7 @@ external {
     ancestry tree/12079504/person/282642876192
 }
 baptism -date 15-nov-1730 -location campbeltown
+confused-with harvey-andrew-1732-fulton
 
 note {
     Not in the 1792 Census.
