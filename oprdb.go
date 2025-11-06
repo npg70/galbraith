@@ -64,6 +64,7 @@ func ParishName(id1, id2 string) string {
 		"484":    "Kippen",
 		"488":    "St Ninians",
 		"493":    "Bonhill and Renton, Dunbarton",
+		"494":    "Cardoss, Dunbarton",
 		"496":    "Dunbarton",
 		"497":    "Kilmaronock",
 		"500":    "New or East Kilpatrick, Dunbarton",

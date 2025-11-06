@@ -14,7 +14,7 @@ partner {
 	gender female
 	birth -date 1778
 	death -date 08-dec-1815
-	marriage -date 07-sep-1805 -location cardoss -ref mcfarlane-marriage
+	marriage -date 07-sep-1805 -location cardoss,dunbarton -ref mcfarlane-marriage
 }
 partner {
     name Rosina Watson
@@ -30,7 +30,7 @@ partner {
 }
 
 body {
-    Customs officier of Greenock.
+    Customs officer at Greenock.
 
     At least nine children.
 }
