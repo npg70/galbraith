@@ -21,12 +21,7 @@ partner {
         gender female
         baptism -date 12-feb-1755 -location campbeltown -ref janet1755-baptism
         death -date 1831
-        partner {
-            name Archibald McNair
-            birth -date 26-aug-1748 -location campbeltown
-            death -date 1824
-            marriage -date 25-dec-1774 -location campbeltown
-        }
+        partner mcnair-archibald-1748-harvey
     }
     child {
         name Agnes Harvie

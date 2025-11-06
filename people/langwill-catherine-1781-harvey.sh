@@ -22,7 +22,7 @@ partner {
     birth -date 1781
     death -date apr-1820 -location glasgow
     marriage -date 18-jun-1805 -location campbeltown -ref marriage
-
+    parent harvey-james-1751-mcnair
     body {
         He was a cooper.
     }
@@ -32,7 +32,7 @@ partner {
          gender female
          birth -date 24-mar-1808
          baptism -date 27-mar-1808 -location campbeltown
-         death -date 07-apr-1890 -location campbeltown
+         death -date 07-apr-1890 -location campbeltown -ref jean1808-death
      }
     child {
         name Robert Harvie
@@ -46,21 +46,9 @@ partner {
         birth -date 13-dec-1811
         baptism -date 18-dec-1811 -location campbeltown
     }
-    child {
-        name Ann Harvey
-        gender female
-        birth -date 19-sep-1813
-        baptism -date 22-sep-1813 -location campbeltown
-        external {
-            familysearch M1YM-PR2
-        }
-        partner {
-            name Alexander McEwing
-            gender male
-            birth -date 1804
-            marriage -date 09-apr-1840 -location campbeltown -ref mcewing-marriage
-        }
-    }
+
+    child harvey-ann-1813-mcewing
+
     child {
         name Catharine Harvey
         gender female
@@ -97,11 +85,15 @@ footnotes {
             Both of ths Parish, Contracted 11 June & Married 18 June 1805
         }
     }
-    mcewing-marriage {
-        $opr-ref-link[m-1840-507-000-0060-0363 "Ann Harvey" "Alexander McEwing"]{
-            Alexander McEwing [occupation illegible] and Ann Harvey
-            Daughter of the late James Harvey
-            Cooper Both of this Parish were married ninth April 140
-        }
+    jean1808-death {
+	$sp-ref-link[d-1890-507-00-0054 0018 "Jean Harvey"]{
+		Name: Jean Harvey (single);
+		Date: 1890 April Seventh;
+		Where: Longrow street, Campbeltown
+		Age: 82;
+		Father: James Harvey, Cooper;
+		Mother: Catherine Langwill;
+		Present: [illegible] McEwing, Newphew;
+	}
     }
 }

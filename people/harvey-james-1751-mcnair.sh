@@ -48,17 +48,19 @@ partner {
         gender male
         birth -date 15-feb-1781
         baptism -date 18-feb-1781 -location campbeltown
+	partner langwill-catherine-1781-harvey
     }
     child {
         name Sarah Harvey
         gender female
         birth -date 23-may-1783
-        baptism -date 25-may-1783 -location campbeltown
+        baptism -date 25-may-1783 -location campbeltown -ref sarah1783-baptism
     }
     child {
         name Robert Harvey
         gender male
-        birth -date 1786
+        birth -date 26-jul-1786
+	baptism -date 27-jul-1786 -location campbeltown -ref robert1786-baptism
         death -date 02-jan-1767 -location campbeltown -ref robert1786-death
         partner {
             name Jane MacFarlane
@@ -127,6 +129,18 @@ footnotes {
             Jean | Lawful dau. to James Harvie Shoemaker in Town
             + Jean Mac Nair was born 16th + bapt 19th March [1788]
         }
+    }
+    robert1786-baptism {
+	$opr-ref-link[b-1786-507-000-0020-0084 "Robert Harvie"]{
+		Robert | Lawful son to James Harvie Shoemkr in Campbeltn
+		& Jean McNair was born 26th & Bapt 27th July
+	}
+    }
+    sarah1783-baptism {
+	$opr-ref-link[b-1783-507-000-0020-0066 "Sarah Harvie"]{
+		Sarah | Lawful dau to James Harvey Shoemaker in Campbeltown
+		& Jean McNair born 23rd & Bapt 25th May
+	}
     }
     robert1786-death {
         $sp-ref-link[d-1867-507-00-0003 0001 "Robert Harvey"], lists father as a shoemaker.

@@ -6,6 +6,11 @@ external {
 }
 birth -date 26-feb-1785
 baptism -date 27-feb-1785 -location campbeltown -ref peter1785-baptism
+
+body {
+He was a baker.
+}
+
 partner {
     name Janet Watson
     gender female
@@ -18,12 +23,12 @@ partner {
         }
     }
     baptism -date 07-mar-1787 -location campbeltown
-    marriage -date 23-jan-1810 -location campbeltown
+    marriage -date 23-jan-1810 -location campbeltown -ref watson-marriage
     child {
         name Andrew Harvey
         gender male
         birth -date 03-dec-1810
-        baptism -date 05-dec-1810 -location campbeltown
+        baptism -date 05-dec-1810 -location campbeltown -ref andrew1810-baptism
     }
     child {
         name William Harvey
@@ -71,6 +76,20 @@ footnotes {
             Peter Lawful Son to Andrew Harvey Mercht in Campbeltown &
             Margt Orr was born 26th & Bapt 27 Feb [1785]
         }
+    }
+
+    watson-marriage {
+	$opr-ref-link[m-1810-507-000-0050-0089 "Peter Harvie" "Jean Watons"]{
+		Peter Harvie Baker Campbeltown and Jean Watson Daughter
+		to William Watson Sen March Campbeltown both of this Parish 
+		were married 25th Jan 1810
+	}
+    }
+    andrew1810-baptism {
+	$opr-ref-link[b-1810-507-000-0040-0362 "Andrew Harvey"]{
+		Andrew | lawful son to Peter Harvey baker in Campbeltown and
+		Jean Watson born & baptized 5th Dec 1810 named Andrew
+	}
     }
 }
 

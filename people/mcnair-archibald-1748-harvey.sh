@@ -33,17 +33,8 @@ partner {
 			marriage -date 26-nov-1804 -location campbeltown
 		}
 	}
-	child {
-		name Nathaniel McNair
-		gender male
-		baptism -date 13-jan-1780 -location campbeltown
-		death -date 1841 -location campbeltown
-		partner {
-			name Ann Dunlop
-			gender female
-			marriage -date 23-jan-1803 -location campbeltown
-		}
-	}
+	child mcnair-nathaniel-1780-dunlop
+
 	child {
 		name Sarah McNair
 		gender female

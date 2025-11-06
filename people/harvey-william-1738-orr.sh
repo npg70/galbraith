@@ -1,6 +1,6 @@
 name William Harvey
 gender male
-tags Argyll:campbeltown
+tags Argyll:campbeltown harvey
 baptism -date may-1738 -location campbeltown -ref william1738-baptism
 death -date 23-jun-1828 -location campbeltown
 
@@ -36,13 +36,11 @@ partner {
    }
    child harvey-william-1769-alexander
 
-   child {
-    name James Harvey
-    gender male
-    baptism -date 29-dec-1771 -location campbeltown -ref james1771-baptism
-    }
-
-    child harvey-james-1772-tarbert
+   	child {
+    		name James Harvey
+    		gender male
+    		baptism -date 29-dec-1771 -location campbeltown -ref james1771-baptism
+    	}
 
     child {
         name Agnes Harvie
@@ -74,21 +72,16 @@ partner {
     child {
         name John Harvey
         gender male
+	birth -date 17-feb-1778
         baptism -date 19-feb-1778 -location campbeltown -ref john1778-baptism
     }
-    child {
-        name Agnes Harvey
-        gender female
-        baptism -date 12-jul-1780 -location campbeltown -ref agnes1780-baptism
-        death -date 1873
-        partner {
-            name tbd Ferguson
-            gender male
-        }
-    }
+
+    child harvey-agnes-1780-ferguson
+
     child {
         name Isabell Harvey
         gender female
+	birth -date 05-apr-1788
         baptism -date 06-apr-1788 -location campbeltown -ref isabell1788-baptism
     }
     child {
@@ -116,15 +109,21 @@ footnotes {
         $opr-ref-link[b-1776-507-000-0020-0027 "Matthew Harvey"]
     }
     john1778-baptism {
-        $opr-ref-link[b-1778-507-000-0020-0038 "John Harvie"]
-    }
-    agnes1780-baptism {
-        $opr-ref-link[b-1780-507-000-0020-0049 "Agnes Harvie"]
+        $opr-ref-link[b-1778-507-000-0020-0038 "John Harvie"]{
+		John | Lawful son William Harvie and Agnes Orr
+		born 17th was bapt 19th Feb 1778
+	}
     }
     isabell1788-baptism {
-        $opr-ref-link[b-1788-507-000-0020-0103 "Isabell Harvie"]
+        $opr-ref-link[b-1788-507-000-0020-0103 "Isabell Harvie"]{
+		Isabell | Lawful dau to Wm Harvie Shipm- in Town &
+		Agnes Orr was born 5th & Bapt 6th April [1788]
+	}
     }
     andrew1791-baptism {
-        $opr-ref-link[b-1791-507-000-0020-0134 "Andrew Harvie"]
+        $opr-ref-link[b-1791-507-000-0020-0134 "Andrew Harvie"]{
+		Andrew | lawfl Son to Wm Harvie Jnr in Town & Agnes Orr
+		was born 29th June 1791
+	}
     }
 }

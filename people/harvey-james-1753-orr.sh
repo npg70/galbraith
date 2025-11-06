@@ -12,6 +12,10 @@ todo error {
 note {
     Appears to be end of line with no known grand-children.
 }
+body {
+	He was a shipmaster.
+}
+
 partner {
    name Mary Orr
    gender female
@@ -52,7 +56,7 @@ partner {
 }
 footnotes {
     archibald1779-baptism {
-        $opr-ref[b-1779-507-000-0020-0042 "Archibald Harvey"]{
+        $opr-ref-link[b-1779-507-000-0020-0042 "Archibald Harvey"]{
         Archibald | Lawful son to James Harvey & Mary Orr born 4th was bapt 5th April 1779
         }
     }
@@ -69,7 +73,10 @@ footnotes {
         }
     }
     edward1784-baptism {
-        $opr-ref-link[b-1784-507-000-0020-0072 "Edward Harvie"]
+        $opr-ref-link[b-1784-507-000-0020-0072 "Edward Harvie"]{
+		Edward | Lawful son to James Harvie Shipmstr $i{(shipmaster)} & Mary Orr was
+		born 16th & Bapt the same day
+	}
     }
     isabell1784-baptism {
         TBD: Martha Orr
@@ -78,7 +85,10 @@ footnotes {
         }
     }
     john1786-baptism {
-        $opr-ref-link[b-1786-507-000-0020-0093 "John Harvie"]
+        $opr-ref-link[b-1786-507-000-0020-0093 "John Harvie"]{
+		John | Lawful son to James Harvie Shipmstr $i{(shipmaster)} & Mary Orr was
+		born 3rd & Bapt 6th Nov
+	}
     }
     andrew1797-baptism {
         $opr-ref-link[b-1797-507-000-0040-0151 "Andrew Harvey"]{

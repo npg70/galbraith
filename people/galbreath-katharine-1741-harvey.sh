@@ -62,7 +62,10 @@ partner {
         name Archibald Harvey
         birth -date 26-jun-1770
         baptism -date 1-jul-1770 -location campbeltown -ref archibald1770-baptism
-        death -date 22-mar-1812
+        death -date 22-mar-1812 -ref archibald1770-death
+	body {
+		He was a cooper.  Unmarried.
+	}
     }
     child {
         name John Harvie
@@ -118,6 +121,13 @@ footnotes {
             born 26th June Baptized 1st July named Archibd
         }
         $opr-ref[b-1770-507-000-0010-0341 "Archibald Harvey"]
+
+    }
+    archibald1770-death {
+	Two sources: Bible records (see familysearch for father), and due to "Register of Testaments, CC2/3/14 Page 1" ($source-link[argyll-courts-v1]{Argyll Courts V1}:
+	$blockquote{
+Archibald Harvey cooper in Campbeltown Testament dative given up by James Harvey, farmer in Peninver, executor dative qua a-editor. Parish: Campbeltown. Testament confirmed: 12 Sep 1812.
+}
 
     }
     katherine1780-baptism {

@@ -1,7 +1,9 @@
 name William Harvey
 gender male
+tags argyll:campbeltown harvey
+
 external {
-    familysearch GCN6-RK1
+    familysearch KCX9-V6S
 }
 confused-with harvey-william-1738-orr
 
@@ -33,36 +35,31 @@ partner {
         name Edward Harvie
         gender male
         birth -date 28-sep-1772
-        baptism -date 29-sep-1772 -location campbeltown
+        baptism -date 29-sep-1772 -location campbeltown -ref edward1772-baptism
         death -note dy
     }
-    child {
-        name James Harvey
-        gender male
-        birth -date 28-sep-1772
-        baptism -date 29-sep-1772 -location campbeltown
-    }
+
+    child harvey-james-1772-tarbert
+
     child {
         name Edward Harvie
         gender male
-        baptism -date 14-feb-1777 -location campbeltown
+	birth -date 12-feb-1777
+        baptism -date 14-feb-1777 -location campbeltown -ref edward1777-baptism
 
-    }
-    child {
-        name John Harvie
-        gender male
-        baptism -date 19-feb-1778 -location campbeltown
     }
     child {
         name Isobel Harvie
         gender female 
-        baptism -date 19-sep-1779 -location campbeltown
+        baptism -date 19-sep-1779 -location campbeltown -ref isobel1779-baptism
     }
+
+    child harvey-ann-1781-greenlees
+
     child {
-        name Ann Harvie
-        gender female
-        birth -date 15-oct-1781
-        baptism -date 17-oct-1781 -location campbeltown -ref ann1781-baptism
+	name John Harvey
+	gender male
+	baptism -date 29-dec-1783 -location campbeltown -ref john1783-baptism
     }
     child {
         name William Harvey
@@ -95,15 +92,40 @@ footnotes {
         $opr-ref-link[m-1771-507-000-0011-0473 "William Harvey" "Isabel Orr"]
         $opr-ref-link[m-1771-507-000-0010-0343 "William Harvey" "Isabell Orr"]
     }
-    ann1781-baptism {
-        $opr-ref-link[b-1781-507-000-0020-0055 "Ann Harvie"]{
-            Ann  Lawful Daughter to William Harvie & Isobell Orr,
-            was born 15th & bapt 17th Oct 1781
+    edward1772-baptism {
+	$opr-ref-link[b-1772-507-000-0011-0385 "Edward Harvie"]{
+		Edward | William Harvie and Isabel Orr had a son born 28th
+		& Bapt 29th Sept named Edward
         }
+    }
+    james1772-baptism {
+	"James" is clear, "Edward" is faint above it.
+	$opr-ref-link[b-1772-507-000-0020-0004 "James Harvey"]{
+		(Edward) James | Son to William Harvey and Isobel Orr
+		Born Sep 28th bapt 29th
+	}
+    }
+    edward1777-baptism {
+	$opr-ref-link[b-1777-507-000-0020-0030 "Edward Harvey"]{
+		Edward | Lawful Son to William Harvey and Isabel Orr Born
+		12th February Baptized 14th
+	}
+    }
+    isobel1779-baptism {
+	$opr-ref-link[b-1779-507-000-0020-0045 "Isobel Harvie"]{
+		Isobel | Lawful Dau to Wm Harvie Junr & Isobel Orr
+		born 17th was bapt 19th Septr 1779
+	}
+    }
+    john1783-baptism {
+	$opr-ref-link[b-1783-507-000-0020-0071 "John Harvie"]{
+		John | Lawful son to Wiliam Harvie Merct in Campbelton &
+		Isabella Orr was born 27th & Bapt 29th Decr
+	}
     }
     william1786-baptism {
         $opr-ref-link[b-1786-507-000-0020-0088 "William Harvey"]{
-            
+        	    
         }
     }
     william1788-baptism {
