@@ -82,7 +82,7 @@ partner {
             baptism -date 23-sep-1775 -location campbeltown
             death -date 19-oct-1857 -location campbeltown -ref agnes1775-death
             partner {
-                    name _____ McPhail
+                    name Alexander McPhail
                     gender male
              }
      }
