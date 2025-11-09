@@ -123,7 +123,7 @@ Testament confirmed: 12 Sep 1812.
 
 (book page 200).
 
-Appears Archibald had no next of kin, and so the court appointed executor was named.
+Archibald the cooper was the son of James Harvey.  He apparently was unmarried since the court appointed an executor.
 
 $h2{Register of Testaments, CC2/3/14 Page 42}
 
