@@ -15,7 +15,8 @@ external {
     ancestry tree/12079504/person/282245440366
 }
 body {
-
+He was a farmer in Ballevain.
+ 
 $csvtable{
 Child,Immigration,Final
 James, 1817, OH

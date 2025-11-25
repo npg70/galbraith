@@ -1,7 +1,7 @@
 name Jean McNair
 gender female
 tags argyll:campbeltown
-baptism -date 25-feb-1758 -location campbeltown
+baptism -date 25-feb-1758 -location campbeltown -ref jean1758-baptism
 death -date 07-jul-1831
 external {
     familysearch 9M96-7PS
@@ -132,6 +132,10 @@ partner {
     }
 }
 footnotes {
+	jean1758-baptism {
+		$opr-ref-link[b-1758-507-000-0011-0308 "Jean McNair"]
+		$opr-ref[b-1758-507-000-0010-0236 "Jean McNair"]
+	}
     janet1779-baptism {
         $opr-ref[b-1779-507-000-0020-0044 "Janet Smith"]
     }

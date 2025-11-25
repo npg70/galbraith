@@ -1,6 +1,6 @@
 name Ann Langwill
 gender female
-tags Agyll:Campbeltown Langwill
+tags Argyll:Campbeltown Langwill
 external {
     familysearch 9M9Z-14V
 }

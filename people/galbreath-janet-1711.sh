@@ -5,7 +5,7 @@ baptism -date 14-Oct-1711 -location Campbeltown -ref janet1711-baptism
 body {
 $ul{
 $li{
-Maybe married $child-link[mcnair-robert-1718-galbraith]{Robert McNair}
+Maybe married $child-link[mcnair-robert-1718-galbraith-breckenridge]{Robert McNair}
 }
 $li{
 Maybe $child-link[galbreath-janet-1711-campbell]{Janet Galbreath} who married Robert Campbell.

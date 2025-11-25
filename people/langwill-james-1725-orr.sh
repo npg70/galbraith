@@ -18,14 +18,7 @@ external {
 partner {
     name Janet Orr
     gender female
-    parent {
-        name John Orr
-        gender male
-        partner {
-            name Agnes Paterson
-            gender female
-        }
-    }
+    parent orr-john-1688-paterson
     baptism -date 11-nov-1728 -location campbeltown
     marriage -date 20-oct-1746 -location campbeltown
 

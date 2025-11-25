@@ -24,7 +24,7 @@ partner {
     death -date 1930
 }
 note {
-    Archibald and Ann are second-cousins, i.e. they are both  grand-children of $child-link[mcnair-robert-1718-galbraith]{Robert McNair}, b. 1718, m. Janet Galbraith.
+    Archibald and Ann are second-cousins, i.e. they are both  grand-children of $child-link[mcnair-robert-1718-galbraith-breckenridge]{Robert McNair}, b. 1718, m. Janet Galbraith.
 }
 body {
     No evidence of children.

@@ -14,7 +14,9 @@ note {
 baptism -date 29-may-1698 -location campbeltown -ref james1698-baptism
 
 body {
-    A Testament was recorded in 1803, which appears to be resolving old debts.  Unfortunately, the actually date of death is blank.
+	He was a "tenant in Park."
+
+    A Testament was recorded in 1802, which appears to be resolving old debts.  Unfortunately, the actually date of death is blank.
 }
 
 partner {
@@ -38,6 +40,9 @@ partner {
         gender male
         baptism -date oct-1735 -location campbeltown -ref james1735-baptism
         partner galbreath-katharine-1741-harvey
+	body {
+		tenant in Penniver.
+	}
     }
 
     child harvey-william-1738-orr

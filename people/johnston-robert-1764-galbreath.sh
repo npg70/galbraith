@@ -1,13 +1,23 @@
-name Rachel Galbreath
-gender female
+name Robert Johnson
+gender male
 tags Argyll:Campbeltown
-baptism -date 29-aug-1765 -location campbeltown -ref rachel1765-baptism
-death -date 7-May-1850
+birth -date 19-jan-1764
+baptism -date 20-jan-1764 -location campbeltown
+death -date nov-1799 -location campbeltown
 burial -name 'Kilchousland Cemetery'
-partner {
-    name Robert Johnson
-    marriage -date oct-1788 -location campbeltown -ref marriage
 
+external {
+    familysearch KDSG-NX7
+    findagrave 114485217
+}
+
+partner {
+	name Rachel Galbreath
+	gender female
+	baptism -date 29-aug-1765 -location campbeltown -ref rachel1765-baptism
+	death -date 7-May-1850
+    	marriage -date oct-1788 -location campbeltown -ref marriage
+	parent galbreath-william-1742-dunlop
     child {
         name Alexander Johnson
         baptism -date 2-aug-1789
@@ -38,16 +48,7 @@ partner {
     }
 }
 
-external {
-    familysearch KDSG-NX7
-    findagrave 114485217
-}
-
 footnotes {
-    rachel1765-baptism {
-        $opr-ref-link[b-1765-507-000-0011-0347 "Rachel Galbreath"]
-        $opr-ref-link[b-1765-507-000-0010-0295 "Rachel Galbraith"]
-    }
     marriage {
         $opr-ref-link[m-1788-507-000-0020-0171 "Rachel Galbreath" "Robert Johnston"]
     }

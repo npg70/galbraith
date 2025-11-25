@@ -58,11 +58,9 @@ partner {
         baptism -date 12-dec-1756  -location campbeltown -ref mary1756-baptism
         partner harvey-james-1753-orr
     }
-    child {
-        name Peter Orr
-        gender male
-        baptism -date 07-apr-1759 -location campbeltown -ref peter1759-baptism
-    }
+
+	child orr-peter-1759-mcmurchy
+
     child {
         name Martha Orr
         gender female
@@ -110,10 +108,6 @@ footnotes {
     mary1756-baptism {
         $opr-ref-link[b-1756-507-000-0011-0303 "Mary Orr"]
         $opr-ref[b-1756-507-000-0010-0231 "Mary Orr"]
-    }
-    peter1759-baptism {
-        $opr-ref[b-1759-507-000-0011-0314 "Peter Orr"]
-        $opr-ref[b-1759-507-000-0010-0243 "Peter Orr"]
     }
     martha1761-baptism {
         Mother indexed as "Isobel Langville"

@@ -29,7 +29,7 @@ Of particular note is the presence of Janet Galbreath, b. 1785. The baptism reco
 partner {
     name Janet McNair
     gender female
-    parent mcnair-robert-1718-galbraith
+    parent mcnair-robert-1718-galbraith-breckenridge
     baptism -date 12-oct-1755 -location campbeltown
     marriage -date "about 1776" -ref marriage
     death -date 07-jul-1831

@@ -1,6 +1,6 @@
 name David Galbreath
 gender male
-tags Argyll:Campbeltown
+tags Argyll:Campbeltown langwill
 baptism -date 2-oct-1718 -location campbeltown -ref david1718-baptism
 
 external {

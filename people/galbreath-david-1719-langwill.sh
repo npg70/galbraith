@@ -5,6 +5,8 @@ external {
     familysearch G3PJ-Q7V
 }
 baptism -date 28-apr-1719 -location campbeltown -ref david1719-baptism
+death -date 'about 1756'
+
 note {
     There are two people named David Galbreath, who both married a Langwill on the same day,
     and both had their first child in 1743.  This David married $i{Jean} Langwill
@@ -20,18 +22,17 @@ note {
 note {
     No information on children beyond baptism. 
 }
+
 note {
     Jean's death may have been in 1793 (unsourced).
 }
 partner {
     name Jean Langwill
     gender female
-    parent {
-        name John Langwill
-        partner {
-            name Agnas Millan
-        }
-    }
+    parent langwill-john-1693-millan
+
+    body { After David died, Jean remarried to Robert Hunter in 1756.}
+
     baptism -date 10-sep-1720 -location campbeltown
     marriage -date 20-mar-1742 -location campbeltown -ref marriage
     child {

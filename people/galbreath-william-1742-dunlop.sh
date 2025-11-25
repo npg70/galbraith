@@ -73,12 +73,24 @@ partner {
     death -date 26-sep-1773 -location campbeltown
 
     child galbreath-archibald-1760-langwill-corbet
-    child galbreath-margaret-1762-johnson
+    child {
+	name Margaret Galbreath
+	gender female
+	birth -date 5-dec-1762
+	baptism -date 9-dec-1762 -location campbeltown -ref margaret1762-baptism
+	partner johnston-william-1761-galbreath
+    }
     child {
         name Mary Galbreath
         baptism -date 23-aug-1764 -location campbeltown -ref mary1764-baptism
     }
-    child galbreath-rachel-1765-johnson
+	child {
+		name Rachel Galbreath
+		gender female
+		baptism -date 29-aug-1765 -location campbeltown -ref rachel1765-baptism
+		partner johnston-robert-1764-galbreath
+	}
+
     child {
         name William Galbreath
         baptism -date 16-nov-1766 -location campbeltown -ref william1766-baptism
@@ -119,9 +131,18 @@ footnotes {
         }
     }
 
+    margaret1762-baptism {
+        $opr-ref-link[b-1762-507-000-0011-0333 "Margaret Galbreath"]
+        $opr-ref-link[b-1762-507-000-0010-0273 "Margrat Galbreath"]
+        Parents indexed as "Wileam Galbreath" and "Margrat Dunlop"
+    }
     mary1764-baptism {
         $opr-ref-link[b-1764-507-000-0011-0341 "Mary Galbreath"]
         $opr-ref[b-1764-507-000-0010-0286 "Mary Galbraith"]
+    }
+    rachel1765-baptism {
+        $opr-ref-link[b-1765-507-000-0011-0347 "Rachel Galbreath"]
+        $opr-ref-link[b-1765-507-000-0010-0295 "Rachel Galbraith"]
     }
     william1766-baptism {
         $opr-ref-link[b-1766-507-000-0011-0354 "William Galbreath"]
