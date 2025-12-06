@@ -20,7 +20,7 @@ note {
 partner {
    name Janet Smith
    gender female
-   marriage -date 09-jun-1814 -location campbeltown
+   marriage -date 09-jun-1814 -location campbeltown -ref smith-marriage
    parent mcnair-jean-1758-smith
    birth -date 09-jan-1795 
    baptism -date 10-jan-1795 -location campbeltown
@@ -106,6 +106,12 @@ partner {
 footnotes {
     robert1785-baptism {
         $opr-ref-link[b-1785-507-000-0020-0083 "Robert McNair"]
+    }
+    smith-marriage {
+	$opr-ref-link[m-1814-507-000-0050-0107 "Robert McNair" "Janet Smith"]{
+		Robert McNair farmer Chisken and Janet Smith daughter to Robert Smith
+		Farmer Moy both of this Parish married 9th June 1814
+	}
     }
     archibald1816-baptism {
         $opr-ref[b-1816-507-000-0040-0439 "Archibald MacNair"]

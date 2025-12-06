@@ -2,6 +2,7 @@ name Andrew Breckenridge
 gender male
 external {
 	familysearch LZLW-BK3
+	wikitree Brackenridge-2
 }
 birth -date 'about 1705'
 death -date 05-mar-1786
@@ -52,12 +53,8 @@ partner {
 		baptism -date 17-jun-1739 -location campbeltown -ref andrew1739-baptism
 		death -note dy
 	}
-	child {
-		name Sarah Breckenridge
-		gender female
-		baptism -date 29-mar-1741 -location campbeltown -ref sarah1741-baptism
-		partner mcnair-robert-1718-galbraith-breckenridge
-	}
+	child breckenridge-sarah-1741-mcnair-mcmillan 
+		
 	child {
 		name Jean Breckenridge
 		gender female
@@ -112,10 +109,6 @@ footnotes {
 	andrew1739-baptism {
 		$opr-ref[b-1739-507-000-0011-0228 "Andrew Braikanridge"]
 		$opr-ref[b-1739-507-000-0010-0163 "Andrew Breckinrig"]
-	}
-	sarah1741-baptism {
-		$opr-ref-link[b-1741-507-000-0011-0235 "Sarah Braikanridge"]
-		$opr-ref-link[b-1741-507-000-0010-0168 "Sarah Breckinrig"]
 	}
 	jean1743-baptism {
 		Undated baptism, but between others dated January and February in 1743

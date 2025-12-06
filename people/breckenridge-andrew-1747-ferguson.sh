@@ -3,6 +3,7 @@ gender male
 tags argyll:Campbeltown
 external {
 	familysearch KZJH-VBH
+	wikitree Brackenridge-281
 }
 note {
 	SKK page 246 "4. Andrew Breckenridge"

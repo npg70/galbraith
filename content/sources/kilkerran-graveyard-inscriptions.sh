@@ -2,6 +2,56 @@ title: Kilkerran Graveyard Inscription
 
 
 $section{
+$h2{49.	Railed enclosure.  }
+$h3{49.1	Inscribed stone}
+$blockquote{
+Here lys KATE (?) spouse to Major HECTOR McNEIL of Ardnacross and MARY, spouse to ARCHIEBALD FARQUHARSON Esquire, late of Finzean both daughters of the late DUNCAN CAMPBELL Esquire of Sunderland, Islay.
+}
+$p{
+FamilySearch: $elink[https://www.familysearch.org/en/tree/person/details/9S1W-SB4]{Mary Campbell} married $elink[https://www.familysearch.org/en/tree/person/details/9S1W-34Z]{Archibald Farquharson} "around 1770"
+}
+
+$p{
+Unclear who Hector and Kate Campbell are.
+}
+
+$h3{49.2	Cross}
+$blockquote{In affectionate remembrance of the Reverend HECTOR McNEILL, Free Church Minister at Campbeltown, born at Elister, Islay 28 Dec 1807 died at Edinburgh 3 Aug 1879 in the 72nd year of his age and 43rd of his ministry. 
+ “And ye are complete in him”
+Also of GEORGE McNEILL of Ardnacross.
+}
+
+$p{
+This inscription is incomplete. See full text at $elink[https://www.findagrave.com/memorial/167274296/george-mcneill]{FindAGrave}.
+}
+
+$p{
+On FamilySearch: $elink[https://www.familysearch.org/en/tree/person/details/MYD3-Q7B]{Rev. Hector}, with $elink[https://www.familysearch.org/en/tree/person/details/KZ1S-YVZ]{George} being his eldest son.   Hector's brother is below.
+}
+
+$h3{49.3	Iron tablet set in wall}
+$blockquote{
+Memorice DANIELI FARQUHARSON patris … FRANCISCI … DC … Finzean … D Septembris MDCCLI Aelcius age annum LXVI mortem obyt etiam ig AGNETIAE FLEMING uxori XI KAL Novembris MDCCLIV aelatus XXVI obcumlis FRANCISCUS FARQUHARSON de Clachaig ut …
+}
+
+Translation:
+$blockquote{
+To the memory of Daniel Farquharson, father of Francis … of Finzean, who died in September 1751, aged 66. Also of Agnes Fleming, his wife, who died on 22 October 1754, aged 26. This monument was set up by Francis Farquharson of Clachaig …
+}
+
+$child-link[farquharson-francis-1716-unknown-fleeming-frazer]{Francis Farquharson}, son of $child-link[farquharson-daniel-1684-souper]{Daniel / Donald }
+
+
+$h3{49.4	Obelisk}
+$blockquote{
+To the memory of CATHERINE MATILDA CAMPBELL wife of JOHN McNEILL Esq., Yr. of Ardnacross who died 29 June 1847 aged 32.
+}
+
+On FamilySearch: $elink[https://www.familysearch.org/en/tree/person/details/K8QS-88C]{Catherine} and
+ $elink[https://www.familysearch.org/en/tree/person/details/9S1C-FS4]{John} (Brother to Rev. Hector above).
+
+}
+$section{
 $h2{89}
 
 $blockquote{Inscribed stone Erected to the memory of WILLIAM BLUE, slater, Campbeltown, who died Jan 1847 aged 4 …? …, $b{SUSANNAH GALBRAITH} who died 9 Mar 1888 aged 70 and of their son DUNCAN and of WILLIAM BLUE father of the above WILLIAM reported lost at sea.}

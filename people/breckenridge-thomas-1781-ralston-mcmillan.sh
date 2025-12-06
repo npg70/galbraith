@@ -4,6 +4,7 @@ tags argyll:campbeltown argyll:chisken immigration:usa:ohio:washington:belpre
 external {
 	familysearch LJ5P-HP9
 	findagrave 161111040
+	wikitree Breckenridge-428
 }
 birth -date 09-may-1781
 baptism -date 19-apr-1781 -location campbeltown -ref thomas1781-baptism
@@ -22,7 +23,7 @@ partner {
 	birth -date 10-sep-1781
 	baptism -date 2-sep-1781 -location campbeltown
 	death -date 26-may-1858 -location belpre,washington,ohio,usa -ref sarah-death
-
+	parent mcmillan-john-1758-breckenridge
 	child {
 		name Sarah Breckenridge
 		gender female

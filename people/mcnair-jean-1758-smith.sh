@@ -25,6 +25,7 @@ partner {
     birth -date 07-dec-1749
     baptism -date 08-dec-1749 -location campbeltown
     death -date 21-jan-1829 -location campbeltown -ref smith-death
+    marriage -date 27-dec-1777 -location campbeltown -ref smith-marriage
 
     child {
         name Janet Smith
@@ -171,5 +172,11 @@ footnotes {
     }
     smith-death {
         Find a Grave, database and images (https://www.findagrave.com/memorial/167026963/robert-smith: accessed March 23, 2025), memorial page for Robert Smith (1750–1829), Find a Grave Memorial ID 167026963, citing Campbeltown Kilkerran Cemetery, Campbeltown, Argyll and Bute, Scotland; Maintained by LSP (contributor 46860931).
+    }
+    smith-marriage {
+	$opr-ref-link[m-1777-507-000-0020-0160 "Robert Smith" "Jean McNair"]{
+		Robert Smith and Jean McNair both of this parish were
+		contracted 27th Dec 1777 & married.
+	}
     }
 }

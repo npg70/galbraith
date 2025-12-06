@@ -67,39 +67,43 @@ $table{
 		$th[colspan=2]{Major Families}
 	}
 	$tr{
-		$td{$tag-link{colville}
+		$td{$tag-link{colville}}
 		$td{...}
 	}
 	$tr{
-		$td{$tag-link{fleeming}
+		$td{$tag-link{fleeming}}
 		$td{...}
 	}
 	$tr{
-		$td{$tag-link{galbraith}
+		$td{$tag-link{galbraith}}
 		$td{...}
 	}
 	$tr{
-		$td{$tag-link{greenlees}
+		$td{$tag-link{greenlees}}
 		$td{...}
 	}
 	$tr{
-		$td{$tag-link{harvey}
+		$td{$tag-link{harvey}}
 		$td{...}
 	}
 	$tr{
-		$td{$tag-link{langwill}
+		$td{$tag-link{langwill}}
 		$td{...}
 	}
 	$tr{
-		$td{$tag-link{mcnair}
+		$td{$tag-link{orr}}
 		$td{...}
 	}
 	$tr{
-		$td{$tag-link{mitchell}
+		$td{$tag-link{mcnair}}
 		$td{...}
 	}
 	$tr{
-		$td{$tag-link{ralston}
+		$td{$tag-link{mitchell}}
+		$td{...}
+	}
+	$tr{
+		$td{$tag-link{ralston}}
 		$td{...}
 	}
 	$tr{

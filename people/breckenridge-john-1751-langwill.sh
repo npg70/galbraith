@@ -4,6 +4,7 @@ tags argyll:campbeltown langwill
 external {
 	familysearch LH5X-CB8
 	findagrave 167674025
+	wikitree Breakenridge-36
 }
 baptism -date 29-sep-1751 -location campbeltown -ref john1751-baptism
 death -date 18-nov-1800

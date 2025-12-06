@@ -1,6 +1,6 @@
 name John Breckenridge
 gender male
-tags agyll:Campbeltown 
+tags argyll:Campbeltown 
 external {
 	familysearch M1TX-568
 }
@@ -11,6 +11,11 @@ death -date 1841
 body {
 	He was a wright in Campbeltown.
 }
+partner {
+	name Margaret Ralston
+	gender female
+	marriage -date 14-feb-1801 -location campbeltown -ref ralston-marriage
+}
 
 partner {
 	name Mary McMillan
@@ -19,20 +24,10 @@ partner {
 	birth -date 18-may-1783
 	baptism -date 29-aug-1784 -location campbeltown
 	death -date 03-oct-1846 -location indiana,usa -ref mary-death
+	parent breckenridge-sarah-1741-mcnair-mcmillan
 
-	child {
-		name John Breckenridge
-		gender male
-		birth -date 29-oct-1805 
-		baptism -date 29-oct-1805 -location campbeltown -ref john1805-baptism
-		death -date 28-dec-1870 -location Union,White,Indiana,USA
-		partner {
-			name Martha Dunlop
-			gender female
-			marriage -date 1829
-		}
+	child breckenridge-john-1805-dunlop
 
-	}
 	child {
 		name Hugh Breckenridge
 		gender male
@@ -103,6 +98,11 @@ footnotes {
 		Father is John, mother not recorded.
 		$opr-ref[b-1770-532-000-0010-0011 "John Breckinridge"]
 	}
+	ralston-marriage {
+		$opr-ref-link[m-1801-507-000-0050-0053 "John Brakenridge" "Margaret Ralston"]{
+			John Brakenridge + Margaret Ralston of this Parish | 14 [January 1801]
+		}
+	}
 	mary-marriage {
 		$opr-ref-link[m-1804-507-000-0020-0067 "John Breakenridge" "Mary MacMillan"]{
 			John Breakenridge Wright in Campbeltown and Mary MacMillan Daughter
@@ -126,9 +126,6 @@ footnotes {
 		}}
 	}
 
-	john1805-baptism {
-		$opr-ref-link[b-1805-507-000-0040-0282 "John Brakenridge"]
-	}
 	hugh1807-baptism {
 		$opr-ref-link[b-1807-507-000-0040-0307 "Hugh Brakenridge"]
 	}

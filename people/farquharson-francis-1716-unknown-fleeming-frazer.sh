@@ -3,29 +3,60 @@ gender male
 
 baptism -date 1716
 death -date 17-apr-1787
+external {
+	familysearch MBWZ-DNM
+	findagrave 152159296
+}
+note {
+	Entry on $elink[https://www.thepeerage.com/p40407.htm#i404064]{The Peerage}
+}
+
+body {
+
+From Kilkerran:
+
+$blockquote{
+To the memory of Daniel Farquharson, father of Francis … of Finzean, who died in September 1751, aged 66. Also of Agnes Fleming, his wife, who died on 22 October 1754, aged 26. This monument was set up by Francis Farquharson of Clachaig …
+}
+
+From Economics:
+
+$blockquote{
+Farquharson:
+A family who originated in Aberdeenshire. Francis,
+son of Farquharson of Finzean, came to Campbeltown as
+comptroller of customs and was a town councillor by November 1732. He was a member of the Lowland congregation, "Old
+Farquharson, " being one of the chief opposers of the call
+given by the Duke of Argyll to the Rev. John McAlpine.
+(S. C. 165, ff. 106-7). He bought Clachaig estate near Tarbert.
+Francis Jr. became the most prosperous merchant in the town
+in the 1750’s. He married Agnes Fleming. His wide trading
+interests included frequent exchanges to North America in the
+1750’s. He was the first Campbeltown merchant to properly
+outfit a buss for the bounty. He was Justiciary Baillie
+for the herring fishing in the Western Isles and David Loch
+referred to him as "a sensible, polite, well-bred man,
+a man who has the interests of his country at heart. " (Loch,
+Essays, II,158). He left his large estate to his sons.
+Archibald, the elder, carried on the main trading interests
+and lived for some time in Jamaica. James became provost of Campbeltown, 1774
+}
+}
 
 partner {
-	name _____ _____
+	name Elizabeth _____
 	gender female
 	marriage -date 'say 1739'
 
-	child {
-		name Archibald Farquharson
-		gender male
-		birth -date 'say 1741'
-		death -date 08-mar-1796
-	}
+	child farquharson-archibald-1740-campbell-spring
+
 	child {
 		name John Farquharson
 		gender male
 		birth -date 'say 1743'
-		death -date 17-feb-1849
+		death -date 17-feb-1849 -note umn
 	}
-	child {
-		name ____ Farquharson
-		gender female
-		birth -date 'say 1745'
-	}
+	child farquharson-elizabeth-1765-farquharson
 }
 
 partner {
@@ -95,7 +126,23 @@ footnotes {
 		}
 	}
 
-	frazer-marriage {
+	dan1747-baptism {
+		$opr-ref[b-1747-507-000-0011-0261 "Daniel Farquharson"]
+	}
+	francis1750-baptism {
+		$opr-ref-link[b-1750-507-000-0011-0273 "Francis Farquharson"]
+	}
+	jean1752-baptism {
+		$opr-ref[b-1752-507-000-0011-0281 "Jean Farquharson"]
+	}
+	william1753-baptism {
+		$opr-ref-link[b-1753-507-000-0011-0286 "William Farquharson"]
+	}
+	janet1754-baptism {
+		$opr-ref-link[b-1754-507-000-0011-0293 "Janet Farquharson"]
+	}
+
+	fraser-marriage {
 		Marriage appears to be lost of not recorded.  Date is based on age of first child.
 	}
 

@@ -37,6 +37,7 @@ func ParishName(id1, id2 string) string {
 		"114/2":  "Raasay, Inverness",
 		"152":    "Enzie, Banff",
 		"168/2":  "St. Machar, Aberdeen",
+		"175":    "Birse, Aberdeen",
 		"225":    "New Deer, Aberdeen",
 		"228":    "Old Deer, Aberdeen",
 		"280":    "Elgin",

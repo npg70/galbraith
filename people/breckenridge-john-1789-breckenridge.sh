@@ -1,6 +1,9 @@
 name John Breckenridge
 gender male
 tags argyll:Campbeltown immigrant:australia
+external {
+	wikitree Breakenridge-51
+}
 
 note {
 	Immigration to AU in 1839.

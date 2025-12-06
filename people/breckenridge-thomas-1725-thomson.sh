@@ -4,6 +4,7 @@ tags argyll:campbeltown
 
 external {
 	familysearch LQRW-X2L
+	wikitree Breckenridge-427
 }
 
 baptism -date 12-dec-1725 -location campbeltown -ref thomas1725-baptism

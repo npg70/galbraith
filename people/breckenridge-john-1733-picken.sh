@@ -7,6 +7,7 @@ death -date 1811 -location campbeltown
 external {
 	familysearch LZ6J-C63
 	findagrave 36356695
+	wikitree Brackenridge-1
 }
 body {
 	He was farmer at Chisken.
@@ -73,31 +74,13 @@ partner {
 
 	child breckenridge-john-1770-mcmillan
 
-	child {
-		name William Breckenridge
-		gender male
-		baptism -date 20-aug-1772 -location campbeltown
-		death -date 01-dec-1857 -location campbeltown
-		partner {
-			name Mary Clark
-			gender female
-			baptism -date 18-jan-1773 -location campbeltown
-			death -date 03-mar-1812 -location campbeltown
-			marriage -date 29-feb-1800 -location campbeltown
-		}
-	}
+	child breckenridge-william-1772-clark
+
 	child {
 		name Mary Breckenridge
 		gender female
 		baptism -date 19-jun-1776 -location 'south end' -ref mary1776-baptism
-		partner {
-			name John Dunlop
-			gender male
-			birth -date 23-apr-1784
-			baptism -date 2-apr-1784 -location 'south end'
-			death -date 20-nov-1860 -location 'washington,ohio,usa'
-			marriage -date 08-sep-1807 -location campbeltown
-		}
+		partner dunlop-john-1784-breckenridge
 	}
 	child {
 		name Janet Breckenridge
@@ -106,7 +89,9 @@ partner {
 		baptism -date 09-dec-1778 -location campbeltown -ref janet1778-baptism
 		death -note dy
 	}
-	child breckenridge-thomas-1781-mcmillan
+
+	child breckenridge-thomas-1781-ralston-mcmillan
+
 	child {
 		name Janet Breckenridge
 		gender female

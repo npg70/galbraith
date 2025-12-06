@@ -103,6 +103,8 @@ func tagAddFamilyName(db Root) {
 			p.Tags = append(p.Tags, "mitchell")
 		case strings.Contains(name, "greenlee"):
 			p.Tags = append(p.Tags, "greenlees")
+		case strings.Contains(name, "orr"):
+			p.Tags = append(p.Tags, "orr")
 		case strings.Contains(name, "armour"):
 			p.Tags = append(p.Tags, "armour")
 		}
@@ -131,7 +133,7 @@ func fulltext(db Root) {
 	if err != nil {
 		log.Fatalf("json dump failed: %s", err)
 	}
-	if err := os.WriteFile("./public/fulltext.json", dump, 0644); err != nil {
+	if err := os.WriteFile("./public/galbraith/fulltext.json", dump, 0644); err != nil {
 		log.Fatalf("write of dump failed: %s", err)
 	}
 }
