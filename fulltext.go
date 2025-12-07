@@ -133,7 +133,7 @@ func fulltext(db Root) {
 	if err != nil {
 		log.Fatalf("json dump failed: %s", err)
 	}
-	if err := os.WriteFile("./public/galbraith/fulltext.json", dump, 0644); err != nil {
+	if err := os.WriteFile("./static/fulltext.json", dump, 0644); err != nil {
 		log.Fatalf("write of dump failed: %s", err)
 	}
 }
