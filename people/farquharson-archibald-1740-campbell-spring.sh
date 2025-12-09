@@ -6,11 +6,16 @@ death -date 08-mar-1796
 external {
 	familysearch MB5S-V7D
 	findagrave 152562196
+	wikitree Farquharson-188
 }
 
 note {
 	Entry on $elink[http://www.thepeerage.com/p40407.htm#i404065]{The Peerage}
 }
+note {
+	Wikitree entry is locked due to being part of the "Goodwin Fabrication"
+}
+
 body {
 From Kilkerran:
 $blockquote{
@@ -22,6 +27,15 @@ Here lys KATE (?) spouse to Major HECTOR McNEIL of Ardnacross and MARY, spouse t
 partner {
 	name Mary Campbell
 	gender female
+	birth -date 'say 1744'
+	parent {
+		name Duncan Campbell
+		gender male
+		partner {
+			name Ester Law
+			gender female
+		}
+	}
 }
 
 partner {

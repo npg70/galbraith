@@ -6,9 +6,13 @@ death -date 17-apr-1787
 external {
 	familysearch MBWZ-DNM
 	findagrave 152159296
+	wikitree Farquharson-186
 }
 note {
 	Entry on $elink[https://www.thepeerage.com/p40407.htm#i404064]{The Peerage}
+}
+note {
+	Wikitree entry is locked due to being part of the "Goodman Fabrication"
 }
 
 body {
@@ -17,6 +21,9 @@ From Kilkerran:
 
 $blockquote{
 To the memory of Daniel Farquharson, father of Francis … of Finzean, who died in September 1751, aged 66. Also of Agnes Fleming, his wife, who died on 22 October 1754, aged 26. This monument was set up by Francis Farquharson of Clachaig …
+}
+$p{
+Implies Agnes was born in 1728, and married at age 18 in 1746.
 }
 
 From Economics:
@@ -56,7 +63,7 @@ partner {
 		birth -date 'say 1743'
 		death -date 17-feb-1849 -note umn
 	}
-	child farquharson-elizabeth-1765-farquharson
+	child farquharson-elizabeth-1762-farquharson
 }
 
 partner {
@@ -76,7 +83,7 @@ partner {
 		baptism -date 12-jun-1750 -location campbeltown -ref francis1750-baptism
 	}
 	child {
-		name Jean Farquaharson
+		name Jean Farquharson
 		gender female
 		baptism -date 26-feb-1752 -location campbeltown -ref jean1752-baptism
 	}
@@ -128,18 +135,23 @@ footnotes {
 
 	dan1747-baptism {
 		$opr-ref[b-1747-507-000-0011-0261 "Daniel Farquharson"]
+		$opr-ref[b-1747-507-000-0010-0189 "Daniel Fargrson"]
 	}
 	francis1750-baptism {
 		$opr-ref-link[b-1750-507-000-0011-0273 "Francis Farquharson"]
+		$opr-ref[b-1750-507-000-0010-0199 "Francis Farguson"]
 	}
 	jean1752-baptism {
 		$opr-ref[b-1752-507-000-0011-0281 "Jean Farquharson"]
+		$opr-ref[b-1752-507-000-0010-0208 "Jean Farguson"]
 	}
 	william1753-baptism {
 		$opr-ref-link[b-1753-507-000-0011-0286 "William Farquharson"]
+		$opr-ref[b-1753-507-000-0010-0212 "William Fargrson"]
 	}
 	janet1754-baptism {
 		$opr-ref-link[b-1754-507-000-0011-0293 "Janet Farquharson"]
+		$opr-ref[b-1754-507-000-0010-0219 "Janet Fargrson"]
 	}
 
 	fraser-marriage {
