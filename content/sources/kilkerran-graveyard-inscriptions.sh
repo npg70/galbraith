@@ -8,7 +8,10 @@ $blockquote{
 Here lys KATE (?) spouse to Major HECTOR McNEIL of Ardnacross and MARY, spouse to ARCHIEBALD FARQUHARSON Esquire, late of Finzean both daughters of the late DUNCAN CAMPBELL Esquire of Sunderland, Islay.
 }
 $p{
-FamilySearch: $elink[https://www.familysearch.org/en/tree/person/details/9S1W-SB4]{Mary Campbell} married $elink[https://www.familysearch.org/en/tree/person/details/9S1W-34Z]{Archibald Farquharson} "around 1770"
+$child-link[farquharson-archibald-1740-campbell-spring]{Archibald Farquharson} married 
+$elink[https://www.familysearch.org/en/tree/person/details/9S1W-SB4]{Mary Campbell} "around 1770"
+
+Mary Campbell on $elink[https://www.findagrave.com/memorial/176575869/mary-farquharson]{Find a Grave}
 }
 
 $p{
@@ -26,7 +29,7 @@ This inscription is incomplete. See full text at $elink[https://www.findagrave.c
 }
 
 $p{
-On FamilySearch: $elink[https://www.familysearch.org/en/tree/person/details/MYD3-Q7B]{Rev. Hector}, with $elink[https://www.familysearch.org/en/tree/person/details/KZ1S-YVZ]{George} being his eldest son.   Hector's brother is below.
+$child-link[mcneill-hector-1807-macneal]{Rev. Hector, 6th of Ardnacross}, with $elink[https://www.familysearch.org/en/tree/person/details/KZ1S-YVZ]{George McNeill 7th of Ardnacross} being his eldest son.   Hector's brother is below.
 }
 
 $h3{49.3	Iron tablet set in wall}
@@ -48,7 +51,10 @@ To the memory of CATHERINE MATILDA CAMPBELL wife of JOHN McNEILL Esq., Yr. of Ar
 }
 
 On FamilySearch: $elink[https://www.familysearch.org/en/tree/person/details/K8QS-88C]{Catherine} and
- $elink[https://www.familysearch.org/en/tree/person/details/9S1C-FS4]{John} (Brother to Rev. Hector above).
+ $elink[https://www.familysearch.org/en/tree/person/details/9S1C-FS4]{John, 5th of Ardnacross} (Brother to Rev. Hector above). 
+His father is $child-link[mcneill-neil-1766-gillies]{Neil McNeill, 4th of Ardnacross}.
+
+Catherine is on $elink[https://www.findagrave.com/memorial/167549856/catherine-matilda-mcneill]{FindAGrave}
 
 }
 $section{

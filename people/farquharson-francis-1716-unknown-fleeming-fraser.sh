@@ -14,6 +14,9 @@ note {
 note {
 	Wikitree entry is locked due to being part of the "Goodman Fabrication"
 }
+note {
+	Agnes has been disconnected on FamilySearch. $elink[https://www.familysearch.org/en/tree/person/details/KCMS-58F]{KCMS-58F}
+} 
 
 body {
 
@@ -48,8 +51,10 @@ Essays, II,158). He left his large estate to his sons.
 Archibald, the elder, carried on the main trading interests
 and lived for some time in Jamaica. James became provost of Campbeltown, 1774
 }
+$p{
+The above has minor errors.  Donald (not Francis) was comptroller of customs, and his son was Francis (not Francis Jr).  It's unclear who James "provost of Campbeltown" is.
 }
-
+}
 partner {
 	name Elizabeth _____
 	gender female

@@ -9,11 +9,27 @@ note {
 }
 
 note {
-	No children found.  No grave for Elizabeth found.
+	Baptism record not found. No children found.  No grave for Elizabeth found.
 }
 
 body {
-	Baptism record is not found. Birth was likely in 1762, given her an age of 19 at marriage in 1781.
+Birth was likely in 1762, giving her an age of 19 at marriage in 1781.
+
+Her father's and husband's tombstone inscription at Greyfriars Kirkyard, Edinburgh:
+
+$blockquote{$pre{Sacred to the memory
+of
+Francis Farquharson, Esq.
+of Finzean
+who died 17th April 1787
+aged 70 years
+And of James Farquharson, Esq
+of Inverey. Who died at
+Portobello, 3d January 1817
+Aged 62.
+This stone is erected by the daughter
+of the former and the widow of the latter
+as a testimony of her great veneration}}
 }
 
 partner {

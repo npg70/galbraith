@@ -43,10 +43,15 @@ partner {
 	gender female
 	birth -date 1767
 	death -date 30-may-1849
-	marriage -date 27-feb-1792 -location birse,aberdeen,scotland
+	marriage -date 27-feb-1792 -location birse,aberdeen,scotland -ref spring-marriage
 
 	child farquharson-archibald-1793-russel
 
 }
 
+footnotes {
+	spring-marriage {
+		$opr-ref-link[m-1792-175-000-0010-0158 "Archibald Farquharson" "Christian Spring"]
+	}
+}
 
