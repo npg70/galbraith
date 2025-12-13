@@ -15,7 +15,7 @@ Mary Campbell on $elink[https://www.findagrave.com/memorial/176575869/mary-farqu
 }
 
 $p{
-Unclear who Hector and Kate Campbell are.
+$child-link[mcneill-hector-1740-campbell]{Hector McNeill, 3rd of Ardnacross} married Ester Campell.
 }
 
 $h3{49.2	Cross}
