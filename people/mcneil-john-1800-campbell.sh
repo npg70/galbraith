@@ -1,5 +1,8 @@
 name John MacNeil
 gender male
+birth -date 04-sep-1800
+baptism -date 13-may-1810 -location kildalton -ref john1800-baptism
+death -date 1858 -ref john1800-death
 external {
 	familysearch 9S1C-FS4
 	findagrave 167549856
@@ -23,7 +26,7 @@ partner {
 	child {
 		name Gillian Frederick MacNeil
 		gender male
-		birth date -date 'about 1838'
+		birth -date 'about 1838'
 	}
 	child {
 		name Colina MacNeil
@@ -51,6 +54,9 @@ partner {
 		partner {
 			name Otho Glynn Blitho
 			gender male
+			birth -date 1844
+			death -date 1911
+			marriage -date 30-jan-1878
 		}
 	}
 	child {
@@ -58,5 +64,14 @@ partner {
 		gender female
 		birth -date 20-sep-1857 -location 'Kilninver and Kilmelford, argyll'
 		baptism -date 20-oct-1857 -location edinburgh
+	}
+}
+footnotes {
+	john1800-baptism {
+		$opr-ref-link[b-1800-541-000-0010-0123 "John MacNeil"]
+	}
+	john1800-death {
+		No record or marker found, but last child was born in 1857 and younger
+		brother inherited Ardnacross inn 1858.
 	}
 }
