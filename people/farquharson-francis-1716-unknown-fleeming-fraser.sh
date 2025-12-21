@@ -54,7 +54,15 @@ and lived for some time in Jamaica. James became provost of Campbeltown, 1774
 $p{
 The above has minor errors.  Donald (not Francis) was comptroller of customs, and his son was Francis (not Francis Jr).  It's unclear who James "provost of Campbeltown" is.
 }
+
+From "History of the Frasers of Lovat" on $elink[https://books.google.com/books?id=fAMPAAAAQAAJ&pg=PA656&lpg=PA656&dq=Francis%2BFarquharson%2Band%2BCharlotte%2BFraser&source=bl&ots=NcMzEUq8pU&sig=ACfU3U0E9_y3-NVq1JQRaMnSWd-z0F1O4w&hl=en&sa=X&ved=2ahUKEwjIqaeDquvnAhU5IjQIHQGpCH4Q6AEwDXoECAcQAQ%23v%3Donepage&q=Francis%20Farquharson%20and%20Charlotte%20Fraser&f=false#v=onepage&q=Francis%20Farquharson%20and%20Charlotte%20Fraser&f=false]{Google Books}.  Page 656:
+
+$blockquote{
+Charlotte who married Francis Farquharson of Fin-zean
 }
+
+}
+
 partner {
 	name Elizabeth _____
 	gender female

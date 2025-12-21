@@ -4,6 +4,9 @@ birth -date 'about 1700'
 note {
 	Malcolm of Tarbert
 }
+note {
+	Mary of Colonsay
+}
 
 body {
 $blockquote{$pre{
@@ -34,7 +37,9 @@ e. Daughter, who married James McNeill.
 partner {
 	name  Mary MacNeill
 	gender female
-	
+
+	parent mcneill-donald-1638-mcneill	
+
 	child {
 		name Neil NacNeill
 		gender male

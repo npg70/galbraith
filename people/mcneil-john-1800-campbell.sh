@@ -1,5 +1,7 @@
 name John MacNeil
 gender male
+tags argyll:ardnacross
+
 birth -date 04-sep-1800
 baptism -date 13-may-1810 -location kildalton -ref john1800-baptism
 death -date 1858 -ref john1800-death

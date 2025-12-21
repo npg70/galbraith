@@ -13,7 +13,7 @@ partner {
 	name Ester Campbell
 	gender female
 
-	marriage -date 01-aug-1790 -location glasgow -ref campell-marriage
+	marriage -date 01-aug-1790 -location glasgow -ref campbell-marriage
 
 	child {
 		name Hector MacNeil
@@ -25,6 +25,15 @@ partner {
 			body {
 				of Knockmallie Family
 			}
+		}
+	}
+}
+footnotes {
+	campbell-marriage {
+		$opr-ref-link[m-1790-644-010-0270-0084 "Hector McNeil" "Ester Campblell"]{
+			Glasgow, August 1790 | 
+			McNeill | Major Hector McNeill of the East India Service & Esther
+			Campbell, ??? of the ??? Duncan Campbell of Sunderland
 		}
 	}
 }
