@@ -1,7 +1,7 @@
 name Robert Orr
 tags orr argyll:campbeltown`
 gender male
-baptism -date 17-may-1730 -location campbeltown
+baptism -date 17-may-1730 -location campbeltown -ref robert1730-baptism
 external {
 	familysearch K4XK-HM5
 }
@@ -41,7 +41,10 @@ partner {
 	}
 }
 footnotes {
-
+	robert1730-baptism {
+		$opr-ref-link[b-1730-507-000-0011-0184 "Robert Orr"]
+		$opr-ref-link[b-1730-507-000-0010-0137 "Robert Orr"]
+	}
 	huie-marriage {
 		$opr-ref-link[m-1759-507-000-0011-0460 "Robert Orr" "Isobel Hughie"]{
 			Robert Orr and Isobel Hughie both in this parish | Dec 22d [1759]

@@ -13,7 +13,7 @@ body {
 
 $blockquote{CC/8/57 7. William Campbell sometime merchant in Campbeltown}
 
-$blockquote{Samuel, William and Elizabeth Campbell applied to be decerned executors dative qua nearest in kin to the defunct, who died 24 June 1759. Also com peared $child-link[orr-robert-1830-huie]{Robert Orr}, merchant, and new husband of the relict, Isabella Huie, and Alexander Johnston jun., husband of the eldest daughter, Agnes. In the end, John Campbell, brother gennan to the deceased and tutor in law to the minors, was to give in the inventory. (Testament dative attached.) Par. Campbeltown. 2 July 1761.
+$blockquote{Samuel, William and Elizabeth Campbell applied to be decerned executors dative qua nearest in kin to the defunct, who died 24 June 1759. Also com peared $child-link[orr-robert-1730-huie]{Robert Orr}, merchant, and new husband of the relict, Isabella Huie, and Alexander Johnston jun., husband of the eldest daughter, Agnes. In the end, John Campbell, brother gennan to the deceased and tutor in law to the minors, was to give in the inventory. (Testament dative attached.) Par. Campbeltown. 2 July 1761.
 }
 
 }
@@ -70,7 +70,7 @@ partner {
 	marriage -date 11-feb-1750 -location campbeltown
 
 	body {
-		After William's death in 1759, she remarried to $child-link[orr-robert-1830-huie]{Robert Orr}.
+		After William's death in 1759, she remarried to $child-link[orr-robert-1730-huie]{Robert Orr}.
 	}
 }
 

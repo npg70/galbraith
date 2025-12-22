@@ -119,7 +119,9 @@ $br{}$br{}
 Parish: [Campbeltown]$br{}
 Testament confirmed: 13 Dec 1788
 }
-
+ $p{
+$child-link[orr-robert-1730-huie]{Robert Orr}, b. 1730
+}
 (book page 176)
 
 $h2{Register of Testaments,  CC2/3/12 Page 193}

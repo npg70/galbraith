@@ -11,7 +11,8 @@ partner {
 
 footnotes {
 	margaret1723-baptism {
-	
+		$opr-ref[b-1723-507-000-0011-0154 "Margaret Orr"]
+		$opr-ref-link[b-1723-507-000-0010-0107 "Margaret Orr"]
 	}
 	findlay-marriage {
 		$opr-ref-link[m-1742-507-000-0011-0447 "James Finlay" "Margaret Orr"]

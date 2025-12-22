@@ -10,7 +10,7 @@ $blockquote{
 }
 }
 partner {
-	name _____ _____
+	name _____
 	gender female
 
 	child macneill-malcom-1700-macneill
