@@ -15,6 +15,9 @@ note {
 body {
 	$elink[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-QS3N-C?view=fullText&keywords=Ardnacross&lang=en&groupId=M97N-XPC]{Land Register} 1808, listing Neil, hector, godfrey.
 }
+body {
+	Notes on Ann marrying Duncan Campbell, https://shedgirlsbookshelf.wordpress.com/2025/03/04/duncan-campbell-of-rockside/
+}
 
 partner {
 	name Annabella Gillies
@@ -25,6 +28,12 @@ partner {
 		name Ann MacNeil
 		gender female
 		baptism -date 23-may-1798 -location kildalton -ref ann1798-baptism
+		partner {
+			name Duncan Campbell
+			gender male
+			birth -date 1792
+			marriage -date 1821
+		}
 	}
 
 	child {
@@ -49,20 +58,9 @@ partner {
 		gender female
 		baptism -date 08-may-1805 -location Kildalton -ref flora1805-baptism
 	}
+
+	child mcneil-godfrey-1806
 	
-	child {
-		name Godfrey MacNeill
-		gender male
-		baptism -date 30-sep-1806 -location kildalton -ref  godfrey1806-baptism
-		death -date 09-apr-1859 -location Portnahaven,argyll
-		body {
-			appears to have inherited the lands of Ardnacross in 1858 from his brother john.  But he died one year later.  Unmarried.
-			See $elink[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-QS9T-N?view=fullText&keywords=MacNeill%2CMacneill%2CMACNEILL%2CArdnacross&lang=en&groupId=M97N-FZ9]{Land Records}.  Unmarried.
-
-			Also with his younger brother Hector, they bought made some other transaction with Ardnacross in 1794. $elink[https://www.familysearch.org/ark:/61903/3:1:3Q9M-CS54-QS3G-3?view=fullText&keywords=Macneill%2CMACNEILL%2CArdnacross&lang=en&groupId=M97N-XPC]{Land Records}.
-
-		}
-	}
 	child mcneill-hector-1807-macneal
 
 	child {
@@ -98,9 +96,6 @@ footnotes {
 	}
 	flora1805-baptism {
 		$opr-ref[b-1805-541-000-0010-0132 "Flora MacNeil"]
-	}
-	godfrey1806-baptism {
-		$opr-ref[b-1806-541-000-0010-0132 "Godferry MacNeil"]
 	}
 	alex1810-baptism {
 		Baptism record not found.  

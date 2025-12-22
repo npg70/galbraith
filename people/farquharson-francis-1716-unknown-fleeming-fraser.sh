@@ -55,28 +55,28 @@ $p{
 The above has minor errors.  Donald (not Francis) was comptroller of customs, and his son was Francis (not Francis Jr).  It's unclear who James "provost of Campbeltown" is.
 }
 
+$p{
+From $elink[http://www.ralstongenealogy.com/number04kintmag.htm]{Kintyre Magazine, #4 1978}:
+}
+$blockquote{
+The first recorded transatlantic cargo from Campbeltown went to Kingston, Jamaica, in 1745 in the Prince Charles of Belfast. William McKinlay, Campbeltown merchant and one-time provost, exported the twenty-five hundredweight soap, candles, tallow and shoes for Johnson Legg and Company of Belfast. A similar cargo followed the next year, but Francis Farquharson, another local merchant with extensive shares in herring busses, handled the exporting transactions. 
+}
+
 From "History of the Frasers of Lovat" on $elink[https://books.google.com/books?id=fAMPAAAAQAAJ&pg=PA656&lpg=PA656&dq=Francis%2BFarquharson%2Band%2BCharlotte%2BFraser&source=bl&ots=NcMzEUq8pU&sig=ACfU3U0E9_y3-NVq1JQRaMnSWd-z0F1O4w&hl=en&sa=X&ved=2ahUKEwjIqaeDquvnAhU5IjQIHQGpCH4Q6AEwDXoECAcQAQ%23v%3Donepage&q=Francis%20Farquharson%20and%20Charlotte%20Fraser&f=false#v=onepage&q=Francis%20Farquharson%20and%20Charlotte%20Fraser&f=false]{Google Books}.  Page 656:
 
 $blockquote{
-Charlotte who married Francis Farquharson of Fin-zean
+Charlotte [Fraser] who married Francis Farquharson of Finzean
 }
 
 }
 
 partner {
-	name Elizabeth _____
+	name _____
 	gender female
 	marriage -date 'say 1739'
 
 	child farquharson-archibald-1740-campbell-spring
 
-	child {
-		name John Farquharson
-		gender male
-		birth -date 'say 1743'
-		death -date 17-feb-1849 -note umn
-	}
-	child farquharson-elizabeth-1762-farquharson
 }
 
 partner {
@@ -115,6 +115,7 @@ partner {
 partner {
 	name Elizabeth Fraser
 	gender female
+	parent fraser-thomas-1708-campbell
 	marriage -date 'about 1756' -ref fraser-marriage
 	child {
 		name Margaret Farquharson
@@ -131,10 +132,14 @@ partner {
 		gender male
 		baptism -date 20-jun-1760 -location campbeltown -ref thomas1760-baptism
 	}
+
+	child farquharson-elizabeth-1762-farquharson
+
 	child {
 		name John Farquharson
 		gender male
 		baptism -date 16-jan-1764 -location campbeltown -ref john1764-baptism
+		death -date 17-feb-1849 -note umn
 	}
 }
 
@@ -168,7 +173,7 @@ footnotes {
 	}
 
 	fraser-marriage {
-		Marriage appears to be lost of not recorded.  Date is based on age of first child.
+		Marriage appears to be lost or not recorded.  Date is based on age of first child.
 	}
 
 	margaret1757-baptism {

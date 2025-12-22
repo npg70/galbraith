@@ -15,7 +15,7 @@ note {
 partner {
 	name Margaret Souper
 	gender female
-	marriage -date 13-aug-1713 'St. Nicholas, Aberdeen' -ref souper-marriage
+	marriage -date 13-aug-1713 -location 'St. Nicholas, Aberdeen' -ref souper-marriage
 
 	child farquharson-francis-1716-unknown-fleeming-fraser
 

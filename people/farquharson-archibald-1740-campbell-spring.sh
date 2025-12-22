@@ -28,14 +28,7 @@ partner {
 	name Mary Campbell
 	gender female
 	birth -date 'say 1744'
-	parent {
-		name Duncan Campbell
-		gender male
-		partner {
-			name Ester Law
-			gender female
-		}
-	}
+	parent campbell-duncan-1684-law
 }
 
 partner {

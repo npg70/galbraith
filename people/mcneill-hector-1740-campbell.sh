@@ -12,7 +12,7 @@ body {
 partner {
 	name Ester Campbell
 	gender female
-
+	parent campbell-duncan-1684-law
 	marriage -date 01-aug-1790 -location glasgow -ref campbell-marriage
 
 	child {
