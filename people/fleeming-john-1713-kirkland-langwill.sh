@@ -169,6 +169,9 @@ footnotes {
             John Flemming and Agnes Langwill had
             a son baptized 23rd January named John
         }
+	$opr-ref-link[b-1758-507-000-0010-0235 "John Fleeming"]{
+		John , John Fleeming + Agnes Langwill had a Ch bapt John Janry 23
+	}
     }
     isobell1760-baptism {
         $opr-ref-link[b-1760-507-000-0011-0318 "Isobell Fleeming"]

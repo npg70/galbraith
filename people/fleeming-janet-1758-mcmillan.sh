@@ -27,7 +27,7 @@ partner {
 
 footnotes {
     janet1758-baptism {
-        No 11-book record?
+        $opr-ref-link[b-1758-507-000-0011-0309 "Janet Fleeming"]
         $opr-ref-link[b-1758-507-000-0010-0238 "Janet Fleeming"]{
             Janet | James Fleeming & Isobell Wilson had a Ch bapt Janet May 20th
         }

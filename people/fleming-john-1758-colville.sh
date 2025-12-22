@@ -7,7 +7,7 @@ external {
     wikitree Fleming-7954
     billiongraves John-Fleming/28386202
 }
-baptism -date 23-jan-1758 -location campbeltown -ref john1758-baptism
+baptism -date 'about 1769' -location campbeltown -ref john1758-baptism
 death -date 05-feb-1854 -location 'barlow,washington,ohio,usa'
 
 todo major {
@@ -225,12 +225,9 @@ partner {
 
 footnotes {
     john1758-baptism {
-        $opr-ref-link[b-1758-507-000-0011-0308 "John Fleeming"]
-        $blockquote{
-            John Flemming and Agnes Langwill had
-            a son baptized 23rd January named John 
-        }
+	baptism appears to be not recorded in the OPR.  Birth based on census records.
     }
+
     james1791-baptism {
         $opr-ref-link[b-1791-507-000-0020-0136 "James Fleeming"]
         $blockquote{

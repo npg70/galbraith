@@ -40,7 +40,7 @@ $li{James Fleeming married Janet Langwill in 1761.}
 $li{Janet was alive in 1785}
 $li{Child: Agnes, Mary, Jean all match}
 $li{$child-link[fleeming-jean-1778-mcmurchy]{Jean} is in the census of 1792, at age 12, living in Killowan, with John Fleeming and Jean Colville}
-$li{$child-link[fleeming-john-1703-kirkland]{John Fleeming} who married Jean Kirkland is someone else.}
+$li{$child-link[fleeming-john-1713-kirkland-langwill]{John Fleeming} who married Jean Kirkland and $i{Agnes} Langwill is someone else.}
 }
 
 $h3{Very Likely}
