@@ -9,7 +9,7 @@ external {
     ancestry tree/12079504/person/282258326809
 }
 body {
-The linkage between the Katherine who married James Harvie, and the Katherine the daughter of Archibald Galbreath and Mary White is circumstantial. However:
+The linkage between the Katherine who married James Harvie, and the Katherine the daughter of $child-link[galbreath-archibald-1708-white]{Archibald Galbreath} and Mary White is circumstantial. However:
 
 $ul{
 $li{ She would have to been 18-25 at marriage, given that she had children over a 23 year period}

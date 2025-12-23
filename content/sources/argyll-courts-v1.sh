@@ -231,13 +231,11 @@ Died 5 March 1816. Parish: [Kilchenzie].
 Testament confirmed: 18 Oct 1816.
 }
 
-$h2{CC2/3/14 128 James Harvie sometime farmer in Peninver}
+$h2{CC2/3/14 128 $child-link[galbreath-katharine-1741-harvey]{James Harvie} sometime farmer in Peninver}
 
 $blockquote{
-James Harvie sometime farmer in Peninver
-128
-Testament dative given up by $child-link[harvey-james-1762-mitchell]{James Harvey}, farmer in Ballevain, executor dative
-qua nearest in kin.
+Testament dative given up by $child-link[harvey-james-1762-mitchell]{James Harvey},
+farmer in Ballevain, executor dative qua nearest in kin.
 Died 8 April 1816. Parish: Campbeltown
 }
 
@@ -265,8 +263,8 @@ $hr{}
 $h2{1772 No. 7. Latter Will and Testament: $child-link[orr-edward-1700-wylie]{Edward Orr} merchant in Campbeltown }
 
 $blockquote{
-Appointed $child-link[orr-robert-1830-huie]{Robert Orr}, merchant in Campbeltown, his only executor. Made p~visio~ ~or his
-youngest daughter, Helen, and his eldest daughter, Margaret, provided that she lived without
+Appointed $child-link[orr-robert-1830-huie]{Robert Orr}, merchant in Campbeltown, his only executor.
+ Made provisions for his youngest daughter, Helen, and his eldest daughter, Margaret, provided that she lived without
 cohabiting with her husband, James Finlay, as well as for the latter's children, William and
 Janet. Written 27 Nov 1767. Registered 10 Jun 1772.
 }
@@ -311,7 +309,7 @@ Campbeltown, petitioned for licence to persue the debts owing to his brother Lic
 
 (book page 282)
 
-$h2{CC2/7/60 8. James Harvie farmer in Peninver}
+$h2{CC2/7/60 8. $child-link[galbreath-katharine-1741-harvey]{James Harvie} farmer in Peninver}
 
 $blockquote{
 The petitioner, as executor dative qua creditor of the deceased Archibald Harvey, cooper in
@@ -322,11 +320,12 @@ granted 28 Aug 1812.
 
 (book page 315)
 
-$h2{CC2/7/64  5. James Harvey in Ballivain}
+$h2{CC2/7/64  5. $child-link[harvey-james-1762-mitchell]{James Harvey} in Ballivain}
 
 $blockquote{
-5. James Harvey in Ballivain
-The petitioner, as executor dative qua nearest in kin to James Harvey in Peninver, his father,
+5. $child-link[harvey-james-1762-mitchell]{James Harvey} in Ballivain
+The petitioner, as executor dative qua nearest in kin to
+$child-link[galbreath-katharine-1741-harvey]{James Harvey} in Peninver, his father,
 applied for a commission to take his oath on the inventory. Commission granted 15 Oct 1816
 }
 
@@ -335,7 +334,7 @@ applied for a commission to take his oath on the inventory. Commission granted 1
 $h2{CC2/8/18 7. Jean Moor relict of Thomas Maxwell of Milnhouse}
 
 $blockquote{
-John-Mitchell maltster in Campbeltown, eldest lawful son of the deceased James Mitchell,
+John Mitchell maltster in Campbeltown, eldest lawful son of the deceased James Mitchell,
 maltster in Campbeltown, decemcd executor dative qua creditor in respect of a decreet of
 cognition before the Commissary of Argyll 26 Feb 1725 for £1197 Scots being half the rent
 collected from lands held in tack by Jean Moor and James Mitchell. Bond of cautionry by
@@ -406,13 +405,13 @@ produced. Bond of cautionry by John McNair,. merchant in Campbeltown. Par. Campb
 }
 (book page 399)
 
-$h2{CC2/8/83 3. Robert Harvie merchant in Campbeltown}
+$h2{CC2/8/83 3. $child-link[harvey-robert-1728-watson]{Robert Harvie} merchant in Campbeltown}
 
 $blockquote{
-Amy, Jsobell and Margaret Harvie and Thomas Johnston and Andrew Ralston, merchants in
-Campbeltown, husbands to Amy and Isobell, d~ed executors dative qua nearest in kin.
-Bond of cautioruy by William Watson, merchant m Campbeltown. Par. Campbeltown. 2
-March 1781.
+Amy, Isobell and Margaret Harvie and Thomas Johnston and $child-link[ralston-andrew-1756-harvie-orr]{Andrew Ralston}, merchants in
+Campbeltown, husbands to Amy and Isobell, deemed executors dative qua nearest in kin.
+Bond of cautionary by William Watson, merchant in Campbeltown.
+Par. Campbeltown. 2 March 1781.
 }
 
 (book page 410)
@@ -446,7 +445,7 @@ Campbeltown.18 Mar 1791.
 
 (book page 424)
 
-$h2{CC2/8/95 4. John Galbreath late merchant in lnveraray}
+$h2{CC2/8/95 4. John Galbreath late merchant in Inveraray}
 
 $blockquote{
 Archibald Galbreath, writer, in Oakfield, lawful son of the defunct, decemed executor dative
@@ -456,12 +455,13 @@ attached appointing Archibald Galbreath executor. Par. lnveraray. 22 Jul 1791.
 
 (book page 424)
 
-$h2{CC2/8/1806 9. $child-link[harvey-james-1698-mitchell]{James Harvey} late tenant in Park and Janet Mitchell bis wife}
+$h2{CC2/8/1806 9. $child-link[harvey-james-1698-mitchell]{James Harvey} late tenant in Park and Janet Mitchell his wife}
 
 $blockquote{
-James Harvey, tenant in Peninver, lawful son of the defuncts, decemed executor dative qua
-nearest in kin. Bond of cautionry by Archibald McNair, wright in Campbeltown, 8 March
-1803. Par. Campbeltown. 21 Dec 1802.
+$child-link[galbreath-katharine-1741-harvey]{James Harvey}, tenant in Peninver,
+lawful son of the defuncts, deemed executor dative qua nearest in kin.
+Bond of cautionry by Archibald McNair, wright in Campbeltown, 8 March 1803.
+Par. Campbeltown. 21 Dec 1802.
 }
 (book page 439)
 
@@ -470,7 +470,7 @@ $h2{CC2/8/108}
 
 $blockquote{
 17. $child-link[harvey-william-1738-orr]{William Harvey} late keeper of the
-lightbouse of the Mull of Kintyre
+lighthouse of the Mull of Kintyre
 }
 $blockquote{
 James Harvey, son of the defunct, decemed executor dative qua nearest in kin. Bond of
@@ -498,8 +498,9 @@ $h2{CC2/8/115}
 
 $blockquote{
 10. Archibald Harvey late cooper in Campbeltown
-James Harvey, farmer in Peninver, decemed executor dative qua creditor to the defunct who
-died in March 1812. Bond of cautionry by Nathaniel Harvey, writer in Campbeltown. Par.
+$child-link[galbreath-katharine-1741-harvey]{James Harvey}, farmer in Peninver,
+decemed executor dative qua creditor to the defunct who
+died in March 1812. Bond of cautionary by Nathaniel Harvey, writer in Campbeltown. Par.
 Campbeltown. 21 Jul 1812.
 }
 ( book page 452)
@@ -507,10 +508,11 @@ Campbeltown. 21 Jul 1812.
 $h2{CC2/8/121}
 
 $blockquote{
-13. James Harvie late in Peninver
+13. $child-link[galbreath-katharine-1741-harvey]{James Harvie} late in Peninver
 Par. Campbeltown. 14 Oct 1816.
-James Harvie in Balivain, lawful son of the defunct, who died on 8 April 1816, decemed
-executor dative qua nearest in kin. Bo
+$child-link[harvey-james-1762-mitchell]{James Harvie} in Balivain,
+lawful son of the defunct, who died on 8 April 1816, deemed
+executor dative qua nearest in kin.
 }
 
 (book page 460)

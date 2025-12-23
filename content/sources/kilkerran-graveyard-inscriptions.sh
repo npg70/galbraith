@@ -1,6 +1,9 @@
 title: Kilkerran Graveyard Inscription
 
 
+Note: Inscripted referred to here: https://www.clanmcalister.org/c_kilkerran-cemetery.shtml
+
+
 $section{
 $h2{49.	Railed enclosure.  }
 $h3{49.1	Inscribed stone}
@@ -42,16 +45,15 @@ $blockquote{
 To the memory of Daniel Farquharson, father of Francis … of Finzean, who died in September 1751, aged 66. Also of Agnes Fleming, his wife, who died on 22 October 1754, aged 26. This monument was set up by Francis Farquharson of Clachaig …
 }
 
-$child-link[farquharson-francis-1716-unknown-fleeming-frazer]{Francis Farquharson}, son of $child-link[farquharson-daniel-1684-souper]{Daniel / Donald }
+$child-link[farquharson-francis-1716-unknown-fleeming-fraser]{Francis Farquharson}, son of $child-link[farquharson-daniel-1684-souper]{Daniel / Donald }
 
 
 $h3{49.4	Obelisk}
 $blockquote{
 To the memory of CATHERINE MATILDA CAMPBELL wife of JOHN McNEILL Esq., Yr. of Ardnacross who died 29 June 1847 aged 32.
 }
-
-On FamilySearch: $elink[https://www.familysearch.org/en/tree/person/details/K8QS-88C]{Catherine} and
- $elink[https://www.familysearch.org/en/tree/person/details/9S1C-FS4]{John, 5th of Ardnacross} (Brother to Rev. Hector above). 
+$child-link[mcneil-john-1800-campbell]{John, 5th of Ardnacross} x $elink[https://www.familysearch.org/en/tree/person/details/K8QS-88C]{Catherine}, brother to Rev. Hector above.
+  
 His father is $child-link[mcneill-neil-1766-gillies]{Neil McNeill, 4th of Ardnacross}.
 
 Catherine is on $elink[https://www.findagrave.com/memorial/167549856/catherine-matilda-mcneill]{FindAGrave}
@@ -451,6 +453,16 @@ $li{Mary Galbreath, bp. 1751, marriage unrecorded}
 }
 
 $section{
+$h2{1151 Stone slab}
+$blockquote{
+Here lies the children of EDWARD ORR and ELIZABETH WYLIE the place designed for their family, ELIZABETH WYLIE died 31 … 1763 aged 60 years………………………
+………………………………… 1771
+}
+
+$child-link[orr-edward-1700-wylie]{Edward Orr}, b. 1700
+}
+
+$section{
 $h2{1162}
 $blockquote{
 Erected by WILLIAM and DAVID FERGUSON in memory of their parents WILLIAM FERGUSON late Smith in Campbeltown who died 10 January 1788 aged 83 years, also ISABELL FERGUSON his spouse who died December 1774 aged 66 years, the above WILLIAM FERGUSON died 14 August 1800 aged 62 years, also JEAN GREENLEES his spouse died 2 September 1811 aged 63 years, JEAN their daughter died 1 May 1816 aged 42 years.
@@ -462,4 +474,6 @@ $h2{1163}
 $blockquote{
 Erected by MARGARET FLEMING in memory of her husband DAVID FERGUSON late smith and merchant in Campbeltown who died 25 February 1813 aged 64 years.  He lived much respected and died universally regretted
 }
+
+$child-link[ferguson-david-1748-fleeming]{David Ferguson}
 }

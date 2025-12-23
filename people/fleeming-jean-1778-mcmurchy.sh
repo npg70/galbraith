@@ -3,6 +3,7 @@ gender female
 tags fleeming Argyll:Campbeltown
 birth -date 22-feb-1778
 baptism -date 26-feb-1778 -location campbeltown -ref jean1778-baptism
+death -date 16-may-1858 -location paisley,renfrew -ref jean1778-death
 
 external {
 	findagrave 167271187
@@ -34,13 +35,17 @@ partner {
 
 footnotes {
 
-    jean1778-baptism {
-	$opr-ref-link[b-1778-507-000-0040-0038 "Jean Fleeming"]
-	$blockquote{
+    	jean1778-baptism {
+		$opr-ref-link[b-1778-507-000-0040-0038 "Jean Fleeming"]
+		$blockquote{
 		Jean | Lawful Daughter to James Fleeming + Janet Langwill,
 		born 22nd and bapt 26th Feb 1778
+		}
+     	}
+
+	jean1778-death {
+		$sp-ref[d-1858-573-02-0088 "Jean Fleming"]
 	}
-     }
 	mcmurchy-marriage {
 		$opr-ref-link[m-1808-507-000-0050-0084 "Jean Fleeming" "Archibald MacMurchy"]
 		$blockquote{

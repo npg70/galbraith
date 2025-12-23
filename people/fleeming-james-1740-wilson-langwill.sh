@@ -3,6 +3,7 @@ gender male
 tags Argyll:Campbeltown fleeming
 external {
     familysearch 9M9D-QL7
+    findagrave 167550004
 }
 birth -date 'about 1726'
 death -date 02-mar-1785 -location campbeltown
@@ -27,33 +28,43 @@ He died two months later.
 
 From Kilkerran:
 
-$blockquote{
-907	Erected by JOHN FLEEMING in memory of his father JAMES FLEEMING late tenant in Killownan who died 2 March 1785 aged 56 years and by JEAN FLEEMING in memory of her husband ARCHD McMURCHY who died 12 January 1828 aged 49 years, MARY their daughter died 14 March 1828 aged 11 years.
-}
-
+$blockquote{$pre{ERECTED BY
+JOHN FLEEMING IN MEMORY OF
+HIS FATHER JAMES FLEEMING LATE
+TENANT IN KILLOWNAN WHO DIED
+2 MARCH 1785 AGED 58 YEARS
+AND
+BY JEAN FLEEMING
+IN MEMORY OF HER HUSBAND
+ARCHIBALD MCMURCHY
+WHO DIED 12TH JANUARY 1828
+AGED 49 YEARS
+MARY THEIR DAUGHTER
+DIED 14TH MARCH 1828
+AGED 11 YEARS}}
 
 $h3{What we know}
 
 $ul{
-$li{James was born about 1726, and died in 1785.}
+$li{James Fleeming was born about 1726, and died in 1785.}
 $li{James Fleeming married Janet Langwill in 1761.}
-$li{Janet was alive in 1785}
+$li{Janet Langwil was alive in 1785}
 $li{Child: Agnes, Mary, Jean all match}
-$li{$child-link[fleeming-jean-1778-mcmurchy]{Jean} is in the census of 1792, at age 12, living in Killowan, with John Fleeming and Jean Colville}
+$li{$child-link[fleeming-jean-1778-mcmurchy]{Jean} is in the census of 1792, at age 12, living in Killowan, with $child-link[fleming-john-1758-colville]{John Fleeming} and Jean Colville}
 $li{$child-link[fleeming-john-1713-kirkland-langwill]{John Fleeming} who married Jean Kirkland and $i{Agnes} Langwill is someone else.}
 }
 
 $h3{Very Likely}
 
 $ul{
-$li{Child Margaret was born around 1765, married Andrew Ralston.  Birth appears not recorded, but age is based on census and gravestones}
-$li{Janet is not in the 1792 Census, implying she died before 1792}
+$li{Child Margaret was born around 1765, married Andrew Ralston.  Birth appears not recorded, but age is based on census and gravestones.}
+$li{Janet Fleeming is not in the 1792 Census, implying she died before 1792}
 $li{John was actually "James" and/or born in 1768-1769:
   	$ul{
 
-$li{John Fleeming with Jean Colville is in the census of 1792. He is listed as 21, which gives a birth of 1771.  They are off two years off, so birth is probably 1769.  Jean Colvills listd as 19.
+$li{John Fleeming with Jean Colville is in the census of 1792. He is listed as 21, which gives a birth of 1771. However all other verifyable births are off two years off, so birth is probably 1769.  Jean Colvill is listed as 19.
 }
-$li{John's burial on find-a-grave, gives a birth of 1768}
+$li{John's burial on $elink[https://www.findagrave.com/memorial/100209162/john-fleming]{Find A Grave} gives a birth of 1768}
 }
 }
 }
