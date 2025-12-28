@@ -1,5 +1,9 @@
 name Mary Mitchell
 gender female
+external {
+	findagrave 95675826
+	wikitree Mitchell-24126
+}
 birth -date 10-Apr-1802 -location campbeltown
 baptism -date 13-apr-1802 -location campbeltown -ref mary1802-baptism
 partner mcnair-archibald-1796-mitchell

@@ -2,11 +2,10 @@ name Mary Mitchell
 gender female
 tags Argyll:Campbeltown 'end of line'
 external {
-    findagrave 168819519
-    ancestry tree/12079504/person/282660850481
-}
-todo major {
-    fix wikitree... with the three Mary Mitchells
+	findagrave 168819519
+ 	wikitree Mitchell-55606
+	ancestry tree/12079504/person/282660850481
+	familysearch 9M9D-8YJ
 }
 
 birth -date 20-sep-1799
@@ -14,7 +13,9 @@ baptism -date 23-sep-1799 -location campbeltown -ref mary1799-baptism
 death -date 8-jun-1868 -location campbeltown -ref mary1799-death
 body {
     Mary was the daughter of Archibald Mitchell, founder of Springbank Distillery.
-    James was a "hosier," maker of socks and things. No evidence of children.
+    James was a "hosier," maker of socks and things.
+
+No evidence of children.
 }
 
 confused-with mitchell-mary-1803-greenlees

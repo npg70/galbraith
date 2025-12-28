@@ -1,6 +1,6 @@
 name Jean Mitchell
 gender female
-tags argyll:campbeltown immigrant:usa:ohio:cermont
+tags argyll:campbeltown immigrant:usa:ohio:clermont
 
 birth -date 22-feb-1806
 baptism -date 26-feb-1806 -location campbeltown -ref jean1806-baptism

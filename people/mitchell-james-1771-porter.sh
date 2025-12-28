@@ -5,6 +5,7 @@ birth -date 'say 1771'
 external {
     ancestry tree/12079504/person/282659540846
     familysearch GP1S-K11
+    wikitree Mitchell-47520
 }
 body {
     He was a farmer at "Ballergy" or "Ballergie."  The marriage and all children's baptisms reference the farm.

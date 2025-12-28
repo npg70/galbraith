@@ -1,10 +1,13 @@
 name Mary Mitchell
 gender female
-tags 'Argyll:Killean and Kilchenzie'
+tags 'Argyll:Killean and Kilchenzie' immigrant:usa:illinois:boone
 baptism -date 12-sep-1803 -location 'Killean and Kilchenzie' -ref mary1803-baptism
+death -date 10-nov-1883 -location Caledonia,Boone,Illinois,USA
+
 external {
     ancestry tree/12079504/person/282659540795
     findagrave 53401235
+    wikitree Mitchell-20108
 }
 
 confused-with mitchell-mary-1802-mcnair
@@ -16,6 +19,15 @@ partner {
     gender male
     baptism -date 02-sep-1799 -location Killean -ref robert1799-baptism
     marriage -date 04-mar-1823 -location Campbeltown -ref robert1799-marriage
+    death -date 14-may-1869 -location Caledonia,Boone,Illinois,USA
+    parent {
+	name Robert Greenlees
+	gender male
+	partner {
+		name Sarah Templeton
+		gender female
+	}
+	}
 }
 
 footnotes {

@@ -8,12 +8,13 @@ external {
     ancestry tree/12079504/person/282657232244
     familysearch K4TR-T61
     findagrave  123641931
+    wikitree McNair-1144
 }
 body {
 
 He was a farmer in Lochsanish.
 
-Immigration in 1842 on British Barque "Gleaner" arrived at New York on 5 July 1842, 33 days from Campbeltown, Scotland:$ref[gleaner]
+Immigration in 1842 on British Barque "Gleaner" arrived at New York on 5 July 1842, 33 days from Campbeltown, Scotland:$ref[gleaner]$ref[gleaner2]
 
 $csvtable{
 #, First, Last, Age, Year, Gender, Role
@@ -27,19 +28,24 @@ $csvtable{
 88, James, McNair, 2 1/2, 1840, M, son
 }
 
-Mary appears to have died after the last child James was born in 1841 and before landing in New York in 1842.  In her place, her sister $child-link[mitchell-jean-1806]{Jean} is listed on the ship's manifesto.
+Oddly, his spouse, Mary is missing in the ship's manifest.  Her sister 
+$child-link[mitchell-jean-1806]{Jean} is listed however.  Adn they both appear in the 1850 and 1860 census.
 
 After landing, they moved to Clermont County, Ohio.
 
 }
 note {
-    Mary Mitchell is often confused with $child-link[mitchell-mary-1803-greenlees]{Mary Mitchell} who married Robert Greenlees.
+    Mary Mitchell has been confused with $child-link[mitchell-mary-1803-greenlees]{Mary Mitchell}, the daughter of $child-link[mitchell-james-1771-porter]{James Mitchell} and Ann Porter, born 1803 in Killean, who married Robert Greenlees and immigrated to Caledona, Boone, Illinois, USA. 
 }
 note {
-    Mary Mitchell has been historically confused with $child-link[mitchell-mary-1799-sheddan]{Mary Mitchell}, b. 1799, m. James Sheddan.
+    Mary Mitchell has been confused with $child-link[mitchell-mary-1799-sheddan]{Mary Mitchell}, the daughter of $child-link[mitchell-archibald-1766-ferguson]{Archibald Mitchell} and Isabella Ferguson, b. 1799 in Campbeltown, who married James Sheddan.
 }
 note {
-    Possible additional children  Mary and Robert, born in Ohio. (impossible).
+	Mary Mitchell is sometimes listed as "Mary Jean Mitchell" due to incorrect merging with her sister $child-link[mitchell-jean-1806]{Jean Mitchell}.
+}
+
+note {
+    Possible additional children  Mary and Robert, born in Ohio.
 }
 
 partner {
@@ -138,6 +144,11 @@ footnotes {
         $opr-ref[b-1841-507-000-0070-0193 "James McNair"]
     }
     gleaner {
-        $elink[http://www.ralstongenealogy.com/glnrlist#mcsporan]{Ralston Geneaology}
-    }   
+        $elink[http://www.ralstongenealogy.com/glnrlist#mcsporan]{Ralston Geneaology} has a transcription of the original.
+    }
+    gleaner2 {
+	$elink[https://www.familysearch.org/ark:/61903/1:1:K846-GXX?lang=en&cid=fs_copy]{FamilySearch} has index card from NARA.
+
+	"New York, New York, Index to Passenger Lists, 1820-1846", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:K846-GXX : Fri Nov 28 10:25:46 UTC 2025), Entry for Arch McNair, 1842.
+   } 
 }
