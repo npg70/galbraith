@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"io"
 	"log"
+
+	"github.com/client9/cmdconfig"
 )
 
 type Event struct {
@@ -16,7 +18,7 @@ type Event struct {
 }
 
 func (e *Event) UnmarshalText(text []byte) error {
-	scan := NewScanner(text)
+	scan := cmdconfig.NewScanner(text)
 	for {
 		args, _, err := scan.Next()
 		if args == nil && err == io.EOF {

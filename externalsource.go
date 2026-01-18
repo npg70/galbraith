@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"io"
 	"strings"
+
+	"github.com/client9/cmdconfig"
 )
 
 type SourceLink struct {
@@ -27,7 +29,7 @@ func (e ExternalSource) List() []SourceLink {
 }
 
 func (e ExternalSource) UnmarshalText(text []byte) error {
-	scan := NewScanner(text)
+	scan := cmdconfig.NewScanner(text)
 	for {
 		args, _, err := scan.Next()
 		if args == nil && err == io.EOF {

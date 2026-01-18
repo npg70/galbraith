@@ -11,6 +11,7 @@ import (
 	"strings"
 
 	"github.com/client9/ssg"
+	"github.com/client9/cmdconfig"
 )
 
 type Ref struct {
@@ -76,7 +77,7 @@ func makeFootnotes(p *Person) string {
 type Footnotes map[string]string
 
 func (n Footnotes) UnmarshalText(text []byte) error {
-	scan := NewScanner(text)
+	scan := cmdconfig.NewScanner(text)
 	for {
 		args, body, err := scan.Next()
 		if args == nil && err == io.EOF {
@@ -209,7 +210,7 @@ func (p *Person) AllChildren() []*Person {
 }
 
 func (p *Person) UnmarshalText(text []byte) error {
-	scan := NewScanner(text)
+	scan := cmdconfig.NewScanner(text)
 	for {
 		args, body, err := scan.Next()
 		if args == nil && err == io.EOF {
@@ -222,6 +223,8 @@ func (p *Person) UnmarshalText(text []byte) error {
 			return fmt.Errorf("Person function had 0 args: body = %q", string(text))
 		}
 		switch args[0] {
+		case "id":
+			p.ID = args[1]
 		case "gender":
 			gtype := strings.ToLower(args[1])
 			switch gtype {
@@ -284,6 +287,19 @@ func (p *Person) UnmarshalText(text []byte) error {
 				if err != nil {
 					return err
 				}
+				// the partner/person object just provides
+				// basic vitals
+				//
+				// Mary's page has basic vitals no children
+				//   just a link to partner
+				//
+				// Robert, the partner has his basic vitals
+				//    and then has Mary as a partner WITH children
+				//    also defines Mary's ID as a pointer=
+				//
+				// want Mary's page to load in her children that are 
+				// defined by her partner.
+				//	
 				p.Partners = append(p.Partners, newp)
 			} else {
 				newp := &Person{root: p.root}
@@ -974,7 +990,10 @@ func (r Root) generateOne(primary string, outputFile string) (ssg.ContentSourceC
 		// is marriage known or not?
 		out.WriteString(first.Gender.Pronoun() + " married " + ordinal + " ")
 		if marriage != nil {
-			out.WriteString(EventDatePlace(first, marriage) + " to $partner-name{" + partner.FullName() + "}")
+			out.WriteString(EventDatePlace(first, marriage) + " to ")
+		}
+		if partner.ID != "" {
+			out.WriteString("$child-link[" + partner.ID + "]{" + partner.FullName() + "}")
 		} else {
 			out.WriteString("$partner-name{" + partner.FullName() + "}")
 		}
