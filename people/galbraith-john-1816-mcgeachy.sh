@@ -48,7 +48,7 @@ partner {
         baptism -date 5-may-1853 -location gigha -ref catherine1853-baptism
         death -date 03-may-1919 -location govan,glasgow -ref catherine1853-death
         partner {
-            name Duncan O'May
+            name Duncan "O'May"
             birth -date 25-may-1858 -location campbeltown
             marriage -date 14-jul-1882 -location campbeltown
         }
