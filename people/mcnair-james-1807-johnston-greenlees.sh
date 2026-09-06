@@ -21,17 +21,9 @@ partner {
     marriage -date 23-jan-1827 -location 'Killean and Kilchenzie'
     death -date 24-nov-1835
 
-    child {
-        name Robert McNair
-        birth -date 13-dec-1827
-        baptism -date 24-dec-1827 -location campbeltown
-        death -date 1901 -location 'Redwood Flass, Redwood, Minnesota,USA'
-        partner {
-            name Ann Greenlees
-            marriage -date 04-jul-1861 -location 'Winnebago,Illnois,USA'
-        }
-    }
-    child {
+    child mcnair-robert-1827-greenlees
+    
+child {
         name Jean McNair
         birth -date 16-jan-1834
         baptism -date 10-feb-1834 -location campbeltown

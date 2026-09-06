@@ -14,11 +14,12 @@ external {
 partner {
     name Katherine Harvie
     gender female
-    parent galbreath-katharine-1741-harvey
-    marriage -date 18-apr-1805 -location campbeltown -ref marriage
     birth -date 29-jul-1780
     baptism -date 30-Jul-1780 -location campbeltown
     death -date 21-jun-1847 -location Washington,Clermont,Ohio,USA
+
+    parent galbreath-katharine-1741-harvey
+    marriage -date 18-apr-1805 -location campbeltown -ref marriage
     child {
         name Jane Galbreath
         baptism -date 11-mar-1806 -location campbeltown -ref jane1806-baptism

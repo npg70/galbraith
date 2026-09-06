@@ -1,4 +1,5 @@
 name Archibald Galbreath
+gender male
 birth -date 'about 1791'
 tags Argyll:Campbeltown argyll:Dalintober
 confused-with galbreath-archibald-1798

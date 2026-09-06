@@ -1,4 +1,5 @@
 name Neil Galbreath
+gender male
 tags argyll:Gigha argyll:Campbeltown
 baptism -date 13-sep-1806 -location gigha -ref neil1806-baptism
 death -date 15-mar-1884 -location campbeltown -ref neil1806-death
@@ -66,6 +67,7 @@ $br{}
 
 partner {
     name Flora MacNeal
+	gender female
     birth -date 'about 1807'
     marriage -date 25-nov-1830 -location gigha -ref macneal-marriage
     death -date 11-jan-1878 -location campbeltown -ref macneal-death

@@ -1,4 +1,5 @@
 name Allan Galbraith
+gender male
 tags Argyll:Campbeltown 'daughtered out'
 external {
     familysearch L1VB-L7S
@@ -8,6 +9,7 @@ birth -date 20-jul-1877 -location campbeltown -ref allan1877-birth
 death -date 1-sep-1936 -location glasgow -ref allan1877-death
 partner {
     name Catherine McNab
+	gender female
     birth -date 9-dec-1877 -location Killean,Argyll
     death -date 1953 -location glasgow
     marriage -date 14-jan-1898 -location kilcalmonell

@@ -1,4 +1,5 @@
 name David Galbreath
+gender male
 birth -date "about 1684"
 external {
     familysearch LLCM-DJB

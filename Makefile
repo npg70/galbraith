@@ -1,6 +1,14 @@
 
 combined: serve
 
+redump:
+	rm -rf p r
+	mkdir -p p r
+	go run . -redump
+	rm -rf ../g2/p ../g2/r
+	mv p ../g2
+	mv r ../g2
+
 build: 
 	cd notsass && make
 	mkdir -p public
@@ -36,3 +44,10 @@ env:
 	brew upgrade
 	brew install golangci-lint
 	go install golang.org/x/tools/cmd/goimports@latest
+
+counter.txt:
+	echo "0" > counter.txt
+
+id: counter.txt
+	go run cmd/counter/main.go
+

@@ -1,4 +1,5 @@
 name Alexander Galbraith
+gender male
 tags Argyll:Campbeltown
 external {
     familysearch M5GY-FH5
@@ -7,6 +8,7 @@ birth -date 21-mar-1876 -location campbeltown -ref alexander1876-birth
 death -date 14-mar-1914 -location renfrew -ref alexander1876-death
 partner {
    name Anna Maria Collins
+   gender female
    birth -date 09-apr-1877 -location dumbarton -note 'the daughter of Peter Collins and Catherine _____'
    death -date 13-may-1952 -location 'Sheffield, Yorkshire, England, United Kingdom'
    marriage -date 29-jun-1900 -location dumbarton -ref collins-marriage

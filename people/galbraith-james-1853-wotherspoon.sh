@@ -1,4 +1,5 @@
 name James Galbraith
+gender male
 tags 'Argyll:Kilcalmonell and Kilberry' 'Daughtered Out'
 external {
     familysearch M1YP-R7H
@@ -8,6 +9,7 @@ death -date 12-jan-1915 -location 'Kilcalmonell and Kilberry' -ref james1853-dea
 
 partner {
     name Mary Wotherspoon
+	gender female
     marriage -date 18-dec-1888 -location gigha -ref wotherspoon-marriage
     death -date 23-jan-1945 -location 'Schoolhouse, Forrest Field, Argyll, Scotland' -ref wotherspoon-death
 

@@ -1,4 +1,5 @@
 name Duncan Galbreath
+gender male
 birth -date 'say 1760'
 tags Argyll:Gigha
 todo {
@@ -7,6 +8,7 @@ todo {
 
 partner {
     name Catherine Galbreath
+	gender female
     marriage -date 'say 1775'
 
     child {

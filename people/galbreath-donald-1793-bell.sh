@@ -1,4 +1,5 @@
 name Donald Galbreath
+gender male
 baptism -date 3-may-1793 -location 'killean and kilchenzie' -ref baptism
 death -date 9-dec-1867 -location campbeltown -ref death
 external {
@@ -8,6 +9,7 @@ tags 'Argyll:Killean and Kilchenzie'
 
 partner {
     name Ann Bell
+	gender female
     death -date 23-nov-1856 -location campbeltown -ref annbell-death
     burial -name "Kilchenzie Churchyard" -ref annbell-burial
     marriage -date 10-dec-1812 -location 'killean and kilchenzie' -ref marriage
@@ -28,6 +30,7 @@ partner {
 }
 partner {
     name Ann McMillan
+	gender female
     marriage -date 'about 1830'  -location campbeltown -ref marriage2
     child {
         name Mary Galbreath

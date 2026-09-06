@@ -1,4 +1,5 @@
 name Peter Galbreath
+gender male
 baptism -date 25-mar-1822 -location gigha -ref peter1822-baptism
 death -date 9-mar-1878 -location greenock -ref peter1822-death
 external {
@@ -7,6 +8,7 @@ external {
 tags Argyll:Gigha Bute Renfrew:Greenock
 partner {
     name Christina Niven
+	gender female
     marriage -date 22-nov-1847 -ref niven-marriage
 
     child {

@@ -1,4 +1,5 @@
 name Alexander Galbreath
+gender male
 tags Argyll:Campbeltown
 baptism -date 4-aug-1844 -location campbeltown -ref alexander1844-baptism
 death -date 25-dec-1883 -location campbeltown -ref alexander1844-death
@@ -11,6 +12,7 @@ body {
 }
 partner {
     name Flora Campbell
+	gender female
     birth -date 2-nov-1845 -location southend
     marriage -date 6-oct-1864 -location campbeltown -ref campbell-marriage
     death -date 15-aug-1875 -location campbeltown -ref campbell-death
@@ -38,6 +40,7 @@ partner {
 }
 partner {
     name Agnes Matheson
+	gender female
     marriage -date 3-oct-1876 -location campbeltown -ref matheson-marriage
     birth -date 26-jan-1841 -location campbeltown
     death -date 11-oct-1924 -location campbeltown -ref matheson-death

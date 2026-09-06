@@ -1,4 +1,5 @@
 name William Galbraith
+gender male
 external {
     familysearch K46X-469
 }
@@ -9,6 +10,7 @@ death -date 23-mar-1891 -location linwood,renfrew -ref william1834-death
 
 partner {
     name Elizabeth Armour
+	gender female
     birth -date 'about 1833'
     marriage -date 03-jun-1856 -location kilbarchan -ref armour-marriage
     death -date 31-july-1873 -location kilbarchan -ref armour-death

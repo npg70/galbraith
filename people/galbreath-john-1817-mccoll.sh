@@ -1,4 +1,5 @@
 name John Galbreath
+gender male
 tags Argyll:Glassary Immigrant:Canada:Ontario:Elgin
 external {
     findagrave 111121055
@@ -12,6 +13,7 @@ baptism -date 4-jun-1817 -location Glassary -ref john1817-baptism
 death -date 11-mar-1856 -location 'St. Thomas, Elgin, Ontario, Canada'
 partner {
     name Sarah McColl
+	gender female
     marriage -date 16-mar-1843 -location Elgin,Ontario,Canada
 }
 footnotes {

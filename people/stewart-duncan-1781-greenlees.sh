@@ -36,9 +36,10 @@ Jean, Stewart, 12, 1829
 
 partner {
     name Margaret Greenlees
-    marriage -date 28-feb-1811 -location campbeltown -ref greenlees-marriage
     birth -date 1785
     death -date 1866 -location campbeltown
+
+    marriage -date 28-feb-1811 -location campbeltown -ref greenlees-marriage
 
     child {
         name Mary Stewart

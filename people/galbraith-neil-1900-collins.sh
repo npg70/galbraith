@@ -1,4 +1,5 @@
 name Neil Galbraith
+gender male
 birth -date 31-aug-1900 -location  dunbarton -ref neil1900-birth
 partner {
     name Janet McCallum Reid

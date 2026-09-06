@@ -1,4 +1,5 @@
 name John Galbraith
+gender male
 birth -date 'about 1797'
 death -date 27-feb-1861 -location kilbarchan -ref john1797-death
 external {
@@ -7,6 +8,7 @@ external {
 
 partner {
     name Janet Caldwell
+	gender female
     birth -date 1799
     marriage -date 03-july-1819 -location kilbarchan
     death -date 03-aug-1883 -location linwood,renfrew -ref caldwell-death

@@ -1,4 +1,5 @@
 name John Galbraith
+gender male
 tags argyll:islay:kildalton
 external {
     familysearch G9YV-Y28

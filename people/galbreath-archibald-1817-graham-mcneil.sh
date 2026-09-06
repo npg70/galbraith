@@ -1,4 +1,5 @@
 name Archibald Galbreath
+gender male
 baptism -date 22-jan-1817 -location colonsay -ref archibald1817-baptism
 death -date 25-jan-1898  -location 'Saugeen,Bruce,Ontario,Canada'
 tags Argyll:Colonsay Immigrant:Canada:Ontario:Bruce
@@ -22,6 +23,7 @@ Catherine,Galbreath,Dau,-,5,1846,Colonsay
 
 partner {
     name Ann Graham
+	gender female
     marriage -date 13-jul-1840 -location colonsay -ref graham-marriage
     birth -date 'about 1816'
     death -date 20-oct-1850 -location colonsay

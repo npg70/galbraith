@@ -1,4 +1,5 @@
 name Donald Galbraith
+gender male
 tags Argyll:Campbeltown
 external {
     familysearch M1TT-QWM

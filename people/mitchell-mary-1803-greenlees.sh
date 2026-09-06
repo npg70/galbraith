@@ -8,14 +8,18 @@ external {
     ancestry tree/12079504/person/282659540795
     findagrave 53401235
     wikitree Mitchell-20108
+	familysearch 9M9J-LZ8
 }
 
 confused-with mitchell-mary-1802-mcnair
 
 confused-with mitchell-mary-1799-sheddan
 
+partner greenlees-robert-1799-mitchell
+
 partner {
     name Robert Greenlees
+    id greenlees-robert-1799-mitchell
     gender male
     baptism -date 02-sep-1799 -location Killean -ref robert1799-baptism
     marriage -date 04-mar-1823 -location Campbeltown -ref robert1799-marriage

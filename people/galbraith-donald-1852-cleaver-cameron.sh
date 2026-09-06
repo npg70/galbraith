@@ -1,4 +1,5 @@
 name Donald Galbraith
+gender male
 external {
     familysearch M1RM-HQT
 }
@@ -9,6 +10,7 @@ body {
 }
 partner {
     name Margaret Cleaver
+	gender female
     birth -date 2-may-1851 -location 'north knapdale' -note 'daughter of John Clever and Sarah Baxter'
     marriage -date 12-feb-1879 -location 'kinning park,lanark' -ref cleaver-marriage
     death -date 19-jan-1881 -location govan -ref cleaver-death
@@ -17,6 +19,7 @@ partner {
 }
 partner {
     name Catherine Cameron
+	gender female
     birth -date 1851 -location 'Morvern, Argyll, Scotland'
     death -date 4-jan-1934 -location 'Kelty, Fife, Scotland'
     marriage -date 17-nov-1882 -location Edinburgh -ref cameron-marriage

@@ -1,4 +1,5 @@
 name John Galbraith
+gender male
 tags argyll:gigha
 external {
     familysearch M1B4-F7Z

@@ -1,10 +1,12 @@
 name William Galbraith
+gender male
 birth -date 'about 1800'
 external {
     familysearch 9MB8-ZSC
 }
 partner {
     name Anne Wallace
+	gender female
     marriage -date 25-may-1820 -location cockburnspath,berwick
 
     child {

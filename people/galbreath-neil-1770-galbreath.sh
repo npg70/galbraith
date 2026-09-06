@@ -1,4 +1,5 @@
 name Neil Galbreath
+gender male
 birth -date 'say 1770'
 tags argyll:gigha 'dead end'
 external {
@@ -12,6 +13,7 @@ note {
 }
 partner {
     name Mary Galbreath
+	gender female
     marriage -date 'about 1794'
 
     child {

@@ -1,4 +1,5 @@
 name Archibald Galbraith
+gender male
 tags Argyll:Campbeltown glasgow england:lancashire  'daughtered out'
 
 external {
@@ -12,6 +13,7 @@ death -date 1913 -location 'Barrow in Furness, Lancashire, England' -ref archiba
 
 partner {
     name Mary Paterson
+    gender female
     baptism -date 07-mar-1842 -location campbeltown -ref paterson-baptism
     death -date 1889 -location 'Barrow in Furness, Lancashire, England' -ref paterson-death
     marriage -date 10-jun-1870 -location glasgow -ref paterson-marriage
@@ -23,6 +25,7 @@ partner {
 }
 partner {
     name Emily Forgan
+    gender female
     birth -date 1867 -location 'Croscombe, Somerset, England'
     death -date 1893 -location 'Barrow in Furness, Lancashire, England'
     marriage -date 1889 -location 'Barrow in Furness, Lancashire, England'  -ref forgan-marriage

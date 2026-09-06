@@ -1,4 +1,5 @@
 name John Galbreath
+gender male
 tags Argyll:Campbeltown 'dead end'
 external {
     familysearch KZCJ-WYC
@@ -9,6 +10,7 @@ There is another $child-link[galbraith-john-1730-clark]{John Galbreath} who marr
 }
 partner {
     name Catharine Clark
+	gender female
     marriage -date 01-jul-1766 -location campbeltown -ref clark-marriage
 
     child {

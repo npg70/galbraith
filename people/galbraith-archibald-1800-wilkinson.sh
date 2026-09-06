@@ -1,4 +1,5 @@
 name Archibald Galbraith
+gender male
 tags 'argyll:Killean and Kilchenzie' Argyll:Campbeltown
 baptism -date 29-oct-1800 -location 'killean and kilchenzie' -ref archibald1800-baptism
 death -date 13-feb-1855 -location campbeltown -ref archibald1800-death
@@ -23,6 +24,7 @@ KILLEAN AND KILCHENZIE
 
 partner {
     name Barbara Wilkinson
+    gender female
     marriage -date 1827 -location 'killean and kilchenzie'
     death -date 13-mar-1886 -location 'mid calder, midlothian' -ref barbara-death 
     body {

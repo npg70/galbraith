@@ -1,4 +1,5 @@
 name William John Galbraith
+gender male
 tags Argyll:Campbeltown 
 birth -date 3-may-1892 -location campbeltown -ref william1892-birth
 death -date 1984 -location campbeltown -ref william1892-death

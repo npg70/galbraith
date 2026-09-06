@@ -1,4 +1,5 @@
 name David Stewart Galbraith
+gender male
 birth -date 9-oct-1782 -location 'killean and kilchenzie' -ref david1782-baptism
 death -date 27-dec-1863 -location Edinburgh -ref david1782-death
 tags Argyll:Campbeltown 

@@ -1,4 +1,5 @@
 name John Galbreath
+gender male
 tags Argyll:Campbeltown
 birth -date 3-sep-1842
 baptism -date 26-sep-1842 -location campbeltown -ref john1842-birth
@@ -9,6 +10,7 @@ external {
 }
 partner {
     name Mary Henderson
+	gender female
     marriage -date 24-jul-1874 -location campbeltown -ref henderson-marriage
     death -date 27-apr-1893 -location southend -ref henderson-death
 

@@ -45,7 +45,7 @@ footnotes {
         }
     }
     mary1799-death {
-        $sp-ref-link[d-1868-507-00-0082 0041 "Mary Mitchell"]
+        $sp-ref-link[d-1868-507-00-0082 0028 "Mary Mitchell"]
     }
     sheddan-marriage {
         $opr-ref-link[m-1830-507-000-0060-0297 "Mary Mitchell" "James Sheddan"]{

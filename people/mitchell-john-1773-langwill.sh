@@ -5,6 +5,7 @@ external {
     familysearch KD3M-T6N
     findagrave 176629492
     ancestry tree/12079504/person/282659405176
+    wikitree Mitchell-20425
 }
 
 birth -date 'about 1774' -location campbeltown

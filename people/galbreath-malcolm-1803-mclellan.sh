@@ -1,4 +1,5 @@
 name Malcolm Galbreath
+gender male
 tags argyll:islay:kildalton Argyll:Gigha
 external {
     familysearch MG8J-JDV
@@ -8,51 +9,62 @@ death -date 23-aug-1873 -location kildalton -ref malcolm1803-death
 
 partner {
     name Rachel McLellan
+    gender female
     marriage -date 'about 1827' -ref mclellan-marriage
     birth -date 'about 1817' -note 'daughter of John McLellan and Isabella McNiven'
     death -date 10-nov-1888 -location kildalton -ref mclellan-death
 
     child {
         name Catherine Galbraith
+	gender female
         baptism -date 6-oct-1828 -location kildalton -ref catherine1828-baptism
     }
     child {
         name Isabella Galbraith
+	gender female
         baptism -date 3-nov-1833 -location kildalton -ref isabella1833-baptism
     }
     child {
         name Archibald Galbraith
+	gender male
         baptism -date 'about 1835' -location kildalton -note 'not recorded'
         death -date 05-mar-1872 -location kildalton -ref archibald1835-death
         partner {
             name Mary Dixon
+		gender female
         }
     }
     child {
         name Margaret Galbraith
+        gender female
         baptism -date 19-apr-1836 -location kildalton -ref margaret1836-baptism
     }
     child {
         name Margaret Galbraith
+        gender female
         baptism -date 08-mar-1838 -location kildalton -ref margaret1838-baptism
     }
     child {
         name Alexander Galbraith
+        gender male
         baptism -date 10-mar-1839 -location kildalton -ref alexander1839-baptism
         death -date 1859 -location tradeston,lanark -ref alexander1839-death
     }
     child galbraith-donald-1841-brown
     child {
         name Anne Galbraith
+	gender female
         baptism -date 25-dec-1845 -location kildalton -ref anne1845-baptism
         partner {
             name William Smith
+		gender male
             birth -date 'about 1841' -note 'son of Neil Smith and Peggy McTaggart'
             marriage -date 09-mar-1876 -location kildalton -ref smith-marriage
         }
     }
     child {
         name Malcolm Galbraith
+	gender male
         baptism -date 11-mar-1850 -location kildalton -ref malcolm1850-baptism
     }
 }

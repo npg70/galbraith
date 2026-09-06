@@ -1,4 +1,5 @@
 name Charles Edward Galbraith
+gender male
 tags Glasgow
 external {
     familysearch 93BC-89N
@@ -8,6 +9,7 @@ birth -date 18-mar-1862 -location Glasgow -ref charles1862-birth
 death -date 13-dec-1936 -location Kirkmichael,Dumfries -ref charles1862-death
 partner {
    name Katherine Robina Wilson
+	gender female
    marriage -date 19-nov-1885 -location drymen,stirling -ref wilson-marriage
 
    child {

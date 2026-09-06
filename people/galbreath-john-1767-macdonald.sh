@@ -1,4 +1,5 @@
 name John Galbreath
+gender male
 birth -date 'about 1767'
 tags argyll:gigha 'dead end'
 todo {
@@ -12,6 +13,7 @@ note {
 }
 partner {
     name Merran Sarah MacDonald
+    gender female
     marriage -date 23-feb-1808 -location gigha -ref macdonald-marriage
     birth -date 'about 1787'
 

@@ -1,8 +1,10 @@
 name Archibald Duncan Galbraith
+gender male
 tags argyll:kilfinan
 birth -date 26-jul-1890 -location kilfinan -ref archibald1890-birth
 partner {
     name Margaret Whyte
+	gender female
     marriage -date 21-jun-1912 -location kilfinan -ref whyte-marriage
 
     child {

@@ -1,4 +1,5 @@
 name Alexander Galbraith
+gender male
 tags argyll:lochgilphead
 
 external {
@@ -8,6 +9,7 @@ birth -date 'about 1853' -location greenock
 death -date 17-jun-1917 -location lochgilphead -ref alexander-death
 partner {
   name Euphemia Mitchell
+	gender female
   birth -date 'about 1858' -note 'daughter of Alexander Mitchell and Flora Wilkinson'
   marriage -date 29-dec-1881 -location lochgilphead -ref mitchell-marriage
   death -date 09-oct-1943 -location dunoon,argyll -ref mitchell-death

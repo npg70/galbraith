@@ -1,4 +1,5 @@
 name William Campbell Galbraith
+gender male
 birth -date 3-apr-1871 -location glasgow -ref william1871-birth
 death -date 1-apr-1958 -location ayr -ref william1871-death
 tags glasgow ayr 'no children'
@@ -10,12 +11,14 @@ body {
 }
 partner {
     name Jessie Whyte Thomson
+	gender female
     birth -date 1848
     death -date 1933
     marriage -date 7-aug-1895 -location ayr
 }
 partner {
     name Agnes McKerrow Cook
+	gender female
     birth -date 1890
     death -date 1970
     marriage -date 5-jun-1935 -location ayr

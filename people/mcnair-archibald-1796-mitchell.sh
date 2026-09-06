@@ -14,7 +14,7 @@ body {
 
 He was a farmer in Lochsanish.
 
-Immigration in 1842 on British Barque "Gleaner" arrived at New York on 5 July 1842, 33 days from Campbeltown, Scotland:$ref[gleaner]$ref[gleaner2]
+Immigration in 1842 on British Barque "Gleaner" arrived at New York on 5 July 1842, 33 days from Campbeltown, Scotland:$ref[gleaner]$ref[gleaner2]$ref[gleaner3]
 
 $csvtable{
 #, First, Last, Age, Year, Gender, Role
@@ -29,7 +29,7 @@ $csvtable{
 }
 
 Oddly, his spouse, Mary is missing in the ship's manifest.  Her sister 
-$child-link[mitchell-jean-1806]{Jean} is listed however.  Adn they both appear in the 1850 and 1860 census.
+$child-link[mitchell-jean-1806]{Jean} is listed however.  They both appear in the 1850 and 1860 census.
 
 After landing, they moved to Clermont County, Ohio.
 
@@ -54,7 +54,7 @@ partner {
    parent mitchell-john-1773-langwill 
    marriage -date 28-apr-1825 -location campbeltown -ref mitchell-marriage
    birth -date 10-Apr-1802 -location campbeltown
-   death -date 'about 1841'
+   death -date 16-sep-1864 -location clermont,ohio,usa -ref mitchell-death
 
    child {
         name Archibald McNair
@@ -151,4 +151,10 @@ footnotes {
 
 	"New York, New York, Index to Passenger Lists, 1820-1846", FamilySearch (https://www.familysearch.org/ark:/61903/1:1:K846-GXX : Fri Nov 28 10:25:46 UTC 2025), Entry for Arch McNair, 1842.
    } 
+   gleaner3 {
+	Original ship manifests available on $elink[https://catalog.archives.gov/id/517404450?objectPage=800]{Archive.gov}: National Archives Identifier 517404450, M237 - Passenger Lists of Vessels Arriving at New York, New York, 1820-1897. Roll 49, Slides 799-801.
+   }
+   mitchell-death {
+	Find a Grave, database and images (https://www.findagrave.com/memorial/95675826/mary-mcnair: accessed December 28, 2025), memorial page for Mary Mitchell McNair (10 Apr 1802–16 Sep 1864), Find a Grave Memorial ID 95675826, citing Monroe Presbyterian Cemetery, Nicholsville, Clermont County, Ohio, USA; Maintained by Pixturmn (contributor 47729036).
+   }
 }

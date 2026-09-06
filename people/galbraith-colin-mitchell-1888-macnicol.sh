@@ -1,9 +1,11 @@
 name Colin Mitchell Galbraith
+gender male
 tags 'Argyll:Lochgilphead' 'Argyll:South Knapdale'
 birth -date 1888 -location lochgilphead -ref colin1888-birth
     
 partner {
     name Colina MacNicol
+	gender female
     marriage  -date 1914 -location garngadhil -ref macnichol-marriage
     child {
         name Alexander Galbraith

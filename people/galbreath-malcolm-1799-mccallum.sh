@@ -1,4 +1,5 @@
 name Malcolm Galbreath
+gender male
 tags Argyll:Glassary Immigrant:canada:ontario:middlesex
 external {
     familysearch 9XTL-L9P
@@ -8,6 +9,7 @@ baptism -date 13-jan-1799 -location glassary -ref malcolm1799-baptism
 
 partner {
     name Catherine McCallum
+	gender female
     birth -date 1802 -ref mccallum-burial
     death -date 16-oct-1878 -location middlesex,ontario,canada -ref mccallum-burial
     marriage -date 25-feb-1823 -location glassary -ref mccallum-marriage

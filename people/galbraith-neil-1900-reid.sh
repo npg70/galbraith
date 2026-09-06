@@ -1,9 +1,11 @@
 name Neil Galbraith
+gender male
 tags immigrant:Australia
 birth -date 31-aug-1900 -location dumbarton -ref neil1900-birth
 death -date 1962 -location Perth,AU
 partner {
   name Janet McCallum Reid
+gender female
   birth -date 'about 1900' -note 'daughter of James Reid and Mary Taylor'
   death -date 1994 -location Perth,AU
   marriage -date 19-aug-1921 -location campbeltown -ref reid-marriage

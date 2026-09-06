@@ -1,4 +1,5 @@
 name Neil Galbreath
+gender male
 tags 'Argyll:North Knapdale' Immigrant:Canada:Ontario:Middlesex
 external {
     familysearch M1R1-KYZ
@@ -14,6 +15,7 @@ todo {
 
 partner {
     name Margaret Currie
+	gender female
     birth -date 1795
     death -date 1860 -location canada
     marriage -date 3-apr-1816 -location glassary -ref currie-marriage1

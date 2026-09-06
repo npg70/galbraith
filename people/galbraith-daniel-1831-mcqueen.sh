@@ -1,4 +1,5 @@
 name Daniel Galbraith
+gender male
 baptism -date 8-jul-1831 -location Kilcalmonell -ref daniel1831-baptism
 death -date 20-apr-1896 -location Campbeltown -ref daniel1831-death
 tags Argyll:Campbeltown 'daughtered out'
