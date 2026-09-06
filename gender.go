@@ -9,6 +9,19 @@ const (
 	Unknown
 )
 
+func (g GenderType) String() string {
+	switch g {
+	case Male:
+		return "male"
+	case Female:
+		return "female"
+	case Unknown:
+		return "unknown"
+	default:
+		panic("should never happen")
+	}
+}
+
 func (g GenderType) Child() string {
 	switch g {
 	case Unset, Male:

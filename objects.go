@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/client9/ssg"
 	"github.com/client9/cmdconfig"
+	"github.com/client9/ssg"
 )
 
 type Ref struct {
@@ -101,6 +101,9 @@ type Person struct {
 
 	root Root // not clear why I need this
 
+	keyalias string
+
+	// old ID
 	ID         string
 	Name       []string
 	Gender     GenderType
@@ -156,6 +159,20 @@ func (p *Person) LastName() string {
 	return p.Name[len(p.Name)-1]
 }
 
+// NameSlug returns last-first-middle(ifany), all lower case, suitable
+// for use an part of a key id, or url.
+func (p *Person) NameSlug() string {
+	parts := []string{}
+	parts = append(parts, p.LastName())
+	parts = append(parts, p.Name[:len(p.Name)-1]...)
+
+	slug := strings.Join(parts, "-")
+	slug = strings.ReplaceAll(slug, "/", "_")
+	slug = strings.ReplaceAll(slug, " ", "_")
+	slug = strings.ToLower(slug)
+	return slug
+}
+
 func shortEventYear(e *Event) string {
 	if e == nil || e.Date.year == 0 {
 		return ""
@@ -176,11 +193,36 @@ func (p *Person) BirthYearString() string {
 	}
 	return shortEventYear(e)
 }
+
+// BirthYear returns the birth or baptism year as an integer, or 0 if unknown.
+// Any qualifiers are ignored.
+func (p *Person) BirthYear() int {
+	e := p.Events["birth"]
+	if e != nil && e.Date.year != 0 {
+		return e.Date.year
+	}
+	e = p.Events["baptism"]
+	if e != nil && e.Date.year != 0 {
+		return e.Date.year
+	}
+	return 0
+}
+
 func (p *Person) DeathYearString() string {
 	return shortEventYear(p.Events["death"])
 }
 func (p *Person) MarriageYearString() string {
 	return shortEventYear(p.Events["marriage"])
+}
+
+// MarriageYear returns the marriage year or 0 if unknowns.
+// All qualifiers are ignored.
+func (p *Person) MarriageYear() int {
+	e := p.Events["marriage"]
+	if e != nil {
+		return e.Date.year
+	}
+	return 0
 }
 
 func (p *Person) BirthLocation() string {
@@ -297,9 +339,9 @@ func (p *Person) UnmarshalText(text []byte) error {
 				//    and then has Mary as a partner WITH children
 				//    also defines Mary's ID as a pointer=
 				//
-				// want Mary's page to load in her children that are 
+				// want Mary's page to load in her children that are
 				// defined by her partner.
-				//	
+				//
 				p.Partners = append(p.Partners, newp)
 			} else {
 				newp := &Person{root: p.root}
@@ -372,6 +414,16 @@ func (p *Person) UnmarshalText(text []byte) error {
 }
 
 type Root map[string]*Person
+
+// find by the new key
+func (r Root) FindByKey(key string) *Person {
+	for _, p := range r {
+		if key == p.ID {
+			return p
+		}
+	}
+	return nil
+}
 
 func (r Root) Load(id string) (*Person, error) {
 	val, ok := r[id]
