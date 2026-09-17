@@ -1,0 +1,8 @@
+name Anne McPherson
+gender female
+birth -date 1848 
+family {
+  spouse {
+    key galbraith-alexander-1844-mcpherson
+  }
+}

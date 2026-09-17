@@ -1,0 +1,18 @@
+name James Templeton
+gender male
+baptism -date 28-apr-1800 -location campbeltown -ref james1801-baptism
+death -date 22-feb-1888 -location campbeltown -ref james1801-death
+family {
+ spouse {
+  key galbreath-orsella-1805-templeton
+ }
+}
+
+footnotes {
+  james1801-baptism {
+    $opr-ref[b-1801-507-000-0040-0200 "James Templeton"]
+  }
+  james1801-death {
+    $sp-ref-link[d-1888-507-00-0036 12 "James Templeton"]
+  }
+}

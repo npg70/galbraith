@@ -1,0 +1,11 @@
+name Jackie Templeton
+gender female
+birth  -date 08-oct-1783
+baptism -date 12-oct-1783 -location campbeltown
+
+family {
+  spouse {
+    key galbreath-archibald-1780-templeton
+  }
+}
+

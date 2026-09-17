@@ -1,0 +1,27 @@
+name Isabell Fleeming
+external {
+   familysearch KZX1-C33
+}
+gender female
+baptism -date 19-feb-1817 -location campbeltown -ref isabell1817-baptism
+death -date  08-nov-1894 -location washington,ohio,usa
+family {
+  spouse {
+     key harvey-samuel-1813-fleeming
+  }
+}
+
+footnotes {
+    isabell1817-baptism {
+	$opr-ref-link[b-1817-507-000-0040-0457 "Isabell Fleeming"]
+	$blockquote{
+		
+		Isabell | Lawful Daughter to John Fleeming Farmer Achinleek 
+		and Jean Colvill born 14th baptized 19th Febry 1817. Named Isabell	
+
+	}
+	}
+
+}
+
+

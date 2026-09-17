@@ -1,0 +1,89 @@
+name John Breckenridge
+gender male
+tags argyll:Campbeltown argyll:Chisken
+
+baptism -date 23-jul-1733
+death -date 1811 -location campbeltown
+external {
+	familysearch LZ6J-C63
+	findagrave 36356695
+	wikitree Brackenridge-1
+}
+body {
+	He was farmer at Chisken.
+}
+
+family {
+spouse {
+	name Janet Picken
+	gender female
+	birth -date 1731
+	death -date 1819		
+}
+	marriage -date 08-sep-1759 -location campbeltown -ref picken-marriage
+
+	child {
+		name Hugh Breckenridge
+		gender male
+		birth -date 'about 1760' -location 'south end'
+		death -date 24-may-1825
+		body { m. Janet Brown }
+	}
+
+	child breckenridge-isabella-mary-1764-clark
+
+	child breckenridge-margaret-1765-clark 
+
+	child {
+		name Andrew Breckenridge
+		gender male
+		birth -date 'about 1767'
+		death -date 08-sep-1827 -location campbeltown
+		body { m. Agnes Brown }
+	}
+	child {
+		name Thomas Breckenridge
+		gender male
+		baptism -date 27-jun-1769 -location 'south end' -ref thomas1769-baptism
+		death -note dy
+	}
+
+	child breckenridge-john-1770-mcmillan
+
+	child breckenridge-william-1772-clark
+
+	child breckenridge-mary-1776-dunlop
+
+	child {
+		name Janet Breckenridge
+		gender female
+		birth -date 08-dec-1778
+		baptism -date 09-dec-1778 -location campbeltown -ref janet1778-baptism
+		death -note dy
+	}
+
+	child breckenridge-thomas-1781-ralston-mcmillan
+
+	child breckenridge-janet-1784-mcmillan
+}
+
+footnotes {
+
+	
+	picken-marriage {
+		$opr-ref-link[m-1759-507-000-0011-0460 "John Breckinrig" "Janet Picken"]{
+			John Breckinrig + Janet Picken S. End | Sept 8th [1759]
+		}
+		$opr-ref-link[m-1759-507-000-0010-0245 "John Breckinrig" "Janet Picken"]{
+			Sept 8 John Breckinrig + Janet Picken S. End
+		}
+	}
+
+	thomas1769-baptism {
+		Father is John, mother not recorded.
+		$opr-ref[b-1769-532-000-0010-0007 "Thomas Breckinridge"]
+	}
+	janet1778-baptism {
+		$opr-ref[b-1778-507-000-0020-0041 "Janet Brakenrig"]
+	}
+}

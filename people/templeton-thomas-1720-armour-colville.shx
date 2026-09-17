@@ -1,0 +1,25 @@
+name Thomas Templeton
+gender male
+external {
+  familysearch K8WP-WCM
+}
+
+baptism -date 24-sep-1720 -location campbeltown
+death -date 1808 -location campbeltown
+
+family {
+  spouse {
+    name Janet Armour
+    gender female
+  }
+}
+
+family {
+   spouse {
+     name Agness/Ann Colville
+     gender female
+   }
+
+   child templeton-jackie-1783-galbreath
+}
+

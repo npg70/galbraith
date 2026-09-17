@@ -1,0 +1,21 @@
+name Janet Breckenridge
+gender female
+external {
+  familysearch LQ8W-KFB
+}
+
+birth -date 25-jul-1804
+baptism -date 26-jul-1804 -location campbeltown -ref janet1804-baptism
+death -date 03-dec-1880 -location campbeltown
+
+family {
+  spouse {
+    key armour-william-1799-breckenridge
+  }
+}
+
+footnotes {
+	janet1804-baptism {
+		$opr-ref[b-1804-507-000-0040-0266 "Janet Breakenridge"]
+	}
+}

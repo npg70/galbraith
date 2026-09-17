@@ -1,0 +1,16 @@
+name Robert Clark
+gender male
+external {
+  familysearch 9M96-38X
+}
+
+birth -date 03-sep-1823 
+baptism -date 14-sep-1823 -location campbeltown
+death -date 03-aug-1897 -location campbeltown
+
+family {
+  spouse {
+    key mcnair-catharine-1840-clark
+  }
+  marriage -date 21-mar-1861 -location campbeltown
+}

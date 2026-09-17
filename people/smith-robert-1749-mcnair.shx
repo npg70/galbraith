@@ -1,0 +1,15 @@
+name Robert Smith
+gender male
+body { He was the son of Robert Smith and Jean Anderson. }
+birth -date 07-dec-1749
+baptism -date 08-dec-1749 -location campbeltown
+death -date 21-jan-1829 -location campbeltown -ref smith-death
+body {
+ He was the son of Robert Smith and Jean Anderson
+}
+footnotes {
+    smith-death {
+        Find a Grave, database and images (https://www.findagrave.com/memorial/167026963/robert-smith: accessed March 23, 2025), memorial page for Robert Smith (1750–1829), Find a Grave Memorial ID 167026963, citing Campbeltown Kilkerran Cemetery, Campbeltown, Argyll and Bute, Scotland; Maintained by LSP (contributor 46860931).
+    }
+}
+

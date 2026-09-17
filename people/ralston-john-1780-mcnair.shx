@@ -1,0 +1,44 @@
+name John Ralston
+gender male
+tags Ralston Argyll:Southend
+baptism -date 25-jun-1780 -location southend -ref john1780-baptism
+
+external {
+  familysearch LKTV-ZV7
+  wikitree Ralston-1440
+  findagrave 182316108
+}
+
+family {
+  spouse {
+    key mcnair-agnes-1785-ralston
+  }
+
+  child {
+		name James Ralston
+		gender male
+		birth -date 02-jul-1808
+		baptism -date 05-sep-1808 -location campbeltown
+		death -date 16-mar-1841 -location campbeltown
+
+  }
+  child {
+		name Jackie Ralston
+		gender female
+		birth -date 28-may-1810
+		baptism -date 05-jun-1810 -location campbeltown
+		death -date 28-dec-1891 -location campbeltown
+			body { m. David Ralston }
+  }
+}
+
+footnotes {
+
+    john1780-baptism {
+	$opr-ref-link[b-1780-532-000-0010-0033  "John Ralston"]
+	$blockquote{
+		June 25 $s{James} John lawfl son of Andrew Ralston in Knockstapplebeg
+        }
+    }
+
+}

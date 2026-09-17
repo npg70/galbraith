@@ -1,0 +1,33 @@
+name Murdoch Galbreath
+gender male
+tags argyll:gigha 'argyll:kilcalmonell and kilberry' 'daughtered out'
+external {
+    familysearch M1Y2-X44
+}
+birth -date 'about 1770'
+death -date 16-feb-1846 -location gigha -ref murdoch1770-death
+family {
+   spouse {
+    name Margrat Douglas
+	gender female
+	}
+    marriage -date 13-jan-1798 -location 'kilcalmonell and kilberry' -ref douglas-marriage
+
+    child galbreath-catharine-1799-galbreath
+
+    child {
+        name Mary Galbreath
+        baptism -date 6-jun-1804 -location 'kilcalmonell and kilberry' -ref mary1804-baptism
+    }
+}
+footnotes {
+    murdoch1770-death {
+        $opr-ref[d-1846-537-000-0020-0063 "Murdoch Galbreath"]
+    }
+    douglas-marriage {
+        $opr-ref[m-1798-516-000-0010-0347 "Murdoch Galbreath" "Margrat Douglas"]
+    }
+    mary1804-baptism {
+        $opr-ref[b-1804-516-000-0010-0156 "Mary Galbreath"]
+    }
+}

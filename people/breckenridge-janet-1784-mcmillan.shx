@@ -1,0 +1,32 @@
+name Janet Breckenridge
+gender female
+external {
+ familysearch 2WHX-K3S
+}
+birth -date 03-jan-1784
+baptism -date 04-jan-1784 -location campbeltown -ref janet1784-baptism
+family {
+  spouse {
+	name James MacMillan	
+	gender male
+   }
+   marriage -date 21-jun-1804 -location campbeltown
+ 
+   child {
+	name Daniel MacMillan
+	gender male
+	birth -date 18-dec-1809
+	baptism -date 20-dec-1809 -location campbeltown
+   }
+}
+footnotes {
+	janet1784-baptism {
+		$opr-ref-link[b-1784-532-000-0020-0071 "Janet Breakenridge"]{
+			Jenat Lawful Daur to John Breakenridge Farmer in Sishan +
+			Jenat Picken was born 3rd & Baptd 4th Janry [1784]
+		}
+	}
+
+}
+
+

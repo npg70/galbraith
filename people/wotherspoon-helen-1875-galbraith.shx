@@ -1,0 +1,14 @@
+name Helen Wotherspoon
+gender female
+birth -date 08-aug-1875 -location gigha
+death -date 2-jun-1951 -location kilberry -ref wotherspoon-death
+family {
+spouse {
+key galbraith-archibald-1861-wotherspoon
+}
+}
+footnotes {
+    wotherspoon-death {
+        $sp-ref-link[d-1951-533-02-0003 0001 "Helen Galbraith"]
+    }
+}

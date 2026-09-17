@@ -1,0 +1,21 @@
+name Catharine Galbreath
+baptism -date feb-1799 -location 'kilcalmonell and kilberry' -ref catharine1799-baptism
+death -date 23-nov-1878 -location tarbert,argyll -ref catharine1799-death
+body {
+            m $child-link[galbreath-donald-1798-galbreath]{Donald Galbreath}
+}
+family {
+  spouse {
+    key galbreath-donald-1798-galbreath
+   }
+}
+footnotes {
+    catharine1799-baptism {
+        $opr-ref[b-1799-516-000-0010-0115 "Catharine Galbreath"]
+    }
+    catharine1799-death {
+        $sp-ref-link[d-1878-535-00-0027 0009 "Catherine Galbraith"]
+    }
+
+}
+

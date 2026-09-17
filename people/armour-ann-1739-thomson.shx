@@ -1,0 +1,50 @@
+name Ann Armour
+baptism -date 19-aug-1739 -location campbeltown
+gender female
+external {
+	familysearch K4J3-51V
+}
+
+family {
+  spouse {
+	name Robert Thomson
+	gender male
+   }
+   marriage -date 23-jul-1759 -location campbeltown -ref thomson-marriage
+
+	child {
+		name Helen Thomson
+		gender female
+		birth -date 26-dec-1761
+		baptism -date 26-dec-1761 -location campbeltown
+		death -date 1835
+		body { m. William Porter }
+	}
+	child {
+		name John Thomson
+		gender male
+		birth -date 18-jan-1764 
+		baptism -date 19-jan-1764 -location campbeltown
+	}
+	child {
+		name Alexander Thomson
+		gender male
+		birth -date 17-dec-1765
+		baptism -date 18-dec-1765 -location campbeltown
+	}
+	child {
+		name Robert Thomson
+		gender male
+		birth -date 16-sep-1768
+		baptism -date 20-sep-1768 -location campbeltown
+	}
+        child thomson-isabell-1771-armour
+}
+footnotes {
+	thomson-marriage {
+		$opr-ref-link[m-1759-507-000-0011-0460 "Ann Armour" "Robert Thomson"]{
+		Robert Thomson & Ann Armour | July 23 1759
+	}
+		$opr-ref-link[m-1759-507-000-0010-0245 "Ann Armour" "Robert Thomson"]
+	}
+}

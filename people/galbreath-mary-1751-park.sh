@@ -36,10 +36,6 @@ partner {
     marriage -date 15-nov-1771 -location campbeltown -ref andrew-marriage
     death -date 'about 1776'
 
-    external {
-        familysearch M1T4-5WB
-    }
-
     child andrew-agnes-1772-greenlees
 
     child {

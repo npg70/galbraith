@@ -1,0 +1,14 @@
+name Janet Watson
+gender female
+external {
+ familysearch M1TL-M9H
+}
+
+baptism -date 07-mar-1787 -location campbeltown
+
+family {
+  spouse {
+    key harvey-peter-1785-watson
+  }
+}
+

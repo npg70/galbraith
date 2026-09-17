@@ -1,0 +1,31 @@
+name William Armour
+gender male
+external {
+  familysearch M1T1-TJV
+}
+
+baptism -date 14-apr-1779 -location campbeltown -ref william1779-baptism
+death -date 22-mar-1858 -location campbeltown
+family {
+  spouse {
+    name Mary Brown
+    gender female
+  }
+}
+
+family {
+  spouse {
+      key dunlop-mary-1807-armour
+  }
+
+   marriage -date 03-jan-1828 -location campbeltown
+}
+
+footnotes {
+
+    william1779-baptism {
+        $opr-ref[b-1779-507-000-0020-0042 "William Armour"]
+    }
+
+}
+

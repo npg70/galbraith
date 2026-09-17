@@ -1,0 +1,13 @@
+name James Paterson
+gender male
+birth -date 08-aug-1807
+baptism -date 10-aug-1807 -location campbeltown
+
+   body {
+    He worked as a distillery mashman.
+   }
+family {
+  spouse {
+   key galbraith-isabella-1808-paterson
+ }
+}

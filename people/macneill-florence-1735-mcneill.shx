@@ -1,0 +1,9 @@
+name Florence MacNeill
+gender female
+baptism -date 30-nov-1735 -location kildalton
+family {
+  spouse {
+    key mcneill-malcom-1735-mcneill
+  }
+}
+

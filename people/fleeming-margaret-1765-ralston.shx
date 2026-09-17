@@ -1,0 +1,10 @@
+name Margaret Fleeming
+gender female
+birth -date 'about 1765'
+
+family {
+  spouse {
+    key ralston-andrew-1758-fleeming
+  }
+}
+

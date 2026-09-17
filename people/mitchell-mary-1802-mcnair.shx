@@ -1,0 +1,30 @@
+name Mary Mitchell
+gender female
+tags argyll:campbeltown immigrant:usa:ohio:clermont
+external {
+	findagrave 95675826
+	wikitree Mitchell-24126
+	ancestry tree/12079504/person/282657247491
+}
+birth -date 10-Apr-1802 -location campbeltown
+baptism -date 13-apr-1802 -location campbeltown -ref mary1802-baptism
+death -date 16-sep-1864 -location clermont,ohio,usa -ref mitchell-death
+family {
+  spouse {
+   key  mcnair-archibald-1796-mitchell
+  }
+}
+
+confused-with mitchell-mary-1803-greenlees
+confused-with mitchell-mary-1799-sheddan
+footnotes {
+    mary1802-baptism {
+        $opr-ref-link[b-1802-507-000-0040-0227 "Mary Mitchell"]{
+            Mary | John Mitchell & Janet Langwill in Killivan had a lawful
+            Dau born 10th baptized 13th named Mary
+       }
+    }
+   mitchell-death {
+	Find a Grave, database and images (https://www.findagrave.com/memorial/95675826/mary-mcnair: accessed December 28, 2025), memorial page for Mary Mitchell McNair (10 Apr 1802–16 Sep 1864), Find a Grave Memorial ID 95675826, citing Monroe Presbyterian Cemetery, Nicholsville, Clermont County, Ohio, USA; Maintained by Pixturmn (contributor 47729036).
+   }
+}

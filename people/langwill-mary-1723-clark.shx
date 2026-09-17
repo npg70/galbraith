@@ -1,0 +1,13 @@
+name Mary Langwill
+gender female
+external {
+  familysearch KH8Z-JD4
+}
+birth -date 03-mar-1723
+baptism -date 07-mar-1723 -location campbeltown
+family {
+  spouse {
+    key clark-john-1719-langwill
+  }
+}
+

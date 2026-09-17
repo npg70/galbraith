@@ -1,0 +1,54 @@
+name John Dunlop
+gender male
+external {
+	familysearch KCBR-TZZ
+	findagrave 100209036
+}
+birth -date 23-apr-1784
+baptism -date 2-apr-1784 -location 'south end'
+death -date 20-nov-1860 -location 'washington,ohio,usa'
+marriage -date 08-sep-1807 -location campbeltown
+
+family {
+  spouse {
+     key breckenridge-mary-1776-dunlop
+  }
+	marriage -date 08-sep-1807 -location campbeltown
+
+        child dunlop-mary-1807-armour
+
+	child dunlop-john-1808-breckenridge
+
+	child dunlop-martha-1810-breckenridge
+
+	child {
+		name Robert R Dunlop
+		gender male
+		birth -date 12-sep-1812
+		baptism -date 24-sep-1812 -location campbeltown
+		death -date 14-feb-1897 -location washington,ohio,usa
+		body { m. Janette Greenlees }
+	}
+	child {
+		name Margaret Dunlop
+		gender female
+		birth -date 13-mar-1814
+		baptism -date 16-mar-1814 -location campbeltown
+		death -date 12-may-1900 -location washington,ohio,usa
+		body { m. Hugh Mitchell }
+	}
+	child {
+		name Isabella Dunlop
+		gender female
+		baptism -date 21-jul-1818 -location campbeltown
+		death -date 18-oct-1907 -location washington,ohio,usa
+		body { m. Daniel Drain }
+	}
+	child {
+		name Agnes Dunlop
+		gender male
+		birth -date 04-mar-1821
+		baptism -date 07-mar-1821 -location campbeltown
+		death -date 04-aug-1896 -location washington,ohio,usa
+	}
+}

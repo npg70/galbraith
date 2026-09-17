@@ -1,0 +1,24 @@
+name Janet Greenlees
+gender female
+baptism -date 16-jan-1811 -location campbeltown -ref janet1811-baptism
+death -date 29-jan-1869 -location campbeltown -ref janet1811-death
+family {
+  spouse {
+    key  mitchell-samuel-1807-greenlees
+  }
+}
+
+footnotes {
+    janet1811-baptism {
+        $opr-ref-link[b-1811-507-000-0040-0364 "Janet Greenlees"]{
+        Janet | Lawful Daughter to James Greenlees farmer Smerby and
+        Catharine Galbreath born 13th [15th?] baptized 16th January 1811
+        named Janet
+        }
+    }
+    janet1811-death {
+        $sp-ref-link[d-1869-507-00-0017 0006 "Janet Greenlees"]
+    }
+
+}
+

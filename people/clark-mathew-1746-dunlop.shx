@@ -1,0 +1,25 @@
+name Mathew Clark
+gender male
+external {
+  familysearch KHP5-DG1
+}
+
+birth -date 14-jan-1746
+baptism -date 15-jan-1746 -location campbeltown
+death -date 20-may-1839 -location campbeltown
+
+family {
+   spouse clark-mathew-1746-dunlop
+
+   marriage -date 22-jun-1793 -location campbeltown -ref clark-marriage
+
+   child clark-isabell-1809-harvey
+}
+
+footnotes {
+    clark-marriage {
+        $opr-ref-link[m-1793-507-000-0050-0034 "Isabel Dunlop" "Mathew Clark"]{
+            Mathew Clark & Isabell Dunlop of Killean Parish 22 $i{June 1793}
+        }
+    }
+}

@@ -1,0 +1,38 @@
+name Neil Galbreath
+gender male
+baptism -date 10-oct-1801 -location gigha -ref neil1801-baptism
+death -date 27-oct-1890 -location campbeltown -ref neil1801-death
+tags Argyll:Campbeltown
+external {
+    familysearch KH1S-2L3
+}
+family  {
+  spouse {
+    name Elizabeth Blue
+     gender female
+    body {
+        She was the daughter of Duncan Blue and Elizabeth Bruce.
+    }
+    birth -date 07-apr-1805 -location campbeltown
+    baptism -date 23-apr-1805 -location campbeltown
+    death -date 07-jun-1888 -location campbeltown -ref blue-death
+    }
+    marriage -date 29-aug-1842 -location campbeltown -ref blue-marriage
+    child galbraith-isabella-1843-galbreath
+    child galbreath-dugald-1845-ferguson
+}
+footnotes {
+    neil1801-baptism {
+        $opr-ref[b-1801-537-000-0010-0021 "Neil Galbreath"]
+    }
+    neil1801-death {
+        $sp-ref-link[d-1890-507-00-0139 0047 "Neil Galbraith"]
+    }
+    blue-marriage {
+        $opr-ref[m-1842-507-000-0060-0383 "Neil Galbreath" "Elizabeth Blue"]
+    }
+    blue-death {
+        $sp-ref-link[d-1888-507-00-0085 0029 "Elizabeth Galbraith"]
+    }
+}
+

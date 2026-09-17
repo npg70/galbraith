@@ -1,0 +1,25 @@
+name Robert Clark
+gender male
+external {
+  familysearch 9M96-3C8
+}
+birth -date 30-aug-1764 -location campbeltown
+baptism -date 30-aug-1764 -location campbeltown
+family {
+  spouse {
+	key galbraith-mary-1788-clark
+  }
+   marriage -date 22-may-1813 -location campbeltown -ref clark-marriage
+
+   child clark-robert-1823-mcnair
+
+}
+footnotes {
+    clark-marriage {
+        $opr-ref-link[m-1813-507-000-0050-0104 "Mary Galbreath" "Robert Clark"]{
+            Robert Clark farmer Dalinoch and Mary Galbreath 
+            Daughter to David Galbreath farmer Ugadal both of this Parish
+            was married 22 April 1813
+     }
+  }
+}

@@ -1,0 +1,9 @@
+name Isabella Mary Breckenridge
+gender female
+birth -date 'about 1764'
+death -date 09-sep-1848 -location 'glade spring, washington, virginia, usa'
+family {
+  spouse {
+    key clark-james-1754-breckenridge
+  }
+}

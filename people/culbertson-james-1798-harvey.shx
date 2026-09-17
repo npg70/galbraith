@@ -1,0 +1,28 @@
+        name James Culbertson
+        gender male
+        baptism -date 11-aug-1798 -location campbeltown
+
+family {
+ spouse {
+   key  harvey-jean-1798-culbertson
+ }
+    marriage -date 07-jun-1820 -location 'Killean and Kilchenzie' -ref culbertson-marriage
+}
+
+footnotes {
+    culbertson-marriage {
+        Recorded twice, a month apart in Killean and Campbeltown:
+
+        $opr-ref-link[m-1820-519-000-0020-0205 "Jean Harvey" "James Culbertson"]{
+            June | 6 | James Culbertson from Campbeltown Parish
+                Jean Harvey Ballevein [1820]
+        }
+        $opr-ref-link[m-1820-507-000-0060-0240 "Jean Harvie" "James Culbertson"]{
+            James Culbertson Farmer of this Parish & Jean Harvie Daughter
+            of Jas Harvie Farmer Ballyvain in Bullchantue[?] Parish
+            married 7th june [1820]
+        }
+    Referencing $elink[https://maps.app.goo.gl/EixTJCkg18fs4SSt9]{Bellochantuy}, which is between Killean, and Kilchenzie. on the west side of the Kintyre pennisula.  Ballyvain is located just north of Kilchenzie.
+    }
+
+}

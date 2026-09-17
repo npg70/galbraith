@@ -1,0 +1,10 @@
+        name Agnes Armour
+        gender female
+        baptism -date 05-jun-1752 -location Campbeltown
+
+family {
+  spouse {
+    key galbreath-henry-1739-armour
+  }
+}
+

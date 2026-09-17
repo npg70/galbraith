@@ -1,0 +1,16 @@
+name Elizabeth Colville
+gender female
+external {
+	familysearch KHPJ-T5X
+	findagrave 158186112
+}
+birth -date 13-may-1802 
+baptism -date 19-may-1802 -location campbeltown
+death -date 27-nov-1886 -location campbeltown
+
+family {
+  spouse {
+    key smith-andrew-1792-colville
+  }
+}
+

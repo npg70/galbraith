@@ -1,0 +1,16 @@
+    name Flora Galbreath
+    gender female
+    birth -date 'about 1773'
+    death -date 27-nov-1856 -location gigha -ref flora-death
+family {
+  spouse {
+    key galbreath-adam-1767-galbreath
+  }
+}
+footnotes {
+
+    flora-death {
+        $sp-ref-link[d-1856-537-00-0005 0002 "Flora Galbreath"]
+    }    
+
+}

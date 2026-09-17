@@ -1,0 +1,10 @@
+                name Mary MacNeill
+                gender female
+                birth -date 'about 1700'
+
+family {
+  spouse {
+	key macneill-malcom-1700-macneill
+  }
+}
+

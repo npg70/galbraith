@@ -1,0 +1,15 @@
+name Martha Harvie
+gender female
+birth -date 15-nov-1764
+baptism -date 18-nov-1764 -location campbeltown
+body {
+    Immigrated in 1814 with their sons.
+}
+death -date 1821 -location washington,virginia,usa
+burial -location washington,virginia,usa -name 'Old Glade Spring Cemetery'
+
+family {
+  spouse {
+    key clark-robert-1756-harvie
+  }
+}

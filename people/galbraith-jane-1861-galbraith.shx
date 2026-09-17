@@ -1,0 +1,16 @@
+name Jane Galbraith
+gender female
+
+birth -date 19-dec-1861 -location campbeltown -ref jane1861-birth
+death -date 1-nov-1914 -location glasgow -ref jane-death
+
+family {
+  spouse {
+    key galbraith-donald-1863-galbraith 
+  }
+}
+footnotes {
+    jane1861-birth {
+        $sp-ref-link[b-1861-507-00-0238 0080 "Jane Galbraith"]
+    }
+}

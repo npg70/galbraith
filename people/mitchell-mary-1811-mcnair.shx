@@ -1,0 +1,20 @@
+name Mary Mitchell
+gender female
+birth -date 27-sep-1811
+baptism -date 29-Sep-1811 -location campbeltown -ref mary1811-baptism
+death -date 07-jul-1880 -location Nichollsville,clermont,oh,usa
+family {
+  spouse {
+    key mcnair-william-1807-mitchell
+  }
+}
+footnotes {
+    mary1811-baptism {
+        $opr-ref-link[b-1811-507-000-0000-0375 "Mary Mitchell"]{
+            Mary | Lawful Daughter to William Mitchell farmer Craigs and
+            Janet Galbreath born 27th bapt 29 Sept 1811. Named Mary.    
+        }
+    }
+
+}
+

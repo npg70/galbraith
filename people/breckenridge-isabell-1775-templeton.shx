@@ -1,0 +1,12 @@
+name Isabell Breckenridge
+gender female
+birth -date 25-jul-1775
+baptism -date 30-jul-1775 -location campbeltown
+family {
+  spouse {
+	name James Templeton
+	gender male
+  }
+  child templeton-james-1800-galbreath
+}
+

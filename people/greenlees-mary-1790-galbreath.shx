@@ -1,0 +1,18 @@
+name Mary Greenlees
+gender female
+baptism -date 13-jan-1790 -location campbeltown -ref mary1790-baptism
+    death -date 12-apr-1875 -location huron,ontario,canada
+family {
+  spouse {
+    key galbreath-david-1793-greenlees
+  }
+}
+footnotes {
+
+    mary1790-baptism {
+        $opr-ref-link[b-1790-507-000-0020-0117 "Mary Greenlees"]{
+            Mary Lawful dau to Thomas Greenlees [?] mill Strawmiln &
+            Helen Greenlees was born 12th + Bapt. 13th Janry
+        }
+    }
+}

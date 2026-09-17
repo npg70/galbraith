@@ -1,0 +1,139 @@
+name James McNair
+gender male
+tags argyll:campbeltown argyll:smerby
+external {
+    familysearch 9M9D-HZ6
+    findagrave 170377115
+    ancestry tree/12079504/person/282273117172
+    wikitree MacNair-38
+}
+birth -date 02-aug-1807
+baptism -date 04-aug-1807 -location campbeltown -ref james1807-baptism
+death -date 24-feb-1885 -location campbeltown
+body {
+    From the census records$ref[census-1841] $ref[census-1851] $ref[census-1861] $ref[census-1871] $ref[census-1881] he was a farmer in Low or South Smerby, Campbeltown on 50-100 acres and employing a few people.
+}
+
+family {
+
+  spouse {
+    name Anne Johnston
+    gender female
+    baptism -date 02-jul-1805 -location 'Killean and Kilchenzie'
+    death -date 24-nov-1835
+  }
+
+  marriage -date 23-jan-1827 -location 'Killean and Kilchenzie'
+
+  child mcnair-robert-1827-greenlees
+    
+  child {
+        name Jean McNair
+        birth -date 16-jan-1834
+        baptism -date 10-feb-1834 -location campbeltown
+        death -date 04-nov-1909 -location 'Winnebago,Illnois,USA'
+	body { m. John Colville Smith }
+  }
+    child {
+        name Martha McNair
+        birth -date 23-nov-1835
+        baptism -date 08-dec-1835 -location campbeltown
+        death -date 28-may-1907 -location campbeltown
+	body { m. Robert Smith }
+    }
+    child mcnair-ann-1835-mitchell
+
+}
+family {
+  spouse {
+    key  greenlees-susan-1815-mcnair
+  }
+
+    marriage -date 19-dec-1837
+
+    child mcnair-james-1838-ferguson
+
+    child mcnair-catharine-1840-clark
+
+    child {
+        name John McNair
+        gender male
+        birth -date 11-nov-1842
+        baptism -date 21-nov-1842 -location campbeltown
+    }
+    child {
+        name Janet McNair
+        gender female
+        birth -date 17-oct-1844
+        baptism -date 17-nov-1844 -location campbeltown
+        death -date 29-aug-1887 -location Winnebago,Illinois,USA
+	body {m(1). Duncan Drain, m(2). William Greenlees }
+    }
+    child {
+        name Mary Colvill McNair
+        gender female
+        birth -date 19-sep-1847
+        baptism -date 22-oct-1847 -location campbeltown
+        death -date 25-may-1884 -location campbeltown
+        body {
+            Needs research.
+        }
+    }
+    child {
+        name Samuel McNair
+        gender male
+        birth -date 25-jan-1849
+        baptism -date 11-feb-1849 -location campbeltown
+        death -date 19-dec-1927 -location campbeltown
+	body { m. Isabella Stewart }
+    }
+    child {
+        name Archibald McNair
+        gender male
+        birth -date 15-sep-1851
+        baptism -date 9-nov-1851 -location campbeltown
+        death -date 1-feb-1914
+	body { m. Jane Ralston }
+    }
+    child {
+        name Susan McNair
+        gender female
+        birth -date 19-feb-1854
+        baptism -date 16-apr-1854 -location campbeltown
+        death -date 15-feb-1937 -location campbeltown
+	body { m. Thomas Mitchell }
+
+    }
+    child {
+        name Sarah McNair
+        gender female
+        birth -date 6-jul-1856 -location campbeltown
+        death -date 13-jan-1925 -location campbeltown
+	body { m. John McConachy }
+    }
+}
+
+footnotes {
+    james1807-baptism {
+        $opr-ref-link[b-1807-507-000-0040-0307 "James MacNair"]{
+            James | Lawful son to Robert MacNair Farmer Smerby and
+            Jean Johnston born 2nd & baptized the 4th August 1807 named James
+        }
+    }   
+    census-1841 {
+        https://www.findmypast.com/transcript?id=GBC%2F1841%2F0016597507&expand=true&tab=this
+    }
+    census-1851 {
+        https://www.findmypast.com/transcript?id=GBC%2F1851%2F0019263952&expand=true&tab=this
+    }
+    census-1861 {
+        https://www.findmypast.com/transcript?id=GBC%2F1861%2F0022169094&expand=true&tab=this
+    }
+    census-1871 {
+        https://www.findmypast.com/transcript?id=GBC%2F1871%2F0023447899&expand=true&tab=this
+    }
+    census-1881 {
+        https://www.findmypast.com/transcript?id=GBC%2F1881%2F0029341450&expand=true&tab=this
+    }
+}
+

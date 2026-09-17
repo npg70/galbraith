@@ -1,0 +1,16 @@
+name Mary Orr
+gender female
+baptism -date 12-dec-1756  -location campbeltown -ref mary1756-baptism
+
+family {
+  spouse {
+    key harvey-james-1753-orr
+  }
+}
+footnotes {
+
+ mary1756-baptism {
+        $opr-ref-link[b-1756-507-000-0011-0303 "Mary Orr"]
+        $opr-ref[b-1756-507-000-0010-0231 "Mary Orr"]
+ }
+}

@@ -1,0 +1,12 @@
+name Mary Breckenridge
+gender female
+birth -date 18-oct-1792
+baptism -date 19-oct-1792 -location campbeltown -ref mary1792-baptism
+death -date 16-mar-1887 -location 'tungkilllo,south australia,australia'
+
+family {
+  spouse {
+    key breckenridge-john-1789-breckenridge
+  }
+}
+

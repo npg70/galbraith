@@ -1,0 +1,22 @@
+name Peter Clark
+gender male
+
+   baptism -date 17-mar-1752 -location campbeltown
+   death -date 25-sep-1821 -location "Glade Spring,Washington,Virginia,USA"
+
+family {
+	spouse {
+		key galbreath-mary-1759-clark
+	}
+	marriage -date 11-june-1784 -location campbeltown -ref clark-marriage
+}
+footnotes {
+
+    clark-marriage {
+        $opr-ref-link[m-1784-507-000-0020-0167 "Mary Galbreath" "Peter Clark"]{
+            Peter Clark & Mary Galbreath both of this Parish were contracted 11th June & married
+        }
+    }
+
+}
+

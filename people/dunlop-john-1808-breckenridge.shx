@@ -1,0 +1,10 @@
+name John Dunlop
+gender male
+birth -date 08-dec-1808
+baptism -date 14-dec-1808 -location campbeltown
+death -date 24-sep-1889 -location white,indiana,usa
+family {
+  spouse {
+     key breckenridge-charlotte-1814-dunlop
+  }
+}

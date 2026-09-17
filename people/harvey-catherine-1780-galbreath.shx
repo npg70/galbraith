@@ -1,0 +1,21 @@
+name Catherine Harvey
+gender female
+birth -date 29-jul-1780
+baptism -date 30-jul-1780 -location campbeltown -ref katherine1780-baptism
+death -date 21-jun-1847 -location Washington,Clermont,Ohio,USA
+
+family {
+  spouse {
+    key galbreath-robert-1778-harvey
+  }
+}
+
+footnotes {
+    katherine1780-baptism {
+        $opr-ref-link[b-1780-507-000-0020-0049 "Katherine Harvie"]{
+            Katherine | Lawful Daur to James Harvie + Katherine Galbreath
+            born 29th was baptd 30th July 1780.
+        }
+    }
+}
+

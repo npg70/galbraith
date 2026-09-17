@@ -1,0 +1,14 @@
+name Mary Breckenridge
+gender female
+baptism -date 19-jun-1776 -location 'south end' -ref mary1776-baptism
+family {
+  spouse {
+    key dunlop-john-1784-breckenridge
+  }
+}
+footnotes {
+	mary1776-baptism {
+		Father is John, mother not recorded.
+		$opr-ref[b-1776-532-000-0010-0026 "Mary Breckinridge"]
+	}
+}

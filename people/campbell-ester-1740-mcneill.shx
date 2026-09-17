@@ -1,0 +1,9 @@
+name Ester Campbell
+gender female
+birth -date 'about 1740'
+family {
+  spouse {
+    key mcneill-hector-1740-campbell
+  }
+}
+

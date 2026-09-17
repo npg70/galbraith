@@ -1,0 +1,12 @@
+name Katherine McWilliam
+gender female
+birth -date 10-aug-1770
+baptism -date 11-aug-1770 -location campbeltown
+death -date 1853 -location 'Bridge End, Peninver, Argyll, Scotland'
+
+family {
+  spouse {
+    key stewart-andrew-1764-mcwilliam
+  }
+}
+

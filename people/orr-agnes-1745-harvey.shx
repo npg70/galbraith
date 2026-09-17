@@ -1,0 +1,21 @@
+name Agnes Orr
+gender female
+baptism -date 20-nov-1745 -location campbeltown -ref agnes1745-baptism
+death -date 17-jan-1820 -location campbeltown
+        body {
+            maybe the incorrect Agnes who married William
+        }
+family {
+ spouse {
+  key harvey-william-1738-orr
+ }
+}
+footnotes {
+
+    agnes1745-baptism {
+        $opr-ref-link[b-1745-507-000-0011-0253 "Agnes Orr"]
+        $opr-ref[b-1745-507-000-0010-0182 "Agnes Orr"]
+    }
+
+}
+

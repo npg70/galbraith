@@ -1,0 +1,71 @@
+name Edward Orr
+gender male
+tags Argyll:Campbeltown
+baptism -date 20-sep-1720
+death -date 18-oct-1796 
+external {
+    familysearch KZPC-41H
+    wikitree Orr-5437
+}
+note {
+    Does not appear in Census of 1792.  Only three Orr listed.
+}
+body {
+Kilkerran:
+$blockquote{
+1100	In memory of EDWARD ORR, Merchant, Campbeltown, who died 18 October 1796 aged 76 and his wife ISABELLA LANGWILL died 9 January 1795 aged 70, also their grandsons JOHN died 2 February 1873 aged 79, WILLIAM died 31 May 1885 aged 80.
+}
+}
+family {
+  spouse {
+	 key langwill-isobell-1725-orr
+   }
+
+    marriage -date 17-mar-1744 -location campbeltown
+
+    child orr-agnes-1745-harvey
+    child orr-janet-1747-watson
+    child orr-isobell-1749-harvey
+    child {
+        name John Orr
+        baptism -date 25-mar-1752 -location campbeltown -ref john1752-baptism
+    }
+    child orr-margaret-1754-harvey 
+    child orr-mary-1756-harvey
+
+    child orr-peter-1759-mcmurchy
+
+    child {
+        name Martha Orr
+        gender female
+        birth -date 15-jul-1761
+        baptism -date 19-jul-1761 -location campbeltown -ref martha1761-baptism
+    }
+
+    child orr-ann-1764-ralston
+
+    child {
+        name Edward Orr
+        gender male
+        birth -date 10-mar-1767
+        baptism -date 12-mar-1767 -location campbeltown -ref edward1767-baptism
+        body {
+            maybe married Isabella Johnston, 3 kids 1807-1809
+        }
+    }
+}
+footnotes {
+    john1752-baptism {
+        $opr-ref[b-1752-507-000-0011-0281 "John Orr"]
+        $opr-ref[b-1752-507-000-0010-0208 "John Orr"]
+    }
+    martha1761-baptism {
+        Mother indexed as "Isobel Langville"
+        $opr-ref[b-1761-507-000-0011-0326 "Martha Orr"]
+        $opr-ref[b-1761-507-000-0010-0260 "Martha Orr"]
+    }
+    edward1767-baptism {
+        $opr-ref[b-1767-507-000-0011-0357 "Edward Orr"]
+        $opr-ref[b-1767-507-000-0010-0314 "Edward Orr"]
+    }
+}

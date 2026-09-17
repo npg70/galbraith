@@ -1,0 +1,13 @@
+name James Harvey
+gender male
+baptism -date 18-feb-1781 -location campbeltown
+death -date apr-1820 -location glasgow
+body {
+        He was a cooper.
+}
+family {
+ spouse {
+   key langwill-catherine-1781-harvey
+ }
+}
+

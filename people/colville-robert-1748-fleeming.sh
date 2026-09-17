@@ -40,13 +40,7 @@ partner {
 			marriage -date 25-apr-1788 -location killean
 		}
 	}
-	child {
-		name Jean Colville
-		gender female
-		birth -date 14-nov-1772
-		baptism -date 15-nov-1772 -location campbeltown -ref jean1772-baptism
-		partner fleming-john-1758-colville
-	}
+	child  colville-jean-1772-fleeming
 	child {
 		name Ann Colville
 		gender female
@@ -110,16 +104,6 @@ footnotes {
 	}
 	john1770-baptism {
 		$opr-ref[b-1770-507-000-0030-0188 "John Colville"]
-	}
-	jean1772-baptism {
-		$opr-ref-link[b-1772-507-000-0011-0385 "Jean Colvill"]{
-			Jean | Robert Colvill and Agnes Fleeming had a Daughter
-			born 14th and baptized 15th Nov named Jean
-		}
-
-		damaged document but is for Jean.
-		$opr-ref-link[b-1772-507-000-0020-0005 "_____ Colvil"]
-
 	}
 	ann1775-baptism {
 		$opr-ref-link[b-1775-507-000-0020-0016 "Ann Colvill"]{

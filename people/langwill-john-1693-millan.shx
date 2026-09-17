@@ -1,0 +1,71 @@
+name John Langwill
+gender male
+baptism -date 20-nov-1693 -location campbeltown
+external {
+	familysearch KZDB-Y1G
+}
+
+tags langwill argyll:campbeltown
+
+family {
+  spouse {
+	name Agnas Millan
+	gender female
+   }
+   marriage -date 30-apr-1717 -location campbeltown
+
+	child {
+		name Janet Langwill
+		gender female
+		baptism -date 01-jun-1718 -location campbeltown
+		body { m. name  Alexander Johnston, merchant in campbeltown }
+	}
+	child langwill-jean-1720-galbreath-hunter 
+	child {
+		name Mary Langwill
+		gender female
+		birth -date 03-mar-1723
+		baptism -date 07-mar-1723 -location campbeltown
+		body { m. John Clark }
+	}
+	child {
+		name William Langwill
+		gender male
+		baptism -date 10-apr-1725 -location campbeltown
+		death -date 24-jun-1759 -location campbeltown
+	}
+	child {
+		name John Langwill
+		gender male
+		baptism -date 17-feb-1728 -location campbeltown
+		body { m(1). Anne Wallace, m(2). Ann McNair,  Needs investigation. }
+	}
+	child {
+		name Margaret Langwill
+		gender female
+		baptism -date 19-may-1732 -location campbeltown
+		body { m.John McNeill, Needs investigation. }
+	}
+	child {
+		name Agnes Langwill
+		gender female
+		birth -date 04-may-1734
+		baptism -date 05-may-1734 -location campbeltown
+		body { m. John Porter, Tenant in Crossibeg }
+	}
+	child {
+		name Mary Langwill
+		gender female
+		baptism -date 20-jun-1738 -location campbeltown
+		body { m. John Clark ,  needs investigation. }
+		
+	}
+	child {
+		name Ann Langwill
+		gender female
+		birth -date 07-nov-1739
+		baptism -date 11-nov-1739 -location campbeltown
+		body { m. Archibald Baird,  He was a cooper.  FS needs cleanup. }
+	}
+}
+

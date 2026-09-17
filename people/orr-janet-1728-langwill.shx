@@ -1,0 +1,10 @@
+name Janet Orr
+gender female
+baptism -date 11-nov-1728 -location campbeltown
+
+family {
+ spouse {
+  key langwill-james-1725-orr
+ }
+}
+

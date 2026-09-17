@@ -1,0 +1,16 @@
+name Margaret Harvey
+gender female
+external {
+	familysearch G4YB-PXT
+}
+
+ birth -date 29-jan-1814
+        baptism -date 02-feb-1814 -location campbeltown
+        death -date 10-may-1889 -location washington,ohio,usa
+
+family {
+  spouse {  
+    key  breckenridge-thomas-1811-harvey
+   }
+}
+

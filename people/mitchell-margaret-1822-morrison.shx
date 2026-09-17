@@ -1,0 +1,23 @@
+name Margaret Mitchell
+gender female
+tags Argyll:Saddell
+body {
+She was the daughter of William Mitchell and Catherine Munro.
+}
+
+external {
+    wikitree Mitchell-39492
+    familysearch P9WS-92R
+}
+birth -date 'about 1822'
+death -date 13-Mar-1860  -location Saddell
+confused-with mitchell-margaret-1832
+family {
+  spouse {
+    name John Morrison
+    gender male
+  }
+    marriage -date 25-jan-1848 -location Saddell
+
+    child morrison-margaret-1860-galbraith 
+}

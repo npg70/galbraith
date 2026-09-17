@@ -1,0 +1,16 @@
+		name Elizabeth Fraser
+		gender female
+		baptism -date 02-nov-1736 -location campbeltown -ref eliz1736-baptism
+
+family {
+ spouse {
+		key farquharson-francis-1716-unknown-fleeming-fraser
+ }
+}
+footnotes {
+
+	eliz1736-baptism {
+		$opr-ref[b-1736-507-000-0011-0215 "Elizabeth Frazer"]
+		$opr-ref[b-1736-507-000-0010-0147 "Elizabeth Fraser"]
+	}
+}

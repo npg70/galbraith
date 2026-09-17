@@ -1,0 +1,15 @@
+name Samuel Harvey
+gender male
+external {
+
+ familysearch KHM5-Y2J
+}
+baptism -date 15-jan-1813
+
+family {
+  spouse {
+     key  fleeming-isabell-1817-harvey
+  }
+}
+
+marriage -date 14-feb-1839 -location washington,ohio,usa

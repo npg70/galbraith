@@ -1,0 +1,29 @@
+name Archibald Armour
+gender male
+external {
+  familysearch KCB9-N2N
+}
+birth -date 10-jun-1783
+baptism -date 13-jun-1783 -location campbeltown -ref archibald1783-baptism
+death -date 1841
+family  {
+  spouse {
+       name Isabella Greenlees
+            gender female
+   }
+}
+family {
+   spouse {
+            name Martha Clark
+            gender female
+        }
+}
+footnotes {
+    archibald1783-baptism {
+        $opr-ref-link[b-1783-507-000-0020-0068 "Archibald Armour"]{
+            Archibald | Lawfull son to James Armour in Trodigal &
+            Jenat Galbraith was born 10th & Bapt 13th July 
+
+        }
+    }
+}

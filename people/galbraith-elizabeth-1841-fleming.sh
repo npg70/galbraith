@@ -14,20 +14,14 @@ external {
 partner {
     name James Nicol Fleming
     gender male
-    parent {
-        name John Fleming
-        gender male
-        partner {
-            name Jane Nicol
-            gender female
-        }
-    }
+    body { He was the son of  John Fleming and Jane Nicol.
+
+        He was director at the City of Glasgow Bank, which collpased in 1878. He was convicted of fraud, served 8 months in prison, and died in Edinburgh in 1904.
+
     birth -date 16-sep-1832 -location glasgow
     death -date 20-feb-1904 -location Edinburgh,Scotland -ref fleming-death
+  }
     marriage -date 27-oct-1859 -location campbeltown  -ref marriage
-    body {
-        He was director at the City of Glasgow Bank, which collpased in 1878. He was convicted of fraud, served 8 months in prison, and died in Edinburgh in 1904.
-    }
     child {
         name John Galbraith Fleming
         gender male

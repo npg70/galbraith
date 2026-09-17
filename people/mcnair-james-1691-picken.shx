@@ -1,0 +1,47 @@
+name James McNair
+gender male
+external {
+  familysearch KCP5-5VR
+  findagrave 115759040
+}
+birth -date 1691
+death -date 1771
+
+family {
+  spouse {
+    name Mary Picken
+    gender female
+  }
+  marriage -date 31-may-1710 -location campbeltown
+
+  child {
+	name Isabell McNair
+	gender female
+        baptism -date 27-may-1711 -location campbeltown
+  }
+  child {
+	name John McNair
+       gender male
+       baptism -date 07-apr-1713 -location campbeltown
+  }
+  child {
+	name Jean McNair
+        gender female
+ 	baptism -date 03-aug-1715 -location campbeltown
+  }
+
+  child mcnair-robert-1718-galbraith-breckenridge
+   
+  child {
+	name Elizabeth McNair
+        gender female
+        baptism -date 29-jan-1724 -location campbeltown
+  }
+  child {
+	name Ann McNair
+        gender female
+ 	baptism -date 17-apr-1726 -location campbeltown
+  }
+}
+
+

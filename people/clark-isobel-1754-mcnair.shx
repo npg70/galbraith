@@ -1,0 +1,12 @@
+name Isobel Clark
+gender female
+baptism -date 05-feb-1754 -location campbeltown
+
+external {
+  familysearch GPZK-KZ9
+}
+family {
+   spouse {
+      key mcnair-john-1751-clark
+  }
+}

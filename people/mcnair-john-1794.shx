@@ -1,0 +1,19 @@
+name John McNair
+gender male
+baptism -date 11-dec-1794 -location campbeltown -ref john1794-baptism
+confused-with mcnair-john-1793-mckenzie
+
+        body {
+            Confused with $child-link[mcnair-john-1793-mckenzie]{John McNair}, son of $child-link[mcnair-archibald-1759-mitchell]{Archibald McNair} and $i{Margaret} Mitchell.
+        }
+
+
+footnotes {
+
+    john1794-baptism {  
+        $opr-ref-link[b-1794-507-000-0040-0121 "John McNair"]{
+            John Lawful son to Archd McNair and Jean Mitchell of Shiskon Bapt [???]
+        }
+    }
+
+}

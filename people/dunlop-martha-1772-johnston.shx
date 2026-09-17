@@ -1,0 +1,20 @@
+name Martha Dunlop
+gender female
+baptism -date 22-sep-1772 -location campbeltown -ref martha1772-baptism
+death -date 21-dec-1843 -location campbeltown
+external {
+  familysearch LH1V-FYC
+  findagrave 161584097
+}
+family { 
+  spouse {
+    key johnston-john-1775-dunlop
+  }
+
+}
+
+footnotes {
+    martha1772-baptism {
+        $opr-ref-link[b-1772-507-000-0011-0385 "Martha Dunlop"]
+    }
+}

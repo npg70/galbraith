@@ -1,0 +1,20 @@
+name William Galbreath
+gender male
+birth -date 17-oct-1757 -location 'York,Pennsylvania,USA'
+death -date 03-may-1839 -location 'Ashmore,Coles,Illinois,USA'
+external {
+            wikitree Galbreath-551
+            familysearch LZK8-7JG
+}
+family { 
+  spouse {
+    
+            name Phoebe V Foreman
+            gender female
+            birth -location 'Philadelphia, Philadelphia, Pennsylvania, USA'
+            death -date 12-mar-1852 -location 'Ashmore,Coles,Illinois,USA'
+  }
+
+          marriage -date 27-mar-1788 -location 'Philadelphia, Philadelphia, Pennsylvania, USA'
+
+}

@@ -1,0 +1,16 @@
+		name Elizabeth Breckenridge
+		gender female
+		birth -date 23-sep-1784
+		baptism -date 26-sep-1784 -location campbeltown
+		death -date 25-jan-1853 -location campbeltown
+		external {
+			familysearch 9M9C-W2F
+			findagrave 167586181
+		}
+		family {
+ 			spouse {
+			name Andrew Harvey
+			gender male
+			}
+			marriage -date 20-apr-1824 -location campbeltown
+		}

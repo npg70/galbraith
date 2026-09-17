@@ -1,0 +1,11 @@
+        name Alexander McPherson
+        gender male
+        birth -date 14-may-1849
+        baptism -date 01-jul-1849 -location southend
+
+family {
+ spouse {
+	key galbraith-margaret-1846-mcpherson
+}
+}
+

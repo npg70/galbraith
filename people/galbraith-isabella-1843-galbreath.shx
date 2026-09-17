@@ -1,0 +1,24 @@
+name Isabella Galbraith
+gender female
+baptism -date 29-may-1843 -location campbeltown -ref isabella1843-baptism
+death -date 23-nov-1921 -location campbeltown -ref isabella1843-death
+
+body {
+            Children are unlikely. See entry for $child-link[galbreath-john-1842-mcalpine-wylie-galbraith]{John Galbraith} for more details.
+}
+
+family {
+  spouse {
+    key galbreath-john-1842-mcalpine-wylie-galbraith
+  }
+}
+footnotes {
+    isabella1843-baptism {
+        $opr-ref[b-1843-507-000-0070-0240 "Isabella Galbreath"]
+    }
+    isabella1843-death {
+        $sp-ref-link[d-1921-507-00-0100 0034 "Isabella Galbraith"]
+    }
+
+}
+

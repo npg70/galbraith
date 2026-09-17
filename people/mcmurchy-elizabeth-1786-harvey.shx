@@ -1,0 +1,19 @@
+name Elizabeth McMurchy
+gender female
+birth -date 27-jan-1786
+baptism -date 28-jan-1786 -location campbeltown -ref eliz-baptism
+
+family { 
+  spouse {
+    key harvey-andrew-1783-mcmurchy
+  }
+}
+footnotes {
+    eliz-baptism {
+        $opr-ref-link[b-1786-507-000-0020-0087 "Elizabeth McMurchy"]{
+           Elizabeth Lawful dau. to William McMurchy Farmer in Moy &
+           Janet Clark was born 27th & Bapt 28th January [1786]
+       }
+    }
+
+}

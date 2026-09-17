@@ -1,0 +1,79 @@
+name Andrew Breckenridge
+gender male
+tags argyll:Campbeltown
+external {
+	familysearch KZJH-VBH
+	wikitree Brackenridge-281
+}
+note {
+	SKK page 246 "4. Andrew Breckenridge"
+}
+note {
+	In Census of 1792 in Killowan
+}
+
+body {
+	He was a farmer in Killeowan.
+}
+
+baptism -date 02-aug-1747 -location campbeltown -ref andrew1747-baptism
+death -date 29-jan-1826 -location campbeltown
+family {
+  spouse {
+	name Elizabeth Ferguson
+	gender female
+	baptism -date 30-jan-1753 -location campbeltown
+	death -date 29-dec-1827 -location campbeltown
+   }
+	marriage -date 23-dec-1771 -location campbeltown -ref ferguson-marriage
+
+	child breckenridge-david-1773-mcmillan
+
+	child breckenridge-isabell-1775-templeton
+
+	child {
+		name Thomas Breckenridge
+		gender male
+		birth -date 05-oct-1777
+		baptism -date 05-oct-1777 -location campbeltown
+	}
+	child {
+		name Janet Breckenridge
+		gender female
+		birth -date 29-jun-1780
+		baptism -date 02-jul-1780 -location campbeltown
+	}
+	child {
+		name Elizabeth Breckenridge
+		gender female
+		birth -date 18-sep-1782
+		baptism -date 22-sep-1782 -location campbeltown
+		death -note dy
+	}
+	child breckenridge-elizabeth-1784-harvey
+	child {
+		name Andrew Breckenridge
+		gender male
+		birth -date 23-sep-1786
+		baptism -date 24-sep-1786 -location campbeltown
+		body { m. Margaret Kilpatrick }
+	}
+	child breckenridge-john-1789-breckenridge
+
+	child breckenridge-jean-1791-dunlop.shx
+	child {
+		name Janet Breckenridge
+		gender female
+		birth -date 02-oct-1793
+		baptism -date 14-oct-1793 -location campbeltown
+	}
+}
+footnotes {
+	andrew1747-baptism {
+		$opr-ref-link[b-1747-507-000-0011-0260 "Andrew Braikanridge"]
+	}
+	ferguson-marriage {
+		$opr-ref-link[m-1771-507-000-0020-0156 "Andrew Breakenridge" "Elisabeth Ferguson"]
+	}
+}
+

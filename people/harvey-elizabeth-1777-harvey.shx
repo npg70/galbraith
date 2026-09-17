@@ -1,0 +1,21 @@
+name Elisabeth Harvey
+gender female
+birth -date 09-aug-1777
+baptism -date 10-aug-1777 -location campbeltown -ref elis1777-baptism
+
+family {
+spouse {
+key harvey-samuel-1775-harvey-dunlop
+}
+}
+
+footnotes {
+
+    elis1777-baptism {
+        $opr-ref-link[b-1777-507-000-0020-0033 "Elisabeth Harvie"]{
+            Elisabeth | Lawful Daughter to Andrew Harvie and Isabel
+            Fultoun Born 9th Auguest Batpized 10th
+        }
+    }
+
+}

@@ -1,0 +1,15 @@
+name Isobell Huie
+gender female
+
+family {
+  spouse {
+    key campbell-william-1710-dunlop-huie
+  }
+}
+
+family {
+  spouse {
+    key orr-robert-1730-huie
+  }
+}
+

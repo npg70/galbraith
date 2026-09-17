@@ -1,0 +1,16 @@
+name Rachel Galbreath
+gender female
+baptism -date 29-aug-1765 -location campbeltown -ref rachel1765-baptism
+death -date 7-May-1850
+family {
+  spouse {
+    key johnston-robert-1764-galbreath
+  }
+}
+footnotes {
+    rachel1765-baptism {
+        $opr-ref-link[b-1765-507-000-0011-0347 "Rachel Galbreath"]
+        $opr-ref-link[b-1765-507-000-0010-0295 "Rachel Galbraith"]
+    }
+}
+

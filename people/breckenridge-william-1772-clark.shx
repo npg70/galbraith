@@ -1,0 +1,79 @@
+name William Breckenridge
+gender male
+tags argyll:campbeltown
+baptism -date 20-aug-1772 -location campbeltown
+death -date 31-dec-1857 -location campbeltown -ref william1772-death
+external {
+	familysearch LZ3Q-Y39
+	findagrave 167674349
+}
+body {
+	He was a malster.
+}
+
+family {
+  spouse {
+	name Mary Clark
+	gender female
+	baptism -date 18-jan-1773 -location campbeltown
+	death -date 03-mar-1812 -location campbeltown
+   }
+
+   marriage -date 29-feb-1800 -location campbeltown
+
+	child {
+		name John Breckenridge
+		gender male
+		birth -date 15-jan-1801
+		baptism -date 17-jan-1801 -location campbeltown -ref john1801-baptism
+		body { m. Isabella Brown }
+	}	
+	child {
+		name Katherine Breckenridge
+		gender female
+		birth -date 13-sep-1802
+		baptism -date 15-sep-1802 -location campbeltown -ref kath1802-baptism
+		death -date 1882 -location 'Tabusintac, Alnwick, Northumberland, New Brunswick, Canada'
+		body { m. Dougald McLean }
+	}
+	child breckenridge-janet-1804-armour
+ 
+	child {
+		name Mathew Breckenridge
+		gender male
+		birth -date 14-jun-1806
+		baptism -date 17-jun-1806 -location campbeltown -ref matt1806-baptism
+		body { m. Agnes Ralston }
+	}
+	child {
+		name Mary Breckenridge
+		gender female
+		birth -date 15-dec-1808
+		baptism -date 17-dec-1808 -location campbeltown -ref mary1808-baptism
+		death -date 14-apr-1880
+		body { m. Andrew Huie }
+	}
+}
+footnotes {
+
+	william1772-death {
+		Lists him as a farmer and widower, father John was a farmer, son Matthew present, buried at Kilkerran.
+
+		$sp-ref-link[d-1858-507-00-0001 0001 "William Breakenridge"]
+	}
+	john1801-baptism {
+		$opr-ref[b-1801-507-000-0040-0211 "John Brakenridge"]
+	}
+	kath1802-baptism {
+		$opr-ref-link[b-1802-507-000-0040-0234 "Katherine Brakenridge"]
+	}
+	matt1806-baptism {
+		$opr-ref-link[b-1806-507-000-0040-0290 "Mathew Breakenridge"]
+	}
+	mary1808-baptism {
+		$opr-ref-link[b-1808-507-000-0040-0329 "Mary Brakenridge"]{
+			Mary | Lawful Daughter to William Brakenridge Malster Campbeltown
+			and Mary Clark born 15th baptized 17th December 1808. Mary
+		}
+	}
+}

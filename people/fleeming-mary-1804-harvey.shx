@@ -1,0 +1,15 @@
+name Mary Fleeming
+gender female
+external {
+  familysearch KCLH-BXF
+}
+
+baptism -date 15-feb-1804 -location campbeltown
+death -date 14-nov-1822 -location washington,ohio,usa
+
+family {
+  spouse {
+    key harvey-james-1802-fleeming
+  }
+}
+

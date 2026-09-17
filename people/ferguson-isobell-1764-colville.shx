@@ -1,0 +1,9 @@
+name Isobell Ferguson
+gender female
+baptism -date 03-dec-1764 -location campbeltown
+family {
+   spouse {
+     key colville-robert-1743-greenlees-ferguson
+   }
+}
+

@@ -1,0 +1,8 @@
+name Mary Campbell
+gender female
+birth -date 'about 1744'
+family {
+  spouse {
+    key farquharson-archibald-1740-campbell-spring
+  }
+}

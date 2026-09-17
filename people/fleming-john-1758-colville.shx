@@ -1,0 +1,240 @@
+name John Fleeming
+tags Argyll:Campbeltown Argyll:Southend Immigrant:USA:Ohio:Washington fleeming
+gender male
+external {
+    familysearch KH7S-T42
+    findagrave 100209162
+    wikitree Fleming-7954
+    billiongraves John-Fleming/28386202
+}
+baptism -date 'about 1769' -location campbeltown -ref john1758-baptism
+death -date 05-feb-1854 -location 'barlow,washington,ohio,usa'
+
+todo major {
+    parents are wrong
+}
+
+note {
+	Marriage appears to be not recorded?
+}
+note {
+	Entire family immigrated in 1821.
+}
+
+body {
+Census of 1792, Parish of Kilkerran, Killeonan
+
+$csvtable{
+Age, Year, Men, Women, Children
+21,  1771, John Fleeming,              ,
+19,  1773,              , Jean Colvill ,
+1/4, 1792,              ,              , James Fleeming
+12 , 1780,              ,              , Jean Fleeming
+}
+
+Yes, the age for the son James was given as "1/4", which matches the baptism record.
+
+
+1821 Immigration, landed 17 Sep 1821 at Philadelphia from Liverpool, UK.$ref[immigration1] $ref[immigration2]
+
+$csvtable{
+Name, Age, Year, Note
+John Fleming, 52, 1769,
+Jean Fleming, 48, 1773, Jean Colville
+James Fleming, 29, 1792, Son
+John Fleming, 23, 1798, Son but born in 1795? 
+James Fleming, 21, 1800, Listed as James/Male but is actually Janet
+Agnes Fleming, 19, 1802, Daughter
+Mary Fleming, 17, 1804, Daughter
+Jean Fleming, 15, 1806, Daughter
+Wm Fleming, 11, 1810, William - Son
+David Fleming, 9, 1812, Son
+Isabella Fleming, 4, 1817, Daughter
+Wm Fleming, 12, 1809, ???
+Robt Fleming, 27, 1794, Son
+Mary Fleming, 25, 1796, Mary Dunlop spouse of above
+Archibald Fleming, 2, 1819, Son of above
+}
+
+Census of 1850, Barlow, Ohio, USA:
+$pre{
+Barlow, Ohio
+
+JOHN FLEMING
+Home in 1850 Barlow, Washington, Ohio, USA
+Occupation: Farmer
+Industry: Agriculture
+John Fleming 82 (1768) Scotland
+Jane Fleming 78 (1772) Scotland
+John Fleming 54 (1796) Scotland
+}
+
+Find-A-Grave
+$pre{
+JOHN FLEMING
+a native of
+ARGYLE SHIRE SCOTLAND
+DIED
+FEB 5, 1854
+in his 86th 
+year of age
+}
+
+implies 1768
+}
+
+family {
+  spouse {
+	key colville-jean-1772-fleeming
+  }
+   marriage -date 20-dec-1790
+
+   child {
+        name James Fleming
+        gender male
+        birth -date 09-dec-1791
+        baptism -date 12-dec-1791 -location campbeltown -ref james1791-baptism
+        death -date 24-may-1851 -location barlow,washington,ohio,usa
+	body { m. name Margaret Breckenridge }
+   }
+
+   child {
+        name Robert Fleming
+        gender male
+        birth -date 11-aug-1793
+        baptism -date 12-aug-1793 -location campbeltown -ref robert1793-baptism
+        death -date 26-dec-1860 -location washington,ohio,usa
+	body { m. Mary Dunlop }
+   }
+
+   child {
+	    name John Fleeming
+	    gender male
+	    birth -date 28-nov-1795
+	    baptism -date 30-nov-1795 -location campbeltown -ref john1795-baptism
+	    death -date 07-oct-1860 -location washington,ohio,usa
+   }
+    
+   child {
+	    name Margaret Fleeming
+	    gender female
+	    baptism -date 19-oct-1797 -location campbeltown
+	    death -date 29-mar-1876 -location washington,ohio,usa
+	    body { m. John McKay }
+   }
+
+   child {
+	    name Janet Fleeming
+	    gender female
+	    baptism -date 14-dec-1799 -location campbeltown -ref janet1799-baptism
+		body { m. George Turner }
+   }
+
+   child {
+	    name Agnes Fleeming
+	    gender female
+	    birth -date 03-mar-1802
+	    baptism -date 06-mar-1802 -location campbeltown -ref agnes1802-baptism 
+	    body { m. John Breckenridge }
+   }
+
+   child fleeming-mary-1804-harvey
+
+   child {
+    	name Jean Fleeming
+        gender female
+	    baptism -date 25-apr-1806 -location campbeltown
+	    death -date 19-dec-1865 -location washington,ohio,usa
+	body { m. Edward Breckenridge }
+   }
+
+   child {
+	    name William Fleeming
+	    gender male
+	    baptism -date 12-jul-1809 -location campbeltown
+   }
+
+   child {
+	    name David Fergus Fleeming
+        gender male
+	    birth -date 18-sep-1811
+        baptism -date 24-sep-1811 -location campbeltown -ref david1811-baptism
+	    death -date 23-jun-1898 -location washington,ohio,usa
+		body { m. Sophia Bell }
+   }
+    
+   child {
+	    name Isabell Fleeming
+	    gender female
+	    birth -date 13-feb-1814
+	    baptism -date 17-feb-1814 -location campbeltown -ref isabell1814-baptism
+	    death -note dy
+   }
+
+   child fleeming-isabell-1817-harvey
+
+}
+
+footnotes {
+    john1758-baptism {
+	baptism appears to be not recorded in the OPR.  Birth based on census records.
+    }
+
+    james1791-baptism {
+        $opr-ref-link[b-1791-507-000-0020-0136 "James Fleeming"]
+        $blockquote{
+            James Lawful Son to John Fleeming Farmer in Kilman +
+            Jean Colvill was borth 9th + bapt 12th Dec.
+        }
+    }
+    robert1793-baptism {
+        $opr-ref-link[b-1793-507-000-0040-0109 "Robert Fleeming"]
+        $blockquote{
+            Robert Lawfull son to John Fleeming + Jean Colville
+            Kell??? born 11th bapt 12th
+        }
+    }
+    john1795-baptism {
+	$opr-ref-link[b-1795-507-000-0040-0132 "John Fleeming"]
+	$blockquote{
+		John Lawful son to John Fleeming & Jean Colvill
+		in Killowan born 28th bapt 30th
+
+ 	}
+    }
+    janet1799-baptism {
+	$opr-ref-link[b-1799-507-000-0040-0193 "Janet Fleeming"]
+	$blockquote{
+		Janet | John Fleeming & Jean Colvill in Killowan had a lawful
+		Daur. born 12th Baptized 14th Called - Janet 
+	}
+    }
+    agnes1802-baptism {
+	$opr-ref-link[b-1802-507-000-0040-0225 "Agnes Fleeming"]
+	$blockquote{
+		Agnes | John Fleeming . Jean Colvill in Killowan had a lawful
+		Daur. born 3rd Baptized 6th - named Agnes.
+	}
+    }
+    david1811-baptism {
+	$opr-ref-link[b-1811-507-000-0040-0374 "David Fergus Fleeming"]
+	$blockquote{
+		David Fergus | Lawful Son to John Fleeming Farmer Killeowan 
+		and Jean Colville born 18th baptized 24th Sept 1811. David Fergus
+	}
+    }
+    isabell1814-baptism {
+	$opr-ref-link[b-1814-507-000-0040-0409 "Isabell Fleeming"]
+	$blockquote{
+		Isabell | Lawful Daughter to John Fleeming Farmer Killeowan 
+		and Jean Colvill born 13th baptized 17th Febry 1814 named Isabell
+	}
+    }
+
+    immigration1 {
+            Passenger List on $elink[https://www.ancestry.com/search/collections/8769/records/10431672]{Ancestry}
+    }
+    immigration2 {
+        index on $elink[https://www.familysearch.org/ark:/61903/3:1:33SQ-G5JH-9HSH?view=index&cc=1921756&lang=en&groupId=]{FamilySearch}
+    }
+}

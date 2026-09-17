@@ -1,0 +1,88 @@
+name Jean McNair
+gender female
+tags argyll:campbeltown
+baptism -date 25-feb-1758 -location campbeltown -ref jean1758-baptism
+death -date 07-jul-1831
+external {
+    familysearch 9M96-7PS
+    findagrave 167059441
+    ancestry tree/12079504/person/-339238059
+    wikitree McNair-1006
+}
+todo major { finish up, spouses, references }
+
+family {
+  spouse {
+    key smith-robert-1749-mcnair
+  }
+    marriage -date 27-dec-1777 -location campbeltown -ref smith-marriage
+
+    child {
+        name Janet Smith
+        gender female
+        birth -date 08-jul-1779
+        baptism -date 11-jul-1779 -location campbeltown -ref janet1779-baptism
+        death -date 4-oct-1786 -location campbeltown
+    }
+    child {
+        name Robert Smith
+        gender male
+        baptism -date 01-oct-1782 -location campbeltown -ref robert1782-baptism
+        death -note dy
+    }
+    child smith-john-1785-colville
+
+    child {
+        name Robert Smith
+        gender male
+        baptism -date 04-jun-1786 -location campbeltown -ref robert1786-baptism
+        death -date 29-oct-1820
+    }
+    child {
+        name Jean Smith
+        gender female
+        baptism -date 06-may-1788 -location campbeltown -ref jean1788-baptism
+        body { m. John Clark }
+    }
+    child smith-james-1790-johnston
+
+    child smith-andrew-1792-colville
+    child smith-janet-1795-mcnair 
+    child smith-mary-1797-dunlop
+    child {
+        name Archibald Smith
+        gender male
+        baptism -date 28-jan-1800 -location campbeltown -ref archibald1800-baptism
+        death -date 11-july-1801 -location campbeltown
+    }
+}
+footnotes {
+    jean1758-baptism {
+		$opr-ref-link[b-1758-507-000-0011-0308 "Jean McNair"]
+		$opr-ref[b-1758-507-000-0010-0236 "Jean McNair"]
+	}
+    janet1779-baptism {
+        $opr-ref[b-1779-507-000-0020-0044 "Janet Smith"]
+    }
+    robert1782-baptism {
+        $opr-ref[b-1782-507-000-0020-0061 "Robert Smith"]
+    }
+    robert1786-baptism {
+        $opr-ref[b-1786-507-000-0020-0090 "Robert Smith"]
+    }
+    jean1788-baptism {
+        $opr-ref[b-1788-507-000-0020-0104 "Jean Smith"]
+    }
+    andrew1792-baptism {
+        $opr-ref[b-1792-507-000-0040-0101 "Andrew Smith"]
+    }
+    archibald1800-baptism {
+        $opr-ref[b-1800-507-000-0040-0195 "Archibald Smith"]
+    }
+    smith-marriage {
+	$opr-ref-link[m-1777-507-000-0020-0160 "Robert Smith" "Jean McNair"]{
+		Robert Smith and Jean McNair both of this parish were
+		contracted 27th Dec 1777 & married.
+	}
+    }
+}

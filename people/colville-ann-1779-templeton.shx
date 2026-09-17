@@ -1,0 +1,25 @@
+		name Ann Colville
+		gender female
+		birth -date 23-dec-1779
+		baptism -date 28-dec-1779 -location campbeltown -ref ann1779-baptism
+		death -date jul-1867 -location campbeltown
+		external {
+			findagrave 70382802
+			familysearch LZG2-K8C
+		}
+		family {
+			spouse {
+			name John Templeton
+			gender male
+			baptism -date 14-oct-1761 -location campbeltown
+			death -date 19-jan-1847 -location campbeltown
+		}
+			marriage -date 30-dec-1799 -location campbeltown
+		}
+footnotes {
+
+	ann1779-baptism {
+		$opr-ref-link[b-1779-507-000-0020-0046 "Ann Colvil"]
+	}
+}
+

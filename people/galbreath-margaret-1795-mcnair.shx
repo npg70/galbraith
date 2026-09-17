@@ -1,0 +1,22 @@
+name Margaret Galbreath
+gender female
+external {
+    familysearch M1BS-X9Y
+}
+tags 'Argyll:Killean and Kilchenzie'
+
+baptism -date 15-dec-1795 -location 'killean and kilchenzie' -ref margaret1795-baptism
+death -date 26-nov-1885 -location campbeltown -ref margaret1795-death
+family {
+  spouse {
+    key mcnair-edward-ivar-1796-galbreath
+  }
+}
+footnotes {
+    margaret1795-baptism {
+        $opr-ref[b-1795-519-000-0010-0111 "Margaret Galbreath"]
+    }
+    margaret1795-death {
+        $sp-ref-link[d-1885-507-00-0197 0066 "Margaret Galbraith"]
+    }
+}

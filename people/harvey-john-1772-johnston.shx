@@ -1,0 +1,20 @@
+name John Harvie
+gender male
+external {
+	familysearch KCW7-L91
+}
+
+birth -date 5-dec-1772
+baptism -date 7-dec-1772 -location campbeltown
+death -date 15-jun-1843 -location washington,ohio,usa
+burial -location washington,ohio,usa -name 'Fleming Old Cemetery'
+family {
+  spouse {
+	name Ann Johnston
+	gender female
+  }
+
+  child harvey-james-1802-fleeming
+
+  child harvey-samuel-1813-fleeming
+}

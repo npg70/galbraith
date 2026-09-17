@@ -1,0 +1,37 @@
+name James Armour
+gender male
+birth -date 'about 1716'
+tags Argyll:Campbeltown
+death -date 10-nov-1796 -location campbeltown
+external {
+    familysearch M1Y7-KKG
+    wikitree Armour-1002
+}
+
+family {
+spouse {
+    name Florance Stewart
+    gender female
+    birth -date 'about 1715'
+}
+    child {
+        name Agnes Armour
+        baptism -date 11-Aug-1747 -location campbeltown
+    }
+    child armour-john-1750-colville
+
+    child armour-agnes-1742-galbreath 
+
+    child {
+        name James Armour
+        baptism -date 25-aug-1754 -location campbeltown
+    }
+    child {
+        name Alexander Armour
+        baptism -date 11-jul-1756 -location campbeltown
+    }
+    child {
+        name Alexander Armour
+        baptism -date 17-apr-1759 -location campbeltown
+    }
+}

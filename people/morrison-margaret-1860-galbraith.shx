@@ -1,0 +1,10 @@
+name Margaret Morrison
+gender female
+birth -date 15-feb-1860 -location saddell
+ death -date 21-may-1930 -location campbeltown
+family {
+  spouse {
+    key galbraith-john-1850-morrison
+  }
+}
+

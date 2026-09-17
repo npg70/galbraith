@@ -1,0 +1,16 @@
+name Catharine McNair
+gender female
+external {
+  familysearch K88R-6CS
+}
+
+birth -date 9-oct-1840 
+baptism -date 15-nov-1840 -location campbeltown
+death -date 17-jul-1930 -location campbeltown
+
+family {
+ spouse {
+   key  clark-robert-1823-mcnair
+ }
+}
+

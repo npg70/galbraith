@@ -19,9 +19,6 @@ partner {
     child {
         name Mary Galbraith
         gender female
-        external {
-            familysearch MHZ1-SM2
-        }
         birth -date '1739' -location Donegal,Lancaster,Pennslyvania,USA
         partner {
             name James Cook

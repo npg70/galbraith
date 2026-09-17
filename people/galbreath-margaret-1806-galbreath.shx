@@ -1,0 +1,14 @@
+name Margaret Galbreath
+gender female
+baptism -date 8-oct-1806 -location 'kilcalmonell and kilberry' -ref margaret1806-baptism
+death -date 1865 -location middlesex,ontario,canada
+family {
+ spouse {
+   key galbraith-neil-1791-galbraith
+ }
+}
+footnotes {
+    margaret1806-baptism {
+        $opr-ref[b-1806-516-000-0010-0175 "Margaret Galbreath"]
+    }
+}

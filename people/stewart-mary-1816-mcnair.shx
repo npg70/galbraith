@@ -1,0 +1,13 @@
+name Mary Stewart
+gender female
+birth -date 29-may-1816 -location campbeltown -ref mary-birth
+death -date 19-feb-1900 -location campbeltown -ref mary-death
+
+footnotes {
+    mary-birth {
+        $opr-ref[b-1816-507-000-0040-0445 "Mary Stewart"]
+    }
+    mary-death {
+        $sp-ref-link[d-1900-507-00-0038 0013 "Mary Stewart"]
+    }
+}

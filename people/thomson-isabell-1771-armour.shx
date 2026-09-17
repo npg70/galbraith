@@ -1,0 +1,10 @@
+name Isabell Thomson
+gender female
+birth -date 24-mar-1771
+baptism -date 25-mar-1771 -location campbeltown
+
+family {
+  spouse {
+    key armour-andrew-1764-thomson
+  }
+}

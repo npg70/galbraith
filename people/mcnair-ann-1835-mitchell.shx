@@ -1,0 +1,12 @@
+name Ann McNair
+gender female
+birth -date 23-nov-1835
+baptism -date 08-dec-1835 -location campbeltown
+death -date 10-feb-1930 -location campbeltown
+
+family {
+  spouse {
+    key mitchell-archibald-1805-smith-mcnair]
+  }
+}
+

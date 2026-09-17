@@ -1,0 +1,17 @@
+name Isobell Orr
+gender female
+baptism -date 08-dec-1749 -location campbeltown -ref isobell1749-baptism
+family {
+spouse {
+	key harvey-william-1748-orr
+}
+}
+
+footnotes {
+
+    isobell1749-baptism {
+        $opr-ref[b-1749-507-000-0011-0270 "Isobell Orr"]
+        $opr-ref[b-1749-507-000-0010-0197 "Isobell Orr"]
+    }
+}
+

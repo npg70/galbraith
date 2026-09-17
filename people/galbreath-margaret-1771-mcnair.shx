@@ -1,0 +1,35 @@
+name Margaret Galbreath
+gender female
+tags Argyll:Campbeltown 'Immigrant:Canada:New Brunswick'
+birth -date 01-nov-1771
+baptism -date 02-nov-1771 -location campbeltown -ref marg-bapt
+death -date 'about 1861' -location "New Mills, New Brunswick, Canada"
+external {
+    findagrave 42220658
+    familysearch L2M9-JSL
+    wikitree Galbraith-1994
+    ancestry tree/12079504/person/282298844670
+}
+note {
+    There is extensive biographical information on her $elink[https://www.findagrave.com/memorial/42220658/margaret-mcnair]{Find-A-Grave} memorial.
+}
+body {
+    He was a farmer on Kildonan where all children where born.
+    The family immigrated in 1821.
+}
+
+family {
+  spouse {
+   key mcnair-nathan-1763-galbreath
+  }
+}
+
+footnotes {
+    marg-bapt {
+        $opr-ref-link[b-1771-507-000-0011-0380 "Margaret Galbreath"]{
+        Margt | Henery Galbreath and Agnes Armour had a Daughter
+        born 1st and baptized 2nd November named Margaret
+        }
+        $opr-ref[b-1771-507-000-0030-0198 "Margaret Galbreath"]
+    }
+}

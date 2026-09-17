@@ -1,0 +1,14 @@
+name James Clark
+gender male
+baptism -date 05-july-1754 -location campbeltown
+death -date 21-dec-1818 -location 'glade spring,washington,virginia,usa'
+
+family {
+  spouse {
+     key breckenridge-isabella-mary-1764-clark
+  }
+  marriage -date 11-jun-1784 -location campbeltown
+
+  child clark-john-breckenridge-1785-beatie
+}
+

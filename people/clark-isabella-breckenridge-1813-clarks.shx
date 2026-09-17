@@ -1,0 +1,15 @@
+name Isabella Breckenridge Clark
+gender female
+external {
+  familysearch LHVF-TTD
+}
+birth -date 21-mar-1813 -location 'Washington,Virgina,USA'
+death -date 11-may-1883 -location 'Washington,Virgina,USA'
+marriage -date 13-dec-1832 -location 'Washington,Virgina,USA'
+
+family { 
+  spouse {
+    key clark-john-1808-clark
+  }
+}
+

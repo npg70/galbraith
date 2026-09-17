@@ -1,0 +1,8 @@
+name Margaret Breckenridge
+gender female
+birth -date 'about 1765'
+family {
+  spouse {
+    key clark-john-1754-breckenridge
+  }
+}

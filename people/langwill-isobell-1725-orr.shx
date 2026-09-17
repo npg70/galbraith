@@ -1,0 +1,11 @@
+        name Isobell Langwill
+        gender female
+        baptism -date 14-Feb-1725 -location campbeltown
+	 death -date 9-jan-1795
+
+family {
+  spouse {
+     key orr-edward-1720-langwill
+  }
+}
+

@@ -1,0 +1,25 @@
+name Jean Harvey
+gender female
+tags immigrant:usa:indiana
+birth -date "About 1798" -location Killean -ref jean-birth
+death -date 23-jul-1875 -location 'Jefferson,Indiana,USA'
+external {
+    ancestry tree/12079504/person/282643862863
+    findagrave 39308446
+}
+confused-with harvey-jean-1799-alexander
+todo major {
+    eveyone has parents wrong, e.g. $elink[https://www.ancestry.com/family-tree/person/tree/28530647/person/332213712902/facts]{Ancestry1} , $elink[https://www.ancestry.com/family-tree/person/tree/11408090/person/-470994854/facts]{Ancestry 2}
+}
+
+family {
+spouse {
+	key  culbertson-james-1798-harvey
+}
+}
+
+footnotes {
+    jean-birth {
+        The baptism of Jean Harvey appears to lost or not recorded.  Age is based on census and immigration records.
+    }
+}

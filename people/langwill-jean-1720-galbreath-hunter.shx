@@ -1,0 +1,16 @@
+		name Jean Langwill
+		gender female
+		baptism -date 10-sep-1720 -location campbeltown	
+family {
+  spouse {
+    key galbreath-david-1719-langwill
+  }
+}
+family {
+  spouse {
+	name Robert Hunter
+	gender male
+	body {   tenant in Drumalea }
+   }
+   marriage -date 13-nov-1756 -location campbeltown
+}

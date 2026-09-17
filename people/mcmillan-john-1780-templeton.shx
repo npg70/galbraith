@@ -1,0 +1,27 @@
+name John McMillan
+gender male
+birth -date 19-apr-1780
+baptism -date 20-apr-1780 -location campbeltown -ref john1780-baptism
+death -date mar-1840 -location campbeltown
+family {
+  spouse {
+     key templeton-martha-1783-mcmillan
+  }
+
+  marriage -date 26-nov-1805 -location campbeltown -ref templeton-marriage
+}
+
+
+footnotes {
+	john1780-baptism {
+		$opr-ref-link[b-1780-507-000-0020-0048 "John McMillan"]
+	}
+	templeton-marriage {
+		$opr-ref-link[m-1805-507-000-0050-0072 "John MacMillan" "Martha Templeton"]{
+		John Mac Millan Farmer in Auchinleck and Matha Templeton Daughter of
+		Thomas Templeton Farmer Dungrave both of this parish were married
+		26 Novemeber 1805
+		}
+	}
+}
+

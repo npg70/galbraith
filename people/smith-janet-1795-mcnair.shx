@@ -1,0 +1,20 @@
+name Janet Smith
+gender female
+birth -date 09-jan-1795
+baptism -date 10-jan-1795 -location campbeltown -ref janet1795-baptism
+death -date 16-jul-1881 -location 'McDonough,Illinois,USA'
+
+family {
+ spouse {
+   key mcnair-robert-1785-smith
+ }
+}
+footnotes {
+
+    janet1795-baptism {
+        $opr-ref[b-1795-507-000-0040-0122 "Janet Smith"]
+    }
+
+}
+
+

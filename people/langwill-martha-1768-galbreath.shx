@@ -1,0 +1,12 @@
+name Martha Langwill
+gender female
+birth -date 09-may-1768 -location campbeltown
+baptism -date 12-May-1768 -location campbeltown
+death -date 1789
+burial -name 'Kilkerran Cemetery'
+
+family {
+   spouse {
+      key galbreath-archibald-1760-langwill-corbet
+   }
+}

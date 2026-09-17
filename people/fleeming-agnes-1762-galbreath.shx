@@ -1,0 +1,21 @@
+name Agnes Fleeming
+gender female
+birth -date 29-oct-1762
+baptism -date 31-oct-1762 -location campbeltown -ref agnes1762-baptism
+death -date apr-1829 -location 'york,pennsylvania,usa'
+
+family {
+  spouse {
+    key  galbreath-alexander-1753-flemming
+  }
+}
+footnotes {
+    agnes1762-baptism {
+        $opr-ref-link[b-1762-507-000-0011-0332 "Agnes Fleeming"]
+        $blockquote{
+                Agnes | James Fleeming and Janet Langwill had a Daughter
+                born the 29th and baptized 31st Oct named Agnes.
+        }
+        $opr-ref[b-1762-507-000-0010-0271 "Angus Fliming"]
+    }
+}

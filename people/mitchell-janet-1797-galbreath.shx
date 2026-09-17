@@ -1,0 +1,20 @@
+    name Janet Mitchell
+    gender female
+ baptism -date 17-jun-1797 -location campbeltown -ref janet1797-baptism
+    death -date 4-oct-1874 -location campbeltown -ref mitchell-death
+
+
+footnotes {
+
+    janet1797-baptism {
+        $opr-ref-link[b-1797-507-000-0040-0151 "Janet Mitchell"]{
+            $i{1797 June} Janet Lawful Dau to Archd Mitchell & Agnes Greenlees
+            in Dalin[?] born 17th.
+        }
+    }
+
+    mitchell-death {
+        $sp-ref-link[d-1874-507-00-0137 0046 "Janet Mitchell"]
+    }
+}
+

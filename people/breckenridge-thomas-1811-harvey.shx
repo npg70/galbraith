@@ -1,0 +1,15 @@
+name Thomas Breckenridge
+gender male
+birth -date 03-aug-1811
+baptism -date 07-aug-1811 -location campbeltown 
+death -date 13-oct-1904 -location washington,ohio,usa
+
+family {
+  spouse {
+    key harvey-margaret-1814-breckenridge
+  }
+  marriage -date 25-feb-1836 -location washington,ohio,usa
+}
+ 
+footnotes {
+}

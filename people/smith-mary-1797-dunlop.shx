@@ -1,0 +1,18 @@
+name Mary Smith
+gender female
+birth -date 10-may-1797
+baptism -date 14-may-1797 -location campbeltown -ref mary1797-baptism
+death -date 13-nov-1854 -location campbeltown
+
+family {
+  spouse {
+    key dunlop-archibald-1785-smith
+  }
+}
+
+footnotes {
+    mary1797-baptism {
+        $opr-ref[b-1797-507-000-0040-0149 "Mary Smith"]
+    }
+}
+

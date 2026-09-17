@@ -1,0 +1,23 @@
+name James Smith
+gender male
+birth -date 11-jul-1790
+baptism -date 12-jul-1790 -location campbeltown -ref james1790-baptism
+death -date 22-jan-1866 -location campbeltown
+
+external {
+  familysearch L698-SCD
+}
+
+family {
+  spouse {
+   key johnston-mary-1799-smith
+  }
+}
+
+footnotes {
+    james1790-baptism {
+        $opr-ref-link[b-1790-507-000-0020-0122 "James Smith"]
+    }
+}
+
+

@@ -1,0 +1,15 @@
+name William Armour
+gender male
+external {
+  familysearch KHHX-MY3
+}
+
+birth -date 01-apr-1799
+baptism -date 02-may-1799 -location campbeltown
+family {
+   spouse {
+      key breckenridge-janet-1804-armour
+   }
+
+   marriage -date 24-nov-1818 -location campbeltown
+}

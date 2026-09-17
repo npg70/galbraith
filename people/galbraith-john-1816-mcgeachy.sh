@@ -72,7 +72,7 @@ partner {
         name John Galbraith
         birth -date 12-nov-1866 -location gigha -ref john1866-birth
         death -date 14-jul-1914 -location govan,glasgow -ref john1866-death
-        note { Unmarried. }
+        body { Unmarried. }
     }
 }
 

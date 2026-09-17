@@ -1,0 +1,11 @@
+name Martha Dunlop
+gender female
+birth -date 17-sep-1810
+baptism -date 19-sep-1810 -location campbeltown
+family {
+  spouse {
+    key breckenridge-john-1805-dunlop
+  }
+}
+
+

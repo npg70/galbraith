@@ -1,0 +1,17 @@
+name Margaret Orr
+gender female
+baptism -date 31-mar-1754 -location campbeltown -ref margaret1754-baptism
+family {
+ spouse {
+  key harvey-andrew-1749-orr
+ }
+}
+
+footnotes {
+
+    margaret1754-baptism {
+        $opr-ref-link[b-1754-507-000-0011-0290 "Margaret Orr"]
+        $opr-ref[b-1754-507-000-0010-216 "Margaret Orr"]
+    }
+}
+

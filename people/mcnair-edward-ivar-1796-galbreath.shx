@@ -1,0 +1,40 @@
+name Edward Iver McNair
+gender male
+
+baptism -date 10-nov-1796 -location 'killean and kilchenzie'  -ref iver1796-baptism
+
+death -date 23-feb-1861 -location campbeltown -ref iver1796-death
+
+todo children { Other children according the Census.  }
+
+family { 
+   spouse {
+	key galbreath-margaret-1795-mcnair
+    }
+    marriage -date 12-jun-1827 -location 'killean and kilchenzie' -ref mcnair-marriage
+
+    child {
+        name Duncan McNair
+        gender male
+        baptism -date 11-sep-1827 -location 'killean and kilchenzie'  -ref duncan-1827
+    }
+}
+
+footnotes {
+
+    iver1796-baptism {
+        $opr-ref[b-1796-519-000-0010-0119 "Iver McNair"]
+    }
+    iver1796-death {
+        $sp-ref-link[d-1861-507-00-0025 0009 "Edward McNair"]
+    }
+    
+    mcnair-marriage {
+        $opr-ref-link[m-1827-519-000-0020-0218 "Margaret Galbreath" "Iver McNair"]{
+            June | 12 | Iver McNair + Margt Galbreath Rosehill
+        }
+    }
+    duncan-1827 {
+        $opr-ref[b-1827-519-000-0020-0064 "Duncan McNair"]
+    }
+}

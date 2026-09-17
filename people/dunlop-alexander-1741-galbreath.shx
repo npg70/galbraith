@@ -1,0 +1,11 @@
+name Alexander Dunlop
+gender male
+birth -date 13-sep-1741
+death -date 05-mar-1816
+
+family {
+  spouse {
+    key galbreath-margaret-1743-dunlop
+  }
+}
+ 

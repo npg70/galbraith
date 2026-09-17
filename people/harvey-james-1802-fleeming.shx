@@ -1,0 +1,15 @@
+name James Harvey 
+gender male
+external {
+	familysearch KZ26-PLH
+}
+birth -date 05-nov-1802
+death -date 21-sep-1856 -location 'barlow,washington,ohio,usa'
+
+family {
+  spouse {
+    key fleeming-mary-1804-harvey 
+  }
+  marriage -date 22-dec-1825 -location 'washington, ohio, usa'
+}
+

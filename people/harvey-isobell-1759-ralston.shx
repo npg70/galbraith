@@ -1,0 +1,18 @@
+name Isobell Harvie
+gender female
+baptism -date 18-mar-1759 -location campbeltown -ref isobell1759-baptism
+death -date 5-sep-1782 -location campbeltown
+
+family {
+  spouse {
+    key ralston-andrew-1756-harvie-orr
+  }
+}
+
+footnotes {
+    isobell1759-baptism {
+        $opr-ref[b-1759-507-000-0011-0314 "Isobell Harvie"]
+        $opr-ref[b-1759-507-000-0010-0242 "Isobell Harvie"]
+
+    }
+}

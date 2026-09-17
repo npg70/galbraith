@@ -1,0 +1,17 @@
+name Ann Greenlees
+gender female
+birth -date 09-apr-1833
+baptism -date 18-apr-1833 -location campbeltown -ref ann1833-baptism
+death -date 23-jun-1900 -location 'Winnebago,Illnois,USA'
+family {
+  spouse {
+    key mcnair-robert-1827-greenlees
+  }
+}
+
+footnotes {
+
+	ann1833-baptism {
+		$opr-ref[b-1833-507-000-0070-0025 "Ann Greenlees"]
+	}
+}

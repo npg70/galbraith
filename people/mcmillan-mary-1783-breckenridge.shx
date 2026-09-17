@@ -1,0 +1,29 @@
+name Mary McMillan
+gender female
+birth -date 18-may-1783
+baptism -date 29-aug-1784 -location campbeltown -ref mary1783-baptism
+death -date 03-oct-1846 -location indiana,usa -ref mary-death
+
+footnotes {
+	mary1783-baptism {
+		$opr-ref-link[b-1783-507-000-0020-0067 "Mary McMillan"]{
+		Mary | Lawful dau'r to John McMillan Smith in Drimore[?] &
+		Sarah Breakenridge was born 27th & Bapt 30th May 1783
+		}
+	}
+	mary-death {
+		https://www.findagrave.com/memorial/28856679/mary-breckenridge
+		Implies birth date of 1783 which matches:
+		$blockquote{$pre{
+			Scared
+			To the memory
+			Mrs. Mary
+			Breakenridge
+			Native of Argyllshire Scotland
+			who died
+			Oct 3, 1816
+			Aged 63 yrs
+			[illegible]
+		}}
+	}
+}

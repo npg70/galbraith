@@ -1,0 +1,21 @@
+name Martha Galbreath
+gender female
+birth -date 27-jan-1781
+baptism -date 28-jan-1781 -location campbeltown -ref martha1781-baptism
+
+family {
+ spouse {
+  key galbreath-james-1768-galbreath
+ }
+}
+
+footnotes {
+
+    martha1781-baptism {
+        $opr-ref-link[b-1781-507-000-0020-0051 "Martha Galbreath"]{
+            Martha | Lawful Daur to Samuel Galbreath + Janet McNair
+            born 27th was bapt 28th Janry 1781
+        }
+    }
+
+}

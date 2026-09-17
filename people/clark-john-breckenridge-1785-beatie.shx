@@ -1,0 +1,18 @@
+name John Breckenridge Clark
+gender male
+external {
+  familysearch L4HM-Y41
+  findagrave 41551738
+}
+birth -date 09-aug-1785 -location 'York,York,Pennsylvania,USA'
+death -date 10-feb-1869 -location 'Glade Spring,Washington,Virginia,USA'
+
+family {
+  spouse {
+     name Mary Beatie
+     gender female
+  }
+  marriage -date 13-dec-1832 -location 'Washington,Virginia,USA'
+  child clark-isabella-breckenridge-1813-clark
+}
+

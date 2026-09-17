@@ -1,0 +1,27 @@
+name John Smith
+gender male
+external {
+  familysearch 9M94-TGM
+}
+birth -date 18-jan-1785
+baptism -date 23-jan-1785 -location campbeltown -ref john1785-baptism
+death -date 21-aug-1860 -location 'Lee, Illinois, USA'
+
+family {
+  spouse {
+     name Jean Colville
+     gender female
+     body { She was the daughter of David Colville and Martha Picken }
+
+  }
+
+  marriage -date 19-may-1818 -location campbeltown
+
+}
+
+footnotes {
+    john1785-baptism {
+        $opr-ref[b-1785-507-000-0020-0079 "John Smith"]
+    }
+}
+

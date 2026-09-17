@@ -1,0 +1,14 @@
+name Mary Dunlop
+gender female
+external {
+	familysearch K8CP-FYT
+}
+
+birth -date 28-aug-1807
+baptism -date 20-sep-1807 -location campbeltown
+death -date 13-dec-1893 -location washington,ohio,usa
+family {
+  spouse {
+    key   armour-william-1779-brown-dunlop
+  }
+}

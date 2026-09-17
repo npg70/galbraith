@@ -1,0 +1,11 @@
+name Agnes McNair
+gender female
+birth -date 19-apr-1785
+baptism -date 20-apr-1785 -location campbeltown
+death -date 1870 -location campbeltown
+
+family {
+  spouse {
+    key ralston-john-1780-mcnair
+  }
+}

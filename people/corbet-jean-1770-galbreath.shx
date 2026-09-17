@@ -1,0 +1,19 @@
+name Jean Corbet
+gender female
+baptism -date 25-sep-1770 -location campbeltown -ref corbet-birth
+death -date 2-aug-1861 -location campbeltown -ref corbet-death
+
+family {
+  spouse {
+     key  galbreath-archibald-1760-langwill-corbet
+  }
+}
+
+footnotes {
+    corbet-birth {
+        $opr-ref[b-1770-507-000-0030-0187 "Jean Corbet"]
+    }
+    corbet-death {
+        $sp-ref-link[d-1861-507-00-0088 0030 "Jean Galbraith"]
+    }
+}

@@ -1,0 +1,17 @@
+name Andrew Smith
+gender male
+external {
+  familysearch K8QF-DPW
+  findagrave 166632753
+}
+
+birth -date 08-nov-1792
+baptism -date 12-nov-1792 -location campbeltown -ref andrew1792-baptism
+death -date 23-oct-1865 -location campbeltown
+family {
+ spouse {
+   key colville-elizabeth-1802-smith
+ }
+ marriage -date 16-mar-1824 -location campbeltown
+}
+

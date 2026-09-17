@@ -1,0 +1,26 @@
+name Janet Orr
+gender female
+external {
+	familysearch M1YX-VRZ
+}
+
+baptism -date 23-aug-1747 -location campbeltown -ref janet1747-baptism
+
+family {
+ spouse {
+    name William Watson
+    gender male
+    baptism -date 15-apr-1744 -location campbeltown
+ 
+  }
+  marriage -date 25-aug-1769 -location campbeltown
+ child watson-janet-1787-harvey
+}
+
+footnotes {
+    janet1747-baptism {
+        Mother indexed under "Isobel Languill"
+        $opr-ref[b-1747-507-000-0010-0188 "Janet Orr"]
+    }
+}
+

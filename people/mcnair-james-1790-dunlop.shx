@@ -1,0 +1,17 @@
+name James McNair
+gender male
+baptism -date 13-jan-1790 -location campbeltown -ref james1790-baptism
+death -date 1853 -location cincinnati,hamiliton,ohio,usa
+family {
+  spouse {
+   key dunlop-kate-1783-harvey-mcnair
+  }
+}
+
+footnotes {
+
+    james1790-baptism {
+        $opr-ref[b-1790-507-000-0020-0116 "James McNair"]
+    }
+
+}

@@ -1,0 +1,22 @@
+name Jean Breckenridge
+gender female
+birth -date 06-sep-1791
+baptism -date 07-sep-1791 -location campbeltown
+
+family {
+  spouse {
+	name James Dunlop
+	gender male
+  }
+  marriage -date 12-oct-1813 -location campbeltown -ref dunlop-marriage
+}
+
+footnotes {
+	dunlop-marriage {
+		$opr-ref-link[m-1813-507-000-0000-0105 "Jean Brakenridge" "James Dunlop"]{
+		James Dunlop Baker Campbeltown and Jean Brakenridge Daughter to
+			Andrew Brakenridge Farmer Killeowan both of this Parish
+			married 12 Oct 1813
+		}
+	}
+}

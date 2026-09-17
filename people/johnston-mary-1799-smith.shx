@@ -1,0 +1,15 @@
+name Mary Johnston
+gender female
+external {
+  familysearch M1T7-Z1T
+}
+birth -date 04-dec-1799
+baptism -date 08-dec-1799 -location campbeltown
+death -date 25-jul-1854 -location campbeltown
+
+family {
+  spouse {
+    key smith-james-1790-johnston
+  }
+}
+

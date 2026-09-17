@@ -1,0 +1,59 @@
+name John Clark
+gender male
+external {
+  familysearch G3PN-R83
+}
+baptism -date 25-jan-1719 -location lochgoilhead,argyll,scotland
+
+family {
+  spouse {
+    key langwill-mary-1723-clark
+  }
+
+  marriage -date 26-may-1742 -location campbeltown
+ 
+  child {
+	name Katharine Clark
+	gender female
+	baptism -date 10-jul-1743 -location campbeltown	
+  } 
+
+  child clark-mathew-1746-dunlop
+
+  child {
+	name Janet Clark
+	gender female
+	baptism -date 01-may-1748 -location campbeltown
+}
+  child {
+	name Mary Clark
+	gender female
+	baptism -date 29-jun-1750 -location campbeltown
+  }
+  child {
+	name James Clark
+	gender male
+	baptism -date 13-oct-1751 -location campbeltown
+  }
+
+  child clark-isobel-1754-mcnair
+
+  child {
+	name John Clark
+	gender male
+	baptism -date 09-jun-1756 -location campbeltown
+  }
+  child {
+	name Robert Clark
+	gender male
+	baptism -date 29-apr-1759 -location campbeltown
+  }
+  child {
+	name Peter Clark
+	gender male
+        birth -date 19-aug-1761
+	baptism -date 21-aug-1761 -location campbeltown
+  }
+  child clark-robert-1764-galbreath
+}
+

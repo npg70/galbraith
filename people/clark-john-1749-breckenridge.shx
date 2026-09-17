@@ -1,0 +1,11 @@
+name John Clark
+gender male
+baptism -date 17-dec-1749 -location campbeltown
+death -date 1819 -location 'york,pennslyvania,usa'
+family {
+  spouse {
+    key breckenridge-margaret-1765-clark
+  }
+ 
+  marriage -date 'dec-1796' -location campbeltown
+}

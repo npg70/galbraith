@@ -1,0 +1,16 @@
+name Margaret McKillop Galbraith
+gender female
+baptism -date 2-Oct-1821 -location 'Renfrewshire, Scotland'
+death -date 25-jan-1903 -location glasgow -ref galbraith1821-death
+
+family {
+ spouse { 
+   key galbraith-donald-1820-mcintyre-galbraith
+  }
+}
+footnotes {
+    galbraith1821-death {
+        $sp-ref[d-1903-646-03-0081 "Margaret McKillop Galbraith"]
+    }
+}
+

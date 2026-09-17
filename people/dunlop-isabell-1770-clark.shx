@@ -1,0 +1,23 @@
+name Isabell Dunlop
+gender female
+tags argyll:campbeltown
+external {
+    findagrave 158173760
+    familysearch 9M94-SQF
+}
+birth -date 01-dec-1770
+baptism -date 02-dec-1770 -location campbeltown -ref isabell1770-baptism
+death -date 18-nov-1844 -location campbeltown
+family {
+  spouse {
+    key clark-mathew-1746-dunlop
+   }
+}
+footnotes {
+    isabell1770-baptism {
+        $opr-ref-link[b-1770-507-000-0011-0376 "Isabell Dunlop"]{
+            Isabell | Alexander Dunlop and Mary Galbreath had a
+            Daur 1st Dec and baptized 2nd named Isobell
+        }
+    }
+}

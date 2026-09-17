@@ -1,0 +1,26 @@
+name John Clark
+gender male
+external {
+  familysearch LHVF-TQ6
+  findagrave 41551736
+}
+
+birth -date 21-feb-1808
+baptism -date 24-feb-1808 -location campbeltown -ref john1808-baptism
+death -date 10-oct-1854 -location 'washington,virginia,usa'
+
+family {
+  spouse {
+     key clark-isabella-breckenridge-1813-clark
+  }
+}
+
+footnotes {
+    john1808-baptism {
+        $opr-ref-link[b-1808-507-000-0020-0148 'John Clark']{
+            John | Lawful son to Robert Clark Tenant in Tangy
+            & Martha Harvie Born 21st + Baptised 25th February 1808
+        }
+    }
+}
+

@@ -1,0 +1,13 @@
+name James Clark
+gender male
+body {
+He was the sone of John Clark and Margaret Fulton 
+}
+baptism -date 18-jul-1712 -location campbeltown
+death -date 1782
+family {
+  spouse {
+    key galbreath-agnes-1722-clark
+  }
+}
+

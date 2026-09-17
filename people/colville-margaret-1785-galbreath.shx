@@ -1,0 +1,20 @@
+      name Margaret Colville
+        gender female
+                birth -date 03-dec-1785
+                baptism -date 04-dec-1785 -location campbeltown -ref marg1785
+                death -date 09-nov-1865 -location campbeltown
+family {
+  spouse {
+   key galbreath-john-1785-colville 
+  }
+}
+footnotes {
+
+	marg1785-baptism {
+		$opr-ref-link[b-1785-507-000-0020-0086 "Margaret Colvin"]{
+			Margt Lawuful daur. to Robt Colvin Farmer in
+			Ranachan & Margt Greenlies was born 3rd & 
+			Baptd. 4th Dec
+		}	
+	}
+}

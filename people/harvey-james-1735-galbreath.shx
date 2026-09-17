@@ -1,0 +1,13 @@
+name James Harvey
+gender male
+baptism -date oct-1735 -location campbeltown -ref james1735-baptism
+death -date 08-apr-1816
+body {
+  tenant in Penniver.
+}
+
+family {
+  spouse {
+    key galbreath-katharine-1741-harvey
+  }
+}

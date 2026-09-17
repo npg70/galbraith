@@ -52,7 +52,6 @@ partner {
     child {
         name Peter Galbraith
         gender male
-        tags immigrant
         birth -date 22-jan-1871 -location campbeltown -ref peter1871-birth
         death -date 24-jul-1927 -location 'Queensland, Australia'
         partner {

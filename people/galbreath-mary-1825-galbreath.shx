@@ -1,0 +1,18 @@
+name Mary Galbreath
+gender female
+baptism -date 22-jul-1824 -location gigha -ref mary1824-baptism
+death -date 06-jun-1884 -location edinburgh -ref mary1824-death
+family {
+  spouse {
+    key galbreath-malcolm-1815-galbreath
+  }
+}
+
+footnotes {
+    mary1824-baptism {
+        $opr-ref[b-1824-537-000-0020-0010 "Mary Galbreath"]
+    }
+    mary1824-death {
+        $sp-ref-link[d-1884-685-01-0555 0185 "Mary Galbraith"]
+    }
+}

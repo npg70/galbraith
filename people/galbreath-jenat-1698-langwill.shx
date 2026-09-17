@@ -1,0 +1,23 @@
+name Janet Galbreath
+gender female
+tags Argyll:Campbeltown
+baptism -date 24-feb-1698 -location campbeltown -ref janet1698-baptism
+external {
+    familysearch LQRH-NLV
+    wikitree Galbraith-1800
+}
+
+family {
+ spouse {
+   key  langwill-peter-1693-galbreath
+ }
+}
+
+footnotes {
+    janet1698-baptism {
+        $opr-ref-link[b-1698-507-000-0011-0076 "Jenat Galbreath"]{
+            Jenat | Lawful Daughter to James Galbreath and Mary Flemming
+            his lawful spouse, Born February 24th Named Jenat 
+        }
+    }
+}
